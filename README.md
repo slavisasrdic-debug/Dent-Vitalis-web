@@ -25,17 +25,19 @@ npm run preview
 
 ## Naredbe
 
-| Naredba                | Namjena                                    |
-| ---------------------- | ------------------------------------------ |
-| `npm run dev`          | Astro razvojni server                      |
-| `npm run build`        | Statički production build u `dist/`        |
-| `npm run preview`      | Lokalni pregled prethodno izrađenog builda |
-| `npm run check`        | Astro i TypeScript provjera                |
-| `npm run lint`         | ESLint provjera projekta                   |
-| `npm run format`       | Prettier formatiranje                      |
-| `npm run format:check` | Provjera formatiranja bez izmjena          |
-| `npm test`             | Playwright testovi projektnih temelja      |
-| `npm run validate`     | Sve provjere i production build            |
+| Naredba                        | Namjena                                     |
+| ------------------------------ | ------------------------------------------- |
+| `npm run dev`                  | Astro razvojni server                       |
+| `npm run build`                | Statički production build u `dist/`         |
+| `npm run preview`              | Lokalni pregled prethodno izrađenog builda  |
+| `npm run reference:audit`      | Webflow render, breakpointi i screenshotovi |
+| `npm run reference:audit-live` | Crawl postojećih višejezičnih live URL-ova  |
+| `npm run check`                | Astro i TypeScript provjera                 |
+| `npm run lint`                 | ESLint provjera projekta                    |
+| `npm run format`               | Prettier formatiranje                       |
+| `npm run format:check`         | Provjera formatiranja bez izmjena           |
+| `npm test`                     | Playwright testovi projektnih temelja       |
+| `npm run validate`             | Sve provjere i production build             |
 
 ## Struktura
 
@@ -44,6 +46,8 @@ npm run preview
 - `public/assets/` — samo optimizirani produkcijski asseti
 - `source-assets/` — neobrađeni izvori koji se ne objavljuju
 - `docs/` — arhitektura, sadržajna pravila, SEO migracija i kontrolne liste
+- `reference/` — audit JSON i screenshotovi, izvan produkcijskog builda
+- `scripts/` — ponovljive read-only referentne audit skripte
 - `tests/` — Playwright provjere
 
 Pravila projekta nalaze se u [AGENTS.md](./AGENTS.md), a arhitektonske odluke u [docs/architecture.md](./docs/architecture.md).
