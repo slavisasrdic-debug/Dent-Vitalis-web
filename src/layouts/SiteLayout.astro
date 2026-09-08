@@ -4,13 +4,18 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import ContactWidgets from '../components/ContactWidgets.astro';
 import RevealSetup from '../components/RevealSetup.astro';
-import footerGroups from '../content/footer-it.json';
+import SEOHead from '../components/SEOHead.astro';
+import type { PageSEO } from '../content/seo';
+import * as hr from '../content/hr/site';
+import { equivalentLanguages } from '../content/hr/routes';
+import { ui } from '../content/ui';
 import {
   clinic,
   chatCopy,
   languages,
   navigation,
   navigationLinks,
+  footerGroups,
 } from '../content/site';
 interface Props {
   title: string;
@@ -19,15 +24,22 @@ interface Props {
   canonical?: string;
   pageLanguages?: typeof languages;
   typography?: 'brand' | 'reference-default';
+  seo?: PageSEO;
 }
 const {
   title,
   description,
   lang = 'it',
   canonical = 'https://www.dentvitalis.com/',
-  pageLanguages = languages,
+  pageLanguages = equivalentLanguages(new URL(canonical).pathname),
   typography = 'brand',
+  seo,
 } = Astro.props;
+const localized =
+  lang === 'hr'
+    ? hr
+    : { clinic, chatCopy, navigation, navigationLinks, footerGroups };
+const copy = ui(lang);
 ---
 
 <!doctype html>
@@ -36,40 +48,33 @@ const {
     ><meta charset="UTF-8" /><meta
       name="viewport"
       content="width=device-width, initial-scale=1"
-    /><RevealSetup /><title>{title}</title><meta
-      name="description"
-      content={description}
-    /><meta name="robots" content="noindex, nofollow" /><link
-      rel="canonical"
-      href={canonical}
-    /><link rel="alternate" hreflang="it" href={canonical} /><link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.dentvitalis.com/"
-    /><meta property="og:title" content={title} /><meta
-      property="og:description"
-      content={description}
-    /><meta property="og:type" content="website" /><meta
-      property="og:url"
-      content={canonical}
+    /><RevealSetup /><SEOHead
+      title={title}
+      description={description}
+      lang={lang}
+      canonical={canonical}
+      languages={pageLanguages}
+      seo={seo}
     /><slot name="head" /></head
   >
   <body class:list={{ 'reference-default': typography === 'reference-default' }}
-    ><a class="skip-link" href="#main">Vai al contenuto</a><Header
-      groups={navigation}
-      links={navigationLinks}
+    ><a class="skip-link" href="#main">{copy.skip}</a><Header
+      groups={localized.navigation}
+      links={localized.navigationLinks}
       languages={pageLanguages}
       lang={lang}
-      tagline={clinic.tagline}
-      consultation={clinic.consultation}
-      request={clinic.menuRequest}
+      tagline={localized.clinic.tagline}
+      consultation={localized.clinic.consultation}
+      request={localized.clinic.menuRequest}
     /><main id="main"><slot /></main><Footer
-      business={clinic}
-      groups={footerGroups}
+      business={localized.clinic}
+      groups={localized.footerGroups}
+      lang={lang}
     /><ContactWidgets
-      consultation={clinic.consultation}
-      whatsapp={clinic.whatsapp}
-      content={chatCopy}
+      consultation={localized.clinic.consultation}
+      whatsapp={localized.clinic.whatsapp}
+      content={localized.chatCopy}
+      lang={lang}
     /><script>
       import { initializeReveals } from '../scripts/reveal';
       initializeReveals();

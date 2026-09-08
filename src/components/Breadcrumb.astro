@@ -1,11 +1,13 @@
 ---
+import { ui } from '../content/ui';
 interface Props {
   items: { label: string; href: string }[];
+  lang?: string;
 }
-const { items } = Astro.props;
+const { items, lang = 'it' } = Astro.props;
 ---
 
-<nav class="breadcrumbs" aria-label="Percorso">
+<nav class="breadcrumbs" aria-label={ui(lang).breadcrumb}>
   <ol>
     {
       items.map((item, i) => (

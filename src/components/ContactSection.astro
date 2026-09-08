@@ -1,6 +1,7 @@
 ---
 import ContactForm from './ContactForm.astro';
 import type { contactCopy } from '../content/site';
+import { ui } from '../content/ui';
 interface Props {
   content: typeof contactCopy;
   lang: string;
@@ -27,8 +28,10 @@ const headingId = `inquiry-heading-${crypto.randomUUID()}`;
 </section>
 <dialog class="inquiry-dialog" data-inquiry-dialog aria-labelledby={headingId}>
   <div class="dialog-panel">
-    <button class="dialog-close" type="button" aria-label="Chiudi la richiesta"
-      >×</button
+    <button
+      class="dialog-close"
+      type="button"
+      aria-label={ui(lang).closeRequest}>×</button
     ><div class="dialog-heading">
       <p>DENTVITALIS</p><h2 id={headingId}>{content.title}</h2>
     </div><div class="dialog-form-host" data-dialog-form-host></div>

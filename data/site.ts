@@ -25,6 +25,8 @@ export const referenceBusiness = {
   implantPrice: '2.990',
   whiteningPrice: '250',
   crownPrice: '220',
+  // DOCX t5.r0.c1.p10: different context from the 220 € starting price.
+  crownSidebarPrice: '330',
   singleImplantPrice: '249',
   mobileProsthesisPrice: '319',
   gumRemodellingPrice: '119',
@@ -47,3 +49,30 @@ export const referenceBusiness = {
   bookingHours: 'Prenotazioni telefoniche: 08:00-18:00',
   copyright: 'Copyright © 2025 Dent Vitalis Fides',
 } as const;
+
+// Explicit source differences are not silently reconciled across languages.
+export const croatianBusinessReview = {
+  source:
+    'DOCX 7b9273a1338415f095ec43e367e051afaa30df24de9a91b31ec3d7dc4ecc648e',
+  swift: 'ZABAHR2X', // t15.r3.c1.p11; conflicts with the named bank and IT ESBCHR22.
+  maxCardInstallments: '36',
+  approval: 'review',
+} as const;
+export const structuredBusiness = {
+  address: {
+    streetAddress: clinic.contact.address.split(',')[0]!,
+    postalCode: '51000',
+    addressLocality: 'Rijeka',
+    addressCountry: 'HR',
+  },
+  openingDays: [
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+  ] as const,
+  opens: '08:00',
+  closes: '16:00',
+  // Opening hours verified against referenceBusiness and DOCX t28.r0.c1.p1.
+};

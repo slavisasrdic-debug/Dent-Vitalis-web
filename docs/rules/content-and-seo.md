@@ -22,7 +22,8 @@ Talijanski je glavni jezik i mora ostati u rootu.
 - Ako prijevod ne postoji, ne stvarati lažni hreflang par niti prikazivati drugu stranicu kao da je prijevod.
 - Navigacija, breadcrumb, CTA-i i interni linkovi moraju ostati u aktivnom jeziku.
 - Ne raditi automatsko preusmjeravanje prema jeziku browsera, IP adresi ili lokaciji korisnika.
-- Detaljni budući URL-ovi usluga i podstranica još nisu odlučeni. Ne pretpostavljati ih.
+- Odobrene HR putanje nalaze se u `data/hr-routes.proposed.csv` (status `approved`, potvrda 2026-09-08). Ostale buduće putanje i produkcijske redirekcije ne pretpostavljati.
+- Svaki jezik lokalizira i alt tekst sadržajnih fotografija, ARIA/UI oznake, SEO i Open Graph tekstove. Dekorativni alt ostaje prazan. Nazivi izvornog asseta nisu alt tekst; ista fotografija dijeli datoteku, ne nužno opis. JSON-LD nastaje iz istih vidljivih lokaliziranih podataka, bez izmišljene medicinske provjere, datuma, ocjena ili posebnog „AI” skrivenog teksta.
 
 ## SEO, AEO i čitljivost za AI sustave
 

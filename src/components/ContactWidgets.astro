@@ -1,12 +1,15 @@
 ---
 import Button from './Button.astro';
 import type { chatCopy } from '../content/site';
+import { ui } from '../content/ui';
 interface Props {
   consultation: string;
   whatsapp: string | null;
   content: typeof chatCopy;
+  lang?: string;
 }
-const { consultation, whatsapp, content } = Astro.props;
+const { consultation, whatsapp, content, lang = 'it' } = Astro.props;
+const copy = ui(lang);
 ---
 
 <div class="chat-widget" data-chat-widget>
@@ -14,7 +17,7 @@ const { consultation, whatsapp, content } = Astro.props;
     <div class="chat-header">
       <span class="avatar"></span><div>
         <p>{content.team}</p><small>{content.responseTime}</small>
-      </div><button type="button" data-chat-close aria-label="Chiudi chat"
+      </div><button type="button" data-chat-close aria-label={copy.closeChat}
         ><img
           src="/assets/images/close-live-chat.svg"
           alt=""
@@ -51,7 +54,7 @@ const { consultation, whatsapp, content } = Astro.props;
   </div><button
     class="chat-toggle"
     type="button"
-    aria-label="Apri chat WhatsApp"
+    aria-label={copy.openChat}
     aria-expanded="false"
     ><img
       src="/assets/images/whatsapp.svg"

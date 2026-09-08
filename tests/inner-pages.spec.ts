@@ -118,7 +118,7 @@ test('testimonials load one player only after keyboard activation', async ({
 test('missing translations are not represented as equivalent pages', async ({
   page,
 }) => {
-  await page.goto('/informazioni/alloggio');
+  await page.goto('/informazioni/trasporto');
   const languages = await page
     .locator('link[rel=alternate]')
     .evaluateAll((nodes) => nodes.map((node) => node.getAttribute('hreflang')));

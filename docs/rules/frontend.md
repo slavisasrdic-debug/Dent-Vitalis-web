@@ -28,6 +28,8 @@ Izdvojeno iz AGENTS.md 2026-09-08 bez ukidanja pravila. Učitati prema usmjerava
 
 Produkcijske slike moraju imati optimalne dimenzije, WebP/AVIF izvedenice, responsive `srcset` gdje je potreban i smislen alt tekst. Dekorativne slike moraju imati `alt=""`.
 
+- Izvorne nazive datoteka sačuvati, ali segmente URL-a kodirati pri ispisu `src` i osobito `srcset`: neescapani razmak razdvaja URL od width descriptora. Provjeriti decode i browser upozorenja, ne samo HTTP odgovor osnovne slike.
+
 Najveće dostupne fotografije iz Webflow exporta koristit će se kao izvor za sve optimizirane izvedenice. Ne povećavati fotografije iznad stvarne rezolucije.
 
 - Font nije potvrđen samo zato što `font-family` i `document.fonts.check()` navode Montserrat. Za svaku korištenu težinu/stil provjeriti stvarne glifove ČĆŽŠĐ/čćžšđ i font kojim su iscrtani. Latin i Latin Extended podskupovi moraju pripadati istoj izvornoj verziji; proširenje ne smije neprimjetno zamijeniti postojeće latinične glifove ili izazvati sintetizirane/fallback znakove.

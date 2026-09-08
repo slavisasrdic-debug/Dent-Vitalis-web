@@ -34,6 +34,7 @@ export interface DirectoryCard extends PageCard {
   actionLayout: 'standard' | 'wide-arrow';
 }
 export type ContentBlock = { id?: string } & (
+  | { type: 'list'; ordered: boolean; items: ContentBlock[][] }
   | { type: 'contact-row'; cells: InlineContent[][]; border: boolean }
   | { type: 'paragraph'; content: InlineContent[]; variant: string }
   | {
@@ -92,6 +93,7 @@ export interface PageSidebar {
   position: 'before' | 'after';
 }
 export interface InnerPage {
+  referenceRoute?: string;
   route: string;
   lang: string;
   title: string;

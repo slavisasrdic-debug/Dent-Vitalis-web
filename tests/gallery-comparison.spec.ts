@@ -1,6 +1,32 @@
 import { test, expect, chromium, webkit } from '@playwright/test';
 
 const url = 'http://127.0.0.1:4321/domande-e-risposte';
+for (const route of ['/domande-e-risposte', '/hr/galerija'])
+  test(`gallery srcset encodes original spaces without changing assets: ${route}`, async ({
+    page,
+  }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    const warnings: string[] = [];
+    page.on('console', (message) => {
+      if (message.type() === 'warning' || message.type() === 'error')
+        warnings.push(message.text());
+    });
+    await page.goto(route);
+    const photos = page.locator('[data-comparison] img');
+    const sets = await photos.evaluateAll((nodes) =>
+      nodes.map((n) => n.getAttribute('srcset')!),
+    );
+    expect(sets.some((value) => value.includes('%20'))).toBe(true);
+    for (const set of sets)
+      for (const candidate of set.split(', '))
+        expect(candidate).toMatch(/^\S+ \d+w$/);
+    const spaced = page.locator('[data-comparison] img[src*="%20"]').first();
+    await spaced.scrollIntoViewIfNeeded();
+    await spaced.evaluate(async (node) => {
+      await (node as HTMLImageElement).decode();
+    });
+    expect(warnings).toEqual([]);
+  });
 for (const [engine, browserType] of Object.entries({ chromium, webkit })) {
   for (const width of [1440, 390]) {
     test(`${engine} ${width}px: gallery labels, range and keyboard control independent pairs`, async () => {

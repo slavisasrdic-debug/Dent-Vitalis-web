@@ -1,0 +1,87 @@
+---
+import { graph, socialImage, type PageSEO, origin } from '../content/seo';
+import type { LanguageLink } from '../content/site';
+interface Props {
+  title: string;
+  description: string;
+  lang: string;
+  canonical: string;
+  languages: LanguageLink[];
+  seo?: PageSEO | undefined;
+}
+const {
+  title,
+  description,
+  lang,
+  canonical,
+  languages,
+  seo = {},
+} = Astro.props;
+const image = socialImage(seo.photo);
+if (!image.alt)
+  image.alt =
+    lang === 'hr'
+      ? 'Žena s osmijehom — DentVitalis'
+      : 'Donna sorridente — DentVitalis';
+// A literal '<' inside JSON-LD may otherwise terminate an HTML script element.
+const structured = JSON.stringify(
+  graph(title, description, lang, canonical, seo),
+).replaceAll('<', '\\u003c');
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="canonical" href={canonical} />
+{
+  languages
+    .filter((l) => l.available !== false && l.href.startsWith('/'))
+    .map((l) => (
+      <link rel="alternate" hreflang={l.lang} href={origin + l.href} />
+    ))
+}
+<link rel="alternate" hreflang="x-default" href={origin + '/'} />
+<meta property="og:title" content={title} /><meta
+  property="og:description"
+  content={description}
+/>
+<meta property="og:type" content="website" /><meta
+  property="og:url"
+  content={canonical}
+/>
+<meta property="og:site_name" content="DentVitalis" /><meta
+  property="og:locale"
+  content={lang === 'hr' ? 'hr_HR' : 'it_IT'}
+/>
+{
+  languages
+    .filter((l) => l.available !== false && l.lang !== lang)
+    .map((l) => (
+      <meta
+        property="og:locale:alternate"
+        content={l.lang === 'hr' ? 'hr_HR' : 'it_IT'}
+      />
+    ))
+}
+<meta property="og:image" content={image.url} /><meta
+  property="og:image:alt"
+  content={image.alt}
+/>
+{
+  image.width && (
+    <meta property="og:image:width" content={String(image.width)} />
+  )
+}{
+  image.height && (
+    <meta property="og:image:height" content={String(image.height)} />
+  )
+}
+<meta name="twitter:card" content="summary_large_image" /><meta
+  name="twitter:title"
+  content={title}
+/>
+<meta name="twitter:description" content={description} /><meta
+  name="twitter:image"
+  content={image.url}
+/><meta name="twitter:image:alt" content={image.alt} />
+<script is:inline type="application/ld+json" set:html={structured} />

@@ -11,18 +11,31 @@ import ContactRow from './ContactRow.astro';
 import ReviewSource from './ReviewSource.astro';
 interface Props {
   blocks: ContentBlock[];
+  lang?: string;
 }
-const { blocks } = Astro.props;
+const { blocks, lang = 'it' } = Astro.props;
 ---
 
 {
   blocks.map((block) => {
+    if (block.type === 'list') {
+      const List = block.ordered ? 'ol' : 'ul';
+      return (
+        <List class="content-list">
+          {block.items.map((items) => (
+            <li>
+              <Astro.self blocks={items} lang={lang} />
+            </li>
+          ))}
+        </List>
+      );
+    }
     if (block.type === 'contact-row')
       return <ContactRow cells={block.cells} border={block.border} />;
     if (block.type === 'group')
       return (
         <div id={block.id} class:list={['content-group', block.variant]}>
-          <Astro.self blocks={block.children} />
+          <Astro.self blocks={block.children} lang={lang} />
         </div>
       );
     if (block.type === 'paragraph')
@@ -92,13 +105,23 @@ const { blocks } = Astro.props;
         />
       );
     if (block.type === 'comparison') return <GalleryComparison {...block} />;
-    if (block.type === 'youtube') return <YouTubeVideo {...block} />;
+    if (block.type === 'youtube')
+      return <YouTubeVideo {...block} lang={lang} />;
     if (block.type === 'map') return <MapPanel src={block.src} />;
     if (block.type === 'review-source') return <ReviewSource {...block} />;
     return null;
   })
 }
 <style>
+  .content-list {
+    padding-left: 1.5em;
+    margin-block: 16px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .content-list li {
+    margin-block: 8px;
+  }
   .content-paragraph {
     margin: 10px 0 20px;
     font-size: 18px;

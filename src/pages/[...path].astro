@@ -6,9 +6,14 @@ import PhotoCardSequence from '../components/PhotoCardSequence.astro';
 import ContactSection from '../components/ContactSection.astro';
 import EditorialPage from '../components/EditorialPage.astro';
 import { innerPages, type InnerPage } from '../content/inner-pages';
-import { contactCopy, languages } from '../content/site';
+import { contactCopy } from '../content/site';
+import { innerPagesHr } from '../content/hr/inner';
+import { contactCopy as hrContactCopy } from '../content/hr/site';
+import { equivalentLanguages } from '../content/hr/routes';
+import { flatten, plain, type PageSEO } from '../content/seo';
+import { referenceBusiness } from '../../data/site';
 export function getStaticPaths() {
-  return innerPages.map((page) => ({
+  return [...innerPages, ...innerPagesHr].map((page) => ({
     params: { path: page.route.slice(1) },
     props: { page },
   }));
@@ -17,15 +22,12 @@ interface Props {
   page: InnerPage;
 }
 const { page } = Astro.props;
-const pageLanguages = languages.map((language) => ({
-  ...language,
-  href: language.lang === 'it' ? page.route : '',
-  available: language.lang === 'it',
-}));
+const pageLanguages = equivalentLanguages(page.route);
+const referenceRoute = page.referenceRoute ?? page.route;
 const directory =
-  page.route === '/chi-siamo'
+  referenceRoute === '/chi-siamo'
     ? 'about'
-    : page.route === '/prestazioni-dentali'
+    : referenceRoute === '/prestazioni-dentali'
       ? 'services'
       : 'information';
 const cards = page.directory.map((card) => ({
@@ -34,6 +36,42 @@ const cards = page.directory.map((card) => ({
   mobileImage: card.mobile.image,
   alt: card.mobile.alt,
 }));
+const seo: PageSEO = {
+  breadcrumb: page.breadcrumb,
+  photo: page.hero.photo ?? page.directory[0]?.desktop,
+  questions: flatten(page.blocks).flatMap((b) =>
+    b.type === 'faq' ? [{ question: b.question, answer: plain(b.answer) }] : [],
+  ),
+};
+if (referenceRoute === '/testimonianze')
+  seo.videos = flatten(page.blocks).flatMap((b) =>
+    b.type === 'youtube' ? [{ videoId: b.videoId, title: b.title }] : [],
+  );
+if (referenceRoute === '/su-di-noi/i-nostri-specialisti') {
+  const blocks = flatten(page.blocks);
+  seo.people = blocks.flatMap((block, i) => {
+    if (block.type !== 'heading' || blocks[i + 1]?.type !== 'image') return [];
+    const body = blocks.slice(i + 2).find((b) => b.type === 'paragraph');
+    return [
+      {
+        name: plain(block.content),
+        ...(body?.type === 'paragraph'
+          ? { description: plain(body.content) }
+          : {}),
+      },
+    ];
+  });
+}
+if (referenceRoute.startsWith('/prestazioni/')) {
+  const amount = referenceRoute.includes('protesi-definitiva')
+    ? referenceBusiness.implantPrice
+    : referenceRoute.includes('premium-ponte')
+      ? referenceBusiness.premiumPrice
+      : referenceRoute.includes('sbiancamento')
+        ? referenceBusiness.whiteningPrice
+        : undefined;
+  seo.service = { name: page.hero.title, price: amount?.replaceAll('.', '') };
+}
 ---
 
 <SiteLayout
@@ -42,8 +80,10 @@ const cards = page.directory.map((card) => ({
   typography={page.typography}
   canonical={`https://www.dentvitalis.com${page.route}`}
   pageLanguages={pageLanguages}
+  lang={page.lang}
+  seo={seo}
 >
-  <Breadcrumb items={page.breadcrumb} />
+  <Breadcrumb items={page.breadcrumb} lang={page.lang} />
   <DetailHero content={page.hero} />
   {
     page.directory.length ? (
@@ -57,5 +97,8 @@ const cards = page.directory.map((card) => ({
       <EditorialPage page={page} />
     )
   }
-  <ContactSection content={contactCopy} lang="it" />
+  <ContactSection
+    content={page.lang === 'hr' ? hrContactCopy : contactCopy}
+    lang={page.lang}
+  />
 </SiteLayout>

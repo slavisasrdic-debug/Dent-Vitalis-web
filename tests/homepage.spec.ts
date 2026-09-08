@@ -22,7 +22,7 @@ test('Italian preview has truthful language/SEO and local media', async ({
     await page
       .locator('link[hreflang]')
       .evaluateAll((es) => es.map((e) => e.getAttribute('hreflang'))),
-  ).toEqual(['it', 'x-default']);
+  ).toEqual(['it', 'hr', 'x-default']);
   await expect(
     page.locator('iframe,script[src*=webflow],script[src*=jquery]'),
   ).toHaveCount(0);
@@ -54,9 +54,10 @@ test('desktop dropdown and language menu support keyboard and escape', async ({
   await page.keyboard.press('Space');
   await expect(language).toHaveAttribute('open', '');
   await expect(language.locator('a[lang=sl]')).toHaveAttribute(
-    'href',
-    'https://www.dentvitalis.com/si/',
+    'aria-disabled',
+    'true',
   );
+  await expect(language.locator('a[lang=hr]')).toHaveAttribute('href', '/hr/');
   await page.keyboard.press('Escape');
   await expect(language).not.toHaveAttribute('open', '');
 });

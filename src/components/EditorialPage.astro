@@ -3,12 +3,13 @@ import type { InnerPage } from '../content/inner-pages';
 import PageSidebar from './PageSidebar.astro';
 import ContentBlocks from './ContentBlocks.astro';
 import TeaserCard from './TeaserCard.astro';
+import { ui } from '../content/ui';
 interface Props {
   page: InnerPage;
 }
 const { page } = Astro.props;
 const variant =
-  page.route === '/testimonianze'
+  (page.referenceRoute ?? page.route) === '/testimonianze'
     ? 'testimonials'
     : page.typography === 'reference-default'
       ? 'legal'
@@ -29,7 +30,7 @@ const variant =
         />
       )
     }<article class="editorial-copy">
-      <ContentBlocks blocks={page.blocks} />
+      <ContentBlocks blocks={page.blocks} lang={page.lang} />
     </article>
   </div>
 </div>
@@ -38,7 +39,7 @@ const variant =
     <section class="related-services">
       <div class="related-container">
         <>
-          <h2>Altre prestazioni</h2>
+          <h2>{ui(page.lang).related}</h2>
           <div class="related-grid">
             {page.related.map((card) => (
               <TeaserCard card={card} variant="service" context="related" />

@@ -7,5 +7,7 @@ export default defineConfig({
   server: { host: '0.0.0.0', port: 4321 },
   vite: { server: { strictPort: true } },
   devToolbar: { enabled: false },
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({ filter: (page) => !new URL(page).pathname.startsWith('/404') }),
+  ],
 });

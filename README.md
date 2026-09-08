@@ -91,3 +91,18 @@ npx playwright test tests/gallery-comparison.spec.ts
 ```
 
 Asset skripte ponovno koriste lokalne izvore; thumbnail skripta preuzima samo nedostajuće izvorne YouTube postere. Nijedna naredba ne šalje obrazac klinici. Usporedni screenshotovi, overlayi i diffovi nalaze se u `reference/screenshots/2026-09-07-inner/`, izvan produkcijskog builda.
+
+## Hrvatska verzija
+
+`/hr/` i 26 odobrenih podstranica koriste iste Astro partiale kao talijanski web. Putanje su u `data/hr-routes.proposed.csv` (status `approved`), sadržajni modeli u `src/content/hr/`, a izvor je hrvatski stupac odobrenog DOCX-a. Pravne stranice koriste zasebno odobrene public HTML snapshotove. Prijevoz ostaje samo na talijanskom; DE/EN/SI prijevodi ne izmišljaju se.
+
+```bash
+npm run test:content
+npm run test:hr
+npm run test:hr -- --browser webkit
+npm run audit:copy:it -- --cached
+```
+
+Ponovljena ekstrakcija samo kada je potrebna: `content:extract:hr` za DOCX, `content:extract:hr-legal` za sačuvane pravne izvore. Obje su build-time; izvorni dokumenti i njihove uredničke napomene nisu client payload. Mrežni cache talijanskog audita nije u Gitu: u novom Codespaceu prvi poziv `audit:copy:it` pokrenuti bez `--cached`.
+
+Jedna lista za zajednički pregled nakon izrade: [hrvatski sadržaj i preostale odluke](./docs/croatian-review.md). Preview je `noindex`, bez produkcijske objave i bez aktivnog slanja obrazaca.

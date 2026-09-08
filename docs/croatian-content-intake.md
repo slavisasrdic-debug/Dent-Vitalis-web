@@ -1,11 +1,18 @@
 # Hrvatski sadržaj — odluke i prihvat 2026-09-08
 
+## Aktualna odobrenja (imaju prednost nad arhiviranim prijedlogom ispod)
+
+- Korisnik je 2026-09-08 potvrdio predložene hrvatske URL-ove i zatražio izradu. CSV zadržava naziv radi kontinuiteta, ali status `approved` sada odobrava runtime putanje.
+- Naknadno je izričito odobrio hrvatske pravne tekstove s postojećeg public weba: `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja`. Time opseg raste na 27 HR stranica; jedino prijevoz ostaje isključen. Izvorne pravne tekstove sačuvati s datumom i SHA-256, bez samostalnog pravnog preuređivanja.
+- Odobrenje URL-ova nije instalacija produkcijskih redirekcija niti odobrenje objave. DOCX ostaje glavni izvor nepravnog HR sadržaja; stari live sadržaj ne zamjenjuje njegove cijene, recenzije ili medicinske tekstove.
+- Lokalizirati i alt/ARIA, title/description, OG i strukturirane podatke. SEO opisi se izvode iz stvarno prikazanog izvornog teksta; ne dodavati medicinske tvrdnje, ocjene, autore provjere ili datume kojih nema u izvoru.
+
 ## Mjerodavni izvori i granica zadatka
 
 - Korisnik je potvrdio **hrvatski stupac** `reference/Dentvitalis web tekstovi - it + hr (1).docx` kao izvor HR sadržaja. Identična kopija u `reference/Upute za prijevode/` ne predstavlja novu verziju. SHA-256: `7b9273a1338415f095ec43e367e051afaa30df24de9a91b31ec3d7dc4ecc648e`.
 - Naknadna uputa: talijanske izmjene iz DOCX-a već su riješene; ne vraćati stare IT tekstove niti ponovno provoditi žute IT korekcije. Za HR vrijede stvarni hrvatski tekstovi i urednička izuzeća, ne slobodan prijevod talijanskog weba.
-- Korisnik je odbio privremene talijanske slugove pod `/hr/` i traži **dogovor hrvatskih slugova prije izrade podstranica**. `data/hr-routes.proposed.csv` je samo prijedlog, nije runtime routing, redirect tablica ni SEO odobrenje. Root `/hr/` već je odobren.
-- Ova priprema ne objavljuje nove stranice, ne mijenja produkciju, talijanski copy, kontakte, cijene ili integracije.
+- Korisnik je odbio privremene talijanske slugove pod `/hr/`, zatim odobrio hrvatski prijedlog. `data/hr-routes.proposed.csv` sada je runtime izvor 27 odobrenih putanja, ali nije produkcijska redirect tablica.
+- HR implementacija koristi zajedničke komponente, ne mijenja produkciju, talijanski copy niti uključuje integracije.
 
 ## Vjeran unos bez ručnog pretipkavanja
 
@@ -36,10 +43,10 @@ Katalog je dokaz izvora, **nije sadržaj za automatsku objavu**. Ne smije se u c
 - DOCX sadrži kontaktne vrijednosti, uključujući WhatsApp broj u `t29`; to nije nestali resurs. Ne uključivati integraciju ili globalno prepisivati talijanske poslovne podatke bez zasebne odluke. Prazne HR kontakte ne nadopunjavati iz IT stupca.
 - FAQ uvod naziva `+385 51 688 380` „besplatnim brojem”; izvorni HR izraz ne ispravljati nagađanjem, označiti vlasniku za provjeru prije produkcije.
 - Na nekim mjestima cijene/rangevi razlikuju se po kontekstu (npr. krunice 330 € i „Već od 220 €”). Sačuvati pojedinačni izvor i kontekst; ne ujednačavati sve pojave iste imenice na jednu cijenu.
-- Hrvatski pravni/privacy tekstovi nisu u predanom dvojezičnom dokumentu. Postojeći live `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja` nisu automatski odobrenje za preuzimanje pravnih tekstova u novi web.
+- Hrvatski pravni/privacy tekstovi nisu u DOCX-u. Korisnik je zasebno odobrio postojeći live `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja`; nepromijenjeni HTML izvori su u `reference/legal-hr/2026-09-08/`, a deterministički izvučeni sadržaj i SHA-256 u `src/content/hr/legal.json`.
 - Naslovnice direktorija, navigacija, footer i tehničke UI oznake zahtijevaju eksplicitno mapiranje postojećih HR fragmenata; katalog nije dokaz da je preveden svaki novi UI string.
 
-## Prijedlog URL-ova za potvrdu
+## Odobrene hrvatske putanje
 
 Preporuka je **ravna hrvatska struktura ispod `/hr/`**, usklađena s postojećim javnim hrvatskim URL-ovima. Izbornici i breadcrumb mogu imati kategorije bez dodatnog segmenta u URL-u. Cijene, akcijski slogani i godine ne ulaze u slug.
 
@@ -71,7 +78,7 @@ Preporuka je **ravna hrvatska struktura ispod `/hr/`**, usklađena s postojećim
 | Galerija                             | `/hr/galerija`                           |
 | Kontakt                              | `/hr/kontakt`                            |
 
-Ovo predviđa 25 sadržajnih HR stranica, ne preslikavanje svih 28 IT ruta. `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja` ostaju rezervirani postojeći kandidati dok se ne odobri izvor pravnog sadržaja. Prijevoz nema HR ekvivalent.
+Ovo obuhvaća 25 nepravnih HR stranica te naknadno odobrene `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja`: ukupno 27. Prijevoz nema HR ekvivalent.
 
 Postojeće javne putanje `/hr/o-nama`, `/hr/prvi-pregled`, `/hr/jamstva`, `/hr/placanje`, `/hr/kontakt`, `/hr/faq` i `/hr/izbjeljivanje-zubi` ponovno su potvrđene HTTP 200 dana 2026-09-08. Prvi dohvat pregleda istekao je na mrežnom timeoutu; ponovljeni je HTTP 200 na istoj putanji.
 

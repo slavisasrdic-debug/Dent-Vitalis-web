@@ -8,6 +8,7 @@ const amounts: Record<string, string> = {
   '2.990': business.implantPrice,
   '250': business.whiteningPrice,
   '220': business.crownPrice,
+  '330': business.crownSidebarPrice,
   '249': business.singleImplantPrice,
   '319': business.mobileProsthesisPrice,
   '119': business.gumRemodellingPrice,
@@ -53,7 +54,7 @@ const contactPattern = new RegExp(
 function textWithBusinessValues(text: string): string {
   return text
     .replace(
-      /(?<![\d.,])\d[\d.,]*(?=[\s\u00a0]*€)/g,
+      /(?<![\d.,])\d[\d.,]*(?=[\s\u00a0]*(?:€|eura\b))/g,
       (amount) => amounts[amount] ?? amount,
     )
     .replace(contactPattern, (source) => contactMap.get(source)!);

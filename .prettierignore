@@ -12,3 +12,6 @@ reference/screenshots/2026-09-07-inner/**/*.json
 reference/webflow-handoff/2026-09-07/*.json
 # Deterministic DOCX catalogue; verify with content:check:hr, do not reformat.
 data/translations/hr-source.json
+# Reproducible inert parsing of the approved legal snapshots.
+src/content/hr/legal.json
+reference/legal-hr/

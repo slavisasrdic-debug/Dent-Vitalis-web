@@ -220,6 +220,11 @@ test('top-level links and language options keep their geometry on hover and focu
     const before = await link.boundingBox();
     await link.hover();
     expect(await link.boundingBox()).toEqual(before);
+    if ((await link.getAttribute('aria-disabled')) === 'true') {
+      // Unavailable translations have no destination and are not tab stops.
+      expect(await link.getAttribute('href')).toBeNull();
+      continue;
+    }
     await page.keyboard.press('Tab');
     await expect(link).toBeFocused();
     expect(await link.boundingBox()).toEqual(before);

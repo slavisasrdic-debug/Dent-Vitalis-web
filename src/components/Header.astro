@@ -2,6 +2,7 @@
 import Button from './Button.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import NavDropdown from './NavDropdown.astro';
+import { ui } from '../content/ui';
 import type { NavigationGroup, LinkData, LanguageLink } from '../content/site';
 interface Props {
   groups: NavigationGroup[];
@@ -15,20 +16,23 @@ interface Props {
 const { groups, links, languages, lang, tagline, consultation, request } =
   Astro.props;
 const id = `navigation-${crypto.randomUUID()}`;
+const copy = ui(lang);
 ---
 
 <header class="site-header" data-header>
   <div class="header-container">
     <div class="header-row">
-      <a href="/" class="brand"
+      <a href={lang === 'hr' ? '/hr/' : '/'} class="brand"
         ><img
           src="/assets/images/Dentvitalis-logo-color_21200px.svg"
           width="150"
           height="30"
-          alt="DentVitalis - Dentisti Croazia"
+          alt={copy.logo}
+          fetchpriority="high"
+          loading="eager"
         /><span>{tagline}</span></a
       >
-      <nav id={id} aria-label="Navigazione principale" class="site-nav">
+      <nav id={id} aria-label={copy.nav} class="site-nav">
         <div class="nav-items">
           {groups.map((group) => <NavDropdown group={group} />)}
           {
@@ -66,7 +70,9 @@ const id = `navigation-${crypto.randomUUID()}`;
         /><button
           type="button"
           class="menu-toggle"
-          aria-label="Apri menu"
+          aria-label={copy.openMenu}
+          data-open-label={copy.openMenu}
+          data-close-label={copy.closeMenu}
           aria-expanded="false"
           aria-controls={id}
           ><img
@@ -349,7 +355,10 @@ const id = `navigation-${crypto.randomUUID()}`;
       closing?.cancel();
       closing = null;
       button.setAttribute('aria-expanded', String(open));
-      button.setAttribute('aria-label', open ? 'Chiudi menu' : 'Apri menu');
+      button.setAttribute(
+        'aria-label',
+        (open ? button.dataset.closeLabel : button.dataset.openLabel)!,
+      );
       if (open) {
         if (!wasOpen) previousOverflow = document.body.style.overflow;
         document.body.style.overflow = 'hidden';

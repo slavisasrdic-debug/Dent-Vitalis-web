@@ -1,11 +1,23 @@
 ---
-import type { clinic } from '../content/site';
 import type groups from '../content/footer-it.json';
+import { ui } from '../content/ui';
 interface Props {
-  business: typeof clinic;
+  business: {
+    address: string;
+    tollFree: string;
+    telephone: string;
+    telephoneHref: string;
+    email: string;
+    openingHours: string;
+    bookingHours: string;
+    copyright: string;
+  };
   groups: typeof groups;
+  lang?: string;
 }
-const { business, groups: sections } = Astro.props;
+const { business, groups: sections, lang = 'it' } = Astro.props;
+const copy = ui(lang);
+const contactHref = lang === 'hr' ? '/hr/kontakt' : '/contatti';
 const socials = [
   ['twitter', '62434fa732124ac15112aad5_twitter small.svg'],
   ['linkedin', '62434fa732124a389912aad8_linkedin small.svg'],
@@ -16,10 +28,10 @@ const socials = [
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-container">
-      <a class="footer-brand" href="/"
+      <a class="footer-brand" href={lang === 'hr' ? '/hr/' : '/'}
         ><img
           src="/assets/images/Dentvitalis-logo-color_21200px.svg"
-          alt="DentVitalis - Dentisti Croazia"
+          alt={copy.logo}
           width="140"
         /></a
       ><div class="footer-grid">
@@ -43,17 +55,21 @@ const socials = [
           ))
         }
         <div class="footer-group contacts">
-          <h2><a href="/contatti">Contatti</a></h2><a href="/contatti"
+          <h2><a href={contactHref}>{copy.contact}</a></h2><a href={contactHref}
             >{business.address}</a
           ><address>
-            <a href={`tel:${business.tollFree.replaceAll(' ', '')}`}
-              >Numero verde: {business.tollFree}</a
-            ><a href={business.telephoneHref}>Tel. {business.telephone}</a><a
+            {
+              business.tollFree && (
+                <a href={`tel:${business.tollFree.replaceAll(' ', '')}`}>
+                  {copy.tollFree}: {business.tollFree}
+                </a>
+              )
+            }<a href={business.telephoneHref}>Tel. {business.telephone}</a><a
               href={`mailto:${business.email}`}>{business.email}</a
             ><p>
-              <strong>Orari della clinica</strong><br />{
-                business.openingHours
-              }<br />{business.bookingHours}
+              <strong>{copy.hours}</strong><br />{business.openingHours}<br />{
+                business.bookingHours
+              }
             </p>
           </address>
         </div>
@@ -63,8 +79,8 @@ const socials = [
               <button
                 type="button"
                 disabled
-                aria-label={`${name}: link non configurato nella fonte`}
-                title="Link non configurato nella fonte"
+                aria-label={`${name}: ${copy.socialUnavailable}`}
+                title={copy.socialUnavailable}
               >
                 <img
                   src={`/assets/images/${file}`}

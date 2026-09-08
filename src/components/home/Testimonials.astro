@@ -10,8 +10,9 @@ interface Props {
   slides: { text: string; name: string; year: string }[];
   actions: LinkData[];
   photo: { desktop: ImageKey; mobile: ImageKey; alt: string };
+  lang?: string;
 }
-const { heading, slides, actions, photo } = Astro.props;
+const { heading, slides, actions, photo, lang = 'it' } = Astro.props;
 ---
 
 <section class="testimonials">
@@ -19,7 +20,11 @@ const { heading, slides, actions, photo } = Astro.props;
     <div class="testimonial-grid">
       <div class="review-layer">
         <div class="review-scroll" data-reveal>
-          <TestimonialSlider slides={slides} label={heading.title} />
+          <TestimonialSlider
+            slides={slides}
+            label={heading.title}
+            lang={lang}
+          />
         </div>
       </div><div class="photo-layer">
         <ResponsiveImage

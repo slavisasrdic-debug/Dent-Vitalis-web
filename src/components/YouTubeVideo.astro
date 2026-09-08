@@ -1,9 +1,11 @@
 ---
+import { ui } from '../content/ui';
 interface Props {
   videoId: string;
   title: string;
+  lang?: string;
 }
-const { videoId, title } = Astro.props;
+const { videoId, title, lang = 'it' } = Astro.props;
 if (!/^[\w-]{11}$/.test(videoId))
   throw new Error(`Invalid reference video ID: ${videoId}`);
 ---
@@ -12,7 +14,7 @@ if (!/^[\w-]{11}$/.test(videoId))
   <div class="player">
     <a
       href={`https://www.youtube.com/watch?v=${videoId}`}
-      aria-label={`Guarda il video: ${title}`}
+      aria-label={`${ui(lang).watchVideo}: ${title}`}
       ><img
         src={`/assets/images/youtube-${videoId}.webp`}
         alt=""

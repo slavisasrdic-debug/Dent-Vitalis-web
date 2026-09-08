@@ -17,6 +17,8 @@
     "audit:copy:it": "node scripts/audit-italian-copy.mjs",
     "content:extract:hr": "python3 scripts/extract-translation-source.py",
     "content:check:hr": "python3 scripts/extract-translation-source.py --check",
+    "content:extract:hr-legal": "node scripts/extract-hr-legal.mjs",
+    "test:hr": "playwright test tests/croatian.spec.ts --workers 2",
     "test:content": "node --test scripts/content-source.test.mjs",
     "check": "astro check",
     "lint": "eslint .",

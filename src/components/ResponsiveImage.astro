@@ -20,6 +20,9 @@ const {
 } = Astro.props;
 const asset = assets[image as ImageKey];
 if (!asset) throw new Error(`Unknown source image: ${image}`);
+// Encode URL path segments, not filenames on disk. Spaces split srcset candidates.
+const imageUrl = (path: string) =>
+  path.split('/').map(encodeURIComponent).join('/');
 ---
 
 <img
@@ -27,13 +30,13 @@ if (!asset) throw new Error(`Unknown source image: ${image}`);
   data-delay={Astro.props.reveal ? 400 : undefined}
   data-offset={Astro.props.reveal ? 0 : undefined}
   class={className}
-  src={asset.src}
+  src={imageUrl(asset.src)}
   alt={alt}
   width={'width' in asset ? asset.width : undefined}
   height={'height' in asset ? asset.height : undefined}
   srcset={'variants' in asset
     ? asset.variants
-        .map((variant) => `${variant.src} ${variant.width}w`)
+        .map((variant) => `${imageUrl(variant.src)} ${variant.width}w`)
         .join(', ')
     : undefined}
   sizes={sizes}

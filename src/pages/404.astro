@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+Astro.response.status = 404;
+---
+
+<!doctype html>
+<html lang="it">
+  <head
+    ><meta charset="UTF-8" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    /><title>404 — DentVitalis</title><meta
+      name="description"
+      content="Pagina non trovata — DentVitalis"
+    /><meta name="robots" content="noindex, nofollow" /></head
+  >
+  <body
+    ><main>
+      <img
+        src="/assets/images/Dentvitalis-logo-color_21200px.svg"
+        width="180"
+        height="36"
+        alt="DentVitalis"
+      /><h1>404</h1><p>Pagina non trovata.</p><a href="/" lang="it"
+        >Torna alla pagina iniziale</a
+      ><section lang="hr">
+        <h2>Stranica nije pronađena.</h2><a href="/hr/"
+          >Povratak na naslovnicu</a
+        >
+      </section>
+    </main></body
+  >
+</html>
+<style>
+  main {
+    max-width: 640px;
+    margin: 10vh auto;
+    padding: 32px;
+    text-align: center;
+  }
+  img {
+    margin-inline: auto;
+  }
+  h1 {
+    font-size: 72px;
+    margin: 40px 0 16px;
+  }
+  h2 {
+    font-size: 24px;
+    margin: 48px 0 16px;
+  }
+  a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    display: inline-block;
+    padding: 12px;
+  }
+</style>

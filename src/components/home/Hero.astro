@@ -9,7 +9,7 @@ interface Props {
   price: string;
   benefits: readonly string[];
   maps: string;
-  content: typeof home.hero;
+  content: typeof home.hero & { priceText?: string };
 }
 const { price, benefits, maps, content } = Astro.props;
 const { href } = content;
@@ -32,14 +32,16 @@ const { href } = content;
           <p class="eyebrow" data-reveal data-delay="200" data-offset="0">
             <strong>{content.eyebrowAccent}</strong>{' '}{content.eyebrow}
           </p><h1 id="home-title" data-reveal data-delay="400" data-offset="0">
-            <strong>{content.pricePrefix} {price}€</strong>, {content.title}
+            <strong
+              >{content.priceText ?? `${content.pricePrefix} ${price}€`}</strong
+            >, {content.title}
           </h1>
           <ul class="benefits">
             {
               benefits.map((benefit, index) => (
                 <li
                   data-reveal="fade"
-                  data-delay={[800, 800, 1000, 1200, 1200][index]}
+                  data-delay={[800, 800, 1000, 1200, 1200][Math.min(index, 4)]}
                   data-offset="0"
                 >
                   <>

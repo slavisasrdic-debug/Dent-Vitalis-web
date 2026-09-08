@@ -1,5 +1,6 @@
 ---
 import type { LanguageLink } from '../content/site';
+import { ui } from '../content/ui';
 interface Props {
   languages: LanguageLink[];
   current: string;
@@ -7,10 +8,11 @@ interface Props {
 }
 const { languages, current, variant = 'desktop' } = Astro.props;
 const active = languages.find((language) => language.lang === current)!;
+const copy = ui(current);
 ---
 
 <details class:list={['language', variant]} data-language>
-  <summary aria-label={`Lingua: ${active.label}`}
+  <summary aria-label={`${copy.language}: ${active.label}`}
     ><img
       src={`/assets/images/flag-${active.flag}.png`}
       alt=""
@@ -26,9 +28,7 @@ const active = languages.find((language) => language.lang === current)!;
           aria-disabled={language.available === false ? 'true' : undefined}
           role={language.available === false ? 'link' : undefined}
           title={
-            language.available === false
-              ? 'Traduzione non disponibile in questa anteprima'
-              : undefined
+            language.available === false ? copy.missingTranslation : undefined
           }
           lang={language.lang}
           aria-label={language.label}

@@ -1,4 +1,17 @@
 import { clinic as business, referenceBusiness } from '../../data/site';
+import footerSource from './footer-it.json';
+// Published footer label points to post-treatment reviews, whose actual source
+// anchor is #post (the source footer mistakenly uses the FAQ anchor #dentvitalis).
+export const footerGroups = footerSource.map((group) => ({
+  ...group,
+  links: group.links.map((link) => ({
+    ...link,
+    href:
+      link.href === '/testimonianze#dentvitalis'
+        ? '/testimonianze#post'
+        : link.href,
+  })),
+}));
 export interface LinkData {
   label: string;
   href: string;

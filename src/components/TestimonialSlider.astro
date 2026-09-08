@@ -1,18 +1,22 @@
 ---
 import ResponsiveImage from './ResponsiveImage.astro';
+import { ui } from '../content/ui';
 interface Props {
   slides: { text: string; name: string; year: string }[];
   label: string;
+  lang?: string;
 }
-const { slides, label } = Astro.props;
+const { slides, label, lang = 'it' } = Astro.props;
+const copy = ui(lang);
 ---
 
 <div
   class="slider"
   role="region"
-  aria-roledescription="carosello"
+  aria-roledescription={copy.carousel}
   aria-label={label}
   data-slider
+  data-of-label={copy.of}
 >
   <div class="slider-viewport">
     <div class="slider-track">
@@ -21,32 +25,34 @@ const { slides, label } = Astro.props;
           <article
             class="slide"
             role="group"
-            aria-roledescription="diapositiva"
-            aria-label={`${index + 1} di ${slides.length}`}
+            aria-roledescription={copy.slide}
+            aria-label={`${index + 1} ${copy.of} ${slides.length}`}
           >
             <>
               <ResponsiveImage
                 image="GR-DV.webp"
-                alt="Valutazione Google 4,9 su 5 basata su 152 recensioni"
+                alt={copy.rating}
                 class="rating"
                 sizes="80px"
               />
               <p class="quote">{slide.text}</p>
               <h3>{slide.name}</h3>
               <p class="year">{slide.year}</p>
-              <ResponsiveImage
-                image="zvjezdice.webp"
-                alt="Valutazione di cinque stelle"
-                class="stars"
-                sizes="100px"
-              />
+              {lang === 'it' && (
+                <ResponsiveImage
+                  image="zvjezdice.webp"
+                  alt={copy.stars}
+                  class="stars"
+                  sizes="100px"
+                />
+              )}
             </>
           </article>
         ))
       }
     </div>
   </div>
-  <button class="previous" type="button" aria-label="Testimonianza precedente"
+  <button class="previous" type="button" aria-label={copy.previous}
     ><svg viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"
       ><path
         d="m15 4-8 8 8 8"
@@ -54,7 +60,7 @@ const { slides, label } = Astro.props;
         stroke="currentColor"
         stroke-width="2"></path></svg
     ></button
-  ><button class="next" type="button" aria-label="Testimonianza successiva"
+  ><button class="next" type="button" aria-label={copy.next}
     ><svg viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"
       ><path d="m9 4 8 8-8 8" fill="none" stroke="currentColor" stroke-width="2"
       ></path></svg
@@ -65,7 +71,7 @@ const { slides, label } = Astro.props;
       slides.map((_, index) => (
         <button
           type="button"
-          aria-label={`Mostra testimonianza ${index + 1}`}
+          aria-label={`${copy.showSlide} ${index + 1}`}
           aria-pressed={index === 0}
           data-slide-to={index}
         />
@@ -231,7 +237,7 @@ const { slides, label } = Astro.props;
       );
       if (announce)
         slider.querySelector('[data-slide-status]')!.textContent =
-          `${current + 1} di ${slides.length}`;
+          `${current + 1} ${slider.dataset.ofLabel} ${slides.length}`;
     };
     slider
       .querySelector('.previous')!

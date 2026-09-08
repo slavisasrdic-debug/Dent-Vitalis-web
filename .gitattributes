@@ -20,3 +20,5 @@ reference/screenshots/2026-09-07-home/**/*.png filter=lfs diff=lfs merge=lfs -te
 reference/screenshots/2026-09-07-home/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 reference/screenshots/2026-09-07-inner/**/*.png filter=lfs diff=lfs merge=lfs -text
 reference/screenshots/2026-09-07-inner/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+# Legal source whitespace is immutable too; integrity is checked by SHA-256.
+reference/legal-hr/** -text -whitespace

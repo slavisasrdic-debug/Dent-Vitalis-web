@@ -63,7 +63,7 @@ test('empty Croatian cells and explicit exclusions never become inferred transla
   );
 });
 
-test('route proposal covers accepted pages but does not approve missing legal translations', () => {
+test('approved Croatian routes exclude transport and include approved live legal sources', () => {
   const lines = readFileSync('data/hr-routes.proposed.csv', 'utf8')
     .trim()
     .split('\n');
@@ -84,10 +84,26 @@ test('route proposal covers accepted pages but does not approve missing legal tr
   for (const id of ['privacy', 'terms'])
     assert.equal(
       routes.find((route) => route.page_id === id).status,
-      'missing-approved-hr-source',
+      'approved',
     );
   assert.equal(
-    routes.filter((route) => route.status === 'pending-url-approval').length,
-    24,
+    routes.filter((route) => route.status === 'approved').length,
+    27,
   );
+});
+
+test('Croatian legal content retains the exact approved public source snapshots', () => {
+  const pages = JSON.parse(readFileSync('src/content/hr/legal.json', 'utf8'));
+  assert.equal(pages.length, 2);
+  for (const page of pages) {
+    assert.equal(
+      createHash('sha256').update(readFileSync(page.source.file)).digest('hex'),
+      page.source.sha256,
+    );
+    assert.match(
+      page.source.url,
+      /^https:\/\/www\.dentvitalis\.com\/hr\/(polica-privatnosti|uvjeti-koristenja)$/,
+    );
+    assert.ok(page.sourceText.length > 1000);
+  }
 });

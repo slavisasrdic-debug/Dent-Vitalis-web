@@ -1,0 +1,1523 @@
+[
+  {
+    "route": "/hr/polica-privatnosti",
+    "title": "Polica privatnosti",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za što ćemo koristiti Vaše podatke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Po potrebi prikupljamo Vaše podatke koji su navedeni u formi upita (ime i prezime, e-mail, broj telefona itd. U suprotnom, naše stranice koristitite anonimno.\n"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Koje podatke prikupljamo?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaše osobne i neosobne podatke možemo koristiti na jedan od sljedećih načina:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za potrebe personalizirane komunikacije, odnosno pružanje informacija u skladu    s Vašim stvarnim potrebama"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "U svrhu poboljšanja ove web stranice "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "U svrhu boljeg razumijevanja potreba potencijalnih pacijenata i korisnika stranice"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za slanje povremenih e-mailova kojima vas obavještavamo o pogodnostima i novim uslugama"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Napomena: ako se u bilo kojem trenutku želite odjaviti od primanja budućih e-mailova to možete učiniti u skladu s uputama na dnu svakog e-maila. "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kako štitimo Vaše osobne informacije?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Provodimo niz sigurnosnih mjera za održavanje tajnosti Vaših osobnih podataka u svakom trenutku: kada pristupite stranicama, kada nam pošaljete upit korištenjem web forme ili prilikom slanja e-maila."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za što koristimo kolačiće?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kolačići su male datoteke koje transferamo na Vaš hard disk računala putem web preglednika (ako dopustite), a koji nam omogućavaju prepoznavanje korisnika i memoriranje određenih podataka u vezi s njime.\n"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Zahvaljujući tim podacima možemo u budućnosti ponuditi kvalitetnije i preciznije informacije o našim uslugama. U svrhu analize tih podataka možemo angažirati treću stranu koja nam u tome može pomoći. Pri tome niti u jednom trenutku treća strana ne stječe pravo raspolaganja podacima u bilo koju svrhu osim već prethodno navedene te nije ovlaštena iste ustupati trećim stranama.\n"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ako želite, na svom računalu možete odabrati opciju koja vas informira svaki put kada je kolačić poslan ili možete izabrati potpuno isključenje svih kolačića."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Tko sve može koristiti moje osobne podatke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaši osobni podaci nikada neće postati predmetom kupoprodaje niti će biti sa ili bez naknade biti ustupljeni trećoj strani u svrhu njihove komercijalne eksploatacije."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Neosobni podaci, prikupljeni tijekom anonimne posjete ovoj stranici možemo ustupiti trećoj strani u svrhu unapređenja promocije i marketinga. "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Neovisni linkovi (poveznice)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Povremeno, prema našoj procjeni, možemo na ove stranice postaviti poveznice na web stranice trećih. Napominjemo da te stranice imaju odvojene i samostalne politike privatnosti. Zato nemamo nikakvu odgovornost za sadržaj i vaše aktivnosti na tim stranicama. Kako nam je u interesu zaštiti integritet naše stranice dobrodošle su bilo kakve povratne informacije o tim web stranicama."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Dječje Online Privacy Protection Act Compliance"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Dokument Police privatnosti o zaštiti privatnosti na internetu se odnosi samo na podatke prikupljene putem naše web stranice, a ne i na podatke koji su prikupljeni na neki drugi način."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Uvjeti"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Molimo pogledajte "
+          },
+          {
+            "kind": "link",
+            "href": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
+            "children": [
+              {
+                "kind": "text",
+                "text": "uvjete korištenja"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " naše web stranice."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaša suglasnost"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Korištenjem naše stranice pristajete na ovdje navedenu Policu privatnosti."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Promjene Police privatnosti"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "U slučaju da iz bilo kojeg razloga promijenimo uvjete ove Police, navedene izmjene će biti objavljene na ovoj stranici."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Imate li bilo kakva pitanja u vezi s ovom Policom privatnosti možete nas kontaktirati pismeno ili usmeno na: "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "link",
+            "href": "https://www.dentvitalis.com/hr",
+            "children": [
+              {
+                "kind": "text",
+                "text": "www.dentivitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Krešimirova 60"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Rijeka, 51000 "
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Hrvatska "
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:info@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "info@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "tel:0038550371064",
+            "children": [
+              {
+                "kind": "text",
+                "text": "+38551371064"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " \n                            "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Pravilnik o postupanju s osobnim podacima"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. sa sjedištem u Rijeci, Krešimirova 60,\n                                    OIB 39977041464 (u daljnjem tekstu: Voditelj obrade), kao obveznik primjene\n                                "
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Uredbe (EU) 2016/679 Europskog parlamenta i Europskog vijeća od 27. travnja 2016. godine (u daljnjem tekstu: Opća uredba), te"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "odredbi svih drugih mjerodavnih propisa kojima se regulira zaštita osobnih podataka"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    ovim Pravilnikom regulira zaštitu osobnih podataka pojedinaca (fizičkih osoba)\n                                    kojima pruža informacije i/ili usluge u okviru svoje djelatnosti.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Uvodne odredbe"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Pravilnik o postupanju s osobnim podacima je jednostrano obvezujući pravni akt zasnovan na temeljnim načelima Opće uredbe i svih drugih propisa mjerodavnih za zaštitu osobnih podataka fizičkih osoba."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik je fizička osoba čiji se podaci prikupljaju sukladno ovom Pravilniku."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobni podatak je svaki podatak koji se odnosi na pojedinca čiji je identitet utvrđen ili ga je moguće utvrditi."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Obrada osobnih podataka je svaki postupak ili skup postupaka u kojima se koriste osobni podaci."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Načela prikupljanja, obrade i pohrane osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobni podaci Ispitanika se obrađuju zakonito, pošteno i transparentno. Prikupljaju se i obrađuju samo podaci koji su relevantni za pružanje informacija i usluga u okviru djelatnosti Voditelja obrade."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ukoliko se Ispitanik složi, Voditelj obrade je voljan prikupiti i druge osobne podatke koji bi se koristili isključivo u svrhu buduće bolje zdravstvene zaštite Ispitanika."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobni podaci se prikupljaju i čuvaju na način da budu zaštićeni od krađe, neovlaštenog korištenja, gubitka, uništenja ili oštećenja."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        Osobni podaci se prikupljaju, obrađuju i čuvaju isključivo u skladu s:\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "propisima o evidencijama na području zdravstva i drugim važećim zakonskim propisima koji se odnose na posebne vrste podataka, te"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "poslovno opravdanim potrebama, odnosno potrebama uvjetovanim procesom pružanja usluga iz djelatnosti Voditelja obrade."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobne podatke Ispitanik pruža isključivo dobrovoljno. Pri tome Voditelj obrade pridržava pravo uskratiti uslugu Ispitaniku koji mu nije pružio osobni podatak koji je neophodan za kvalitetno i sigurno pružanje usluge."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Svrha prikupljanja i obrade osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osobni podaci Ispitanika prikupljaju se i obrađuju samo ako je ispunjen jedan od sljedećih uvjeta:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako je obrada osobnih podataka nužna za pružanje usluga u okviru djelatnosti Voditelja obrade"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako postoji zakonska obveza njihove obrade"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako postoji nužnost zaštite ključnih interesa Ispitanika ili druge fizičke osobe"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako je obrada nužna za izvršavanje zadaće od javnog interesa"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako je obrada nužna u svrhu zaštite legitimnih interesa Voditelja obrade, osim u slučajevima kada zaštita Ispitanika, odnosno njegovih temeljnih prava, treba imati prioritet (npr. zaštita interesa djeteta)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Način prikupljanja osobnih podataka Ispitanika"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osobni podaci Ispitanika prikupljaju se na sljedeće načine:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Izravno od strane Ispitanika kojem Voditelj obrade pruža usluge u okviru svoje djelatnosti. Ispitanik ove informacije može dati: usmeno, pismeno ili putem Web stranice Voditelja obrade."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Kroz medicinsku i drugu dokumentaciju trećih, a koju Ispitanik stavi na raspolaganje Voditelju obrade."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Kroz medicinsku i drugu dokumentaciju Ispitanika, a koja nastane u procesu pružanja usluga iz djelatnosti Voditelja obrade (npr. dijagnostički materijal, evidencija medicinskih postupaka, lijekova, procesa itd.)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Kroz dokumentaciju trećih koji su uključeni u proces pružanja usluga Ispitaniku (npr. rezultati laboratorijskih pretraga, dentalni otisci laboratorijskih tehničara itd.)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Prosljeđivanje osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osobni podaci Ispitanika se prosljeđuju trećima samo u svrhu:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ispunjenja obveza predviđenih zakonom"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "izvršenja pojedinih poslova za koje je Voditelj obrade angažirao treću osobu (npr. dentalni laboratorij, knjigovodstveni ured i sl.)"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vremensko trajanje i čuvanje osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Voditelj obrade će osobne podatke Ispitanika čuvati u skladu s vremenskim rokovima propisanim Zakonom,\n                                    a ako to nije slučaj, onda samo do roka kada je njihovo čuvanje poslovno opravdano. Iznimno,\n                                    osobni podaci će se čuvati duže od tog roka ako je njihovo čuvanje uvjet za legitimnu zaštitu\n                                    interesa Voditelja obrade. Osobni podaci ispitanika se brišu protekom zakonskog roka koji\n                                    obvezuje Voditelja obrade na čuvanje pojedinih osobnih podataka ili prestankom svrhe njihova čuvanja.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Prava Ispitanika"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na pristup osobnim podacima"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Voditelj obrade se obvezuje, na temelju podnesenog pisanog zahtjeva,\n                                            omogućiti Ispitaniku pristup osobnim podacima, informirati ga o svrsi obrade osobnih podataka,\n                                            o vrsti osobnih podataka koji se obrađuju, o primateljima ili kategorijama primatelja kojima su\n                                            osobni podaci otkriveni ili će im biti otkriveni, o predviđenom vremenskom razdoblju njihova\n                                            čuvanja ili o kriterijima koji se koriste za utvrđivanje tog razdoblja.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na ispravak netočnih osobnih podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Voditelj obrade je dužan omogućiti Ispitaniku ispravak netočnih ili nadopunu postojećih osobnih podataka.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na brisanje osobnih podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Voditelj obrade će izvršiti brisanje osobnih podataka Ispitanika u sljedećim slučajevima:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada osobni podaci Ispitanika više nisu nužni za ispunjenje svrhe obrade, odnosno prestankom svrhe obrade"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada Ispitanik povuče privolu kao pravni temelj za obradu podataka, a ne postoji druga zakonska osnova za daljnju obradu podataka"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada Ispitanik uloži opravdan prigovor na obradu podataka"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada se osobni podaci moraju brisati radi ispunjenja zakonskih obveza"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na ograničenje obrade podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Voditelj obrade će ograničiti obradu osobnih podatka ukoliko je zadovoljen jedan od sljedećih uvjeta:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Ispitanik osporava točnost osobnih podataka"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "obrada osobnih podataka je nezakonita, ali Ispitanik ne traži brisanje, već samo ograničavanje njihove obrade"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Voditelj obrade više ne treba osobne podatke, ali Ispitanik traži njihovu djelomičnu obradu u svrhu zaštite svojih interesa."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na ulaganje prigovora"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Ispitanik ima pravo na ulaganje prigovora na obradu svojih osobnih podataka.\n                                            Voditelj obrade pridržava pravo ne udovoljiti takvom prigovoru ako postoji opravdan\n                                            legitimni interes za obradu osobnih podataka ispitanika.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na prenosivost osobnih podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik ima pravo tražiti prijenos osobnih podataka drugom Voditelju obrade u sljedećim slučajevima:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ako se radi o podacima koje je Voditelj obrade dobio na temelju privole koja se može opozvati,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ako je tako ugovoreno,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ako se obrada podataka provodi automatiziranim putem."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na Zahtjev za utvrđivanje povrede prava"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik ima pravo uložiti Zahtjev za utvrđivanje povrede prava Agenciji za zaštitu osobnih podataka."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Opoziv privole"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik u svakom trenutku može povući privole za prikupljanje i obradu osobnih podataka koji nisu obuhvaćeni ovim Pravilnikom."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Informacije i prigovori"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Za sva pitanja i prigovore u vezi sa zaštitom osobnih podataka od strane Voditelja obrade,\n                                    Ispitanik se može obratiti pismeno službeniku za zaštitu osobnih podataka:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Službenik za zaštitu osobnih podataka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Krešimirova 60, Rijeka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:dpo@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "dpo@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Sve upite i zahtjeve Voditelj obrade dužan je obraditi bez nepotrebnog odgađanja\n                                    i u skladu sa zakonom propisanim rokovima.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Izmjene i dopune Pravilnika o postupanju s osobnim podacima"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Voditelj obrade zadržava pravo izmijeniti i dopuniti ovaj Pravilnik u bilo kojem trenutku\n                                    i bez bilo kakve prethodne najave.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    U Rijeci, 25.5.2018. godine\n                                "
+          }
+        ]
+      }
+    ],
+    "sourceText": "Polica privatnosti\n\n                        \n                            Za što ćemo koristiti Vaše podatke?\n\n                            Po potrebi prikupljamo Vaše podatke koji su navedeni u formi upita (ime i prezime, e-mail, broj telefona itd. U suprotnom, naše stranice koristitite anonimno.\n\n\n                            Koje podatke prikupljamo?\n\n                            Vaše osobne i neosobne podatke možemo koristiti na jedan od sljedećih načina:\n                            Za potrebe personalizirane komunikacije, odnosno pružanje informacija u skladu    s Vašim stvarnim potrebama\n                            U svrhu poboljšanja ove web stranice \n                            U svrhu boljeg razumijevanja potreba potencijalnih pacijenata i korisnika stranice\n                            Za slanje povremenih e-mailova kojima vas obavještavamo o pogodnostima i novim uslugama\n                            Napomena: ako se u bilo kojem trenutku želite odjaviti od primanja budućih e-mailova to možete učiniti u skladu s uputama na dnu svakog e-maila. \n\n                            Kako štitimo Vaše osobne informacije?\n\n                            Provodimo niz sigurnosnih mjera za održavanje tajnosti Vaših osobnih podataka u svakom trenutku: kada pristupite stranicama, kada nam pošaljete upit korištenjem web forme ili prilikom slanja e-maila.\n\n                            Za što koristimo kolačiće?\n\n                            Kolačići su male datoteke koje transferamo na Vaš hard disk računala putem web preglednika (ako dopustite), a koji nam omogućavaju prepoznavanje korisnika i memoriranje određenih podataka u vezi s njime.\n\n                            Zahvaljujući tim podacima možemo u budućnosti ponuditi kvalitetnije i preciznije informacije o našim uslugama. U svrhu analize tih podataka možemo angažirati treću stranu koja nam u tome može pomoći. Pri tome niti u jednom trenutku treća strana ne stječe pravo raspolaganja podacima u bilo koju svrhu osim već prethodno navedene te nije ovlaštena iste ustupati trećim stranama.\n\n\n                            Ako želite, na svom računalu možete odabrati opciju koja vas informira svaki put kada je kolačić poslan ili možete izabrati potpuno isključenje svih kolačića.\n\n                            Tko sve može koristiti moje osobne podatke?\n\n                            Vaši osobni podaci nikada neće postati predmetom kupoprodaje niti će biti sa ili bez naknade biti ustupljeni trećoj strani u svrhu njihove komercijalne eksploatacije.\n                            Neosobni podaci, prikupljeni tijekom anonimne posjete ovoj stranici možemo ustupiti trećoj strani u svrhu unapređenja promocije i marketinga. \n\n                            Neovisni linkovi (poveznice)\n\n                            Povremeno, prema našoj procjeni, možemo na ove stranice postaviti poveznice na web stranice trećih. Napominjemo da te stranice imaju odvojene i samostalne politike privatnosti. Zato nemamo nikakvu odgovornost za sadržaj i vaše aktivnosti na tim stranicama. Kako nam je u interesu zaštiti integritet naše stranice dobrodošle su bilo kakve povratne informacije o tim web stranicama.\n                            \n                            Dječje Online Privacy Protection Act Compliance\n\n                            Dokument Police privatnosti o zaštiti privatnosti na internetu se odnosi samo na podatke prikupljene putem naše web stranice, a ne i na podatke koji su prikupljeni na neki drugi način.\n\n                            Uvjeti\n                            \n                            Molimo pogledajte uvjete korištenja naše web stranice.\n\n                            Vaša suglasnost\n\n                            Korištenjem naše stranice pristajete na ovdje navedenu Policu privatnosti.\n\n                            Promjene Police privatnosti\n\n                            U slučaju da iz bilo kojeg razloga promijenimo uvjete ove Police, navedene izmjene će biti objavljene na ovoj stranici.\n                            Imate li bilo kakva pitanja u vezi s ovom Policom privatnosti možete nas kontaktirati pismeno ili usmeno na: \n\n                            www.dentivitalis.com\n                            Krešimirova 60\n                            Rijeka, 51000 \n                            Hrvatska \n                            info@dentvitalis.com\n                            +38551371064 \n                            \n\n                            \n                                Pravilnik o postupanju s osobnim podacima\n\n                                \n                                    Dentvitalis Fides d.o.o. sa sjedištem u Rijeci, Krešimirova 60,\n                                    OIB 39977041464 (u daljnjem tekstu: Voditelj obrade), kao obveznik primjene\n                                \n\n                                \n                                    Uredbe (EU) 2016/679 Europskog parlamenta i Europskog vijeća od 27. travnja 2016. godine (u daljnjem tekstu: Opća uredba), te\n                                    odredbi svih drugih mjerodavnih propisa kojima se regulira zaštita osobnih podataka\n                                \n\n                                \n                                    ovim Pravilnikom regulira zaštitu osobnih podataka pojedinaca (fizičkih osoba)\n                                    kojima pruža informacije i/ili usluge u okviru svoje djelatnosti.\n                                \n\n                                Uvodne odredbe\n\n                                \n                                    Pravilnik o postupanju s osobnim podacima je jednostrano obvezujući pravni akt zasnovan na temeljnim načelima Opće uredbe i svih drugih propisa mjerodavnih za zaštitu osobnih podataka fizičkih osoba.\n                                    Ispitanik je fizička osoba čiji se podaci prikupljaju sukladno ovom Pravilniku.\n                                    Osobni podatak je svaki podatak koji se odnosi na pojedinca čiji je identitet utvrđen ili ga je moguće utvrditi.\n                                    Obrada osobnih podataka je svaki postupak ili skup postupaka u kojima se koriste osobni podaci.\n                                \n\n                                Načela prikupljanja, obrade i pohrane osobnih podataka\n\n                                \n                                    Osobni podaci Ispitanika se obrađuju zakonito, pošteno i transparentno. Prikupljaju se i obrađuju samo podaci koji su relevantni za pružanje informacija i usluga u okviru djelatnosti Voditelja obrade.\n                                    Ukoliko se Ispitanik složi, Voditelj obrade je voljan prikupiti i druge osobne podatke koji bi se koristili isključivo u svrhu buduće bolje zdravstvene zaštite Ispitanika.\n                                    Osobni podaci se prikupljaju i čuvaju na način da budu zaštićeni od krađe, neovlaštenog korištenja, gubitka, uništenja ili oštećenja.\n                                    \n                                        Osobni podaci se prikupljaju, obrađuju i čuvaju isključivo u skladu s:\n                                        \n                                            propisima o evidencijama na području zdravstva i drugim važećim zakonskim propisima koji se odnose na posebne vrste podataka, te\n                                            poslovno opravdanim potrebama, odnosno potrebama uvjetovanim procesom pružanja usluga iz djelatnosti Voditelja obrade.\n                                        \n                                    \n                                    Osobne podatke Ispitanik pruža isključivo dobrovoljno. Pri tome Voditelj obrade pridržava pravo uskratiti uslugu Ispitaniku koji mu nije pružio osobni podatak koji je neophodan za kvalitetno i sigurno pružanje usluge.\n                                \n\n                                Svrha prikupljanja i obrade osobnih podataka\n\n                                Osobni podaci Ispitanika prikupljaju se i obrađuju samo ako je ispunjen jedan od sljedećih uvjeta:\n\n                                \n                                    ako je obrada osobnih podataka nužna za pružanje usluga u okviru djelatnosti Voditelja obrade\n                                    ako postoji zakonska obveza njihove obrade\n                                    ako postoji nužnost zaštite ključnih interesa Ispitanika ili druge fizičke osobe\n                                    ako je obrada nužna za izvršavanje zadaće od javnog interesa\n                                    ako je obrada nužna u svrhu zaštite legitimnih interesa Voditelja obrade, osim u slučajevima kada zaštita Ispitanika, odnosno njegovih temeljnih prava, treba imati prioritet (npr. zaštita interesa djeteta).\n                                \n\n                                Način prikupljanja osobnih podataka Ispitanika\n\n                                Osobni podaci Ispitanika prikupljaju se na sljedeće načine:\n\n                                \n                                    Izravno od strane Ispitanika kojem Voditelj obrade pruža usluge u okviru svoje djelatnosti. Ispitanik ove informacije može dati: usmeno, pismeno ili putem Web stranice Voditelja obrade.\n                                    Kroz medicinsku i drugu dokumentaciju trećih, a koju Ispitanik stavi na raspolaganje Voditelju obrade.\n                                    Kroz medicinsku i drugu dokumentaciju Ispitanika, a koja nastane u procesu pružanja usluga iz djelatnosti Voditelja obrade (npr. dijagnostički materijal, evidencija medicinskih postupaka, lijekova, procesa itd.).\n                                    Kroz dokumentaciju trećih koji su uključeni u proces pružanja usluga Ispitaniku (npr. rezultati laboratorijskih pretraga, dentalni otisci laboratorijskih tehničara itd.).\n                                \n\n                                Prosljeđivanje osobnih podataka\n\n                                Osobni podaci Ispitanika se prosljeđuju trećima samo u svrhu:\n\n                                \n                                    ispunjenja obveza predviđenih zakonom\n                                    izvršenja pojedinih poslova za koje je Voditelj obrade angažirao treću osobu (npr. dentalni laboratorij, knjigovodstveni ured i sl.)\n                                \n\n                                Vremensko trajanje i čuvanje osobnih podataka\n\n                                \n                                    Voditelj obrade će osobne podatke Ispitanika čuvati u skladu s vremenskim rokovima propisanim Zakonom,\n                                    a ako to nije slučaj, onda samo do roka kada je njihovo čuvanje poslovno opravdano. Iznimno,\n                                    osobni podaci će se čuvati duže od tog roka ako je njihovo čuvanje uvjet za legitimnu zaštitu\n                                    interesa Voditelja obrade. Osobni podaci ispitanika se brišu protekom zakonskog roka koji\n                                    obvezuje Voditelja obrade na čuvanje pojedinih osobnih podataka ili prestankom svrhe njihova čuvanja.\n                                \n\n                                Prava Ispitanika\n\n                                \n                                    \n                                        Pravo na pristup osobnim podacima\n                                        \n                                            Voditelj obrade se obvezuje, na temelju podnesenog pisanog zahtjeva,\n                                            omogućiti Ispitaniku pristup osobnim podacima, informirati ga o svrsi obrade osobnih podataka,\n                                            o vrsti osobnih podataka koji se obrađuju, o primateljima ili kategorijama primatelja kojima su\n                                            osobni podaci otkriveni ili će im biti otkriveni, o predviđenom vremenskom razdoblju njihova\n                                            čuvanja ili o kriterijima koji se koriste za utvrđivanje tog razdoblja.\n                                        \n                                    \n\n                                    \n                                        Pravo na ispravak netočnih osobnih podataka\n                                        \n                                            Voditelj obrade je dužan omogućiti Ispitaniku ispravak netočnih ili nadopunu postojećih osobnih podataka.\n                                        \n                                    \n\n                                    \n                                        Pravo na brisanje osobnih podataka\n                                        Voditelj obrade će izvršiti brisanje osobnih podataka Ispitanika u sljedećim slučajevima:\n\n                                        \n                                            kada osobni podaci Ispitanika više nisu nužni za ispunjenje svrhe obrade, odnosno prestankom svrhe obrade\n                                            kada Ispitanik povuče privolu kao pravni temelj za obradu podataka, a ne postoji druga zakonska osnova za daljnju obradu podataka\n                                            kada Ispitanik uloži opravdan prigovor na obradu podataka\n                                            kada se osobni podaci moraju brisati radi ispunjenja zakonskih obveza\n                                        \n                                    \n\n                                    \n                                        Pravo na ograničenje obrade podataka\n                                        Voditelj obrade će ograničiti obradu osobnih podatka ukoliko je zadovoljen jedan od sljedećih uvjeta:\n\n                                        \n                                            Ispitanik osporava točnost osobnih podataka\n                                            obrada osobnih podataka je nezakonita, ali Ispitanik ne traži brisanje, već samo ograničavanje njihove obrade\n                                            Voditelj obrade više ne treba osobne podatke, ali Ispitanik traži njihovu djelomičnu obradu u svrhu zaštite svojih interesa.\n                                        \n                                    \n\n                                    \n                                        Pravo na ulaganje prigovora\n                                        \n                                            Ispitanik ima pravo na ulaganje prigovora na obradu svojih osobnih podataka.\n                                            Voditelj obrade pridržava pravo ne udovoljiti takvom prigovoru ako postoji opravdan\n                                            legitimni interes za obradu osobnih podataka ispitanika.\n                                        \n                                    \n\n                                    \n                                        Pravo na prenosivost osobnih podataka\n                                        Ispitanik ima pravo tražiti prijenos osobnih podataka drugom Voditelju obrade u sljedećim slučajevima:\n\n                                        \n                                            ako se radi o podacima koje je Voditelj obrade dobio na temelju privole koja se može opozvati,\n                                            ako je tako ugovoreno,\n                                            ako se obrada podataka provodi automatiziranim putem.\n                                        \n                                    \n\n                                    \n                                        Pravo na Zahtjev za utvrđivanje povrede prava\n                                        Ispitanik ima pravo uložiti Zahtjev za utvrđivanje povrede prava Agenciji za zaštitu osobnih podataka.\n                                    \n\n                                    \n                                        Opoziv privole\n                                        Ispitanik u svakom trenutku može povući privole za prikupljanje i obradu osobnih podataka koji nisu obuhvaćeni ovim Pravilnikom.\n                                    \n                                \n\n                                Informacije i prigovori\n\n                                \n                                    Za sva pitanja i prigovore u vezi sa zaštitom osobnih podataka od strane Voditelja obrade,\n                                    Ispitanik se može obratiti pismeno službeniku za zaštitu osobnih podataka:\n                                \n\n                                \n                                    Službenik za zaštitu osobnih podataka\n                                    Dentvitalis Fides d.o.o.\n                                    Krešimirova 60, Rijeka\n                                    dpo@dentvitalis.com\n                                \n\n                                \n                                    Sve upite i zahtjeve Voditelj obrade dužan je obraditi bez nepotrebnog odgađanja\n                                    i u skladu sa zakonom propisanim rokovima.\n                                \n\n                                Izmjene i dopune Pravilnika o postupanju s osobnim podacima\n\n                                \n                                    Voditelj obrade zadržava pravo izmijeniti i dopuniti ovaj Pravilnik u bilo kojem trenutku\n                                    i bez bilo kakve prethodne najave.\n                                \n\n                                \n                                    Dentvitalis Fides d.o.o.\n                                    U Rijeci, 25.5.2018. godine",
+    "source": {
+      "file": "reference/legal-hr/2026-09-08/polica-privatnosti.html",
+      "sha256": "c637addf7e6d5fd5df20db1ff412a9a72ff0a7814f4080d91e2ac6c0e362c036",
+      "url": "https://www.dentvitalis.com/hr/polica-privatnosti",
+      "retrievedAt": "2026-09-08",
+      "approval": "review"
+    }
+  },
+  {
+    "route": "/hr/uvjeti-koristenja",
+    "title": "Uvjeti korištenja",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ovime se definiraju uvjeti korištenja web stranice www.dentvitalis.com (u daljnjem tekstu: Stranica). Vlasnik sadržaja Stranice je Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Rijeka, Hrvatska. Ukoliko niste suglasni s jednom ili više odredbi ovih Uvjeta, molimo vas da Stranicu napustite i više je ne koristite."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "Sve stomatološke usluge objavljene na ovoj Stranici pruža, u svoje ime i za svoj račun, Dentvitalis Fides d.o.o. (u daljnjem tekstu: DVF)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "1. Sve informacije koje se odnose na stomatološke usluge navedene na Stranici, kao i pripadajuće cijene i rokovi njihova izvršenja, isključivo su informativnog karaktera i ne mogu biti zamjena za plan terapije koji se svakom pojedinom pacijentu predaje nakon obavljenog pregleda od strane liječnika u ordinacijama DVF-a."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "2. Plan terapije i pripadajuća financijska ponuda dostavljena pacijentu putem e-maila ili na neki drugi način su isključivo informativnog karaktera s obzirom na to da se iste formiraju na temelju nepotpunih podataka, a prije svega bez pregleda samog pacijenta u ordinacijama DVF-a."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "3. Sadržaj ove Stranice podložan je promjeni bez prethodne, pismene ili usmene, najave korisnicima."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "4. Sav sadržaj Stranice, uključujući i dizajn, intelektualno je vlasnostvo Dentvitalisa Fides d.o.o. i kao takvo ne može biti korišteno bez njegove prethodne pismene suglasnosti."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "5. Sve eventualne poveznice (tzv. linkove) na druge web stranice navedene su isključivo s ciljem boljeg informiraja korisnika i u dobroj namjeri. To isključuje bilo kakvu odgovornost DVF-a za sadržaj istih."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "strong",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Odricanje od odgovornosti"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF se odriče odgovornosti za bilo kakvu eventualnu materijalnu i/ili nematerijalnu štetu koja bi po korisnika mogla nastati korištenjem ove Stranice. Svi podaci, informacije i poveznice su pružene u najboljoj namjeri i s ciljem što boljeg informiranja korisnika."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF nije odgovoran za greške do kojih je došlo prilikom izrade Stranice i unosa podataka."
+          }
+        ]
+      }
+    ],
+    "sourceText": "Uvjeti korištenja\n\n                        \n                            Ovime se definiraju uvjeti korištenja web stranice www.dentvitalis.com (u daljnjem tekstu: Stranica). Vlasnik sadržaja Stranice je Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Rijeka, Hrvatska. Ukoliko niste suglasni s jednom ili više odredbi ovih Uvjeta, molimo vas da Stranicu napustite i više je ne koristite.\n\n                           Sve stomatološke usluge objavljene na ovoj Stranici pruža, u svoje ime i za svoj račun, Dentvitalis Fides d.o.o. (u daljnjem tekstu: DVF).\n\n                            1. Sve informacije koje se odnose na stomatološke usluge navedene na Stranici, kao i pripadajuće cijene i rokovi njihova izvršenja, isključivo su informativnog karaktera i ne mogu biti zamjena za plan terapije koji se svakom pojedinom pacijentu predaje nakon obavljenog pregleda od strane liječnika u ordinacijama DVF-a.\n\n                            2. Plan terapije i pripadajuća financijska ponuda dostavljena pacijentu putem e-maila ili na neki drugi način su isključivo informativnog karaktera s obzirom na to da se iste formiraju na temelju nepotpunih podataka, a prije svega bez pregleda samog pacijenta u ordinacijama DVF-a.\n\n                            3. Sadržaj ove Stranice podložan je promjeni bez prethodne, pismene ili usmene, najave korisnicima.\n\n                            4. Sav sadržaj Stranice, uključujući i dizajn, intelektualno je vlasnostvo Dentvitalisa Fides d.o.o. i kao takvo ne može biti korišteno bez njegove prethodne pismene suglasnosti.\n\n                            5. Sve eventualne poveznice (tzv. linkove) na druge web stranice navedene su isključivo s ciljem boljeg informiraja korisnika i u dobroj namjeri. To isključuje bilo kakvu odgovornost DVF-a za sadržaj istih.\n\n                            Odricanje od odgovornosti\n\n                            DVF se odriče odgovornosti za bilo kakvu eventualnu materijalnu i/ili nematerijalnu štetu koja bi po korisnika mogla nastati korištenjem ove Stranice. Svi podaci, informacije i poveznice su pružene u najboljoj namjeri i s ciljem što boljeg informiranja korisnika.\n\n                            DVF nije odgovoran za greške do kojih je došlo prilikom izrade Stranice i unosa podataka.",
+    "source": {
+      "file": "reference/legal-hr/2026-09-08/uvjeti-koristenja.html",
+      "sha256": "f9ed8c264ae58ecfd3f7c2462c74160b3f0212580ea1596f1fc72959dca1b9bd",
+      "url": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
+      "retrievedAt": "2026-09-08",
+      "approval": "review"
+    }
+  }
+]

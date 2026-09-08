@@ -1,0 +1,86 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Hero from '../components/home/Hero.astro';
+import { clinic, contactCopy as itContactCopy } from '../content/site';
+import { contactCopy as hrContactCopy } from '../content/hr/site';
+import * as it from '../content/home';
+import * as hr from '../content/hr/home';
+import { plain } from '../content/seo';
+
+import { homeQuestions as itQuestions } from '../content/faq';
+import SectionHeading from '../components/SectionHeading.astro';
+import TeaserSequence from '../components/home/TeaserSequence.astro';
+import Welcome from '../components/home/Welcome.astro';
+import Testimonials from '../components/home/Testimonials.astro';
+import Information from '../components/home/Information.astro';
+import HomeFAQ from '../components/home/HomeFAQ.astro';
+import ContactSection from '../components/ContactSection.astro';
+import VideoPosterPreload from '../components/VideoPosterPreload.astro';
+import { heroVideos } from '../content/background-videos';
+interface Props {
+  lang?: 'it' | 'hr';
+}
+const { lang = 'it' } = Astro.props;
+const { home, services, aboutCards, welcome, testimonials, informationCards } =
+  lang === 'hr' ? hr : it;
+const questions = lang === 'hr' ? hr.homeQuestions : itQuestions;
+const contactCopy = lang === 'hr' ? hrContactCopy : itContactCopy;
+const seoQuestions =
+  lang === 'hr'
+    ? hr.homeQuestions.map((q) => ({
+        question: q.question,
+        answer: plain(q.richAnswer),
+      }))
+    : itQuestions.map((q) => ({
+        question: q.question,
+        answer: q.answer.map((a) => (a.break ? '\n' : (a.text ?? ''))).join(''),
+      }));
+---
+
+<SiteLayout
+  {...home.metadata}
+  lang={lang}
+  canonical={`https://www.dentvitalis.com${lang === 'hr' ? '/hr/' : '/'}`}
+  seo={{ questions: seoQuestions }}
+>
+  <Fragment slot="head">
+    <VideoPosterPreload {...heroVideos.desktop} />
+    <VideoPosterPreload {...heroVideos.mobile} />
+  </Fragment>
+  <Hero
+    price={clinic.premiumPrice}
+    benefits={home.benefits}
+    maps={clinic.maps}
+    content={home.hero}
+  />
+  <section class="intro-section">
+    <SectionHeading {...home.intro} variant="intro" />
+  </section>
+  <TeaserSequence
+    cards={services}
+    variant="service"
+    label={lang === 'hr' ? 'Usluge' : 'Prestazioni'}
+  />
+  <Welcome content={welcome} />
+  <section>
+    <SectionHeading {...home.about} /><TeaserSequence
+      cards={aboutCards}
+      variant="about"
+      label={home.about.eyebrow}
+    />
+  </section>
+  <Testimonials
+    heading={home.testimonials}
+    slides={testimonials}
+    actions={home.testimonialActions}
+    photo={home.testimonialPhoto}
+    lang={lang}
+  />
+  <Information
+    heading={home.information}
+    cards={informationCards}
+    action={home.informationAction}
+  />
+  <HomeFAQ heading={home.faq} questions={questions} action={home.faqAction} />
+  <ContactSection content={contactCopy} lang={lang} />
+</SiteLayout>
