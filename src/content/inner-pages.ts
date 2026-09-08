@@ -1,6 +1,7 @@
 import data from './inner-pages-it.json';
 import { bindReferenceBusiness } from './reference-bindings';
 import { completeRelatedServices } from './related-services';
+import { labelParkingLinks } from './parking-link-labels';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -118,12 +119,18 @@ export interface InnerPage {
 }
 // A generated transcription, not an approved production content database.
 export const innerPages = completeRelatedServices(
-  (data as InnerPage[]).map((page) =>
-    ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
-      page.route,
+  (data as InnerPage[])
+    .map((page) =>
+      ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
+        page.route,
+      )
+        ? page
+        : bindReferenceBusiness(page),
     )
-      ? page
-      : bindReferenceBusiness(page),
-  ),
+    .map((page) =>
+      page.route === '/su-di-noi/come-raggiungerci'
+        ? { ...page, blocks: labelParkingLinks(page.blocks, 'it') }
+        : page,
+    ),
   '/prestazioni-dentali',
 );

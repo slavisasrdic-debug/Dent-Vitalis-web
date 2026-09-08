@@ -52,6 +52,7 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
 }) => {
   test.setTimeout(90000);
   const bodies = new Map<string, string>();
+  const pageLinks = new Map<string, string[]>();
   const titles = new Set<string>();
   const descriptions = new Set<string>();
   for (const route of routes) {
@@ -102,6 +103,7 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
       await response.text(),
     );
     bodies.set(route.id, normalize(data.body));
+    pageLinks.set(route.id, data.links);
     expect(data.h1, route.hr).toBe(1);
     expect(data.emptySidebars, route.hr).toBe(0);
     expect(data.lang).toBe('hr');
@@ -155,6 +157,12 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     for (const paragraph of table.rows!.flatMap((r) => r[1] ?? [])) {
       const text = normalize(paragraph.text);
       if (!text || /^Hrvatskine$|^Nemaprijevoda/.test(text)) continue;
+      if (paragraph.id === 't8.r2.c1.p3') {
+        // User-approved label replaces the visible URL, not its destination.
+        expect(bodies.get(id)).toContain(normalize('Lokacija parkirališta'));
+        expect(pageLinks.get(id)).toContain(text);
+        continue;
+      }
       if (!bodies.get(id)?.includes(text))
         missing.push(`${paragraph.id}: ${paragraph.text.slice(0, 80)}`);
     }

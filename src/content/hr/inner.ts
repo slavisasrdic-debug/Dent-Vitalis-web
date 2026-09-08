@@ -22,6 +22,7 @@ import { labels, label, navigation } from './site';
 import { services, aboutCards } from './home';
 import { alt } from './assets';
 import { specialPages } from './special';
+import { labelParkingLinks } from '../parking-link-labels';
 
 function base(id: string, title: string, description: string): InnerPage {
   const original = italianPages.find((p) => p.route === italianRoute(id))!;
@@ -97,7 +98,7 @@ function add(
   blocks: ContentBlock[],
 ) {
   const page = base(id, title, description);
-  page.blocks = blocks;
+  page.blocks = id === 'directions' ? labelParkingLinks(blocks, 'hr') : blocks;
   pages.push(page);
   return page;
 }
