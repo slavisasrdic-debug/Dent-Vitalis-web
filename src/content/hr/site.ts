@@ -88,6 +88,11 @@ export const navigationLinks = [
       ? { ...link(id), label: labels.testimonials.split(' ')[0]! }
       : link(id),
 );
+// Legal sidebars and the footer share the same approved labels and destinations.
+export const legalNavigation = {
+  title: 'Pravne informacije',
+  links: [link('privacy'), link('terms')],
+};
 export const footerGroups = [
   ...navigation.map((g) => ({
     title: g.label,
@@ -128,9 +133,8 @@ export const footerGroups = [
     legal: false,
   },
   {
-    title: 'Pravne informacije',
+    ...legalNavigation,
     href: '',
-    links: [link('privacy'), link('terms')],
     legal: true,
   },
 ];

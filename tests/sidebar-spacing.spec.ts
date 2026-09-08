@@ -16,10 +16,8 @@ const consumers = sourcePages
   .filter((entry) => entry.sidebar)
   .flatMap((entry) => {
     const translated = translations.find((row) => row[1] === entry.route);
-    // Approved HR legal sources have no sidebar, unlike the Italian sources.
     const routes = [entry.route];
-    if (translated && entry.typography !== 'reference-default')
-      routes.push(translated[2]!);
+    if (translated) routes.push(translated[2]!);
     return routes.map((route) => ({ route, type: entry.sidebar!.type }));
   });
 

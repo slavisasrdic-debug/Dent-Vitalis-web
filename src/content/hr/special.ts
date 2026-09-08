@@ -6,7 +6,7 @@ import {
 } from '../inner-pages';
 import legal from './legal.json';
 import { t, text, bilingual, inline, row, ref, p, h, group } from './source';
-import { labels } from './site';
+import { labels, legalNavigation } from './site';
 import { flatten, plain } from '../seo';
 
 interface Special {
@@ -45,6 +45,24 @@ const sidebar = (
     smallLabelSpan: 2,
   })),
 });
+
+// Page-to-page navigation, not a table of contents derived from legal headings.
+// Keep the same desktop/mobile placement and item spans as the Italian variant.
+const legalSidebar: PageSidebar = {
+  type: 'navigation',
+  title: legalNavigation.title,
+  secondary: '',
+  introduction: '',
+  mobilePlacement: 'before',
+  position: 'after',
+  items: legalNavigation.links.map((item) => ({
+    ...item,
+    icon: false,
+    note: false,
+    labelSpan: 1,
+    smallLabelSpan: 1,
+  })),
+};
 
 const galleryReference = innerPages.find(
   (p) => p.route === '/domande-e-risposte',
@@ -227,13 +245,6 @@ export const specialPages: Special[] = [
   },
   ...legal.map((page, i) => {
     const blocks = structuredClone(page.blocks) as ContentBlock[];
-    const headings = flatten(blocks).filter(
-      (b): b is Extract<ContentBlock, { type: 'heading' }> =>
-        b.type === 'heading',
-    );
-    headings.forEach((heading, i) => {
-      heading.id = `odjeljak-${i + 1}`;
-    });
     function localLinks(value: unknown): void {
       if (!value || typeof value !== 'object') return;
       if (
@@ -261,15 +272,7 @@ export const specialPages: Special[] = [
         .replace(/\s+/g, ' ')
         .split(/(?<=[.!?])\s+/)[0]!,
       blocks,
-      ...(headings.length
-        ? {
-            sidebar: sidebar(
-              page.title,
-              headings.map((h) => [plain(h.content), h.id!]),
-              'before',
-            ),
-          }
-        : {}),
+      sidebar: legalSidebar,
       source: page.source as InnerPage['source'],
     };
   }),

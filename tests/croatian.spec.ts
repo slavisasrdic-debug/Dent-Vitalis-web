@@ -184,7 +184,7 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     const sourceText = normalize(source.sourceText);
     const sourceTitle = normalize(source.title);
     expect(sourceText.startsWith(sourceTitle)).toBe(true);
-    // The source H1 is rendered by DetailHero, not duplicated as a sidebar.
+    // DetailHero renders the source H1; the legal article itself is unchanged.
     expect(bodies.get(i === 0 ? 'privacy' : 'terms')).toContain(
       sourceText.slice(sourceTitle.length),
     );

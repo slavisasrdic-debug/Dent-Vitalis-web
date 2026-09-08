@@ -59,7 +59,7 @@ Regresije su u `tests/initial-images.spec.ts`: prvi ekran svih 55 IT/HR ruta, ak
 
 Talijanski footer ostaje referentno transkribiran u JSON-u; `content/site.ts` eksplicitno ispravlja jedini nepostojeći interni fragment „Recensioni post-trattamento” s `/testimonianze#dentvitalis` na već postojeći izvorni `/testimonianze#post`. To nije promjena javnog sluga, teksta niti produkcijska redirekcija. HR footer već koristi `#post`.
 
-HR pravni izvori nemaju podnaslove iz kojih bi nastala bočna navigacija. Te stranice zato ne renderiraju praznu karticu s ponovljenim naslovom; tekst i desktop širina članka ostaju sačuvani. Ovo nije izmišljena navigacijska struktura pravnog teksta.
+HR pravne stranice `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja` na zahtjev korisnika koriste postojeći `PageSidebar`, varijantu `legal`, kao talijanski ekvivalenti. To je navigacija između dviju stranica, ne sadržaj članka generiran iz podnaslova. `content/hr/site.ts → legalNavigation` centralizira naslov „Pravne informacije”, postojeće nazive i potvrđene URL-ove za sidebar i footer. `content/hr/special.ts → legalSidebar` postavlja referentne item spanove i raspored: desno na ≥992px, iznad članka na ≤991px. `current` označava aktivnu stranicu s `aria-current="page"`; poveznice rade bez JS-a. Pravni tekst, hero i širina članka nisu izmijenjeni. Regresije: `tests/legal-sidebar.spec.ts`, `tests/sidebar-spacing.spec.ts` i postojeća provjera izvornog HR teksta.
 
 ## Tri razine
 
