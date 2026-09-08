@@ -15,6 +15,7 @@
   --container-max: 1200px;
   --page-gutter: 5%;
   --header-height: 70px;
+  --sidebar-heading-gap: 16px; /* User-approved compact title/list spacing. */
   --z-header: 999;
   /* Shared reveal controls. Times are milliseconds, offsets are viewport-height %.
      out-quart selects the exact reference preset; native CSS easing also works.

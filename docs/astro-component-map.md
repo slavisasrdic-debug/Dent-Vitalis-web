@@ -65,6 +65,8 @@ Motion: `sidebar` profil prenosi desktop delay 1000ms/offset 0 iz IX2, na mobite
 
 Mobilni redoslijed: navigacijski sidebar iza članka na 17 standardnih informativnih/o-klinici i posebnih stranica; paketi, pravne stranice i testimonials prije članka. Točan per-route podatak je `sidebar.mobilePlacement`, provjeren prema renderiranoj referenci, ne samo redoslijedu HTML-a.
 
+Korisnički dodatak za razmake sidebara (8. rujna 2026.): zajednički `PageSidebar` u svim jezicima koristi `--sidebar-heading-gap: 16px` iz `tokens.css`, umjesto izvornih 52px (standard/testimonials) i 32px (legal). Uz postojeći gornji padding stavke od 10px, vidljivi naslov je bliži sadržaju nego gornjem rubu kartice (40px desktop/tablet, 30px mali mobitel). Vanjski padding, tipografija, redoslijed i stavke ostaju nepromijenjeni. `package` zadržava vlastiti nulti odmak i uvodni tekst; mobilni `testimonials` ne ostavlja prazni odmak iza već skrivenog naslova. Namjerno odstupanje od reference vrijedi za sve sadašnje i buduće jezične potrošače, bez lokalizacijskog CSS-a ili novog JS-a.
+
 Dodatne potvrđene razlike varijanti:
 
 - `DirectoryCard.mobilePosition` transkribira crop svakog mobilnog img-a; drugi i četvrti koriste 80% na ≤479px, a tablet 100%. `showArrow` čuva odsutnost vidljive strelice na kartici sedacije. `actionLayout: wide-arrow` (lista usluga) ima 44px strelicu i 14px odmak na ≤479px te bottom alignment; `standard` (Su di noi / Informazioni) i home čuvaju 40px varijantu. Directory price padding je 10px od 480px naviše; home breakpoint se time ne mijenja.

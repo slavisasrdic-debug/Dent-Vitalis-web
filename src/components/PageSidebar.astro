@@ -87,10 +87,7 @@ const { content, current, variant = 'standard' } = Astro.props;
     font-weight: 600;
   }
   .sidebar-heading {
-    margin-bottom: 52px;
-  }
-  .legal .sidebar-heading {
-    margin-bottom: 32px;
+    margin-bottom: var(--sidebar-heading-gap);
   }
   .item {
     display: grid;
@@ -156,6 +153,9 @@ const { content, current, variant = 'standard' } = Astro.props;
     }
     .testimonials .sidebar-heading h2 {
       display: none;
+    }
+    .testimonials .sidebar-heading {
+      margin-bottom: 0;
     }
     .testimonials {
       padding-top: 0;
