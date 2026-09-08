@@ -1,0 +1,569 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:33:51.116Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Primary Italian original rich text",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba87c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Primary Italian original rich text",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba87c",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "7513ce3d-bbc6-d394-0a6f-1c43fb6f7e96",
+            "text": {
+              "html": "<p class=\"banner-paragraph\"><strong class=\"podebljano\" data-w-id=\"7513ce3d-bbc6-d394-0a6f-1c43fb6f7e97\">Pacchetto Premium</strong> dai migliori dentisti in Croazia</p>",
+              "text": "Pacchetto Premium dai migliori dentisti in Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7513ce3d-bbc6-d394-0a6f-1c43fb6f7e9a",
+            "text": {
+              "html": "<h1 class=\"heading\"><strong data-w-id=\"7513ce3d-bbc6-d394-0a6f-1c43fb6f7e9b\">Prezzo fisso a 4.990€</strong>, nessun limite di impianti</h1>",
+              "text": "Prezzo fisso a 4.990€, nessun limite di impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57ac",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57ad",
+            "text": {
+              "html": "<div class=\"text-block-9\">Ponte fisso su impianti</div>",
+              "text": "Ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e4c130a8-d368-e266-6b81-b0bc0dfdf817",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e4c130a8-d368-e266-6b81-b0bc0dfdf818",
+            "text": {
+              "html": "<div class=\"text-block-9\">Senza costi aggiuntivi</div>",
+              "text": "Senza costi aggiuntivi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57b0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57b1",
+            "text": {
+              "html": "<div class=\"text-block-9\">Alloggio in clinica</div>",
+              "text": "Alloggio in clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57b4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57b5",
+            "text": {
+              "html": "<div class=\"text-block-9\">Documenti in italiano per l'IRPEF</div>",
+              "text": "Documenti in italiano per l'IRPEF"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57b8",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dc68493e-aa1d-3b37-c87e-efe2df3b57b9",
+            "text": {
+              "html": "<div class=\"text-block-9\">Garanzia inclusa</div>",
+              "text": "Garanzia inclusa"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7d14103c-635c-ae6e-f485-2601a7d6f3cb",
+            "text": {
+              "html": "<div class=\"button-text-block\">Maggiori informazioni</div>",
+              "text": "Maggiori informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7d14103c-635c-ae6e-f485-2601a7d6f3ce",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m13 6l6 6l-6 6M5 6l6 6l-6 6\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ec8050a0-776f-b726-126d-1b3aaa376df2",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "04df8a31-2925-586a-4f3d-99671f072636",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0a90ab12-2281-4c83-4a74-98b853ac0d7e",
+            "text": {
+              "html": "<div class=\"text-block-9\">Ponte fisso su impianti</div>",
+              "text": "Ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e3771198-23d7-48e1-2650-8d42f0d8a433",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e3771198-23d7-48e1-2650-8d42f0d8a434",
+            "text": {
+              "html": "<div class=\"text-block-9\">Senza costi aggiuntivi</div>",
+              "text": "Senza costi aggiuntivi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "5f6625cd-3014-cc0d-5d13-273eb65ff561",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0a90ab12-2281-4c83-4a74-98b853ac0d82",
+            "text": {
+              "html": "<div class=\"text-block-9\">Alloggio in clinica</div>",
+              "text": "Alloggio in clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "86794caa-5b74-9299-18dd-96d861279017",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0a90ab12-2281-4c83-4a74-98b853ac0d86",
+            "text": {
+              "html": "<div class=\"text-block-9\">Documenti in italiano per l'IRPEF</div>",
+              "text": "Documenti in italiano per l'IRPEF"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e8ab647f-7dff-a241-ced9-95ce70bd0e3c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0a90ab12-2281-4c83-4a74-98b853ac0d8a",
+            "text": {
+              "html": "<div class=\"text-block-9\">Garanzia inclusa</div>",
+              "text": "Garanzia inclusa"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0a90ab12-2281-4c83-4a74-98b853ac0d8e",
+            "text": {
+              "html": "<div class=\"button-text-block\">Maggiori informazioni</div>",
+              "text": "Maggiori informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a96f7d2c-405f-5331-f945-f6e0128e89ac",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m13 6l6 6l-6 6M5 6l6 6l-6 6\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6eb75b0e-231b-7e70-8326-eb772b8c8d33",
+            "text": {
+              "html": "<div class=\"nadnaslov\">A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.</div>",
+              "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6eb75b0e-231b-7e70-8326-eb772b8c8d35",
+            "text": {
+              "html": "<h2 class=\"medjunaslov-h2\"><strong class=\"bold-text-5\" data-w-id=\"4bbc44b3-7901-1f4f-29cc-c348c5d84f2b\">Grandi risparmi</strong> senza rinunciare alla massima qualità</h2>",
+              "text": "Grandi risparmi senza rinunciare alla massima qualità"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9c53a310-f6d3-5353-2e81-56655663a8fc",
+            "text": {
+              "html": "<p class=\"huge-paragraph\">Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.</p>",
+              "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c659",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a953ff4e6702cd213b533f4"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f303e6bf-cfc8-99b0-29ac-65f33ca58300",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f303e6bf-cfc8-99b0-29ac-65f33ca58302",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba882\">Imperdibile: protesi definitiva ancorata su 4 impianti</a>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f303e6bf-cfc8-99b0-29ac-65f33ca58304",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.</p>",
+              "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f303e6bf-cfc8-99b0-29ac-65f33ca58308",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Prezzo fisso a 2.990&nbsp;€</div>",
+              "text": "Prezzo fisso a 2.990 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "9e851f5d-9710-10dd-36f2-b5306c635038",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c666",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6984a8dc78c36eec8608ba1a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "127d4d8e-4fe2-d69e-88ee-ef5f9ab02a53",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "127d4d8e-4fe2-d69e-88ee-ef5f9ab02a55",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba884\">Premium: ponte fisso su impianti</a>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "127d4d8e-4fe2-d69e-88ee-ef5f9ab02a57",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.</p>",
+              "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "127d4d8e-4fe2-d69e-88ee-ef5f9ab02a5b",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Prezzo fisso a 4.990&nbsp;€</div>",
+              "text": "Prezzo fisso a 4.990 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "de2baf71-fa2c-39b0-0be2-3bbd00f8e657",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c673",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8c2503b7b2acbbadcc16fe"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4682a337-ed53-7b76-19d9-4d595dd8b45b",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4682a337-ed53-7b76-19d9-4d595dd8b45d",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba885\">Facilissimo: sbiancamento dei denti</a>",
+              "text": "Facilissimo: sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4682a337-ed53-7b76-19d9-4d595dd8b45f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.</p>",
+              "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4682a337-ed53-7b76-19d9-4d595dd8b463",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"4682a337-ed53-7b76-19d9-4d595dd8b464\">Prezzo fisso a 250&nbsp;€</strong></div>",
+              "text": "Prezzo fisso a 250 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "743a6c9b-58bd-cb45-d300-d2b76de4c913",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c680",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69849ab9a25dbcc5928bede2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a835c079-7d9c-f321-d56f-c0635fc6af30",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Sostituzione perfetta dei denti naturali</div>",
+              "text": "Sostituzione perfetta dei denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a835c079-7d9c-f321-d56f-c0635fc6af32",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba886\">Corone, faccette, ponti e protesi</a>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a835c079-7d9c-f321-d56f-c0635fc6af34",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.</p>",
+              "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a835c079-7d9c-f321-d56f-c0635fc6af38",
+            "text": {
+              "html": "<div class=\"cijena-velika\">A partire da 220&nbsp;€</div>",
+              "text": "A partire da 220 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "9f4d8910-3304-fc68-6fab-36b0cf9b7c4d",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c68d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e8253f93ce4afce97988"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c68e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86c287a427020a8631b10c"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c68f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8c26f50fa9581e69bf6112"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d5b0362-fcf9-1bb1-7bac-eb8ab173c690",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69849ab9a25dbcc5928bede2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "587b085b-0eb5-6f0e-763d-212fecd90523",
+            "componentId": "587b085b-0eb5-6f0e-763d-212fecd904e0",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "2fd0e3c5-0033-c434-d6ad-8a8123add2d6",
+            "componentId": "48eb149b-bbbd-805c-69ed-1266a634337f",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c3a2",
+            "componentId": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3ca9",
+            "componentId": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "a1d38355-7824-9cfa-7e1e-21ca2689554d",
+            "componentId": "2218f1d9-b81b-56c5-3884-620b224831a9",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23de4",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d334a7",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e769",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "1b710e68-38ef-1a3b-db46-5efe98f74ef0",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 68
+        },
+        "lastUpdated": "2026-09-04T13:36:47.791Z"
+      }
+    }
+  ]
+}

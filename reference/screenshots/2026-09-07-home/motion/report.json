@@ -1,0 +1,4946 @@
+{
+  "capturedAt": "2026-09-07T11:00:35.197Z",
+  "browser": "151.0.7922.34",
+  "runs": [
+    {
+      "name": "webflow",
+      "width": 1440,
+      "initialVideo": [
+        {
+          "time": 2.329381,
+          "paused": false,
+          "muted": true,
+          "readyState": 4
+        },
+        {
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "readyState": 4
+        }
+      ],
+      "finalVideo": [
+        {
+          "time": 3.965978,
+          "paused": true
+        },
+        {
+          "time": 0,
+          "paused": true
+        }
+      ],
+      "heroAfterReverse": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "errors": [],
+      "frames": [
+        {
+          "y": 0,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0.7176",
+              "transform": "matrix(1.05648, 0, 0, 1.05648, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0.583",
+              "transform": "matrix(1.0834, 0, 0, 1.0834, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0.1034",
+              "transform": "matrix(1.17932, 0, 0, 1.17932, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0.7084",
+              "transform": "matrix(1.05832, 0, 0, 1.05832, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0.4694",
+              "transform": "matrix(1.10612, 0, 0, 1.10612, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0.1564",
+              "transform": "matrix(1.16872, 0, 0, 1.16872, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "0.7016",
+              "transform": "matrix(1.05968, 0, 0, 1.05968, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "0.5702",
+              "transform": "matrix(1.08596, 0, 0, 1.08596, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "0.1536",
+              "transform": "matrix(1.16928, 0, 0, 1.16928, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "0",
+              "transform": "matrix(1.18131, 0, 0, 1.18131, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "0",
+              "transform": "matrix(1.1146, 0, 0, 1.1146, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "0",
+              "transform": "matrix(1.07938, 0, 0, 1.07938, 0, 0)"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "astro",
+      "width": 1440,
+      "initialVideo": [
+        {
+          "time": 2.411899,
+          "paused": false,
+          "muted": true,
+          "readyState": 4
+        },
+        {
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "readyState": 4
+        }
+      ],
+      "finalVideo": [
+        {
+          "time": 3.94974,
+          "paused": true
+        },
+        {
+          "time": 0,
+          "paused": true
+        }
+      ],
+      "heroAfterReverse": {
+        "opacity": "1",
+        "transform": "none"
+      },
+      "errors": [],
+      "frames": [
+        {
+          "y": 0,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0.700993",
+              "transform": "matrix(1.0598, 0, 0, 1.0598, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0.464636",
+              "transform": "matrix(1.10707, 0, 0, 1.10707, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0.153367",
+              "transform": "matrix(1.16933, 0, 0, 1.16933, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0.700135",
+              "transform": "matrix(1.05997, 0, 0, 1.05997, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0.464087",
+              "transform": "matrix(1.10718, 0, 0, 1.10718, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0.153015",
+              "transform": "matrix(1.1694, 0, 0, 1.1694, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0.699396",
+              "transform": "matrix(1.06012, 0, 0, 1.06012, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0.37978",
+              "transform": "matrix(1.12404, 0, 0, 1.12404, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0.0990591",
+              "transform": "matrix(1.18019, 0, 0, 1.18019, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.14572, 0, 0, 1.14572, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.09338, 0, 0, 1.09338, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.2, 0, 0, 1.2, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "0",
+              "transform": "matrix(1.05912, 0, 0, 1.05912, 0, 0)"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "webflow",
+      "width": 390,
+      "initialVideo": [
+        {
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "readyState": 4
+        },
+        {
+          "time": 2.411226,
+          "paused": false,
+          "muted": true,
+          "readyState": 4
+        }
+      ],
+      "finalVideo": [
+        {
+          "time": 0,
+          "paused": true
+        },
+        {
+          "time": 3.880634,
+          "paused": true
+        }
+      ],
+      "heroAfterReverse": {
+        "opacity": "1",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "errors": [],
+      "frames": [
+        {
+          "y": 0,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3800,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3900,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4000,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4100,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4200,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4300,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4400,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4500,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4600,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4700,
+          "images": [
+            {
+              "class": "teaser-img _1",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _2",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _3",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "teaser-img _4",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "astro",
+      "width": 390,
+      "initialVideo": [
+        {
+          "time": 0,
+          "paused": true,
+          "muted": true,
+          "readyState": 4
+        },
+        {
+          "time": 2.269257,
+          "paused": false,
+          "muted": true,
+          "readyState": 4
+        }
+      ],
+      "finalVideo": [
+        {
+          "time": 0,
+          "paused": true
+        },
+        {
+          "time": 3.660256,
+          "paused": true
+        }
+      ],
+      "heroAfterReverse": {
+        "opacity": "1",
+        "transform": "none"
+      },
+      "errors": [],
+      "frames": [
+        {
+          "y": 0,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 1900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 2900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3800,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 3900,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4000,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4100,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4200,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4300,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4400,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4500,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4600,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        },
+        {
+          "y": 4700,
+          "images": [
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "sequence-image",
+              "opacity": "1",
+              "transform": "none"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

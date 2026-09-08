@@ -1,0 +1,188 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:19.564Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 696f4a9a3d82954cb43ac683",
+        "get_page_content": {
+          "page_id": "696f4a9a3d82954cb43ac683",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 696f4a9a3d82954cb43ac683",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "696f4a9a3d82954cb43ac683",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58cd",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"f0e8c199-3575-b9e0-e6bf-c647ba9c58ce\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d0",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d2",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"13b309a8-9268-6f01-61a2-ec3fc615c914\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d4",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d6",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Trasporto</h6>",
+              "text": "Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b94651",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a95368852587a66accde9ef"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b94659",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Trasporto</h1>",
+              "text": "Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b9465b",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Ti siamo accanto fin dal primo momento, già dalla tua partenza dall’Italia.</p>",
+              "text": "Ti siamo accanto fin dal primo momento, già dalla tua partenza dall’Italia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "e97da5a4-ccd6-5e76-4bd1-397c08914758",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per rendere il tuo viaggio verso la clinica ancora più semplice e comodo, ti offriamo un servizio di trasporto privato e personalizzato da Trieste, organizzato in base alle tue esigenze.</p>",
+              "text": "Per rendere il tuo viaggio verso la clinica ancora più semplice e comodo, ti offriamo un servizio di trasporto privato e personalizzato da Trieste, organizzato in base alle tue esigenze."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Destinazione</p>",
+              "text": "Destinazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il nostro autista di fiducia, con anni di esperienza e perfetta conoscenza della lingua italiana, ti accoglierà all’aeroporto di Ronchi dei Legionari o alla Stazione Centrale di Trieste, in base al mezzo con cui arrivi.\n\nIl trasferimento viene organizzato in anticipo e in base al tuo orario di arrivo: il nostro autista ti aspetterà all’orario concordato, così non dovrai preoccuparti di attese o di organizzare autonomamente il trasferimento. Viaggerai a bordo di un’auto moderna e confortevole, per raggiungere la nostra clinica in modo comodo, sicuro e puntuale.</p>",
+              "text": "Il nostro autista di fiducia, con anni di esperienza e perfetta conoscenza della lingua italiana, ti accoglierà all’aeroporto di Ronchi dei Legionari o alla Stazione Centrale di Trieste, in base al mezzo con cui arrivi.\n\nIl trasferimento viene organizzato in anticipo e in base al tuo orario di arrivo: il nostro autista ti aspetterà all’orario concordato, così non dovrai preoccuparti di attese o di organizzare autonomamente il trasferimento. Viaggerai a bordo di un’auto moderna e confortevole, per raggiungere la nostra clinica in modo comodo, sicuro e puntuale."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Orari</p>",
+              "text": "Orari"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il servizio di trasporto viene organizzato individualmente in base agli orari di arrivo e di partenza del paziente. Concordiamo in anticipo l’orario di prelievo a Trieste, tenendo conto sia del momento in cui arrivi, sia dell’orario in cui dovrai ripartire per proseguire il tuo viaggio.\n\nIn questo modo, il trasferimento da e verso la clinica viene organizzato in funzione del tuo itinerario, senza inutili attese e con la massima comodità.</p>",
+              "text": "Il servizio di trasporto viene organizzato individualmente in base agli orari di arrivo e di partenza del paziente. Concordiamo in anticipo l’orario di prelievo a Trieste, tenendo conto sia del momento in cui arrivi, sia dell’orario in cui dovrai ripartire per proseguire il tuo viaggio.\n\nIn questo modo, il trasferimento da e verso la clinica viene organizzato in funzione del tuo itinerario, senza inutili attese e con la massima comodità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 19
+        },
+        "lastUpdated": "2026-08-31T14:00:45.677Z"
+      }
+    }
+  ]
+}

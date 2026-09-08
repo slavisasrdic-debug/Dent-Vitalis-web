@@ -1,0 +1,560 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:48.212Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba88c",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba88c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba88c",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba88c",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "cf0d9aff-7f18-3843-965e-45ad0127b8eb",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"cf0d9aff-7f18-3843-965e-45ad0127b8ec\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cf0d9aff-7f18-3843-965e-45ad0127b8ee",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cf0d9aff-7f18-3843-965e-45ad0127b8f0",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/chi-siamo\" data-w-id=\"f0d725cd-451b-e68d-0372-5944b03463ab\">Su di noi</a></h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cf0d9aff-7f18-3843-965e-45ad0127b8f2",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cf0d9aff-7f18-3843-965e-45ad0127b8f4",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Materiali e apparecchiature</h6>",
+              "text": "Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "e4fc113d-6585-ed5b-aa0d-195901ede0b3",
+            "image": {
+              "alt": "Materiali e apparecchiature",
+              "assetId": "6a86e2fe3a09a609c87955c2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e4fc113d-6585-ed5b-aa0d-195901ede0bb",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Materiali e apparecchiature</h1>",
+              "text": "Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e4fc113d-6585-ed5b-aa0d-195901ede0bd",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Standard europei e tecnologie di ultima generazione</p>",
+              "text": "Standard europei e tecnologie di ultima generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "7bf4bbdb-6442-7a4f-1dd4-ae055fe7bc84",
+            "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Materiali per implantologia e chirurgia orale</p>",
+              "text": "Materiali per implantologia e chirurgia orale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per gli interventi di chirurgia orale e implantologia ci affidiamo esclusivamente a tecnologie digitali all’avanguardia e apparecchiature di ultima generazione, che ci permettono di operare con la massima precisione e sicurezza, riducendo al minimo l’invasività delle procedure e favorendo un recupero più rapido e confortevole.</p>",
+              "text": "Per gli interventi di chirurgia orale e implantologia ci affidiamo esclusivamente a tecnologie digitali all’avanguardia e apparecchiature di ultima generazione, che ci permettono di operare con la massima precisione e sicurezza, riducendo al minimo l’invasività delle procedure e favorendo un recupero più rapido e confortevole."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "65eccc29-2052-a5a6-1677-d3bcd07e94bf",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c6224206-8195-369d-58d0-66236bf8a158",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Dentium<br data-w-id=\"c6224206-8195-369d-58d0-66236bf8a15a\"></p>",
+              "text": "Dentium\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "59c4bbbf-53ac-ce8b-a86e-922332aaf338",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8f5598fe-4d72-4977-82f9-8973a3b575e9",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Nobel Biocare<br data-w-id=\"8f5598fe-4d72-4977-82f9-8973a3b575eb\"></p>",
+              "text": "Nobel Biocare\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "9b7faa68-ed81-5330-5ca6-af3acf8a21f8",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5befef9f-d2eb-09d0-09d9-05e4e16b298a",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Straumann<br data-w-id=\"5befef9f-d2eb-09d0-09d9-05e4e16b298c\"></p>",
+              "text": "Straumann\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "32f5b005-735c-622f-7c91-1581c51f7818",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3dbbaf6f-a83f-4fc8-fb1f-1fb85fc76aac",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Geistlich – osso artificiale e membrane riassorbibili<br data-w-id=\"3dbbaf6f-a83f-4fc8-fb1f-1fb85fc76aae\"></p>",
+              "text": "Geistlich – osso artificiale e membrane riassorbibili\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "f4e333c3-9eec-0d90-54dc-2dc002cc7a2c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ebe58c1-8dca-cfdd-d249-6e73ef705b95",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Osteobiol – materiali per innesti ossei<br data-w-id=\"9ebe58c1-8dca-cfdd-d249-6e73ef705b97\"></p>",
+              "text": "Osteobiol – materiali per innesti ossei\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "f57a5526-a2fb-9bc3-4d72-4dd91c34da7f",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d612a6d-c467-0a5d-2919-0b1e2e08de0b",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Botiss – biomateriali per la rigenerazione ossea<br data-w-id=\"1d612a6d-c467-0a5d-2919-0b1e2e08de0d\"></p>",
+              "text": "Botiss – biomateriali per la rigenerazione ossea\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e716c138-0581-4b09-6a1f-9b5c633cc58a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "148c6e79-3583-3c83-2ea1-5932808704dd",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Jdental Care<br data-w-id=\"148c6e79-3583-3c83-2ea1-5932808704df\"></p>",
+              "text": "Jdental Care\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0d9",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Dispositivi per implantologia</p>",
+              "text": "Dispositivi per implantologia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0dc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le nostre procedure si avvalgono di tecnologie di ultima generazione, per un intervento preciso, sicuro e minimamente invasivo:</p>",
+              "text": "Le nostre procedure si avvalgono di tecnologie di ultima generazione, per un intervento preciso, sicuro e minimamente invasivo:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "ef3f9132-ce76-ac42-fce4-d42204a2743c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0e0",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Acteon – dispositivo piezoelettrico per osteoplastica<br data-w-id=\"2d98085e-cd9e-13f5-2f77-1477afe2d0e2\"></p>",
+              "text": "Acteon – dispositivo piezoelettrico per osteoplastica\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "c5c45007-05f5-8864-04bf-c355022a089f",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0e5",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Mectron – piezochirurgia per modellamento osseo<br data-w-id=\"2d98085e-cd9e-13f5-2f77-1477afe2d0e7\"></p>",
+              "text": "Mectron – piezochirurgia per modellamento osseo\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "91e5cf0c-129f-1d54-5677-478a37025dc0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0ea",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">W&amp;H – physiodispenser per implantologia<br data-w-id=\"2d98085e-cd9e-13f5-2f77-1477afe2d0ec\"></p>",
+              "text": "W&H – physiodispenser per implantologia\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "142583f9-9844-bae7-492c-b549f1dc5c9b",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0ef",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Planmeca Viso G5 – sistema per CBCT e radiografie panoramiche ad alta risoluzione<br data-w-id=\"2d98085e-cd9e-13f5-2f77-1477afe2d0f1\"></p>",
+              "text": "Planmeca Viso G5 – sistema per CBCT e radiografie panoramiche ad alta risoluzione\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e12be4d6-109e-a0a0-bcbc-9bf8f42d6702",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0f4",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Hager Werken – dispositivo elettrochirurgico monopolare<br data-w-id=\"2d98085e-cd9e-13f5-2f77-1477afe2d0f6\"></p>",
+              "text": "Hager Werken – dispositivo elettrochirurgico monopolare\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6bd9",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Materiali per corone dentali in ceramica e zirconia</p>",
+              "text": "Materiali per corone dentali in ceramica e zirconia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6bdc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Sulla base di trent’anni di esperienza, abbiamo selezionato materiali ceramici e in zirconia che hanno dimostrato nel tempo le migliori prestazioni in termini di durata, funzionalità ed estetica.\n\nOltre alla qualità del materiale, consideriamo fondamentali le sue prestazioni cliniche nel lungo periodo, la stabilità e la capacità di riprodurre un aspetto naturale del dente.\n\nUtilizziamo esclusivamente materiali approvati per l’uso nell’Unione Europea.</p>",
+              "text": "Sulla base di trent’anni di esperienza, abbiamo selezionato materiali ceramici e in zirconia che hanno dimostrato nel tempo le migliori prestazioni in termini di durata, funzionalità ed estetica.\n\nOltre alla qualità del materiale, consideriamo fondamentali le sue prestazioni cliniche nel lungo periodo, la stabilità e la capacità di riprodurre un aspetto naturale del dente.\n\nUtilizziamo esclusivamente materiali approvati per l’uso nell’Unione Europea."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e8a09a62-2c4b-063a-ca9a-7954917e69f2",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6be0",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Ivoclar Vivadent<br data-w-id=\"bd599e9a-2d09-a1e0-0360-40380c0c6be2\"></p>",
+              "text": "Ivoclar Vivadent\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a5261587-bd57-94d9-5b79-cc692f898aed",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6be5",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">GC<br data-w-id=\"bd599e9a-2d09-a1e0-0360-40380c0c6be7\"></p>",
+              "text": "GC\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "3cdd29cc-2183-2a33-8f28-027364e7d2b0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6bea",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Katana<br data-w-id=\"bd599e9a-2d09-a1e0-0360-40380c0c6bec\"></p>",
+              "text": "Katana\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "af676706-2890-295c-bec1-3c4d778a54f5",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6bef",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Dental Direct<br data-w-id=\"bd599e9a-2d09-a1e0-0360-40380c0c6bf1\"></p>",
+              "text": "Dental Direct\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a83ea84d-8fae-a4fd-bfd6-21f085bac840",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd599e9a-2d09-a1e0-0360-40380c0c6bf4",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Noritake<br data-w-id=\"bd599e9a-2d09-a1e0-0360-40380c0c6bf6\"></p>",
+              "text": "Noritake\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f4425",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Dispositivi per la realizzazione di lavori protesici</p>",
+              "text": "Dispositivi per la realizzazione di lavori protesici"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f4428",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il nostro laboratorio è dotato delle più moderne tecnologie CAD/CAM e di stampa 3D, per offrire protesi precise, funzionali ed esteticamente perfette:</p>",
+              "text": "Il nostro laboratorio è dotato delle più moderne tecnologie CAD/CAM e di stampa 3D, per offrire protesi precise, funzionali ed esteticamente perfette:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "b0a3d254-662e-dcfa-6097-37319ed151c2",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f442c",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Imes-Icore Coritec 350i – fresatrice ad alta precisione<br data-w-id=\"6123e143-a5c1-10d0-db00-72f7048f442e\"></p>",
+              "text": "Imes-Icore Coritec 350i – fresatrice ad alta precisione\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7f7aa91a-a4dd-ffcb-2b0c-c18461c6ea8f",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f4431",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Imes-Icore Coritec 150i – fresatrice compatta per lavorazioni di dettaglio<br data-w-id=\"6123e143-a5c1-10d0-db00-72f7048f4433\"></p>",
+              "text": "Imes-Icore Coritec 150i – fresatrice compatta per lavorazioni di dettaglio\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "d2561c14-9126-01da-eafd-09197e83d99f",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f4436",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Exocad – software di progettazione digitale<br data-w-id=\"6123e143-a5c1-10d0-db00-72f7048f4438\"></p>",
+              "text": "Exocad – software di progettazione digitale\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "22262eb5-5ac1-2d94-a92e-61f3cedcb226",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f443b",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Scanner intraorali Trios – acquisizione 3D di massima accuratezza<br data-w-id=\"6123e143-a5c1-10d0-db00-72f7048f443d\"></p>",
+              "text": "Scanner intraorali Trios – acquisizione 3D di massima accuratezza\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "5ac1b97a-ccc8-b8ea-b4f2-cebebe0ca487",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f4440",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Tupel 3D Photogrammetry System – sistema per la fotogrammetria dentale<br data-w-id=\"6123e143-a5c1-10d0-db00-72f7048f4442\"></p>",
+              "text": "Tupel 3D Photogrammetry System – sistema per la fotogrammetria dentale\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dc8c1817-bd82-d0d5-3f81-f8c02dced952",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6123e143-a5c1-10d0-db00-72f7048f4445",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Blender – software avanzato per la modellazione e la progettazione protesica<br data-w-id=\"6123e143-a5c1-10d0-db00-72f7048f4447\"></p>",
+              "text": "Blender – software avanzato per la modellazione e la progettazione protesica\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 68
+        },
+        "lastUpdated": "2026-08-31T11:28:55.055Z"
+      }
+    }
+  ]
+}

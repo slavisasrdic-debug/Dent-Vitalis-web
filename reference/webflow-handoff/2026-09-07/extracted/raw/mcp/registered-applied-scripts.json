@@ -1,0 +1,165 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:50:30.960Z",
+  "tool": "mcp__codex_apps__webflow_data_scripts_tool",
+  "request": {
+    "context": "The read-only handoff records registered and applied scripts to preserve dependencies without modifying site or page configuration.",
+    "actions": [
+      {
+        "get_registered_scripts": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d"
+        }
+      },
+      {
+        "get_site_scripts": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "6a97db25519800ebff25b9f2"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "6a97db259aad9ee4bb4bd328"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "6a8d7da66a4b3462ca3f0a23"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "6a8d7da585ba860c0b521829"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "6a8d7da5fff15c0449d670e2"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "696f4a9a3d82954cb43ac683"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "696f49d7f343717fcadfcf28"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "69679710d4037ebd0cbb9df2"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba898"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba897"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba896"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba894"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba893"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba892"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba891"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba890"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba88e"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba88d"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba88c"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba88b"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba88a"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba889"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba888"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba886"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba885"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba884"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba882"
+        }
+      },
+      {
+        "get_page_scripts": {
+          "page_id": "695e1eeeb10c5fb8eeaba87c"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "text": "Parameters failed connector schema validation: actions[0].label [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].label [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[1].label [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); 57 additional validation error(s)"
+    }
+  ]
+}

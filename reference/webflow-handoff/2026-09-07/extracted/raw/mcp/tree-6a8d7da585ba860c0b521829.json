@@ -1,0 +1,493 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:43:55.767Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "6a8d7da585ba860c0b521829",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "6a8d7da585ba860c0b52183a"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "ff1182ff-34c8-6b2e-44a1-9f46e42c0389"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "1fafd281-3e6e-3792-0e97-3ca5290f3bd0"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a8d7da585ba860c0b521829",
+                      "element": "045854cc-a41a-b34e-0e05-714d466f0ceb"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a8d7da585ba860c0b521829",
+                          "element": "1e5cbaed-6d2c-72f8-d850-0f479d146e90"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a8d7da585ba860c0b521829",
+                              "element": "66875ef3-3b08-f61f-4301-05b1367963da"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a8d7da585ba860c0b521829",
+                                  "element": "3c1dde3b-10a1-0097-eb5b-a22ca09da726"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da585ba860c0b521829",
+                                      "element": "dc9c5edf-b4b4-022b-fd0f-e15614411635"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da585ba860c0b521829",
+                                          "element": "304f41ae-94be-57c3-3eaa-dc1abbbe5215"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "6a8d7da585ba860c0b521829",
+                                              "element": "8dae49f0-a32a-ef7b-ec7e-74146b4dfe90"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da585ba860c0b521829",
+                                      "element": "d1b1cd62-33c2-e332-787a-a98888c80f5f"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da585ba860c0b521829",
+                                          "element": "1b0c129d-a0f3-7254-9065-363d081fb65a"
+                                        },
+                                        "type": "String",
+                                        "textContent": " / "
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da585ba860c0b521829",
+                                      "element": "89e5a027-f33d-dc2b-8a8d-78446514413d"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da585ba860c0b521829",
+                                          "element": "025899b6-ad78-b9dd-1563-0576119ab30a"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Su di noi"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "0c4f9844-53fc-aafa-d11a-9567dd533eb2"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a8d7da585ba860c0b521829",
+                      "element": "312a9a56-2ac9-7bb4-4e17-45634b86faaa"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a8d7da585ba860c0b521829",
+                          "element": "a78c2b6c-1ac8-317c-bea5-f8fcd531d044"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": false,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "6a8d7da585ba860c0b521829",
+                      "element": "a58a1aba-294a-dd6d-e02d-b2a21150becf"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a8d7da585ba860c0b521829",
+                          "element": "9783b662-61ce-27cb-a902-2f08d758313f"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a8d7da585ba860c0b521829",
+                              "element": "b6b321ab-dd6e-897b-6191-7d536e07e372"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a8d7da585ba860c0b521829",
+                                  "element": "be815d9a-8aa2-f5ab-dc27-a225c13ae2c1"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da585ba860c0b521829",
+                                      "element": "4bb9d424-e8aa-c45c-b365-fee0b37163dd"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da585ba860c0b521829",
+                                          "element": "d13e361e-06c8-1e3b-0b9d-0b4486c84da3"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Su di noi"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da585ba860c0b521829",
+                                      "element": "27036a0d-a16c-19fd-c9b7-f0de67a09271"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da585ba860c0b521829",
+                                          "element": "c39227b7-ffdb-5d1b-86c4-ff8d1c87e58f"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Da 30 anni, oltre 30.000 impianti inseriti con successo."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "8e2f7b89-1072-56a4-253f-d0ab23724eda"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                  "name": "Directory cards - Su di noi",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "595b92e1-6c05-3a92-7e2e-47823c4d2f53"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "d9c78483-382a-136c-b035-5fb69263cc82"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "b9552538-581f-bd6b-214b-1cebd768b9a2"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da585ba860c0b521829",
+                  "element": "cb56b0e8-bfdd-532e-b945-d3bbb2decada"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

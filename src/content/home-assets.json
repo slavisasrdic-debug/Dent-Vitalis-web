@@ -1,0 +1,614 @@
+{
+  "Dentvitalis-logo-color_21200px.svg": {
+    "src": "/assets/images/Dentvitalis-logo-color_21200px.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dentvitalis-logo-color_21200px.svg"
+  },
+  "close-btn.svg": {
+    "src": "/assets/images/close-btn.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/close-btn.svg"
+  },
+  "arrow-right.svg": {
+    "src": "/assets/images/arrow-right.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/arrow-right.svg"
+  },
+  "menu-btn.svg": {
+    "src": "/assets/images/menu-btn.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/menu-btn.svg"
+  },
+  "GR-DV.webp": {
+    "src": "/assets/images/GR-DV-247.webp",
+    "width": 247,
+    "height": 345,
+    "variants": [
+      {
+        "src": "/assets/images/GR-DV-247.webp",
+        "width": 247
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/GR-DV.webp"
+  },
+  "Sedazione-cosciente-mobile.webp": {
+    "src": "/assets/images/Sedazione-cosciente-mobile-1027.webp",
+    "width": 1027,
+    "height": 771,
+    "variants": [
+      {
+        "src": "/assets/images/Sedazione-cosciente-mobile-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-mobile-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-mobile-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-mobile-1027.webp",
+        "width": 1027
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sedazione-cosciente-mobile.webp"
+  },
+  "Dv-3.webp": {
+    "src": "/assets/images/Dv-3-2000.webp",
+    "width": 2000,
+    "height": 837,
+    "variants": [
+      {
+        "src": "/assets/images/Dv-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Dv-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Dv-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Dv-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Dv-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Dv-3-2000.webp",
+        "width": 2000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dv-3.webp"
+  },
+  "Recenzija-mobile.jpg": {
+    "src": "/assets/images/Recenzija-mobile-1634.webp",
+    "width": 1634,
+    "height": 1307,
+    "variants": [
+      {
+        "src": "/assets/images/Recenzija-mobile-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Recenzija-mobile-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Recenzija-mobile-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Recenzija-mobile-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Recenzija-mobile-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Recenzija-mobile-1634.webp",
+        "width": 1634
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Recenzija-mobile.jpg"
+  },
+  "Dv-4-2.webp": {
+    "src": "/assets/images/Dv-4-2-2000.webp",
+    "width": 2000,
+    "height": 837,
+    "variants": [
+      {
+        "src": "/assets/images/Dv-4-2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Dv-4-2-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Dv-4-2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Dv-4-2-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Dv-4-2-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Dv-4-2-2000.webp",
+        "width": 2000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dv-4-2.webp"
+  },
+  "Sedazione-cosciente-1.webp": {
+    "src": "/assets/images/Sedazione-cosciente-1-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Sedazione-cosciente-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Sedazione-cosciente-1-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sedazione-cosciente-1.webp"
+  },
+  "ponte-fisso-su-impianti-2.webp": {
+    "src": "/assets/images/ponte-fisso-su-impianti-2-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/ponte-fisso-su-impianti-2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/ponte-fisso-su-impianti-2-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/ponte-fisso-su-impianti-2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/ponte-fisso-su-impianti-2-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/ponte-fisso-su-impianti-2-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/ponte-fisso-su-impianti-2-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/ponte-fisso-su-impianti-2.webp"
+  },
+  "Recenzija-detail-1.webp": {
+    "src": "/assets/images/Recenzija-detail-1-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Recenzija-detail-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Recenzija-detail-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Recenzija-detail-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Recenzija-detail-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Recenzija-detail-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Recenzija-detail-1-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Recenzija-detail-1.webp"
+  },
+  "Dr-Sime2-3.webp": {
+    "src": "/assets/images/Dr-Sime2-3-2000.webp",
+    "width": 2000,
+    "height": 1125,
+    "variants": [
+      {
+        "src": "/assets/images/Dr-Sime2-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Dr-Sime2-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Dr-Sime2-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Dr-Sime2-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Dr-Sime2-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Dr-Sime2-3-2000.webp",
+        "width": 2000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dr-Sime2-3.webp"
+  },
+  "DV-Dr-Sime-Zivkocic-2-3.webp": {
+    "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-2000.webp",
+    "width": 2000,
+    "height": 1333,
+    "variants": [
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-2-3-2000.webp",
+        "width": 2000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/DV-Dr-Sime-Zivkocic-2-3.webp"
+  },
+  "DV-Dr-Sime-Zivkocic-4.webp": {
+    "src": "/assets/images/DV-Dr-Sime-Zivkocic-4-1000.webp",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-4-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-4-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-4-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/DV-Dr-Sime-Zivkocic-4-1000.webp",
+        "width": 1000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/DV-Dr-Sime-Zivkocic-4.webp"
+  },
+  "I-nostri-specialisti-mobile-2.webp": {
+    "src": "/assets/images/I-nostri-specialisti-mobile-2-1822.webp",
+    "width": 1822,
+    "height": 1367,
+    "variants": [
+      {
+        "src": "/assets/images/I-nostri-specialisti-mobile-2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/I-nostri-specialisti-mobile-2-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/I-nostri-specialisti-mobile-2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/I-nostri-specialisti-mobile-2-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/I-nostri-specialisti-mobile-2-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/I-nostri-specialisti-mobile-2-1822.webp",
+        "width": 1822
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/I-nostri-specialisti-mobile-2.webp"
+  },
+  "DV-44.webp": {
+    "src": "/assets/images/DV-44-2000.webp",
+    "width": 2000,
+    "height": 1125,
+    "variants": [
+      {
+        "src": "/assets/images/DV-44-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/DV-44-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/DV-44-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/DV-44-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/DV-44-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/DV-44-2000.webp",
+        "width": 2000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/DV-44.webp"
+  },
+  "Come-raggiungerci.webp": {
+    "src": "/assets/images/Come-raggiungerci-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Come-raggiungerci-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Come-raggiungerci-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Come-raggiungerci-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Come-raggiungerci-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Come-raggiungerci-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Come-raggiungerci-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Come-raggiungerci.webp"
+  },
+  "Laboratorio-odontotecnico-1.webp": {
+    "src": "/assets/images/Laboratorio-odontotecnico-1-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Laboratorio-odontotecnico-1.webp"
+  },
+  "I-nostri-specialist-2i.webp": {
+    "src": "/assets/images/I-nostri-specialist-2i-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/I-nostri-specialist-2i-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/I-nostri-specialist-2i-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/I-nostri-specialist-2i-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/I-nostri-specialist-2i-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/I-nostri-specialist-2i-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/I-nostri-specialist-2i-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/I-nostri-specialist-2i.webp"
+  },
+  "Tutto-in-un-unico-luogo-1.webp": {
+    "src": "/assets/images/Tutto-in-un-unico-luogo-1-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Tutto-in-un-unico-luogo-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Tutto-in-un-unico-luogo-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Tutto-in-un-unico-luogo-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Tutto-in-un-unico-luogo-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Tutto-in-un-unico-luogo-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Tutto-in-un-unico-luogo-1-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Tutto-in-un-unico-luogo-1.webp"
+  },
+  "zvjezdice.webp": {
+    "src": "/assets/images/zvjezdice-294.webp",
+    "width": 294,
+    "height": 76,
+    "variants": [
+      {
+        "src": "/assets/images/zvjezdice-294.webp",
+        "width": 294
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/zvjezdice.webp"
+  },
+  "Sbiancamento-dei-denti-2.webp": {
+    "src": "/assets/images/Sbiancamento-dei-denti-2-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-2-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-2-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-2-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-2-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sbiancamento-dei-denti-2.webp"
+  },
+  "Sbiancamento-dei-denti-mobile.webp": {
+    "src": "/assets/images/Sbiancamento-dei-denti-mobile-1722.webp",
+    "width": 1722,
+    "height": 1377,
+    "variants": [
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-mobile-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-mobile-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-mobile-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-mobile-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-mobile-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-mobile-1722.webp",
+        "width": 1722
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sbiancamento-dei-denti-mobile.webp"
+  },
+  "close-live-chat.svg": {
+    "src": "/assets/images/close-live-chat.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/close-live-chat.svg"
+  },
+  "small-whatsapp.svg": {
+    "src": "/assets/images/small-whatsapp.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/small-whatsapp.svg"
+  },
+  "whatsapp.svg": {
+    "src": "/assets/images/whatsapp.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/whatsapp.svg"
+  }
+}

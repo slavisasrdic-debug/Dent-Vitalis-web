@@ -1,0 +1,82 @@
+---
+interface Props {
+  items: { label: string; href: string }[];
+}
+const { items } = Astro.props;
+---
+
+<nav class="breadcrumbs" aria-label="Percorso">
+  <ol>
+    {
+      items.map((item, i) => (
+        <li>
+          {i > 0 && <span aria-hidden="true">/</span>}
+          {item.href ? (
+            <a href={item.href}>{item.label}</a>
+          ) : (
+            <span aria-current="page">{item.label}</span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+<style>
+  .breadcrumbs {
+    position: sticky;
+    top: var(--header-height);
+    z-index: 100;
+    background: var(--color-white);
+    border-bottom: 1px solid var(--color-border-translucent);
+    color: var(--color-text);
+  }
+  ol {
+    width: 90%;
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 14px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  li {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+  li:not(:last-child) {
+    flex: none;
+  }
+  li:last-child {
+    min-width: 0;
+    align-items: center;
+  }
+  li > * {
+    padding-right: 10px;
+  }
+  a {
+    color: var(--color-primary-hover);
+  }
+  [aria-current] {
+    font-weight: 600;
+  }
+  @media screen and (max-width: 991px) {
+    ol {
+      padding-block: 10px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    ol {
+      padding-block: 8px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    ol {
+      width: 86%;
+    }
+    li {
+      font-size: 12px;
+    }
+  }
+</style>

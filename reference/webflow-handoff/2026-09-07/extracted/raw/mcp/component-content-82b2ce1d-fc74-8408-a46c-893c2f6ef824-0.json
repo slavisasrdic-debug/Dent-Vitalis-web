@@ -1,0 +1,516 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:40:24.939Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source navigacija",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults navigacija",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source navigacija",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef828",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695f9e2aaaf1fd30aa01165f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a09153f2-bc9b-dea8-1d66-532a97658e47",
+            "text": {
+              "html": "<div class=\"text-block-17\"><div href=\"https://www.dentvitalis.com/\" class=\"text-block-18\" data-w-id=\"1641a0d4-ed84-974e-3cf5-89191aa8f2ae\">Dentisti Croazia</div></div>",
+              "text": "Dentisti Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1641a0d4-ed84-974e-3cf5-89191aa8f2ae",
+            "text": {
+              "html": "<div href=\"https://www.dentvitalis.com/\" class=\"text-block-18\">Dentisti Croazia</div>",
+              "text": "Dentisti Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8fa9cf8a-7f22-d7d6-dcf1-97caddbb5e8c",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-link dv-language-mobile-current\" href=\"/\">Italiano</a>",
+              "text": "Italiano"
+            },
+            "attributes": {
+              "aria-current": "page",
+              "lang": "it",
+              "href": "/"
+            }
+          },
+          {
+            "type": "text",
+            "id": "8fa9cf8a-7f22-d7d6-dcf1-97caddbb5e8e",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-link\" href=\"https://www.dentvitalis.com/hr\">Hrvatski</a>",
+              "text": "Hrvatski"
+            },
+            "attributes": {
+              "lang": "hr",
+              "href": "https://www.dentvitalis.com/hr"
+            }
+          },
+          {
+            "type": "text",
+            "id": "8fa9cf8a-7f22-d7d6-dcf1-97caddbb5e90",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-link\" href=\"https://www.dentvitalis.com/de\">Deutsch</a>",
+              "text": "Deutsch"
+            },
+            "attributes": {
+              "lang": "de",
+              "href": "https://www.dentvitalis.com/de"
+            }
+          },
+          {
+            "type": "text",
+            "id": "8fa9cf8a-7f22-d7d6-dcf1-97caddbb5e92",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-link\" href=\"https://www.dentvitalis.com/en\">English</a>",
+              "text": "English"
+            },
+            "attributes": {
+              "lang": "en",
+              "href": "https://www.dentvitalis.com/en"
+            }
+          },
+          {
+            "type": "text",
+            "id": "8fa9cf8a-7f22-d7d6-dcf1-97caddbb5e94",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-link\" href=\"https://www.dentvitalis.com/si\">Slovenščina</a>",
+              "text": "Slovenščina"
+            },
+            "attributes": {
+              "lang": "sl",
+              "href": "https://www.dentvitalis.com/si"
+            }
+          },
+          {
+            "type": "image",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef82c",
+            "image": {
+              "alt": "DentVitalis - Dentisti Croazia",
+              "assetId": "695f9e2aaaf1fd30aa01165f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef82e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8a7"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef849",
+            "text": {
+              "html": "<p class=\"nav-item-title\">Prestazioni</p>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef84c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8ad"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b8648490-4a5b-008d-a7ed-2067b723ec7b",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba882\"><span class=\"nav-dropdown-link-line\" data-w-id=\"b8648490-4a5b-008d-a7ed-2067b723ec7c\"> </span>Imperdibile: protesi definitiva ancorata su 4 impianti</a>",
+              "text": " Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef850",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba884\"><span class=\"nav-dropdown-link-line\" data-w-id=\"82b2ce1d-fc74-8408-a46c-893c2f6ef851\"> </span>Premium: ponte fisso su impianti</a>",
+              "text": " Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56513083-0a32-55eb-e4bd-1275e1cc8e95",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba885\"><span class=\"nav-dropdown-link-line\" data-w-id=\"56513083-0a32-55eb-e4bd-1275e1cc8e96\"> </span>Sbiancamento dei denti</a>",
+              "text": " Sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "393b378f-8fce-10d9-2f1e-8ae008b988ff",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba886\"><span class=\"nav-dropdown-link-line\" data-w-id=\"393b378f-8fce-10d9-2f1e-8ae008b98900\"> </span>Corone, faccette, ponti e protesi</a>",
+              "text": " Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4d60e599-46d9-8241-1d3a-dfed1cf6f020",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88e\"><span class=\"nav-dropdown-link-line\" data-w-id=\"4d60e599-46d9-8241-1d3a-dfed1cf6f021\"> </span>Sedazione cosciente</a>",
+              "text": " Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "31ceb2a2-0ab3-5832-6e6c-056646482e5c",
+            "text": {
+              "html": "<p class=\"nav-item-title\">Su di noi</p>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "31ceb2a2-0ab3-5832-6e6c-056646482e5f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8ad"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "31ceb2a2-0ab3-5832-6e6c-056646482e63",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba888\"><span class=\"nav-dropdown-link-line\" data-w-id=\"31ceb2a2-0ab3-5832-6e6c-056646482e64\"> </span>I nostri specialisti</a>",
+              "text": " I nostri specialisti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "31ceb2a2-0ab3-5832-6e6c-056646482e67",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba889\"><span class=\"nav-dropdown-link-line\" data-w-id=\"31ceb2a2-0ab3-5832-6e6c-056646482e68\"> </span>Tutto in un unico luogo</a>",
+              "text": " Tutto in un unico luogo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "31ceb2a2-0ab3-5832-6e6c-056646482e6b",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88a\"><span class=\"nav-dropdown-link-line\" data-w-id=\"31ceb2a2-0ab3-5832-6e6c-056646482e6c\"> </span>Come raggiungerci</a>",
+              "text": " Come raggiungerci"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "31ceb2a2-0ab3-5832-6e6c-056646482e6f",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88b\"><span class=\"nav-dropdown-link-line\" data-w-id=\"31ceb2a2-0ab3-5832-6e6c-056646482e70\"> </span>Laboratorio odontotecnico</a>",
+              "text": " Laboratorio odontotecnico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "31f099ec-0279-0b37-3eee-1b0ffc65e882",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88c\"><span class=\"nav-dropdown-link-line\" data-w-id=\"31f099ec-0279-0b37-3eee-1b0ffc65e883\"> </span>Materiali e apparecchiature</a>",
+              "text": " Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "21ac0abc-f941-057e-a565-fe4fce17a520",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88d\"><span class=\"nav-dropdown-link-line\" data-w-id=\"21ac0abc-f941-057e-a565-fe4fce17a521\"> </span>Impianti di nuova generazione</a>",
+              "text": " Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4c3fd33f-e263-1f21-639c-f87aaf2ae9c9",
+            "text": {
+              "html": "<p class=\"nav-item-title\">Informazioni</p>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4c3fd33f-e263-1f21-639c-f87aaf2ae9cc",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8ad"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4c3fd33f-e263-1f21-639c-f87aaf2ae9d0",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba890\"><span class=\"nav-dropdown-link-line\" data-w-id=\"4c3fd33f-e263-1f21-639c-f87aaf2ae9d1\"> </span>Prima visita gratuita</a>",
+              "text": " Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4c3fd33f-e263-1f21-639c-f87aaf2ae9d4",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba891\"><span class=\"nav-dropdown-link-line\" data-w-id=\"4c3fd33f-e263-1f21-639c-f87aaf2ae9d5\"> </span>Tempi del trattamento</a>",
+              "text": " Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4c3fd33f-e263-1f21-639c-f87aaf2ae9d8",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba892\"><span class=\"nav-dropdown-link-line\" data-w-id=\"4c3fd33f-e263-1f21-639c-f87aaf2ae9d9\"> </span>Pagamento flessibile</a>",
+              "text": " Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ae57abbc-4758-bedd-8a03-f4209368ce42",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba893\"><span class=\"nav-dropdown-link-line\" data-w-id=\"ae57abbc-4758-bedd-8a03-f4209368ce43\"> </span>Garanzie</a>",
+              "text": " Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "90096f89-7c1d-ac60-56fa-11329f3ff125",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"696f49d7f343717fcadfcf28\"><span class=\"nav-dropdown-link-line\" data-w-id=\"90096f89-7c1d-ac60-56fa-11329f3ff126\"> </span>Alloggio</a>",
+              "text": " Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f6a1adbf-a5eb-ac41-b96d-b0809e793a48",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"696f4a9a3d82954cb43ac683\"><span class=\"nav-dropdown-link-line\" data-w-id=\"f6a1adbf-a5eb-ac41-b96d-b0809e793a49\"> </span>Trasporto</a>",
+              "text": " Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4c3fd33f-e263-1f21-639c-f87aaf2ae9e0",
+            "text": {
+              "html": "<a class=\"nav-dropdown-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba894\"><span class=\"nav-dropdown-link-line\" data-w-id=\"4c3fd33f-e263-1f21-639c-f87aaf2ae9e1\"> </span>Listino prezzi</a>",
+              "text": " Listino prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b7b8c8c-8257-9860-9806-5ec5ce431e81",
+            "text": {
+              "html": "<a class=\"nav-link\" data-wf-link-page-id=\"69679710d4037ebd0cbb9df2\">Testimonianze</a>",
+              "text": "Testimonianze"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef86e",
+            "text": {
+              "html": "<a class=\"nav-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba897\">FAQ</a>",
+              "text": "FAQ"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "25d22e51-975a-3ebc-4c50-2f59b788eb03",
+            "text": {
+              "html": "<a class=\"nav-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba896\">Galleria</a>",
+              "text": "Galleria"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "777d378c-b850-a3b4-7fde-ea01bf4e6846",
+            "text": {
+              "html": "<a class=\"nav-link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba898\">Contatti</a>",
+              "text": "Contatti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "f3973687-eb97-4341-fa26-759f81eab1d5",
+            "componentId": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8ed",
+            "text": {
+              "html": "<a href=\"#\" class=\"secondary-button header-button\">Invia una richiesta</a>",
+              "text": "Invia una richiesta"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "15ecb568-2be4-e312-298d-bf6af4efc644",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M26 21h-3v-3h-2v3h-3v2h3v3h2v-3h3z\"></path><path fill=\"currentColor\" d=\"M22 30c-4.4 0-8-3.6-8-8s3.6-8 8-8s8 3.6 8 8s-3.6 8-8 8zm0-14c-3.3 0-6 2.7-6 6s2.7 6 6 6s6-2.7 6-6s-2.7-6-6-6z\"></path><path fill=\"currentColor\" d=\"M28 6c0-1.1-.9-2-2-2h-4V2h-2v2h-8V2h-2v2H6c-1.1 0-2 .9-2 2v20c0 1.1.9 2 2 2h6v-2H6V6h4v2h2V6h8v2h2V6h4v6h2V6z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "15ecb568-2be4-e312-298d-bf6af4efc645",
+            "text": {
+              "html": "<div class=\"text-block-15\">Consulta il dentista</div>",
+              "text": "Consulta il dentista"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9b87e518-b282-b456-a2ea-fa8648a3ff1d",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-adjacent-link dv-language-mobile-adjacent-current\" href=\"/\">Italiano</a>",
+              "text": "Italiano"
+            },
+            "attributes": {
+              "aria-current": "page",
+              "lang": "it",
+              "href": "/"
+            }
+          },
+          {
+            "type": "text",
+            "id": "9b87e518-b282-b456-a2ea-fa8648a3ff1f",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-adjacent-link\" href=\"https://www.dentvitalis.com/hr\">Hrvatski</a>",
+              "text": "Hrvatski"
+            },
+            "attributes": {
+              "lang": "hr",
+              "href": "https://www.dentvitalis.com/hr"
+            }
+          },
+          {
+            "type": "text",
+            "id": "9b87e518-b282-b456-a2ea-fa8648a3ff21",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-adjacent-link\" href=\"https://www.dentvitalis.com/de\">Deutsch</a>",
+              "text": "Deutsch"
+            },
+            "attributes": {
+              "lang": "de",
+              "href": "https://www.dentvitalis.com/de"
+            }
+          },
+          {
+            "type": "text",
+            "id": "9b87e518-b282-b456-a2ea-fa8648a3ff23",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-adjacent-link\" href=\"https://www.dentvitalis.com/en\">English</a>",
+              "text": "English"
+            },
+            "attributes": {
+              "lang": "en",
+              "href": "https://www.dentvitalis.com/en"
+            }
+          },
+          {
+            "type": "text",
+            "id": "9b87e518-b282-b456-a2ea-fa8648a3ff25",
+            "text": {
+              "html": "<a class=\"dv-language-mobile-adjacent-link\" href=\"https://www.dentvitalis.com/si\">Slovenščina</a>",
+              "text": "Slovenščina"
+            },
+            "attributes": {
+              "lang": "sl",
+              "href": "https://www.dentvitalis.com/si"
+            }
+          },
+          {
+            "type": "image",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f1",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8a8"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 48
+        }
+      }
+    },
+    {
+      "label": "Component defaults navigacija",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

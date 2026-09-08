@@ -1,0 +1,142 @@
+---
+import type { InnerPage } from '../content/inner-pages';
+import PageSidebar from './PageSidebar.astro';
+import ContentBlocks from './ContentBlocks.astro';
+import TeaserCard from './TeaserCard.astro';
+interface Props {
+  page: InnerPage;
+}
+const { page } = Astro.props;
+const variant =
+  page.route === '/testimonianze'
+    ? 'testimonials'
+    : page.typography === 'reference-default'
+      ? 'legal'
+      : 'standard';
+---
+
+<div
+  class:list={['editorial-container', { 'trailing-space': page.trailingSpace }]}
+>
+  <div class="editorial-grid">
+    {
+      page.sidebar && (
+        <PageSidebar
+          id="sadrzaji"
+          content={page.sidebar}
+          current={page.route}
+          variant={variant}
+        />
+      )
+    }<article class="editorial-copy">
+      <ContentBlocks blocks={page.blocks} />
+    </article>
+  </div>
+</div>
+{
+  page.related.length > 0 && (
+    <section class="related-services">
+      <div class="related-container">
+        <>
+          <h2>Altre prestazioni</h2>
+          <div class="related-grid">
+            {page.related.map((card) => (
+              <TeaserCard card={card} variant="service" context="related" />
+            ))}
+          </div>
+        </>
+      </div>
+    </section>
+  )
+}
+<style>
+  .editorial-container,
+  .related-container {
+    width: 90%;
+    max-width: var(--container-max);
+    margin-inline: auto;
+  }
+  .editorial-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: start;
+    padding-top: 40px;
+  }
+  /* The reference includes an empty trailing section on standard details.
+     Model its measured spacing without copying its empty wrapper tree. */
+  .trailing-space {
+    --editorial-tail-space: 200px;
+  }
+  .editorial-container {
+    padding-bottom: var(--editorial-tail-space, 0px);
+  }
+  .editorial-copy {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+    padding-right: 80px;
+  }
+  .related-services {
+    width: 100%;
+    padding-block: 80px 60px;
+  }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 40px;
+  }
+  .related-container > h2 {
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  @media screen and (min-width: 1280px) {
+    .editorial-grid {
+      padding-bottom: 60px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .trailing-space {
+      --editorial-tail-space: 140px;
+    }
+    .editorial-container {
+      padding-bottom: calc(var(--editorial-tail-space, 0px) + 40px);
+    }
+    .editorial-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .editorial-copy {
+      width: 100%;
+      padding: 0;
+    }
+    .related-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .trailing-space {
+      --editorial-tail-space: 120px;
+    }
+    .editorial-container,
+    .related-container {
+      width: 86%;
+    }
+    .related-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .related-container > h2 {
+      font-size: 30px;
+    }
+    .editorial-container {
+      padding-bottom: calc(var(--editorial-tail-space, 0px) + 30px);
+    }
+    .editorial-grid {
+      padding-top: 20px;
+    }
+  }
+</style>

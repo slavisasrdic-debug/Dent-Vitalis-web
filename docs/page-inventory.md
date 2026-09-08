@@ -1,5 +1,13 @@
 # Inventar stranica i URL-ova
 
+## Aktualni status — 7. rujna 2026.
+
+Prihvaćeni handoff sadrži **28 talijanskih stranica**, uz dvije pravne stranice izvan starijeg crawla od 26. `pages.json` i `page-composition.md` pregledani su u cijelosti prije izdvajanja komponenti; pregled ponavljanja dokumentiran je u `astro-component-map.md`. Svih **28 talijanskih ruta sada je izrađeno u Astrou**: naslovnica i 27 unutarnjih stranica, uključujući `/condizioni-di-utilizzo` i `/informativa-sulla-privacy`. Export nema hrvatski ni druge prijevode; takve stranice nisu izmišljene.
+
+Korisnik je izričito odobrio postojeće Webflow URL-ove **za preview**, uključujući `/domande-e-risposte` za Galleria; produkcijska migracija ostaje zasebna odluka. Na naslovnici preostali jezični odabiri vode na postojeće live home ekvivalente. Na unutarnjim stranicama nepotvrđeni jezični ekvivalenti nisu aktivni linkovi niti hreflang parovi. Svih 28 stranica ima `lang=it`, canonical, self-hreflang i `x-default`, uz obvezni preview `noindex`. Provjere i preostale razlike: `inner-pages-implementation.md`.
+
+Donji crawl podaci su datirani povijesni inventar, ne nova provjera javnog live weba.
+
 ## Obvezni jezični korijeni
 
 | Jezik      | Javni korijen | `html lang` | Zabranjeno           |

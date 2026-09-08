@@ -1,0 +1,176 @@
+
+
+.dv-language-switcher {
+  position: relative;
+  flex: 0 0 auto;
+  margin: 0 28px 0 16px;
+}
+.dv-language-switcher-summary {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 6px;
+  padding: 0 2px;
+  color: #05617a;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  list-style: none;
+}
+.dv-language-switcher-summary::-webkit-details-marker,
+.dv-language-mobile-adjacent-summary::-webkit-details-marker {
+  display: none;
+}
+.dv-language-switcher-summary::before {
+  width: 16px;
+  height: 12px;
+  border-radius: 1px;
+  background: center / cover no-repeat url("https://flagcdn.com/w40/it.png");
+  content: "";
+}
+.dv-language-switcher-prefix,
+.dv-language-switcher-name {
+  display: none;
+}
+.dv-language-switcher-code {
+  letter-spacing: 0;
+}
+.dv-language-switcher-chevron,
+.dv-language-mobile-adjacent-chevron {
+  width: 7px;
+  height: 7px;
+  margin-top: -3px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 160ms ease;
+}
+.dv-language-switcher[open] .dv-language-switcher-chevron,
+.dv-language-mobile-adjacent[open] .dv-language-mobile-adjacent-chevron {
+  margin-top: 4px;
+  transform: rotate(225deg);
+}
+.dv-language-switcher-menu {
+  position: absolute;
+  z-index: 80;
+  top: calc(100% + 8px);
+  right: 0;
+  display: grid;
+  width: 132px;
+  padding: 6px;
+  border: 1px solid #d5e0e2;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 14px 30px rgba(0, 35, 45, 0.16);
+}
+.dv-language-switcher-menu[hidden],
+.dv-language-mobile-adjacent-menu[hidden] {
+  display: none !important;
+}
+.dv-language-switcher-link,
+.dv-language-mobile-adjacent-link {
+  display: flex;
+  min-height: 36px;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 3px;
+  color: #173c46;
+  font-size: 0;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+}
+.dv-language-switcher-link::before,
+.dv-language-mobile-adjacent-link::before {
+  display: inline-flex;
+  min-height: 16px;
+  align-items: center;
+  padding-left: 24px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.dv-language-switcher-link:nth-child(1)::before,
+.dv-language-mobile-adjacent-link:nth-child(1)::before {
+  background-image: url("https://flagcdn.com/w40/it.png");
+  content: "IT";
+}
+.dv-language-switcher-link:nth-child(2)::before,
+.dv-language-mobile-adjacent-link:nth-child(2)::before {
+  background-image: url("https://flagcdn.com/w40/hr.png");
+  content: "HR";
+}
+.dv-language-switcher-link:nth-child(3)::before,
+.dv-language-mobile-adjacent-link:nth-child(3)::before {
+  background-image: url("https://flagcdn.com/w40/de.png");
+  content: "DE";
+}
+.dv-language-switcher-link:nth-child(4)::before,
+.dv-language-mobile-adjacent-link:nth-child(4)::before {
+  background-image: url("https://flagcdn.com/w40/gb.png");
+  content: "EN";
+}
+.dv-language-switcher-link:nth-child(5)::before,
+.dv-language-mobile-adjacent-link:nth-child(5)::before {
+  background-image: url("https://flagcdn.com/w40/si.png");
+  content: "SL";
+}
+.dv-language-switcher-link:hover,
+.dv-language-switcher-link:focus-visible,
+.dv-language-mobile-adjacent-link:hover,
+.dv-language-mobile-adjacent-link:focus-visible {
+  background-color: #edf4f4;
+  color: #05617a;
+}
+.dv-language-switcher-current,
+.dv-language-mobile-adjacent-current {
+  background-color: #f2f6d8;
+  color: #52630a;
+}
+.dv-language-mobile-adjacent {
+  position: relative;
+  flex: 0 0 auto;
+  margin: 0 18px 0 auto;
+}
+.dv-language-mobile-adjacent-summary {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 6px;
+  padding: 0 2px;
+  color: #05617a;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  list-style: none;
+}
+.dv-language-mobile-adjacent-summary > span:first-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+.dv-language-mobile-adjacent-summary > span:first-child::before {
+  width: 16px;
+  height: 12px;
+  border-radius: 1px;
+  background: center / cover no-repeat url("https://flagcdn.com/w40/it.png");
+  content: "";
+}
+.dv-language-mobile-adjacent-menu {
+  position: absolute;
+  z-index: 80;
+  top: calc(100% + 6px);
+  right: 0;
+  display: grid;
+  width: 128px;
+  padding: 6px;
+  border: 1px solid #d5e0e2;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 14px 30px rgba(0, 35, 45, 0.16);
+}

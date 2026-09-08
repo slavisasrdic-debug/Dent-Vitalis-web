@@ -1,0 +1,817 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:50:28.381Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "Complete source component 11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a"
+        }
+      },
+      {
+        "label": "Complete source component 9db036bc-9bac-25ca-e571-158aa48dd517",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "9db036bc-9bac-25ca-e571-158aa48dd517"
+        }
+      },
+      {
+        "label": "Complete source component 1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80"
+        }
+      },
+      {
+        "label": "Complete source component d430cc2c-555c-6d7a-ff18-8922771fa88e",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "d430cc2c-555c-6d7a-ff18-8922771fa88e"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete source component 11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"11f7cd79-d19d-6f76-04ff-ce57e5706c5a\" tree loaded",
+          "data": {
+            "id": {
+              "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+              "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Home Service Card"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                  "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c5b"
+                },
+                "type": "Block",
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                      "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c5c"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Nadnaslov kartica"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                          "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c5d"
+                        },
+                        "type": "String",
+                        "textContent": "Pacchetto “tutto incluso”"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                      "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c5e"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Medjunaslov H3",
+                      "bold"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "url",
+                        "href": "/prestazioni/premium-ponte-fisso-su-impianti"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                          "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c5f"
+                        },
+                        "type": "String",
+                        "textContent": "Premium: ponte fisso su impianti"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                      "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c60"
+                    },
+                    "type": "Paragraph",
+                    "styleNames": [
+                      "Large Paragraph"
+                    ],
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                          "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c61"
+                        },
+                        "type": "String",
+                        "textContent": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                  "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c62"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Div Block 13"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                      "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c63"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "istaknuta cijena"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                          "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c64"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "cijena velika"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                              "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c65"
+                            },
+                            "type": "String",
+                            "textContent": "Prezzo fisso a 4.990 €"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 9db036bc-9bac-25ca-e571-158aa48dd517",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"9db036bc-9bac-25ca-e571-158aa48dd517\" tree loaded",
+          "data": {
+            "id": {
+              "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+              "element": "9db036bc-9bac-25ca-e571-158aa48dd517"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Home Service Card"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                  "element": "9db036bc-9bac-25ca-e571-158aa48dd518"
+                },
+                "type": "Block",
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                      "element": "9db036bc-9bac-25ca-e571-158aa48dd519"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Nadnaslov kartica"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                          "element": "9db036bc-9bac-25ca-e571-158aa48dd51a"
+                        },
+                        "type": "String",
+                        "textContent": "Pacchetto “tutto incluso”"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                      "element": "9db036bc-9bac-25ca-e571-158aa48dd51b"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Medjunaslov H3",
+                      "bold"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "url",
+                        "href": "/prestazioni/sbiancamento-dei-denti"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                          "element": "9db036bc-9bac-25ca-e571-158aa48dd51c"
+                        },
+                        "type": "String",
+                        "textContent": "Facilissimo: sbiancamento dei denti"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                      "element": "9db036bc-9bac-25ca-e571-158aa48dd51d"
+                    },
+                    "type": "Paragraph",
+                    "styleNames": [
+                      "Large Paragraph"
+                    ],
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                          "element": "9db036bc-9bac-25ca-e571-158aa48dd51e"
+                        },
+                        "type": "String",
+                        "textContent": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                  "element": "9db036bc-9bac-25ca-e571-158aa48dd51f"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Div Block 13"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                      "element": "9db036bc-9bac-25ca-e571-158aa48dd520"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "istaknuta cijena"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                          "element": "9db036bc-9bac-25ca-e571-158aa48dd521"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "cijena velika"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                              "element": "9db036bc-9bac-25ca-e571-158aa48dd522"
+                            },
+                            "type": "Strong",
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                                  "element": "9db036bc-9bac-25ca-e571-158aa48dd523"
+                                },
+                                "type": "String",
+                                "textContent": "Prezzo fisso a 250 €"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80\" tree loaded",
+          "data": {
+            "id": {
+              "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+              "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Home Service Card"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                  "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f81"
+                },
+                "type": "Block",
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                      "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f82"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Nadnaslov kartica"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                          "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f83"
+                        },
+                        "type": "String",
+                        "textContent": "Sostituzione perfetta dei denti naturali"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                      "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f84"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Medjunaslov H3",
+                      "bold"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "url",
+                        "href": "/prestazioni/corone-faccette-ponti-e-protesi"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                          "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f85"
+                        },
+                        "type": "String",
+                        "textContent": "Corone, faccette, ponti e protesi"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                      "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f86"
+                    },
+                    "type": "Paragraph",
+                    "styleNames": [
+                      "Large Paragraph"
+                    ],
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                          "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f87"
+                        },
+                        "type": "String",
+                        "textContent": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                  "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f88"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Div Block 13"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                      "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f89"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "istaknuta cijena"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                          "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8a"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "cijena velika"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                              "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8b"
+                            },
+                            "type": "Strong",
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                                  "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8c"
+                                },
+                                "type": "String",
+                                "textContent": "A partire da 220 €"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component d430cc2c-555c-6d7a-ff18-8922771fa88e",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"d430cc2c-555c-6d7a-ff18-8922771fa88e\" tree loaded",
+          "data": {
+            "id": {
+              "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+              "element": "d430cc2c-555c-6d7a-ff18-8922771fa88e"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Home Service Card"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                  "element": "d430cc2c-555c-6d7a-ff18-8922771fa88f"
+                },
+                "type": "Block",
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                      "element": "d430cc2c-555c-6d7a-ff18-8922771fa890"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Nadnaslov kartica"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                          "element": "d430cc2c-555c-6d7a-ff18-8922771fa891"
+                        },
+                        "type": "String",
+                        "textContent": "Pacchetto “tutto incluso”"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                      "element": "d430cc2c-555c-6d7a-ff18-8922771fa892"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Medjunaslov H3",
+                      "bold"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "url",
+                        "href": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                          "element": "d430cc2c-555c-6d7a-ff18-8922771fa893"
+                        },
+                        "type": "String",
+                        "textContent": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                      "element": "d430cc2c-555c-6d7a-ff18-8922771fa894"
+                    },
+                    "type": "Paragraph",
+                    "styleNames": [
+                      "Large Paragraph"
+                    ],
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                          "element": "d430cc2c-555c-6d7a-ff18-8922771fa895"
+                        },
+                        "type": "String",
+                        "textContent": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                  "element": "d430cc2c-555c-6d7a-ff18-8922771fa896"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Div Block 13"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                      "element": "d430cc2c-555c-6d7a-ff18-8922771fa897"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "istaknuta cijena"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                          "element": "d430cc2c-555c-6d7a-ff18-8922771fa898"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "cijena velika"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                              "element": "d430cc2c-555c-6d7a-ff18-8922771fa899"
+                            },
+                            "type": "String",
+                            "textContent": "Prezzo fisso a 2.990 €"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

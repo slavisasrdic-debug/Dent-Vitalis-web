@@ -1,0 +1,163 @@
+---
+import Reveal from './Reveal.astro';
+interface Props {
+  eyebrow: string;
+  title: string;
+  description?: string;
+  accent?: string;
+  variant?: 'intro' | 'spacious' | 'compact';
+}
+const {
+  eyebrow,
+  title,
+  description,
+  accent,
+  variant = 'spacious',
+} = Astro.props;
+---
+
+<div class:list={['section-heading', variant]}>
+  <div class="heading-container">
+    <div class="heading-content">
+      <div class="titles">
+        <p class="eyebrow" data-reveal="grow" data-offset="0">
+          {eyebrow}
+        </p><Reveal as="h2"
+          >{
+            accent && (
+              <>
+                <strong>{accent}</strong>{' '}
+              </>
+            )
+          }{title}</Reveal
+        >{
+          variant !== 'intro' && description && (
+            <Reveal as="p" class="description">
+              {description}
+            </Reveal>
+          )
+        }
+      </div>{
+        variant === 'intro' && description && (
+          <>
+            <>
+              <div class="intro-gap" />
+              <Reveal as="p" class="description">
+                {description}
+              </Reveal>
+            </>
+          </>
+        )
+      }
+    </div>
+  </div>
+</div>
+<style>
+  .section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80svh;
+    padding-inline: 5%;
+  }
+  .heading-container {
+    width: 100%;
+    max-width: var(--container-max);
+    padding: 160px 40px 40px;
+  }
+  .heading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 900px;
+    margin-inline: auto;
+    text-align: center;
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .eyebrow {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .section-heading :global(h2) {
+    margin: 20px 0 10px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  strong {
+    color: var(--color-accent);
+  }
+  .section-heading :global(.description) {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+  .intro-gap {
+    height: 10px;
+  }
+  .compact {
+    min-height: auto;
+    padding: 0;
+  }
+  @media screen and (max-width: 991px) {
+    .section-heading {
+      min-height: auto;
+      padding-bottom: 40px;
+    }
+    .heading-container {
+      padding-top: 100px;
+    }
+    .heading-content,
+    .titles {
+      text-align: left;
+      align-items: flex-start;
+    }
+    .section-heading :global(.description) {
+      margin-bottom: 0;
+    }
+    .intro-gap {
+      height: 0;
+      display: none;
+    }
+    .intro .heading-container {
+      padding-bottom: 30px;
+    }
+    .compact {
+      padding-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .section-heading {
+      padding-inline: 7%;
+    }
+    .heading-container {
+      padding-inline: 0;
+      padding-bottom: 20px;
+    }
+    .section-heading :global(h2) {
+      font-size: 42px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .section-heading {
+      padding-bottom: 30px;
+    }
+    .section-heading :global(h2) {
+      font-size: 9vw;
+    }
+    .section-heading :global(.description) {
+      font-size: 20px;
+    }
+    .compact {
+      padding-bottom: 0;
+    }
+  }
+</style>

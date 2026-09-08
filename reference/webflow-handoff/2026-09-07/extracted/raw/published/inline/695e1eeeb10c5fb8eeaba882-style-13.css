@@ -1,0 +1,21 @@
+
+.gumb-vise > .primary-button-left-block,
+.gumb-vise > .primary-button-left-block-2 {
+  border-right-width: 0 !important;
+}
+.gumb-vise > .primary-button-right-block::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 4px;
+  right: calc(100% + 6px);
+  bottom: 4px;
+  width: 1px;
+  background-color: #ffffff80;
+}
+@media screen and (max-width: 991px) {
+  .gumb-vise > .primary-button-right-block::before {
+    top: 7px;
+    bottom: 7px;
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:39.901Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Zaglavlje detaljna",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "9451505b-5015-c534-40e8-5413c82b759b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Zaglavlje detaljna",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "9451505b-5015-c534-40e8-5413c82b759b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Zaglavlje detaljna",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "9451505b-5015-c534-40e8-5413c82b759b",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "9451505b-5015-c534-40e8-5413c82b759e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69638685bcfda6df6870b6f6"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9451505b-5015-c534-40e8-5413c82b75a3",
+            "text": {
+              "html": "<h6 class=\"nadnaslov-detaljna\">Pacchetto “tutto incluso”</h6>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9451505b-5015-c534-40e8-5413c82b75a6",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Premium: ponte fisso su impianti</h1>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9451505b-5015-c534-40e8-5413c82b75a8",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.</p>",
+              "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults Zaglavlje detaljna",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "9451505b-5015-c534-40e8-5413c82b759b",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

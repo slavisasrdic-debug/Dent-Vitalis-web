@@ -1,0 +1,272 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+interface Props {
+  slides: { text: string; name: string; year: string }[];
+  label: string;
+}
+const { slides, label } = Astro.props;
+---
+
+<div
+  class="slider"
+  role="region"
+  aria-roledescription="carosello"
+  aria-label={label}
+  data-slider
+>
+  <div class="slider-viewport">
+    <div class="slider-track">
+      {
+        slides.map((slide, index) => (
+          <article
+            class="slide"
+            role="group"
+            aria-roledescription="diapositiva"
+            aria-label={`${index + 1} di ${slides.length}`}
+          >
+            <>
+              <ResponsiveImage
+                image="GR-DV.webp"
+                alt="Valutazione Google 4,9 su 5 basata su 152 recensioni"
+                class="rating"
+                sizes="80px"
+              />
+              <p class="quote">{slide.text}</p>
+              <h3>{slide.name}</h3>
+              <p class="year">{slide.year}</p>
+              <ResponsiveImage
+                image="zvjezdice.webp"
+                alt="Valutazione di cinque stelle"
+                class="stars"
+                sizes="100px"
+              />
+            </>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+  <button class="previous" type="button" aria-label="Testimonianza precedente"
+    ><svg viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"
+      ><path
+        d="m15 4-8 8 8 8"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"></path></svg
+    ></button
+  ><button class="next" type="button" aria-label="Testimonianza successiva"
+    ><svg viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"
+      ><path d="m9 4 8 8-8 8" fill="none" stroke="currentColor" stroke-width="2"
+      ></path></svg
+    ></button
+  >
+  <div class="dots">
+    {
+      slides.map((_, index) => (
+        <button
+          type="button"
+          aria-label={`Mostra testimonianza ${index + 1}`}
+          aria-pressed={index === 0}
+          data-slide-to={index}
+        />
+      ))
+    }
+  </div>
+  <span class="sr-only" aria-live="polite" data-slide-status></span>
+</div>
+<noscript
+  ><style>
+    .slider-track {
+      display: block !important;
+    }
+    .slide {
+      margin-bottom: 40px;
+    }
+    .slider .previous,
+    .slider .next,
+    .slider .dots {
+      display: none;
+    }
+  </style></noscript
+>
+<style>
+  .slider {
+    position: relative;
+    padding: 40px 60px;
+    border-radius: var(--radius);
+    background: #ffffff80;
+    backdrop-filter: blur(7px);
+  }
+  .slider-viewport {
+    overflow: hidden;
+  }
+  .slider-track {
+    display: flex;
+    transition: transform 500ms ease;
+    align-items: flex-start;
+  }
+  .slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 60px 20px 40px;
+    text-align: center;
+  }
+  .slide :global(.rating) {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .quote {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .year {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .slide :global(.stars) {
+    height: 26px;
+    width: auto;
+  }
+  .previous,
+  .next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--color-border);
+  }
+  .previous {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    padding-top: 10px;
+  }
+  .dots button {
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background: #2226;
+  }
+  .dots button[aria-pressed='true'] {
+    background: #222;
+  }
+  @media screen and (max-width: 991px) {
+    .slider {
+      background: transparent;
+      backdrop-filter: none;
+    }
+    .slide {
+      padding-inline: 0;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .slider {
+      padding-inline: 7%;
+    }
+    .quote {
+      font-size: 24px;
+    }
+    .previous,
+    .next {
+      display: none;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .slider-track {
+      transition: none;
+    }
+  }
+</style>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-slider]').forEach((slider) => {
+    if (slider.dataset.ready) return;
+    slider.dataset.ready = 'true';
+    const slides = [...slider.querySelectorAll<HTMLElement>('.slide')];
+    const track = slider.querySelector<HTMLElement>('.slider-track')!;
+    const dots = [
+      ...slider.querySelectorAll<HTMLButtonElement>('[data-slide-to]'),
+    ];
+    let current = 0;
+    const update = (index: number, announce = true) => {
+      current = (index + slides.length) % slides.length;
+      track.style.transform = `translateX(${-current * 100}%)`;
+      slides.forEach((slide, i) => {
+        slide.setAttribute('aria-hidden', String(i !== current));
+        slide.inert = i !== current;
+      });
+      dots.forEach((dot, i) =>
+        dot.setAttribute('aria-pressed', String(i === current)),
+      );
+      if (announce)
+        slider.querySelector('[data-slide-status]')!.textContent =
+          `${current + 1} di ${slides.length}`;
+    };
+    slider
+      .querySelector('.previous')!
+      .addEventListener('click', () => update(current - 1));
+    slider
+      .querySelector('.next')!
+      .addEventListener('click', () => update(current + 1));
+    dots.forEach((dot, i) => dot.addEventListener('click', () => update(i)));
+    slider.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') update(current - 1);
+      if (event.key === 'ArrowRight') update(current + 1);
+    });
+    let start: { x: number; y: number } | null = null;
+    slider.addEventListener(
+      'touchstart',
+      (event) => {
+        const touch = event.touches[0];
+        if (touch) start = { x: touch.clientX, y: touch.clientY };
+      },
+      { passive: true },
+    );
+    slider.addEventListener(
+      'touchend',
+      (event) => {
+        const touch = event.changedTouches[0];
+        if (start && touch) {
+          const dx = touch.clientX - start.x;
+          const dy = touch.clientY - start.y;
+          if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy))
+            update(current + (dx < 0 ? 1 : -1));
+        }
+        start = null;
+      },
+      { passive: true },
+    );
+    update(0, false);
+  });
+</script>

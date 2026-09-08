@@ -1,0 +1,44 @@
+
+.teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2:not(.w-embed) {
+  font-size: 0 !important;
+}
+.teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2:not(.w-embed)::after {
+  content: "";
+  display: block;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .teaser-copy-wrap .home-service-card-hp .div-block-13 { width: 100%; align-items: flex-end; }
+  .teaser-copy-wrap .home-service-card-hp .istaknuta-cijena { flex: 1 1 0%; min-width: 0; }
+  .teaser-copy-wrap .home-service-card-hp .cijena-velika { flex: 1 1 auto; min-width: 0; width: auto; white-space: normal; }
+  .teaser-copy-wrap .home-service-card-hp .cijena-velika > div { white-space: normal; }
+  .teaser-copy-wrap .home-service-card-hp .link-block-5 {
+    flex: 0 0 44px;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+  }
+  .teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2 {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px !important;
+    line-height: 1 !important;
+  }
+  .teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2:not(.w-embed)::after {
+    flex-basis: 44px;
+    width: 44px;
+    height: 44px;
+  }
+}

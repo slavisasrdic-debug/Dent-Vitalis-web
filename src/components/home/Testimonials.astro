@@ -1,0 +1,150 @@
+---
+import SectionHeading from '../SectionHeading.astro';
+import TestimonialSlider from '../TestimonialSlider.astro';
+import ResponsiveImage from '../ResponsiveImage.astro';
+import Button from '../Button.astro';
+import type { LinkData } from '../../content/site';
+import type { ImageKey } from '../ResponsiveImage.astro';
+interface Props {
+  heading: { eyebrow: string; title: string; description: string };
+  slides: { text: string; name: string; year: string }[];
+  actions: LinkData[];
+  photo: { desktop: ImageKey; mobile: ImageKey; alt: string };
+}
+const { heading, slides, actions, photo } = Astro.props;
+---
+
+<section class="testimonials">
+  <SectionHeading {...heading} /><div class="testimonial-scene">
+    <div class="testimonial-grid">
+      <div class="review-layer">
+        <div class="review-scroll" data-reveal>
+          <TestimonialSlider slides={slides} label={heading.title} />
+        </div>
+      </div><div class="photo-layer">
+        <ResponsiveImage
+          image={photo.desktop}
+          alt={photo.alt}
+          class="desktop-photo"
+          sizes="100vw"
+        /><ResponsiveImage
+          image={photo.mobile}
+          alt={photo.alt}
+          class="mobile-photo"
+          sizes="100vw"
+          reveal
+        />
+      </div>
+    </div>
+  </div><div class="actions">
+    {
+      actions.map((action) => (
+        <div>
+          <Button {...action} variant="outline" reveal />
+        </div>
+      ))
+    }
+  </div>
+</section>
+<style>
+  .testimonial-scene {
+    padding-bottom: 60px;
+  }
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+    position: relative;
+  }
+  .review-layer {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(270deg, transparent, var(--color-surface) 50%);
+  }
+  .review-scroll {
+    max-width: 600px;
+    min-height: 96svh;
+    padding-block: 400px;
+  }
+  .photo-layer {
+    position: absolute;
+    inset: 0;
+  }
+  .photo-layer :global(.desktop-photo) {
+    position: sticky;
+    top: 70px;
+    width: 100vw;
+    height: 100svh;
+    object-fit: cover;
+  }
+  .photo-layer :global(.mobile-photo) {
+    display: none;
+  }
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-block: 40px;
+  }
+  .actions > div {
+    margin: 20px 0 10px;
+  }
+  @media screen and (min-width: 1280px) {
+    .testimonial-grid {
+      gap: 60px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .testimonial-grid {
+      gap: 100px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .testimonial-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .review-scroll {
+      min-height: auto;
+      padding: 0;
+      max-width: none;
+    }
+    .photo-layer {
+      position: static;
+    }
+    .photo-layer :global(.desktop-photo) {
+      display: none;
+    }
+    .photo-layer :global(.mobile-photo) {
+      display: block;
+      width: 100%;
+    }
+    .actions > div {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .actions {
+      flex-direction: column;
+      gap: 0;
+      padding-top: 10px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .actions {
+      padding-top: 0;
+      padding-inline: 7%;
+    }
+    .actions > div {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .photo-layer :global(.mobile-photo) {
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+</style>

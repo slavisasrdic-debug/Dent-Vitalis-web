@@ -1,0 +1,98 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:45:12.639Z",
+  "tool": "mcp__codex_apps__webflow_data_pages_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Prestazioni folder metadata",
+        "get_page_metadata": {
+          "page_id": "695e1eeeb10c5fb8eeaba883"
+        }
+      },
+      {
+        "label": "Su di noi folder metadata",
+        "get_page_metadata": {
+          "page_id": "695e1eeeb10c5fb8eeaba887"
+        }
+      },
+      {
+        "label": "Informazioni folder metadata",
+        "get_page_metadata": {
+          "page_id": "695e1eeeb10c5fb8eeaba88f"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Prestazioni folder metadata",
+      "action": "get_page_metadata",
+      "result": {
+        "id": "695e1eeeb10c5fb8eeaba883",
+        "siteId": "695e1eeeb10c5fb8eeaba87d",
+        "title": "Prestazioni",
+        "slug": "prestazioni",
+        "createdOn": "2025-11-11T10:06:21.666Z",
+        "lastUpdated": "2026-01-11T13:50:04.336Z",
+        "archived": false,
+        "draft": false,
+        "canBranch": true,
+        "isBranch": false,
+        "seo": {},
+        "openGraph": {
+          "imageUrl": null,
+          "imageAssetId": null
+        },
+        "publishedPath": "/prestazioni",
+        "localeId": "695e1eeeb10c5fb8eeaba87f"
+      }
+    },
+    {
+      "label": "Su di noi folder metadata",
+      "action": "get_page_metadata",
+      "result": {
+        "id": "695e1eeeb10c5fb8eeaba887",
+        "siteId": "695e1eeeb10c5fb8eeaba87d",
+        "title": "Su di noi",
+        "slug": "su-di-noi",
+        "createdOn": "2025-11-20T11:29:45.119Z",
+        "lastUpdated": "2026-01-11T13:50:04.355Z",
+        "archived": false,
+        "draft": false,
+        "canBranch": true,
+        "isBranch": false,
+        "seo": {},
+        "openGraph": {
+          "imageUrl": null,
+          "imageAssetId": null
+        },
+        "publishedPath": "/su-di-noi",
+        "localeId": "695e1eeeb10c5fb8eeaba87f"
+      }
+    },
+    {
+      "label": "Informazioni folder metadata",
+      "action": "get_page_metadata",
+      "result": {
+        "id": "695e1eeeb10c5fb8eeaba88f",
+        "siteId": "695e1eeeb10c5fb8eeaba87d",
+        "title": "Informazioni",
+        "slug": "informazioni",
+        "createdOn": "2025-11-28T11:43:45.504Z",
+        "lastUpdated": "2026-08-25T11:41:24.152Z",
+        "archived": false,
+        "draft": false,
+        "canBranch": true,
+        "isBranch": false,
+        "seo": {},
+        "openGraph": {
+          "imageUrl": null,
+          "imageAssetId": null
+        },
+        "publishedPath": "/informazioni",
+        "localeId": "695e1eeeb10c5fb8eeaba87f"
+      }
+    }
+  ]
+}

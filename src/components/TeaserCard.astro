@@ -1,0 +1,251 @@
+---
+import type { TeaserCardData } from '../content/home';
+import type { RevealMedia } from '../scripts/reveal';
+interface Props {
+  card: Pick<
+    TeaserCardData,
+    | 'title'
+    | 'href'
+    | 'eyebrow'
+    | 'description'
+    | 'price'
+    | 'priceInset'
+    | 'copyLayout'
+    | 'showArrow'
+    | 'actionLayout'
+  >;
+  variant: 'service' | 'about';
+  reveal?: RevealMedia | false;
+  context?: 'home' | 'directory' | 'related';
+  headingLevel?: 2 | 3;
+}
+const {
+  card,
+  variant,
+  reveal = 'mobile',
+  context = 'home',
+  headingLevel = 3,
+} = Astro.props;
+const Heading = headingLevel === 2 ? 'h2' : 'h3';
+---
+
+<article
+  class:list={['teaser-card', variant, context, card.actionLayout]}
+  data-reveal={reveal ? 'card' : undefined}
+  data-reveal-media={reveal || undefined}
+>
+  <div class:list={['copy', card.copyLayout || 'flow']}>
+    {card.eyebrow && <p class="eyebrow">{card.eyebrow}</p>}<Heading>
+      <a href={card.href}>{card.title}</a>
+    </Heading>{
+      variant === 'service' && <p class="description">{card.description}</p>
+    }
+  </div>
+  <div class="card-bottom">
+    {
+      card.price && (
+        <p
+          class:list={[
+            'price',
+            { inset: card.priceInset && context !== 'related' },
+          ]}
+        >
+          {card.price}
+        </p>
+      )
+    }{variant === 'about' && <p class="description">{card.description}</p>}{
+      context !== 'related' && card.showArrow !== false && (
+        <a class="arrow" href={card.href} aria-label={card.title}>
+          <svg viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+            <path
+              fill="currentColor"
+              d="M8 6v2h14.586L6 24.586 7.414 26 24 9.414V24h2V6z"
+            />
+          </svg>
+        </a>
+      )
+    }
+    {
+      context !== 'related' && card.showArrow === false && (
+        <span class="arrow arrow-spacer" aria-hidden="true" />
+      )
+    }
+  </div>
+</article>
+<style>
+  .teaser-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 60px 40px;
+    border-left: 10px solid var(--color-primary-hover);
+    border-radius: 10px;
+    background: #ffffffe6;
+    backdrop-filter: blur(5px);
+  }
+  .eyebrow {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .copy.stack {
+    display: flex;
+    flex-direction: column;
+  }
+  h2,
+  h3 {
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--color-primary);
+  }
+  .description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 10px 0 20px;
+  }
+  .card-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .price {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 4px;
+  }
+  .price.inset {
+    padding: 4px;
+  }
+  @media screen and (min-width: 992px) {
+    .price {
+      padding-block: 10px;
+    }
+    .price.inset {
+      padding-block: 14px;
+    }
+  }
+  .arrow {
+    display: block;
+    flex: none;
+    color: var(--color-primary-hover);
+  }
+  .arrow svg {
+    display: block;
+  }
+  .arrow-spacer {
+    width: 40px;
+    height: 40px;
+  }
+  .about .card-bottom {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    align-items: end;
+  }
+  .about .description {
+    margin-top: 0;
+    line-height: 130%;
+  }
+  @media screen and (max-width: 991px) {
+    .teaser-card {
+      width: 90%;
+      margin-top: -100px;
+      padding-block: 40px;
+      position: relative;
+      background: white;
+      border-radius: var(--radius);
+      backdrop-filter: none;
+    }
+    h2,
+    h3 {
+      margin-bottom: 10px;
+    }
+    .about .card-bottom {
+      display: flex;
+    }
+    .about .description {
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .teaser-card {
+      padding-inline: 24px;
+      border-left-width: 6px;
+    }
+    .about .card-bottom {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 0;
+    }
+    .about .description {
+      flex-basis: 100%;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    h2,
+    h3 {
+      font-size: 24px;
+      margin: 10px 0 0;
+    }
+    .card-bottom {
+      flex-wrap: wrap;
+      row-gap: 12px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .directory {
+      width: var(--directory-card-width, 100%);
+      max-width: 100%;
+      margin-left: var(--directory-card-offset, 0px);
+      flex: none;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    .directory .price {
+      padding-block: 10px;
+    }
+    .directory .price.inset {
+      padding-block: 14px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .directory.wide-arrow .card-bottom {
+      align-items: flex-end;
+    }
+    .directory.wide-arrow .price {
+      flex: 1;
+      min-width: 0;
+    }
+    .directory.wide-arrow .arrow {
+      width: 44px;
+      height: 44px;
+      margin-left: 14px;
+    }
+    .directory.wide-arrow .arrow svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .related {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 40px;
+    border: 0;
+    gap: 0;
+    background: white;
+    backdrop-filter: none;
+  }
+  @media screen and (max-width: 479px) {
+    .related {
+      padding-inline: 20px;
+    }
+  }
+</style>

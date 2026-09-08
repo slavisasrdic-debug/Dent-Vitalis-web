@@ -1,0 +1,74 @@
+{
+  "status": "extracted",
+  "site": {
+    "id": "695e1eeeb10c5fb8eeaba87d",
+    "workspaceId": "6332554529eea90195a3f5e5",
+    "displayName": "Dentvitalis33",
+    "shortName": "dentvitalis33",
+    "previewUrl": "https://screenshots.webflow.com/sites/695e1eeeb10c5fb8eeaba87d/20260907072132_2bbb93ca524e5846fee0f7084b703179.png",
+    "timeZone": "Europe/Zagreb",
+    "createdOn": "2026-01-07T08:53:04.848Z",
+    "lastUpdated": "2026-09-07T07:21:41.929Z",
+    "lastPublished": "2026-09-07T07:21:32.143Z",
+    "fullSiteCompiledAt": "2026-09-07T07:21:32.143Z",
+    "parentFolderId": "647704a25ec7149bdd8ffa74",
+    "customDomains": [],
+    "locales": {
+      "primary": {
+        "id": "695e1eeeb10c5fb8eeaba87f",
+        "enabled": false,
+        "displayName": "Italian",
+        "redirect": true,
+        "subdirectory": "",
+        "tag": "it"
+      },
+      "secondary": []
+    },
+    "dataCollectionEnabled": false,
+    "dataCollectionType": "always",
+    "googleTagIds": []
+  },
+  "identityVerification": {
+    "status": "derived",
+    "method": "Each fetched HTML data-wf-site equals API site ID, data-wf-domain identifies dentvitalis33.webflow.io, page IDs match inventory",
+    "allPagesMatch": true
+  },
+  "staging": "https://dentvitalis33.webflow.io/",
+  "legacyProductionContext": "https://www.dentvitalis.com/",
+  "cmsLocaleIds": {
+    "status": "unavailable",
+    "value": null,
+    "reason": "CMS collection read endpoint is not callable through current connector schema; no locale ID inferred."
+  },
+  "hrCorrectionRef": "raw/user-clarification.json",
+  "plannedRoutes": {
+    "status": "proposed",
+    "values": [
+      {
+        "path": "/",
+        "lang": "it"
+      },
+      {
+        "path": "/hr",
+        "lang": "hr"
+      },
+      {
+        "path": "/de",
+        "lang": "de"
+      },
+      {
+        "path": "/en",
+        "lang": "en"
+      },
+      {
+        "path": "/si",
+        "lang": "sl"
+      }
+    ]
+  },
+  "otherNewLocales": {
+    "status": "not-present",
+    "scope": "Site locale inventory and user confirmation",
+    "value": []
+  }
+}

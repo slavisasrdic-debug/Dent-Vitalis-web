@@ -1,0 +1,44 @@
+{
+  "status": "derived",
+  "pages": 28,
+  "pageContentComplete": true,
+  "nativePageTrees": 28,
+  "nativeComponentTrees": 28,
+  "variables": 11,
+  "components": 28,
+  "assets": 238,
+  "masters": 238,
+  "nativeStyleCount": 454,
+  "publishedRuleCount": 1665,
+  "fontFamilies": [
+    "Arial, sans-serif",
+    "Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif",
+    "Montserrat, sans-serif",
+    "inherit",
+    "monospace",
+    "sans-serif",
+    "serif",
+    "unset",
+    "webflow-icons"
+  ],
+  "numericWidthBoundaries": [
+    359.0,
+    479.0,
+    767.0,
+    768.0,
+    991.0,
+    992.0,
+    1280.0,
+    1440.0,
+    1920.0
+  ],
+  "conditionCount": 16,
+  "interactionTargetSummary": {
+    "status": "derived",
+    "eventsWithStaticTargets": 194,
+    "eventsWithoutStaticTargets": 82,
+    "scope": "Static published HTML only; not runtime/visibility verification"
+  },
+  "totalInteractionRecipes": 465,
+  "assetBytes": 175653096
+}

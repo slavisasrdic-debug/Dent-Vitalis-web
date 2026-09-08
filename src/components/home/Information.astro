@@ -1,0 +1,97 @@
+---
+import SectionHeading from '../SectionHeading.astro';
+import Button from '../Button.astro';
+import type { LinkData } from '../../content/site';
+interface Props {
+  heading: { eyebrow: string; title: string; description: string };
+  cards: { title: string; text: string; href: string }[];
+  action: LinkData;
+}
+const { heading, cards, action } = Astro.props;
+---
+
+<section class="information">
+  <SectionHeading {...heading} variant="compact" /><div
+    class="information-list"
+  >
+    {
+      cards.map((card) => (
+        <article class="information-card">
+          <>
+            <h3>
+              <a href={card.href}>{card.title}</a>
+            </h3>
+            <p>{card.text}</p>
+          </>
+        </article>
+      ))
+    }<div class="cta">
+      <Button {...action} inquiry />
+    </div>
+  </div>
+</section>
+<style>
+  .information-list {
+    max-width: var(--container-max);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .information-card {
+    width: 100%;
+    max-width: 900px;
+    margin-inline: auto;
+    background: white;
+    border-left: 10px solid var(--color-primary-hover);
+    border-radius: 10px;
+    padding: 10px 40px;
+  }
+  h3 {
+    margin: 40px 0 20px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  p {
+    margin: 10px 0 20px;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+  }
+  .cta {
+    align-self: center;
+  }
+  @media screen and (max-width: 991px) {
+    .information-list {
+      padding-inline: 5%;
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    .cta {
+      align-self: flex-start;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .information-list {
+      padding-inline: 7%;
+      gap: 20px;
+    }
+    .information-card {
+      border-left-width: 6px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .information-card {
+      padding-inline: 20px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    .cta {
+      width: 100%;
+    }
+  }
+</style>

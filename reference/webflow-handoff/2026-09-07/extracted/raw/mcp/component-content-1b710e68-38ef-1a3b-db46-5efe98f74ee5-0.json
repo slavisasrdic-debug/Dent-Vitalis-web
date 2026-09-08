@@ -1,0 +1,91 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:14.744Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Fiksni kontakti mobile",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Fiksni kontakti mobile",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Fiksni kontakti mobile",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+        "nodes": [
+          {
+            "type": "html-embed",
+            "id": "1b710e68-38ef-1a3b-db46-5efe98f74eec",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M26 21h-3v-3h-2v3h-3v2h3v3h2v-3h3z\"></path><path fill=\"currentColor\" d=\"M22 30c-4.4 0-8-3.6-8-8s3.6-8 8-8s8 3.6 8 8s-3.6 8-8 8zm0-14c-3.3 0-6 2.7-6 6s2.7 6 6 6s6-2.7 6-6s-2.7-6-6-6z\"></path><path fill=\"currentColor\" d=\"M28 6c0-1.1-.9-2-2-2h-4V2h-2v2h-8V2h-2v2H6c-1.1 0-2 .9-2 2v20c0 1.1.9 2 2 2h6v-2H6V6h4v2h2V6h8v2h2V6h4v6h2V6z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1b710e68-38ef-1a3b-db46-5efe98f74eed",
+            "text": {
+              "html": "<div class=\"text-block-13\">Consulta il dentista</div>",
+              "text": "Consulta il dentista"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee8",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M20 10c0 4.418-8 12-8 12s-8-7.582-8-12a8 8 0 1 1 16 0Z\"></path><path fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 11a1 1 0 1 0 0-2a1 1 0 0 0 0 2Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "4f33ae2e-ee03-b979-9039-e5e61236364c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M20 10c0 4.418-8 12-8 12s-8-7.582-8-12a8 8 0 1 1 16 0Z\"></path><path fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 11a1 1 0 1 0 0-2a1 1 0 0 0 0 2Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "1b710e68-38ef-1a3b-db46-5efe98f74eea",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--tabler\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"></path></svg>",
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "label": "Component defaults Fiksni kontakti mobile",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

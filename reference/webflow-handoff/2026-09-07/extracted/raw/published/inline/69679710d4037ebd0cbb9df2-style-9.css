@@ -1,0 +1,6 @@
+
+@media screen and (min-width: 992px) {
+  .container-wrapper-list-detail {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

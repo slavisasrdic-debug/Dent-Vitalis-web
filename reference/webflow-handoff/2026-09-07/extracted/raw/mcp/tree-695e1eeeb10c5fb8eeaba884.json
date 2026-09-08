@@ -1,0 +1,2426 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:45:59.914Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba884",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "68e77bb8a2d3bcb91046b16b"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "75b547a6-7053-5a0e-e3df-c436824b5125"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba884",
+                      "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98f7"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98f8"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98f9"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fa"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fb"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fc"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "none"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba884",
+                                              "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fd"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fe"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98ff"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9900"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "3b2bcd3d-7c24-c94d-1435-6ce6f98ed805"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/prestazioni-dentali"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba884",
+                                              "element": "c12a144a-fe52-fcca-f9a6-8ed18750b018"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Prestazioni"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9902"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9903"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9904"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9905"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Premium: ponte fisso su impianti"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "76fc5f3c-61f7-8015-0464-2131852bf07c"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba884",
+                      "element": "5a2b2d6d-230a-9146-dc80-a8115fff8070"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "5a2b2d6d-230a-9146-dc80-a8115fff8071"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "5a2b2d6d-230a-9146-dc80-a8115fff8072"
+                        },
+                        "type": "Image",
+                        "styleNames": [
+                          "Image 10"
+                        ],
+                        "settings": {
+                          "visibility": true,
+                          "assetId": "6a86c287a427020a8631b10c",
+                          "altText": "Paziente durante il trattamento per un ponte fisso su impianti"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba884",
+                      "element": "5a2b2d6d-230a-9146-dc80-a8115fff8073"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "5a2b2d6d-230a-9146-dc80-a8115fff8074"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "5a2b2d6d-230a-9146-dc80-a8115fff8075"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "5a2b2d6d-230a-9146-dc80-a8115fff8076"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Section Heading Wrapper 3",
+                                  "Home 2 Header"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "5a2b2d6d-230a-9146-dc80-a8115fff8077"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Nadnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "5a2b2d6d-230a-9146-dc80-a8115fff8078"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Pacchetto “tutto incluso”"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "5a2b2d6d-230a-9146-dc80-a8115fff8079"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "5a2b2d6d-230a-9146-dc80-a8115fff807a"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "ae92e48b-82e4-4e99-aed3-8f79c733559e"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Premium: ponte fisso su impianti"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "5a2b2d6d-230a-9146-dc80-a8115fff807c"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "5a2b2d6d-230a-9146-dc80-a8115fff807d"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Prezzo fisso per un ponte fisso su impianti, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2c"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba884",
+                      "element": "47933700-bb97-b61f-e191-7a4f486d24a9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Detaljna tekst"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "47933700-bb97-b61f-e191-7a4f486d24bd"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Sadrzaji usluge"
+                        ],
+                        "attributes": {
+                          "id": "sadrzaji"
+                        },
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "47933700-bb97-b61f-e191-7a4f486d24be"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "2b3d109d-0081-c1f2-4878-6403331d0b79"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 11"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "2b3d109d-0081-c1f2-4878-6403331d0b7a"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prezzo fisso a 4.990 €"
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "6c5a9c99-7fb4-06c4-a3f9-480841d50955"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "d56e5eae-f2dc-2d90-4b63-afc1a6648301"
+                                },
+                                "type": "Link",
+                                "styleNames": [
+                                  "Link Block"
+                                ],
+                                "settings": {
+                                  "visibility": true,
+                                  "link": {
+                                    "linkType": "pageSection",
+                                    "pageSectionId": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "9f43e4f6-e458-0d15-07f3-6e0896abb338"
+                                    }
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "23d5ada7-8dad-b239-c81e-4b3e840f8002"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Text Block 11"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "23d5ada7-8dad-b239-c81e-4b3e840f8005"
+                                        },
+                                        "type": "Span",
+                                        "styleNames": [
+                                          "Text Span 4"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba884",
+                                              "element": "23d5ada7-8dad-b239-c81e-4b3e840f8006"
+                                            },
+                                            "type": "Strong",
+                                            "styleNames": [
+                                              "Bold Text 3"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                                  "element": "23d5ada7-8dad-b239-c81e-4b3e840f8007"
+                                                },
+                                                "type": "String",
+                                                "textContent": "(4.041,9 €*)"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "47933700-bb97-b61f-e191-7a4f486d24c1"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "47933700-bb97-b61f-e191-7a4f486d24c2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Il pacchetto Premium “Ponte fisso su impianti” comprende:"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "af97d28d-4e6d-f6ec-60b1-a68846a13a91"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "af97d28d-4e6d-f6ec-60b1-a68846a13a92"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "af97d28d-4e6d-f6ec-60b1-a68846a13a93"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "af97d28d-4e6d-f6ec-60b1-a68846a13a94"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Numero illimitato di impianti (non solo impianti standard, ma anche pterigoidei di ultima generazione)"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "74e51574-9294-1e07-4389-4d541fa1eda9"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "74e51574-9294-1e07-4389-4d541fa1edaa"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "74e51574-9294-1e07-4389-4d541fa1edab"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "74e51574-9294-1e07-4389-4d541fa1edac"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Applicazione di viti di copertura"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "34818983-08ec-1501-08f7-7c1ea736d27d"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "34818983-08ec-1501-08f7-7c1ea736d27e"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "34818983-08ec-1501-08f7-7c1ea736d27f"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "34818983-08ec-1501-08f7-7c1ea736d280"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Applicazione dei monconi protesici"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "33be8193-89b3-6b24-e08e-b5f575ea61df"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "33be8193-89b3-6b24-e08e-b5f575ea61e0"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "33be8193-89b3-6b24-e08e-b5f575ea61e1"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "33be8193-89b3-6b24-e08e-b5f575ea61e2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Estrazione di denti e impianti integrati, se necessario"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "e133b9e5-9ab2-371f-9579-3ed7df0be5d3"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "e133b9e5-9ab2-371f-9579-3ed7df0be5d4"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "e133b9e5-9ab2-371f-9579-3ed7df0be5d5"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "e133b9e5-9ab2-371f-9579-3ed7df0be5d6"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Livellamento osseo"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "e088f9be-6b61-c156-9d33-fdadb9adb630"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "e088f9be-6b61-c156-9d33-fdadb9adb631"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "e088f9be-6b61-c156-9d33-fdadb9adb632"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "e088f9be-6b61-c156-9d33-fdadb9adb633"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Ponte fisso provvisorio OnX entro 24 ore"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "a48fe020-f79a-4432-b929-ac58b64eb09f"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "a48fe020-f79a-4432-b929-ac58b64eb0a0"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "a48fe020-f79a-4432-b929-ac58b64eb0a1"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "a48fe020-f79a-4432-b929-ac58b64eb0a2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Anestesia"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "47933700-bb97-b61f-e191-7a4f486d24c5"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 13"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "9f43e4f6-e458-0d15-07f3-6e0896abb338"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost",
+                              "malo"
+                            ],
+                            "attributes": {
+                              "id": "prednost"
+                            },
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "9f43e4f6-e458-0d15-07f3-6e0896abb339"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16",
+                                  "malo"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "9f43e4f6-e458-0d15-07f3-6e0896abb33a"
+                                    },
+                                    "type": "String",
+                                    "textContent": "* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "1cb5350d-82f2-c742-116d-a36c6a86d23b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Tekst detaljna"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "78124333-d5f5-020a-794e-312ed4cacf02"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Large Paragraph"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "78124333-d5f5-020a-794e-312ed4cacf03"
+                                },
+                                "type": "String",
+                                "textContent": "Pacchetto Premium è la scelta ideale per chi ha perso, o sta per perdere, tutti i denti. "
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "b7230d06-3cce-2236-fb70-f4ba0eec2418"
+                                },
+                                "type": "",
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "24ff9614-b6cd-61fa-d792-efd112cf18ad"
+                                },
+                                "type": "",
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "b7230d06-3cce-2236-fb70-f4ba0eec2419"
+                                },
+                                "type": "String",
+                                "textContent": "Anche in caso di significativa perdita ossea, quando è necessario inserire più impianti per realizzare un ponte fisso completo, il prezzo rimane invariato e non sono previsti costi aggiuntivi."
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "7150ddc0-80bd-9a18-9c99-31fa75036d28"
+                                },
+                                "type": "",
+                                "settings": {
+                                  "visibility": true
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "d1332290-f4cb-6c51-1229-fe38dba642bb"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Medjunaslov H3"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "d1332290-f4cb-6c51-1229-fe38dba642bc"
+                                },
+                                "type": "String",
+                                "textContent": "Vantaggi aggiuntivi"
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "0041db8f-2aa0-a66e-e968-1f9adad1c778"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "db6546a0-6d55-9742-20d6-99596f0014c4"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Bulet"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "8585e7f9-801d-1f8b-1165-b023ecd287cc"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "ikona-bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "47c98e00-38a5-1b5a-a067-9be9184c2235"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph",
+                                      "bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "47c98e00-38a5-1b5a-a067-9be9184c2236"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Possibilità di soggiorno gratuito all’interno della clinica"
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "f4323491-19eb-c573-3cbd-3702e82d21e0"
+                                        },
+                                        "type": "",
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "413d376a-f60d-a5e3-25f6-881e60a0e830"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Bulet"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "561e220c-1555-ae9c-a60b-66397c9af34a"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "ikona-bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "413d376a-f60d-a5e3-25f6-881e60a0e832"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph",
+                                      "bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "413d376a-f60d-a5e3-25f6-881e60a0e833"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%"
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "413d376a-f60d-a5e3-25f6-881e60a0e834"
+                                        },
+                                        "type": "",
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "345449f5-28ed-043b-2aaa-98318b6b478f"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Bulet"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "cf107a66-f3f6-c77c-3ef8-e08ed2b9e691"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "ikona-bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "345449f5-28ed-043b-2aaa-98318b6b4791"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph",
+                                      "bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "a22a5455-de25-e649-fce7-ffed27176ec4"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Garanzia scritta sugli impianti"
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "a22a5455-de25-e649-fce7-ffed27176ec5"
+                                        },
+                                        "type": "",
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "d77c8ced-4a1d-8782-95b0-aeae0865bd31"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Bulet"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "36247432-8907-73bd-1d0e-392a4222a6a4"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "ikona-bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "d77c8ced-4a1d-8782-95b0-aeae0865bd33"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph",
+                                      "bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "d77c8ced-4a1d-8782-95b0-aeae0865bd34"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Passaporto dell’impianto con i dettagli di ciascun impianto"
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "d77c8ced-4a1d-8782-95b0-aeae0865bd35"
+                                        },
+                                        "type": "",
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "cc71236a-fb0d-71fb-4654-3487113f37aa"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Bulet"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "dfefc6e1-8f1d-0a9c-a04a-4c7af5c07e07"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "ikona-bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "cc71236a-fb0d-71fb-4654-3487113f37ac"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph",
+                                      "bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "cc71236a-fb0d-71fb-4654-3487113f37ad"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Organizzazione del trasporto"
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "cc71236a-fb0d-71fb-4654-3487113f37ae"
+                                        },
+                                        "type": "",
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "828acbd0-1d56-8c1e-c334-4f34f61c504c"
+                                },
+                                "type": "Link",
+                                "styleNames": [
+                                  "Bulet",
+                                  "link-bulet"
+                                ],
+                                "settings": {
+                                  "visibility": true,
+                                  "link": {
+                                    "linkType": "none"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "137d8d18-a829-917b-34cd-ba0041d924e6"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "ikona-bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "828acbd0-1d56-8c1e-c334-4f34f61c504e"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph",
+                                      "bullet"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "828acbd0-1d56-8c1e-c334-4f34f61c504f"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Sedazione cosciente disponibile su richiesta "
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba884",
+                                          "element": "828acbd0-1d56-8c1e-c334-4f34f61c5050"
+                                        },
+                                        "type": "",
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "6e7b5764-dc5c-61b1-7a57-9ed9c0c27bd8"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Large Paragraph"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "d4ee5124-0ac6-b469-60ed-157abde54c22"
+                                },
+                                "type": "Link",
+                                "styleNames": [
+                                  "Link"
+                                ],
+                                "settings": {
+                                  "visibility": true,
+                                  "link": {
+                                    "linkType": "none"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "d4ee5124-0ac6-b469-60ed-157abde54c21"
+                                    },
+                                    "type": "String",
+                                    "textContent": "La prima visita completa"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "6e7b5764-dc5c-61b1-7a57-9ed9c0c27bd9"
+                                },
+                                "type": "String",
+                                "textContent": ", con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo."
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "e831af9e-f5a7-8b68-5383-a2625f83dde0"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Medjunaslov H2 detaljna"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "e831af9e-f5a7-8b68-5383-a2625f83dde1"
+                                },
+                                "type": "String",
+                                "textContent": "Ulteriori informazioni"
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "3e4af075-e737-56a2-8fba-fd5fe2fc772b"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "b1ea8b65-299e-9066-80cf-240ad43d94c7"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "b1ea8b65-299e-9066-80cf-240ad43d94c8"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Inserimento degli impianti"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "62f4e84c-6fdb-4d01-4b41-022674aa8caf"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "62f4e84c-6fdb-4d01-4b41-022674aa8cb1"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Durante un’unica seduta vengono estratti tutti i denti residui e subito inseriti gli impianti. L’intervento dura circa un’ora ed è indolore grazie all’anestesia locale. È inoltre possibile eseguire questa procedura sia nella mascella superiore che in quella inferiore nella stessa seduta. Contattaci per ulteriori informazioni."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "bad2587a-5047-b531-e551-b8942e00dcdb"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "bad2587a-5047-b531-e551-b8942e00dcdc"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "bad2587a-5047-b531-e551-b8942e00dcdd"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Perché un numero illimitato di impianti?"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "bad2587a-5047-b531-e551-b8942e00dcde"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "bad2587a-5047-b531-e551-b8942e00dcdf"
+                                    },
+                                    "type": "String",
+                                    "textContent": "La qualità dell’osso mascellare varia da paziente a paziente. Quando l’osso è debole, è opportuno inserire più impianti per assicurare la stabilità e la durabilità del ponte. Se ogni impianto extra fosse a pagamento, il costo finale sarebbe molto più alto di quello concordato. I nostri lavori sono garantiti e, per assicurarne la durata nel tempo, ci assumiamo tutti i costi, permettendoti di affrontare il trattamento in totale serenità."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "81b48bc3-8773-9e6e-8670-a8a166a1bfa4"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "81b48bc3-8773-9e6e-8670-a8a166a1bfa5"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "81b48bc3-8773-9e6e-8670-a8a166a1bfa6"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Ponte OnX su impianti appena inseriti"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "81b48bc3-8773-9e6e-8670-a8a166a1bfa7"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "81b48bc3-8773-9e6e-8670-a8a166a1bfa8"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Entro 24 ore dall'inserimento degli impianti, viene fissato un ponte OnX. A differenza dei ponti in acrilico, questi garantiscono una resistenza e un’estetica eccezionali, offrendo una protezione supplementare agli impianti e favorendone l'integrazione nell’osso."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "99d716fd-672b-03de-1a34-651f356fa2a4"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "99d716fd-672b-03de-1a34-651f356fa2a5"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "99d716fd-672b-03de-1a34-651f356fa2a6"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Ritorno alle attività quotidiane"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "99d716fd-672b-03de-1a34-651f356fa2a7"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "99d716fd-672b-03de-1a34-651f356fa2a8"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Immediato, dopo il fissaggio del ponte sugli impianti. Durante l’intervento, il paziente riceve una terapia che previene il gonfiore delle gengive e dei tessuti circostanti."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "9ba1f5fe-c113-0079-6664-a7686b347b22"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "9ba1f5fe-c113-0079-6664-a7686b347b23"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "9ba1f5fe-c113-0079-6664-a7686b347b24"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prima dell’intervento"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "9ba1f5fe-c113-0079-6664-a7686b347b25"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "9ba1f5fe-c113-0079-6664-a7686b347b26"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Assumere un antibiotico secondo le indicazioni della clinica."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf0"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf1"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Risultato finale"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba884",
+                                  "element": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf3"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba884",
+                                      "element": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf4"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Il ponte fisso OnX ha un aspetto naturale e consente una masticazione e un linguaggio normali, restituendo sicurezza e migliorando significativamente la qualità della vita e l’estetica del paziente. Contattaci per ulteriori informazioni."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "c7758075-cf13-622d-87d6-29e55ffa107f"
+                },
+                "type": "Section",
+                "settings": {
+                  "tag": "section",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba884",
+                      "element": "2384f6f9-4462-c7b6-ca68-7ab818e156a6"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Full Width Wrapper"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "c2059de2-2666-e3cd-c8c4-056bb17301fc"
+                        },
+                        "type": "Paragraph",
+                        "styleNames": [
+                          "Medjunaslov H2 detaljna Altre"
+                        ],
+                        "settings": {
+                          "visibility": true
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "c2059de2-2666-e3cd-c8c4-056bb17301fd"
+                            },
+                            "type": "String",
+                            "textContent": "Altre prestazioni"
+                          }
+                        ]
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba884",
+                          "element": "2384f6f9-4462-c7b6-ca68-7ab818e156a7"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Container Wrapper list detail"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "d430cc2c-555c-6d7a-ff18-8922771fa89b"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                              "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+                              "props": [],
+                              "slots": []
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "f40ab2c5-b024-7140-cee0-7fb946e80c01"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                              "name": "kartica Facilissimo: sbiancamento dei denti",
+                              "props": [],
+                              "slots": []
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "9f329d04-429b-a1ab-b425-e51c549f384e"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                              "name": "kartica Corone, faccette, ponti e protesi",
+                              "props": [],
+                              "slots": []
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba884",
+                              "element": "f03f98b1-0a13-9043-f9f7-04a9633cc8fe"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+                              "name": "kartica Sedazione cosciente",
+                              "props": [],
+                              "slots": []
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "e926f4c4-489b-2198-8eb3-d32899ab9390"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "0fd4c9dd-0e8b-827c-b2aa-b3637040d0e2"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "2bf95465-eb13-24d5-7ba7-e49e65d87c49"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba884",
+                  "element": "8681193d-0ca4-1c7d-4456-4fcdbd78a49c"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

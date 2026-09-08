@@ -1,0 +1,30 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:44:30.488Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba896",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "error": {
+        "name": "Error",
+        "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+      }
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "unavailable",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

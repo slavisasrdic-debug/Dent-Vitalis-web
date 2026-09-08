@@ -1,0 +1,34 @@
+<!-- Must run in the shared head, before the body can paint. No network dependency. -->
+<script is:inline>
+  (() => {
+    const root = document.documentElement;
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+    if (
+      reduced.matches ||
+      !('IntersectionObserver' in window) ||
+      !Element.prototype.animate
+    )
+      return;
+
+    root.dataset.revealBoot = 'pending';
+    const release = () => {
+      // A missing/slow module must not leave the document hidden. Once released,
+      // late initialization is not allowed to hide already visible content again.
+      if (root.dataset.revealBoot === 'pending')
+        root.dataset.revealBoot = 'off';
+      clearTimeout(timeout);
+      document.removeEventListener('focusin', onFocus);
+      reduced.removeEventListener('change', release);
+    };
+    const onFocus = (event) => {
+      if (
+        event.target instanceof Element &&
+        event.target.closest('[data-reveal]')
+      )
+        release();
+    };
+    const timeout = setTimeout(release, 1500);
+    document.addEventListener('focusin', onFocus);
+    reduced.addEventListener('change', release);
+  })();
+</script>

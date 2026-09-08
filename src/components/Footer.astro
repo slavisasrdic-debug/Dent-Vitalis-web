@@ -1,0 +1,260 @@
+---
+import type { clinic } from '../content/site';
+import type groups from '../content/footer-it.json';
+interface Props {
+  business: typeof clinic;
+  groups: typeof groups;
+}
+const { business, groups: sections } = Astro.props;
+const socials = [
+  ['twitter', '62434fa732124ac15112aad5_twitter small.svg'],
+  ['linkedin', '62434fa732124a389912aad8_linkedin small.svg'],
+  ['facebook', '62434fa732124a51bf12aae9_facebook small.svg'],
+];
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-container">
+      <a class="footer-brand" href="/"
+        ><img
+          src="/assets/images/Dentvitalis-logo-color_21200px.svg"
+          alt="DentVitalis - Dentisti Croazia"
+          width="140"
+        /></a
+      ><div class="footer-grid">
+        {
+          sections.map((group) => (
+            <nav
+              class:list={['footer-group', { legal: group.legal }]}
+              aria-label={group.title}
+            >
+              <h2>
+                {group.href ? (
+                  <a href={group.href}>{group.title}</a>
+                ) : (
+                  group.title
+                )}
+              </h2>
+              {group.links.map((link) => (
+                <a href={link.href}>{link.label}</a>
+              ))}
+            </nav>
+          ))
+        }
+        <div class="footer-group contacts">
+          <h2><a href="/contatti">Contatti</a></h2><a href="/contatti"
+            >{business.address}</a
+          ><address>
+            <a href={`tel:${business.tollFree.replaceAll(' ', '')}`}
+              >Numero verde: {business.tollFree}</a
+            ><a href={business.telephoneHref}>Tel. {business.telephone}</a><a
+              href={`mailto:${business.email}`}>{business.email}</a
+            ><p>
+              <strong>Orari della clinica</strong><br />{
+                business.openingHours
+              }<br />{business.bookingHours}
+            </p>
+          </address>
+        </div>
+        <div class="socials">
+          {
+            socials.map(([name, file]) => (
+              <button
+                type="button"
+                disabled
+                aria-label={`${name}: link non configurato nella fonte`}
+                title="Link non configurato nella fonte"
+              >
+                <img
+                  src={`/assets/images/${file}`}
+                  alt=""
+                  width="24"
+                  height="24"
+                />
+              </button>
+            ))
+          }
+        </div>
+      </div>
+    </div><div class="divider"></div><p class="copyright">
+      {business.copyright}
+    </p>
+  </div>
+</footer>
+<style>
+  .site-footer {
+    padding-top: 80px;
+    background: white;
+  }
+  .footer-inner {
+    padding: 0 5% 20px;
+    border-bottom: 1px solid #e4ebf3;
+  }
+  .footer-container {
+    max-width: var(--container-max);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  .footer-brand {
+    display: block;
+    width: 140px;
+  }
+  .footer-brand img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    row-gap: 60px;
+  }
+  .footer-group {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 1px solid var(--color-border);
+    padding: 0 40px 0 10px;
+  }
+  h2 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .footer-group > a {
+    display: block;
+    width: 100%;
+    margin: 12px 0 6px;
+    color: #173c46;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .footer-group > a:hover {
+    color: #05617a;
+  }
+  .legal > a {
+    margin: 0 0 8px;
+    line-height: 20px;
+  }
+  .legal > a:last-child {
+    margin-bottom: 0;
+  }
+  .contacts address {
+    font-style: normal;
+    margin-top: 18px;
+    color: #173c46;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  address a {
+    display: block;
+    margin-bottom: 8px;
+  }
+  address p {
+    margin-top: 14px;
+    line-height: 1.55;
+  }
+  address strong {
+    font-weight: 600;
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid var(--color-border);
+    padding: 12px 40px 0 10px;
+    gap: 12px;
+  }
+  .socials button {
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: default;
+  }
+  .socials img {
+    width: 24px;
+    height: 24px;
+  }
+  .divider {
+    height: 1px;
+    margin: 70px 0 15px;
+    background: #e4ebf3;
+  }
+  .copyright {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  @media screen and (max-width: 991px) {
+    .site-footer {
+      padding-top: 60px;
+    }
+    .footer-container {
+      gap: 40px;
+      align-items: flex-start;
+    }
+    .footer-grid {
+      flex-direction: column;
+      row-gap: 40px;
+    }
+    .footer-group {
+      width: 100%;
+    }
+    .footer-group > a {
+      margin-top: 10px;
+    }
+    .legal > a {
+      margin-top: 0;
+    }
+    .socials {
+      justify-content: flex-start;
+      padding-left: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .site-footer {
+      padding-bottom: 160px;
+    }
+    .footer-inner {
+      padding-inline: 7%;
+    }
+    .footer-container {
+      gap: 20px;
+    }
+    .footer-grid {
+      margin-top: 40px;
+    }
+    .socials {
+      padding-top: 20px;
+      gap: 20px;
+    }
+    .divider {
+      margin-top: 60px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .contacts address {
+      margin-top: 16px;
+    }
+    address p {
+      margin-top: 8px;
+    }
+    .legal > a {
+      margin-bottom: 6px;
+    }
+    .legal > a:last-child {
+      margin-bottom: 0;
+    }
+  }
+</style>

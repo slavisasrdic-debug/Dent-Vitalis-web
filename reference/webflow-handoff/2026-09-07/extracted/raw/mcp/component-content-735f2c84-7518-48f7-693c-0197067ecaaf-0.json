@@ -1,0 +1,121 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:53.310Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source sidebar Prestazioni",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "735f2c84-7518-48f7-693c-0197067ecaaf",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults sidebar Prestazioni",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "735f2c84-7518-48f7-693c-0197067ecaaf",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source sidebar Prestazioni",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "735f2c84-7518-48f7-693c-0197067ecaaf",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecab1",
+            "text": {
+              "html": "<div class=\"text-block-11\">Prestazioni<br data-w-id=\"735f2c84-7518-48f7-693c-0197067ecab3\"></div>",
+              "text": "Prestazioni\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecab5",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"735f2c84-7518-48f7-693c-0197067ecab6\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecab8",
+            "text": {
+              "html": "<div class=\"text-block-16\">Imperdibile: protesi definitiva ancorata su 4 impianti</div>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecabb",
+            "text": {
+              "html": "<div class=\"text-block-16\">Premium: ponte fisso su impianti</div>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecabe",
+            "text": {
+              "html": "<div class=\"text-block-16\">Facilissimo: sbiancamento dei denti</div>",
+              "text": "Facilissimo: sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecac1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Corone, faccette, ponti e protesi</div>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735f2c84-7518-48f7-693c-0197067ecac4",
+            "text": {
+              "html": "<div class=\"text-block-16\">Sedazione cosciente</div>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 7
+        }
+      }
+    },
+    {
+      "label": "Component defaults sidebar Prestazioni",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "735f2c84-7518-48f7-693c-0197067ecaaf",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

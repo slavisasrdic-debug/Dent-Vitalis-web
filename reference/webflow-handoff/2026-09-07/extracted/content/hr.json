@@ -1,0 +1,12 @@
+{
+  "status": "not-present",
+  "language": "hr",
+  "localeId": null,
+  "content": null,
+  "reason": "The user corrected the original extraction request: no new Croatian content exists yet; it will be authored in the new project after export. Old production /hr is not imported as new content.",
+  "sourceReference": "raw/user-clarification.json",
+  "plannedPath": {
+    "status": "proposed",
+    "value": "/hr"
+  }
+}

@@ -1,0 +1,62 @@
+/* Mapping to the accepted Webflow variables, 2026-09-07. */
+:root {
+  --color-primary: #045a72; /* --tamana-call */
+  --color-primary-hover: #057492; /* --svjetlija-plava */
+  --color-accent: #afbc36; /* --svijetla-call */
+  --color-text: #000; /* --crna */
+  --color-white: #fff; /* --bijela */
+  --color-surface: #f7f7f7; /* --pozadina */
+  --color-warm: #fff2d2; /* --svijtal-boja-podloga */
+  --color-border: #cdcfd0; /* --siva-crta */
+  --color-border-translucent: #cdcfd080; /* --siva-crta-transparent */
+  --color-transparent: #0000; /* --transparent */
+  --radius: 8px; /* --zakrivljenost */
+  --font-body: 'Montserrat', sans-serif;
+  --container-max: 1200px;
+  --page-gutter: 5%;
+  --header-height: 70px;
+  --z-header: 999;
+  /* Shared reveal controls. Times are milliseconds, offsets are viewport-height %.
+     out-quart selects the exact reference preset; native CSS easing also works.
+     Card controls are explicit, user-approved exceptions to the common profile. */
+  --reveal-duration: 1000ms;
+  --reveal-distance: 100px;
+  --reveal-delay: 200ms;
+  --reveal-offset: 10;
+  --reveal-grow-scale: 0.75;
+  --reveal-easing: out-quart;
+  --reveal-card-distance: 48px;
+  --reveal-card-delay: 0ms;
+  --reveal-card-offset: 15; /* inset from viewport bottom, % of viewport height */
+  --reveal-card-easing: cubic-bezier(0.22, 0.61, 0.36, 1);
+  /* Reference inner-page sidebar preset; shared duration remains unchanged. */
+  --reveal-sidebar-distance: var(--reveal-distance);
+  --reveal-sidebar-delay: 1000ms;
+  --reveal-sidebar-offset: 0;
+  --reveal-sidebar-easing: var(--reveal-easing);
+  /* Gallery label interaction, measured in Flowbase reference (not a reveal). */
+  --comparison-duration: 300ms;
+  --comparison-easing: ease;
+  /* Sticky CTA attention (not a scroll reveal): two 1s pulses + 5s rest.
+     Scaling this cycle preserves the 2:5 rhythm. Reference opacity/easing. */
+  --sticky-cta-cycle-duration: 7000ms;
+  --sticky-cta-min-opacity: 0.12;
+  --sticky-cta-easing: ease-in-out;
+}
+@media screen and (max-width: 991px) {
+  :root {
+    --reveal-sidebar-delay: var(--reveal-delay);
+    --reveal-sidebar-offset: var(--reveal-offset);
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    --container-max: 1400px;
+    --header-height: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  :root {
+    --page-gutter: 7%;
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:40:52.205Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Section Informazioni",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Section Informazioni",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Section Informazioni",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c61",
+            "text": {
+              "html": "<div class=\"nadnaslov\">Informazioni </div>",
+              "text": "Informazioni "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c63",
+            "text": {
+              "html": "<h2 class=\"medjunaslov-h2\">Questo potrebbe interessarti</h2>",
+              "text": "Questo potrebbe interessarti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c65",
+            "text": {
+              "html": "<p class=\"huge-paragraph\">Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde:&nbsp;800 174 206 </p>",
+              "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206 "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c6a",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/informazioni/prima-visita-gratuita\">Prima visita gratuita</a>",
+              "text": "Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c6c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.</p>",
+              "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c71",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/informazioni/alloggio\">Alloggio all’interno della clinica</a>",
+              "text": "Alloggio all’interno della clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c73",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Se vieni accompagnato da un amico o un familiare, possono alloggiare con te.<br data-w-id=\"4e75e80f-18e3-7eb0-519d-3b33dc5a3c75\"></p>",
+              "text": "Se vieni accompagnato da un amico o un familiare, possono alloggiare con te.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c79",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/informazioni/trasporto\">Il nostro trasporto</a>",
+              "text": "Il nostro trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c7b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ti assistiamo fin da subito, anche quando sei ancora in Italia.</p>",
+              "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c80",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/informazioni/pagamento-flessibile\">Pagamento flessibile</a>",
+              "text": "Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c82",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Trova la soluzione più comoda per te.</p>",
+              "text": "Trova la soluzione più comoda per te."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c87",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/informazioni/garanzie\">Garanzie</a>",
+              "text": "Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c89",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Garanzie fornite per iscritto e in italiano.</p>",
+              "text": "Garanzie fornite per iscritto e in italiano."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c8e",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/informazioni/tempi-del-trattamento\">Tempi del trattamento</a>",
+              "text": "Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c90",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.</p>",
+              "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c95",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/prestazioni/sedazione-cosciente\">Sedazione cosciente</a>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c97",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.</p>",
+              "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c9c",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3\" href=\"/su-di-noi/impianti-di-nuova-generazione\">Impianti di nuova generazione</a>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c9e",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ora tutto è possibile: liberati dalla protesi mobile!</p>",
+              "text": "Ora tutto è possibile: liberati dalla protesi mobile!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3ca4",
+            "text": {
+              "html": "<div class=\"button-text-block\">Prenota una visita gratuita</div>",
+              "text": "Prenota una visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "bd2e0568-d76e-a002-0b32-f95bd025867b",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m13 6l6 6l-6 6M5 6l6 6l-6 6\"></path></svg>",
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 21
+        }
+      }
+    },
+    {
+      "label": "Component defaults Section Informazioni",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

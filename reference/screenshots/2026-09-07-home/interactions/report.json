@@ -1,0 +1,80 @@
+{
+  "capturedAt": "2026-09-07T11:02:06.178Z",
+  "checks": [
+    {
+      "width": 1440,
+      "name": "dropdown",
+      "meanAbsoluteChannelError": 0.12561316872427983
+    },
+    {
+      "width": 1440,
+      "name": "language",
+      "meanAbsoluteChannelError": 0.23105195473251028
+    },
+    {
+      "width": 1440,
+      "name": "dialog",
+      "meanAbsoluteChannelError": 0.37625437242798354
+    },
+    {
+      "width": 1440,
+      "name": "faq-open",
+      "meanAbsoluteChannelError": 0.6569194958847736
+    },
+    {
+      "width": 1440,
+      "name": "chat",
+      "meanAbsoluteChannelError": 0.38099511316872425
+    },
+    {
+      "width": 1440,
+      "name": "slider-2",
+      "meanAbsoluteChannelError": 1.3062150205761316
+    },
+    {
+      "width": 1440,
+      "name": "slider-3",
+      "meanAbsoluteChannelError": 1.3425666152263374
+    },
+    {
+      "width": 390,
+      "name": "menu",
+      "meanAbsoluteChannelError": 0.18625546058879391
+    },
+    {
+      "width": 390,
+      "name": "dropdown",
+      "meanAbsoluteChannelError": 0.8378907882241216
+    },
+    {
+      "width": 390,
+      "name": "language",
+      "meanAbsoluteChannelError": 1.4827350427350428
+    },
+    {
+      "width": 390,
+      "name": "dialog",
+      "meanAbsoluteChannelError": 1.2783048433048434
+    },
+    {
+      "width": 390,
+      "name": "faq-open",
+      "meanAbsoluteChannelError": 1.3284463437796772
+    },
+    {
+      "width": 390,
+      "name": "chat",
+      "meanAbsoluteChannelError": 2.5701301044634377
+    },
+    {
+      "width": 390,
+      "name": "slider-2",
+      "meanAbsoluteChannelError": 1.6596723646723646
+    },
+    {
+      "width": 390,
+      "name": "slider-3",
+      "meanAbsoluteChannelError": 1.567599240265907
+    }
+  ]
+}

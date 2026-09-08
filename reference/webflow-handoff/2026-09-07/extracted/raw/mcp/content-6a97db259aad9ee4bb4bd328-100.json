@@ -1,0 +1,257 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:03.168Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian content continuation 100",
+        "get_page_content": {
+          "page_id": "6a97db259aad9ee4bb4bd328",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 100
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian content continuation 100",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "6a97db259aad9ee4bb4bd328",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "3ca7814f-2eec-c876-2c5d-41943a94703d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La persona interessata ha il diritto di richiedere il trasferimento di dati personali a un altro responsabile del trattamento nei seguenti casi:</p>",
+              "text": "La persona interessata ha il diritto di richiedere il trasferimento di dati personali a un altro responsabile del trattamento nei seguenti casi:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "40111fce-b26b-6c45-e50d-b3838a20b068",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* i dati sono stati ottenuti dal responsabile del trattamento sulla base di un consenso revocabile,</p>",
+              "text": "* i dati sono stati ottenuti dal responsabile del trattamento sulla base di un consenso revocabile,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "755d76bf-092d-875c-7ba2-9fddc6565428",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* se così concordato,</p>",
+              "text": "* se così concordato,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "49460ce0-ad55-f202-f0f4-f24c37e1f4d5",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* se il trattamento dei dati viene effettuato automaticamente.</p>",
+              "text": "* se il trattamento dei dati viene effettuato automaticamente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "eab9a3a1-3e8f-838f-83e1-44dc00fb6280",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">7. Diritto alla richiesta di stabilire una violazione dei diritti</p>",
+              "text": "7. Diritto alla richiesta di stabilire una violazione dei diritti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "43595539-ea0e-b251-6492-8ef94715c9bc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La persona interessata ha il diritto di presentare una richiesta di determinazione della violazione dei diritti all'Agenzia per la protezione dei dati personali.</p>",
+              "text": "La persona interessata ha il diritto di presentare una richiesta di determinazione della violazione dei diritti all'Agenzia per la protezione dei dati personali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b4cdb87a-f492-a39d-9594-b3566f5d928f",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">8. Revoca del consenso</p>",
+              "text": "8. Revoca del consenso"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0651ceab-e08d-6567-07fe-d7604943da74",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La persona interessata può, in qualsiasi momento, revocare i propri consensi per la raccolta e il trattamento dei dati personali non inclusi nel presente Regolamento.</p>",
+              "text": "La persona interessata può, in qualsiasi momento, revocare i propri consensi per la raccolta e il trattamento dei dati personali non inclusi nel presente Regolamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fcd9b1ce-1ef3-6735-67d1-1d6a0131e0f7",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Informazioni e reclami</p>",
+              "text": "Informazioni e reclami"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4755762c-6d32-980c-a66e-c516ac4a53d1",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per qualsiasi domanda o reclamo in merito alla protezione dei dati personali da parte del responsabile del trattamento, la persona interessata può contattare il responsabile della protezione dei dati per iscritto:</p>",
+              "text": "Per qualsiasi domanda o reclamo in merito alla protezione dei dati personali da parte del responsabile del trattamento, la persona interessata può contattare il responsabile della protezione dei dati per iscritto:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8a3dcf12-a78a-ca3e-000f-0f5c841f2eb6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Responsabile della protezione dei dati</p>",
+              "text": "Responsabile della protezione dei dati"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7a5e43f4-5794-e869-5698-12897c6fec57",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dentvitalis Fides d.o.o.</p>",
+              "text": "Dentvitalis Fides d.o.o."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cd19fd58-98d1-4ba3-06be-ee930191c223",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Krešimirova 60, Rijeka</p>",
+              "text": "Krešimirova 60, Rijeka"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "72597fcc-bcc9-175b-daf9-f7787148bf23",
+            "text": {
+              "html": "<p class=\"large-paragraph\">dpo@dentvitalis.com</p>",
+              "text": "dpo@dentvitalis.com"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5af5eef-dbe8-2cc9-ecbf-1e87d5067379",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutte le domande e le richieste devono essere trattate dal responsabile del trattamento senza inutile ritardo e in conformità con le scadenze previste dalla legge.</p>",
+              "text": "Tutte le domande e le richieste devono essere trattate dal responsabile del trattamento senza inutile ritardo e in conformità con le scadenze previste dalla legge."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a5803-0247-a7d3-a4e7-dd60dc61e44d",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Rettifica del regolamento sul trattamento dei dati personali</p>",
+              "text": "Rettifica del regolamento sul trattamento dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a3fe2df2-f64a-1b40-3f8e-28b7d97ff47a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il responsabile del trattamento si riserva il diritto di modificare il presente Regolamento in qualsiasi momento e senza preavviso.</p>",
+              "text": "Il responsabile del trattamento si riserva il diritto di modificare il presente Regolamento in qualsiasi momento e senza preavviso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f51a68c6-f15c-16ca-794b-c73c99592844",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dentvitalis Fides d.o.o.</p>",
+              "text": "Dentvitalis Fides d.o.o."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "220bc490-9009-1f40-9913-145c475c6e44",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Lì, Rijeka (Fiume), 25.05.2018</p>",
+              "text": "Lì, Rijeka (Fiume), 25.05.2018"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e62d2b0-d3ff-ba7c-7109-1d8085563a84",
+            "text": {
+              "html": "<div class=\"text-block-11\">Informazioni legali</div>",
+              "text": "Informazioni legali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "210e815f-bffd-dc25-c429-32697be86e16",
+            "text": {
+              "html": "<div class=\"text-block-16\">Informativa sulla privacy</div>",
+              "text": "Informativa sulla privacy"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e9090227-0c08-dc44-8f00-a9b9ce925fd7",
+            "text": {
+              "html": "<div class=\"text-block-16\">Condizioni di utilizzo</div>",
+              "text": "Condizioni di utilizzo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "7df2e106-ac43-5962-612b-b90ef2079ed9",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "9e77c3a4-f577-c48d-ba71-cd955a657afa",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "e424f710-b410-316c-0ad3-f3adc866f3ef",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "bff3b247-3da0-f34a-23cb-12f987d80b67",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 100,
+          "total": 126
+        },
+        "lastUpdated": "2026-09-02T12:05:45.790Z"
+      }
+    }
+  ]
+}

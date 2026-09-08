@@ -1,5 +1,9 @@
 # Webflow vizualna specifikacija
 
+Aktualna naslovnica implementira se prema [izmjerenoj specifikaciji od 7. rujna](./webflow-home-spec-2026-09-07.md) i pripadajućim viewport usporedbama. Ona ima prednost pred povijesnim home mjerenjima ispod, posebno za mobile benefit karticu, nove kontakt/pravne elemente i animacije.
+
+Napomena 2026-09-07: ova mjerenja i screenshotovi opisuju snapshot od 2. rujna. Novi handoff/export donose promjene; prije implementacije ažurirati vizualni baseline prema [prihvatu novih izvora](./source-intake-2026-09-07.md). Izvorna mjerenja ispod ostaju sačuvana kao povijesni dokaz.
+
 ## Status i metodologija
 
 Ovo je izmjerena referentna specifikacija, a ne nova interpretacija dizajna. Izvor je renderirani [Webflow preview](https://dentvitalis33.webflow.io/) snimljen 2. rujna 2026. Playwright Chromium korišten je zato što Browser plugin nije bio dostupan u ovom okruženju. Fontovi su učitani prije mjerenja; za pune snimke stranica sadržaj je proscrollan radi aktiviranja lazy/reveal elemenata, a video i CSS animacije zatim su pauzirani.

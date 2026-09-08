@@ -1,0 +1,136 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:07.911Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian content continuation 100",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba896",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 100
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian content continuation 100",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba896",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450fa",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450fc",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Protesi totale (sopra) e Toronto ponte su impianti - All on 6 (sotto)​</p>",
+              "text": "Protesi totale (sopra) e Toronto ponte su impianti - All on 6 (sotto)​"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45100",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi su impianti e la barra di ritenzione (sopra e sotto)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05e38"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45101",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi su impianti e la barra di ritenzione (sopra e sotto)​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e3f"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45103",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45105",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45107",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45109",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Protesi su impianti e la barra di ritenzione (sopra e sotto)​</p>",
+              "text": "Protesi su impianti e la barra di ritenzione (sopra e sotto)​"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 100,
+          "total": 112
+        },
+        "lastUpdated": "2026-09-02T13:25:01.953Z"
+      }
+    }
+  ]
+}

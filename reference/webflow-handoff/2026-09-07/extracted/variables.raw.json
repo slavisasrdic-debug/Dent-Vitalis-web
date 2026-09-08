@@ -1,0 +1,379 @@
+{
+  "status": "extracted",
+  "collections": [
+    {
+      "id": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "name": "Base collection",
+      "modes": [
+        {
+          "id": "base",
+          "name": "Base mode"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "variable-1409a02f-5e45-fc0b-413b-160f609caa56",
+      "name": "tamana-call",
+      "type": "Color",
+      "cssName": "--tamana-call",
+      "value": "hsla(193, 93.97%, 23.03%, 1.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(193, 93.97%, 23.03%, 1.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-636803fe-8821-1ae5-1950-9634a6a61fbc",
+      "name": "svijetla-call",
+      "type": "Color",
+      "cssName": "--svijetla-call",
+      "value": "hsla(65.82089552238806, 55.37%, 47.45%, 1.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(65.82089552238806, 55.37%, 47.45%, 1.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-a1b95303-e2d2-d513-3d9a-c4726e49c0d8",
+      "name": "zakrivljenost",
+      "type": "Size",
+      "cssName": "--zakrivljenost",
+      "value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-b5706ac6-958b-58c2-4db2-ec8832f33e78",
+      "name": "pozadina",
+      "type": "Color",
+      "cssName": "--pozadina",
+      "value": "#f7f7f7",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "#f7f7f7",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-7871740f-ec68-7438-41c4-7e0c36e94c3b",
+      "name": "Crna",
+      "type": "Color",
+      "cssName": "--crna",
+      "value": "hsla(140.76923076923077, 100.00%, 0.00%, 1.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(140.76923076923077, 100.00%, 0.00%, 1.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-42628c23-e7e6-e965-dc67-74f46506df43",
+      "name": "Bijela",
+      "type": "Color",
+      "cssName": "--bijela",
+      "value": "hsla(53.68421052631579, 0.00%, 100.00%, 1.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(53.68421052631579, 0.00%, 100.00%, 1.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-096e3c41-aba9-e979-277d-482de4374333",
+      "name": "Transparent",
+      "type": "Color",
+      "cssName": "--transparent",
+      "value": "hsla(0, 0.00%, 0.00%, 0.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(0, 0.00%, 0.00%, 0.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-dbdd3ccf-b77c-6a3e-60b2-7e92aed7de59",
+      "name": "siva-crta",
+      "type": "Color",
+      "cssName": "--siva-crta",
+      "value": "#cdcfd0",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "#cdcfd0",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-617789c1-3344-d3c0-e9ab-0d90d2f343fc",
+      "name": "Svijtal boja podloga",
+      "type": "Color",
+      "cssName": "--svijtal-boja-podloga",
+      "value": "hsla(43, 100.00%, 91.11%, 1.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(43, 100.00%, 91.11%, 1.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-c91afa07-c094-dcd9-4b58-ef280f217e72",
+      "name": "Siva crta transparent",
+      "type": "Color",
+      "cssName": "--siva-crta-transparent",
+      "value": "hsla(200, 3.09%, 80.98%, 0.50)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(200, 3.09%, 80.98%, 0.50)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    },
+    {
+      "id": "variable-4a7968e2-7904-2751-1793-11f0211814b6",
+      "name": "Svjetlija plava",
+      "type": "Color",
+      "cssName": "--svjetlija-plava",
+      "value": "hsla(193, 93.13%, 29.69%, 1.00)",
+      "modeValues": [],
+      "status": "extracted",
+      "collectionId": "collection-fc7b512b-17e1-d816-9da5-4cd94ec2c532",
+      "collectionName": "Base collection",
+      "group": null,
+      "groupStatus": "unavailable",
+      "groupReason": "No separate group path exposed by variable read API; original name preserved.",
+      "resolvedValue": {
+        "status": "derived",
+        "value": "hsla(193, 93.13%, 29.69%, 1.00)",
+        "method": "Native source value is a literal, not an alias expression."
+      },
+      "aliasChain": {
+        "status": "not-present",
+        "scope": "Returned value has no alias reference"
+      },
+      "fallback": {
+        "status": "not-present",
+        "scope": "Native literal definition"
+      },
+      "modeActivation": {
+        "status": "unavailable",
+        "value": null,
+        "reason": "Mode activation not exposed; base mode and modeValues preserved."
+      }
+    }
+  ],
+  "sourceReferences": [
+    "raw/mcp/initial.json",
+    "raw/mcp/variables.json"
+  ]
+}

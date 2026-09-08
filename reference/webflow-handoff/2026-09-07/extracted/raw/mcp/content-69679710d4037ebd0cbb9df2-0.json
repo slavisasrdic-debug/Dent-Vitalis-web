@@ -1,0 +1,893 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:28.334Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 69679710d4037ebd0cbb9df2",
+        "get_page_content": {
+          "page_id": "69679710d4037ebd0cbb9df2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 69679710d4037ebd0cbb9df2",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "69679710d4037ebd0cbb9df2",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "d5556c2d-31e3-c5dd-8b1c-5033638297b1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"d5556c2d-31e3-c5dd-8b1c-5033638297b2\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d5556c2d-31e3-c5dd-8b1c-5033638297b4",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d5556c2d-31e3-c5dd-8b1c-5033638297ba",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Testimonianze</h6>",
+              "text": "Testimonianze"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "fd0dd5f7-eaa7-0dfe-a44f-83835a842029",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86c5743a09a609c8635596"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fd0dd5f7-eaa7-0dfe-a44f-83835a842031",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Testimonianze</h1>",
+              "text": "Testimonianze"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fd0dd5f7-eaa7-0dfe-a44f-83835a842033",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Rapporto di fiducia</p>",
+              "text": "Rapporto di fiducia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0a",
+            "text": {
+              "html": "<div class=\"text-block-11 testi\">Testimonianze<br data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0c\"></div>",
+              "text": "Testimonianze\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0e",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0f\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a14",
+            "text": {
+              "html": "<div class=\"text-block-16\">Video recensioni</div>",
+              "text": "Video recensioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a11",
+            "text": {
+              "html": "<div class=\"text-block-16\">Recensioni Google</div>",
+              "text": "Recensioni Google"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a17",
+            "text": {
+              "html": "<div class=\"text-block-16\">Recensioni post-trattamento</div>",
+              "text": "Recensioni post-trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dd18a319-587b-f0b4-11a5-a02a6233abd5",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-2\">Video recensioni</p>",
+              "text": "Video recensioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "9407bc09-2f8a-beea-1906-850702e28ad4",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/H-FtIARwy9o?si=_vlMYyf3DrE74Oa0\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cbe",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Lucilla Cecchin</p>",
+              "text": "Lucilla Cecchin"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "b28e1b4a-1acd-e7d9-28d5-56f4b1a95b0f",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/Af4nKAWScLU?si=L2kT9DpCu66H2lZv\"  \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b28e1b4a-1acd-e7d9-28d5-56f4b1a95b11",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Anna Giacomin</p>",
+              "text": "Anna Giacomin"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "95974d76-c61e-2ff3-42cc-cde3ff272f56",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/0FPxrnc8LgY?si=6coM36coMe7b_fCd\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "95974d76-c61e-2ff3-42cc-cde3ff272f58",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Maria Garotti</p>",
+              "text": "Maria Garotti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "460a649d-62fb-f95f-c424-a24beddd217b",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/tOvIrmjGjxc?si=0-BzQ5txEBJtST_H\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "460a649d-62fb-f95f-c424-a24beddd217d",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Maurizio Vegro</p>",
+              "text": "Maurizio Vegro"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "2cb34e4e-dc8e-fc54-d668-373e3e61d7d1",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/hhyIS4OW1LY?si=vmMteha2xvVjRmig\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2cb34e4e-dc8e-fc54-d668-373e3e61d7d3",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Cinzia Caffarra, Fabrizio Gualerzi</p>",
+              "text": "Cinzia Caffarra, Fabrizio Gualerzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "95163ca5-2715-d647-4e0e-a600696e6466",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/bqx36O-ctGg?si=ipBzUTyXZ7BJ_mma\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "95163ca5-2715-d647-4e0e-a600696e6468",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Giacomo Muggianu</p>",
+              "text": "Giacomo Muggianu"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "6c19ad14-b36e-7662-7a2b-71ead6754c5c",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/vHh4413VRV0?si=GgrL-P0KyYBPGhvP\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6c19ad14-b36e-7662-7a2b-71ead6754c5e",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Gianna Masoni</p>",
+              "text": "Gianna Masoni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "8d12fb33-26b1-2a89-3d09-22628435e04c",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/Pf8xKv1UvzU?si=SX1eqnUJPJiUNAdy\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8d12fb33-26b1-2a89-3d09-22628435e04e",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Lorena May Ruzol</p>",
+              "text": "Lorena May Ruzol"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7c4df92d-19a7-69d5-edc8-57ef4b3524bc",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/E_KlE7e9h-M?si=jhqRSjChNYMQYuw1\" \n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7c4df92d-19a7-69d5-edc8-57ef4b3524be",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Vito Mastromatteo</p>",
+              "text": "Vito Mastromatteo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "3e067d4c-1b77-5d09-9f18-2a8b5e24173e",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/9eoJ0-6wa4M?si=EetLzyIqM418KZKz\"\n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3e067d4c-1b77-5d09-9f18-2a8b5e241740",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Maria Alba Seddone</p>",
+              "text": "Maria Alba Seddone"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7b1763fa-168a-f445-6361-cc82431d5eb2",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/zyUCJSaCPgQ?si=QeMiuhVTMOGG24Al\"\n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b17c7caf-5ef4-aee2-f0b1-f8fc75194986",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Lorenzo Fabbro</p>",
+              "text": "Lorenzo Fabbro"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "d7f65413-3b88-1157-d7fb-3cd5c118e97c",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/Zs_gwP-7iuc?si=yDEmfM-hP6iCU4Iu\"\n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cc6",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Valerio Catani</p>",
+              "text": "Valerio Catani"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "c1eb018a-e41e-9a98-5f74-f48824889073",
+            "html": "<div style=\"position: relative; width: 100%; padding-top: 56.25%;\">\n  <iframe\n    src=\"https://www.youtube.com/embed/fzDUHdfqXfo?si=fKHMpY8C8lRdgCqs\"\n    title=\"YouTube video player\"\n    style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\"\n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n    referrerpolicy=\"strict-origin-when-cross-origin\"\n    allowfullscreen>\n  </iframe>\n</div>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cce",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Nilo Falchi</p>",
+              "text": "Nilo Falchi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "67cc12d5-0288-e26a-dea4-644a9972e3d7",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-2\">Recensioni Google</p>",
+              "text": "Recensioni Google"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b2c",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Elisa Fontana</p>",
+              "text": "Elisa Fontana"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b31",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b32",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b33",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b34",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b35",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b37",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b39",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b3b",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Personale molto gentile e accogliente. Ambienti ordinati e puliti, confortevoli anche per l’attesa (tv in italiano, poltrone, divanetti, giornali, macchinetta del caffè). Staff veramente attento alle richieste e necessità, sempre disponibili. Anche i prezzi sono molto convenienti.</p>",
+              "text": "Personale molto gentile e accogliente. Ambienti ordinati e puliti, confortevoli anche per l’attesa (tv in italiano, poltrone, divanetti, giornali, macchinetta del caffè). Staff veramente attento alle richieste e necessità, sempre disponibili. Anche i prezzi sono molto convenienti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b3f",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Luigina Crosatto</p>",
+              "text": "Luigina Crosatto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b44",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b45",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b46",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b47",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b48",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b4a",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b4c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b4e",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Dopo tanto tempo ho ritrovato il sorriso grazie a Dentvitalis personale fantastico gentilezza impeccabile lo consiglio a TUTTI</p>",
+              "text": "Dopo tanto tempo ho ritrovato il sorriso grazie a Dentvitalis personale fantastico gentilezza impeccabile lo consiglio a TUTTI"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b52",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Gianluca Ruggiero</p>",
+              "text": "Gianluca Ruggiero"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b57",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b58",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b59",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b5a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b5b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b5d",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b5f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b61",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi sono trovato molto bene, lavoro svolto con massima professionalità. Il personale è sempre molto gentile, attento e disponibile. Consiglio la clinica.</p>",
+              "text": "Mi sono trovato molto bene, lavoro svolto con massima professionalità. Il personale è sempre molto gentile, attento e disponibile. Consiglio la clinica."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b65",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Yuliya Yanchuk</p>",
+              "text": "Yuliya Yanchuk"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b6a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b6b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b6c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b6d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b6e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b70",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b72",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b74",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho avuto un'esperienza molto positiva presso questa clinica dentistica. Il personale è estremamente qualificato e sempre gentile, creando un ambiente accogliente e professionale. Il lavoro svolto è di qualità, e si nota subito l'attenzione ai dettagli. Inoltre, la clinica è ben attrezzata e pulita, il che mi ha fatto sentire davvero a mio agio. Consiglio vivamente questa struttura a chiunque cerchi un servizio odontoiatrico eccellente! P.s.: la maggior parte del personale parla anche in italiano.</p>",
+              "text": "Ho avuto un'esperienza molto positiva presso questa clinica dentistica. Il personale è estremamente qualificato e sempre gentile, creando un ambiente accogliente e professionale. Il lavoro svolto è di qualità, e si nota subito l'attenzione ai dettagli. Inoltre, la clinica è ben attrezzata e pulita, il che mi ha fatto sentire davvero a mio agio. Consiglio vivamente questa struttura a chiunque cerchi un servizio odontoiatrico eccellente! P.s.: la maggior parte del personale parla anche in italiano."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b78",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Carmen Silvi</p>",
+              "text": "Carmen Silvi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b7d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b7e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b7f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b80",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b81",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b83",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b85",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b87",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Professionalità e gentilezza attrezzature moderne lo consiglio vivamente</p>",
+              "text": "Professionalità e gentilezza attrezzature moderne lo consiglio vivamente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b8b",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Valerie Guerra</p>",
+              "text": "Valerie Guerra"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b90",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b91",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b92",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b93",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b94",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b96",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996b98",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b9a",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi sono rivolta a Dentivitalis per completare un impianto e per realizzare una faccetta su un dente anteriore che era rovinato, lavori per i quali in Italia mi era stato richiesto un prezzo che non ero in grado di sostenere. Mi sono trovata benissimo, e non solo per quanto riguarda l'aspetto economico. Il personale è davvero competente, disponibile e cordiale. La gentilezza di TUTTI i dipendenti mi ha fatta sentire veramente come se fossi a casa! Andare dal dentista mi ha sempre fatto molta paura fin da quando ero piccolina, ma devo dire che con loro ho riacquistato la fiducia nei dentisti. Nonostante i lavori un po' invasivi non ho sentito assolutamente dolore. Mi sento certamente di consigliare questa clinica. Io stessa se dovessi avere qualche altro problema mi rivolgerei di nuovo a loro senza esitare.</p>",
+              "text": "Mi sono rivolta a Dentivitalis per completare un impianto e per realizzare una faccetta su un dente anteriore che era rovinato, lavori per i quali in Italia mi era stato richiesto un prezzo che non ero in grado di sostenere. Mi sono trovata benissimo, e non solo per quanto riguarda l'aspetto economico. Il personale è davvero competente, disponibile e cordiale. La gentilezza di TUTTI i dipendenti mi ha fatta sentire veramente come se fossi a casa! Andare dal dentista mi ha sempre fatto molta paura fin da quando ero piccolina, ma devo dire che con loro ho riacquistato la fiducia nei dentisti. Nonostante i lavori un po' invasivi non ho sentito assolutamente dolore. Mi sento certamente di consigliare questa clinica. Io stessa se dovessi avere qualche altro problema mi rivolgerei di nuovo a loro senza esitare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996b9e",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Luca Bianchi</p>",
+              "text": "Luca Bianchi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996ba3",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996ba4",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996ba5",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996ba6",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996ba7",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 290
+        },
+        "lastUpdated": "2026-09-02T13:42:33.818Z"
+      }
+    }
+  ]
+}

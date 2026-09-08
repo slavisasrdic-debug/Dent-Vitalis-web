@@ -1,0 +1,130 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:24.784Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source sidebar",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults sidebar",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source sidebar",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c3",
+            "text": {
+              "html": "<div class=\"text-block-11\">Su di noi<br data-w-id=\"12779da6-57f4-1edc-0b0f-c14d7c69e8c5\"></div>",
+              "text": "Su di noi\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c7",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"12779da6-57f4-1edc-0b0f-c14d7c69e8c8\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8ca",
+            "text": {
+              "html": "<div class=\"text-block-16\">I nostri specialisti</div>",
+              "text": "I nostri specialisti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8cd",
+            "text": {
+              "html": "<div class=\"text-block-16\">Tutto in un unico luogo</div>",
+              "text": "Tutto in un unico luogo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8d0",
+            "text": {
+              "html": "<div class=\"text-block-16\">Come raggiungerci</div>",
+              "text": "Come raggiungerci"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8d3",
+            "text": {
+              "html": "<div class=\"text-block-16\">Laboratorio odontotecnico</div>",
+              "text": "Laboratorio odontotecnico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8d6",
+            "text": {
+              "html": "<div class=\"text-block-16\">Materiali e apparecchiature</div>",
+              "text": "Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8d9",
+            "text": {
+              "html": "<div class=\"text-block-16\">Impianti di nuova generazione</div>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 8
+        }
+      }
+    },
+    {
+      "label": "Component defaults sidebar",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

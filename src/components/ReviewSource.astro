@@ -1,0 +1,44 @@
+---
+import ResponsiveImage from './ResponsiveImage.astro';
+import type { ContentPhoto } from '../content/inner-pages';
+interface Props {
+  label: string;
+  stars: ContentPhoto[];
+  logo: ContentPhoto;
+}
+const { label, stars, logo } = Astro.props;
+---
+
+<div class="review-source">
+  <div class="stars" aria-hidden="true">
+    {stars.map((star) => <ResponsiveImage image={star.image} alt="" />)}
+  </div>
+  <div class="attribution">
+    <span>{label}</span><ResponsiveImage image={logo.image} alt={logo.alt} />
+  </div>
+</div>
+<style>
+  .review-source {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 4px;
+  }
+  .stars {
+    display: flex;
+    gap: 4px;
+  }
+  .stars :global(img) {
+    width: 14px;
+    height: 14px;
+  }
+  .attribution {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .attribution :global(img) {
+    height: 18px;
+    width: auto;
+  }
+</style>

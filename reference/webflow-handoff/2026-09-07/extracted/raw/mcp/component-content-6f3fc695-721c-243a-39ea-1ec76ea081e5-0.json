@@ -1,0 +1,82 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:19.418Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Section usluge",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Section usluge",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Section usluge",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "b0c67d72-29ad-65ac-cb26-33276f70651a",
+            "componentId": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "48dd69b5-bcf2-598d-dd60-d354f7f63dab",
+            "componentId": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "40351043-8d8e-b45b-5e3c-21b8484e542e",
+            "componentId": "9db036bc-9bac-25ca-e571-158aa48dd517",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "1788aecf-86cb-914f-9cf8-26def63c06ab",
+            "componentId": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults Section usluge",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

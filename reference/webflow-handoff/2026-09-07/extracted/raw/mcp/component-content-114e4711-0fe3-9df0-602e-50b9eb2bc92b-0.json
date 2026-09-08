@@ -1,0 +1,119 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:41.556Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Izbornik jezika",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Izbornik jezika",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Izbornik jezika",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "72f9a364-eaa5-0a68-7f7e-f429806c9046",
+            "text": {
+              "html": "<a class=\"dv-language-switcher-link dv-language-switcher-current\" href=\"/\">Italiano</a>",
+              "text": "Italiano"
+            },
+            "attributes": {
+              "aria-current": "page",
+              "lang": "it",
+              "href": "/"
+            }
+          },
+          {
+            "type": "text",
+            "id": "72f9a364-eaa5-0a68-7f7e-f429806c9048",
+            "text": {
+              "html": "<a class=\"dv-language-switcher-link\" href=\"https://www.dentvitalis.com/hr\">Hrvatski</a>",
+              "text": "Hrvatski"
+            },
+            "attributes": {
+              "lang": "hr",
+              "href": "https://www.dentvitalis.com/hr"
+            }
+          },
+          {
+            "type": "text",
+            "id": "72f9a364-eaa5-0a68-7f7e-f429806c904a",
+            "text": {
+              "html": "<a class=\"dv-language-switcher-link\" href=\"https://www.dentvitalis.com/de\">Deutsch</a>",
+              "text": "Deutsch"
+            },
+            "attributes": {
+              "lang": "de",
+              "href": "https://www.dentvitalis.com/de"
+            }
+          },
+          {
+            "type": "text",
+            "id": "72f9a364-eaa5-0a68-7f7e-f429806c904c",
+            "text": {
+              "html": "<a class=\"dv-language-switcher-link\" href=\"https://www.dentvitalis.com/en\">English</a>",
+              "text": "English"
+            },
+            "attributes": {
+              "lang": "en",
+              "href": "https://www.dentvitalis.com/en"
+            }
+          },
+          {
+            "type": "text",
+            "id": "72f9a364-eaa5-0a68-7f7e-f429806c904e",
+            "text": {
+              "html": "<a class=\"dv-language-switcher-link\" href=\"https://www.dentvitalis.com/si\">Slovenščina</a>",
+              "text": "Slovenščina"
+            },
+            "attributes": {
+              "lang": "sl",
+              "href": "https://www.dentvitalis.com/si"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "label": "Component defaults Izbornik jezika",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

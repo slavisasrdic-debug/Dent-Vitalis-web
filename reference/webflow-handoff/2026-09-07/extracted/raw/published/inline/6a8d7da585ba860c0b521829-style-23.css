@@ -1,0 +1,9 @@
+
+@media screen and (min-width: 992px) {
+  .section-tradizione .teaser-section {
+    height: 7000px !important;
+  }
+  .section-tradizione .teaser-copy-wrap {
+    height: calc(7000px / 6) !important;
+  }
+}

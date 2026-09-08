@@ -1,0 +1,94 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:47.553Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source kartica Sedazione cosciente",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults kartica Sedazione cosciente",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source kartica Sedazione cosciente",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "80120cd6-e65f-28c3-91c4-db8ef46ae665",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Sostituzione perfetta dei denti naturali</div>",
+              "text": "Sostituzione perfetta dei denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "80120cd6-e65f-28c3-91c4-db8ef46ae667",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88e\">Sedazione cosciente</a>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "80120cd6-e65f-28c3-91c4-db8ef46ae669",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.</p>",
+              "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "80120cd6-e65f-28c3-91c4-db8ef46ae66d",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong data-w-id=\"80120cd6-e65f-28c3-91c4-db8ef46ae66e\">Contattaci e scopri come puoi ottenere questo servizio gratuitamente.</strong></div>",
+              "text": "Contattaci e scopri come puoi ottenere questo servizio gratuitamente."
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults kartica Sedazione cosciente",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

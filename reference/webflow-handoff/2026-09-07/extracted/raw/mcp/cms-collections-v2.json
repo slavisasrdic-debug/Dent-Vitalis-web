@@ -1,0 +1,20 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:33:05.159Z",
+  "tool": "mcp__codex_apps__webflow_data_cms_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Read collection list",
+        "list_collections": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "text": "Parameters failed connector schema validation: actions[0].list_collections [additionalProperties]: Additional property 'list_collections' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+    }
+  ]
+}

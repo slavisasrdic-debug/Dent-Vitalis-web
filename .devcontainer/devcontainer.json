@@ -1,0 +1,25 @@
+{
+  "name": "DentVitalis Astro",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "remoteUser": "codespace",
+  "features": {
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "24"
+    }
+  },
+  "forwardPorts": [4321],
+  "portsAttributes": {
+    "4321": {
+      "label": "DentVitalis public preview",
+      "protocol": "http",
+      "onAutoForward": "notify"
+    },
+    "14321": {
+      "label": "Internal preview forwarding helper",
+      "onAutoForward": "ignore"
+    }
+  },
+  "postCreateCommand": "git lfs install --local && git lfs pull && npm ci",
+  "postStartCommand": "bash scripts/ensure-preview.sh || echo 'Preview startup failed; postAttach will retry. See .astro/preview/ logs.' >&2",
+  "postAttachCommand": "bash scripts/ensure-preview.sh"
+}

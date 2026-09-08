@@ -1,0 +1,59 @@
+{
+  "checkedOn": "2026-09-07",
+  "archives": [
+    {
+      "archive": "reference/webflow-handoff/2026-09-07/dentvitalis-webflow-handoff.zip",
+      "archiveBytes": 180578370,
+      "archiveSha256": "cb7d1c6a603e05ceaee480b981fa02612bee3839c045d59268684ae3ec7080dd",
+      "entries": 1538,
+      "files": 1538,
+      "uncompressedBytes": 268532453,
+      "crc": "passed-all-members",
+      "pathSafety": "passed",
+      "destination": "reference/webflow-handoff/2026-09-07/extracted",
+      "extraction": "verified-existing",
+      "postExtractionHashes": "all-matched",
+      "manifest": {
+        "snapshotId": "dentvitalis-20260907T072711Z",
+        "matchedSizeAndSha256": 1537,
+        "selfEntry": {
+          "path": "manifest.json",
+          "bytes": null,
+          "sha256": null,
+          "reason": "Manifest self-hash excluded to avoid recursive hash dependency."
+        },
+        "fileHashPolicy": "SHA-256 of every file except manifest.json itself. ZIP CRC and every manifest checksum verified after archiving."
+      }
+    },
+    {
+      "archive": "source-assets/webflow-export/2026-09-07/dentvitalis33.webflow.zip",
+      "archiveBytes": 74327837,
+      "archiveSha256": "4457b10d129e23c90a82bddec134a2cab31acc060da1c7f209b8f3201504f159",
+      "entries": 305,
+      "files": 297,
+      "uncompressedBytes": 74283179,
+      "crc": "passed-all-members",
+      "pathSafety": "passed",
+      "destination": "source-assets/webflow-export/2026-09-07/extracted",
+      "extraction": "verified-existing",
+      "postExtractionHashes": "all-matched",
+      "manifest": null
+    }
+  ],
+  "handoffStructure": {
+    "jsonParsed": 202,
+    "csvRows": {
+      "existing-redirects.csv": 1,
+      "interaction-parameters.csv": 1104,
+      "external-assets.csv": 2098,
+      "coverage.csv": 25,
+      "locale-coverage.csv": 29,
+      "interaction-targets.csv": 12592,
+      "assets.csv": 238,
+      "content-facts.csv": 302,
+      "variable-usage.csv": 316,
+      "literal-values-audit.csv": 4448
+    }
+  },
+  "note": "Archive hashes are locally computed receipt fingerprints; only the handoff has a supplier manifest. Neither archive is independently signed."
+}

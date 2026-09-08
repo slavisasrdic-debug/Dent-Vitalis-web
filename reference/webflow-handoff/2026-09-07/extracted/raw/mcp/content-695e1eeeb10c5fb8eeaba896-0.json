@@ -1,0 +1,972 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:01.893Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba896",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba896",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba896",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba896",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "aef503ed-36c2-b645-d672-b7a41ba2d810",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"aef503ed-36c2-b645-d672-b7a41ba2d811\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "aef503ed-36c2-b645-d672-b7a41ba2d813",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "aef503ed-36c2-b645-d672-b7a41ba2d819",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Galleria</h6>",
+              "text": "Galleria"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "602f985d-a999-3d0f-cbf8-034351091362",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8d901cb9d1992b139cb2e5"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "602f985d-a999-3d0f-cbf8-03435109136a",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Galleria</h1>",
+              "text": "Galleria"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "602f985d-a999-3d0f-cbf8-03435109136c",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Che ti ricordino per il tuo sorriso. Punta su te stesso.</p>",
+              "text": "Che ti ricordino per il tuo sorriso. Punta su te stesso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0a",
+            "text": {
+              "html": "<div class=\"text-block-11\">Opzioni<br data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0c\"></div>",
+              "text": "Opzioni\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0e",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0f\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a11",
+            "text": {
+              "html": "<div class=\"text-block-16\">Correzione estetica dei denti</div>",
+              "text": "Correzione estetica dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a14",
+            "text": {
+              "html": "<div class=\"text-block-16\">Correzione funzionale ed estetica dei denti</div>",
+              "text": "Correzione funzionale ed estetica dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a17",
+            "text": {
+              "html": "<div class=\"text-block-16\">Opzioni per la riabilitazione di una mascella senza denti</div>",
+              "text": "Opzioni per la riabilitazione di una mascella senza denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4502e",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-2\">Correzione estetica dei denti</p>",
+              "text": "Correzione estetica dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45031",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Corone, faccette dentali e sbiancamento sono tra le soluzioni più utilizzate per armonizzare il sorriso, intervenendo sul colore, sulla forma, sulle dimensioni e sulle proporzioni dei denti. In base alle tue caratteristiche e ai tuoi desideri, definiamo insieme la soluzione più adatta, scegliendo con cura materiali e tecniche per ottenere un risultato naturale e in armonia con il tuo viso.<br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d45033\"><br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d45034\">Se hai un gummy smile, ovvero quando durante il sorriso viene mostrata una quantità eccessiva di gengiva, possiamo valutare diverse soluzioni estetiche. In base alla causa, è possibile intervenire sulla forma e sulle proporzioni dei denti, sul contorno gengivale oppure combinare più trattamenti, con l’obiettivo di creare un sorriso equilibrato e armonioso.\n\nLa prova estetica è una parte fondamentale del nostro percorso. Prima di realizzare il lavoro definitivo, realizziamo un modello di prova e lo applichiamo sui tuoi denti, permettendoti di vedere concretamente in anticipo il risultato del tuo nuovo sorriso. Insieme al medico potrai valutarne forma, dimensioni e proporzioni e definire ogni dettaglio prima di procedere con la realizzazione definitiva.</p>",
+              "text": "Corone, faccette dentali e sbiancamento sono tra le soluzioni più utilizzate per armonizzare il sorriso, intervenendo sul colore, sulla forma, sulle dimensioni e sulle proporzioni dei denti. In base alle tue caratteristiche e ai tuoi desideri, definiamo insieme la soluzione più adatta, scegliendo con cura materiali e tecniche per ottenere un risultato naturale e in armonia con il tuo viso.\n\nSe hai un gummy smile, ovvero quando durante il sorriso viene mostrata una quantità eccessiva di gengiva, possiamo valutare diverse soluzioni estetiche. In base alla causa, è possibile intervenire sulla forma e sulle proporzioni dei denti, sul contorno gengivale oppure combinare più trattamenti, con l’obiettivo di creare un sorriso equilibrato e armonioso.\n\nLa prova estetica è una parte fondamentale del nostro percorso. Prima di realizzare il lavoro definitivo, realizziamo un modello di prova e lo applichiamo sui tuoi denti, permettendoti di vedere concretamente in anticipo il risultato del tuo nuovo sorriso. Insieme al medico potrai valutarne forma, dimensioni e proporzioni e definire ogni dettaglio prima di procedere con la realizzazione definitiva."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45037",
+            "image": {
+              "alt": "Correzione estetica dei denti: corone in piena forma di zirconio (sopra e sotto)​ - prima",
+              "assetId": "695fa97e89b12cf767b05da1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45038",
+            "image": {
+              "alt": "Correzione estetica dei denti: corone in piena forma di zirconio (sopra e sotto)​ - dopo",
+              "assetId": "695fa97e89b12cf767b05da8"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4503a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4503c",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4503e",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45040",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Corone in zirconio su entrambe le arcate</p>",
+              "text": "Corone in zirconio su entrambe le arcate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45044",
+            "image": {
+              "alt": "Correzione estetica dei denti:  corone in piena forma di zirconio  (sopra e sotto) - prima​",
+              "assetId": "695fa97e89b12cf767b05db1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45045",
+            "image": {
+              "alt": "Correzione estetica dei denti:  corone in piena forma di zirconio  (sopra e sotto) - dopo",
+              "assetId": "695fa97e89b12cf767b05dc1"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45047",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45049",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4504b",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4504d",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Corone in zirconio su entrambe le arcate</p>",
+              "text": "Corone in zirconio su entrambe le arcate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45051",
+            "image": {
+              "alt": "Correzione estetica dei denti:  corone in piena forma di zirconio  (sopra e sotto)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05dba"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45052",
+            "image": {
+              "alt": "Correzione estetica dei denti:  corone in piena forma di zirconio  (sopra e sotto)​ - dopo",
+              "assetId": "695fa97e89b12cf767b05dc8"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45054",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45056",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45058",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4505a",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Corone in zirconio su entrambe le arcate</p>",
+              "text": "Corone in zirconio su entrambe le arcate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4505e",
+            "image": {
+              "alt": "Correzione estetica dei denti:  corone in piena forma di ceramica  (sopra e sotto)​​​ - prima​",
+              "assetId": "695fa97e89b12cf767b05ddd"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4505f",
+            "image": {
+              "alt": "Correzione estetica dei denti:  corone in piena forma di ceramica  (sopra e sotto)​​ - dopo",
+              "assetId": "695fa97e89b12cf767b05d99"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45061",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45063",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45065",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45067",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Corone in ceramica su entrambe le arcate</p>",
+              "text": "Corone in ceramica su entrambe le arcate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4506b",
+            "image": {
+              "alt": "Correzione estetica dei denti: facette  (sopra) - prima​",
+              "assetId": "695fa97e89b12cf767b05e46"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4506c",
+            "image": {
+              "alt": "Correzione estetica dei denti: facette (sopra) ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e4d"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4506e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45070",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45072",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45074",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Riabilitazione estetica dei denti anteriori dell’arcata superiore con faccette dentali</p>",
+              "text": "Riabilitazione estetica dei denti anteriori dell’arcata superiore con faccette dentali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45078",
+            "image": {
+              "alt": "Correzione estetica del dente:  corona in piena forma di ceramica  (sopra)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05e54"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45079",
+            "image": {
+              "alt": "Correzione estetica del dente:  corona in piena forma di ceramica  (sopra)​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e5b"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4507b",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4507d",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4507f",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45081",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Correzione di un dente mal posizionato con una <a href=\"/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali\" class=\"link\" data-w-id=\"41673e3f-934b-b849-b2ff-92a0b3e4a25c\">corona </a>in ceramica</p>",
+              "text": "Correzione di un dente mal posizionato con una corona in ceramica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45085",
+            "image": {
+              "alt": "Correzione estetica dei denti:  faccette in composito (sopra)​​ - prima​",
+              "assetId": "695fa97e89b12cf767b05e62"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45086",
+            "image": {
+              "alt": "Correzione estetica dei denti:  faccette in composito (sopra)​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e69"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45088",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4508a",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4508c",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4508e",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Correzione dei diastemi tramite faccette in composito</p>",
+              "text": "Correzione dei diastemi tramite faccette in composito"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45091",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-2\">Correzione funzionale ed estetica dei denti</p>",
+              "text": "Correzione funzionale ed estetica dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d45094",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">La perdita di uno o più denti può essere affrontata con diverse soluzioni, da valutare in base alle condizioni della bocca, al numero di denti mancanti e alle esigenze personali. Gli impianti e i ponti in ceramica consentono di ripristinare denti mancanti con un risultato funzionale ed esteticamente naturale, armonioso con il resto del sorriso.<br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d45096\"><br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d45097\">In caso di perdita di più denti, per chi preferisce evitare gli impianti, è possibile ricorrere a una protesi parziale realizzata su misura, sostenuta dai denti naturali residui. A seconda della situazione individuale, sono disponibili diverse soluzioni protesiche, studiate per offrire comfort, stabilità, funzionalità e un aspetto naturale.<br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d45099\"><br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d4509a\">Durante la visita, il medico valuterà attentamente la tua situazione e ti illustrerà le opzioni di trattamento più indicate per te. Potrai così conoscere i vantaggi delle diverse soluzioni e, insieme al medico, scegliere quella che meglio risponde alle tue esigenze e alle tue aspettative.</p>",
+              "text": "La perdita di uno o più denti può essere affrontata con diverse soluzioni, da valutare in base alle condizioni della bocca, al numero di denti mancanti e alle esigenze personali. Gli impianti e i ponti in ceramica consentono di ripristinare denti mancanti con un risultato funzionale ed esteticamente naturale, armonioso con il resto del sorriso.\n\nIn caso di perdita di più denti, per chi preferisce evitare gli impianti, è possibile ricorrere a una protesi parziale realizzata su misura, sostenuta dai denti naturali residui. A seconda della situazione individuale, sono disponibili diverse soluzioni protesiche, studiate per offrire comfort, stabilità, funzionalità e un aspetto naturale.\n\nDurante la visita, il medico valuterà attentamente la tua situazione e ti illustrerà le opzioni di trattamento più indicate per te. Potrai così conoscere i vantaggi delle diverse soluzioni e, insieme al medico, scegliere quella che meglio risponde alle tue esigenze e alle tue aspettative."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4509d",
+            "image": {
+              "alt": "Correzione estetica e funzionale:  ponte in ceramica con la base in legura  (sopra e sotto)​​ - prima​",
+              "assetId": "695fa97e89b12cf767b05dcf"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d4509e",
+            "image": {
+              "alt": "Correzione estetica e funzionale:  ponte in ceramica con la base in legura  (sopra e sotto)​ - dopo",
+              "assetId": "69679c01bef00e707d7445b9"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450a0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450a2",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450a4",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450a6",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Sostituzione dei denti mancanti con ponti in ceramica rinforzata, per entrambe le arcate</p>",
+              "text": "Sostituzione dei denti mancanti con ponti in ceramica rinforzata, per entrambe le arcate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450aa",
+            "image": {
+              "alt": "Correzione funzionale ed estetica:  protesi su corone telescopiche (sopra)  e corone in piena forma di zirconio (sotto)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05df2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450ab",
+            "image": {
+              "alt": "Correzione funzionale ed estetica:  protesi su corone telescopiche (sopra)  e corone in piena forma di zirconio (sotto)​- dopo",
+              "assetId": "695fa97e89b12cf767b05df9"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450ad",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450af",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450b1",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450b3",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Protesi su corone telescopiche sull’arcata superiore e corone in zirconio sull’arcata inferiore</p>",
+              "text": "Protesi su corone telescopiche sull’arcata superiore e corone in zirconio sull’arcata inferiore"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450b6",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-2\">Opzioni per la riabilitazione di una mascella senza denti</p>",
+              "text": "Opzioni per la riabilitazione di una mascella senza denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450b9",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">La perdita completa dei denti oggi può essere risolta con una soluzione fissa su impianti, senza dover più portare una protesi mobile. È possibile tornare a sorridere, parlare e mangiare con la sicurezza e la naturalezza di una dentatura fissa.<br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d450bb\"><br data-w-id=\"2f6d658d-51d8-d6c0-57d2-8e0618d450bc\">Il nostro Premium Ponte fisso su impianti è una soluzione completa per riabilitare un’arcata completamente priva di denti. Gli impianti sostengono una protesi fissa realizzata su misura, studiata per garantire stabilità, funzionalità ed estetica.\n\nUn vantaggio importante è il prezzo fisso del trattamento, indipendentemente dal numero di impianti necessari. In questo modo sai fin dall’inizio quanto investirai per il tuo nuovo sorriso.\n\nGrazie al laboratorio odontotecnico interno, possiamo gestire direttamente tutte le fasi della lavorazione, riducendo i tempi e garantendo un controllo preciso del risultato. In determinati casi, già nella stessa giornata è possibile applicare una protesi fissa provvisoria.\n\nIl trattamento viene progettato sulla base delle tue esigenze e delle caratteristiche della tua bocca, con l’obiettivo di offrirti un sorriso stabile, naturale e armonioso.</p>",
+              "text": "La perdita completa dei denti oggi può essere risolta con una soluzione fissa su impianti, senza dover più portare una protesi mobile. È possibile tornare a sorridere, parlare e mangiare con la sicurezza e la naturalezza di una dentatura fissa.\n\nIl nostro Premium Ponte fisso su impianti è una soluzione completa per riabilitare un’arcata completamente priva di denti. Gli impianti sostengono una protesi fissa realizzata su misura, studiata per garantire stabilità, funzionalità ed estetica.\n\nUn vantaggio importante è il prezzo fisso del trattamento, indipendentemente dal numero di impianti necessari. In questo modo sai fin dall’inizio quanto investirai per il tuo nuovo sorriso.\n\nGrazie al laboratorio odontotecnico interno, possiamo gestire direttamente tutte le fasi della lavorazione, riducendo i tempi e garantendo un controllo preciso del risultato. In determinati casi, già nella stessa giornata è possibile applicare una protesi fissa provvisoria.\n\nIl trattamento viene progettato sulla base delle tue esigenze e delle caratteristiche della tua bocca, con l’obiettivo di offrirti un sorriso stabile, naturale e armonioso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450bf",
+            "image": {
+              "alt": "Correzione funzionale ed estetica:  protesi su impianti e la barra di ritenzione  (sopra e sotto)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05de4"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450c0",
+            "image": {
+              "alt": "Correzione funzionale ed estetica:  protesi su impianti e la barra di ritenzione  (sopra e sotto)​ - dopo",
+              "assetId": "695fa97e89b12cf767b05deb"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450c2",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450c4",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450c6",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450c8",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Protesi su impianti con barra di ritenzione su entrambe le arcate</p>",
+              "text": "Protesi su impianti con barra di ritenzione su entrambe le arcate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450cc",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: Toronto ponti su impianti - All on 6 (sopra) e All on 4 (sotto) - prima​",
+              "assetId": "695fa97e89b12cf767b05e00"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450cd",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: Toronto ponti su impianti - All on 6 (sopra) e All on 4 (sotto)​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e07"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450cf",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450d1",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450d3",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450d5",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Toronto Bridge su impianti – All-on-6 superiore, All-on-4 inferiore</p>",
+              "text": "Toronto Bridge su impianti – All-on-6 superiore, All-on-4 inferiore"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450d9",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi totale (sopra) e Toronto ponte su impianti - All on 6 (sotto)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05e0e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450da",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi totale (sopra) e Toronto ponte su impianti - All on 6 (sotto)​​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e15"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450dc",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450de",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450e0",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450e2",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\">Protesi totale sull’arcata superiore e Toronto Bridge - All-on-6 sull’arcata inferiore</p>",
+              "text": "Protesi totale sull’arcata superiore e Toronto Bridge - All-on-6 sull’arcata inferiore"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450e6",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi su impianti e la barra di ritenzione (sopra) e Toronto ponte su impianti - All on 6 (sotto)​​​ - prima​",
+              "assetId": "695fa97e89b12cf767b05e1c"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450e7",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi su impianti e la barra di ritenzione (sopra) e Toronto ponte su impianti - All on 6 (sotto)​​​​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e23"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450e9",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450eb",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450ed",
+            "text": {
+              "html": "<div class=\"bas-label-after-h\">Dopo</div>",
+              "text": "Dopo"
+            },
+            "attributes": {
+              "fb-before-after-label": "after"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450ef",
+            "text": {
+              "html": "<p class=\"large-paragraph-5 prije-poslije\"><a href=\"/prestazioni/corone-faccette-ponti-e-protesi#protesi_mobili\" class=\"link\" data-w-id=\"c7d92a8a-fcfd-fbba-3398-a8da91641f62\">Protesi </a>su impianti con barra di ritenzione sull’arcata superiore e Toronto Bridge (All-on-6) sull’arcata inferiore</p>",
+              "text": "Protesi su impianti con barra di ritenzione sull’arcata superiore e Toronto Bridge (All-on-6) sull’arcata inferiore"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450f3",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi totale (sopra) e Toronto ponte su impianti - All on 6 (sotto)​ - prima​",
+              "assetId": "695fa97e89b12cf767b05e2a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450f4",
+            "image": {
+              "alt": "Correzione funzionale ed estetica: protesi totale (sopra) e Toronto ponte su impianti - All on 6 (sotto)​​​​​ ​- dopo",
+              "assetId": "695fa97e89b12cf767b05e31"
+            },
+            "attributes": {
+              "fb-before-after-side": "after"
+            }
+          },
+          {
+            "type": "html-embed",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450f6",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\">\n  <path d=\"M9.04304 6.29297L2.83594 12.5001L9.04304 18.7072L10.4573 17.293L5.66436 12.5001L10.4573 7.70718L9.04304 6.29297ZM14.957 18.7073L21.1641 12.5002L14.957 6.29312L13.5427 7.70733L18.3356 12.5002L13.5427 17.2931L14.957 18.7073Z\" fill=\"#282735\"/>\n</svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f6d658d-51d8-d6c0-57d2-8e0618d450f8",
+            "text": {
+              "html": "<div class=\"bas-label-before-h\">Prima</div>",
+              "text": "Prima"
+            },
+            "attributes": {
+              "fb-before-after-label": "before"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 112
+        },
+        "lastUpdated": "2026-09-02T13:25:01.953Z"
+      }
+    }
+  ]
+}

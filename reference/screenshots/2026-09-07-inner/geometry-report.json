@@ -1,0 +1,1850 @@
+[
+  {
+    "route": "/condizioni-di-utilizzo",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.03
+      }
+    }
+  },
+  {
+    "route": "/informativa-sulla-privacy",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.03
+      }
+    }
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  {
+    "route": "/informazioni/trasporto",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/alloggio",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/testimonianze",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.05
+      }
+    }
+  },
+  {
+    "route": "/contatti",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.2
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 39
+      }
+    }
+  },
+  {
+    "route": "/faq",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.06
+      }
+    }
+  },
+  {
+    "route": "/domande-e-risposte",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.06
+      }
+    }
+  },
+  {
+    "route": "/informazioni/listino-prezzi",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": -1,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": -1,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/garanzie",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/pagamento-flessibile",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/tempi-del-trattamento",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/prima-visita-gratuita",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/sedazione-cosciente",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.08
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/impianti-di-nuova-generazione",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/materiali-e-apparecchiature",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/laboratorio-odontotecnico",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/come-raggiungerci",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/tutto-in-un-unico-luogo",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/corone-faccette-ponti-e-protesi",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.05
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/sbiancamento-dei-denti",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.19
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/premium-ponte-fisso-su-impianti",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.14
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+    "width": 1440,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": 0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": 0
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/condizioni-di-utilizzo",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.03,
+        "width": -0.02,
+        "height": -0.03
+      }
+    }
+  },
+  {
+    "route": "/informativa-sulla-privacy",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.05,
+        "width": -0.02,
+        "height": -0.03
+      }
+    }
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.06
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.05
+      }
+    }
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      }
+    }
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      }
+    }
+  },
+  {
+    "route": "/informazioni/trasporto",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.06
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.05
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/alloggio",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.17
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.16
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.19,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.19,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/testimonianze",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.02
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.09,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.05,
+        "width": -0.02,
+        "height": -0.05
+      }
+    }
+  },
+  {
+    "route": "/contatti",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.06
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.05
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": -0.27
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.34,
+        "width": -0.02,
+        "height": 39
+      }
+    }
+  },
+  {
+    "route": "/faq",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.11
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.09
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.13,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.13,
+        "width": -0.02,
+        "height": -0.06
+      }
+    }
+  },
+  {
+    "route": "/domande-e-risposte",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": -0.08
+      }
+    }
+  },
+  {
+    "route": "/informazioni/listino-prezzi",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.02
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.05,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/garanzie",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/pagamento-flessibile",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": -0.03
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.09,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/tempi-del-trattamento",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.14
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.11
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.16,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.16,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/informazioni/prima-visita-gratuita",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.17
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.16
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.19,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.19,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/sedazione-cosciente",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.05
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.06,
+        "width": -0.02,
+        "height": -0.11
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/impianti-di-nuova-generazione",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.06
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/materiali-e-apparecchiature",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.06
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.03
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/laboratorio-odontotecnico",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.13
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.09
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.14,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.14,
+        "width": -0.02,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/come-raggiungerci",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.06
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.05
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.08,
+        "width": -0.02,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/tutto-in-un-unico-luogo",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.09
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.06
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.11,
+        "width": -0.02,
+        "height": 0
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.11,
+        "width": -0.02,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.08
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.02
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.06
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.09,
+        "width": -0.02,
+        "height": -0.08
+      },
+      ".podstranice-sidebar": {
+        "x": 0,
+        "y": -0.17,
+        "width": -0.02,
+        "height": -0.09
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/corone-faccette-ponti-e-protesi",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.08
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": 0,
+        "height": -0.05
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.25,
+        "width": -0.02,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": -0.11,
+        "width": -0.02,
+        "height": -0.14
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/sbiancamento-dei-denti",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.09
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.02,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.06
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.31,
+        "width": -0.02,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": -0.11,
+        "width": -0.02,
+        "height": -0.2
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/premium-ponte-fisso-su-impianti",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.11
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.03,
+        "width": 0,
+        "height": -0.03
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.06,
+        "width": 0,
+        "height": -0.08
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.33,
+        "width": -0.02,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": -0.14,
+        "width": -0.02,
+        "height": -0.19
+      }
+    }
+  },
+  {
+    "route": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+    "width": 390,
+    "delta": {
+      ".zaglavlje-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.11
+      },
+      ".naslov-detaljna": {
+        "x": 0,
+        "y": -0.05,
+        "width": 0,
+        "height": -0.05
+      },
+      ".podnaslov-detaljna": {
+        "x": 0,
+        "y": -0.09,
+        "width": 0,
+        "height": -0.06
+      },
+      ".tekst-detaljna": {
+        "x": 0,
+        "y": -0.33,
+        "width": -0.02,
+        "height": 0
+      },
+      ".sadrzaji-usluge": {
+        "x": 0,
+        "y": -0.16,
+        "width": -0.02,
+        "height": -0.17
+      }
+    }
+  }
+]

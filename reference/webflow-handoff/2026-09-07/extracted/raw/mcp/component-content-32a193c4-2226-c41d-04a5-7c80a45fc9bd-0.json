@@ -1,0 +1,418 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:20.895Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Directory cards - Su di noi",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Directory cards - Su di noi",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Directory cards - Su di noi",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9c5",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a9a894328a2d6f886ffabaf"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9c8",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">DentVitalis</div>",
+              "text": "DentVitalis"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9ca",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/i-nostri-specialisti\">I nostri specialisti</a>",
+              "text": "I nostri specialisti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9cc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Professionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.</p>",
+              "text": "Professionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9d0",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9d3",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9d6",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86d2ab9e181809458efc87"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9d9",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Cura completa</div>",
+              "text": "Cura completa"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9db",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/tutto-in-un-unico-luogo\">Tutto in un unico luogo</a>",
+              "text": "Tutto in un unico luogo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9dd",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.</p>",
+              "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9e1",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9e4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9e7",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a995eeda77024f4c59193f0"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9ea",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Rijeka (Fiume)</div>",
+              "text": "Rijeka (Fiume)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9ec",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/come-raggiungerci\">Come raggiungerci?</a>",
+              "text": "Come raggiungerci?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9ee",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.</p>",
+              "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9f2",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"32a193c4-2226-c41d-04a5-7c80a45fc9f3\">Scopri di più</strong></div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9f6",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9f9",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86da4eae8635c0cdb45a0a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9fc",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Tecnologia e qualità</div>",
+              "text": "Tecnologia e qualità"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fc9fe",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/laboratorio-odontotecnico\">Laboratorio odontotecnico</a>",
+              "text": "Laboratorio odontotecnico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca00",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.</p>",
+              "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca04",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca07",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f42f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e2fe3a09a609c87955c2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f432",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Standard europei</div>",
+              "text": "Standard europei"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f434",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/materiali-e-apparecchiature\">Materiali e apparecchiature</a>",
+              "text": "Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f436",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Materiali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.</p>",
+              "text": "Materiali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f43a",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f43d",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f440",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86debaa7487087044c1589"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f443",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Tecnologia avanzata</div>",
+              "text": "Tecnologia avanzata"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f445",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/impianti-di-nuova-generazione\">Impianti di nuova generazione</a>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f447",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ora tutto è possibile: liberati dalla protesi mobile.</p>",
+              "text": "Ora tutto è possibile: liberati dalla protesi mobile."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f44b",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f44e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca0a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a9a892a55232c9f5a3c13a3"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca0b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86d2ab9e181809458efc87"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca0c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a995eeda77024f4c59193f0"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a193c4-2226-c41d-04a5-7c80a45fca0d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86da4eae8635c0cdb45a0a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f463",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e2fe3a09a609c87955c2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dee3d813-927f-91b5-0b1a-d6af2d40f464",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86debaa7487087044c1589"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 42
+        }
+      }
+    },
+    {
+      "label": "Component defaults Directory cards - Su di noi",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

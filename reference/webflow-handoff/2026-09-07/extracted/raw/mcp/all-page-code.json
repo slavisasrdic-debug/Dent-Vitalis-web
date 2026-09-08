@@ -1,0 +1,655 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:34:09.115Z",
+  "tool": "mcp__codex_apps__webflow_data_scripts_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Code 6a97db25519800ebff25b9f2",
+        "get_page_freeform_code": {
+          "page_id": "6a97db25519800ebff25b9f2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 6a97db259aad9ee4bb4bd328",
+        "get_page_freeform_code": {
+          "page_id": "6a97db259aad9ee4bb4bd328",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 6a8d7da66a4b3462ca3f0a23",
+        "get_page_freeform_code": {
+          "page_id": "6a8d7da66a4b3462ca3f0a23",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 6a8d7da585ba860c0b521829",
+        "get_page_freeform_code": {
+          "page_id": "6a8d7da585ba860c0b521829",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 6a8d7da5fff15c0449d670e2",
+        "get_page_freeform_code": {
+          "page_id": "6a8d7da5fff15c0449d670e2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 696f4a9a3d82954cb43ac683",
+        "get_page_freeform_code": {
+          "page_id": "696f4a9a3d82954cb43ac683",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 696f49d7f343717fcadfcf28",
+        "get_page_freeform_code": {
+          "page_id": "696f49d7f343717fcadfcf28",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 69679710d4037ebd0cbb9df2",
+        "get_page_freeform_code": {
+          "page_id": "69679710d4037ebd0cbb9df2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba898",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba898",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba897",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba897",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba896",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba896",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba894",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba894",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba893",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba893",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba892",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba892",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba891",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba891",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba890",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba890",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba88e",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba88e",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba88d",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba88d",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba88c",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba88c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba88b",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba88b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba88a",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba88a",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba889",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba889",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba888",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba888",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba886",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba886",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba885",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba885",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba884",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba884",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba882",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba882",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      },
+      {
+        "label": "Code 695e1eeeb10c5fb8eeaba87c",
+        "get_page_freeform_code": {
+          "page_id": "695e1eeeb10c5fb8eeaba87c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Code 6a97db25519800ebff25b9f2",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 6a97db259aad9ee4bb4bd328",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 6a8d7da66a4b3462ca3f0a23",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "<style id=\"dv-parent-page-mobile-title-gap-2026-09-03\">\n@media screen and (max-width: 991px) {\n  .section-tradizione { margin-top: 0 !important; }\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<style>\n.zaglavlje-detaljna {\n  min-height: 0;\n  height: auto;\n  background: #087a93;\n}\n.zaglavlje-detaljna .inner-banner-photo {\n  display: none;\n}\n.zaglavlje-detaljna .container-wrapper-4,\n.zaglavlje-detaljna .inner-banner {\n  min-height: 0;\n  height: auto;\n}\n.zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {\n  min-height: 0;\n  height: auto;\n  padding-top: 56px;\n  padding-bottom: 56px;\n}\n@media screen and (max-width: 991px) {\n  .zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {\n    padding-top: 40px;\n    padding-bottom: 40px;\n  }\n}\n</style>\n<script>\n(function () {\n  var desktop = window.matchMedia(\"(min-width: 992px)\");\n\n  function mergeDirectorySections() {\n    var sections = Array.prototype.slice.call(document.querySelectorAll(\".teaser-section\"));\n    if (sections.length < 2) return;\n\n    var primary = sections[0];\n    var primaryCards = primary.querySelector(\".teaser-grid .teaser-column\");\n    var primaryImages = primary.querySelector(\".p-teaser-img-wrap\");\n    if (!primaryCards || !primaryImages) return;\n\n    sections.slice(1).forEach(function (section) {\n      var cardColumn = section.querySelector(\".teaser-grid .teaser-column\");\n      var imageWrap = section.querySelector(\".p-teaser-img-wrap\");\n      if (!cardColumn || !imageWrap) return;\n\n      Array.prototype.slice.call(cardColumn.children).forEach(function (child) {\n        if (child.classList.contains(\"teaser-copy-wrap\")) primaryCards.appendChild(child);\n      });\n      Array.prototype.slice.call(imageWrap.children).forEach(function (image) {\n        if (image.tagName === \"IMG\") primaryImages.appendChild(image);\n      });\n      section.parentNode.removeChild(section);\n    });\n  }\n\n  mergeDirectorySections();\n  var sections = Array.prototype.slice.call(document.querySelectorAll(\".teaser-section\")).map(function (section) {\n    var images = Array.prototype.slice.call(section.querySelectorAll(\".p-teaser-img-wrap img\"));\n    return {\n      cards: Array.prototype.slice.call(section.querySelectorAll(\".teaser-copy-wrap\")),\n      images: images,\n      originalSizes: images.map(function (image) { return image.getAttribute(\"sizes\"); }),\n      active: null,\n      sizedForDesktop: null\n    };\n  });\n\n  function visible(elements) {\n    return elements.filter(function (element) {\n      return element.getClientRects().length > 0;\n    });\n  }\n\n  function updateSizing(item) {\n    var desktopNow = desktop.matches;\n    if (item.sizedForDesktop === desktopNow) return;\n    item.images.forEach(function (image, index) {\n      if (desktopNow) image.setAttribute(\"sizes\", \"2000px\");\n      else if (item.originalSizes[index]) image.setAttribute(\"sizes\", item.originalSizes[index]);\n      else image.removeAttribute(\"sizes\");\n    });\n    item.sizedForDesktop = desktopNow;\n  }\n\n  function clearImages(item) {\n    item.images.forEach(function (image) {\n      image.style.opacity = \"\";\n      image.style.transform = \"\";\n      image.style.transition = \"\";\n      image.style.willChange = \"\";\n      image.style.zIndex = \"\";\n    });\n    item.active = null;\n  }\n\n  function update() {\n    sections.forEach(function (item) {\n      updateSizing(item);\n      if (!desktop.matches) {\n        if (item.active !== null) clearImages(item);\n        return;\n      }\n\n      var cards = visible(item.cards);\n      var images = visible(item.images);\n      if (!cards.length || cards.length !== images.length) return;\n\n      var active = 0;\n      cards.forEach(function (card, index) {\n        if (card.getBoundingClientRect().top <= window.innerHeight * 0.5) active = index;\n      });\n\n      images.forEach(function (image, index) {\n        image.style.zIndex = String(images.length - index);\n      });\n      if (item.active === active) return;\n      images.forEach(function (image, index) {\n        var hasPassed = index < active;\n        image.style.willChange = \"transform, opacity\";\n        image.style.transition = \"opacity 600ms cubic-bezier(0.45, 0, 0.55, 1), transform 900ms cubic-bezier(0.45, 0, 0.55, 1)\";\n        image.style.opacity = hasPassed ? \"0\" : \"1\";\n        image.style.transform = hasPassed ? \"scale(1.2)\" : \"scale(1)\";\n      });\n      item.active = active;\n    });\n  }\n\n  var scheduled = false;\n  function requestUpdate() {\n    if (scheduled) return;\n    scheduled = true;\n    window.requestAnimationFrame(function () {\n      scheduled = false;\n      update();\n    });\n  }\n\n  window.addEventListener(\"scroll\", requestUpdate, { passive: true });\n  window.addEventListener(\"resize\", requestUpdate);\n  if (desktop.addEventListener) desktop.addEventListener(\"change\", requestUpdate);\n  else desktop.addListener(requestUpdate);\n  requestUpdate();\n}());\n</script>\n\n<style>\n@media screen and (max-width: 991px) {\n  .zaglavlje-detaljna + .section-tradizione {\n    margin-top: 24px;\n  }\n}\n</style>\n\n<style>\n@media screen and (min-width: 992px) {\n  .teaser-section[data-directory-cards=\"7\"] {\n    height: 700vh;\n  }\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 6a8d7da585ba860c0b521829",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "<style id=\"dv-about-desktop-six-transitions-2026-09-03\">\n@media screen and (min-width: 992px) {\n  .section-tradizione .teaser-section {\n    height: 7000px !important;\n  }\n  .section-tradizione .teaser-copy-wrap {\n    height: calc(7000px / 6) !important;\n  }\n}\n</style>\n<style id=\"dv-parent-page-mobile-title-gap-2026-09-03\">\n@media screen and (max-width: 991px) {\n  .section-tradizione { margin-top: 0 !important; }\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<style>\n.zaglavlje-detaljna {\n  min-height: 0;\n  height: auto;\n  background: #087a93;\n}\n.zaglavlje-detaljna .inner-banner-photo {\n  display: none;\n}\n.zaglavlje-detaljna .container-wrapper-4,\n.zaglavlje-detaljna .inner-banner {\n  min-height: 0;\n  height: auto;\n}\n.zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {\n  min-height: 0;\n  height: auto;\n  padding-top: 56px;\n  padding-bottom: 56px;\n}\n@media screen and (max-width: 991px) {\n  .zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {\n    padding-top: 40px;\n    padding-bottom: 40px;\n  }\n}\n</style>\n<script>\n(function () {\n  var desktop = window.matchMedia(\"(min-width: 992px)\");\n\n  function mergeDirectorySections() {\n    var sections = Array.prototype.slice.call(document.querySelectorAll(\".teaser-section\"));\n    if (sections.length < 2) return;\n\n    var primary = sections[0];\n    var primaryCards = primary.querySelector(\".teaser-grid .teaser-column\");\n    var primaryImages = primary.querySelector(\".p-teaser-img-wrap\");\n    if (!primaryCards || !primaryImages) return;\n\n    sections.slice(1).forEach(function (section) {\n      var cardColumn = section.querySelector(\".teaser-grid .teaser-column\");\n      var imageWrap = section.querySelector(\".p-teaser-img-wrap\");\n      if (!cardColumn || !imageWrap) return;\n\n      Array.prototype.slice.call(cardColumn.children).forEach(function (child) {\n        if (child.classList.contains(\"teaser-copy-wrap\")) primaryCards.appendChild(child);\n      });\n      Array.prototype.slice.call(imageWrap.children).forEach(function (image) {\n        if (image.tagName === \"IMG\") primaryImages.appendChild(image);\n      });\n      section.parentNode.removeChild(section);\n    });\n  }\n\n  mergeDirectorySections();\n\n  var sections = Array.prototype.slice.call(document.querySelectorAll(\".teaser-section\")).map(function (section) {\n    var images = Array.prototype.slice.call(section.querySelectorAll(\".p-teaser-img-wrap img\"));\n    return {\n      cards: Array.prototype.slice.call(section.querySelectorAll(\".teaser-copy-wrap\")),\n      images: images,\n      originalSizes: images.map(function (image) { return image.getAttribute(\"sizes\"); }),\n      active: null,\n      sizedForDesktop: null\n    };\n  });\n\n  function visible(elements) {\n    return elements.filter(function (element) {\n      return element.getClientRects().length > 0;\n    });\n  }\n\n  function updateSizing(item) {\n    var desktopNow = desktop.matches;\n    if (item.sizedForDesktop === desktopNow) return;\n    item.images.forEach(function (image, index) {\n      if (desktopNow) image.setAttribute(\"sizes\", \"2000px\");\n      else if (item.originalSizes[index]) image.setAttribute(\"sizes\", item.originalSizes[index]);\n      else image.removeAttribute(\"sizes\");\n    });\n    item.sizedForDesktop = desktopNow;\n  }\n\n  function clearImages(item) {\n    item.images.forEach(function (image) {\n      image.style.opacity = \"\";\n      image.style.transform = \"\";\n      image.style.transition = \"\";\n      image.style.willChange = \"\";\n      image.style.zIndex = \"\";\n    });\n    item.active = null;\n  }\n\n  function update() {\n    sections.forEach(function (item) {\n      updateSizing(item);\n      if (!desktop.matches) {\n        if (item.active !== null) clearImages(item);\n        return;\n      }\n\n      var cards = visible(item.cards);\n      var images = visible(item.images);\n      if (!cards.length || cards.length !== images.length) return;\n\n      var active = 0;\n      cards.forEach(function (card, index) {\n        if (card.getBoundingClientRect().top <= window.innerHeight * 0.5) active = index;\n      });\n\n      images.forEach(function (image, index) {\n        image.style.zIndex = String(images.length - index);\n      });\n      if (item.active === active) return;\n      images.forEach(function (image, index) {\n        var hasPassed = index < active;\n        image.style.willChange = \"transform, opacity\";\n        image.style.transition = \"opacity 600ms cubic-bezier(0.45, 0, 0.55, 1), transform 900ms cubic-bezier(0.45, 0, 0.55, 1)\";\n        image.style.opacity = hasPassed ? \"0\" : \"1\";\n        image.style.transform = hasPassed ? \"scale(1.2)\" : \"scale(1)\";\n      });\n      item.active = active;\n    });\n  }\n\n  var scheduled = false;\n  function requestUpdate() {\n    if (scheduled) return;\n    scheduled = true;\n    window.requestAnimationFrame(function () {\n      scheduled = false;\n      update();\n    });\n  }\n\n  window.addEventListener(\"scroll\", requestUpdate, { passive: true });\n  window.addEventListener(\"resize\", requestUpdate);\n  if (desktop.addEventListener) desktop.addEventListener(\"change\", requestUpdate);\n  else desktop.addListener(requestUpdate);\n  requestUpdate();\n}());\n</script>\n\n<style>\n@media screen and (max-width: 991px) {\n  .zaglavlje-detaljna + .section-tradizione {\n    margin-top: 24px;\n  }\n}\n</style>\n\n<style>\n@media screen and (min-width: 992px) {\n  .teaser-section[data-directory-cards=\"7\"] {\n    height: 700vh;\n  }\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 6a8d7da5fff15c0449d670e2",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "<style>\n.teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2:not(.w-embed) {\n  font-size: 0 !important;\n}\n.teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2:not(.w-embed)::after {\n  content: \"\";\n  display: block;\n  flex: 0 0 40px;\n  width: 40px;\n  height: 40px;\n  background-color: currentColor;\n  -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z'/%3E%3C/svg%3E\") center / contain no-repeat;\n  mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z'/%3E%3C/svg%3E\") center / contain no-repeat;\n}\n@media screen and (max-width: 767px) {\n  .teaser-copy-wrap .home-service-card-hp .div-block-13 { width: 100%; align-items: flex-end; }\n  .teaser-copy-wrap .home-service-card-hp .istaknuta-cijena { flex: 1 1 0%; min-width: 0; }\n  .teaser-copy-wrap .home-service-card-hp .cijena-velika { flex: 1 1 auto; min-width: 0; width: auto; white-space: normal; }\n  .teaser-copy-wrap .home-service-card-hp .cijena-velika > div { white-space: normal; }\n  .teaser-copy-wrap .home-service-card-hp .link-block-5 {\n    flex: 0 0 44px;\n    width: 44px;\n    min-width: 44px;\n    height: 44px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-left: 14px;\n  }\n  .teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2 {\n    width: 44px;\n    height: 44px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 32px !important;\n    line-height: 1 !important;\n  }\n  .teaser-copy-wrap .home-service-card-hp .icon-embed-xxsmall-2:not(.w-embed)::after {\n    flex-basis: 44px;\n    width: 44px;\n    height: 44px;\n  }\n}\n</style>\n<style id=\"dv-parent-page-mobile-title-gap-2026-09-03\">\n@media screen and (max-width: 991px) {\n  .section-tradizione { margin-top: 0 !important; }\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<style>\n.zaglavlje-detaljna {\n  min-height: 0;\n  height: auto;\n  background: #087a93;\n}\n.zaglavlje-detaljna .inner-banner-photo {\n  display: none;\n}\n.zaglavlje-detaljna .container-wrapper-4,\n.zaglavlje-detaljna .inner-banner {\n  min-height: 0;\n  height: auto;\n}\n.zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {\n  min-height: 0;\n  height: auto;\n  padding-top: 56px;\n  padding-bottom: 56px;\n}\n@media screen and (max-width: 991px) {\n  .zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {\n    padding-top: 40px;\n    padding-bottom: 40px;\n  }\n}\n</style>\n<script>\n(function () {\n  var desktop = window.matchMedia(\"(min-width: 992px)\");\n  var sections = Array.prototype.slice.call(document.querySelectorAll(\".teaser-section\")).map(function (section) {\n    var images = Array.prototype.slice.call(section.querySelectorAll(\".p-teaser-img-wrap img\"));\n    return {\n      cards: Array.prototype.slice.call(section.querySelectorAll(\".teaser-copy-wrap\")),\n      images: images,\n      originalSizes: images.map(function (image) { return image.getAttribute(\"sizes\"); }),\n      active: null,\n      sizedForDesktop: null\n    };\n  });\n\n  function visible(elements) {\n    return elements.filter(function (element) {\n      return element.getClientRects().length > 0;\n    });\n  }\n\n  function updateSizing(item) {\n    var desktopNow = desktop.matches;\n    if (item.sizedForDesktop === desktopNow) return;\n    item.images.forEach(function (image, index) {\n      if (desktopNow) image.setAttribute(\"sizes\", \"2000px\");\n      else if (item.originalSizes[index]) image.setAttribute(\"sizes\", item.originalSizes[index]);\n      else image.removeAttribute(\"sizes\");\n    });\n    item.sizedForDesktop = desktopNow;\n  }\n\n  function clearImages(item) {\n    item.images.forEach(function (image) {\n      image.style.opacity = \"\";\n      image.style.transform = \"\";\n      image.style.transition = \"\";\n      image.style.willChange = \"\";\n    });\n    item.active = null;\n  }\n\n  function update() {\n    sections.forEach(function (item) {\n      updateSizing(item);\n      if (!desktop.matches) {\n        if (item.active !== null) clearImages(item);\n        return;\n      }\n\n      var cards = visible(item.cards);\n      var images = visible(item.images);\n      if (!cards.length || cards.length !== images.length) return;\n\n      var active = 0;\n      cards.forEach(function (card, index) {\n        if (window.scrollY + 24 >= card.getBoundingClientRect().top + window.scrollY) active = index;\n      });\n\n      if (item.active === active) return;\n      images.forEach(function (image, index) {\n        var hasPassed = index < active;\n        image.style.willChange = \"transform, opacity\";\n        image.style.transition = \"opacity 600ms cubic-bezier(0.45, 0, 0.55, 1), transform 900ms cubic-bezier(0.45, 0, 0.55, 1)\";\n        image.style.opacity = hasPassed ? \"0\" : \"1\";\n        image.style.transform = hasPassed ? \"scale(1.2)\" : \"scale(1)\";\n      });\n      item.active = active;\n    });\n  }\n\n  var scheduled = false;\n  function requestUpdate() {\n    if (scheduled) return;\n    scheduled = true;\n    window.requestAnimationFrame(function () {\n      scheduled = false;\n      update();\n    });\n  }\n\n  window.addEventListener(\"scroll\", requestUpdate, { passive: true });\n  window.addEventListener(\"resize\", requestUpdate);\n  if (desktop.addEventListener) desktop.addEventListener(\"change\", requestUpdate);\n  else desktop.addListener(requestUpdate);\n  requestUpdate();\n}());\n</script>\n\n<style>\n@media screen and (max-width: 991px) {\n  .zaglavlje-detaljna + .section-tradizione {\n    margin-top: 24px;\n  }\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 696f4a9a3d82954cb43ac683",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 696f49d7f343717fcadfcf28",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 69679710d4037ebd0cbb9df2",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "<style>\n.breadcrumb-conteiner {\n  z-index: 101;\n  background-color: #fff;\n}\n</style>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba898",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba897",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba896",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "<!-- Flowbase Booster [Before After Slider] -->\n<script src=\"https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-before-after-slider@1.0.1/dist/before-after-slider.min.js\" type=\"text/javascript\"></script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba894",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba893",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba892",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba891",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba890",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba88e",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba88d",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba88c",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba88b",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba88a",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba889",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba888",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba886",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba885",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba884",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba882",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    },
+    {
+      "label": "Code 695e1eeeb10c5fb8eeaba87c",
+      "action": "get_page_freeform_code",
+      "result": [
+        {
+          "location": "head",
+          "content": "",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        },
+        {
+          "location": "footer",
+          "content": "<!-- (2) Učitaj Typed.js JEDNOM -->\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js\"></script>\n\n<!-- (3) Inicijaliziraj Typed s dvostruko bržim brisanjem -->\n<script>\n  // Zajedničke postavke (typeSpeed: 80, backSpeed: 20 → brisanje dvostruko brže)\n  var commonOptions = {\n    typeSpeed: 30,\n    backSpeed: 10,\n    backDelay: 3000,\n    startDelay: 1000,\n    loop: true,\n    showCursor: true,\n    cursorChar: \"|\"\n  };\n\n  // (3a) Mobilna verzija\n  var mobileEl = document.querySelector('.tipkajuca-rijec');\n  if (mobileEl) {\n    mobileEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"A prescindere dal numero di impiantI E…\",\n\t\t\t\t\"in sole 24 ore.\",\n\t\t\t\t\"Alloggio esclusivo in clinica.\"\n      ]\n    }));\n  }\n\n  // (3b) Desktop verzija\n  var desktopEl = document.querySelector('.tipkajuca-rijec-desktop');\n  if (desktopEl) {\n    desktopEl.innerHTML = '';\n    new Typed('.tipkajuca-rijec-desktop', Object.assign({}, commonOptions, {\n      strings: [\n\t\t\t\t\"qualunque numero di impianti...\",\n\t\t\t\t\"in sole 24 ore...\",\n\t\t\t\t\"senza costi nascosti...\"        \n      ]\n    }));\n  }\n</script>\n\n<script>\n(function () {\n  var desktop = window.matchMedia(\"(min-width: 992px)\");\n  var images = Array.prototype.slice.call(document.querySelectorAll(\".teaser-section .p-teaser-img-wrap img\"));\n  var originalSizes = images.map(function (image) { return image.getAttribute(\"sizes\"); });\n  var currentMode = null;\n\n  function updateSizing() {\n    var desktopNow = desktop.matches;\n    if (currentMode === desktopNow) return;\n    images.forEach(function (image, index) {\n      if (desktopNow) image.setAttribute(\"sizes\", \"2000px\");\n      else if (originalSizes[index]) image.setAttribute(\"sizes\", originalSizes[index]);\n      else image.removeAttribute(\"sizes\");\n    });\n    currentMode = desktopNow;\n  }\n\n  if (desktop.addEventListener) desktop.addEventListener(\"change\", updateSizing);\n  else desktop.addListener(updateSizing);\n  updateSizing();\n}());\n</script>",
+          "localeId": "695e1eeeb10c5fb8eeaba87f"
+        }
+      ]
+    }
+  ]
+}

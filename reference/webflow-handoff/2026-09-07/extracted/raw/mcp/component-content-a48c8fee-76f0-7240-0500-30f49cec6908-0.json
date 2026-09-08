@@ -1,0 +1,478 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:30.193Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Directory cards - Informazioni",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "a48c8fee-76f0-7240-0500-30f49cec6908",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Directory cards - Informazioni",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "a48c8fee-76f0-7240-0500-30f49cec6908",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Directory cards - Informazioni",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "a48c8fee-76f0-7240-0500-30f49cec6908",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6910",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e9828da1e0b605be4d29"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6913",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Primo passo</div>",
+              "text": "Primo passo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6915",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/prima-visita-gratuita\">Prima visita gratuita</a>",
+              "text": "Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6917",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.</p>",
+              "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec691b",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec691e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6921",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86ec12c0909eb3e7b3d2ee"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6924",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pianificazione</div>",
+              "text": "Pianificazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6926",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/tempi-del-trattamento\">Tempi del trattamento</a>",
+              "text": "Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6928",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.</p>",
+              "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec692c",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec692f",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6932",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86f11555c25ed614a97720"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6935",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Soluzioni su misura</div>",
+              "text": "Soluzioni su misura"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6937",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/pagamento-flessibile\">Pagamento flessibile</a>",
+              "text": "Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6939",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Trova la soluzione più comoda per te.</p>",
+              "text": "Trova la soluzione più comoda per te."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec693d",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"a48c8fee-76f0-7240-0500-30f49cec693e\">Scopri di più</strong></div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6941",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6944",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86fa107eb37b4292de530f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6947",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Garanzie scritte</div>",
+              "text": "Garanzie scritte"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6949",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/garanzie\">Garanzie</a>",
+              "text": "Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec694b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Garanzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.</p>",
+              "text": "Garanzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec694f",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6952",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef71a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8d4a382da9d4db6fe07469"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef71d",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Alloggio in clinica</div>",
+              "text": "Alloggio in clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef71f",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/alloggio\">Alloggio</a>",
+              "text": "Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef721",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Potrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.</p>",
+              "text": "Potrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef725",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef728",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef72b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a953b31de5c498550209590"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef72e",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Transfer incluso</div>",
+              "text": "Transfer incluso"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef730",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/trasporto\">Trasporto</a>",
+              "text": "Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef732",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ti assistiamo fin da subito, anche quando sei ancora in Italia.</p>",
+              "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef736",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef739",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef73c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a956ce64b11fafb9e1e33d3"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef73f",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Trasparenza</div>",
+              "text": "Trasparenza"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef741",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/listino-prezzi\">Listino prezzi</a>",
+              "text": "Listino prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef743",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prestazioni in evidenza e relativi prezzi.</p>",
+              "text": "Prestazioni in evidenza e relativi prezzi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef747",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"4a4534ed-d79b-7e97-4675-f557366ef748\">Scopri di più</strong></div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef74b",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6955",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e9828da1e0b605be4d29"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6956",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86ec12c0909eb3e7b3d2ee"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6957",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86f11555c25ed614a97720"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a48c8fee-76f0-7240-0500-30f49cec6958",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86fa107eb37b4292de530f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef74e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8d4a382da9d4db6fe07469"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef74f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a95368852587a66accde9ef"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4a4534ed-d79b-7e97-4675-f557366ef750",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a956ce64b11fafb9e1e33d3"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 49
+        }
+      }
+    },
+    {
+      "label": "Component defaults Directory cards - Informazioni",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "a48c8fee-76f0-7240-0500-30f49cec6908",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

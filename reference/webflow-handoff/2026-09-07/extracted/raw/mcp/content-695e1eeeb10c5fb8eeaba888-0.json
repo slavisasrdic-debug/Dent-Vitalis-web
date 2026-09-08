@@ -1,0 +1,620 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:37:07.747Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba888",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba888",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba888",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba888",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "ae219260-db6b-7714-9e8e-91b083c83187",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"ae219260-db6b-7714-9e8e-91b083c83188\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ae219260-db6b-7714-9e8e-91b083c8318a",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ae219260-db6b-7714-9e8e-91b083c8318c",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/chi-siamo\" data-w-id=\"d1111f77-199d-f85f-27f4-cf34a584cf2f\">Su di noi</a></h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ae219260-db6b-7714-9e8e-91b083c8318e",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ae219260-db6b-7714-9e8e-91b083c83190",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">I nostri specialisti</h6>",
+              "text": "I nostri specialisti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "a6032e27-ce92-d019-ecdc-67cf9d1fdae7",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a9a892a55232c9f5a3c13a3"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a6032e27-ce92-d019-ecdc-67cf9d1fdaef",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">I nostri specialisti</h1>",
+              "text": "I nostri specialisti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a6032e27-ce92-d019-ecdc-67cf9d1fdaf1",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Professionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.</p>",
+              "text": "Professionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8e0",
+            "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I nostri specialisti sono apprezzati sia dai pazienti sia dai principali esperti di implantologia a livello internazionale. Si dedicano costantemente all’aggiornamento e alla formazione continua in diversi ambiti dell’odontoiatria, garantendo cure di altissimo livello basate sulle più moderne conoscenze e tecniche del settore.<br data-w-id=\"6b4bc9e2-8f68-1b86-baab-90638a35110b\">‍</p>",
+              "text": "I nostri specialisti sono apprezzati sia dai pazienti sia dai principali esperti di implantologia a livello internazionale. Si dedicano costantemente all’aggiornamento e alla formazione continua in diversi ambiti dell’odontoiatria, garantendo cure di altissimo livello basate sulle più moderne conoscenze e tecniche del settore.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Šime Živković, <span class=\"titula\" data-w-id=\"8ee7f7e6-46b2-b0db-671d-ea585190e915\">dr.med.dent.</span></p>",
+              "text": "Šime Živković, dr.med.dent."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "7f368d8e-e2f6-a34c-8a41-cc267e012e74",
+            "image": {
+              "alt": "Šime Živković, dr.med.dent.",
+              "assetId": "6a1431472480228fb5a9a11b"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nato a Fiume nel 1964, il Dr. Šime Živković si è laureato in Odontoiatria presso la Facoltà di Fiume nel 1991. Dopo aver acquisito esperienza in ambulatori privati in Croazia e all’estero, nel 1995 ha fondato la propria clinica, che dirige tutt’oggi.</p>",
+              "text": "Nato a Fiume nel 1964, il Dr. Šime Živković si è laureato in Odontoiatria presso la Facoltà di Fiume nel 1991. Dopo aver acquisito esperienza in ambulatori privati in Croazia e all’estero, nel 1995 ha fondato la propria clinica, che dirige tutt’oggi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcde",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Con oltre 30 anni di esperienza, si è specializzato nell’implantologia, conseguendo certificazioni per diversi sistemi implantari e inserendo con successo più di 30.000 impianti.</p>",
+              "text": "Con oltre 30 anni di esperienza, si è specializzato nell’implantologia, conseguendo certificazioni per diversi sistemi implantari e inserendo con successo più di 30.000 impianti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nel 2004 è entrato a far parte del team di mentori Nobel Biocare per la Croazia e ha tenuto numerosi corsi di formazione per professionisti del settore. Un anno dopo, è stato il primo in Croazia a introdurre l’implantologia computer-guidata.</p>",
+              "text": "Nel 2004 è entrato a far parte del team di mentori Nobel Biocare per la Croazia e ha tenuto numerosi corsi di formazione per professionisti del settore. Un anno dopo, è stato il primo in Croazia a introdurre l’implantologia computer-guidata."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Parla fluentemente italiano e inglese ed è membro di varie associazioni odontoiatriche nazionali e internazionali.<br data-w-id=\"e9d7a7c7-b814-1b23-68f2-9b3f4979a102\">‍</p>",
+              "text": "Parla fluentemente italiano e inglese ed è membro di varie associazioni odontoiatriche nazionali e internazionali.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Zvonimir Živković, <span class=\"titula\" data-w-id=\"1cdea7b8-f3a0-d7f3-f8b1-86b770f7004e\">dr.med.dent.</span></p>",
+              "text": "Zvonimir Živković, dr.med.dent."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "7da326e2-9945-99b1-fa55-ad3fc9f38c64",
+            "image": {
+              "alt": "Zvonimir Živković, dr.med.dent.",
+              "assetId": "6a86cac99e1818094589316f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il Dr. Zvonimir Živković si è laureato nel 2019 e si specializza in chirurgia e implantologia, con particolare attenzione alle mascelle atrofiche, alla rigenerazione ossea e all’implanto-protesi digitale. Attualmente è dottorando presso la Facoltà di Odontoiatria di Zagabria, dove conduce ricerche focalizzate sulla rigenerazione e sull’aumento osseo.</p>",
+              "text": "Il Dr. Zvonimir Živković si è laureato nel 2019 e si specializza in chirurgia e implantologia, con particolare attenzione alle mascelle atrofiche, alla rigenerazione ossea e all’implanto-protesi digitale. Attualmente è dottorando presso la Facoltà di Odontoiatria di Zagabria, dove conduce ricerche focalizzate sulla rigenerazione e sull’aumento osseo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ha seguito numerosi corsi in Croazia e all’estero (Italia, Slovenia, Germania, Spagna e USA) e ha come mentore principale il Dr. Šime.</p>",
+              "text": "Ha seguito numerosi corsi in Croazia e all’estero (Italia, Slovenia, Germania, Spagna e USA) e ha come mentore principale il Dr. Šime."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70057",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Membro di ITI, DDS e CIF, ha completato il “Clinical Master Program in Bone Grafting and Soft Tissue Management” in Germania e il “University Postgraduate Course in Oral Rehabilitation with Zygomatic Implants” a Milano, presso l’ospedale Vita-Salute San Raffaele.</p>",
+              "text": "Membro di ITI, DDS e CIF, ha completato il “Clinical Master Program in Bone Grafting and Soft Tissue Management” in Germania e il “University Postgraduate Course in Oral Rehabilitation with Zygomatic Implants” a Milano, presso l’ospedale Vita-Salute San Raffaele."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7005a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Parla fluentemente italiano e inglese.</p>",
+              "text": "Parla fluentemente italiano e inglese."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1e05ab0d-f99f-d347-ff03-012be7f78f5c",
+            "text": {
+              "html": "<p class=\"large-paragraph\"><em data-w-id=\"43216375-2a18-11d1-4569-89f1628178b9\">„Attraverso vari corsi di implantologia dedicati alle terapie complesse per le ossa mascellari atrofiche, ho avuto l’opportunità di osservare sia le qualità chirurgiche sia quelle personali del dott. Zvonimir.</em><br data-w-id=\"95db6d40-1df7-eabb-2838-1cd6661bbb10\"><br data-w-id=\"5855a968-37d3-ec03-8164-995562e6d5e3\"><em data-w-id=\"85544208-0cd4-ae39-0413-9be68231604f\">Si distingue per la sua vasta conoscenza, l’eccezionale abilità manuale, la rapidità nell’apprendere nuove tecniche e il forte senso etico nelle decisioni chirurgiche.“</em><br data-w-id=\"aaa75285-f71d-dd7d-afb0-e1eb24e65281\"><br data-w-id=\"6bf6a078-82d4-8727-adfa-5449d29519e8\"><strong data-w-id=\"2861eed6-639f-c357-097d-5b8a5a84fe77\">Dr. Manuel Mingione</strong><br data-w-id=\"2861eed6-639f-c357-097d-5b8a5a84fe79\">DDS, MSc in Chirurgia Orale e Implantologia – Alma Mater Studiorum Universitàdi Bologna.</p>",
+              "text": "„Attraverso vari corsi di implantologia dedicati alle terapie complesse per le ossa mascellari atrofiche, ho avuto l’opportunità di osservare sia le qualità chirurgiche sia quelle personali del dott. Zvonimir.\n\nSi distingue per la sua vasta conoscenza, l’eccezionale abilità manuale, la rapidità nell’apprendere nuove tecniche e il forte senso etico nelle decisioni chirurgiche.“\n\nDr. Manuel Mingione\nDDS, MSc in Chirurgia Orale e Implantologia – Alma Mater Studiorum Universitàdi Bologna."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9171c286-eabe-c7d5-0b09-b684ee796945",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet mali\">Professore presso l’ICLO Teaching &amp; Research Center di Verona, dove tiene diversi corsi sulle tecniche avanzate di implantologia per le riabilitazioni full arch a carico immediato, con dissezione anatomica pratica.<br data-w-id=\"9171c286-eabe-c7d5-0b09-b684ee796947\"></p>",
+              "text": "Professore presso l’ICLO Teaching & Research Center di Verona, dove tiene diversi corsi sulle tecniche avanzate di implantologia per le riabilitazioni full arch a carico immediato, con dissezione anatomica pratica.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "034feaf4-0f91-d240-3327-029b7e712773",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet mali\">Mentore in corsi internazionali di chirurgia dal vivo in Italia, Europa dell’Est e Brasile. Professore al corso post-laurea in riabilitazione orale con impianti zigomatici, Università Vita-Salute San Raffaele di Milano.<br data-w-id=\"034feaf4-0f91-d240-3327-029b7e712775\"></p>",
+              "text": "Mentore in corsi internazionali di chirurgia dal vivo in Italia, Europa dell’Est e Brasile. Professore al corso post-laurea in riabilitazione orale con impianti zigomatici, Università Vita-Salute San Raffaele di Milano.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5927842f-2495-5b33-8695-2e5d39a81f43",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet mali\">Esperto in implantologia zigomatica, ha trattato più di 500 casi negli ultimi 12 anni nella sua pratica privata a Pesaro, Italia.<br data-w-id=\"78d9f664-b625-0d0b-2463-db961c4f38c6\">‍<br data-w-id=\"5927842f-2495-5b33-8695-2e5d39a81f45\"></p>",
+              "text": "Esperto in implantologia zigomatica, ha trattato più di 500 casi negli ultimi 12 anni nella sua pratica privata a Pesaro, Italia.\n‍\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Tomislav Živković, <span class=\"titula\" data-w-id=\"3270731e-3a01-e3e5-fe17-253f9eabf128\">dr.med.dent.</span></p>",
+              "text": "Tomislav Živković, dr.med.dent."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "b05646de-f12b-758d-c968-90d5e5bf0a2b",
+            "image": {
+              "alt": "Tomislav Živković, dr.med.dent.",
+              "assetId": "695e1eeeb10c5fb8eeaba8fa"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nato a Fiume nel 1971, il Dr. Tomislav Živković si è laureato in Odontoiatria presso la Facoltà di Fiume nel 1997.</p>",
+              "text": "Nato a Fiume nel 1971, il Dr. Tomislav Živković si è laureato in Odontoiatria presso la Facoltà di Fiume nel 1997."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12e",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ha seguito numerosi corsi di perfezionamento in Croazia e all’estero e oggi si dedica principalmente alla diagnostica funzionale e all’analisi delle disfunzioni dell’articolazione temporo-mandibolare.</p>",
+              "text": "Ha seguito numerosi corsi di perfezionamento in Croazia e all’estero e oggi si dedica principalmente alla diagnostica funzionale e all’analisi delle disfunzioni dell’articolazione temporo-mandibolare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf131",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Parla fluentemente italiano e inglese.<br data-w-id=\"cde46a87-2aa3-c715-b65d-05df8521f065\">‍</p>",
+              "text": "Parla fluentemente italiano e inglese.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3aa603a7-dfb0-098f-abac-68c878434636",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Zoran Jurković, <span class=\"titula\" data-w-id=\"3aa603a7-dfb0-098f-abac-68c878434638\">dr.med.dent.</span></p>",
+              "text": "Zoran Jurković, dr.med.dent."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "3aa603a7-dfb0-098f-abac-68c87843463a",
+            "image": {
+              "alt": "Zoran Jurković, dr.med.dent.",
+              "assetId": "6a86cc38fa056bfd6e079c99"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3aa603a7-dfb0-098f-abac-68c87843463c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nel 2014 ha conseguito la laurea in Odontoiatria presso l’Università di Fiume (Rijeka). Successivamente ha iniziato a lavorare presso uno studio dentistico privato a Fiume, parallelamente all’attività accademica come assistente presso la Cattedra di Endodonzia e Odontoiatria Restaurativa della Facoltà di Medicina.</p>",
+              "text": "Nel 2014 ha conseguito la laurea in Odontoiatria presso l’Università di Fiume (Rijeka). Successivamente ha iniziato a lavorare presso uno studio dentistico privato a Fiume, parallelamente all’attività accademica come assistente presso la Cattedra di Endodonzia e Odontoiatria Restaurativa della Facoltà di Medicina."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3aa603a7-dfb0-098f-abac-68c87843463f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Due anni più tardi è stato nominato assistente presso la Cattedra di Chirurgia Orale, ampliando il proprio ambito di competenze cliniche e accademiche.</p>",
+              "text": "Due anni più tardi è stato nominato assistente presso la Cattedra di Chirurgia Orale, ampliando il proprio ambito di competenze cliniche e accademiche."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ad9236c1-9dac-811d-6fd0-14644b5c0859",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ha costantemente perfezionato la propria formazione professionale partecipando a corsi pratici di aggiornamento:</p>",
+              "text": "Ha costantemente perfezionato la propria formazione professionale partecipando a corsi pratici di aggiornamento:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "06917dc9-2b15-790a-60fa-ac17c4de59fe",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "06917dc9-2b15-790a-60fa-ac17c4de59ff",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><em data-w-id=\"a09450bb-7607-0d7f-d073-c35b06aa50cf\">“New Trends in Modern Aesthetic &amp; Restorative Dentistry”, Schaan / Liechtenstein, 2014</em><br data-w-id=\"06917dc9-2b15-790a-60fa-ac17c4de5a01\"></p>",
+              "text": "“New Trends in Modern Aesthetic & Restorative Dentistry”, Schaan / Liechtenstein, 2014\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7bb1dbd0-743e-561e-de2e-ab90c6a03e67",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7bb1dbd0-743e-561e-de2e-ab90c6a03e68",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><em data-w-id=\"e551ec08-dbb4-ff0f-d2e6-587006377384\">“Le più recenti tecniche di strumentazione e la disinfezione tridimensionale del canale radicolare”, Zagabria, 2016</em><br data-w-id=\"7bb1dbd0-743e-561e-de2e-ab90c6a03e6a\"></p>",
+              "text": "“Le più recenti tecniche di strumentazione e la disinfezione tridimensionale del canale radicolare”, Zagabria, 2016\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7004cc86-58ad-55bf-e13e-e31f635aecd4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7004cc86-58ad-55bf-e13e-e31f635aecd5",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><em data-w-id=\"7004cc86-58ad-55bf-e13e-e31f635aecd6\">“Linee guida nella diagnosi e nel trattamento dei tessuti dentali duri e molli”, Fiume, 2016</em><br data-w-id=\"7004cc86-58ad-55bf-e13e-e31f635aecd8\"></p>",
+              "text": "“Linee guida nella diagnosi e nel trattamento dei tessuti dentali duri e molli”, Fiume, 2016\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "6b6bde14-f5d9-fb14-fe1f-1bda972d84c3",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6b6bde14-f5d9-fb14-fe1f-1bda972d84c4",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><em data-w-id=\"6b6bde14-f5d9-fb14-fe1f-1bda972d84c5\">PERIOIMPLANT 7, Abbazia (Opatija), 2018</em><br data-w-id=\"6b6bde14-f5d9-fb14-fe1f-1bda972d84c7\"></p>",
+              "text": "PERIOIMPLANT 7, Abbazia (Opatija), 2018\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3aa603a7-dfb0-098f-abac-68c878434642",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Presso la Cattedra di Chirurgia Orale ha inoltre svolto attività di relatore in occasione di corsi pratici di formazione:</p>",
+              "text": "Presso la Cattedra di Chirurgia Orale ha inoltre svolto attività di relatore in occasione di corsi pratici di formazione:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "91eadeac-7465-0395-5a2c-96bc975efe65",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "91eadeac-7465-0395-5a2c-96bc975efe66",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><em data-w-id=\"91eadeac-7465-0395-5a2c-96bc975efe67\">“Cosa fare dopo l’estrazione del dente?”, Fiume, 2018</em><br data-w-id=\"91eadeac-7465-0395-5a2c-96bc975efe69\"></p>",
+              "text": "“Cosa fare dopo l’estrazione del dente?”, Fiume, 2018\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "3a781d54-cc82-1ce5-e49a-a95298744572",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3a781d54-cc82-1ce5-e49a-a95298744573",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><em data-w-id=\"3a781d54-cc82-1ce5-e49a-a95298744574\">“Pazienti a rischio nella pratica clinica quotidiana: procedure chirurgiche ed emostasi locale con tecniche di sutura”, Fiume, 2019</em><br data-w-id=\"3a781d54-cc82-1ce5-e49a-a95298744576\"></p>",
+              "text": "“Pazienti a rischio nella pratica clinica quotidiana: procedure chirurgiche ed emostasi locale con tecniche di sutura”, Fiume, 2019\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8b61d55c-c0e9-1a53-5ce9-dfb83e9ea0d8",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nel 2019 è entrato a far parte della Policlinica Dentale Rident e, nel 2024, è stato nominato <strong data-w-id=\"ffd88d1a-8f13-f734-2e67-48092ee6c0b9\">Responsabile del Reparto di Chirurgia Orale.</strong></p>",
+              "text": "Nel 2019 è entrato a far parte della Policlinica Dentale Rident e, nel 2024, è stato nominato Responsabile del Reparto di Chirurgia Orale."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a883a19c-2031-75f0-f8cb-b34dbca2b9c8",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Parla correntemente inglese e italiano.</p>",
+              "text": "Parla correntemente inglese e italiano."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2eb722aa-cc23-ab86-85fc-7e22d32b12bf",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Ana Beljan, <span class=\"titula\" data-w-id=\"2eb722aa-cc23-ab86-85fc-7e22d32b12c1\">dr.med.dent. / Ing. radiologico</span></p>",
+              "text": "Ana Beljan, dr.med.dent. / Ing. radiologico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dfa238e9-d5c0-1825-0032-07a7e5e87531",
+            "image": {
+              "alt": "Ana Beljan, dr.med.dent. / Ing. radiologico",
+              "assetId": "6a86cfd47811d2b8640bb766"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2eb722aa-cc23-ab86-85fc-7e22d32b12c4",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La Dott.ssa Ana Beljan è nata a Rijeka, dove ha completato gli studi in Odontoiatria, mentre la specializzazione post-laurea in Medicina Dentale l’ha conseguita presso l’Università di Zagabria.</p>",
+              "text": "La Dott.ssa Ana Beljan è nata a Rijeka, dove ha completato gli studi in Odontoiatria, mentre la specializzazione post-laurea in Medicina Dentale l’ha conseguita presso l’Università di Zagabria."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2eb722aa-cc23-ab86-85fc-7e22d32b12c7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">È esperta in trattamenti conservativi, correzioni estetiche dei denti e protesi dentarie.</p>",
+              "text": "È esperta in trattamenti conservativi, correzioni estetiche dei denti e protesi dentarie."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c95024d8-3cf8-ad05-cfc2-b681beb78db0",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Grazie all’esperienza maturata presso Dentvitalis, ha inoltre pubblicato un importante studio scientifico intitolato<a href=\"#\" class=\"link\" data-w-id=\"237ef3b0-3498-b28c-d5c1-74421339e37d\"> “Valutazione comparativa del protocollo All-on-4 tra diversi sistemi implantari (follow-up a 3 anni)”</a><strong data-w-id=\"dcd96d0d-9c22-5f03-9b63-8d0b9ee31515\">,</strong> pubblicato su dentiumeu.com.</p>",
+              "text": "Grazie all’esperienza maturata presso Dentvitalis, ha inoltre pubblicato un importante studio scientifico intitolato “Valutazione comparativa del protocollo All-on-4 tra diversi sistemi implantari (follow-up a 3 anni)”, pubblicato su dentiumeu.com."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d4087e4e-7146-fa1a-ad11-5b7b72afb1ed",
+            "text": {
+              "html": "<p class=\"large-paragraph\">È membro della Camera Croata di Medicina Dentale (HKDM) e del programma Digital Smile Design (DSD).</p>",
+              "text": "È membro della Camera Croata di Medicina Dentale (HKDM) e del programma Digital Smile Design (DSD)."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bc558b92-f89d-9fe5-c80e-d4e075bfd8c1",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Parla fluentemente italiano e inglese.<br data-w-id=\"2ae9daec-527d-9e56-3707-1f28cdc74fa2\">‍</p>",
+              "text": "Parla fluentemente italiano e inglese.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530fe4",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Domagoj Žalac, <span class=\"titula\" data-w-id=\"a07d6a22-e83d-c515-6579-0d6ea9530fe6\">dr.med.dent.</span></p>",
+              "text": "Domagoj Žalac, dr.med.dent."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "61dd188d-231b-b5ac-ac60-4050bd12aa50",
+            "image": {
+              "alt": "Domagoj Žalac, dr.med.dent.",
+              "assetId": "6a86d0675e47059e39b8131b"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530fe9",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il Dr. XY è nato a Slavonski Brod, dove, dopo il diploma di scuola superiore, ha intrapreso gli studi di odontoiatria a Fiume. Durante il percorso accademico ha sviluppato un particolare interesse per l’endodonzia, la chirurgia orale e la parodontologia.</p>",
+              "text": "Il Dr. XY è nato a Slavonski Brod, dove, dopo il diploma di scuola superiore, ha intrapreso gli studi di odontoiatria a Fiume. Durante il percorso accademico ha sviluppato un particolare interesse per l’endodonzia, la chirurgia orale e la parodontologia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530fec",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ha inoltre condotto un workshop su biopsie e punti di sutura semplici durante un congresso internazionale di studenti di odontoiatria.</p>",
+              "text": "Ha inoltre condotto un workshop su biopsie e punti di sutura semplici durante un congresso internazionale di studenti di odontoiatria."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530fef",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dopo la laurea ha iniziato a collaborare con Dentvitalis.</p>",
+              "text": "Dopo la laurea ha iniziato a collaborare con Dentvitalis."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530ff7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Parla fluentemente italiano e inglese.</p>",
+              "text": "Parla fluentemente italiano e inglese."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 69
+        },
+        "lastUpdated": "2026-09-04T09:04:31.396Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:40.317Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian content continuation 200",
+        "get_page_content": {
+          "page_id": "69679710d4037ebd0cbb9df2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 200
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian content continuation 200",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "69679710d4037ebd0cbb9df2",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c7c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c7e",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Professionalità, gentilezza e serietà. Lo consiglio vivamente.</p>",
+              "text": "Professionalità, gentilezza e serietà. Lo consiglio vivamente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c82",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Luca Chiappori</p>",
+              "text": "Luca Chiappori"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c87",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c88",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c89",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c8a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c8b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c8d",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c8f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c91",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ottima esperienza, professionalità, competenza e gentilezza ad altissimi livelli. Consigliato+++</p>",
+              "text": "Ottima esperienza, professionalità, competenza e gentilezza ad altissimi livelli. Consigliato+++"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c95",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Barbara Di Mauro</p>",
+              "text": "Barbara Di Mauro"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c9a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c9b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c9c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c9d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c9e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ca0",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996ca2",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ca4",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Struttura eccellente. Ottima organizzazione in tutto lo staff. Precisione, puntualità, gentilezza. Consiglio vivamente.</p>",
+              "text": "Struttura eccellente. Ottima organizzazione in tutto lo staff. Precisione, puntualità, gentilezza. Consiglio vivamente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ca8",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Antonio Ingardia</p>",
+              "text": "Antonio Ingardia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996cad",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996cae",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996caf",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996cb0",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996cb1",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cb3",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996cb5",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cb7",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Sono rimasto molto soddisfatto. Accoglienza, Professionalità e gentilezza TUTTO SUPER.</p>",
+              "text": "Sono rimasto molto soddisfatto. Accoglienza, Professionalità e gentilezza TUTTO SUPER."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ca87f319-2c04-d2e8-6b3a-e24a2e39c190",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-2\">Recensioni post-trattamento</p>",
+              "text": "Recensioni post-trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cd7",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Lia Ghiringhelli, Grignasco (NO)</p>",
+              "text": "Lia Ghiringhelli, Grignasco (NO)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cda",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Per chi cerca grande professionalità, umanità e simpatia, non ha che da rivolgersi alla Dentvitalis del dott. Šime e Tomas. Io sono soddisfattissima e felice di essermi rivolta a questo centro. Mi auguro che sia all'altezza del trattamento del personale. Per ora vi ringrazio e porgo cordiali saluti e auguri.</p>",
+              "text": "Per chi cerca grande professionalità, umanità e simpatia, non ha che da rivolgersi alla Dentvitalis del dott. Šime e Tomas. Io sono soddisfattissima e felice di essermi rivolta a questo centro. Mi auguro che sia all'altezza del trattamento del personale. Per ora vi ringrazio e porgo cordiali saluti e auguri."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cde",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Loredana Pascai, Montecchio Emilia (RE)</p>",
+              "text": "Loredana Pascai, Montecchio Emilia (RE)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ce1",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Dentvitalis, centro di implantologia-protesica e odontoiatria, ha tecnologia e attrezzature eccellenti così come personale altamente qualificato. Sono ormai passati diversi anni da quando io e la mia famiglia abbiamo cominciato a servirci di Dentvitalis e non ci è mai passato per la mente di andare altrove. Siamo particolarmente soddisfatti del servizio come anche del personale accogliente e cordiale (ottima misura di servizi completi e costi).<br data-w-id=\"0546d81b-c82f-958f-1879-d37869b2cbc3\"><br data-w-id=\"2d56287b-e9f8-b8b7-60b5-92945189221b\">Raccomandiamo questo centro a tutti, sotto ogni profilo. Lo consiglio vivamente a chiunque abbia bisogno di ritrovare la funzionalità e un bel sorriso.</p>",
+              "text": "Dentvitalis, centro di implantologia-protesica e odontoiatria, ha tecnologia e attrezzature eccellenti così come personale altamente qualificato. Sono ormai passati diversi anni da quando io e la mia famiglia abbiamo cominciato a servirci di Dentvitalis e non ci è mai passato per la mente di andare altrove. Siamo particolarmente soddisfatti del servizio come anche del personale accogliente e cordiale (ottima misura di servizi completi e costi).\n\nRaccomandiamo questo centro a tutti, sotto ogni profilo. Lo consiglio vivamente a chiunque abbia bisogno di ritrovare la funzionalità e un bel sorriso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ce8",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Germano Silvestri, Tricesimo (UD)</p>",
+              "text": "Germano Silvestri, Tricesimo (UD)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ceb",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Posso dire che mi sono trovato bene in tutti i sensi, come accoglienza e come prestazione del servizio.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996ced\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996cee\">In fede,<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996cf0\">Un abbraccio!!</p>",
+              "text": "Posso dire che mi sono trovato bene in tutti i sensi, come accoglienza e come prestazione del servizio.\n\nIn fede,\nUn abbraccio!!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cf4",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Fabrizio Mason, Istrana (TV)</p>",
+              "text": "Fabrizio Mason, Istrana (TV)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cf7",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Uno studio di professionisti che lavorano molto bene, con serietà e igiene. Studio pulito, sempre in ordine. Ormai é qualche anno che vengo qua e mi trovo bene, sia per la cordialità e sia per il prezzo.</p>",
+              "text": "Uno studio di professionisti che lavorano molto bene, con serietà e igiene. Studio pulito, sempre in ordine. Ormai é qualche anno che vengo qua e mi trovo bene, sia per la cordialità e sia per il prezzo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cfb",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Alberto Ercolani, Ravenna (RA)</p>",
+              "text": "Alberto Ercolani, Ravenna (RA)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996cfe",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Esprimo con vero piacere il più sentito ringraziamento per la professionalità, la serietà la premurosa accoglienza che mi sono state rivolte.<br data-w-id=\"b406a80f-9cd5-d9bb-c54a-3698e570aaa3\">‍<br data-w-id=\"b17a60fb-0455-bb36-67be-d99e6e20c184\">Professionalità; per i risultati raggiunti con standard qualitativamente alti.<br data-w-id=\"b72a44ec-bd65-7ba5-0cdf-d91e03941dae\">‍<br data-w-id=\"5bcf43f3-0662-bd4e-9144-a84900d34786\">Serietà; per come tutto il percorso sia stato rispettato sia in termini organizzativi, sia economici.<br data-w-id=\"0ebc601b-c3ee-7ab4-d00c-f70c039403e9\">‍<br data-w-id=\"8e7e7e32-f4d5-dc95-c801-c0127fbe71f2\">Premurosa accoglienza; ultima in ordine ma pari alle altre, la cordialità l'educazione e il rispetto qualità rare ed essenziali che a voi appartengono. &nbsp;A tutti coloro a me conoscenti di cui necessitano di cure medico dentali il mio sentito consiglio è di rivolgersi da voi per i giudizi sopra espressi. Grazie.</p>",
+              "text": "Esprimo con vero piacere il più sentito ringraziamento per la professionalità, la serietà la premurosa accoglienza che mi sono state rivolte.\n‍\nProfessionalità; per i risultati raggiunti con standard qualitativamente alti.\n‍\nSerietà; per come tutto il percorso sia stato rispettato sia in termini organizzativi, sia economici.\n‍\nPremurosa accoglienza; ultima in ordine ma pari alle altre, la cordialità l'educazione e il rispetto qualità rare ed essenziali che a voi appartengono.  A tutti coloro a me conoscenti di cui necessitano di cure medico dentali il mio sentito consiglio è di rivolgersi da voi per i giudizi sopra espressi. Grazie."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d0b",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Dina Collachioni, Arezzo (AR)</p>",
+              "text": "Dina Collachioni, Arezzo (AR)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d0e",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Sono Dina Collacchioni, Psicologa e Psicoterapeuta. La mia storia clinica impediva l’uso di farmaci pesanti, come antibiotici o dosi eccessive di anestetici. Forse i denti nuovi e belli si possono ottenere in molte cliniche dentistiche. Ma la professionalità, serietà e dedizione al lavoro dello Staff della Clinica Dentvitalis, no. Per me, avere una relazione con queste persone è stato un arricchimento di vita che mi ha permesso di superare molti pregiudizi, molte reticenze e, perché no, molte paure. Da psicologa con lunga esperienza lavorativa, mi ritengo in grado di valutare l’autenticità delle persone.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d10\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d11\">Scrivo questa testimonianza ancor prima di aver terminato il mio “lavoro in bocca” perché ciò che voglio comunicare è la gioia di tornare da Dentvitalis, in Croazia, nonostante il dolore ai denti che potrei sentire e l’impegno del viaggio. So che avrò il meglio.</p>",
+              "text": "Sono Dina Collacchioni, Psicologa e Psicoterapeuta. La mia storia clinica impediva l’uso di farmaci pesanti, come antibiotici o dosi eccessive di anestetici. Forse i denti nuovi e belli si possono ottenere in molte cliniche dentistiche. Ma la professionalità, serietà e dedizione al lavoro dello Staff della Clinica Dentvitalis, no. Per me, avere una relazione con queste persone è stato un arricchimento di vita che mi ha permesso di superare molti pregiudizi, molte reticenze e, perché no, molte paure. Da psicologa con lunga esperienza lavorativa, mi ritengo in grado di valutare l’autenticità delle persone.\n\nScrivo questa testimonianza ancor prima di aver terminato il mio “lavoro in bocca” perché ciò che voglio comunicare è la gioia di tornare da Dentvitalis, in Croazia, nonostante il dolore ai denti che potrei sentire e l’impegno del viaggio. So che avrò il meglio."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d15",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Stefano Giorgi, Viglie del fuoco, Arezzo (AR)</p>",
+              "text": "Stefano Giorgi, Viglie del fuoco, Arezzo (AR)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d18",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Un dente spezzato, tanto dolore, la disperazione di essere in vacanza in Croazia, non sapere che fare. Poi ricordare che un amico e collega mi aveva parlato di questa Clinica Dentvitalis… In mezz’ora mi è stato tolto il dolore e ridata l’allegria, preparato il terreno gengivale per un impianto, sono stato informato e rassicurato su tutto. Tra due mesi un dente nuovo. Con una spesa che ritengo assolutamente onesta per la qualità dei materiali e per la qualità delle persone che si sono prese cura di me.</p>",
+              "text": "Un dente spezzato, tanto dolore, la disperazione di essere in vacanza in Croazia, non sapere che fare. Poi ricordare che un amico e collega mi aveva parlato di questa Clinica Dentvitalis… In mezz’ora mi è stato tolto il dolore e ridata l’allegria, preparato il terreno gengivale per un impianto, sono stato informato e rassicurato su tutto. Tra due mesi un dente nuovo. Con una spesa che ritengo assolutamente onesta per la qualità dei materiali e per la qualità delle persone che si sono prese cura di me."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d1c",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Flora Dusi, Gavardo (BS)</p>",
+              "text": "Flora Dusi, Gavardo (BS)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d1f",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho avuto problemi ai denti. In Italia ho speso tanti soldi, sempre con ponti da togliere e sempre con problemi, tutte le settimane ero dal dentista.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d21\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d22\">Tramite mio fratello ho conosciuto la vostra clinica, ero indecisa perché la strada per arrivare da voi è lunga, però ho voluto lo stesso iniziare.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d24\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d25\">Il mio primo intervento é stato il 24/02/2013, oggi 25/10/2013 ho finito il lavoro e sono molto contenta.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d27\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d28\">Ringrazio tutti per la gentilezza che ho trovato in tutte le persone di questo studio, in particolare ai medici e infermiere e un grosso bacio a Daria.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d2a\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d2b\">Spero di ritornare presto (non solo per i denti).<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d2d\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d2e\">Grazie a tutti, finalmente posso ridere.</p>",
+              "text": "Ho avuto problemi ai denti. In Italia ho speso tanti soldi, sempre con ponti da togliere e sempre con problemi, tutte le settimane ero dal dentista.\n\nTramite mio fratello ho conosciuto la vostra clinica, ero indecisa perché la strada per arrivare da voi è lunga, però ho voluto lo stesso iniziare.\n\nIl mio primo intervento é stato il 24/02/2013, oggi 25/10/2013 ho finito il lavoro e sono molto contenta.\n\nRingrazio tutti per la gentilezza che ho trovato in tutte le persone di questo studio, in particolare ai medici e infermiere e un grosso bacio a Daria.\n\nSpero di ritornare presto (non solo per i denti).\n\nGrazie a tutti, finalmente posso ridere."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d32",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Lucia Zappitella, Carate Brianza (MB)</p>",
+              "text": "Lucia Zappitella, Carate Brianza (MB)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d35",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Sono stata trattata molto bene, contenta del lavoro. Soddisfatta di tutto e tutti. Amore.</p>",
+              "text": "Sono stata trattata molto bene, contenta del lavoro. Soddisfatta di tutto e tutti. Amore."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d39",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Betty Zanella, Belluno (BL)</p>",
+              "text": "Betty Zanella, Belluno (BL)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d3c",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Desidero esprimere la mia soddisfazione per la competenza, professionalità e disponibilità trovata nel personale operante in questo studio Dentvitalis.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d3e\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d3f\">Grazie a tutto lo staff !!!<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d41\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d42\">Cordiali saluti.</p>",
+              "text": "Desidero esprimere la mia soddisfazione per la competenza, professionalità e disponibilità trovata nel personale operante in questo studio Dentvitalis.\n\nGrazie a tutto lo staff !!!\n\nCordiali saluti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d46",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Andrea Tarozzi, Iglesias (CI)</p>",
+              "text": "Andrea Tarozzi, Iglesias (CI)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d49",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi son trovato molto bene.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d4b\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d4c\">Lo staff è stato gentile e umano. A cominciare dall’autista, molto disponibile per finire con il personale e naturalmente i dottori, molto professionali.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d4e\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d4f\">Mi hanno fatto un ottimo lavoro, consiglierò senz’altro Dentvitalis ai miei amici in Sardegna.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d51\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d52\">Grazie.</p>",
+              "text": "Mi son trovato molto bene.\n\nLo staff è stato gentile e umano. A cominciare dall’autista, molto disponibile per finire con il personale e naturalmente i dottori, molto professionali.\n\nMi hanno fatto un ottimo lavoro, consiglierò senz’altro Dentvitalis ai miei amici in Sardegna.\n\nGrazie."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d56",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Alessandro Staffa, Riola Sardo (OR)</p>",
+              "text": "Alessandro Staffa, Riola Sardo (OR)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d59",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Sono molto soddisfatto del lavoro fatto ai denti. Mi sono trovato bene durante tutto il periodo delle cure per il nuovo impianto con i dottori e tutto lo staff medico e assistenza. Grazie per tutto.</p>",
+              "text": "Sono molto soddisfatto del lavoro fatto ai denti. Mi sono trovato bene durante tutto il periodo delle cure per il nuovo impianto con i dottori e tutto lo staff medico e assistenza. Grazie per tutto."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d5d",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Paolo Amadori, Carmignano (PO)</p>",
+              "text": "Paolo Amadori, Carmignano (PO)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d60",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Abbiamo iniziato il mio lavoro a luglio 2012 e oggi abbiamo terminato come previsto dal Šime. Dr. Šime molto bravo e professionista serio, lo studio in generale è molto accogliente e tutte le persone dello staff gentili. Sono rimasto molto soddisfatto di tutto e sicuramente farò pubblicità molto positiva a questo studio.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d62\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d63\">Grazie di tutto.</p>",
+              "text": "Abbiamo iniziato il mio lavoro a luglio 2012 e oggi abbiamo terminato come previsto dal Šime. Dr. Šime molto bravo e professionista serio, lo studio in generale è molto accogliente e tutte le persone dello staff gentili. Sono rimasto molto soddisfatto di tutto e sicuramente farò pubblicità molto positiva a questo studio.\n\nGrazie di tutto."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d67",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Pier Paolo Trovo, Lugo (RA), con liberatoria di pubblicazione</p>",
+              "text": "Pier Paolo Trovo, Lugo (RA), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d6a",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi chiamo Trovò Pier Paolo, tramite dei conoscenti ho conosciuto la clinica Dentvitalis. Dopo una prima visita ho cominciato a curare alcune carie presso questo studio.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d6c\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d6d\">In seguito ho deciso di eseguire anche un intervento estetico sulla parte frontale dei miei denti.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d6f\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d70\">Sono rimasto molto soddisfatto, oltre che della gentilezza ed educazione dello staff, del risultato finale del lavoro.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d72\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d73\">Ho trovato medici esperti e personale qualificato ad assistermi e ho subito consigliato altri membri della mia famiglia a frequentare, in caso di necessità lo studio.</p>",
+              "text": "Mi chiamo Trovò Pier Paolo, tramite dei conoscenti ho conosciuto la clinica Dentvitalis. Dopo una prima visita ho cominciato a curare alcune carie presso questo studio.\n\nIn seguito ho deciso di eseguire anche un intervento estetico sulla parte frontale dei miei denti.\n\nSono rimasto molto soddisfatto, oltre che della gentilezza ed educazione dello staff, del risultato finale del lavoro.\n\nHo trovato medici esperti e personale qualificato ad assistermi e ho subito consigliato altri membri della mia famiglia a frequentare, in caso di necessità lo studio."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d77",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Ramona Riccardi, Orzinuovi (BS), con liberatoria di pubblicazione</p>",
+              "text": "Ramona Riccardi, Orzinuovi (BS), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d7a",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho eseguito diversi lavori presso la clinica, impianti, otturazioni, estrazioni...e sono più che soddisfatta.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d7c\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d7d\">I medici sono straordinari, la cortesia, gentilezza e disponibilità che ho trovato non le dimenticherò facilmente.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d7f\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d80\">Ho già consigliato a diverse persone di venire e lo consiglio a tutti!!!<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d82\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d83\">Un grazie a tutti.</p>",
+              "text": "Ho eseguito diversi lavori presso la clinica, impianti, otturazioni, estrazioni...e sono più che soddisfatta.\n\nI medici sono straordinari, la cortesia, gentilezza e disponibilità che ho trovato non le dimenticherò facilmente.\n\nHo già consigliato a diverse persone di venire e lo consiglio a tutti!!!\n\nUn grazie a tutti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d87",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Giuseppe Paonessa, Settingiano (CZ)</p>",
+              "text": "Giuseppe Paonessa, Settingiano (CZ)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996d8a",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Sono Giuseppe Paonessa, 69 anni compiuti, abito in provincia di Catanzaro-Calabria.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d8c\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d8d\">Nel mese di Maggio 2013 fui costretto a rivolgermi a diversi studi dentistici della mia zona a causa di una protesi mobile fatta circa 10 anni prima che, agganciata ai canini, aveva coinvolto e rovinato gli unici miei otto denti dell’arcata inferiore.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d8f\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d90\">I vari preventivi effettuati riportavano cifre da capogiro, ma le sofferenze continue nonché i consigli degli amici e parenti mi indirizzarono su cliniche della Croazia.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d92\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d93\">Così che mi misi in contatto con un paio di cliniche con sede all’estero, ma quella che mi ispirò fiducia fu “DENTVITALIS” con sede in Rijeka Croazia, che, per mezzo della corrispondente Sig.na Jelena, gentilissima, molto disponibile allora , ancor di più per tutto il percorso di cura, la quale mi fissò un appuntamento per una visita, addirittura gratuita. La mia convinzione ad accettare non fu solamente il costo indicato in preventivo decisamente inferiore a quelli fatti in Italia, ma anche perché una volta giunto in clinica, mi colpì la capillare organizzazione, la pulizia ed igiene riscontrata, ed in particolare modo la rassicurazione dei medici che tutto potesse concludersi nell’arco di tre o quattro mesi.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d95\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d96\">Così che mi misi in contatto con un paio di cliniche con sede all’estero, ma quella che mi ispirò fiducia fu “DENTVITALIS” con sede in Rijeka Croazia, che, per mezzo della corrispondente Sig.na Jelena, gentilissima, molto disponibile allora, ancor di più per tutto il percorso di cura, la quale mi fissò un appuntamento per una visita, addirittura gratuita. La mia convinzione ad accettare non fu solamente il costo indicato in preventivo decisamente inferiore a quelli fatti in Italia, ma anche perché una volta giunto in clinica, mi colpì la capillare organizzazione, la pulizia ed igiene riscontrata, ed in particolare modo la rassicurazione dei medici che tutto potesse concludersi nell’arco di tre o quattro mesi.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d98\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d99\">A distanza di tre mesi circa dall’ intervento mi venne completato il lavoro splendidamente, per cui oggi mi ritrovo con tutti i denti dell’arcata inferiore come se fossero veramente i miei , perfetti nel colore e nella masticazione.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d9b\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d9c\">E’ doveroso un ringraziamento diretto a tutto lo staff medico per la grande competenza e la cura nei vari particolari; a tutto lo staff amministrativo per la correttezza, per la disponibilità a fornire qualsiasi informazione, e se posso permettermi, per l’affetto dimostrato nei confronti del paziente e dei familiari.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d9e\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996d9f\">Grazie per avermi ridato il sorriso, la gioia e la dignità di poter stare con gli amici e in società.</p>",
+              "text": "Sono Giuseppe Paonessa, 69 anni compiuti, abito in provincia di Catanzaro-Calabria.\n\nNel mese di Maggio 2013 fui costretto a rivolgermi a diversi studi dentistici della mia zona a causa di una protesi mobile fatta circa 10 anni prima che, agganciata ai canini, aveva coinvolto e rovinato gli unici miei otto denti dell’arcata inferiore.\n\nI vari preventivi effettuati riportavano cifre da capogiro, ma le sofferenze continue nonché i consigli degli amici e parenti mi indirizzarono su cliniche della Croazia.\n\nCosì che mi misi in contatto con un paio di cliniche con sede all’estero, ma quella che mi ispirò fiducia fu “DENTVITALIS” con sede in Rijeka Croazia, che, per mezzo della corrispondente Sig.na Jelena, gentilissima, molto disponibile allora , ancor di più per tutto il percorso di cura, la quale mi fissò un appuntamento per una visita, addirittura gratuita. La mia convinzione ad accettare non fu solamente il costo indicato in preventivo decisamente inferiore a quelli fatti in Italia, ma anche perché una volta giunto in clinica, mi colpì la capillare organizzazione, la pulizia ed igiene riscontrata, ed in particolare modo la rassicurazione dei medici che tutto potesse concludersi nell’arco di tre o quattro mesi.\n\nCosì che mi misi in contatto con un paio di cliniche con sede all’estero, ma quella che mi ispirò fiducia fu “DENTVITALIS” con sede in Rijeka Croazia, che, per mezzo della corrispondente Sig.na Jelena, gentilissima, molto disponibile allora, ancor di più per tutto il percorso di cura, la quale mi fissò un appuntamento per una visita, addirittura gratuita. La mia convinzione ad accettare non fu solamente il costo indicato in preventivo decisamente inferiore a quelli fatti in Italia, ma anche perché una volta giunto in clinica, mi colpì la capillare organizzazione, la pulizia ed igiene riscontrata, ed in particolare modo la rassicurazione dei medici che tutto potesse concludersi nell’arco di tre o quattro mesi.\n\nA distanza di tre mesi circa dall’ intervento mi venne completato il lavoro splendidamente, per cui oggi mi ritrovo con tutti i denti dell’arcata inferiore come se fossero veramente i miei , perfetti nel colore e nella masticazione.\n\nE’ doveroso un ringraziamento diretto a tutto lo staff medico per la grande competenza e la cura nei vari particolari; a tutto lo staff amministrativo per la correttezza, per la disponibilità a fornire qualsiasi informazione, e se posso permettermi, per l’affetto dimostrato nei confronti del paziente e dei familiari.\n\nGrazie per avermi ridato il sorriso, la gioia e la dignità di poter stare con gli amici e in società."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996da3",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Silvana Maludrottu, Olbia (OT), con liberatoria di pubblicazione</p>",
+              "text": "Silvana Maludrottu, Olbia (OT), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996da6",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Dopo che ho fatto una ricerca su internet ho contattato la vostra clinica, la tempestività nel rispondere e la cordialità della sig.na Beri mi ha colpita subito. Sapevo che mi stavo affidando in buone mani.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996da8\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996da9\">Il viaggio è stato molto lungo ma sereno, con la certezza che il mio sogno si sarebbe avverato.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dab\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dac\">La clinica é accogliente e pulita. Ho iniziato subito le cure, senza sentire dolore. I medici sono precisi e professionali. In tutto cinque giorni per ridarmi il sorriso! Sono felicissima! Grazie! A tutto lo staff!</p>",
+              "text": "Dopo che ho fatto una ricerca su internet ho contattato la vostra clinica, la tempestività nel rispondere e la cordialità della sig.na Beri mi ha colpita subito. Sapevo che mi stavo affidando in buone mani.\n\nIl viaggio è stato molto lungo ma sereno, con la certezza che il mio sogno si sarebbe avverato.\n\nLa clinica é accogliente e pulita. Ho iniziato subito le cure, senza sentire dolore. I medici sono precisi e professionali. In tutto cinque giorni per ridarmi il sorriso! Sono felicissima! Grazie! A tutto lo staff!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996db0",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Rita Usai, Olbia (OT), con liberatoria di pubblicazione</p>",
+              "text": "Rita Usai, Olbia (OT), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996db3",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Professionalità, accoglienza, disponibilità. Non posso che ritenermi soddisfatta e consigliare a chiunque Dentvitalis e, particolare non trascurabile, si risparmia davvero!</p>",
+              "text": "Professionalità, accoglienza, disponibilità. Non posso che ritenermi soddisfatta e consigliare a chiunque Dentvitalis e, particolare non trascurabile, si risparmia davvero!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996db7",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Pietro Porcu, Vaiano Cremasco (CR), con liberatoria di pubblicazione</p>",
+              "text": "Pietro Porcu, Vaiano Cremasco (CR), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dba",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi sono trovato benissimo. Lavoro eccellentemente effettuato da medici bravissimi<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dbc\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dbd\">...e prezzi eccellenti!!</p>",
+              "text": "Mi sono trovato benissimo. Lavoro eccellentemente effettuato da medici bravissimi\n\n...e prezzi eccellenti!!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dc1",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Fabrizio Mason, Istrana (TV)</p>",
+              "text": "Fabrizio Mason, Istrana (TV)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dc4",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Oggi ho fatto una seduta dentistica, mi hanno fatto una devitalizzazione. Tempo 1 ora e mezza e lavoro finito.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dc6\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dc7\">In Italia ci servono 3/4 sedute.</p>",
+              "text": "Oggi ho fatto una seduta dentistica, mi hanno fatto una devitalizzazione. Tempo 1 ora e mezza e lavoro finito.\n\nIn Italia ci servono 3/4 sedute."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dcb",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Cristina Rossi, Mestre (VE), con liberatoria di pubblicazione</p>",
+              "text": "Cristina Rossi, Mestre (VE), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dce",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Oggi ho finito tutto il grande lavoro!<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dd0\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dd1\">Sono molto soddisfatta e felice. Il risultato é ottimo e il personale paziente e gentile. Grazie alle dott. Iris e Viviana per la loro attenzione, pazienza e cortesia.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dd3\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dd4\">Con stima.</p>",
+              "text": "Oggi ho finito tutto il grande lavoro!\n\nSono molto soddisfatta e felice. Il risultato é ottimo e il personale paziente e gentile. Grazie alle dott. Iris e Viviana per la loro attenzione, pazienza e cortesia.\n\nCon stima."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dd8",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Luciano Ricciardelli, Pioltello (MI)</p>",
+              "text": "Luciano Ricciardelli, Pioltello (MI)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ddb",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Scrivo un ringraziamento personale.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996ddd\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dde\">Mi chiamo Luciano Ricciardelli, vivo a Milano città dell'Expo 2015, volevo esprimere la mia gratitudine a tutto lo staff Dentvitalis con sede a Fiume (Rijeka) Grazie.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de0\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de1\">Nel mese di marzo 2013 mi sono recato presso la vostra clinica per una visita generale da subito ho riscontrato professionalità, igiene e pulizia oltre che partecipazione da parte di tutta l'Equipe che mi ha dapprima visitato e successivamente ha risolto totalmente i problemi riscontrati.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de3\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de4\">Nell'arco di tre giorni mi sono stati tolti tutti i denti malati di piorrea, quindi hanno ripulito l'arcata gengivale superiore ed inferiore per fissare gli impianti su cui poggiano i miei attuali denti in ceramica. L'intervento è stato eseguito dal Dott. Sime Zivkovic e dal suo staff in maniera impeccabile altamente risolutiva e professionale tanto poco vero che oggi ho risolto completamente i miei vecchi e dimenticati problemi dentali. Merita un encomio personale il Dott. Sime Zivkovic per la perfezione e per il risultato del suo intervento nella mia arcata dentale, posso aggiungere che il resto dell'Equipe si è dimostrato molto attento e professionale.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de6\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de7\">Consiglio a tutti coloro che avranno modo di conoscere personalmente la \"Dentvitalis\" di Fiume di confrontare operatività, professionalità e prezzi con qualsiasi centro dentistico in Italia.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996de9\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dea\">Concludo affermando che oltre allo scrivente ho consigliato e portato personalmente altri amici e parenti i quali concordano con me sull'ottimo e soddisfacente lavoro svolto con ringraziamenti personali.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996dec\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996ded\">In fede.</p>",
+              "text": "Scrivo un ringraziamento personale.\n\nMi chiamo Luciano Ricciardelli, vivo a Milano città dell'Expo 2015, volevo esprimere la mia gratitudine a tutto lo staff Dentvitalis con sede a Fiume (Rijeka) Grazie.\n\nNel mese di marzo 2013 mi sono recato presso la vostra clinica per una visita generale da subito ho riscontrato professionalità, igiene e pulizia oltre che partecipazione da parte di tutta l'Equipe che mi ha dapprima visitato e successivamente ha risolto totalmente i problemi riscontrati.\n\nNell'arco di tre giorni mi sono stati tolti tutti i denti malati di piorrea, quindi hanno ripulito l'arcata gengivale superiore ed inferiore per fissare gli impianti su cui poggiano i miei attuali denti in ceramica. L'intervento è stato eseguito dal Dott. Sime Zivkovic e dal suo staff in maniera impeccabile altamente risolutiva e professionale tanto poco vero che oggi ho risolto completamente i miei vecchi e dimenticati problemi dentali. Merita un encomio personale il Dott. Sime Zivkovic per la perfezione e per il risultato del suo intervento nella mia arcata dentale, posso aggiungere che il resto dell'Equipe si è dimostrato molto attento e professionale.\n\nConsiglio a tutti coloro che avranno modo di conoscere personalmente la \"Dentvitalis\" di Fiume di confrontare operatività, professionalità e prezzi con qualsiasi centro dentistico in Italia.\n\nConcludo affermando che oltre allo scrivente ho consigliato e portato personalmente altri amici e parenti i quali concordano con me sull'ottimo e soddisfacente lavoro svolto con ringraziamenti personali.\n\nIn fede."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996df1",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Anna Maria Zampol, Santo Stefano di Cadore (BL)</p>",
+              "text": "Anna Maria Zampol, Santo Stefano di Cadore (BL)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996df4",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho trovato presso questa clinica un'equipe d'eccellenza. Tanta professionalità e competenza. Gentilezza e simpatia.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996df6\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996df7\">Auguri a tutti in particolare al dottor Tommaso, tanta felicità per il 2014.</p>",
+              "text": "Ho trovato presso questa clinica un'equipe d'eccellenza. Tanta professionalità e competenza. Gentilezza e simpatia.\n\nAuguri a tutti in particolare al dottor Tommaso, tanta felicità per il 2014."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dfb",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Marco Armanini, Vestone (BS), con liberatoria di pubblicazione</p>",
+              "text": "Marco Armanini, Vestone (BS), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996dfe",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Buongiorno, lo studio Dentvitalis é una clinica che si può fare affidamento per la cura dei denti. I lavori vengono fatti sicuramente bene e con materiali di ultima generazione rispettando il programma iniziale di controllo il che dimostra la competenza dei medici.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996e00\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996e01\">Non hanno niente da invidiare ai dentisti italiani, anzi!!!</p>",
+              "text": "Buongiorno, lo studio Dentvitalis é una clinica che si può fare affidamento per la cura dei denti. I lavori vengono fatti sicuramente bene e con materiali di ultima generazione rispettando il programma iniziale di controllo il che dimostra la competenza dei medici.\n\nNon hanno niente da invidiare ai dentisti italiani, anzi!!!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e05",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Roberto Borner, Lumino, Svizzera, con liberatoria di pubblicazione</p>",
+              "text": "Roberto Borner, Lumino, Svizzera, con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e08",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho accompagnato mio padre ed ho approfittato per eseguire due riparazioni: lavoro svolto molto velocemente e con molta qualità. Personale molto gentile e simpatico. Ritornerò in ottobre per un altro lavoro con due amici.</p>",
+              "text": "Ho accompagnato mio padre ed ho approfittato per eseguire due riparazioni: lavoro svolto molto velocemente e con molta qualità. Personale molto gentile e simpatico. Ritornerò in ottobre per un altro lavoro con due amici."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e0c",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Rosetta Sacchelli e Mauro Orlandi, La Spezia (SP), con liberatoria di pubblicazione</p>",
+              "text": "Rosetta Sacchelli e Mauro Orlandi, La Spezia (SP), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e0f",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">É stato tutto positivo dai dottori al prezzo e alla qualità.</p>",
+              "text": "É stato tutto positivo dai dottori al prezzo e alla qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e13",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Antonio Garante, Argenta (FE), con liberatoria di pubblicazione</p>",
+              "text": "Antonio Garante, Argenta (FE), con liberatoria di pubblicazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e16",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Io Garante Antonio devo dire che mi sono trovato benissimo con una professionalità eccellente, accoglienza ottima posso solo consigliare questo centro.</p>",
+              "text": "Io Garante Antonio devo dire che mi sono trovato benissimo con una professionalità eccellente, accoglienza ottima posso solo consigliare questo centro."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e1a",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Lodovico Di Giandomenico, Manoppello (PE)</p>",
+              "text": "Lodovico Di Giandomenico, Manoppello (PE)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996e1d",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho scoperto Dentvitalis per caso su internet. Ho chiesto informazioni a riguardo di impianti dentali e protesi dentali. Sono stati gentili, esaurienti e soprattutto puntuali anche nell'accoglienza.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996e1f\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996e20\">Posso dire solo che dopo 11 anni dopo un tragico incidente dove ho perso tutti i denti dell'arcata superiore da molare a molare e oggi posso dire che sono soddisfatto per il lavoro e l'accuratezza del lavoro svolto dalla Dentvitalis.<br data-w-id=\"8751f622-30c9-513e-9d53-400d47996e22\"><br data-w-id=\"8751f622-30c9-513e-9d53-400d47996e23\">Grazie di cuore.</p>",
+              "text": "Ho scoperto Dentvitalis per caso su internet. Ho chiesto informazioni a riguardo di impianti dentali e protesi dentali. Sono stati gentili, esaurienti e soprattutto puntuali anche nell'accoglienza.\n\nPosso dire solo che dopo 11 anni dopo un tragico incidente dove ho perso tutti i denti dell'arcata superiore da molare a molare e oggi posso dire che sono soddisfatto per il lavoro e l'accuratezza del lavoro svolto dalla Dentvitalis.\n\nGrazie di cuore."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 200,
+          "total": 290
+        },
+        "lastUpdated": "2026-09-02T13:42:33.818Z"
+      }
+    }
+  ]
+}

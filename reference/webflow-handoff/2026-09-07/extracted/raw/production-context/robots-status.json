@@ -1,0 +1,17 @@
+{
+  "status": "not-present",
+  "scope": "GET https://www.dentvitalis.com/robots.txt returned HTTP 404",
+  "evidence": {
+    "status": "unavailable",
+    "url": "https://www.dentvitalis.com/robots.txt",
+    "sourceState": "published",
+    "retrievedAt": "2026-09-07T07:38:42.588948+00:00",
+    "file": null,
+    "httpStatus": 404,
+    "finalUrl": "https://www.dentvitalis.com/robots.txt",
+    "mime": "text/html",
+    "etag": null,
+    "lastModified": null,
+    "reason": "HTTP 404"
+  }
+}

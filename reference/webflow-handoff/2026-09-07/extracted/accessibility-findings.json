@@ -1,0 +1,1695 @@
+{
+  "status": "derived",
+  "pages": [
+    {
+      "pageId": "6a97db25519800ebff25b9f2",
+      "path": "/condizioni-di-utilizzo",
+      "source": "raw/published/html/6a97db25519800ebff25b9f2.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "6a97db259aad9ee4bb4bd328",
+      "path": "/informativa-sulla-privacy",
+      "source": "raw/published/html/6a97db259aad9ee4bb4bd328.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "6a8d7da66a4b3462ca3f0a23",
+      "path": "/informazioni-per-pazienti",
+      "source": "raw/published/html/6a8d7da66a4b3462ca3f0a23.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "6a8d7da585ba860c0b521829",
+      "path": "/chi-siamo",
+      "source": "raw/published/html/6a8d7da585ba860c0b521829.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "6a8d7da5fff15c0449d670e2",
+      "path": "/prestazioni-dentali",
+      "source": "raw/published/html/6a8d7da5fff15c0449d670e2.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "696f4a9a3d82954cb43ac683",
+      "path": "/informazioni/trasporto",
+      "source": "raw/published/html/696f4a9a3d82954cb43ac683.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "696f49d7f343717fcadfcf28",
+      "path": "/informazioni/alloggio",
+      "source": "raw/published/html/696f49d7f343717fcadfcf28.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "69679710d4037ebd0cbb9df2",
+      "path": "/testimonianze",
+      "source": "raw/published/html/69679710d4037ebd0cbb9df2.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(6)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(7)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(8)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(9)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(10)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(11)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(12)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(13)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(14)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(15)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(15)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(15)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(15)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(15)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(15)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(16)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(17)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(17)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(17)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(17)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(17)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(17)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(18)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(18)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(18)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(18)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(18)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(18)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(19)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(19)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(19)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(19)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(19)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(19)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(20)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(20)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(20)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(20)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(20)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(20)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(21)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(21)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(21)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(21)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(21)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(16)>div:nth-of-type(21)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba898",
+      "path": "/contatti",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba898.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba897",
+      "path": "/faq",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba897.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": [
+          {
+            "node": "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>h3:nth-of-type(1)",
+            "tag": "h3",
+            "text": "Dove si trova Rijeka (Fiume)?",
+            "attributes": {
+              "style": "color:rgb(107,112,118)",
+              "class": [
+                "accordion-title"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba896",
+      "path": "/domande-e-risposte",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba896.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba894",
+      "path": "/informazioni/listino-prezzi",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba894.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba893",
+      "path": "/informazioni/garanzie",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba893.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba892",
+      "path": "/informazioni/pagamento-flessibile",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba892.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba891",
+      "path": "/informazioni/tempi-del-trattamento",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba891.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba890",
+      "path": "/informazioni/prima-visita-gratuita",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba890.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba88e",
+      "path": "/prestazioni/sedazione-cosciente",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba88e.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba88d",
+      "path": "/su-di-noi/impianti-di-nuova-generazione",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba88d.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba88c",
+      "path": "/su-di-noi/materiali-e-apparecchiature",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba88c.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba88b",
+      "path": "/su-di-noi/laboratorio-odontotecnico",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba88b.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba88a",
+      "path": "/su-di-noi/come-raggiungerci",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba88a.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba889",
+      "path": "/su-di-noi/tutto-in-un-unico-luogo",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba889.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba888",
+      "path": "/su-di-noi/i-nostri-specialisti",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba888.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": []
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba886",
+      "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba886.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": [
+          {
+            "node": "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>h3:nth-of-type(1)",
+            "tag": "h3",
+            "text": "Corone, faccette, ponti e protesi",
+            "attributes": {
+              "class": [
+                "large-paragraph"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba885",
+      "path": "/prestazioni/sbiancamento-dei-denti",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba885.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": [
+          {
+            "node": "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>h3:nth-of-type(1)",
+            "tag": "h3",
+            "text": "Il pacchetto Premium “Sbiancamento dei denti” comprende:",
+            "attributes": {
+              "class": [
+                "large-paragraph"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba884",
+      "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba884.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": [
+          {
+            "node": "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>h3:nth-of-type(1)",
+            "tag": "h3",
+            "text": "Il pacchetto Premium “Ponte fisso su impianti” comprende:",
+            "attributes": {
+              "class": [
+                "large-paragraph"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba882",
+      "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba882.html",
+      "findings": {
+        "duplicateIds": {},
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(5)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": [
+          {
+            "node": "dom:body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>h3:nth-of-type(1)",
+            "tag": "h3",
+            "text": "Il pacchetto “Protesi definitiva ancorata su 4 impianti” comprende:",
+            "attributes": {
+              "class": [
+                "large-paragraph"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pageId": "695e1eeeb10c5fb8eeaba87c",
+      "path": "/",
+      "source": "raw/published/html/695e1eeeb10c5fb8eeaba87c.html",
+      "findings": {
+        "duplicateIds": {
+          "Banner": 2
+        },
+        "missingAlt": [],
+        "emptyAlt": [
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>nav:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(2)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>footer:nth-of-type(1)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(9)>div:nth-of-type(1)>a:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(1)>a:nth-of-type(1)>div:nth-of-type(1)>img:nth-of-type(1)",
+          "dom:body:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>img:nth-of-type(1)"
+        ],
+        "h1Count": 1,
+        "behavioralChecks": {
+          "status": "unavailable",
+          "reason": "Keyboard, focus and computed visibility checks assigned to Codespaces agent by user."
+        },
+        "unlabelledControls": [
+          {
+            "node": "id:name-2",
+            "name": "name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Last-Name-2",
+            "name": "Last-Name-2",
+            "placeholder": "Nome*"
+          },
+          {
+            "node": "id:Email-5",
+            "name": "Email-5",
+            "placeholder": "E-mail*"
+          },
+          {
+            "node": "id:Phone-2",
+            "name": "Phone-2",
+            "placeholder": "Telefono*"
+          },
+          {
+            "node": "id:field-2",
+            "name": "field-2",
+            "placeholder": "Messagio"
+          }
+        ],
+        "headingLevelJumps": [
+          {
+            "node": "dom:body:nth-of-type(1)>section:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>h4:nth-of-type(1)",
+            "tag": "h4",
+            "text": "Offerta e fatture",
+            "attributes": {
+              "class": [
+                "medjunaslov-h3",
+                "dr"
+              ]
+            }
+          },
+          {
+            "node": "dom:body:nth-of-type(1)>section:nth-of-type(6)>section:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>h4:nth-of-type(1)",
+            "tag": "h4",
+            "text": "Marianna Menini",
+            "attributes": {
+              "class": [
+                "no-margin"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

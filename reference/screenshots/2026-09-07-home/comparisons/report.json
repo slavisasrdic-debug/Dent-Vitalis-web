@@ -1,0 +1,821 @@
+{
+  "capturedAt": "2026-09-07T10:56:01.316Z",
+  "browser": "151.0.7922.34",
+  "videoState": "original poster",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "geometry": [
+        {
+          "name": "hero",
+          "reference": {
+            "x": 0,
+            "y": 80,
+            "width": 1440,
+            "height": 900
+          },
+          "astro": {
+            "x": 0,
+            "y": 80,
+            "width": 1440,
+            "height": 900
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "intro",
+          "reference": {
+            "x": 0,
+            "y": 980,
+            "width": 1440,
+            "height": 720
+          },
+          "astro": {
+            "x": 0,
+            "y": 980,
+            "width": 1440,
+            "height": 720
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "services",
+          "reference": {
+            "x": 0,
+            "y": 1700,
+            "width": 1440,
+            "height": 3600
+          },
+          "astro": {
+            "x": 0,
+            "y": 1700,
+            "width": 1440,
+            "height": 3600
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "welcome",
+          "reference": {
+            "x": 0,
+            "y": 5300,
+            "width": 1440,
+            "height": 2073.8125
+          },
+          "astro": {
+            "x": 0,
+            "y": 5300,
+            "width": 1440,
+            "height": 2073.8125
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "about",
+          "reference": {
+            "x": 0,
+            "y": 7373.8125,
+            "width": 1440,
+            "height": 4320
+          },
+          "astro": {
+            "x": 0,
+            "y": 7373.8125,
+            "width": 1440,
+            "height": 4320
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "testimonials",
+          "reference": {
+            "x": 0,
+            "y": 11693.8125,
+            "width": 1440,
+            "height": 2210.921875
+          },
+          "astro": {
+            "x": 0,
+            "y": 11693.8125,
+            "width": 1440,
+            "height": 2210.921875
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "information",
+          "reference": {
+            "x": 0,
+            "y": 13904.734375,
+            "width": 1440,
+            "height": 2099.96875
+          },
+          "astro": {
+            "x": 0,
+            "y": 13904.734375,
+            "width": 1440,
+            "height": 2099.96875
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "faq",
+          "reference": {
+            "x": 0,
+            "y": 16004.703125,
+            "width": 1440,
+            "height": 904.375
+          },
+          "astro": {
+            "x": 0,
+            "y": 16004.703125,
+            "width": 1440,
+            "height": 904.375
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "contact",
+          "reference": {
+            "x": 0,
+            "y": 16909.078125,
+            "width": 1440,
+            "height": 1044.578125
+          },
+          "astro": {
+            "x": 0,
+            "y": 16909.078125,
+            "width": 1440,
+            "height": 1044.578125
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "footer",
+          "reference": {
+            "x": 0,
+            "y": 17953.65625,
+            "width": 1440,
+            "height": 953.15625
+          },
+          "astro": {
+            "x": 0,
+            "y": 17953.65625,
+            "width": 1440,
+            "height": 953.15625
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        }
+      ],
+      "captures": [
+        {
+          "name": "top",
+          "y": 0,
+          "actualScroll": [
+            0,
+            0
+          ],
+          "meanAbsoluteChannelError": 0.16668904320987654,
+          "changedPixelsOver16": 0.003947530864197531
+        },
+        {
+          "name": "intro",
+          "y": 900,
+          "actualScroll": [
+            900,
+            900
+          ],
+          "meanAbsoluteChannelError": 0.45920216049382717,
+          "changedPixelsOver16": 0.010271604938271605
+        },
+        {
+          "name": "services",
+          "y": 1620,
+          "actualScroll": [
+            1620,
+            1620
+          ],
+          "meanAbsoluteChannelError": 1.1124817386831276,
+          "changedPixelsOver16": 0.0022530864197530865
+        },
+        {
+          "name": "services-700",
+          "y": 2400,
+          "actualScroll": [
+            2400,
+            2400
+          ],
+          "meanAbsoluteChannelError": 1.0949009773662552,
+          "changedPixelsOver16": 0.0004953703703703704
+        },
+        {
+          "name": "services-1100",
+          "y": 2800,
+          "actualScroll": [
+            2800,
+            2800
+          ],
+          "meanAbsoluteChannelError": 1.4409524176954733,
+          "changedPixelsOver16": 0.0033125
+        },
+        {
+          "name": "services-1600",
+          "y": 3300,
+          "actualScroll": [
+            3300,
+            3300
+          ],
+          "meanAbsoluteChannelError": 1.0332463991769547,
+          "changedPixelsOver16": 0.0006481481481481481
+        },
+        {
+          "name": "services-2000",
+          "y": 3700,
+          "actualScroll": [
+            3700,
+            3700
+          ],
+          "meanAbsoluteChannelError": 1.1990558127572017,
+          "changedPixelsOver16": 0.004477623456790123
+        },
+        {
+          "name": "services-2500",
+          "y": 4200,
+          "actualScroll": [
+            4200,
+            4200
+          ],
+          "meanAbsoluteChannelError": 0.5979287551440329,
+          "changedPixelsOver16": 0.0004058641975308642
+        },
+        {
+          "name": "services-2900",
+          "y": 4600,
+          "actualScroll": [
+            4600,
+            4600
+          ],
+          "meanAbsoluteChannelError": 0.42775977366255147,
+          "changedPixelsOver16": 0.0033333333333333335
+        },
+        {
+          "name": "welcome",
+          "y": 5220,
+          "actualScroll": [
+            5220,
+            5220
+          ],
+          "meanAbsoluteChannelError": 1.4671121399176954,
+          "changedPixelsOver16": 0.009247685185185185
+        },
+        {
+          "name": "welcome-copy",
+          "y": 5700,
+          "actualScroll": [
+            5700,
+            5700
+          ],
+          "meanAbsoluteChannelError": 1.7208395061728394,
+          "changedPixelsOver16": 0.011859567901234568
+        },
+        {
+          "name": "about",
+          "y": 7294,
+          "actualScroll": [
+            7294,
+            7294
+          ],
+          "meanAbsoluteChannelError": 0.17031558641975308,
+          "changedPixelsOver16": 0.0031018518518518517
+        },
+        {
+          "name": "about-720",
+          "y": 8094,
+          "actualScroll": [
+            8094,
+            8094
+          ],
+          "meanAbsoluteChannelError": 1.186710390946502,
+          "changedPixelsOver16": 0.002962962962962963
+        },
+        {
+          "name": "about-1420",
+          "y": 8794,
+          "actualScroll": [
+            8794,
+            8794
+          ],
+          "meanAbsoluteChannelError": 1.0092319958847737,
+          "changedPixelsOver16": 0.0004398148148148148
+        },
+        {
+          "name": "about-1820",
+          "y": 9194,
+          "actualScroll": [
+            9194,
+            9194
+          ],
+          "meanAbsoluteChannelError": 1.321809413580247,
+          "changedPixelsOver16": 0.004236882716049383
+        },
+        {
+          "name": "about-2320",
+          "y": 9694,
+          "actualScroll": [
+            9694,
+            9694
+          ],
+          "meanAbsoluteChannelError": 1.8017209362139919,
+          "changedPixelsOver16": 0.005878858024691358
+        },
+        {
+          "name": "about-3020",
+          "y": 10394,
+          "actualScroll": [
+            10394,
+            10394
+          ],
+          "meanAbsoluteChannelError": 3.098827160493827,
+          "changedPixelsOver16": 0.044244598765432096
+        },
+        {
+          "name": "about-3620",
+          "y": 10994,
+          "actualScroll": [
+            10994,
+            10994
+          ],
+          "meanAbsoluteChannelError": 1.195107767489712,
+          "changedPixelsOver16": 0.00329320987654321
+        },
+        {
+          "name": "testimonials",
+          "y": 11614,
+          "actualScroll": [
+            11614,
+            11614
+          ],
+          "meanAbsoluteChannelError": 0.21001003086419753,
+          "changedPixelsOver16": 0.004826388888888889
+        },
+        {
+          "name": "slider",
+          "y": 12744,
+          "actualScroll": [
+            12744,
+            12744
+          ],
+          "meanAbsoluteChannelError": 1.1941383744855967,
+          "changedPixelsOver16": 0.0024405864197530863
+        },
+        {
+          "name": "information",
+          "y": 13825,
+          "actualScroll": [
+            13825,
+            13825
+          ],
+          "meanAbsoluteChannelError": 0.6256604938271605,
+          "changedPixelsOver16": 0.015983024691358025
+        },
+        {
+          "name": "faq",
+          "y": 15925,
+          "actualScroll": [
+            15925,
+            15925
+          ],
+          "meanAbsoluteChannelError": 0.22162114197530863,
+          "changedPixelsOver16": 0.010330246913580247
+        },
+        {
+          "name": "contact",
+          "y": 16829,
+          "actualScroll": [
+            16829,
+            16829
+          ],
+          "meanAbsoluteChannelError": 0.39032227366255146,
+          "changedPixelsOver16": 0.015020061728395062
+        },
+        {
+          "name": "footer",
+          "y": 17874,
+          "actualScroll": [
+            17874,
+            17874
+          ],
+          "meanAbsoluteChannelError": 0.029650977366255143,
+          "changedPixelsOver16": 0.00031635802469135804
+        }
+      ],
+      "overflow": [
+        {
+          "viewport": 1440,
+          "document": 1440
+        },
+        {
+          "viewport": 1440,
+          "document": 1440
+        }
+      ],
+      "errors": [
+        [],
+        []
+      ]
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "geometry": [
+        {
+          "name": "hero",
+          "reference": {
+            "x": 0,
+            "y": 70,
+            "width": 390,
+            "height": 789.984375
+          },
+          "astro": {
+            "x": 0,
+            "y": 70,
+            "width": 390,
+            "height": 789.984375
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "intro",
+          "reference": {
+            "x": 0,
+            "y": 1091.921875,
+            "width": 390,
+            "height": 583.28125
+          },
+          "astro": {
+            "x": 0,
+            "y": 1091.921875,
+            "width": 390,
+            "height": 583.28125
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "services",
+          "reference": {
+            "x": 0,
+            "y": 1675.203125,
+            "width": 390,
+            "height": 2918.046875
+          },
+          "astro": {
+            "x": 0,
+            "y": 1675.203125,
+            "width": 390,
+            "height": 2878.046875
+          },
+          "deltaY": 0,
+          "deltaHeight": -40
+        },
+        {
+          "name": "welcome",
+          "reference": {
+            "x": 0,
+            "y": 4593.25,
+            "width": 390,
+            "height": 2147.53125
+          },
+          "astro": {
+            "x": 0,
+            "y": 4593.25,
+            "width": 390,
+            "height": 2147.53125
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "about",
+          "reference": {
+            "x": 0,
+            "y": 6740.78125,
+            "width": 390,
+            "height": 2903.734375
+          },
+          "astro": {
+            "x": 0,
+            "y": 6740.78125,
+            "width": 390,
+            "height": 2863.734375
+          },
+          "deltaY": 0,
+          "deltaHeight": -40
+        },
+        {
+          "name": "testimonials",
+          "reference": {
+            "x": 0,
+            "y": 9644.515625,
+            "width": 390,
+            "height": 1565.546875
+          },
+          "astro": {
+            "x": 0,
+            "y": 9644.515625,
+            "width": 390,
+            "height": 1565.546875
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "information",
+          "reference": {
+            "x": 0,
+            "y": 11210.0625,
+            "width": 390,
+            "height": 2175.890625
+          },
+          "astro": {
+            "x": 0,
+            "y": 11210.0625,
+            "width": 390,
+            "height": 2175.890625
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "faq",
+          "reference": {
+            "x": 0,
+            "y": 13385.953125,
+            "width": 390,
+            "height": 1014.28125
+          },
+          "astro": {
+            "x": 0,
+            "y": 13385.953125,
+            "width": 390,
+            "height": 1014.28125
+          },
+          "deltaY": 0,
+          "deltaHeight": 0
+        },
+        {
+          "name": "contact",
+          "reference": {
+            "x": 0,
+            "y": 14400.234375,
+            "width": 390,
+            "height": 1198.796875
+          },
+          "astro": {
+            "x": 0,
+            "y": 14400.234375,
+            "width": 390,
+            "height": 1198.71875
+          },
+          "deltaY": 0,
+          "deltaHeight": -0.078125
+        },
+        {
+          "name": "footer",
+          "reference": {
+            "x": 0,
+            "y": 15599.03125,
+            "width": 390,
+            "height": 2220.28125
+          },
+          "astro": {
+            "x": 0,
+            "y": 15598.953125,
+            "width": 390,
+            "height": 2220.28125
+          },
+          "deltaY": -0.078125,
+          "deltaHeight": 0
+        }
+      ],
+      "captures": [
+        {
+          "name": "top",
+          "y": 0,
+          "actualScroll": [
+            0,
+            0
+          ],
+          "meanAbsoluteChannelError": 0.9830873694207027,
+          "changedPixelsOver16": 0.0299002849002849
+        },
+        {
+          "name": "intro",
+          "y": 1012,
+          "actualScroll": [
+            1012,
+            1012
+          ],
+          "meanAbsoluteChannelError": 2.30611396011396,
+          "changedPixelsOver16": 0.05133048433048433
+        },
+        {
+          "name": "services",
+          "y": 1595,
+          "actualScroll": [
+            1595,
+            1595
+          ],
+          "meanAbsoluteChannelError": 2.4115384615384614,
+          "changedPixelsOver16": 0.04264957264957265
+        },
+        {
+          "name": "services-card-1",
+          "y": 1595,
+          "actualScroll": [
+            1595,
+            1595
+          ],
+          "meanAbsoluteChannelError": 2.392388414055081,
+          "changedPixelsOver16": 0.04277492877492878
+        },
+        {
+          "name": "services-card-2",
+          "y": 2358,
+          "actualScroll": [
+            2358,
+            2358
+          ],
+          "meanAbsoluteChannelError": 2.1705707502374167,
+          "changedPixelsOver16": 0.035680911680911684
+        },
+        {
+          "name": "services-card-3",
+          "y": 3067,
+          "actualScroll": [
+            3067,
+            3067
+          ],
+          "meanAbsoluteChannelError": 2.312302943969611,
+          "changedPixelsOver16": 0.03563532763532763
+        },
+        {
+          "name": "services-card-4",
+          "y": 3779,
+          "actualScroll": [
+            3779,
+            3779
+          ],
+          "meanAbsoluteChannelError": 2.255113010446344,
+          "changedPixelsOver16": 0.03784615384615385
+        },
+        {
+          "name": "welcome",
+          "y": 4513,
+          "actualScroll": [
+            4513,
+            4513
+          ],
+          "meanAbsoluteChannelError": 1.948204178537512,
+          "changedPixelsOver16": 0.018934472934472934
+        },
+        {
+          "name": "about",
+          "y": 6661,
+          "actualScroll": [
+            6661,
+            6661
+          ],
+          "meanAbsoluteChannelError": 1.6317540360873695,
+          "changedPixelsOver16": 0.02634188034188034
+        },
+        {
+          "name": "about-card-1",
+          "y": 7023,
+          "actualScroll": [
+            7023,
+            7023
+          ],
+          "meanAbsoluteChannelError": 2.2298727445394113,
+          "changedPixelsOver16": 0.03257834757834758
+        },
+        {
+          "name": "about-card-2",
+          "y": 7692,
+          "actualScroll": [
+            7692,
+            7692
+          ],
+          "meanAbsoluteChannelError": 2.5436400759734092,
+          "changedPixelsOver16": 0.030273504273504274
+        },
+        {
+          "name": "about-card-3",
+          "y": 8314,
+          "actualScroll": [
+            8314,
+            8314
+          ],
+          "meanAbsoluteChannelError": 2.040690408357075,
+          "changedPixelsOver16": 0.022586894586894588
+        },
+        {
+          "name": "about-card-4",
+          "y": 8913,
+          "actualScroll": [
+            8913,
+            8913
+          ],
+          "meanAbsoluteChannelError": 1.7815821462488128,
+          "changedPixelsOver16": 0.026763532763532764
+        },
+        {
+          "name": "testimonials",
+          "y": 9565,
+          "actualScroll": [
+            9565,
+            9565
+          ],
+          "meanAbsoluteChannelError": 1.9807682811016145,
+          "changedPixelsOver16": 0.05288034188034188
+        },
+        {
+          "name": "slider",
+          "y": 10035,
+          "actualScroll": [
+            10035,
+            10035
+          ],
+          "meanAbsoluteChannelError": 1.9307844254510922,
+          "changedPixelsOver16": 0.031703703703703706
+        },
+        {
+          "name": "information",
+          "y": 11130,
+          "actualScroll": [
+            11130,
+            11130
+          ],
+          "meanAbsoluteChannelError": 2.2560892687559355,
+          "changedPixelsOver16": 0.06288034188034188
+        },
+        {
+          "name": "faq",
+          "y": 13306,
+          "actualScroll": [
+            13306,
+            13306
+          ],
+          "meanAbsoluteChannelError": 1.5194890788224122,
+          "changedPixelsOver16": 0.034484330484330486
+        },
+        {
+          "name": "contact",
+          "y": 14320,
+          "actualScroll": [
+            14320,
+            14320
+          ],
+          "meanAbsoluteChannelError": 1.4033969610636277,
+          "changedPixelsOver16": 0.04305982905982906
+        },
+        {
+          "name": "footer",
+          "y": 15519,
+          "actualScroll": [
+            15519,
+            15519
+          ],
+          "meanAbsoluteChannelError": 0.32812535612535615,
+          "changedPixelsOver16": 0.004985754985754986
+        }
+      ],
+      "overflow": [
+        {
+          "viewport": 390,
+          "document": 390
+        },
+        {
+          "viewport": 390,
+          "document": 390
+        }
+      ],
+      "errors": [
+        [],
+        []
+      ]
+    }
+  ]
+}

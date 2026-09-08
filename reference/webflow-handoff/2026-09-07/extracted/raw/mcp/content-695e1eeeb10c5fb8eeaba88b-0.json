@@ -1,0 +1,188 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:53.032Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba88b",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba88b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba88b",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba88b",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "175e7149-847c-b565-7795-88f5a376a26e",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"175e7149-847c-b565-7795-88f5a376a26f\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "175e7149-847c-b565-7795-88f5a376a271",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "175e7149-847c-b565-7795-88f5a376a273",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/chi-siamo\" data-w-id=\"2c4b8b57-1bb1-2e04-28b3-ae181696d29f\">Su di noi</a></h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "175e7149-847c-b565-7795-88f5a376a275",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "175e7149-847c-b565-7795-88f5a376a277",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Laboratorio odontotecnico</h6>",
+              "text": "Laboratorio odontotecnico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2b29b01a-7d1d-647d-66c1-47f79e91c4df",
+            "image": {
+              "alt": "Laboratorio odontotecnico",
+              "assetId": "6a86da4eae8635c0cdb45a0a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b29b01a-7d1d-647d-66c1-47f79e91c4e7",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Laboratorio odontotecnico</h1>",
+              "text": "Laboratorio odontotecnico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b29b01a-7d1d-647d-66c1-47f79e91c4e9",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Qualità, precisione e rapidità ai massimi livelli, grazie all’utilizzo di materiali premium e delle più moderne tecnologie digitali, con un eccellente rapporto tra qualità e prezzo.</p>",
+              "text": "Qualità, precisione e rapidità ai massimi livelli, grazie all’utilizzo di materiali premium e delle più moderne tecnologie digitali, con un eccellente rapporto tra qualità e prezzo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "d105f64b-bfd5-5573-35d4-71abf601dc74",
+            "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">All’interno della nostra clinica disponiamo di un moderno laboratorio odontotecnico completamente digitalizzato, che ci consente di realizzare manufatti protesici con elevati standard di precisione ed estetica, in tempi di lavorazione significativamente più brevi. La stretta integrazione tra laboratorio e clinica ci permette di controllare direttamente ogni fase del processo, apportare rapidamente eventuali modifiche e gestire in modo efficiente l’intero percorso, dalla progettazione alla realizzazione del manufatto definitivo.</p>",
+              "text": "All’interno della nostra clinica disponiamo di un moderno laboratorio odontotecnico completamente digitalizzato, che ci consente di realizzare manufatti protesici con elevati standard di precisione ed estetica, in tempi di lavorazione significativamente più brevi. La stretta integrazione tra laboratorio e clinica ci permette di controllare direttamente ogni fase del processo, apportare rapidamente eventuali modifiche e gestire in modo efficiente l’intero percorso, dalla progettazione alla realizzazione del manufatto definitivo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Processi produttivi completamente digitalizzati</p>",
+              "text": "Processi produttivi completamente digitalizzati"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’elevato livello di digitalizzazione ci consente di rendere l’intero processo di realizzazione dei manufatti protesici più preciso, rapido e costantemente controllato. Ogni fase, dalla prima scansione e dalla pianificazione digitale fino alla realizzazione di corone, ponti e protesi, si svolge all’interno di un flusso di lavoro digitale integrato, che permette al medico e al laboratorio odontotecnico di lavorare sugli stessi dati e di monitorare il risultato in ogni momento.\n\nPrima di realizzare il manufatto protesico definitivo, il paziente può visualizzarne e approvarne il risultato. Solo dopo la sua approvazione procediamo con la realizzazione, garantendo un lavoro personalizzato e conforme alle sue esigenze estetiche e funzionali.<a href=\"/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali\" class=\"link\" data-w-id=\"9b6e970c-c2b4-c4b0-545e-08d2fd5979d5\"></a></p>",
+              "text": "L’elevato livello di digitalizzazione ci consente di rendere l’intero processo di realizzazione dei manufatti protesici più preciso, rapido e costantemente controllato. Ogni fase, dalla prima scansione e dalla pianificazione digitale fino alla realizzazione di corone, ponti e protesi, si svolge all’interno di un flusso di lavoro digitale integrato, che permette al medico e al laboratorio odontotecnico di lavorare sugli stessi dati e di monitorare il risultato in ogni momento.\n\nPrima di realizzare il manufatto protesico definitivo, il paziente può visualizzarne e approvarne il risultato. Solo dopo la sua approvazione procediamo con la realizzazione, garantendo un lavoro personalizzato e conforme alle sue esigenze estetiche e funzionali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Materiali e componenti</p>",
+              "text": "Materiali e componenti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">In tutti i trattamenti protesici e implantologici utilizziamo esclusivamente materiali approvati per uso medico nell’Unione Europea e conformi alla normativa europea vigente. Prestiamo particolare attenzione alla loro biocompatibilità, ovvero alla capacità del materiale di essere ben tollerato dall’organismo e di non provocare reazioni indesiderate a contatto con i tessuti del cavo orale.\n\nLa scelta dei materiali si basa sulla loro qualità, sicurezza, indicazione clinica e affidabilità nel tempo. Per ogni manufatto protesico garantiamo inoltre la tracciabilità dei materiali utilizzati e la relativa documentazione di conformità, offrendo al paziente un ulteriore livello di sicurezza e piena trasparenza.<a class=\"link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88c\" data-w-id=\"83d1ad6f-7286-b3c5-6c51-b7011422f459\"></a></p>",
+              "text": "In tutti i trattamenti protesici e implantologici utilizziamo esclusivamente materiali approvati per uso medico nell’Unione Europea e conformi alla normativa europea vigente. Prestiamo particolare attenzione alla loro biocompatibilità, ovvero alla capacità del materiale di essere ben tollerato dall’organismo e di non provocare reazioni indesiderate a contatto con i tessuti del cavo orale.\n\nLa scelta dei materiali si basa sulla loro qualità, sicurezza, indicazione clinica e affidabilità nel tempo. Per ogni manufatto protesico garantiamo inoltre la tracciabilità dei materiali utilizzati e la relativa documentazione di conformità, offrendo al paziente un ulteriore livello di sicurezza e piena trasparenza."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 19
+        },
+        "lastUpdated": "2026-08-31T11:24:54.648Z"
+      }
+    }
+  ]
+}

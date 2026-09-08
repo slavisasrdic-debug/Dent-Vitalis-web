@@ -1,0 +1,83 @@
+[
+  {
+    "status": "extracted",
+    "registration": {
+      "id": "prestazioni_mobile_cta_fit_scoped",
+      "canCopy": true,
+      "displayName": "Prestazioni mobile CTA fit scoped",
+      "hostedLocation": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a9832eddcc70b31a073108a%2Fprestazioni_mobile_cta_fit_scoped-1.0.0.js",
+      "createdOn": "2026-09-02T14:30:05.355Z",
+      "version": "1.0.0"
+    },
+    "sourceDownload": {
+      "status": "extracted",
+      "url": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a9832eddcc70b31a073108a%2Fprestazioni_mobile_cta_fit_scoped-1.0.0.js",
+      "sourceState": "published",
+      "retrievedAt": "2026-09-07T08:08:26.415616+00:00",
+      "file": "raw/registered-scripts/prestazioni_mobile_cta_fit_scoped-1.0.0.js",
+      "httpStatus": 200,
+      "finalUrl": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a9832eddcc70b31a073108a%2Fprestazioni_mobile_cta_fit_scoped-1.0.0.js",
+      "mime": "application/javascript",
+      "etag": "\"38c467a2033bc65255bd7836c5c545d7\"",
+      "lastModified": "Wed, 02 Sep 2026 14:30:06 GMT",
+      "sourceSha256": "0326a0e4f0c961cf03109f9a60eb9ee394df5efb77d0f9cbf36b29ce2e3fab00",
+      "bytes": 809,
+      "sha256": "0326a0e4f0c961cf03109f9a60eb9ee394df5efb77d0f9cbf36b29ce2e3fab00"
+    },
+    "application": "See site/page read responses; registration alone does not prove application."
+  },
+  {
+    "status": "extracted",
+    "registration": {
+      "id": "prestazioni_mobile_cta_fit",
+      "canCopy": true,
+      "displayName": "Prestazioni mobile CTA fit",
+      "hostedLocation": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a98327c6bd32da7909556de%2Fprestazioni_mobile_cta_fit-1.0.0.js",
+      "createdOn": "2026-09-02T14:28:12.225Z",
+      "version": "1.0.0"
+    },
+    "sourceDownload": {
+      "status": "extracted",
+      "url": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a98327c6bd32da7909556de%2Fprestazioni_mobile_cta_fit-1.0.0.js",
+      "sourceState": "published",
+      "retrievedAt": "2026-09-07T08:08:26.683817+00:00",
+      "file": "raw/registered-scripts/prestazioni_mobile_cta_fit-1.0.0.js",
+      "httpStatus": 200,
+      "finalUrl": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a98327c6bd32da7909556de%2Fprestazioni_mobile_cta_fit-1.0.0.js",
+      "mime": "application/javascript",
+      "etag": "\"87a0dccf59d35e46fd0f0d48dd1a10e7\"",
+      "lastModified": "Wed, 02 Sep 2026 14:28:13 GMT",
+      "sourceSha256": "79184dbc44d1b3f7c9bd4d037d03c3bcb12a71f32b6e23fc9c57b8545c205bc9",
+      "bytes": 579,
+      "sha256": "79184dbc44d1b3f7c9bd4d037d03c3bcb12a71f32b6e23fc9c57b8545c205bc9"
+    },
+    "application": "See site/page read responses; registration alone does not prove application."
+  },
+  {
+    "status": "extracted",
+    "registration": {
+      "id": "mobile_popup_heading_spacing",
+      "canCopy": true,
+      "displayName": "Mobile popup heading spacing",
+      "hostedLocation": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a97d5820e9c7db8c496b2fc%2Fmobile_popup_heading_spacing-1.0.0.js",
+      "createdOn": "2026-09-02T07:51:30.346Z",
+      "version": "1.0.0"
+    },
+    "sourceDownload": {
+      "status": "extracted",
+      "url": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a97d5820e9c7db8c496b2fc%2Fmobile_popup_heading_spacing-1.0.0.js",
+      "sourceState": "published",
+      "retrievedAt": "2026-09-07T08:08:27.010916+00:00",
+      "file": "raw/registered-scripts/mobile_popup_heading_spacing-1.0.0.js",
+      "httpStatus": 200,
+      "finalUrl": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d%2F689e5ba67671442434f3ca35%2F6a97d5820e9c7db8c496b2fc%2Fmobile_popup_heading_spacing-1.0.0.js",
+      "mime": "application/javascript",
+      "etag": "\"b44c1d6643285433a14232041bd31ea6\"",
+      "lastModified": "Wed, 02 Sep 2026 07:51:31 GMT",
+      "sourceSha256": "893d57b9500dedb6809b0881ee005ff1170b159739d89b5d3ce5434a13d7120a",
+      "bytes": 568,
+      "sha256": "893d57b9500dedb6809b0881ee005ff1170b159739d89b5d3ce5434a13d7120a"
+    },
+    "application": "See site/page read responses; registration alone does not prove application."
+  }
+]

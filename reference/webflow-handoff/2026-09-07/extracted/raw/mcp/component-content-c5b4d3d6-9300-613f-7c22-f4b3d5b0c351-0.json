@@ -1,0 +1,277 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:40:48.325Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Section Testimonianze",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Section Testimonianze",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Section Testimonianze",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c357",
+            "text": {
+              "html": "<div class=\"nadnaslov\">Testimonianze</div>",
+              "text": "Testimonianze"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c359",
+            "text": {
+              "html": "<h2 class=\"medjunaslov-h2\">Rapporto di fiducia</h2>",
+              "text": "Rapporto di fiducia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c35b",
+            "text": {
+              "html": "<p class=\"huge-paragraph\">L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.</p>",
+              "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c364",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8cc"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c371",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c372",
+            "text": {
+              "html": "<div class=\"testimonials-text\">Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.</div>",
+              "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c374",
+            "text": {
+              "html": "<h4 class=\"no-margin\">Marianna Menini</h4>",
+              "text": "Marianna Menini"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c376",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 tm-4px\">2025</p>",
+              "text": "2025"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c378",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba905"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c37b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c37c",
+            "text": {
+              "html": "<div class=\"testimonials-text\">Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.</div>",
+              "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c37e",
+            "text": {
+              "html": "<h4 class=\"no-margin\">Tatiana Muggianu</h4>",
+              "text": "Tatiana Muggianu"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c380",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 tm-4px\">2025</p>",
+              "text": "2025"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c382",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba905"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c385",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c386",
+            "text": {
+              "html": "<div class=\"testimonials-text\">Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!</div>",
+              "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c388",
+            "text": {
+              "html": "<h4 class=\"no-margin\">Marlene Marchetto</h4>",
+              "text": "Marlene Marchetto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c38a",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 tm-4px\">2025</p>",
+              "text": "2025"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c38c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba905"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c368",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86c0c376ae6d20c12a468f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c369",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8c241ffeeb6ad25bc07cc1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c396",
+            "text": {
+              "html": "<div class=\"button-text-block\">Esperienze dei pazienti</div>",
+              "text": "Esperienze dei pazienti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "da92ce05-d204-2e21-2af2-56d6b586ed3c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m13 6l6 6l-6 6M5 6l6 6l-6 6\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c39d",
+            "text": {
+              "html": "<div class=\"button-text-block\">Prima e dopo</div>",
+              "text": "Prima e dopo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "5a542544-2cff-ee1b-ffe4-ae72c4a65233",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m13 6l6 6l-6 6M5 6l6 6l-6 6\"></path></svg>",
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 25
+        }
+      }
+    },
+    {
+      "label": "Component defaults Section Testimonianze",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

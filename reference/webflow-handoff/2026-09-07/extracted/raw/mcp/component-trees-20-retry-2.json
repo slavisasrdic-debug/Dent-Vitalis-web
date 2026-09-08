@@ -1,0 +1,32 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:52:52.801Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "context": "The read-only snapshot retries rate-limited structure reads sequentially to complete page and component coverage without changing source.",
+    "actions": [
+      {
+        "label": "Complete source component 189b6a3e-5614-be7c-f080-f6f0e377e820",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "189b6a3e-5614-be7c-f080-f6f0e377e820"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete source component 189b6a3e-5614-be7c-f080-f6f0e377e820",
+      "action": "get_all_elements",
+      "error": {
+        "name": "Error",
+        "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+      }
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "unavailable",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

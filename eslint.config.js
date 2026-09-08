@@ -12,6 +12,7 @@ export default defineConfig([
       'node_modules/**',
       'public/**',
       'source-assets/**',
+      'reference/webflow-handoff/*/extracted/**',
     ],
   },
   eslint.configs.recommended,

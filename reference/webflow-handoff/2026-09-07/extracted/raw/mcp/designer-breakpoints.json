@@ -1,0 +1,31 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:32:07.343Z",
+  "tool": "mcp__codex_apps__webflow_designer_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "actions": [
+      {
+        "label": "Configured breakpoint definitions",
+        "get_all_breakpoints": true
+      },
+      {
+        "label": "Current Designer mode",
+        "get_current_mode": true
+      },
+      {
+        "label": "Current page",
+        "get_current_page": true
+      }
+    ]
+  },
+  "response": [
+    {
+      "status": false,
+      "error": "Unable to connect to Webflow Designer, Please make sure Webflow Designer MCP app is running on Webflow Designer. Launch the app using following link https://dentvitalis33.design.webflow.com?app=dc8209c65e3ec02254d15275ca056539c89f6d15741893a0adf29ad6f381eb99 on Dentvitalis33. Please share this link with USER. and share as markdown link. ask USER to click on the link. Quick tip: Ensure the Webflow Designer tab is active and in the foreground (not in the background or idle). If the problem persists, refer to https://developers.webflow.com/mcp/v1.0.0/reference/fa-qs#the-mcp-server-is-timing-out-in-the-designer and ensure the suggested browser settings are applied."
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "unavailable",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

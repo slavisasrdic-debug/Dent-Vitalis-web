@@ -1,0 +1,94 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:49.023Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source kartica Premium: ponte fisso su impianti",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults kartica Premium: ponte fisso su impianti",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source kartica Premium: ponte fisso su impianti",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5c",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5e",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/prestazioni/premium-ponte-fisso-su-impianti\">Premium: ponte fisso su impianti</a>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c60",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.</p>",
+              "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c64",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Prezzo fisso a 4.990 €</div>",
+              "text": "Prezzo fisso a 4.990 €"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults kartica Premium: ponte fisso su impianti",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

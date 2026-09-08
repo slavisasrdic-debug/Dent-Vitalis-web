@@ -1,0 +1,197 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:23.816Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 696f49d7f343717fcadfcf28",
+        "get_page_content": {
+          "page_id": "696f49d7f343717fcadfcf28",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 696f49d7f343717fcadfcf28",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "696f49d7f343717fcadfcf28",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58cd",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"f0e8c199-3575-b9e0-e6bf-c647ba9c58ce\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d0",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d2",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"bf947871-fef3-84f0-b618-6b77eb64d991\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d4",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d6",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Alloggio</h6>",
+              "text": "Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b94651",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8d4a382da9d4db6fe07469"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b94659",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Alloggio</h1>",
+              "text": "Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b9465b",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Se vieni dall’Italia e il tuo percorso di cura richiede più giorni, puoi soggiornare in un appartamento nuovo e confortevole all’interno della nostra clinica, insieme a un familiare o a una persona di tua fiducia. Avrai così alloggio, cure e assistenza in un unico luogo, senza spostamenti tra la struttura sanitaria e il luogo di soggiorno.</p>",
+              "text": "Se vieni dall’Italia e il tuo percorso di cura richiede più giorni, puoi soggiornare in un appartamento nuovo e confortevole all’interno della nostra clinica, insieme a un familiare o a una persona di tua fiducia. Avrai così alloggio, cure e assistenza in un unico luogo, senza spostamenti tra la struttura sanitaria e il luogo di soggiorno."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "e97da5a4-ccd6-5e76-4bd1-397c08914758",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna bez-razmaka\">Dotazioni degli appartamenti</p>",
+              "text": "Dotazioni degli appartamenti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ogni appartamento dispone di un bagno privato, pensato per garantire comfort e privacy durante il soggiorno. Gli ospiti hanno inoltre a disposizione una spaziosa cucina comune, completamente attrezzata con tutti gli elettrodomestici necessari.\n\nPer un soggiorno piacevole e confortevole, negli appartamenti sono disponibili asciugamani e asciugacapelli. È inoltre presente una TV con canali croati e italiani.\n\nL’accesso agli appartamenti è semplice e autonomo: ogni ospite riceve un codice personale di accesso, che consente di entrare liberamente nell’appartamento in qualsiasi momento, senza necessità di utilizzare le chiavi.</p>",
+              "text": "Ogni appartamento dispone di un bagno privato, pensato per garantire comfort e privacy durante il soggiorno. Gli ospiti hanno inoltre a disposizione una spaziosa cucina comune, completamente attrezzata con tutti gli elettrodomestici necessari.\n\nPer un soggiorno piacevole e confortevole, negli appartamenti sono disponibili asciugamani e asciugacapelli. È inoltre presente una TV con canali croati e italiani.\n\nL’accesso agli appartamenti è semplice e autonomo: ogni ospite riceve un codice personale di accesso, che consente di entrare liberamente nell’appartamento in qualsiasi momento, senza necessità di utilizzare le chiavi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Alloggio per più persone</p>",
+              "text": "Alloggio per più persone"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ogni appartamento può ospitare fino a tre persone, permettendo al paziente di soggiornare insieme ai propri familiari o alle persone che lo accompagnano.\n\nIn questo modo, anche i pazienti che arrivano insieme possono soggiornare nello stesso appartamento, condividendo il soggiorno in un ambiente confortevole e riservato per tutta la durata del percorso di cura.</p>",
+              "text": "Ogni appartamento può ospitare fino a tre persone, permettendo al paziente di soggiornare insieme ai propri familiari o alle persone che lo accompagnano.\n\nIn questo modo, anche i pazienti che arrivano insieme possono soggiornare nello stesso appartamento, condividendo il soggiorno in un ambiente confortevole e riservato per tutta la durata del percorso di cura."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Privacy e riposo durante le cure</p>",
+              "text": "Privacy e riposo durante le cure"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Quando il percorso di cura si articola su più giorni, è importante poter riposare e recuperare tra un appuntamento e l’altro. Invece di trascorrere il tempo in sala d’attesa, puoi tornare nel tuo appartamento, rilassarti e avere a disposizione uno spazio privato e confortevole.\n\nGli appartamenti si trovano all’interno della clinica, quindi, una volta terminato il periodo di riposo, bastano pochi passi per raggiungere nuovamente lo studio e proseguire con il successivo appuntamento, senza spostamenti, attese o tempo perso.</p>",
+              "text": "Quando il percorso di cura si articola su più giorni, è importante poter riposare e recuperare tra un appuntamento e l’altro. Invece di trascorrere il tempo in sala d’attesa, puoi tornare nel tuo appartamento, rilassarti e avere a disposizione uno spazio privato e confortevole.\n\nGli appartamenti si trovano all’interno della clinica, quindi, una volta terminato il periodo di riposo, bastano pochi passi per raggiungere nuovamente lo studio e proseguire con il successivo appuntamento, senza spostamenti, attese o tempo perso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 20
+        },
+        "lastUpdated": "2026-08-31T13:58:44.710Z"
+      }
+    }
+  ]
+}

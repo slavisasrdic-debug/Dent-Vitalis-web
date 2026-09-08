@@ -1,0 +1,253 @@
+---
+import ResponsiveImage from '../ResponsiveImage.astro';
+import Button from '../Button.astro';
+import type { welcome } from '../../content/home';
+interface Props {
+  content: typeof welcome;
+}
+const { content } = Astro.props;
+---
+
+<section class="welcome" aria-labelledby="welcome-title">
+  <div class="welcome-grid">
+    <div class="photo-column">
+      <ResponsiveImage
+        image="DV-Dr-Sime-Zivkocic-2-3.webp"
+        alt="Šime Živković, dr. med. dent., DentVitalis"
+        class="desktop-photo"
+        sizes="100vw"
+      /><ResponsiveImage
+        image="DV-Dr-Sime-Zivkocic-4.webp"
+        alt="Šime Živković, dr. med. dent., DentVitalis"
+        class="mobile-photo"
+        sizes="100vw"
+        reveal
+      />
+    </div><div class="text-column">
+      <div class="welcome-copy" data-reveal>
+        <p class="eyebrow">{content.eyebrow}</p><h2
+          id="welcome-title"
+          data-reveal
+        >
+          {content.title}
+        </h2><p class="statement" data-reveal data-delay="400">
+          <em
+            >{content.statement}<br /><br />{content.thanks}<br /><br />{
+              content.author
+            }</em
+          >
+        </p><p class="documentation" data-reveal>
+          <strong>{content.documentation}</strong>
+        </p><div class="documents">
+          {
+            content.items.map((item) => (
+              <article class="document" data-reveal>
+                <>
+                  <h3>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
+                      <>
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="9"
+                          fill="none"
+                          stroke="currentColor"
+                        />
+                        <circle cx="12" cy="12" r="6.5" fill="currentColor" />
+                      </>
+                    </svg>
+                    {item.title}
+                  </h3>
+                  <p>{item.text}</p>
+                </>
+              </article>
+            ))
+          }
+        </div><div class="cta"><Button {...content.cta} /></div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .welcome {
+    padding-bottom: 60px;
+  }
+  .welcome-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+  }
+  .photo-column {
+    position: relative;
+  }
+  .photo-column :global(.desktop-photo) {
+    position: sticky;
+    top: 70px;
+    width: 96vw;
+    max-width: none;
+    height: 100svh;
+    object-fit: cover;
+  }
+  .photo-column :global(.mobile-photo) {
+    display: none;
+  }
+  .text-column {
+    position: relative;
+    z-index: 1;
+    padding: 0 5% 0 60px;
+    background: linear-gradient(90deg, transparent, var(--color-surface) 50%);
+  }
+  .welcome-copy {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    min-height: 96svh;
+    padding-block: 400px;
+  }
+  .eyebrow {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  h2 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 20px 0;
+  }
+  .statement {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.8px;
+    margin-bottom: 100px;
+  }
+  .documentation {
+    font-size: 22px;
+    line-height: 140%;
+  }
+  .documents {
+    margin-top: 20px;
+  }
+  .document {
+    padding-block: 20px;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .document:last-child {
+    border: 0;
+    margin-bottom: 40px;
+  }
+  .document h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .document svg {
+    color: var(--color-accent);
+    flex: none;
+    width: 12.8px;
+    height: 12.8px;
+  }
+  .document:first-child svg {
+    width: 16px;
+    height: 16px;
+  }
+  .document p {
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .cta {
+    align-self: flex-start;
+  }
+  @media screen and (min-width: 1280px) {
+    .welcome-grid {
+      gap: 60px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .welcome-grid {
+      gap: 100px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .welcome-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      padding-top: 100px;
+    }
+    .photo-column :global(.desktop-photo) {
+      display: none;
+    }
+    .photo-column :global(.mobile-photo) {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .text-column {
+      padding: 0;
+    }
+    .welcome-copy {
+      padding: 60px 5% 0;
+      max-width: none;
+    }
+    .document h3 {
+      gap: 20px;
+    }
+    .document p {
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .welcome-copy {
+      padding-inline: 7%;
+    }
+    h2 {
+      font-size: 42px;
+    }
+    .document h3 {
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .welcome {
+      padding-block: 60px 120px;
+    }
+    h2 {
+      font-size: 9vw;
+    }
+    .statement {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .documentation {
+      font-size: 20px;
+    }
+    .document h3 {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .document h3 {
+      gap: 10px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .statement {
+      font-size: 20px;
+    }
+    .statement em {
+      font-size: 18px;
+    }
+  }
+</style>

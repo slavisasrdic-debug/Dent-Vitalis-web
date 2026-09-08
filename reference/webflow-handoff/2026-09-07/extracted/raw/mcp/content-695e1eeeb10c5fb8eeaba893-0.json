@@ -1,0 +1,206 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:18.151Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba893",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba893",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba893",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba893",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "35521343-eda2-f34e-a709-45140254e8da",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"35521343-eda2-f34e-a709-45140254e8db\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "35521343-eda2-f34e-a709-45140254e8dd",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "35521343-eda2-f34e-a709-45140254e8df",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"1d910049-e678-bc94-9048-81cb2cfba9cd\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "35521343-eda2-f34e-a709-45140254e8e1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "35521343-eda2-f34e-a709-45140254e8e3",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Garanzie</h6>",
+              "text": "Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "fc0849d0-fa9f-787a-a054-62f7b32aeafb",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86fa107eb37b4292de530f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fc0849d0-fa9f-787a-a054-62f7b32aeb03",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Garanzie</h1>",
+              "text": "Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fc0849d0-fa9f-787a-a054-62f7b32aeb05",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Garanzie fornite per iscritto e in italiano</p>",
+              "text": "Garanzie fornite per iscritto e in italiano"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24123a",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La scelta della clinica giusta è la migliore garanzia per un trattamento di qualità.</p>",
+              "text": "La scelta della clinica giusta è la migliore garanzia per un trattamento di qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Garanzia in lingua italiana</p>",
+              "text": "Garanzia in lingua italiana"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per le prestazioni odontoiatriche per le quali è prevista la garanzia, rilasciamo una garanzia scritta, con condizioni e durata chiaramente definite.\n\nAlla garanzia vengono allegati i relativi documenti fiscali delle prestazioni eseguite, che attestano in modo chiaro i servizi effettuati e i relativi costi. In questo modo garantiamo la massima trasparenza e una documentazione completa del percorso di cura.\n\nIl paziente dispone così di tutta la documentazione relativa alle prestazioni effettuate, ai materiali utilizzati, ai costi e alle condizioni della garanzia.</p>",
+              "text": "Per le prestazioni odontoiatriche per le quali è prevista la garanzia, rilasciamo una garanzia scritta, con condizioni e durata chiaramente definite.\n\nAlla garanzia vengono allegati i relativi documenti fiscali delle prestazioni eseguite, che attestano in modo chiaro i servizi effettuati e i relativi costi. In questo modo garantiamo la massima trasparenza e una documentazione completa del percorso di cura.\n\nIl paziente dispone così di tutta la documentazione relativa alle prestazioni effettuate, ai materiali utilizzati, ai costi e alle condizioni della garanzia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Passaporto dell’impianto</p>",
+              "text": "Passaporto dell’impianto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Insieme alla garanzia, ogni paziente riceve anche un passaporto degli impianti, un documento che riporta in modo preciso tutti i dati relativi agli impianti inseriti, tra cui produttore, modello e caratteristiche di ciascun impianto.\n\nQuesta documentazione è particolarmente importante per chi vive all’estero o viaggia frequentemente. In caso di necessità o di eventuali problemi, qualsiasi implantologo può consultare i dati relativi agli impianti inseriti e intervenire in modo adeguato, anche quando il paziente si trova lontano dalla nostra clinica.\n\nIl passaporto è inoltre importante per eventuali esigenze future. Se, dopo diversi anni, fosse necessario sostituire o rifare la protesi sugli impianti esistenti, il paziente potrà rivolgersi anche a un altro dentista o implantologo, disponendo già di tutte le informazioni necessarie per procedere.\n\nRiteniamo che ogni paziente debba avere pieno accesso alle informazioni relative alle proprie cure. Per questo consegniamo tutta la documentazione sugli impianti inseriti, affinché possa conservarla e utilizzarla in qualsiasi momento e ovunque si trovi.</p>",
+              "text": "Insieme alla garanzia, ogni paziente riceve anche un passaporto degli impianti, un documento che riporta in modo preciso tutti i dati relativi agli impianti inseriti, tra cui produttore, modello e caratteristiche di ciascun impianto.\n\nQuesta documentazione è particolarmente importante per chi vive all’estero o viaggia frequentemente. In caso di necessità o di eventuali problemi, qualsiasi implantologo può consultare i dati relativi agli impianti inseriti e intervenire in modo adeguato, anche quando il paziente si trova lontano dalla nostra clinica.\n\nIl passaporto è inoltre importante per eventuali esigenze future. Se, dopo diversi anni, fosse necessario sostituire o rifare la protesi sugli impianti esistenti, il paziente potrà rivolgersi anche a un altro dentista o implantologo, disponendo già di tutte le informazioni necessarie per procedere.\n\nRiteniamo che ogni paziente debba avere pieno accesso alle informazioni relative alle proprie cure. Per questo consegniamo tutta la documentazione sugli impianti inseriti, affinché possa conservarla e utilizzarla in qualsiasi momento e ovunque si trovi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Certificazione UE dei materiali utilizzati</p>",
+              "text": "Certificazione UE dei materiali utilizzati"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per la realizzazione dei nostri manufatti protesici utilizziamo esclusivamente materiali di qualità comprovata e conformi ai requisiti previsti dalla normativa europea vigente. Per i materiali impiegati è disponibile la relativa documentazione che ne attesta la conformità agli standard europei di qualità e sicurezza.\n\nPer il paziente, questo significa sapere esattamente quali materiali sono stati utilizzati, conoscerne la provenienza e poter disporre della relativa documentazione. È un importante elemento di trasparenza e tutela, che consente di avere informazioni precise sul proprio manufatto protesico.\n\nLa documentazione sui materiali utilizzati viene conservata insieme a quella relativa al manufatto protesico, così da poter essere consultata anche in futuro, ad esempio in caso di controlli, riparazioni, modifiche o realizzazione di un nuovo manufatto protesico.</p>",
+              "text": "Per la realizzazione dei nostri manufatti protesici utilizziamo esclusivamente materiali di qualità comprovata e conformi ai requisiti previsti dalla normativa europea vigente. Per i materiali impiegati è disponibile la relativa documentazione che ne attesta la conformità agli standard europei di qualità e sicurezza.\n\nPer il paziente, questo significa sapere esattamente quali materiali sono stati utilizzati, conoscerne la provenienza e poter disporre della relativa documentazione. È un importante elemento di trasparenza e tutela, che consente di avere informazioni precise sul proprio manufatto protesico.\n\nLa documentazione sui materiali utilizzati viene conservata insieme a quella relativa al manufatto protesico, così da poter essere consultata anche in futuro, ad esempio in caso di controlli, riparazioni, modifiche o realizzazione di un nuovo manufatto protesico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 21
+        },
+        "lastUpdated": "2026-08-31T13:55:23.082Z"
+      }
+    }
+  ]
+}

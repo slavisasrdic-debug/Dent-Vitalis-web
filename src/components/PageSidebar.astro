@@ -1,0 +1,203 @@
+---
+import type { PageSidebar } from '../content/inner-pages';
+import Icon from './Icon.astro';
+import MapPanel from './MapPanel.astro';
+interface Props {
+  id: string;
+  content: PageSidebar;
+  current: string;
+  variant?: 'standard' | 'testimonials' | 'legal';
+}
+const { content, current, variant = 'standard' } = Astro.props;
+---
+
+<aside
+  id={Astro.props.id}
+  class:list={[
+    'page-sidebar',
+    content.type,
+    variant,
+    `mobile-${content.mobilePlacement}`,
+  ]}
+  aria-label={content.title}
+  data-reveal="sidebar"
+  data-reveal-media={content.type === 'package' ? 'all' : 'desktop'}
+>
+  <div class="sidebar-heading">
+    <h2>{content.title}</h2>{
+      content.secondary && (
+        <a class="secondary" href="#prednost">
+          <span>{content.secondary}</span>
+        </a>
+      )
+    }{
+      content.introduction && <p class="introduction">{content.introduction}</p>
+    }
+  </div>
+  {
+    content.items.map((item) =>
+      item.href && item.href !== '#' ? (
+        <a
+          class="item"
+          data-reveal="slide"
+          href={item.href}
+          aria-current={item.href === current ? 'page' : undefined}
+        >
+          {item.icon && <Icon name="check" />}
+          <span
+            style={`--label-span:${item.labelSpan};--small-label-span:${item.smallLabelSpan}`}
+          >
+            {item.label}
+          </span>
+        </a>
+      ) : (
+        <div
+          id={item.id}
+          class:list={['item', { note: item.note }]}
+          data-reveal="slide"
+        >
+          {item.icon && <Icon name="check" />}
+          <span
+            style={`--label-span:${item.labelSpan};--small-label-span:${item.smallLabelSpan}`}
+          >
+            {item.label}
+          </span>
+        </div>
+      ),
+    )
+  }
+  {content.map && <MapPanel src={content.map} />}
+</aside>
+<style>
+  .page-sidebar {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    border-left: 10px solid var(--color-primary-hover);
+    border-radius: 10px;
+    background: white;
+    padding: 40px;
+    position: sticky;
+    top: 140px;
+    color: #000;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 600;
+  }
+  .sidebar-heading {
+    margin-bottom: 52px;
+  }
+  .legal .sidebar-heading {
+    margin-bottom: 32px;
+  }
+  .item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #dadada;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .item :global(svg) {
+    flex: none;
+  }
+  .item > span {
+    grid-column: span var(--label-span, 1);
+  }
+  a[aria-current],
+  a:hover {
+    color: var(--color-primary);
+  }
+  .package {
+    margin-top: -160px;
+    box-shadow: 0 0 5px #25252533;
+  }
+  .package .sidebar-heading {
+    margin-bottom: 0;
+  }
+  .secondary {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 300;
+    padding-bottom: 4px;
+  }
+  .secondary span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .introduction {
+    margin: 10px 0 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  .note {
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  @media screen and (max-width: 991px) {
+    .page-sidebar {
+      order: 1;
+      position: relative;
+      top: 0;
+      padding-bottom: 20px;
+    }
+    .mobile-before {
+      order: -1;
+    }
+    .testimonials .sidebar-heading h2 {
+      display: none;
+    }
+    .testimonials {
+      padding-top: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .package {
+      margin-top: -120px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .item > span {
+      grid-column: span var(--small-label-span, 1);
+    }
+    .page-sidebar {
+      border-left-width: 6px;
+      padding: 30px 20px;
+    }
+    h2,
+    .secondary {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    .package {
+      margin-top: -100px;
+    }
+    .secondary span {
+      font-size: 16px;
+    }
+    .secondary {
+      padding-bottom: 3px;
+    }
+    .testimonials {
+      padding-top: 0;
+    }
+    .item :global(svg) {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-top: 2px;
+    }
+    .note {
+      font-size: 14px;
+    }
+  }
+</style>

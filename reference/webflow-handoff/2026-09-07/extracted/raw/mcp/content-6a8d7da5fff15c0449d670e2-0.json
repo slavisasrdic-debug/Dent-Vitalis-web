@@ -1,0 +1,116 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:15.368Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 6a8d7da5fff15c0449d670e2",
+        "get_page_content": {
+          "page_id": "6a8d7da5fff15c0449d670e2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 6a8d7da5fff15c0449d670e2",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "6a8d7da5fff15c0449d670e2",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "a7811c45-af10-60b9-3dc2-48ab6a44a124",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "6eb38989-0fc5-d6a4-9052-22dd0dc6b608",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/\" data-w-id=\"7c65c170-16eb-3eda-855d-44023bfd4f4d\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "84f96f09-d04c-9169-e930-f12275345cce",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"> / </h6>",
+              "text": " / "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fa5980ad-7918-1402-f569-5ab2371a7400",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Prestazioni</h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8f8ade52-e1c3-b6d0-e6b4-a95ea6370f06",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Prestazioni</h1>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "79a41400-cb7c-363c-0ef8-9899fa63e22f",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Grandi risparmi senza rinunciare alla massima qualità.</p>",
+              "text": "Grandi risparmi senza rinunciare alla massima qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "66840bd9-9b5e-cfc3-e1af-71433b1a67b8",
+            "componentId": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "ef3b57b7-4f3d-ccfd-54d0-273762030ff1",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "3d5810e4-763c-4783-7b7a-26b902d6a876",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "2bba3d71-4b81-f4e8-f8ab-1feeaffa3f71",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "4f7bceef-72a7-29a9-df2a-ff524db59f74",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 11
+        },
+        "lastUpdated": "2026-09-03T12:36:37.039Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:37:17.030Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba885",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba885",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba885",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba885",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "bebb8768-f236-8d78-48ea-f404c0429564",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"bebb8768-f236-8d78-48ea-f404c0429565\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bebb8768-f236-8d78-48ea-f404c0429567",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bebb8768-f236-8d78-48ea-f404c0429569",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/prestazioni-dentali\" data-w-id=\"d2fafe2d-d5e9-05a7-5aea-c1fdee895c2f\">Prestazioni</a></h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bebb8768-f236-8d78-48ea-f404c042956b",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bebb8768-f236-8d78-48ea-f404c042956d",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Sbiancamento dei denti</h6>",
+              "text": "Sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "40db17d3-bb4c-400e-5f45-1c86386aa90d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8c26f50fa9581e69bf6112"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "40db17d3-bb4c-400e-5f45-1c86386aa912",
+            "text": {
+              "html": "<h6 class=\"nadnaslov-detaljna\">Pacchetto “tutto incluso”</h6>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "40db17d3-bb4c-400e-5f45-1c86386aa915",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Sbiancamento dei denti</h1>",
+              "text": "Sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "40db17d3-bb4c-400e-5f45-1c86386aa917",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.</p>",
+              "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b3d109d-0081-c1f2-4878-6403331d0b79",
+            "text": {
+              "html": "<div class=\"text-block-11\">Prezzo fisso a 250&nbsp;€<br data-w-id=\"6c5a9c99-7fb4-06c4-a3f9-480841d50955\"></div>",
+              "text": "Prezzo fisso a 250 €\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "23d5ada7-8dad-b239-c81e-4b3e840f8002",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"23d5ada7-8dad-b239-c81e-4b3e840f8005\"><strong class=\"bold-text-3\" data-w-id=\"23d5ada7-8dad-b239-c81e-4b3e840f8006\">(202,5&nbsp;€*)</strong></span></div>",
+              "text": "(202,5 €*)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "47933700-bb97-b61f-e191-7a4f486d24c1",
+            "text": {
+              "html": "<h3 class=\"large-paragraph\">Il pacchetto Premium “Sbiancamento dei denti” comprende:</h3>",
+              "text": "Il pacchetto Premium “Sbiancamento dei denti” comprende:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "74e51574-9294-1e07-4389-4d541fa1edaa",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74e51574-9294-1e07-4389-4d541fa1edab",
+            "text": {
+              "html": "<div class=\"text-block-16\">Sabbiatura dentale con Air Flow: procedura indolore e sicura che rimuove placca e pigmentazioni dai denti</div>",
+              "text": "Sabbiatura dentale con Air Flow: procedura indolore e sicura che rimuove placca e pigmentazioni dai denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27f",
+            "text": {
+              "html": "<div class=\"text-block-16\">Due mascherine personalizzate per uno sbiancamento efficace (realizzate sulla base di una scansione intraorale)</div>",
+              "text": "Due mascherine personalizzate per uno sbiancamento efficace (realizzate sulla base di una scansione intraorale)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "33be8193-89b3-6b24-e08e-b5f575ea61e0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "33be8193-89b3-6b24-e08e-b5f575ea61e1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Gel sbiancante professionale</div>",
+              "text": "Gel sbiancante professionale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "2eca721e-74b5-7e89-44b0-640f1670c56a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2eca721e-74b5-7e89-44b0-640f1670c56b",
+            "text": {
+              "html": "<div class=\"text-block-16\">Crema per la protezione dei denti dopo lo sbiancamento</div>",
+              "text": "Crema per la protezione dei denti dopo lo sbiancamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "04d738e2-bb99-151b-93b7-bdbe9893ea95",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "04d738e2-bb99-151b-93b7-bdbe9893ea96",
+            "text": {
+              "html": "<div class=\"text-block-16\">Istruzioni per l’uso in italiano</div>",
+              "text": "Istruzioni per l’uso in italiano"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9f43e4f6-e458-0d15-07f3-6e0896abb339",
+            "text": {
+              "html": "<div class=\"text-block-16 malo\">* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%.</div>",
+              "text": "* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8af96da9-f158-2b1f-91b5-71907aa282b4",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Lo sbiancamento dentale domiciliare è un trattamento estetico che permette di schiarire in modo delicato e graduale il colore dei denti, comodamente a casa.<br data-w-id=\"8af96da9-f158-2b1f-91b5-71907aa282b6\">‍<br data-w-id=\"8af96da9-f158-2b1f-91b5-71907aa282b8\">Si tratta di un procedimento sicuro, personalizzato e adatto a chi desidera ottenere un sorriso più brillante senza ricorrere a interventi invasivi.<br data-w-id=\"8af96da9-f158-2b1f-91b5-71907aa282bc\"></p>",
+              "text": "Lo sbiancamento dentale domiciliare è un trattamento estetico che permette di schiarire in modo delicato e graduale il colore dei denti, comodamente a casa.\n‍\nSi tratta di un procedimento sicuro, personalizzato e adatto a chi desidera ottenere un sorriso più brillante senza ricorrere a interventi invasivi.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "46a0882e-cbe3-2990-e16f-6184f3e7382d",
+            "text": {
+              "html": "<div class=\"medjunaslov-h3\">Vantaggi aggiuntivi</div>",
+              "text": "Vantaggi aggiuntivi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "34210c16-6a58-6eea-891e-74caf0e2c0e0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f59a688d-6f0f-2eec-dee6-4d70afa3dafb",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Possibilità di soggiorno gratuito all’interno della clinica<br data-w-id=\"f59a688d-6f0f-2eec-dee6-4d70afa3dafd\"></p>",
+              "text": "Possibilità di soggiorno gratuito all’interno della clinica\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "20a25491-59cf-75da-1aab-9e08c8c2be36",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f59a688d-6f0f-2eec-dee6-4d70afa3db00",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%<br data-w-id=\"f59a688d-6f0f-2eec-dee6-4d70afa3db02\"></p>",
+              "text": "Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "671e02b7-0d39-9100-0d64-28120773c532",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f59a688d-6f0f-2eec-dee6-4d70afa3db0f",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Organizzazione del trasporto<br data-w-id=\"f59a688d-6f0f-2eec-dee6-4d70afa3db11\"></p>",
+              "text": "Organizzazione del trasporto\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c164e92f-e91e-2e74-a1c2-882bab1e1427",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La nostra raccomandazione è di non sbiancare i denti senza la supervisione di un odontoiatra. Procedure scorrette o l’uso di gel troppo concentrati possono danneggiare smalto, dentina e gengive.</p>",
+              "text": "La nostra raccomandazione è di non sbiancare i denti senza la supervisione di un odontoiatra. Procedure scorrette o l’uso di gel troppo concentrati possono danneggiare smalto, dentina e gengive."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Ulteriori informazioni</p>",
+              "text": "Ulteriori informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b1ea8b65-299e-9066-80cf-240ad43d94c7",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Preparazione per lo sbiancamento dei denti</h3>",
+              "text": "Preparazione per lo sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prima di iniziare lo sbiancamento, è importante eseguire una pulizia professionale dei denti in studio, che comprende la rimozione del tartaro con sabbiatura (Air Flow).<br data-w-id=\"036aafe3-1ffc-ce72-9792-ff8841618ea5\"><br data-w-id=\"af9c7dc9-9d2b-c2af-0cca-c65b92d6daec\">Questo passaggio permette di eliminare macchie superficiali, residui di placca e impurità, così che il gel sbiancante possa agire in modo uniforme e più efficace. La durata totale della seduta è di 30 minuti.</p>",
+              "text": "Prima di iniziare lo sbiancamento, è importante eseguire una pulizia professionale dei denti in studio, che comprende la rimozione del tartaro con sabbiatura (Air Flow).\n\nQuesto passaggio permette di eliminare macchie superficiali, residui di placca e impurità, così che il gel sbiancante possa agire in modo uniforme e più efficace. La durata totale della seduta è di 30 minuti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa5",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Realizzazione di mascherine personalizzate</h3>",
+              "text": "Realizzazione di mascherine personalizzate"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dopo la seduta di igiene orale, il dentista realizza una mascherina personalizzata, modellata sulla forma dei denti del paziente. Questa mascherina serve a contenere il gel sbiancante, che viene distribuito in piccole quantità al suo interno.</p>",
+              "text": "Dopo la seduta di igiene orale, il dentista realizza una mascherina personalizzata, modellata sulla forma dei denti del paziente. Questa mascherina serve a contenere il gel sbiancante, che viene distribuito in piccole quantità al suo interno."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "88d3dfc8-16b5-f251-bb87-3dab2212bb5c",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Procedimento</h3>",
+              "text": "Procedimento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "88d3dfc8-16b5-f251-bb87-3dab2212bb5e",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il paziente indossa la mascherina con il gel secondo le indicazioni del medico: durante la notte e per tre ore al giorno. Durante questo periodo, è consigliato evitare cibi e bevande che tendono a macchiare i denti, come caffè, tè, vino rosso o tabacco. Il procedimento di sbiancamento può essere prolungato per ottenere il colore desiderato. Non è necessario realizzare una nuova mascherina, basta acquistare del gel aggiuntivo.</p>",
+              "text": "Il paziente indossa la mascherina con il gel secondo le indicazioni del medico: durante la notte e per tre ore al giorno. Durante questo periodo, è consigliato evitare cibi e bevande che tendono a macchiare i denti, come caffè, tè, vino rosso o tabacco. Il procedimento di sbiancamento può essere prolungato per ottenere il colore desiderato. Non è necessario realizzare una nuova mascherina, basta acquistare del gel aggiuntivo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "afce40a5-d7ec-bb1d-60be-2a996a0a8143",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Risultato</h3>",
+              "text": "Risultato"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "afce40a5-d7ec-bb1d-60be-2a996a0a8145",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Al termine del trattamento, il sorriso risulta più chiaro, luminoso e naturale, senza compromettere la salute o la struttura dei denti.<br data-w-id=\"41ddf8a5-ff9b-2193-9504-a68010538530\">‍</p>",
+              "text": "Al termine del trattamento, il sorriso risulta più chiaro, luminoso e naturale, senza compromettere la salute o la struttura dei denti.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "71544de8-4bf3-2aed-6d17-2de3f55739b6",
+            "text": {
+              "html": "<p class=\"large-paragraph _2\"><strong data-w-id=\"190b5cb5-e570-882d-ea57-6bf21f11caaa\">Potrebbe interessarti….</strong><br data-w-id=\"71544de8-4bf3-2aed-6d17-2de3f55739b8\"></p>",
+              "text": "Potrebbe interessarti….\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3b411863-a37a-21d3-d474-447cb5ce989f",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Rimodellamento gengivale (Gummy smile)</p>",
+              "text": "Rimodellamento gengivale (Gummy smile)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a5",
+            "text": {
+              "html": "<p class=\"cijena\">Prezzo a partire da 119&nbsp;€</p>",
+              "text": "Prezzo a partire da 119 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Quando il sorriso mostra troppa gengiva o i denti appaiono troppo piccoli rispetto al viso, la correzione gengivale rappresenta la soluzione ideale.<br data-w-id=\"90fb306e-8a20-0364-48f6-3102ca6a0400\"><br data-w-id=\"fbe675f2-e990-2c06-bf47-f5019c8316e3\">L’intervento, completamente indolore e svolto in anestesia locale, consente di riequilibrare in modo armonioso il rapporto tra gengive, denti e lineamenti del volto.<br data-w-id=\"70eb4602-017b-adcd-d54b-5fa44977be60\"><br data-w-id=\"bb6e92d6-ce47-02d4-b315-98a25a4266d9\">Il risultato? Un sorriso più naturale, armonioso e piacevole, capace di trasformare l’intera espressione del viso.</p>",
+              "text": "Quando il sorriso mostra troppa gengiva o i denti appaiono troppo piccoli rispetto al viso, la correzione gengivale rappresenta la soluzione ideale.\n\nL’intervento, completamente indolore e svolto in anestesia locale, consente di riequilibrare in modo armonioso il rapporto tra gengive, denti e lineamenti del volto.\n\nIl risultato? Un sorriso più naturale, armonioso e piacevole, capace di trasformare l’intera espressione del viso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "904cd443-e617-48cd-b26c-c579a69b6d97",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-altre\">Altre prestazioni</p>",
+              "text": "Altre prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "d7868e87-7aad-a2ab-2b87-c1af71267a79",
+            "componentId": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "7adaa30d-a758-b3b2-e67d-ab4221fa4e7b",
+            "componentId": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "0cedbfec-7b64-ed7b-50a6-7becaea2cdb2",
+            "componentId": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "16d5bd80-b2e9-e000-c012-9504c3d9bab2",
+            "componentId": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "1818c76d-8a05-1b76-3d08-1f3baaa6ed81",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "c1fabe2b-6345-1f75-ab78-f767a9022f07",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "a58ed721-f787-2a6c-611a-130494f76548",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "5a8d9ddf-461e-5f22-02b2-ccbb9c998cda",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 55
+        },
+        "lastUpdated": "2026-09-04T13:37:08.794Z"
+      }
+    }
+  ]
+}

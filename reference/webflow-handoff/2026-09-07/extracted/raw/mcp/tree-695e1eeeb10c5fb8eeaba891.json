@@ -1,0 +1,1177 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:44:47.796Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba891",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "68e77bb8a2d3bcb91046b16b"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "482d5fa8-e5df-5dc3-1570-cf8d3da6ec21"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba891",
+                      "element": "e271de97-aedd-562e-bf33-4ef0354f3092"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "e271de97-aedd-562e-bf33-4ef0354f3093"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "e271de97-aedd-562e-bf33-4ef0354f3094"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "e271de97-aedd-562e-bf33-4ef0354f3095"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "e271de97-aedd-562e-bf33-4ef0354f3096"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "e271de97-aedd-562e-bf33-4ef0354f3097"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "none"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba891",
+                                              "element": "e271de97-aedd-562e-bf33-4ef0354f3098"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "e271de97-aedd-562e-bf33-4ef0354f3099"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "e271de97-aedd-562e-bf33-4ef0354f309a"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "e271de97-aedd-562e-bf33-4ef0354f309b"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "83f16b67-06da-4b6f-962e-4731bfb21b13"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/informazioni-per-pazienti"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba891",
+                                              "element": "e48716f0-df11-2dec-2ea3-041834a83ce9"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Informazioni"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "e271de97-aedd-562e-bf33-4ef0354f309d"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "e271de97-aedd-562e-bf33-4ef0354f309e"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "e271de97-aedd-562e-bf33-4ef0354f309f"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "e271de97-aedd-562e-bf33-4ef0354f30a0"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Tempi del trattamento"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "629a792e-726c-c42a-55be-048f9217f955"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba891",
+                      "element": "586bea81-623d-139e-5a22-37fcdaf9ab0f"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "586bea81-623d-139e-5a22-37fcdaf9ab10"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "586bea81-623d-139e-5a22-37fcdaf9ab11"
+                        },
+                        "type": "Image",
+                        "styleNames": [
+                          "Image 10"
+                        ],
+                        "settings": {
+                          "visibility": true,
+                          "assetId": "6a86ee924685cf6950ab527a",
+                          "altText": "Tempi del trattamento"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba891",
+                      "element": "586bea81-623d-139e-5a22-37fcdaf9ab12"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "586bea81-623d-139e-5a22-37fcdaf9ab13"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "586bea81-623d-139e-5a22-37fcdaf9ab14"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "586bea81-623d-139e-5a22-37fcdaf9ab18"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "586bea81-623d-139e-5a22-37fcdaf9ab19"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "586bea81-623d-139e-5a22-37fcdaf9ab1a"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Tempi del trattamento"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "586bea81-623d-139e-5a22-37fcdaf9ab1b"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "586bea81-623d-139e-5a22-37fcdaf9ab1c"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Le nostre terapie sono attentamente progettate per consentire ai pazienti di ottenere risultati eccellenti con il minor numero possibile di visite, attraverso un piano di cura personalizzato e organizzato in modo efficiente."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2c"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba891",
+                      "element": "47933700-bb97-b61f-e191-7a4f486d24a9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Detaljna tekst"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab24123a"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "name": "Sidebar informazioni",
+                          "props": [],
+                          "slots": []
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "1cb5350d-82f2-c742-116d-a36c6a86d23b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Tekst detaljna"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "78124333-d5f5-020a-794e-312ed4cacf02"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Large Paragraph"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "78124333-d5f5-020a-794e-312ed4cacf03"
+                                },
+                                "type": "String",
+                                "textContent": "Grazie all’impiego di tecnologie avanzate, metodologie all’avanguardia e materiali di eccellente qualità, presso Dentvitalis siamo in grado di gestire con successo anche i casi più complessi in tempi brevi, senza compromessi in termini di qualità e precisione."
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "a4b01150-4f6f-0a0d-f9ec-7c573541bf1a"
+                                },
+                                "type": "",
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "820b070d-5d21-ad43-f9e3-63cc0cae5376"
+                                },
+                                "type": "",
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "a4b01150-4f6f-0a0d-f9ec-7c573541bf1b"
+                                },
+                                "type": "String",
+                                "textContent": "Tutti i servizi necessari sono disponibili in un’unica sede, rendendo l’intero percorso più semplice, rapido e confortevole per il paziente. Durante tutta la permanenza, garantiamo assistenza e supporto 24 ore su 24, affinché ogni paziente possa sentirsi sicuro, seguito e accompagnato in ogni fase del proprio percorso di cura."
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "8f03356f-7ded-9e28-06d9-a7b7a87f1de1"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "e831af9e-f5a7-8b68-5383-a2625f83dde0"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "e831af9e-f5a7-8b68-5383-a2625f83dde1"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Tecnologia"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "3e4af075-e737-56a2-8fba-fd5fe2fc772b"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "62f4e84c-6fdb-4d01-4b41-022674aa8caf"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "62f4e84c-6fdb-4d01-4b41-022674aa8cb1"
+                                        },
+                                        "type": "String",
+                                        "textContent": "La diagnostica avanzata e la pianificazione precisa ci consentono di programmare in dettaglio ogni fase del percorso di cura, ridurre il numero di visite necessarie e rendere l’intero processo più rapido, preciso e prevedibile."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "bad2587a-5047-b531-e551-b8942e00dcdb"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "bad2587a-5047-b531-e551-b8942e00dcde"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "bad2587a-5047-b531-e551-b8942e00dcdf"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Nel caso delle terapie implantologiche, questo approccio consente di individuare con precisione la posizione ottimale dell’impianto, valutare in modo approfondito le strutture anatomiche e preparare accuratamente l’intervento, riducendo così la possibilità di imprevisti durante il percorso di cura.\n\nAllo stesso tempo, la pianificazione digitale e il coordinamento di tutte le fasi del trattamento permettono di accelerare la realizzazione delle soluzioni protesiche, ridurre i tempi di attesa e rendere l’intero percorso terapeutico più efficiente, mantenendo i più elevati standard di qualità e precisione."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "81b48bc3-8773-9e6e-8670-a8a166a1bfa4"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "99d716fd-672b-03de-1a34-651f356fa2a4"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004b"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004d"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Laboratorio interno della clinica"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70050"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70052"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Il laboratorio odontotecnico interno consente una collaborazione diretta e immediata tra odontoiatri e tecnici, facilitando il coordinamento e accelerando significativamente l’intero processo di realizzazione dei manufatti protesici. Senza la necessità di affidare i lavori a laboratori esterni, è possibile effettuare verifiche, correzioni e modifiche in tempi rapidi durante ogni fase della lavorazione."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70053"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70055"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Questa stretta integrazione permette di garantire un maggiore controllo sulla qualità, sulla precisione e sull’estetica di ogni manufatto, assicurandone al contempo un adattamento ottimale alle esigenze del paziente. Il risultato è una riduzione dei tempi di realizzazione, un minor numero di visite e una soluzione protesica di elevata qualità."
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "30c9d597-2b1f-e23f-3270-217218770ebf"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "3270731e-3a01-e3e5-fe17-253f9eabf125"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf126"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "3270731e-3a01-e3e5-fe17-253f9eabf127"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Alloggio all’interno della clinica"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf12a"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "3270731e-3a01-e3e5-fe17-253f9eabf12b"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "3270731e-3a01-e3e5-fe17-253f9eabf12c"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Quando il percorso terapeutico prevede più appuntamenti, la possibilità di soggiornare in un appartamento all’interno della clinica offre ai pazienti un ulteriore livello di comfort, privacy e praticità. Invece di attendere tra un appuntamento e l’altro o di dover organizzare il trasporto e il soggiorno in un’altra struttura, il paziente può semplicemente tornare nel proprio appartamento e riposarsi.\n\nTutto è organizzato in un’unica sede – alloggio, percorso terapeutico e assistenza – permettendo di organizzare più facilmente la giornata e riducendo il tempo trascorso inutilmente in sala d’attesa o negli spostamenti. È una soluzione particolarmente pratica per i pazienti che arrivano da altre città o dall’estero e desiderano avere l’intero percorso di cura organizzato in un unico luogo."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba891",
+                              "element": "a2d207f1-4153-feb3-fdd3-64075fcd4c0e"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "a2d207f1-4153-feb3-fdd3-64075fcd4c0f"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "a2d207f1-4153-feb3-fdd3-64075fcd4c10"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Implantologia di entrambe le arcate in un’unica seduta"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba891",
+                                  "element": "a2d207f1-4153-feb3-fdd3-64075fcd4c11"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba891",
+                                      "element": "a2d207f1-4153-feb3-fdd3-64075fcd4c12"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba891",
+                                          "element": "a2d207f1-4153-feb3-fdd3-64075fcd4c13"
+                                        },
+                                        "type": "String",
+                                        "textContent": "La sedazione cosciente consente, quando previsto dal piano di cura individuale e in presenza delle necessarie indicazioni cliniche, di eseguire l’intervento implantologico su entrambe le arcate dentali in un’unica seduta. Durante la procedura, il paziente rimane sveglio e può comunicare con il medico, ma è rilassato e vive l’intervento con un minore livello di stress e disagio.\n\nQuesto approccio può ridurre significativamente la durata complessiva del percorso di cura, diminuire il numero di visite e rendere l’intero processo più semplice, soprattutto per i pazienti che arrivano da altre città o dall’estero."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba891",
+                      "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2e"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 2"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba891",
+                          "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2f"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Home 2 Services Text Wrapper"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba891",
+                  "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Immutable reference snapshots must retain their exact bytes across platforms.
+reference/webflow-handoff/2026-09-07/extracted/** -text
+source-assets/webflow-export/2026-09-07/extracted/** -text
+
+# Identical source/public files share one content-addressed LFS object.
+reference/webflow-handoff/2026-09-07/extracted/assets/** filter=lfs diff=lfs merge=lfs -text
+source-assets/webflow-export/2026-09-07/extracted/images/** filter=lfs diff=lfs merge=lfs -text
+source-assets/webflow-export/2026-09-07/extracted/videos/** filter=lfs diff=lfs merge=lfs -text
+source-assets/webflow-export/2026-09-07/extracted/fonts/** filter=lfs diff=lfs merge=lfs -text
+public/assets/images/** filter=lfs diff=lfs merge=lfs -text
+public/assets/video/** filter=lfs diff=lfs merge=lfs -text
+public/assets/fonts/** filter=lfs diff=lfs merge=lfs -text
+source-assets/external-images/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+source-assets/external-images/**/*.png filter=lfs diff=lfs merge=lfs -text
+source-assets/fonts/**/*.woff2 filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+
+# New visual evidence is retained in full; existing baseline history is untouched.
+reference/screenshots/2026-09-07-home/**/*.png filter=lfs diff=lfs merge=lfs -text
+reference/screenshots/2026-09-07-home/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+reference/screenshots/2026-09-07-inner/**/*.png filter=lfs diff=lfs merge=lfs -text
+reference/screenshots/2026-09-07-inner/**/*.jpg filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,278 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:22.195Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba892",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba892",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba892",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba892",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "3b532b7f-754e-f1ff-ea49-b4e70f40c6b8",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"3b532b7f-754e-f1ff-ea49-b4e70f40c6b9\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3b532b7f-754e-f1ff-ea49-b4e70f40c6bb",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3b532b7f-754e-f1ff-ea49-b4e70f40c6bd",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"94ca8e72-8ba0-d3f9-5f66-eecde111b3f6\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3b532b7f-754e-f1ff-ea49-b4e70f40c6bf",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3b532b7f-754e-f1ff-ea49-b4e70f40c6c1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Pagamento flessibile</h6>",
+              "text": "Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dca34dd2-4bec-05d2-81b1-f6dc3d1c5dcb",
+            "image": {
+              "alt": "Pagamento flessibile",
+              "assetId": "6a86f30e9297f089d9b1c87e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dca34dd2-4bec-05d2-81b1-f6dc3d1c5dd3",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Pagamento flessibile</h1>",
+              "text": "Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dca34dd2-4bec-05d2-81b1-f6dc3d1c5dd5",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Scegli la soluzione più adatta alle tue esigenze.</p>",
+              "text": "Scegli la soluzione più adatta alle tue esigenze."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24123a",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutti i pagamenti effettuati in Croazia vengono effettuati in euro e, per ogni pagamento, riceverai una ricevuta ufficiale con l’indicazione chiara di tutte le voci e dei relativi importi. Per rendere la documentazione il più possibile chiara e conforme alle esigenze della tua assicurazione sanitaria locale, la ricevuta può essere rilasciata in croato, italiano, sloveno, inglese o tedesco.</p>",
+              "text": "Tutti i pagamenti effettuati in Croazia vengono effettuati in euro e, per ogni pagamento, riceverai una ricevuta ufficiale con l’indicazione chiara di tutte le voci e dei relativi importi. Per rendere la documentazione il più possibile chiara e conforme alle esigenze della tua assicurazione sanitaria locale, la ricevuta può essere rilasciata in croato, italiano, sloveno, inglese o tedesco."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Termini di pagamento</p>",
+              "text": "Termini di pagamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">In questo modo avrai una visione completa e trasparente dei costi, oltre a tutta la documentazione necessaria per un’eventuale richiesta di rimborso da parte della tua assicurazione.</p>",
+              "text": "In questo modo avrai una visione completa e trasparente dei costi, oltre a tutta la documentazione necessaria per un’eventuale richiesta di rimborso da parte della tua assicurazione."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Metodi di pagamento</p>",
+              "text": "Metodi di pagamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per il pagamento puoi scegliere tra diverse opzioni: contanti, bonifico bancario o carta.\n\nAccettiamo le principali carte di pagamento, tra cui Mastercard, Diners Club, Maestro, Visa e Visa Premium.</p>",
+              "text": "Per il pagamento puoi scegliere tra diverse opzioni: contanti, bonifico bancario o carta.\n\nAccettiamo le principali carte di pagamento, tra cui Mastercard, Diners Club, Maestro, Visa e Visa Premium."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Istruzioni per il bonifico bancario</p>",
+              "text": "Istruzioni per il bonifico bancario"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "782853d6-5c1f-847a-472f-72904124d24c",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Beneficiario: Dentvitalis Fides d.o.o.<br data-w-id=\"782853d6-5c1f-847a-472f-72904124d24e\"></p>",
+              "text": "Beneficiario: Dentvitalis Fides d.o.o.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ce24229-f1df-7b49-b34f-fb4042f3a602",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Indirizzo: Krešimirova 60, 51000 Rijeka, Croazia<br data-w-id=\"9ce24229-f1df-7b49-b34f-fb4042f3a604\"></p>",
+              "text": "Indirizzo: Krešimirova 60, 51000 Rijeka, Croazia\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c2524045-75a6-4a77-9b04-6ce92b7c19be",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">IBAN: HR1424020061100858111<br data-w-id=\"c2524045-75a6-4a77-9b04-6ce92b7c19c0\"></p>",
+              "text": "IBAN: HR1424020061100858111\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ad6e12f6-abbb-4d07-92f1-1dff7c568ce7",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Banca: Erste&amp;Steiermärkische Bank d.d., JADRANSKI TRG 3a, 51000 RIJEKA, REPUBLIKA HRVATSKA<br data-w-id=\"e4587430-54ae-71a7-6335-8b436dae8ee4\"><br data-w-id=\"ad6e12f6-abbb-4d07-92f1-1dff7c568ce9\"></p>",
+              "text": "Banca: Erste&Steiermärkische Bank d.d., JADRANSKI TRG 3a, 51000 RIJEKA, REPUBLIKA HRVATSKA\n\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "092b1f19-9915-8a30-1e9e-a8edee4e3a4d",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">SWIFT / BIC: ESBCHR22<br data-w-id=\"092b1f19-9915-8a30-1e9e-a8edee4e3a4f\"></p>",
+              "text": "SWIFT / BIC: ESBCHR22\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "96f66bde-5d57-9cde-b5f4-b90207d9a51c",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Codice fiscale: HR39977041464<br data-w-id=\"96f66bde-5d57-9cde-b5f4-b90207d9a51e\"></p>",
+              "text": "Codice fiscale: HR39977041464\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "531eb728-5c7b-fdef-e05d-fbd2a967bf28",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Codice di pagamento per bonifico bancario</p>",
+              "text": "Codice di pagamento per bonifico bancario"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0bea64bb-a2b8-fa0f-1cb1-690bbfef87a3",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Utilizza il seguente codice per effettuare il pagamento tramite bonifico bancario.</p>",
+              "text": "Utilizza il seguente codice per effettuare il pagamento tramite bonifico bancario."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "4c541cef-5067-e429-f851-13ae445061a5",
+            "image": {
+              "alt": "Codice di pagamento per bonifico bancario",
+              "assetId": "6a981673dc4c1e89a126b856"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 29
+        },
+        "lastUpdated": "2026-09-02T12:32:28.705Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "article": {
+      "text": "Dentvitalis Fides d.o.o.Krešimirova 60, 51000 Rijeka (Fiume)Hrvatska (Croazia)www.dentvitalis.com​Orari della ",
+      "class": "tekst-detaljna",
+      "tag": "DIV",
+      "x": 27.296875,
+      "y": 725.421875,
+      "width": 335.40625,
+      "height": 1303.4375,
+      "margin": "0px",
+      "padding": "0px",
+      "font": "300 14px / 20px Montserrat, sans-serif",
+      "lineHeight": "20px"
+    },
+    "children": [
+      {
+        "text": "Dentvitalis Fides d.o.o.Krešimirova 60, 51000 Rijeka (Fiume)Hrvatska (Croazia)www.dentvitalis.com​Orari della ",
+        "class": "div-block-34",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 725.421875,
+        "width": 335.40625,
+        "height": 259.4375,
+        "margin": "0px",
+        "padding": "0px 0px 40px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      },
+      {
+        "text": "Informazioni e appuntamento per la prima visitaNumero verde800 174 206Telefono+385 51 688 380E-mailit@dentvita",
+        "class": "kontakt-kartica",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 984.859375,
+        "width": 335.40625,
+        "height": 358.328125,
+        "margin": "0px 0px 40px",
+        "padding": "10px 20px 30px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      },
+      {
+        "text": "Appuntamenti per i pazienti che stanno seguendo il trattamentoNumero verde800 824 634Telefono+385 51 688 381E-",
+        "class": "kontakt-kartica",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 1383.1875,
+        "width": 335.40625,
+        "height": 413.5,
+        "margin": "0px 0px 40px",
+        "padding": "10px 20px 30px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      },
+      {
+        "text": "ReceptionTelefono+385 51 37 1064",
+        "class": "kontakt-kartica",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 1836.6875,
+        "width": 335.40625,
+        "height": 152.171875,
+        "margin": "0px 0px 40px",
+        "padding": "10px 20px 30px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      }
+    ],
+    "sidebar": [
+      {
+        "text": "Dove siamo?",
+        "class": "podstranice-sidebar w-node-_01415f8e-f1dc-065f-6696-5928ab24123a-eeaba898",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 2068.859375,
+        "width": 335.40625,
+        "height": 595.796875,
+        "margin": "0px",
+        "padding": "30px 20px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      }
+    ],
+    "related": null,
+    "footer": {
+      "text": "PrestazioniImperdibile: protesi definitiva ancorata su 4 impiantiPremium: ponte fisso su impiantiFacilissimo: ",
+      "class": "footer",
+      "tag": "FOOTER",
+      "x": 0,
+      "y": 4013.453125,
+      "width": 390,
+      "height": 2220.28125,
+      "margin": "0px",
+      "padding": "60px 0px 160px",
+      "font": "300 14px / 20px Montserrat, sans-serif",
+      "lineHeight": "20px"
+    },
+    "height": 6274
+  },
+  {
+    "article": {
+      "text": "Dentvitalis Fides d.o.o.Krešimirova 60, 51000 Rijeka (Fiume)Hrvatska (Croazia)www.dentvitalis.com​Orari della ",
+      "class": "editorial-copy",
+      "tag": "ARTICLE",
+      "x": 27.296875,
+      "y": 725.34375,
+      "width": 335.390625,
+      "height": 1303.171875,
+      "margin": "0px",
+      "padding": "0px",
+      "font": "300 14px / 20px Montserrat, sans-serif",
+      "lineHeight": "20px"
+    },
+    "children": [
+      {
+        "text": "Dentvitalis Fides d.o.o.Krešimirova 60, 51000 Rijeka (Fiume)Hrvatska (Croazia)www.dentvitalis.com​Orari della ",
+        "class": "content-group contact-address",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 725.34375,
+        "width": 335.390625,
+        "height": 259.359375,
+        "margin": "0px",
+        "padding": "0px 0px 40px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      },
+      {
+        "text": "Informazioni e appuntamento per la prima visitaNumero verde800 174 206Telefono+385 51 688 380E-mailit@dentvita",
+        "class": "content-group contact-card",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 984.703125,
+        "width": 335.390625,
+        "height": 358.25,
+        "margin": "0px 0px 40px",
+        "padding": "10px 20px 30px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      },
+      {
+        "text": "Appuntamenti per i pazienti che stanno seguendo il trattamentoNumero verde800 824 634Telefono+385 51 688 381E-",
+        "class": "content-group contact-card",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 1382.953125,
+        "width": 335.390625,
+        "height": 413.40625,
+        "margin": "0px 0px 40px",
+        "padding": "10px 20px 30px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      },
+      {
+        "text": "ReceptionTelefono+385 51 37 1064",
+        "class": "content-group contact-card",
+        "tag": "DIV",
+        "x": 27.296875,
+        "y": 1836.359375,
+        "width": 335.390625,
+        "height": 152.15625,
+        "margin": "0px 0px 40px",
+        "padding": "10px 20px 30px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      }
+    ],
+    "sidebar": [
+      {
+        "text": "Dove siamo?Krešimirova 60, 51000 Rijeka",
+        "class": "page-sidebar navigation standard mobile-after",
+        "tag": "ASIDE",
+        "x": 27.296875,
+        "y": 2068.515625,
+        "width": 335.390625,
+        "height": 634.796875,
+        "margin": "0px",
+        "padding": "30px 20px",
+        "font": "300 14px / 20px Montserrat, sans-serif",
+        "lineHeight": "20px"
+      }
+    ],
+    "related": null,
+    "footer": {
+      "text": "PrestazioniImperdibile: protesi definitiva ancorata su 4 impiantiPremium: ponte fisso su impiantiFacilissimo: ",
+      "class": "site-footer",
+      "tag": "FOOTER",
+      "x": 0,
+      "y": 4052.03125,
+      "width": 390,
+      "height": 2220.28125,
+      "margin": "0px",
+      "padding": "60px 0px 160px",
+      "font": "300 14px / 20px Montserrat, sans-serif",
+      "lineHeight": "20px"
+    },
+    "height": 6272
+  }
+]

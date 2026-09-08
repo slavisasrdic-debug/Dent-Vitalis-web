@@ -1,0 +1,48 @@
+---
+import InlineContent from './InlineContent.astro';
+import type { InlineContent as TextPart } from '../content/inner-pages';
+interface Props {
+  cells: TextPart[][];
+  border: boolean;
+}
+const { cells, border } = Astro.props;
+---
+
+<div class:list={['contact-row', { border }]}>
+  {
+    cells.map((cell) => (
+      <div>
+        <InlineContent content={cell} />
+      </div>
+    ))
+  }
+</div>
+<style>
+  .contact-row {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 16px;
+    padding-block: 8px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #000;
+  }
+  .border {
+    border-bottom: 1px solid var(--color-border);
+  }
+  .contact-row > div {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .contact-row > div:only-child {
+    grid-column: 1 / -1;
+  }
+  @media screen and (max-width: 479px) {
+    .contact-row {
+      grid-template-columns: 2.4fr 4fr;
+      gap: 10px;
+      font-size: 16px;
+    }
+  }
+</style>

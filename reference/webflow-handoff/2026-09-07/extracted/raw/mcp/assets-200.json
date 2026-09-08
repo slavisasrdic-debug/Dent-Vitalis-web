@@ -1,0 +1,1395 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:33:41.442Z",
+  "tool": "mcp__codex_apps__webflow_data_assets_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Assets page three",
+        "list_assets": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "limit": 100,
+          "offset": 200
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Assets page three",
+      "action": "list_assets",
+      "result": {
+        "assets": [
+          {
+            "id": "695e1eeeb10c5fb8eeaba8e5",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8e5_image-2.jpg",
+            "displayName": "image-2.jpg",
+            "contentType": "image/jpeg",
+            "size": 139861,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-20T10:57:34.010Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e5_image-2.jpg",
+            "variants": [
+              {
+                "hostedUrl": null,
+                "originalFileName": "image-2-p-500.jpeg",
+                "displayName": "6103f91a2432fcc5fed81879_image-2-p-500.jpeg",
+                "format": "jpeg",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": "FILESIZE_EXCEEDS_CAP"
+              },
+              {
+                "hostedUrl": null,
+                "originalFileName": "image-2-p-800.jpeg",
+                "displayName": "6103f91a2432fcc5fed81879_image-2-p-800.jpeg",
+                "format": "jpeg",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": "FILESIZE_EXCEEDS_CAP"
+              },
+              {
+                "hostedUrl": null,
+                "originalFileName": "image-2-p-1080.jpeg",
+                "displayName": "6103f91a2432fcc5fed81879_image-2-p-1080.jpeg",
+                "format": "jpeg",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": "FILESIZE_EXCEEDS_CAP"
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e5_image-2-p-1600.jpeg",
+                "originalFileName": "image-2-p-1600.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e5_image-2-p-1600.jpeg",
+                "format": "jpeg",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e5_image-2-p-2000.jpeg",
+                "originalFileName": "image-2-p-2000.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e5_image-2-p-2000.jpeg",
+                "format": "jpeg",
+                "width": 2000,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e5_image-2-p-130x130q80.jpeg",
+                "originalFileName": "image-2-p-130x130q80.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e5_image-2-p-130x130q80.jpeg",
+                "format": "jpeg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8e4",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8e4_image-5.jpg",
+            "displayName": "image-5.jpg",
+            "contentType": "image/jpeg",
+            "size": 104767,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-20T10:57:34.007Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e4_image-5.jpg",
+            "variants": [
+              {
+                "hostedUrl": null,
+                "originalFileName": "image-5-p-500.jpeg",
+                "displayName": "6103f91ab2debb4fd1b27def_image-5-p-500.jpeg",
+                "format": "jpeg",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": "FILESIZE_EXCEEDS_CAP"
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e4_image-5-p-800.jpeg",
+                "originalFileName": "image-5-p-800.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e4_image-5-p-800.jpeg",
+                "format": "jpeg",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e4_image-5-p-1080.jpeg",
+                "originalFileName": "image-5-p-1080.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e4_image-5-p-1080.jpeg",
+                "format": "jpeg",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e4_image-5-p-1600.jpeg",
+                "originalFileName": "image-5-p-1600.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e4_image-5-p-1600.jpeg",
+                "format": "jpeg",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e4_image-5-p-2000.jpeg",
+                "originalFileName": "image-5-p-2000.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e4_image-5-p-2000.jpeg",
+                "format": "jpeg",
+                "width": 2000,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e4_image-5-p-130x130q80.jpeg",
+                "originalFileName": "image-5-p-130x130q80.jpeg",
+                "displayName": "695e1eeeb10c5fb8eeaba8e4_image-5-p-130x130q80.jpeg",
+                "format": "jpeg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8e3",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8e3_vert.webp",
+            "displayName": "vert.webp",
+            "contentType": "image/webp",
+            "size": 113212,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-20T10:34:46.198Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e3_vert.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "originalFileName": "vert.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "originalFileName": "vert.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "originalFileName": "vert.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "originalFileName": "vert.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e3_vert.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8de",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob.webp",
+            "displayName": "Dr-Sime2-mob.webp",
+            "contentType": "image/webp",
+            "size": 91472,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-14T10:06:32.730Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-500.webp",
+                "originalFileName": "Dr-Sime2-mob-p-500.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-500.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-800.webp",
+                "originalFileName": "Dr-Sime2-mob-p-800.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-800.webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-1080.webp",
+                "originalFileName": "Dr-Sime2-mob-p-1080.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-1080.webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-1600.webp",
+                "originalFileName": "Dr-Sime2-mob-p-1600.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8de_Dr-Sime2-mob-p-1600.webp",
+                "format": "webp",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8cc",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8cc_Dr-Sime2 (3).webp",
+            "displayName": "Dr-Sime2 (3).webp",
+            "contentType": "image/webp",
+            "size": 42808,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-13T14:14:29.892Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%20(3).webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%2520(3)-p-500.webp",
+                "originalFileName": "Dr-Sime2%20(3)-p-500.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%20(3)-p-500.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%2520(3)-p-800.webp",
+                "originalFileName": "Dr-Sime2%20(3)-p-800.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%20(3)-p-800.webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%2520(3)-p-1080.webp",
+                "originalFileName": "Dr-Sime2%20(3)-p-1080.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%20(3)-p-1080.webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%2520(3)-p-1600.webp",
+                "originalFileName": "Dr-Sime2%20(3)-p-1600.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cc_Dr-Sime2%20(3)-p-1600.webp",
+                "format": "webp",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              }
+            ],
+            "altText": "Šime Živković, dr. med. dent., DentVitalis",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8cd",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8cd_Dr-Sime2 (1).webp",
+            "displayName": "Dr-Sime2 (1).webp",
+            "contentType": "image/webp",
+            "size": 50698,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-13T14:02:43.797Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%20(1).webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%2520(1)-p-500.webp",
+                "originalFileName": "Dr-Sime2%20(1)-p-500.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%20(1)-p-500.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%2520(1)-p-800.webp",
+                "originalFileName": "Dr-Sime2%20(1)-p-800.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%20(1)-p-800.webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%2520(1)-p-1080.webp",
+                "originalFileName": "Dr-Sime2%20(1)-p-1080.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%20(1)-p-1080.webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%2520(1)-p-1600.webp",
+                "originalFileName": "Dr-Sime2%20(1)-p-1600.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8cd_Dr-Sime2%20(1)-p-1600.webp",
+                "format": "webp",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b7",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b7_Group 5.svg",
+            "displayName": "Group 5.svg",
+            "contentType": "image/svg+xml",
+            "size": 221,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-12T09:54:30.169Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b7_Group%205.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b4",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b4_close-live-chat.svg",
+            "displayName": "close-live-chat.svg",
+            "contentType": "image/svg+xml",
+            "size": 384,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-11T15:12:07.385Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b4_close-live-chat.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b3",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b3_You-live.svg",
+            "displayName": "You-live.svg",
+            "contentType": "image/svg+xml",
+            "size": 5590,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-11T15:12:07.383Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b3_You-live.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b2",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b2_small-whatsapp.svg",
+            "displayName": "small-whatsapp.svg",
+            "contentType": "image/svg+xml",
+            "size": 1918,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-11T15:12:07.382Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b2_small-whatsapp.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b5",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b5_whatsapp.svg",
+            "displayName": "whatsapp.svg",
+            "contentType": "image/svg+xml",
+            "size": 1897,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-11T15:12:07.380Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b5_whatsapp.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8c7",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8c7_Sime.webp",
+            "displayName": "Sime.webp",
+            "contentType": "image/webp",
+            "size": 57772,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-10T08:32:29.145Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c7_Sime.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c7_Sime-p-500.webp",
+                "originalFileName": "Sime-p-500.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c7_Sime-p-500.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c7_Sime-p-800.webp",
+                "originalFileName": "Sime-p-800.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c7_Sime-p-800.webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c7_Sime-p-1080.webp",
+                "originalFileName": "Sime-p-1080.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c7_Sime-p-1080.webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c7_Sime-p-1600.webp",
+                "originalFileName": "Sime-p-1600.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c7_Sime-p-1600.webp",
+                "format": "webp",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8ca",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8ca_Šime-Živković-dr-med-dent.jpg",
+            "displayName": "Šime-Živković-dr-med-dent.jpg",
+            "contentType": "image/jpeg",
+            "size": 63122,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T14:25:23.614Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ca_%C5%A0ime-%C5%BDivkovi%C4%87-dr-med-dent.jpg",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ca_%25C5%25A0ime-%25C5%25BDivkovi%25C4%2587-dr-med-dent-p-500.jpg",
+                "originalFileName": "%C5%A0ime-%C5%BDivkovi%C4%87-dr-med-dent-p-500.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8ca_%C5%A0ime-%C5%BDivkovi%C4%87-dr-med-dent-p-500.jpg",
+                "format": "jpg",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ca_%C5%A0ime-%C5%BDivkovi%C4%87-dr-med-dent-p-130x130q80.jpg",
+                "originalFileName": "Šime-Živković-dr-med-dent-p-130x130q80.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8ca_Šime-Živković-dr-med-dent-p-130x130q80.jpg",
+                "format": "jpg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8e0",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+            "displayName": "dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+            "contentType": "image/webp",
+            "size": 48476,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T14:13:07.702Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1%20(2).webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1%20(2).webp",
+                "originalFileName": "dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1%20(2).webp",
+                "originalFileName": "dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1%20(2).webp",
+                "originalFileName": "dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e0_dc8bd81e64a6bcd0d0b0c3bb95c836d1 (2).webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8e1",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+            "displayName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+            "contentType": "image/webp",
+            "size": 106014,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T14:13:07.698Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": 2000,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": 2600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d%20(1).webp",
+                "originalFileName": "22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e1_22bbcdb9537e32640f1d65f4aba14a8d (1).webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8c1",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video.mp4",
+            "displayName": "Dentvitalis_video.mp4",
+            "contentType": "video/mp4",
+            "size": 24540396,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T13:23:18.059Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video.mp4",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video-poster-00001.jpg",
+                "originalFileName": "Dentvitalis_video-poster-00001.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video-poster-00001.jpg",
+                "format": "jpg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video-transcode.webm",
+                "originalFileName": "Dentvitalis_video-transcode.webm",
+                "displayName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video-transcode.webm",
+                "format": "webm",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video-transcode.mp4",
+                "originalFileName": "Dentvitalis_video-transcode.mp4",
+                "displayName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video-transcode.mp4",
+                "format": "mp4",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d%2F695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video_poster.0000000.jpg",
+                "originalFileName": "Dentvitalis_video_poster.0000000.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video_poster.0000000.jpg",
+                "format": "jpg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d%2F695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video_webm.webm",
+                "originalFileName": "Dentvitalis_video_webm.webm",
+                "displayName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video_webm.webm",
+                "format": "webm",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d%2F695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video_mp4.mp4",
+                "originalFileName": "Dentvitalis_video_mp4.mp4",
+                "displayName": "695e1eeeb10c5fb8eeaba8c1_Dentvitalis_video_mp4.mp4",
+                "format": "mp4",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b6",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b6_bar-chart-08.svg",
+            "displayName": "bar-chart-08.svg",
+            "contentType": "image/svg+xml",
+            "size": 450,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:23:08.894Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b6_bar-chart-08.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8c2",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8c2_Sequence 01_3.mp4",
+            "displayName": "Sequence 01_3.mp4",
+            "contentType": "video/mp4",
+            "size": 23879314,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:20:08.537Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c2_Sequence%2001_3.mp4",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c2_Sequence%2001_3-poster-00001.jpg",
+                "originalFileName": "Sequence 01_3-poster-00001.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8c2_Sequence 01_3-poster-00001.jpg",
+                "format": "jpg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c2_Sequence%2001_3-transcode.webm",
+                "originalFileName": "Sequence 01_3-transcode.webm",
+                "displayName": "695e1eeeb10c5fb8eeaba8c2_Sequence 01_3-transcode.webm",
+                "format": "webm",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c2_Sequence%2001_3-transcode.mp4",
+                "originalFileName": "Sequence 01_3-transcode.mp4",
+                "displayName": "695e1eeeb10c5fb8eeaba8c2_Sequence 01_3-transcode.mp4",
+                "format": "mp4",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8c0",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3.mp4",
+            "displayName": "DV MObile video01_3.mp4",
+            "contentType": "video/mp4",
+            "size": 20655498,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:20:08.534Z",
+            "lastUpdated": "2026-01-12T09:26:30.760Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3.mp4",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3-poster-00001.jpg",
+                "originalFileName": "DV MObile video01_3-poster-00001.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3-poster-00001.jpg",
+                "format": "jpg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3-transcode.webm",
+                "originalFileName": "DV MObile video01_3-transcode.webm",
+                "displayName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3-transcode.webm",
+                "format": "webm",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3-transcode.mp4",
+                "originalFileName": "DV MObile video01_3-transcode.mp4",
+                "displayName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3-transcode.mp4",
+                "format": "mp4",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d%2F695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3_poster.0000000.jpg",
+                "originalFileName": "DV MObile video01_3_poster.0000000.jpg",
+                "displayName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3_poster.0000000.jpg",
+                "format": "jpg",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d%2F695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3_webm.webm",
+                "originalFileName": "DV MObile video01_3_webm.webm",
+                "displayName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3_webm.webm",
+                "format": "webm",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d%2F695e1eeeb10c5fb8eeaba8c0_DV%20MObile%20video01_3_mp4.mp4",
+                "originalFileName": "DV MObile video01_3_mp4.mp4",
+                "displayName": "695e1eeeb10c5fb8eeaba8c0_DV MObile video01_3_mp4.mp4",
+                "format": "mp4",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b1",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b1_GR-DV.webp",
+            "displayName": "GR-DV.webp",
+            "contentType": "image/webp",
+            "size": 3416,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:08:40.045Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b1_GR-DV.webp",
+            "variants": [],
+            "altText": "Valutazione Google 4,9 su 5 basata su 152 recensioni",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8c5",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8c5_2148365026.webp",
+            "displayName": "2148365026.webp",
+            "contentType": "image/webp",
+            "size": 68556,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:08:21.736Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c5_2148365026.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c5_2148365026.webp",
+                "originalFileName": "2148365026.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c5_2148365026.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c5_2148365026.webp",
+                "originalFileName": "2148365026.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c5_2148365026.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8c8",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8c8_2149084945.webp",
+            "displayName": "2149084945.webp",
+            "contentType": "image/webp",
+            "size": 30692,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:08:21.733Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c8_2149084945.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c8_2149084945.webp",
+                "originalFileName": "2149084945.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c8_2149084945.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8c8_2149084945.webp",
+                "originalFileName": "2149084945.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8c8_2149084945.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8ce",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8ce_2149445986.webp",
+            "displayName": "2149445986.webp",
+            "contentType": "image/webp",
+            "size": 33926,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:08:21.730Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ce_2149445986.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ce_2149445986.webp",
+                "originalFileName": "2149445986.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8ce_2149445986.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ce_2149445986.webp",
+                "originalFileName": "2149445986.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8ce_2149445986.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8dd",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8dd_2148621132.webp",
+            "displayName": "2148621132.webp",
+            "contentType": "image/webp",
+            "size": 77000,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:08:21.726Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8dd_2148621132.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8dd_2148621132.webp",
+                "originalFileName": "2148621132.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8dd_2148621132.webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8dd_2148621132.webp",
+                "originalFileName": "2148621132.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8dd_2148621132.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8e2",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff (2).webp",
+            "displayName": "c0a8c870a67c8469f213760e7acc34ff (2).webp",
+            "contentType": "image/webp",
+            "size": 174048,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T10:08:21.721Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff%20(2).webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff%20(2).webp",
+                "originalFileName": "c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff%20(2).webp",
+                "originalFileName": "c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff%20(2).webp",
+                "originalFileName": "c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": null,
+                "originalFileName": "c0a8c870a67c8469f213760e7acc34ff%20(2)-p-1600.jpg",
+                "displayName": "670d2a6722dd493268907a26_c0a8c870a67c8469f213760e7acc34ff%20(2)-p-1600.jpg",
+                "format": "jpg",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": "FILESIZE_EXCEEDS_CAP"
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff%20(2).webp",
+                "originalFileName": "c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8e2_c0a8c870a67c8469f213760e7acc34ff (2).webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8b0",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8b0_Dentvitalis_cb.svg",
+            "displayName": "Dentvitalis_cb.svg",
+            "contentType": "image/svg+xml",
+            "size": 2869,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:33:46.341Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8b0_Dentvitalis_cb.svg",
+            "variants": [],
+            "altText": "DentVitalis",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8df",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+            "displayName": "dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+            "contentType": "image/webp",
+            "size": 174960,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.963Z",
+            "lastUpdated": "2026-01-11T13:50:03.652Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash%20(1).webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash%20(1).webp",
+                "originalFileName": "dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "format": "webp",
+                "width": 500,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash%20(1).webp",
+                "originalFileName": "dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "format": "webp",
+                "width": 800,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash%20(1).webp",
+                "originalFileName": "dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "format": "webp",
+                "width": 1080,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash%20(1).webp",
+                "originalFileName": "dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "format": "webp",
+                "width": 1600,
+                "height": null,
+                "quality": 100,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash%20(1).webp",
+                "originalFileName": "dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8df_dane-deaner-iJ1lw8iNIy8-unsplash (1).webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "photo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8af",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8af_arrow-right (2).svg",
+            "displayName": "arrow-right (2).svg",
+            "contentType": "image/svg+xml",
+            "size": 229,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.961Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8af_arrow-right%20(2).svg",
+            "variants": [],
+            "altText": "arrow",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8ae",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8ae_arrow-right (1).svg",
+            "displayName": "arrow-right (1).svg",
+            "contentType": "image/svg+xml",
+            "size": 229,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.959Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ae_arrow-right%20(1).svg",
+            "variants": [],
+            "altText": "arrow",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8aa",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8aa_Group 4.svg",
+            "displayName": "Group 4.svg",
+            "contentType": "image/svg+xml",
+            "size": 213,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.957Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8aa_Group%204.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8bf",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8bf_mobile_spacing.webp",
+            "displayName": "mobile_spacing.webp",
+            "contentType": "image/webp",
+            "size": 1454,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.953Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8bf_mobile_spacing.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8bf_mobile_spacing-p-130x130q80.png",
+                "originalFileName": "mobile_spacing-p-130x130q80.png",
+                "displayName": "695e1eeeb10c5fb8eeaba8bf_mobile_spacing-p-130x130q80.png",
+                "format": "png",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8bf_mobile_spacing.webp",
+                "originalFileName": "mobile_spacing.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8bf_mobile_spacing.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "illustration",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8ac",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8ac_wCopilot.svg",
+            "displayName": "wCopilot.svg",
+            "contentType": "image/svg+xml",
+            "size": 1630,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.949Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ac_wCopilot.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8ab",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8ab_icon white.svg",
+            "displayName": "icon white.svg",
+            "contentType": "image/svg+xml",
+            "size": 1061,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.948Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ab_icon%20white.svg",
+            "variants": [],
+            "altText": "webflow icon",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8be",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8be_tablet_spacing.webp",
+            "displayName": "tablet_spacing.webp",
+            "contentType": "image/webp",
+            "size": 1784,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:17:00.941Z",
+            "lastUpdated": "2026-01-11T13:50:03.549Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8be_tablet_spacing.webp",
+            "variants": [
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8be_desktop_spacing-p-130x130q80.png",
+                "originalFileName": "desktop_spacing-p-130x130q80.png",
+                "displayName": "695e1eeeb10c5fb8eeaba8be_desktop_spacing-p-130x130q80.png",
+                "format": "png",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              },
+              {
+                "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8be_tablet_spacing.webp",
+                "originalFileName": "tablet_spacing.webp",
+                "displayName": "695e1eeeb10c5fb8eeaba8be_tablet_spacing.webp",
+                "format": "webp",
+                "width": null,
+                "height": null,
+                "quality": null,
+                "error": null
+              }
+            ],
+            "altText": "illustration",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8ad",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8ad_arrow-right.svg",
+            "displayName": "arrow-right.svg",
+            "contentType": "image/svg+xml",
+            "size": 275,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:09:49.985Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8ad_arrow-right.svg",
+            "variants": [],
+            "altText": null,
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8a9",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8a9_Backoffice Logo.svg",
+            "displayName": "Backoffice Logo.svg",
+            "contentType": "image/svg+xml",
+            "size": 9513,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:09:49.984Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8a9_Backoffice%20Logo.svg",
+            "variants": [],
+            "altText": "logo",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8a8",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8a8_menu-btn.svg",
+            "displayName": "menu-btn.svg",
+            "contentType": "image/svg+xml",
+            "size": 885,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:09:49.981Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8a8_menu-btn.svg",
+            "variants": [],
+            "altText": "icon",
+            "folderId": null
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba8a7",
+            "originalFileName": "695e1eeeb10c5fb8eeaba8a7_close-btn.svg",
+            "displayName": "close-btn.svg",
+            "contentType": "image/svg+xml",
+            "size": 761,
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "createdOn": "2025-10-09T09:09:49.979Z",
+            "lastUpdated": "2026-01-11T13:50:03.543Z",
+            "hostedUrl": "https://s3.amazonaws.com/webflow-prod-assets/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba8a7_close-btn.svg",
+            "variants": [],
+            "altText": "icon",
+            "folderId": null
+          }
+        ],
+        "pagination": {
+          "total": 238,
+          "limit": 100,
+          "offset": 200
+        }
+      }
+    }
+  ]
+}

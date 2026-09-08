@@ -1,0 +1,161 @@
+{
+  "status": "unavailable",
+  "collections": null,
+  "items": null,
+  "reason": "Current connected CMS tool rejected documented collection-list read actions at schema validation. No create/update fallback or private data access attempted.",
+  "evidenceRefs": [
+    "raw/mcp/cms-collections.json",
+    "raw/mcp/cms-collections-v2.json",
+    "raw/mcp/cms-list.json"
+  ],
+  "publishedDynamicMarkers": {
+    "status": "derived",
+    "pages": [
+      {
+        "pageId": "6a97db25519800ebff25b9f2",
+        "path": "/condizioni-di-utilizzo",
+        "nodes": []
+      },
+      {
+        "pageId": "6a97db259aad9ee4bb4bd328",
+        "path": "/informativa-sulla-privacy",
+        "nodes": []
+      },
+      {
+        "pageId": "6a8d7da66a4b3462ca3f0a23",
+        "path": "/informazioni-per-pazienti",
+        "nodes": []
+      },
+      {
+        "pageId": "6a8d7da585ba860c0b521829",
+        "path": "/chi-siamo",
+        "nodes": []
+      },
+      {
+        "pageId": "6a8d7da5fff15c0449d670e2",
+        "path": "/prestazioni-dentali",
+        "nodes": []
+      },
+      {
+        "pageId": "696f4a9a3d82954cb43ac683",
+        "path": "/informazioni/trasporto",
+        "nodes": []
+      },
+      {
+        "pageId": "696f49d7f343717fcadfcf28",
+        "path": "/informazioni/alloggio",
+        "nodes": []
+      },
+      {
+        "pageId": "69679710d4037ebd0cbb9df2",
+        "path": "/testimonianze",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba898",
+        "path": "/contatti",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba897",
+        "path": "/faq",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba896",
+        "path": "/domande-e-risposte",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba894",
+        "path": "/informazioni/listino-prezzi",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba893",
+        "path": "/informazioni/garanzie",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba892",
+        "path": "/informazioni/pagamento-flessibile",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba891",
+        "path": "/informazioni/tempi-del-trattamento",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba890",
+        "path": "/informazioni/prima-visita-gratuita",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba88e",
+        "path": "/prestazioni/sedazione-cosciente",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba88d",
+        "path": "/su-di-noi/impianti-di-nuova-generazione",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba88c",
+        "path": "/su-di-noi/materiali-e-apparecchiature",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba88b",
+        "path": "/su-di-noi/laboratorio-odontotecnico",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba88a",
+        "path": "/su-di-noi/come-raggiungerci",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba889",
+        "path": "/su-di-noi/tutto-in-un-unico-luogo",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba888",
+        "path": "/su-di-noi/i-nostri-specialisti",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba886",
+        "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba885",
+        "path": "/prestazioni/sbiancamento-dei-denti",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba884",
+        "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba882",
+        "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+        "nodes": []
+      },
+      {
+        "pageId": "695e1eeeb10c5fb8eeaba87c",
+        "path": "/",
+        "nodes": []
+      }
+    ],
+    "note": "No/any visible markers are not proof of absence/presence of unpublished CMS collections."
+  },
+  "recovery": {
+    "status": "proposed",
+    "action": "Obtain a read-capable collections endpoint or user-provided Webflow collection schema/CSV exports including locale/status/reference fields. Inspect Designer bindings read-only."
+  }
+}

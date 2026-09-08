@@ -1,0 +1,311 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:30.174Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba890",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba890",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba890",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba890",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58cd",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"f0e8c199-3575-b9e0-e6bf-c647ba9c58ce\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d0",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d2",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"ff5dbdd2-353a-c663-8541-65663552826a\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d4",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0e8c199-3575-b9e0-e6bf-c647ba9c58d6",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Prima visita gratuita</h6>",
+              "text": "Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b94651",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e9828da1e0b605be4d29"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b94659",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Prima visita gratuita</h1>",
+              "text": "Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ceaf9077-2c86-156e-5eed-f59a10b9465b",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Durante la prima visita ti illustreremo in modo dettagliato gli esiti degli esami e la tua diagnosi, per poi presentarti tutte le possibilità di trattamento disponibili. Per ogni opzione riceverai informazioni chiare sul percorso terapeutico, sui tempi previsti e sui costi, oltre a conoscere le ulteriori agevolazioni che possiamo offrirti.</p>",
+              "text": "Durante la prima visita ti illustreremo in modo dettagliato gli esiti degli esami e la tua diagnosi, per poi presentarti tutte le possibilità di trattamento disponibili. Per ogni opzione riceverai informazioni chiare sul percorso terapeutico, sui tempi previsti e sui costi, oltre a conoscere le ulteriori agevolazioni che possiamo offrirti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "e97da5a4-ccd6-5e76-4bd1-397c08914758",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La prima visita è gratuita e comprende la valutazione diagnostica (TAC), la visita con uno specialista e un colloquio durante il quale potrai chiarire ogni dubbio relativo alla tua diagnosi e alle possibili soluzioni terapeutiche.<br data-w-id=\"a4b01150-4f6f-0a0d-f9ec-7c573541bf1a\"><br data-w-id=\"820b070d-5d21-ad43-f9e3-63cc0cae5376\">Al termine della prima visita riceverai un piano di trattamento chiaro e un preventivo trasparente, elaborati in base alle tue esigenze e alle tue possibilità.</p>",
+              "text": "La prima visita è gratuita e comprende la valutazione diagnostica (TAC), la visita con uno specialista e un colloquio durante il quale potrai chiarire ogni dubbio relativo alla tua diagnosi e alle possibili soluzioni terapeutiche.\n\nAl termine della prima visita riceverai un piano di trattamento chiaro e un preventivo trasparente, elaborati in base alle tue esigenze e alle tue possibilità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Cosa portare alla visita</p>",
+              "text": "Cosa portare alla visita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Alla prima visita, porta con te tutti i farmaci che assumi abitualmente e informaci sulle terapie che stai seguendo su prescrizione del tuo medico.</p>",
+              "text": "Alla prima visita, porta con te tutti i farmaci che assumi abitualmente e informaci sulle terapie che stai seguendo su prescrizione del tuo medico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcde",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Con oltre 30 anni di esperienza, si è specializzato nell’implantologia, conseguendo certificazioni per diversi sistemi implantari e inserendo con successo più di 30.000 impianti.</p>",
+              "text": "Con oltre 30 anni di esperienza, si è specializzato nell’implantologia, conseguendo certificazioni per diversi sistemi implantari e inserendo con successo più di 30.000 impianti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Conoscere la tua terapia è importante per pianificare il trattamento nel modo più sicuro e appropriato, tenendo conto delle tue esigenze e del tuo stato di salute generale. Per noi è fondamentale prenderci cura di te nel suo insieme, non solo della salute dei tuoi denti, e affrontare ogni trattamento odontoiatrico con la massima attenzione.</p>",
+              "text": "Conoscere la tua terapia è importante per pianificare il trattamento nel modo più sicuro e appropriato, tenendo conto delle tue esigenze e del tuo stato di salute generale. Per noi è fondamentale prenderci cura di te nel suo insieme, non solo della salute dei tuoi denti, e affrontare ogni trattamento odontoiatrico con la massima attenzione."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Visita e diagnosi</p>",
+              "text": "Visita e diagnosi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Una diagnosi precisa inizia da una TAC di ultima generazione — inclusa gratuitamente nella tua prima visita.</p>",
+              "text": "Una diagnosi precisa inizia da una TAC di ultima generazione — inclusa gratuitamente nella tua prima visita."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Sebbene i pazienti siano spesso concentrati sull’offerta ricevuta da una clinica o sulla cura della propria salute dentale, l’aspetto fondamentale per ottenere un risultato corretto e duraturo è una diagnosi precisa.</p>",
+              "text": "Sebbene i pazienti siano spesso concentrati sull’offerta ricevuta da una clinica o sulla cura della propria salute dentale, l’aspetto fondamentale per ottenere un risultato corretto e duraturo è una diagnosi precisa."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70057",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per questo motivo, durante la prima visita, eseguiamo gratuitamente una TC (TAC) con apparecchiatura di ultima generazione Planmeca Viso G5, che ci consente di:</p>",
+              "text": "Per questo motivo, durante la prima visita, eseguiamo gratuitamente una TC (TAC) con apparecchiatura di ultima generazione Planmeca Viso G5, che ci consente di:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "bfe4bfb1-361d-4032-5018-d879ae859043",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "751ec624-cfc9-ac4f-5ef3-711e29f7cc96",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">ottenere una dettagliata immagine 3D dell’osso (larghezza, altezza e densità), nonché della posizione dei denti e delle radici;<br data-w-id=\"751ec624-cfc9-ac4f-5ef3-711e29f7cc98\"></p>",
+              "text": "ottenere una dettagliata immagine 3D dell’osso (larghezza, altezza e densità), nonché della posizione dei denti e delle radici;\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "6a966286-a10d-c7f5-2496-ab1efdaf9fa7",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ce7213d-c265-8df1-4351-08379fb70770",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">pianificare con estrema precisione il posizionamento degli impianti, definendone angolazione, profondità e collocazione ottimale;<br data-w-id=\"9ce7213d-c265-8df1-4351-08379fb70772\"></p>",
+              "text": "pianificare con estrema precisione il posizionamento degli impianti, definendone angolazione, profondità e collocazione ottimale;\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7fe8bb26-ff69-2175-6319-0f549936ffa2",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2cbf0d9f-dc5e-83d3-ac90-6c2282051172",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">identificare con chiarezza strutture anatomiche importanti, come nervi e seni mascellari;<br data-w-id=\"2cbf0d9f-dc5e-83d3-ac90-6c2282051174\"></p>",
+              "text": "identificare con chiarezza strutture anatomiche importanti, come nervi e seni mascellari;\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a2306cdc-085e-8630-f77d-0be124ac9b4b",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "91c83c0f-1ce9-7fef-0fae-c75f5388ea26",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">rilevare problemi non visibili con le normali radiografie, come cisti, infiammazioni, radici residue o fratture.<br data-w-id=\"91c83c0f-1ce9-7fef-0fae-c75f5388ea28\"></p>",
+              "text": "rilevare problemi non visibili con le normali radiografie, come cisti, infiammazioni, radici residue o fratture.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7005a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La TAC, insieme alla visita clinica effettuata da un medico esperto, rappresenta un passaggio fondamentale per una diagnosi corretta e per la scelta del piano di trattamento più adatto a ogni paziente.Parla fluentemente italiano e inglese.<br data-w-id=\"0a742b12-f154-7d55-3574-a2ec5c91efe9\">‍</p>",
+              "text": "La TAC, insieme alla visita clinica effettuata da un medico esperto, rappresenta un passaggio fondamentale per una diagnosi corretta e per la scelta del piano di trattamento più adatto a ogni paziente.Parla fluentemente italiano e inglese.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Preventivo</p>",
+              "text": "Preventivo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ti forniremo un preventivo personalizzato nella tua lingua, con informazioni su costi, pagamenti e vantaggi extra.</p>",
+              "text": "Ti forniremo un preventivo personalizzato nella tua lingua, con informazioni su costi, pagamenti e vantaggi extra."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 34
+        },
+        "lastUpdated": "2026-09-02T10:35:16.124Z"
+      }
+    }
+  ]
+}

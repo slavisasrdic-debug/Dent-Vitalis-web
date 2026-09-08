@@ -1,0 +1,386 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:49.359Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba898",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba898",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba898",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba898",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "a004a0cc-04e6-a023-b1b6-e55f8e1f82de",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"a004a0cc-04e6-a023-b1b6-e55f8e1f82df\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a004a0cc-04e6-a023-b1b6-e55f8e1f82e1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a004a0cc-04e6-a023-b1b6-e55f8e1f82e7",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Contatti</h6>",
+              "text": "Contatti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "dc9cd1c4-b996-4961-5277-8739c1dbc8de",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8701e102fce6c75e2ac1a1"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dc9cd1c4-b996-4961-5277-8739c1dbc8e6",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Contatti</h1>",
+              "text": "Contatti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dc9cd1c4-b996-4961-5277-8739c1dbc8e8",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Siamo a tua disposizione per tutte le informazioni prima, durante e dopo il completamento del trattamento.</p>",
+              "text": "Siamo a tua disposizione per tutte le informazioni prima, durante e dopo il completamento del trattamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0a",
+            "text": {
+              "html": "<div class=\"text-block-11\">Dove siamo?<br data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0c\"></div>",
+              "text": "Dove siamo?\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0e",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0f\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a7dfc512-33d6-35c8-85e1-53a98a6717f2",
+            "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458774.9631574445!2d13.86112195276498!3d45.19050388701717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a128f2aa4cd5%3A0xbe8e3fecfb0c2d31!2sDentvitalis!5e0!3m2!1shr!2shr!4v1765810178943!5m2!1shr!2shr\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ac93d6a7-fdda-127f-7572-10c428fd3053",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><strong data-w-id=\"ba2f7bcc-622a-165c-bb9d-d41152e71054\">Dentvitalis Fides d.o.o.</strong><br data-w-id=\"ac93d6a7-fdda-127f-7572-10c428fd3055\"></p>",
+              "text": "Dentvitalis Fides d.o.o.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ac93d6a7-fdda-127f-7572-10c428fd3057",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Krešimirova 60, 51000 Rijeka (Fiume)<br data-w-id=\"ac93d6a7-fdda-127f-7572-10c428fd3059\"></p>",
+              "text": "Krešimirova 60, 51000 Rijeka (Fiume)\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "05d2d7ff-1237-3c52-347b-8e8a7dd01639",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Hrvatska (Croazia)<br data-w-id=\"05d2d7ff-1237-3c52-347b-8e8a7dd0163b\"></p>",
+              "text": "Hrvatska (Croazia)\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ac93d6a7-fdda-127f-7572-10c428fd305b",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet link\">www.dentvitalis.com​<br data-w-id=\"ac93d6a7-fdda-127f-7572-10c428fd305d\"></p>",
+              "text": "www.dentvitalis.com​\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "741effd5-375f-73fc-c6dd-e9a9e27e581a",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Orari della clinica</p>",
+              "text": "Orari della clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0268df06-e707-9256-9845-72bdfb945762",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Mar-Sab 08:00-16:00</p>",
+              "text": "Mar-Sab 08:00-16:00"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "df7f44be-1285-bbb4-9b34-6321d3346519",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-kontakti\">Informazioni e appuntamento per la prima visita</p>",
+              "text": "Informazioni e appuntamento per la prima visita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "df7f44be-1285-bbb4-9b34-6321d3346522",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Numero verde<br data-w-id=\"df7f44be-1285-bbb4-9b34-6321d3346524\"></p>",
+              "text": "Numero verde\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "be24ebc4-147a-34f4-9fb2-45b45e870b28",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">800 174 206<br data-w-id=\"be24ebc4-147a-34f4-9fb2-45b45e870b2a\"></p>",
+              "text": "800 174 206\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b2a0325b-2975-b63f-a7d3-26e1799fface",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Telefono<br data-w-id=\"b2a0325b-2975-b63f-a7d3-26e1799ffad0\"></p>",
+              "text": "Telefono\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b2a0325b-2975-b63f-a7d3-26e1799ffad1",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">+385 51 688 380<br data-w-id=\"b2a0325b-2975-b63f-a7d3-26e1799ffad3\"></p>",
+              "text": "+385 51 688 380\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5b0a0282-2a4b-b78b-7e18-3095f6995083",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">E-mail<br data-w-id=\"5b0a0282-2a4b-b78b-7e18-3095f6995085\"></p>",
+              "text": "E-mail\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5b0a0282-2a4b-b78b-7e18-3095f6995086",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet link\">it@dentvitalis.com<br data-w-id=\"5b0a0282-2a4b-b78b-7e18-3095f6995088\"></p>",
+              "text": "it@dentvitalis.com\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "27fa453c-310a-7665-7fc8-00dbe10b017e",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">WhatsApp<br data-w-id=\"27fa453c-310a-7665-7fc8-00dbe10b0180\"></p>",
+              "text": "WhatsApp\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "27fa453c-310a-7665-7fc8-00dbe10b0182",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet link\">+385 91 110 0523​<br data-w-id=\"27fa453c-310a-7665-7fc8-00dbe10b0184\"></p>",
+              "text": "+385 91 110 0523​\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06a8",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-kontakti\">Appuntamenti per i pazienti che stanno seguendo il trattamento</p>",
+              "text": "Appuntamenti per i pazienti che stanno seguendo il trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06ac",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Numero verde<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06ae\"></p>",
+              "text": "Numero verde\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06b0",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">800 824 634<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06b2\"></p>",
+              "text": "800 824 634\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06b4",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Telefono<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06b6\"></p>",
+              "text": "Telefono\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06b8",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">+385 51 688 381<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06ba\"></p>",
+              "text": "+385 51 688 381\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06bc",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">E-mail<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06be\"></p>",
+              "text": "E-mail\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06c0",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet link\">booking@dentvitalis.com<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06c2\"></p>",
+              "text": "booking@dentvitalis.com\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06c4",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">WhatsApp<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06c6\"></p>",
+              "text": "WhatsApp\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "397206b4-7d73-9e79-3ed8-64b3889d06c8",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet link\">+385 91 912 2071<br data-w-id=\"397206b4-7d73-9e79-3ed8-64b3889d06ca\"></p>",
+              "text": "+385 91 912 2071\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8b39859a-278f-38e7-daba-4f0cd9550ac1",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-kontakti\">Reception</p>",
+              "text": "Reception"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8b39859a-278f-38e7-daba-4f0cd9550acd",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Telefono<br data-w-id=\"8b39859a-278f-38e7-daba-4f0cd9550acf\"></p>",
+              "text": "Telefono\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8b39859a-278f-38e7-daba-4f0cd9550ad1",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">+385 51 37 1064<br data-w-id=\"8b39859a-278f-38e7-daba-4f0cd9550ad3\"></p>",
+              "text": "+385 51 37 1064\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "741e4c3c-26ec-5883-38d6-a888862640a7",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 41
+        },
+        "lastUpdated": "2026-09-04T09:26:32.113Z"
+      }
+    }
+  ]
+}

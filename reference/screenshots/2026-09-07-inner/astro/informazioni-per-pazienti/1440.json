@@ -1,0 +1,419 @@
+{
+  "origin": "http://127.0.0.1:4173",
+  "route": "/informazioni-per-pazienti",
+  "width": 1440,
+  "capturedAt": "2026-09-07T18:16:25.943Z",
+  "version": {
+    "status": 200,
+    "sha256": "09ba50f23d845bc09572566805f065e2ed5d356edeabaf1571e6a570ab411f09",
+    "acceptedSha256": "154a5555a77603f215a3fce138b23d0710bc3e790e2d4c2483d6cb08487bef89"
+  },
+  "errors": [],
+  "title": "Informazioni per i pazienti | DentVitalis",
+  "lang": "it",
+  "bodyClass": "reference-default",
+  "height": 8641,
+  "styles": {
+    "body": [
+      {
+        "text": "Vai al contenutoDentisti CroaziaPrestazioniImperdibile: protesi definitiva ancorata su 4 impiantiPremium: ponte fisso su",
+        "class": "reference-default",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 8641.46875,
+          "top": 0,
+          "right": 1440,
+          "bottom": 8641.46875,
+          "left": 0
+        },
+        "css": {
+          "display": "block",
+          "position": "static",
+          "top": "auto",
+          "left": "auto",
+          "width": "1440px",
+          "height": "8641.47px",
+          "maxWidth": "none",
+          "minHeight": "0px",
+          "padding": "0px",
+          "margin": "0px",
+          "gap": "normal",
+          "gridTemplateColumns": "none",
+          "flexDirection": "row",
+          "alignItems": "normal",
+          "justifyContent": "normal",
+          "fontFamily": "Arial, sans-serif",
+          "fontWeight": "400",
+          "fontStyle": "normal",
+          "fontSize": "14px",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "color": "rgb(51, 51, 51)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "none",
+          "backgroundSize": "auto",
+          "backgroundPosition": "0% 0%",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "border": "0px none rgb(51, 51, 51)",
+          "borderRadius": "0px",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    ],
+    ".breadcrumb-conteiner": [],
+    ".breadcrumb-wrapper-4": [],
+    ".breadcrumb": [],
+    ".breadcrum-text": [],
+    ".zaglavlje-detaljna": [],
+    ".inner-banner-photo": [],
+    ".inner-banner-photo img": [],
+    ".sjena-lijevo": [],
+    ".container-wrapper-4": [],
+    ".inner-banner": [],
+    ".inner-banner-text-wrap": [],
+    ".naslov-detaljna-tekstovi": [],
+    ".naslov-detaljna": [],
+    ".nadnaslov-detaljna": [],
+    ".podnaslov-detaljna": [],
+    ".base-container.full-width": [],
+    ".detaljna-tekst": [],
+    ".tekst-detaljna": [],
+    ".podstranice-sidebar": [],
+    ".sadrzaji-usluge": [],
+    ".prednost": [],
+    ".text-block-11": [],
+    ".text-block-16": [],
+    ".text-span-4": [],
+    ".odlomak": [],
+    ".large-paragraph": [],
+    ".medjunaslov-h2-detaljna": [],
+    ".medjunaslov-h3": [],
+    ".bulet": [],
+    ".foto-osoblje": [],
+    ".titula": [],
+    ".teaser-section": [],
+    ".teaser-container": [],
+    ".teaser-grid": [],
+    ".teaser-column": [],
+    ".teaser-copy-wrap": [],
+    ".p-teaser-img-wrap": [],
+    ".teaser-img-tablet-down": [],
+    ".teaser-img": [],
+    ".home-service-card-hp": [],
+    ".home-service-card": [],
+    ".nadnaslov-kartica": [],
+    ".istaknuta-cijena": [],
+    ".cijena-velika": [],
+    ".container-wrapper-list-detail": [],
+    ".accordion-item": [],
+    ".accordion-title": [],
+    ".accordion-text": [],
+    ".video": [],
+    ".naziv-klijenta": [],
+    ".kontakt-kartica": [],
+    ".galerija-usporedba-stabilna": [],
+    ".bas-image-before": [],
+    ".bas-image-after-h": []
+  },
+  "headings": [
+    "Informazioni",
+    "Prima visita gratuita",
+    "Tempi del trattamento",
+    "Pagamento flessibile",
+    "Garanzie",
+    "Alloggio",
+    "Trasporto",
+    "Listino prezzi",
+    "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+    "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+    "Prestazioni",
+    "Su di noi",
+    "Informazioni",
+    "Testimonianze",
+    "FAQ",
+    "Galleria",
+    "Informazioni legali",
+    "Contatti"
+  ],
+  "images": [
+    {
+      "src": "/assets/images/Dentvitalis-logo-color_21200px.svg",
+      "alt": "DentVitalis - Dentisti Croazia",
+      "width": 300,
+      "height": 44,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/arrow-right.svg",
+      "alt": "",
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/arrow-right.svg",
+      "alt": "",
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/arrow-right.svg",
+      "alt": "",
+      "width": 22,
+      "height": 22,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-it.png",
+      "alt": "",
+      "width": 40,
+      "height": 27,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-it.png",
+      "alt": "",
+      "width": 40,
+      "height": 27,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-hr.png",
+      "alt": "",
+      "width": 40,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-de.png",
+      "alt": "",
+      "width": 40,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-gb.png",
+      "alt": "",
+      "width": 40,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-si.png",
+      "alt": "",
+      "width": 40,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-it.png",
+      "alt": "",
+      "width": 40,
+      "height": 27,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-it.png",
+      "alt": "",
+      "width": 40,
+      "height": 27,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-hr.png",
+      "alt": "",
+      "width": 40,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-de.png",
+      "alt": "",
+      "width": 40,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-gb.png",
+      "alt": "",
+      "width": 40,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/flag-si.png",
+      "alt": "",
+      "width": 40,
+      "height": 20,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/menu-btn.svg",
+      "alt": "",
+      "width": 28,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/close-btn.svg",
+      "alt": "",
+      "width": 17,
+      "height": 16,
+      "visible": false
+    },
+    {
+      "src": "/assets/images/Prima-visita-gratuita-2600.webp",
+      "alt": "Prima visita odontoiatrica gratuita presso DentVitalis a Rijeka",
+      "width": 1440,
+      "height": 810,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Tempi-del-trattamento-2600.webp",
+      "alt": "Radiografia dentale digitale presso DentVitalis a Rijeka",
+      "width": 1440,
+      "height": 810,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Pagamento-flessibile-2600.webp",
+      "alt": "Paziente riceve consulenza sulle opzioni di pagamento flessibile",
+      "width": 1440,
+      "height": 810,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Garanzie-2600.webp",
+      "alt": "Dentista e paziente esaminano il piano di cura presso DentVitalis",
+      "width": 1440,
+      "height": 810,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Alloggio-hero-2600-2600.webp",
+      "alt": "Camera da letto nell'alloggio della clinica DentVitalis",
+      "width": 1440,
+      "height": 810,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Dentvitalis-Dedo-mobile-1607.webp",
+      "alt": "Transfer per pazienti DentVitalis dall'Italia a Rijeka",
+      "width": 0,
+      "height": 0,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/DV-cjenik-2600.webp",
+      "alt": "Listino prezzi DentVitalis esposto alla reception della clinica di Rijeka",
+      "width": 1440,
+      "height": 810,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Prima-visita-gratuita-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1125,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Tempi-del-trattamento-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1125,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Pagamento-flessibile-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1125,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Garanzie-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1125,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Alloggio-hero-2600-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1125,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Dentvitalis-Dedo-1-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1125,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/DV-cjenik-2600.webp",
+      "alt": "",
+      "width": 2000,
+      "height": 1126,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/Dentvitalis-logo-color_21200px.svg",
+      "alt": "DentVitalis - Dentisti Croazia",
+      "width": 300,
+      "height": 44,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/62434fa732124ac15112aad5_twitter small.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/62434fa732124a389912aad8_linkedin small.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/62434fa732124a51bf12aae9_facebook small.svg",
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/close-live-chat.svg",
+      "alt": "",
+      "width": 17,
+      "height": 17,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/small-whatsapp.svg",
+      "alt": "",
+      "width": 16,
+      "height": 15,
+      "visible": true
+    },
+    {
+      "src": "/assets/images/whatsapp.svg",
+      "alt": "",
+      "width": 31,
+      "height": 31,
+      "visible": true
+    }
+  ]
+}

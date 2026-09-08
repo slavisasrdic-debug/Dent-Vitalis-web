@@ -1,0 +1,935 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:34.582Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian content continuation 100",
+        "get_page_content": {
+          "page_id": "69679710d4037ebd0cbb9df2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 100
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian content continuation 100",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "69679710d4037ebd0cbb9df2",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996ba9",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bab",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bad",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Professionalità massima, tanta gentilezza... nonostante io abbia una gran paura del dentista, qui ti senti a casa... ormai sono 6 anni che veniamo io e la mia famiglia... siamo super soddisfatti...</p>",
+              "text": "Professionalità massima, tanta gentilezza... nonostante io abbia una gran paura del dentista, qui ti senti a casa... ormai sono 6 anni che veniamo io e la mia famiglia... siamo super soddisfatti..."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bb1",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Vincenzo D'Onofrio</p>",
+              "text": "Vincenzo D'Onofrio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bb6",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bb7",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bb8",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bb9",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bba",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bbc",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bbe",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bc0",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Accoglienza, professionalità e gentilezza sono gli ingredienti di questo staff fantastico, capace di crea un’atmosfera veramente familiare.Professionisti di alto livello che ti fanno sentire a proprio agio con un risultato finale eccellente.</p>",
+              "text": "Accoglienza, professionalità e gentilezza sono gli ingredienti di questo staff fantastico, capace di crea un’atmosfera veramente familiare.Professionisti di alto livello che ti fanno sentire a proprio agio con un risultato finale eccellente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bc4",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Carmelo Zoda</p>",
+              "text": "Carmelo Zoda"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bc9",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bca",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bcb",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bcc",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bcd",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bcf",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bd1",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bd3",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ho seguito un percorso presso questa struttura e sono riusciti a risolvere diversi problemi che avevo! Consiglio assolutamente questa fantastica clinica, gentilezza, professionalità e medici super preparati!</p>",
+              "text": "Ho seguito un percorso presso questa struttura e sono riusciti a risolvere diversi problemi che avevo! Consiglio assolutamente questa fantastica clinica, gentilezza, professionalità e medici super preparati!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bd7",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Giada Deiana</p>",
+              "text": "Giada Deiana"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bdc",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bdd",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bde",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bdf",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996be0",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996be2",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996be4",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996be6",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ci siamo rivolti alla clinica Dentvitalis per problemi importanti ai denti di mio padre. Lavoro eseguito con molta professionalità, mio padre è soddisfatto e finalmente può masticare correttamente, oltre ad avere un bellissimo sorriso! Complimenti e grazie a tutto lo staff, soprattutto per la gentilezza e la cortesia nei nostri confronti. Consiglio questa clinica a tutti.</p>",
+              "text": "Ci siamo rivolti alla clinica Dentvitalis per problemi importanti ai denti di mio padre. Lavoro eseguito con molta professionalità, mio padre è soddisfatto e finalmente può masticare correttamente, oltre ad avere un bellissimo sorriso! Complimenti e grazie a tutto lo staff, soprattutto per la gentilezza e la cortesia nei nostri confronti. Consiglio questa clinica a tutti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bea",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Gianmarco Sartori</p>",
+              "text": "Gianmarco Sartori"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bef",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf0",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf1",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf2",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf3",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf5",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf7",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bf9",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi sono trovato benissimo sia come professionalità sia come squisita gentilezza. Uomini e donne del personale molto preparati. In particolare Tommaso l’ho trovato una persona squisita. Molto consigliati. Gianmarco.</p>",
+              "text": "Mi sono trovato benissimo sia come professionalità sia come squisita gentilezza. Uomini e donne del personale molto preparati. In particolare Tommaso l’ho trovato una persona squisita. Molto consigliati. Gianmarco."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996bfd",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Simone Trevisan</p>",
+              "text": "Simone Trevisan"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c02",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c03",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c04",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c05",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c06",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c08",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c0a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c0c",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi sono affidato a Dentvitalis per lavori particolari come rialzo seno mascellare e vari impianti. La clinica è all’avanguardia, con personale molto competente e disponibile per qualunque chiarimento. Ottima organizzazione per evitare di tornare troppe volte, sempre rispettando i tempi di guarigione. Oggi ho finito tutti i lavori (durati quasi 2 anni per i tempi di guarigione) ed in questo arco di tempo non ho mai avuto un problema o dolore. Un ringraziamento a tutto lo staff per la professionalità e gentilezza.</p>",
+              "text": "Mi sono affidato a Dentvitalis per lavori particolari come rialzo seno mascellare e vari impianti. La clinica è all’avanguardia, con personale molto competente e disponibile per qualunque chiarimento. Ottima organizzazione per evitare di tornare troppe volte, sempre rispettando i tempi di guarigione. Oggi ho finito tutti i lavori (durati quasi 2 anni per i tempi di guarigione) ed in questo arco di tempo non ho mai avuto un problema o dolore. Un ringraziamento a tutto lo staff per la professionalità e gentilezza."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c10",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Stefano Zarabara</p>",
+              "text": "Stefano Zarabara"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c15",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c16",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c17",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c18",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c19",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c1b",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c1d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c1f",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Ambiente accogliente e personale sempre disponibile e gentile. Mi hanno fatto un bel lavoro di impianto della parte sopra, sono rimasto molto soddisfatto. Hanno organizzato tutto in tempi giusti anche per non farmi fare troppi giri avanti e indietro, ringrazio tutto lo staff!</p>",
+              "text": "Ambiente accogliente e personale sempre disponibile e gentile. Mi hanno fatto un bel lavoro di impianto della parte sopra, sono rimasto molto soddisfatto. Hanno organizzato tutto in tempi giusti anche per non farmi fare troppi giri avanti e indietro, ringrazio tutto lo staff!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c23",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Mirco Giorgiutti</p>",
+              "text": "Mirco Giorgiutti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c28",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c29",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c2a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c2b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c2c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c2e",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c30",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c32",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Tomislav e Sime, con tutto il loro staff, si sono dimostrati per l'ennesima volta al di sopra delle mie aspettative. Disponibilità, gentilezza e professionalità al massimo livello, per un risultato finale che non poteva che essere ECCELLENTE. Suggerisco a chiunque avesse necessità di un consulto dentale di rivolgersi a questa efficientissima clinica, approfittando anche di una visita in questa splendida regione. Mirco</p>",
+              "text": "Tomislav e Sime, con tutto il loro staff, si sono dimostrati per l'ennesima volta al di sopra delle mie aspettative. Disponibilità, gentilezza e professionalità al massimo livello, per un risultato finale che non poteva che essere ECCELLENTE. Suggerisco a chiunque avesse necessità di un consulto dentale di rivolgersi a questa efficientissima clinica, approfittando anche di una visita in questa splendida regione. Mirco"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c36",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Guglielmo Maria Brunese</p>",
+              "text": "Guglielmo Maria Brunese"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c3b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c3c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c3d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c3e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c3f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c41",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c43",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c45",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Sono estremamente soddisfatto della clinica DENTVITALIS, il personale è molto attento, gentile e professionale, consiglio a tutti di venire qui per cure dentistiche.</p>",
+              "text": "Sono estremamente soddisfatto della clinica DENTVITALIS, il personale è molto attento, gentile e professionale, consiglio a tutti di venire qui per cure dentistiche."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c49",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Andrea Burba</p>",
+              "text": "Andrea Burba"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c4e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c4f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c50",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c51",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c52",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c54",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c56",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c58",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Siamo stati qui in questa clinica con tutta la famiglia, gentilezza, simpatia e super accoglienza da parte del personale, lavori eseguiti alla perfezione e nella massima cura, prezzi la metà che in Italia, ho conosciuto altre persone che venivano da tutte le parti dell’Italia e in questi anni non ho sentito mai nessuno lamentarsi.</p>",
+              "text": "Siamo stati qui in questa clinica con tutta la famiglia, gentilezza, simpatia e super accoglienza da parte del personale, lavori eseguiti alla perfezione e nella massima cura, prezzi la metà che in Italia, ho conosciuto altre persone che venivano da tutte le parti dell’Italia e in questi anni non ho sentito mai nessuno lamentarsi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c5c",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Sergio Serafin</p>",
+              "text": "Sergio Serafin"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c61",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c62",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c63",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c64",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c65",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c67",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c69",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c6b",
+            "text": {
+              "html": "<p class=\"large-paragraph-4\">Mi hanno fatto un gran bel lavoro 17 anni fa, adesso sto facendo un altro lavoro ai denti della mandibola e devo ringraziare il dottore Sime e tutto il suo staff per la competenza, la professionalità, la gentilezza e cortesia dimostrata.</p>",
+              "text": "Mi hanno fatto un gran bel lavoro 17 anni fa, adesso sto facendo un altro lavoro ai denti della mandibola e devo ringraziare il dottore Sime e tutto il suo staff per la competenza, la professionalità, la gentilezza e cortesia dimostrata."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c6f",
+            "text": {
+              "html": "<p class=\"naziv-klijenta\">Tiziana Andrioli</p>",
+              "text": "Tiziana Andrioli"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c74",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c75",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c76",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c77",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "8751f622-30c9-513e-9d53-400d47996c78",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "696797307cf4dc3f72bfa58d"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8751f622-30c9-513e-9d53-400d47996c7a",
+            "text": {
+              "html": "<div>Recensione da</div>",
+              "text": "Recensione da"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 100,
+          "total": 290
+        },
+        "lastUpdated": "2026-09-02T13:42:33.818Z"
+      }
+    }
+  ]
+}

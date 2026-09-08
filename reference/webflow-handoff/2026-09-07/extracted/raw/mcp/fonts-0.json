@@ -1,0 +1,43 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:33:03.216Z",
+  "tool": "mcp__codex_apps__webflow_data_fonts_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Uploaded native font inventory",
+        "list_fonts": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Uploaded native font inventory",
+      "action": "list_fonts",
+      "result": {
+        "customFonts": [
+          {
+            "id": "68f8c2cbbee57c252e477697",
+            "fontFamily": "3 B 19 Cb 4818 Cacb 8 C 8 A 21515464 Fc 1167",
+            "weight": 400,
+            "italic": false,
+            "fontDisplay": "swap",
+            "format": "woff2",
+            "fileName": "695e1eeeb10c5fb8eeaba900_3b19cb4818cacb8c8a21515464fc1167.woff2",
+            "hostedUrl": "https://cdn.prod.website-files.com/695e1eeeb10c5fb8eeaba87d/695e1eeeb10c5fb8eeaba900_3b19cb4818cacb8c8a21515464fc1167.woff2",
+            "axes": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 1
+        }
+      }
+    }
+  ]
+}

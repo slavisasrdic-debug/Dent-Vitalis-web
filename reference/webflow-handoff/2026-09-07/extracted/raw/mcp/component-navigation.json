@@ -1,0 +1,43 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:32:50.617Z",
+  "tool": "mcp__codex_apps__webflow_data_component_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "Navigation props and variants",
+        "get_component": {
+          "component_id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "options": {
+            "includeProps": true,
+            "includeInstanceCount": true,
+            "includeVariants": true
+          }
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Navigation props and variants",
+      "action": "get_component",
+      "result": [
+        {
+          "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "name": "navigacija",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

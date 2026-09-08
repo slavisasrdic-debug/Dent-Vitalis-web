@@ -1,0 +1,94 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:04.301Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source kartica Corone, faccette, ponti e protesi",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults kartica Corone, faccette, ponti e protesi",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source kartica Corone, faccette, ponti e protesi",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f82",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Sostituzione perfetta dei denti naturali</div>",
+              "text": "Sostituzione perfetta dei denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f84",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/prestazioni/corone-faccette-ponti-e-protesi\">Corone, faccette, ponti e protesi</a>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f86",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.</p>",
+              "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8a",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong data-w-id=\"1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8b\">A partire da 220 €</strong></div>",
+              "text": "A partire da 220 €"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults kartica Corone, faccette, ponti e protesi",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+
+.zaglavlje-detaljna {
+  min-height: 0;
+  height: auto;
+  background: #087a93;
+}
+.zaglavlje-detaljna .inner-banner-photo {
+  display: none;
+}
+.zaglavlje-detaljna .container-wrapper-4,
+.zaglavlje-detaljna .inner-banner {
+  min-height: 0;
+  height: auto;
+}
+.zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {
+  min-height: 0;
+  height: auto;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+@media screen and (max-width: 991px) {
+  .zaglavlje-detaljna .inner-banner-text-wrap.career-collection-list-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

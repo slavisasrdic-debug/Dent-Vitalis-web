@@ -1,0 +1,139 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:28.549Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Sidebar informazioni",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Sidebar informazioni",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Sidebar informazioni",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24121d",
+            "text": {
+              "html": "<div class=\"text-block-11\">Informazioni<br data-w-id=\"01415f8e-f1dc-065f-6696-5928ab24121f\"></div>",
+              "text": "Informazioni\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab241221",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"01415f8e-f1dc-065f-6696-5928ab241222\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab241224",
+            "text": {
+              "html": "<div class=\"text-block-16\">Prima visita gratuita</div>",
+              "text": "Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab241227",
+            "text": {
+              "html": "<div class=\"text-block-16\">Tempi del trattamento</div>",
+              "text": "Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24122a",
+            "text": {
+              "html": "<div class=\"text-block-16\">Pagamento flessibile</div>",
+              "text": "Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24122d",
+            "text": {
+              "html": "<div class=\"text-block-16\">Garanzie</div>",
+              "text": "Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e31cc681-c5d4-013f-5875-def59d3f9ad5",
+            "text": {
+              "html": "<div class=\"text-block-16\">Alloggio</div>",
+              "text": "Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "70137292-cab6-f6bf-3a52-0ad16845d78f",
+            "text": {
+              "html": "<div class=\"text-block-16\">Trasporto</div>",
+              "text": "Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "01415f8e-f1dc-065f-6696-5928ab241230",
+            "text": {
+              "html": "<div class=\"text-block-16\">Listino prezzi</div>",
+              "text": "Listino prezzi"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 9
+        }
+      }
+    },
+    {
+      "label": "Component defaults Sidebar informazioni",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

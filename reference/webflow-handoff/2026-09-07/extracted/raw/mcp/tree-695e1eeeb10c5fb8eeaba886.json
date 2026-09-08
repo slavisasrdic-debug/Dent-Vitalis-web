@@ -1,0 +1,2650 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:45:38.255Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba886",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "68e77bb8a2d3bcb91046b16b"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "4ee1c6c5-99c3-70d4-148c-8df635a9e4a5"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba886",
+                      "element": "c4262717-abd1-10aa-3844-92eaa6ec7b2a"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "c4262717-abd1-10aa-3844-92eaa6ec7b2b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "c4262717-abd1-10aa-3844-92eaa6ec7b2c"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "c4262717-abd1-10aa-3844-92eaa6ec7b2d"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c4262717-abd1-10aa-3844-92eaa6ec7b2e"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "c4262717-abd1-10aa-3844-92eaa6ec7b2f"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "none"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "c4262717-abd1-10aa-3844-92eaa6ec7b30"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c4262717-abd1-10aa-3844-92eaa6ec7b31"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "c4262717-abd1-10aa-3844-92eaa6ec7b32"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c4262717-abd1-10aa-3844-92eaa6ec7b33"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "46dab2d1-e442-722a-7f2e-f7cf4c76ae46"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/prestazioni-dentali"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "5ad77365-2d7a-1cd0-fbfb-6439b252f8d4"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Prestazioni"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c4262717-abd1-10aa-3844-92eaa6ec7b35"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "c4262717-abd1-10aa-3844-92eaa6ec7b36"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c4262717-abd1-10aa-3844-92eaa6ec7b37"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "c4262717-abd1-10aa-3844-92eaa6ec7b38"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Corone, faccette, ponti e protesi"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "00e8c91a-93a0-c0e6-6c57-4a1c69041094"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba886",
+                      "element": "61a35851-d3c5-53bb-891c-a1a10d68798b"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "61a35851-d3c5-53bb-891c-a1a10d68798c"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "61a35851-d3c5-53bb-891c-a1a10d68798d"
+                        },
+                        "type": "Image",
+                        "styleNames": [
+                          "Image 10"
+                        ],
+                        "settings": {
+                          "visibility": true,
+                          "assetId": "698498642566253b48569951",
+                          "altText": "Paziente durante una visita odontoiatrica presso DentVitalis a Rijeka"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba886",
+                      "element": "61a35851-d3c5-53bb-891c-a1a10d68798e"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "61a35851-d3c5-53bb-891c-a1a10d68798f"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "61a35851-d3c5-53bb-891c-a1a10d687990"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "61a35851-d3c5-53bb-891c-a1a10d687991"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Section Heading Wrapper 3",
+                                  "Home 2 Header"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "61a35851-d3c5-53bb-891c-a1a10d687992"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Nadnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "61a35851-d3c5-53bb-891c-a1a10d687993"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Sostituzione perfetta dei denti naturali"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "61a35851-d3c5-53bb-891c-a1a10d687994"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "61a35851-d3c5-53bb-891c-a1a10d687995"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "61a35851-d3c5-53bb-891c-a1a10d687996"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Corone, faccette, ponti e protesi"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "61a35851-d3c5-53bb-891c-a1a10d687997"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "61a35851-d3c5-53bb-891c-a1a10d687998"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Ogni lavoro protesico è eseguito internamente nel nostro laboratorio, secondo i più elevati standard UE."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2c"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba886",
+                      "element": "47933700-bb97-b61f-e191-7a4f486d24a9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Detaljna tekst"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "47933700-bb97-b61f-e191-7a4f486d24bd"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Sadrzaji usluge"
+                        ],
+                        "attributes": {
+                          "id": "sadrzaji"
+                        },
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "47933700-bb97-b61f-e191-7a4f486d24be"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "2b3d109d-0081-c1f2-4878-6403331d0b79"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 11"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "2b3d109d-0081-c1f2-4878-6403331d0b7a"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prezzo a partire da 220 €"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "47933700-bb97-b61f-e191-7a4f486d24c1"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "47933700-bb97-b61f-e191-7a4f486d24c2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Corone, faccette, ponti e protesi"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "34818983-08ec-1501-08f7-7c1ea736d27d"
+                            },
+                            "type": "Link",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "link": {
+                                "linkType": "pageSection",
+                                "pageSectionId": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "77f11d88-e3be-33e7-e3f9-cf15a837a1ae"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "34818983-08ec-1501-08f7-7c1ea736d27e"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "34818983-08ec-1501-08f7-7c1ea736d27f"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "34818983-08ec-1501-08f7-7c1ea736d280"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Corone dentali a partire da 220 €"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "f98a60d0-98bc-c2a5-6706-a4ad6076a63a"
+                            },
+                            "type": "Link",
+                            "styleNames": [
+                              "Link Block 3"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "link": {
+                                "linkType": "pageSection",
+                                "pageSectionId": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "82016cf6-bef3-704f-6f39-7fe5f5ce1f40"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "e416815a-5a91-f0c5-a55b-05f2a12fa2bf"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Prednost"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "e416815a-5a91-f0c5-a55b-05f2a12fa2c0"
+                                    },
+                                    "type": "HtmlEmbed",
+                                    "styleNames": [
+                                      "icon-embed-medium"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "e416815a-5a91-f0c5-a55b-05f2a12fa2c1"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Text Block 16"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "e416815a-5a91-f0c5-a55b-05f2a12fa2c2"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Ponti su impianti e su denti naturali"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "b3df0772-d621-9de8-ce3c-592573daf6f5"
+                            },
+                            "type": "Link",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "link": {
+                                "linkType": "pageSection",
+                                "pageSectionId": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "2ef29ab3-285a-9c43-bee9-665106d7c26b"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "b3df0772-d621-9de8-ce3c-592573daf6f6"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "b3df0772-d621-9de8-ce3c-592573daf6f7"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "b3df0772-d621-9de8-ce3c-592573daf6f8"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Protesi mobili e semifisse a partire da 319 €"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "30e35929-1763-04b0-6664-108d6cae3783"
+                            },
+                            "type": "Link",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "link": {
+                                "linkType": "pageSection",
+                                "pageSectionId": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "bf6cbec3-f59d-d865-f0dc-38cfe6110810"
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "30e35929-1763-04b0-6664-108d6cae3784"
+                                },
+                                "type": "HtmlEmbed",
+                                "styleNames": [
+                                  "icon-embed-medium"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "30e35929-1763-04b0-6664-108d6cae3785"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "30e35929-1763-04b0-6664-108d6cae3786"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Faccette estetiche a partire da 420 €"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "47933700-bb97-b61f-e191-7a4f486d24c5"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 13"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "9f43e4f6-e458-0d15-07f3-6e0896abb338"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Prednost",
+                              "malo"
+                            ],
+                            "attributes": {
+                              "id": "prednost"
+                            },
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "9f43e4f6-e458-0d15-07f3-6e0896abb339"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16",
+                                  "malo"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "9f43e4f6-e458-0d15-07f3-6e0896abb33a"
+                                    },
+                                    "type": "String",
+                                    "textContent": "* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "1cb5350d-82f2-c742-116d-a36c6a86d23b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Tekst detaljna"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "77f11d88-e3be-33e7-e3f9-cf15a837a1ae"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "razmak"
+                            ],
+                            "attributes": {
+                              "id": "corone_dentali"
+                            },
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "3e4af075-e737-56a2-8fba-fd5fe2fc772b"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "e831af9e-f5a7-8b68-5383-a2625f83dde0"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "e831af9e-f5a7-8b68-5383-a2625f83dde1"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Corone dentali"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "54dd7b76-e9e4-c210-f78d-e685d668169f"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Cijena"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "54dd7b76-e9e4-c210-f78d-e685d66816a0"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prezzo a partire da 220 €"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "62f4e84c-6fdb-4d01-4b41-022674aa8caf"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "62f4e84c-6fdb-4d01-4b41-022674aa8cb1"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Le corone dentali estetiche rappresentano oggi una delle soluzioni più efficaci per "
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "9e30bc75-cda1-e5e5-eb6a-a10fa53e91e6"
+                                    },
+                                    "type": "Link",
+                                    "styleNames": [
+                                      "Link"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "link": {
+                                        "linkType": "none"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "9e30bc75-cda1-e5e5-eb6a-a10fa53e91e4"
+                                        },
+                                        "type": "String",
+                                        "textContent": "trasformare il sorriso"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "9e30bc75-cda1-e5e5-eb6a-a10fa53e91e5"
+                                    },
+                                    "type": "String",
+                                    "textContent": " in modo naturale e armonioso. Realizzate su misura, permettono di correggere imperfezioni come colore, forma o dimensione dei denti, restituendo equilibrio e luminosità al volto."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c8d7282d-3be3-43fe-67d4-f5cd8e38b4dc"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "227f0b22-e2ec-433b-395a-abb92a2a1cd5"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c8d7282d-3be3-43fe-67d4-f5cd8e38b4dd"
+                                    },
+                                    "type": "String",
+                                    "textContent": "A seconda delle esigenze, utilizziamo materiali di ultima generazione come ceramica integrale e zirconio, che garantiscono resistenza, biocompatibilità e un aspetto identico a quello dei denti naturali."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "b7a7671b-2ce5-15dd-6e4e-28d4bc6cd88e"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "26683607-6bd6-d3bb-8af6-f795a8937fb3"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "26683607-6bd6-d3bb-8af6-f795a8937fb4"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Grazie alla precisione delle tecnologie digitali e all’esperienza dei nostri specialisti, ogni corona viene realizzata con la massima cura, per un risultato esteticamente perfetto e duraturo nel tempo."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "d039eb17-6625-69b0-897f-753bf6df9574"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "d039eb17-6625-69b0-897f-753bf6df9575"
+                                    },
+                                    "type": "String",
+                                    "textContent": "‍"
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "bf5eeec2-fc21-3c82-b9a7-d38421d339b6"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "bf5eeec2-fc21-3c82-b9a7-d38421d339b7"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Le corone, la cui funzione principale è quella di sostituire i denti mancanti, possono essere realizzate singolarmente oppure collegate tra loro in un ponte, a seconda delle specifiche esigenze del paziente e della situazione clinica. "
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "8ec437ad-536b-4f9a-7cb9-a9601b420aad"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "bf5212a7-a0a7-4be6-5fca-48817fd7a1cb"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "8ec437ad-536b-4f9a-7cb9-a9601b420aae"
+                                    },
+                                    "type": "String",
+                                    "textContent": "La corona singola viene cementata direttamente su un dente naturale sano o su un impianto dentale, offrendo stabilità e una perfetta integrazione estetica."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "b8e9a3e1-b476-6332-b7c3-24bb308d5a3b"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c6d8cac4-4760-d3fe-5d9b-b6569ac9d4d5"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "82016cf6-bef3-704f-6f39-7fe5f5ce1f40"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "razmak"
+                            ],
+                            "attributes": {
+                              "id": "ponti_su_impianti"
+                            },
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "8a5921b6-804f-c6f7-7298-079a9922c739"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "735dfc92-7dae-b5da-35ab-1516e359d5a2"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "735dfc92-7dae-b5da-35ab-1516e359d5a3"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Ponti su impianti e su denti naturali"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "8a5921b6-804f-c6f7-7298-079a9922c73c"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "8a5921b6-804f-c6f7-7298-079a9922c73d"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Nel caso di più denti mancanti consecutivi, le corone possono essere collegate in un ponte, che permette di "
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ce9cc30c-9b6b-b2ec-be1c-ed097c0e810d"
+                                    },
+                                    "type": "Link",
+                                    "styleNames": [
+                                      "Link"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "link": {
+                                        "linkType": "url",
+                                        "href": "/domande-e-risposte#funzionale"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "ce9cc30c-9b6b-b2ec-be1c-ed097c0e810b"
+                                        },
+                                        "type": "String",
+                                        "textContent": "ripristinare in modo efficace sia la funzione masticatoria sia l’estetica del sorriso"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ce9cc30c-9b6b-b2ec-be1c-ed097c0e810c"
+                                    },
+                                    "type": "String",
+                                    "textContent": ", garantendo resistenza e durata nel tempo."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "297efd62-ac26-7ab7-a735-0620ce26da77"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c3cb913c-4036-d101-1766-1b4406877940"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "297efd62-ac26-7ab7-a735-0620ce26da78"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Proprio come le corone, anche i ponti dentali possono essere realizzati in modo da appoggiarsi sui denti naturali adiacenti o, in alternativa, sugli impianti dentali."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "40e7ee01-1e77-71b2-2d1f-afb49f8a9998"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c8697487-da5d-c6d5-f348-62aea55cf199"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "40e7ee01-1e77-71b2-2d1f-afb49f8a9999"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Per garantire un ponte su impianti dal massimo aspetto naturale realizziamo il cosiddetto ponte ‘Malo’. La sua particolarità risiede nel fatto che ogni dente del ponte viene cementato singolarmente, permettendo di ottenere un effetto estetico perfetto."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "2ef29ab3-285a-9c43-bee9-665106d7c26b"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "razmak"
+                            ],
+                            "attributes": {
+                              "id": "protesi_mobili"
+                            },
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "f92e8372-d791-ebc2-d379-bdab55c08de3"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "f92e8372-d791-ebc2-d379-bdab55c08de4"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "f92e8372-d791-ebc2-d379-bdab55c08de5"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Protesi mobili e semifisse"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "b1ea8b65-299e-9066-80cf-240ad43d94c7"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Cijena"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "b1ea8b65-299e-9066-80cf-240ad43d94c8"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prezzo a partire da 319 €"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "811683ef-44b6-1af2-8f41-f053dca36a53"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "811683ef-44b6-1af2-8f41-f053dca36a54"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Protesi mobili"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "9215d1f7-7e80-9f11-843e-32bb74a95817"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "9215d1f7-7e80-9f11-843e-32bb74a95818"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Le protesi mobili sono dispositivi rimovibili che sostituiscono i denti mancanti, permettendo di ripristinare la funzione masticatoria e l’occlusione. Pur offrendo una stabilità inferiore rispetto alle protesi fisse, consentono una gestione igienica semplice e una manutenzione agevole."
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "dcaf5780-d0d0-e0b3-6f14-e97057e28cca"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "dcaf5780-d0d0-e0b3-6f14-e97057e28ccb"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Protesi semifisse"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "f92e8372-d791-ebc2-d379-bdab55c08de6"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "12ff779c-94a7-37f0-c498-18f01cf62f9b"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Le "
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "5df46774-f5de-fc57-ebaf-f80b4ff7934c"
+                                    },
+                                    "type": "Link",
+                                    "styleNames": [
+                                      "Link"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "link": {
+                                        "linkType": "url",
+                                        "href": "/domande-e-risposte#riabilitazione"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "5df46774-f5de-fc57-ebaf-f80b4ff7934a"
+                                        },
+                                        "type": "String",
+                                        "textContent": "protesi "
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "5df46774-f5de-fc57-ebaf-f80b4ff7934b"
+                                    },
+                                    "type": "String",
+                                    "textContent": "semifisse, ancorate a impianti o a una barra, rimangono stabili durante la masticazione e il parlare, riducendo fastidi e aumentando la sicurezza del paziente. Consentono di masticare con maggiore forza e precisione rispetto alle protesi rimovibili, avvicinandosi molto alla funzione dei denti naturali. Inoltre, il carico trasmesso agli impianti stimola l’osso mascellare o mandibolare, contribuendo a prevenire l’atrofia ossea spesso associata alle protesi tradizionali."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "773640c2-1e4a-01fd-2ac4-d50659bfad8a"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "c2697df0-0ca0-abcf-243a-3124aa9f10ee"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "773640c2-1e4a-01fd-2ac4-d50659bfad8b"
+                                    },
+                                    "type": "String",
+                                    "textContent": "La prima visita completa, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "bf6cbec3-f59d-d865-f0dc-38cfe6110810"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "razmak"
+                            ],
+                            "attributes": {
+                              "id": "facete_est"
+                            },
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c8c"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c8d"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c8e"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Faccette estetiche"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c8f"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Cijena"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c90"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prezzo a partire da 420 €"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c93"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c94"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Le faccette dentali sono sottili rivestimenti estetici che vengono applicati sulla superficie anteriore dei denti per migliorarne il colore, la forma e l’allineamento. Rappresentano una soluzione minimamente invasiva in grado di trasformare completamente il sorriso in tempi molto brevi."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "04cc64c7-d185-77db-4181-b4aefbf289a0"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "29fc1e76-dc62-f101-cbf6-c04607e5ef60"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "04cc64c7-d185-77db-4181-b4aefbf289a1"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Le faccette più utilizzate sono quelle in ceramica (porcellana), apprezzate per la loro resistenza, la brillantezza naturale e la capacità di mantenere il colore nel tempo."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ebc265c6-348a-cd95-efdf-e944c42e3b83"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "7727f61a-b4e7-6c54-7aff-c0ba76b6f926"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ebc265c6-348a-cd95-efdf-e944c42e3b84"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Si possono utilizzare faccette in composito, modellate sul dente, per ottenere una correzione immediata e naturale."
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "751bfd92-af3d-e392-dc55-f47a2e88cc18"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "62cd17fc-72d3-9780-ee0e-e8c6f32bdf68"
+                                    },
+                                    "type": "",
+                                    "settings": {
+                                      "visibility": true
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "751bfd92-af3d-e392-dc55-f47a2e88cc19"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Grazie alle moderne tecnologie digitali, le faccette di ultima generazione garantiscono un adattamento perfetto e un’estetica duratura, estremamente simile ai denti naturali."
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c95"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "3d13ea93-b38c-ca64-61b7-73ccdb873c96"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Quando sono indicate le faccette dentali:"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "53d9115f-0bea-9ac3-5e06-aab846c95455"
+                                },
+                                "type": "Block",
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "53d9115f-0bea-9ac3-5e06-aab846c95456"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Bulet"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "bee9eb58-f754-c561-cbe6-07be24c196a7"
+                                        },
+                                        "type": "HtmlEmbed",
+                                        "styleNames": [
+                                          "ikona-bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "53d9115f-0bea-9ac3-5e06-aab846c95458"
+                                        },
+                                        "type": "Paragraph",
+                                        "styleNames": [
+                                          "Large Paragraph",
+                                          "bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c95459"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Per correggere il colore dei denti"
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c9545a"
+                                            },
+                                            "type": "",
+                                            "settings": {
+                                              "visibility": true
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "53d9115f-0bea-9ac3-5e06-aab846c9545b"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Bulet"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "d4956a9b-2185-49d0-306c-c7c43525c08e"
+                                        },
+                                        "type": "HtmlEmbed",
+                                        "styleNames": [
+                                          "ikona-bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "53d9115f-0bea-9ac3-5e06-aab846c9545d"
+                                        },
+                                        "type": "Paragraph",
+                                        "styleNames": [
+                                          "Large Paragraph",
+                                          "bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c9545e"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Per modificare forma e dimensioni dei denti"
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c9545f"
+                                            },
+                                            "type": "",
+                                            "settings": {
+                                              "visibility": true
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "53d9115f-0bea-9ac3-5e06-aab846c95460"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Bulet"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "51b5286d-ec49-e27e-4946-b5f47e3a0cbc"
+                                        },
+                                        "type": "HtmlEmbed",
+                                        "styleNames": [
+                                          "ikona-bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "53d9115f-0bea-9ac3-5e06-aab846c95462"
+                                        },
+                                        "type": "Paragraph",
+                                        "styleNames": [
+                                          "Large Paragraph",
+                                          "bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c95463"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Per correggere la posizione dei denti o per riparare denti fratturati"
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c95464"
+                                            },
+                                            "type": "",
+                                            "settings": {
+                                              "visibility": true
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "53d9115f-0bea-9ac3-5e06-aab846c95465"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Bulet"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "2bc08c69-597b-05f4-0b19-da399443b066"
+                                        },
+                                        "type": "HtmlEmbed",
+                                        "styleNames": [
+                                          "ikona-bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        }
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba886",
+                                          "element": "53d9115f-0bea-9ac3-5e06-aab846c95467"
+                                        },
+                                        "type": "Paragraph",
+                                        "styleNames": [
+                                          "Large Paragraph",
+                                          "bullet"
+                                        ],
+                                        "settings": {
+                                          "visibility": true
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c95468"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Per chiudere spazi tra i denti (diastemi)."
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba886",
+                                              "element": "53d9115f-0bea-9ac3-5e06-aab846c95469"
+                                            },
+                                            "type": "",
+                                            "settings": {
+                                              "visibility": true
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b1"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b2"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b3"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Ulteriori informazioni"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "0246106e-b406-d73f-3a93-b0386cc04ce8"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "0246106e-b406-d73f-3a93-b0386cc04ce9"
+                                    },
+                                    "type": "String",
+                                    "textContent": "L’estetica dentale desiderata "
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "e0ca49a4-00f5-6efc-7b9a-3cb4dbeed56a"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "e0ca49a4-00f5-6efc-7b9a-3cb4dbeed56b"
+                                    },
+                                    "type": "String",
+                                    "textContent": "L’aspetto dei denti dipende dai materiali scelti, dal tipo di lavoro protesico e dalle preferenze del paziente. Grazie al processo digitalizzato, è possibile visualizzare in anticipo il risultato e apportare modifiche durante la 'prova in resina', ripetibile tutte le volte necessarie, garantendo così il risultato estetico desiderato."
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6c1"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6c2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Qual è la differenza tra zirconia e ceramica?"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b6"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b7"
+                                    },
+                                    "type": "String",
+                                    "textContent": "La zirconia è un materiale molto resistente e duraturo, adatto a carichi masticatori elevati e a ponti lunghi, mentre la ceramica offre un aspetto più traslucido e naturale, ideale per corone anteriori dove l’estetica è prioritaria. In generale, la zirconia è più robusta e meno soggetta a fratture, mentre la ceramica, pur essendo più fragile, consente una resa estetica superiore dei denti."
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "0b2d3e3c-f287-ae11-b371-b5acaa69d785"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "0b2d3e3c-f287-ae11-b371-b5acaa69d786"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Garanzia"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "457a3ca5-d1b4-c0f4-0324-48262e7f9aa4"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "457a3ca5-d1b4-c0f4-0324-48262e7f9aa5"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Tutti i lavori protesici sono coperti da garanzia, fornita in forma scritta e in lingua italiana."
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "6525aad8-6c2d-51f1-8ab2-16bbd2e40e42"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Medjunaslov H3"
+                                ],
+                                "settings": {
+                                  "tag": "h3",
+                                  "visibility": true,
+                                  "headingLevel": 3
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "6525aad8-6c2d-51f1-8ab2-16bbd2e40e43"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Certificato di conformità"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba886",
+                                  "element": "013f2507-8f89-c9c8-f02b-39731b3873a6"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba886",
+                                      "element": "013f2507-8f89-c9c8-f02b-39731b3873a7"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Il certificato di conformità è un documento fondamentale che consente al paziente di conoscere tutti i materiali utilizzati nella realizzazione del lavoro protesico. Come tutti gli altri documenti, viene fornito in forma scritta e in lingua italiana, garantendo chiarezza e trasparenza.  "
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "c7758075-cf13-622d-87d6-29e55ffa107f"
+                },
+                "type": "Section",
+                "settings": {
+                  "tag": "section",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba886",
+                      "element": "2384f6f9-4462-c7b6-ca68-7ab818e156a6"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Full Width Wrapper"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "40e53009-623c-3b7a-a35d-2e129531e2a0"
+                        },
+                        "type": "Paragraph",
+                        "styleNames": [
+                          "Medjunaslov H2 detaljna Altre"
+                        ],
+                        "settings": {
+                          "visibility": true
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "40e53009-623c-3b7a-a35d-2e129531e2a1"
+                            },
+                            "type": "String",
+                            "textContent": "Altre prestazioni"
+                          }
+                        ]
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba886",
+                          "element": "2384f6f9-4462-c7b6-ca68-7ab818e156a7"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Container Wrapper list detail"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "0a1d4186-f3d0-ca14-fec9-9bc250d0b749"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                              "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+                              "props": [],
+                              "slots": []
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "d9f14d67-bd58-3d93-1efb-1aa4e83b738c"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                              "name": "kartica Premium: ponte fisso su impianti",
+                              "props": [],
+                              "slots": []
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "5204e39b-dc82-49ce-fb99-b62904d96882"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                              "name": "kartica Facilissimo: sbiancamento dei denti",
+                              "props": [],
+                              "slots": []
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba886",
+                              "element": "a4a27bd9-9ff8-a500-b2b2-576cce43746f"
+                            },
+                            "type": "ComponentInstance",
+                            "instanceDetails": {
+                              "type": "ComponentInstance",
+                              "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+                              "name": "kartica Sedazione cosciente",
+                              "props": [],
+                              "slots": []
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "7b754b86-b021-1053-1d31-541aa49fffb4"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "c1a9603c-77e5-d937-d5db-05809e2fb449"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "3da5c601-8af3-316b-621d-96883d67d92d"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba886",
+                  "element": "c01ceb30-9aef-720c-ad2f-61f09523cf72"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

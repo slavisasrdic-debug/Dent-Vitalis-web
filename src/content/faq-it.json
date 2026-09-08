@@ -1,0 +1,113 @@
+[
+  {
+    "question": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+    "answer": [
+      {
+        "text": "Non è sempre facile scegliere la clinica giusta, ma alcuni criteri possono aiutarti: verifica da quanto tempo opera e con quali risultati, controlla le valutazioni su Google (che riflettono la soddisfazione reale dei pazienti) e accertati che tutta la documentazione ti venga fornita in forma scritta e nella tua lingua.",
+        "strong": false
+      },
+      {
+        "break": true
+      },
+      {
+        "break": true
+      },
+      {
+        "text": "Questi aspetti valgono anche per i dentisti italiani, ma se hai deciso di curare i denti in Croazia grazie ai prezzi più convenienti, è fondamentale prestare attenzione a questi elementi per garantire cure sicure e di qualità.",
+        "strong": false
+      }
+    ]
+  },
+  {
+    "question": "Quanto costa fare i denti in Croazia?",
+    "answer": [
+      {
+        "text": "I prezzi in Croazia sono decisamente più convenienti rispetto all’Italia. Più l’intervento è complesso - ad esempio nell’implantologia - maggiori sono i risparmi, che possono arrivare fino al ",
+        "strong": false
+      },
+      {
+        "text": "50%",
+        "strong": true
+      },
+      {
+        "text": ", senza compromettere la qualità delle cure.",
+        "strong": false
+      },
+      {
+        "break": true
+      }
+    ]
+  },
+  {
+    "question": "Quanto costa un impianto dentale?",
+    "answer": [
+      {
+        "text": "Il prezzo di un singolo impianto parte ",
+        "strong": false
+      },
+      {
+        "text": "da {{singleImplantPrice}} €",
+        "strong": true
+      },
+      {
+        "text": ". Tuttavia, se hai bisogno di un impianto, questo non sarà il costo finale. Infatti, l’impianto viene inserito nell’osso e su di esso viene avvitata una componente chiamata moncone, sulla quale si posiziona la corona. Il costo totale dipenderà dal tipo di moncone e dalla scelta della corona. Approfitta della visita gratuita e decidi insieme al dentista quale opzione è la migliore per te.",
+        "strong": false
+      }
+    ]
+  },
+  {
+    "question": "Quanto costa una corona dentale?",
+    "answer": [
+      {
+        "text": "Il prezzo di una singola corona su dente naturale parte da ",
+        "strong": false
+      },
+      {
+        "text": "{{crownPrice}} €.",
+        "strong": true
+      },
+      {
+        "text": ".",
+        "strong": false
+      }
+    ]
+  },
+  {
+    "question": "Dentisti italiani o croati?",
+    "answer": [
+      {
+        "text": "I dentisti croati godono di grande popolarità per ottime ragioni. La facoltà di odontoiatria in Croazia è un corso di sei anni completamente dedicato ai denti e alla mascella, permettendo ai professionisti di acquisire eccellente preparazione e pratica fin dall’inizio della carriera.",
+        "strong": false
+      },
+      {
+        "break": true
+      },
+      {
+        "break": true
+      },
+      {
+        "text": "Inoltre, grazie a un elevato numero di pazienti, i dentisti croati accumulano esperienza superiore, garantendo risultati di alta qualità. ",
+        "strong": false
+      },
+      {
+        "break": true
+      },
+      {
+        "break": true
+      },
+      {
+        "text": "Per scegliere la clinica giusta, in Croazia o in Italia, affidati a professionisti con esperienza e referenze solide: alla fine, ciò che conta davvero è ottenere il miglior rapporto qualità-prezzo.",
+        "strong": false
+      }
+    ]
+  },
+  {
+    "question": "In quale valuta e come si paga in Croazia?",
+    "answer": [
+      {
+        "text": "In Croazia si utilizza l’euro. È possibile pagare in contanti (fino a 10.000 euro), con bonifico bancario o con carta di credito. Il contante può essere prelevato facilmente dagli sportelli automatici (ATM).",
+        "strong": false
+      }
+    ]
+  }
+]

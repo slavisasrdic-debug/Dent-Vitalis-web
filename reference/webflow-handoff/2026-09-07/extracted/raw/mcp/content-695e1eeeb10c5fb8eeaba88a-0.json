@@ -1,0 +1,242 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:57.127Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba88a",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba88a",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba88a",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba88a",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "74ec0d8a-89e6-d443-d07f-27051594829c",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"74ec0d8a-89e6-d443-d07f-27051594829d\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74ec0d8a-89e6-d443-d07f-27051594829f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74ec0d8a-89e6-d443-d07f-2705159482a1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/chi-siamo\" data-w-id=\"42c01eec-8f27-f04a-e8fc-e8a4fdf5d0bc\">Su di noi</a></h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74ec0d8a-89e6-d443-d07f-2705159482a3",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74ec0d8a-89e6-d443-d07f-2705159482a5",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Come raggiungerci</h6>",
+              "text": "Come raggiungerci"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "16d7fccc-bcba-2654-d5a1-45df58a8537e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a995eeda77024f4c59193f0"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "16d7fccc-bcba-2654-d5a1-45df58a85386",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Come raggiungerci</h1>",
+              "text": "Come raggiungerci"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "16d7fccc-bcba-2654-d5a1-45df58a85388",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.</p>",
+              "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "dc34db01-7c8b-9691-e7b8-29f75196bc64",
+            "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Se desideri fissare la tua prima visita, non dimenticare di chiedere della possibilità di un trasporto gratuito: vogliamo rendere il tuo percorso verso la clinica il più comodo possibile.<br data-w-id=\"5644f0cf-6ad1-3e01-1a03-65266ea1d2b7\">‍</p>",
+              "text": "Se desideri fissare la tua prima visita, non dimenticare di chiedere della possibilità di un trasporto gratuito: vogliamo rendere il tuo percorso verso la clinica il più comodo possibile.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Sede</p>",
+              "text": "Sede"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">In un’unica sede abbiamo riunito tutto ciò che è necessario per un percorso odontoiatrico completo ed efficiente: una clinica moderna, un laboratorio odontotecnico interno, diagnostica avanzata e un confortevole alloggio per i nostri pazienti.<br data-w-id=\"9f8b1983-1e21-b689-6c01-877c6ce87815\">‍<a href=\"https://maps.app.goo.gl/95XH31oYAt8gpifR7\" class=\"link\" data-w-id=\"77395bef-50dc-95ce-8d37-9ae654c6c200\">Dentvitalis Fides, Krešimirova 60, Rijeka (Fiume), Croazia<strong class=\"bold-text-6\" data-w-id=\"b828de19-6ea5-e0a8-1f5a-10e74064aceb\"><br data-w-id=\"69e862b4-06a4-e0a1-0052-5914d92cc71c\">‍</strong></a></p>",
+              "text": "In un’unica sede abbiamo riunito tutto ciò che è necessario per un percorso odontoiatrico completo ed efficiente: una clinica moderna, un laboratorio odontotecnico interno, diagnostica avanzata e un confortevole alloggio per i nostri pazienti.\n‍Dentvitalis Fides, Krešimirova 60, Rijeka (Fiume), Croazia\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Se arrivi in auto</p>",
+              "text": "Se arrivi in auto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per chi arriva in auto, il parcheggio è disponibile qui: <br data-w-id=\"13c7b785-e0a9-a194-f862-9d8e2a73665f\">‍<a href=\"https://share.google/TJtLAKAVtTdLcpCDF\" class=\"link\" data-w-id=\"7319b56b-f718-4306-2990-150b07b0085a\">https://share.google/71jvli5wQ7ylYdd8N</a></p>",
+              "text": "Per chi arriva in auto, il parcheggio è disponibile qui: \n‍https://share.google/71jvli5wQ7ylYdd8N"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ti consigliamo di scaricare, prima del tuo arrivo, l’app che consente di pagare il parcheggio a ore, al giorno o alla settimana. All’interno dell’app puoi salvare i dati di uno o più veicoli, così non dovrai inserire ogni volta la targa.</p>",
+              "text": "Ti consigliamo di scaricare, prima del tuo arrivo, l’app che consente di pagare il parcheggio a ore, al giorno o alla settimana. All’interno dell’app puoi salvare i dati di uno o più veicoli, così non dovrai inserire ogni volta la targa."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "10eb1185-8917-2da5-109d-2eea332f02c3",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il pagamento del parcheggio tramite l’app è completamente gratuito: non sono previste commissioni per il suo utilizzo.</p>",
+              "text": "Il pagamento del parcheggio tramite l’app è completamente gratuito: non sono previste commissioni per il suo utilizzo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1006aef3-221a-3c42-9b01-1922fc13c794",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Link per scaricare l’applicazione: <br data-w-id=\"395645e9-d9d1-ca1f-af3d-a99c963005fc\">‍<a href=\"https://www.kekspay.hr/\" class=\"link\" data-w-id=\"23dfd23d-4862-bfbb-882e-9b470ade69dc\">KEKS Pay - applicazione per inviare e ricevere denaro rapidamente - senza costi<strong data-w-id=\"3953b94f-15b0-2d79-7ecb-a80289476ee8\"><br data-w-id=\"1022b1ca-85c6-a1af-297b-c0849b3af465\">‍</strong></a></p>",
+              "text": "Link per scaricare l’applicazione: \n‍KEKS Pay - applicazione per inviare e ricevere denaro rapidamente - senza costi\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Se desideri utilizzare il nostro servizio di trasporto</p>",
+              "text": "Se desideri utilizzare il nostro servizio di trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per i pazienti che vengono alla prima visita, il trasporto da e per Trieste è completamente gratuito. </p>",
+              "text": "Per i pazienti che vengono alla prima visita, il trasporto da e per Trieste è completamente gratuito. "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "10eb9320-83be-ce44-7245-85a50e822226",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Se desideri usufruire del <a class=\"link\" data-wf-link-page-id=\"696f4a9a3d82954cb43ac683\" data-w-id=\"d7b52858-a251-8d30-c051-ba5a409f5150\">nostro servizio di trasporto</a>, contattaci al <br data-w-id=\"a417c8e5-c5de-2886-2cdb-cf26416af221\">‍<a href=\"#\" class=\"link\" data-w-id=\"32b76d15-deb1-e774-128e-c79187391f05\">Numero Verde 800 174 206.</a> </p>",
+              "text": "Se desideri usufruire del nostro servizio di trasporto, contattaci al \n‍Numero Verde 800 174 206. "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 25
+        },
+        "lastUpdated": "2026-09-03T11:51:31.006Z"
+      }
+    }
+  ]
+}

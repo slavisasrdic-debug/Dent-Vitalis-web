@@ -1,0 +1,502 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:40:34.264Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Footer",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Footer",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Footer",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33452",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695f9e2aaaf1fd30aa01165f"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33455",
+            "text": {
+              "html": "<div class=\"title-small\">Prestazioni</div>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33457",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba882\">Imperdibile: protesi definitiva ancorata su 4 impianti</a>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33459",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba884\">Premium: ponte fisso su impianti</a>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3345b",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba885\">Facilissimo: sbiancamento dei denti</a>",
+              "text": "Facilissimo: sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3345d",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba886\">Corone, faccette, ponti e protesi</a>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33460",
+            "text": {
+              "html": "<div class=\"title-small\">Su di noi</div>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33462",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba888\">I nostri specialisti</a>",
+              "text": "I nostri specialisti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33464",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba889\">Tutto in un unico luogo</a>",
+              "text": "Tutto in un unico luogo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33466",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88a\">Come raggiungerci</a>",
+              "text": "Come raggiungerci"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33468",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88b\">Laboratorio odontotecnico</a>",
+              "text": "Laboratorio odontotecnico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cb7e40fb-69ea-eff5-d00b-bc4f6691d004",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88c\">Materiali e apparecchiature</a>",
+              "text": "Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b9c0a4de-043c-9e5b-8dc1-51af3b3b864a",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88d\">Impianti di nuova generazione</a>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ecd83554-3ff0-049a-3966-9bf5b5268ed5",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88e\">Sedazione cosciente</a>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3346b",
+            "text": {
+              "html": "<div class=\"title-small\">Informazioni</div>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3346d",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba890\">Prima visita gratuita</a>",
+              "text": "Prima visita gratuita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3346f",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba891\">Tempi del trattamento</a>",
+              "text": "Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33471",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba892\">Pagamento flessibile</a>",
+              "text": "Pagamento flessibile"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33473",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba893\">Garanzie</a>",
+              "text": "Garanzie"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ade4c6a0-6318-5a94-44d5-57dfbb1b7da5",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"696f49d7f343717fcadfcf28\">Alloggio</a>",
+              "text": "Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9038aa73-6014-fb73-243a-d72cf2f39303",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"696f4a9a3d82954cb43ac683\">Trasporto</a>",
+              "text": "Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33475",
+            "text": {
+              "html": "<a class=\"footer-link-2\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba894\">Listino prezzi</a>",
+              "text": "Listino prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3347e",
+            "text": {
+              "html": "<div class=\"title-small\">Testimonianze</div>",
+              "text": "Testimonianze"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d8e7333c-e813-a2c7-e01a-9833b5dc9899",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/testimonianze#video\">Video recensioni</a>",
+              "text": "Video recensioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "668b1913-1fae-118d-3eaf-6ad1467b119d",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/testimonianze#google\">Recensioni Google</a>",
+              "text": "Recensioni Google"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8e0a3fd7-77d1-25b5-3bcd-86eb5b096b55",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/testimonianze#dentvitalis\">Recensioni post-trattamento</a>",
+              "text": "Recensioni post-trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33481",
+            "text": {
+              "html": "<div class=\"title-small\">FAQ</div>",
+              "text": "FAQ"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33483",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/faq#su-rijeka\">Su Rijeka (Fiume)</a>",
+              "text": "Su Rijeka (Fiume)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33485",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/faq#croazia\">Informazioni sulla Croazia</a>",
+              "text": "Informazioni sulla Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33487",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/faq#dentisti-rijeka\">Dentisti a Rijeka e in Croazia</a>",
+              "text": "Dentisti a Rijeka e in Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33489",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/faq#dentvitalis\">Guida a Dentvitalis</a>",
+              "text": "Guida a Dentvitalis"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3348c",
+            "text": {
+              "html": "<div class=\"title-small\">Galleria</div>",
+              "text": "Galleria"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3348e",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/domande-e-risposte#estetica\">Correzione estetica dei denti</a>",
+              "text": "Correzione estetica dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33490",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/domande-e-risposte#funzionale\">Correzione funzionale ed estetica dei denti</a>",
+              "text": "Correzione funzionale ed estetica dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33492",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/domande-e-risposte#riabilitazione\">Opzioni per la riabilitazione di una mascella senza denti</a>",
+              "text": "Opzioni per la riabilitazione di una mascella senza denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9289947a-8e40-845f-d1c1-5c987068e516",
+            "text": {
+              "html": "<div class=\"title-small\">Informazioni legali</div>",
+              "text": "Informazioni legali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2c5118af-73ce-743e-bd2c-e2a92aae217c",
+            "text": {
+              "html": "<a class=\"dv-footer-legal-link\" href=\"/informativa-sulla-privacy\">Informativa sulla privacy</a>",
+              "text": "Informativa sulla privacy"
+            },
+            "attributes": {
+              "href": "/informativa-sulla-privacy"
+            }
+          },
+          {
+            "type": "text",
+            "id": "2c5118af-73ce-743e-bd2c-e2a92aae217e",
+            "text": {
+              "html": "<a class=\"dv-footer-legal-link\" href=\"/condizioni-di-utilizzo\">Condizioni di utilizzo</a>",
+              "text": "Condizioni di utilizzo"
+            },
+            "attributes": {
+              "href": "/condizioni-di-utilizzo"
+            }
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33497",
+            "text": {
+              "html": "<div class=\"title-small\">Contatti</div>",
+              "text": "Contatti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d33499",
+            "text": {
+              "html": "<a class=\"footer-link-2\" href=\"/contatti\">Krešimirova 60, 51000 Rijeka</a>",
+              "text": "Krešimirova 60, 51000 Rijeka"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "396fcd3a-a60d-039d-cfba-a38a70f11c9c",
+            "text": {
+              "html": "<a class=\"dv-footer-contact-link\" href=\"tel:800174206\">Numero verde: 800 174 206</a>",
+              "text": "Numero verde: 800 174 206"
+            },
+            "attributes": {
+              "aria-label": "Numero verde 800 174 206",
+              "href": "tel:800174206"
+            }
+          },
+          {
+            "type": "text",
+            "id": "396fcd3a-a60d-039d-cfba-a38a70f11c9e",
+            "text": {
+              "html": "<a class=\"dv-footer-contact-link\" href=\"tel:+38551688380\">Tel. +385 51 688 380</a>",
+              "text": "Tel. +385 51 688 380"
+            },
+            "attributes": {
+              "aria-label": "Telefono DentVitalis +385 51 688 380",
+              "href": "tel:+38551688380"
+            }
+          },
+          {
+            "type": "text",
+            "id": "396fcd3a-a60d-039d-cfba-a38a70f11ca0",
+            "text": {
+              "html": "<a class=\"dv-footer-contact-link\" href=\"mailto:it@dentvitalis.com\">it@dentvitalis.com</a>",
+              "text": "it@dentvitalis.com"
+            },
+            "attributes": {
+              "href": "mailto:it@dentvitalis.com"
+            }
+          },
+          {
+            "type": "text",
+            "id": "396fcd3a-a60d-039d-cfba-a38a70f11ca7",
+            "text": {
+              "html": "<p class=\"dv-footer-contact-hours\"><strong class=\"dv-footer-contact-label\" data-w-id=\"396fcd3a-a60d-039d-cfba-a38a70f11ca2\">Orari della clinica</strong><br data-w-id=\"396fcd3a-a60d-039d-cfba-a38a70f11ca3\">Mar-Sab 08:00-16:00<br data-w-id=\"396fcd3a-a60d-039d-cfba-a38a70f11ca5\">Prenotazioni telefoniche: 08:00-18:00</p>",
+              "text": "Orari della clinica\nMar-Sab 08:00-16:00\nPrenotazioni telefoniche: 08:00-18:00"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d3349e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6272de3851627857066e8ffa"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d334a0",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6272de3851627857066e9009"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d334a2",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6272de3851627857066e902a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cdb4010a-fc4d-930a-8493-bc7524d334a4",
+            "text": {
+              "html": "<div class=\"footer-copyright-center\">Copyright © 2025 Dent Vitalis Fides</div>",
+              "text": "Copyright © 2025 Dent Vitalis Fides"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 48
+        }
+      }
+    },
+    {
+      "label": "Component defaults Footer",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

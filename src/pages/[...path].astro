@@ -1,0 +1,61 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import DetailHero from '../components/DetailHero.astro';
+import PhotoCardSequence from '../components/PhotoCardSequence.astro';
+import ContactSection from '../components/ContactSection.astro';
+import EditorialPage from '../components/EditorialPage.astro';
+import { innerPages, type InnerPage } from '../content/inner-pages';
+import { contactCopy, languages } from '../content/site';
+export function getStaticPaths() {
+  return innerPages.map((page) => ({
+    params: { path: page.route.slice(1) },
+    props: { page },
+  }));
+}
+interface Props {
+  page: InnerPage;
+}
+const { page } = Astro.props;
+const pageLanguages = languages.map((language) => ({
+  ...language,
+  href: language.lang === 'it' ? page.route : '',
+  available: language.lang === 'it',
+}));
+const directory =
+  page.route === '/chi-siamo'
+    ? 'about'
+    : page.route === '/prestazioni-dentali'
+      ? 'services'
+      : 'information';
+const cards = page.directory.map((card) => ({
+  ...card,
+  desktopImage: card.desktop.image,
+  mobileImage: card.mobile.image,
+  alt: card.mobile.alt,
+}));
+---
+
+<SiteLayout
+  title={page.title}
+  description={page.description}
+  typography={page.typography}
+  canonical={`https://www.dentvitalis.com${page.route}`}
+  pageLanguages={pageLanguages}
+>
+  <Breadcrumb items={page.breadcrumb} />
+  <DetailHero content={page.hero} />
+  {
+    page.directory.length ? (
+      <PhotoCardSequence
+        cards={cards}
+        variant="service"
+        label={page.hero.title}
+        directory={directory}
+      />
+    ) : (
+      <EditorialPage page={page} />
+    )
+  }
+  <ContactSection content={contactCopy} lang="it" />
+</SiteLayout>

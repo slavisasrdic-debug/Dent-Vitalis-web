@@ -1,0 +1,533 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:57.600Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba897",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba897",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba897",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba897",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "b48443e8-1cf5-862d-1b8e-79c60004767e",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"b48443e8-1cf5-862d-1b8e-79c60004767f\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b48443e8-1cf5-862d-1b8e-79c600047681",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b48443e8-1cf5-862d-1b8e-79c600047687",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Domande e risposte</h6>",
+              "text": "Domande e risposte"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2ca746b2-65d4-3dd3-3ea8-c688b597a24c",
+            "image": {
+              "alt": "Domande e risposte",
+              "assetId": "6a8700d19aa3933e4d19536e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2ca746b2-65d4-3dd3-3ea8-c688b597a254",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Domande e risposte</h1>",
+              "text": "Domande e risposte"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2ca746b2-65d4-3dd3-3ea8-c688b597a256",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Qui troverai le risposte alle domande più frequenti. Per qualsiasi ulteriore informazione, contattaci senza esitazione al Numero Verde 800 174 206 o inviaci una richiesta: saremo felici di aiutarti!</p>",
+              "text": "Qui troverai le risposte alle domande più frequenti. Per qualsiasi ulteriore informazione, contattaci senza esitazione al Numero Verde 800 174 206 o inviaci una richiesta: saremo felici di aiutarti!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0a",
+            "text": {
+              "html": "<div class=\"text-block-11\">Domande e risposte<br data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0c\"></div>",
+              "text": "Domande e risposte\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a0e",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"686a2a6a-88df-c0aa-d962-8ea18ff93a0f\"></span></div>",
+              "text": ""
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a11",
+            "text": {
+              "html": "<div class=\"text-block-16\">Su Rijeka (Fiume)</div>",
+              "text": "Su Rijeka (Fiume)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a14",
+            "text": {
+              "html": "<div class=\"text-block-16\">Informazioni sulla Croazia</div>",
+              "text": "Informazioni sulla Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a17",
+            "text": {
+              "html": "<div class=\"text-block-16\">Dentisti a Rijeka e in Croazia</div>",
+              "text": "Dentisti a Rijeka e in Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "686a2a6a-88df-c0aa-d962-8ea18ff93a1a",
+            "text": {
+              "html": "<div class=\"text-block-16\">Guida a Dentvitalis</div>",
+              "text": "Guida a Dentvitalis"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Su Rijeka (Fiume)</p>",
+              "text": "Su Rijeka (Fiume)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b82ac382-4f30-6ace-ac70-42794b8fd6f0",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Dove si trova Rijeka (Fiume)?</h3>",
+              "text": "Dove si trova Rijeka (Fiume)?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b82ac382-4f30-6ace-ac70-42794b8fd6f6",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Fiume si trova sul Mar Adriatico, a soli 60 km da Trieste.<br data-w-id=\"b82ac382-4f30-6ace-ac70-42794b8fd6fb\"></p>",
+              "text": "Fiume si trova sul Mar Adriatico, a soli 60 km da Trieste.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5b60e369-e996-1e02-8082-42a8f203aa0f",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Perché scegliere Rijeka (Fiume) per le cure dentistiche?</h3>",
+              "text": "Perché scegliere Rijeka (Fiume) per le cure dentistiche?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5b60e369-e996-1e02-8082-42a8f203aa15",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Rijeka è facilmente raggiungibile dall’Italia. Qui vi sentirete subito a casa: grazie alla storia condivisa, la maggior parte degli abitanti parla fluentemente l’italiano, rendendo ogni visita piacevole e senza difficoltà di comunicazione.<br data-w-id=\"67f55163-f962-86fc-6843-d52a3e58b84f\"><br data-w-id=\"7db127f9-c0f6-b28f-103d-2f9c4333370b\">Grazie alla sua posizione strategica, visitare Rijeka per le tue cure odontoiatriche significa unire cura e relax in un’unica esperienza.<br data-w-id=\"5b60e369-e996-1e02-8082-42a8f203aa17\"></p>",
+              "text": "Rijeka è facilmente raggiungibile dall’Italia. Qui vi sentirete subito a casa: grazie alla storia condivisa, la maggior parte degli abitanti parla fluentemente l’italiano, rendendo ogni visita piacevole e senza difficoltà di comunicazione.\n\nGrazie alla sua posizione strategica, visitare Rijeka per le tue cure odontoiatriche significa unire cura e relax in un’unica esperienza.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ede54a38-38e5-f2ac-2b27-d5b67e55bac4",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Perché visitare Rijeka (Fiume)?</h3>",
+              "text": "Perché visitare Rijeka (Fiume)?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ede54a38-38e5-f2ac-2b27-d5b67e55baca",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Affacciata sul mare Adriatico, Rijeka è circondata da alcune delle mete turistiche più amate e facilmente raggiungibili durante tutto l’anno. Tra le destinazioni più popolari si trovano Opatija (Abbazia), le splendide isole di Krk, Lošinj e Cres, oltre alle rinomate località istriane come Rovigno, Parenzo e Pola.<br data-w-id=\"ede54a38-38e5-f2ac-2b27-d5b67e55bacf\"></p>",
+              "text": "Affacciata sul mare Adriatico, Rijeka è circondata da alcune delle mete turistiche più amate e facilmente raggiungibili durante tutto l’anno. Tra le destinazioni più popolari si trovano Opatija (Abbazia), le splendide isole di Krk, Lošinj e Cres, oltre alle rinomate località istriane come Rovigno, Parenzo e Pola.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c3c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Informazioni sulla Croazia</p>",
+              "text": "Informazioni sulla Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c40",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">La Croazia è nell’UE?</h3>",
+              "text": "La Croazia è nell’UE?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c46",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Sì, la Croazia è membro a pieno titolo dell’UE dal 2013.<br data-w-id=\"56bb328c-ad49-0f13-ffc3-a737ebbc8c48\"></p>",
+              "text": "Sì, la Croazia è membro a pieno titolo dell’UE dal 2013.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c4b",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Esiste il controllo di frontiera per entrare in Croazia?</h3>",
+              "text": "Esiste il controllo di frontiera per entrare in Croazia?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c51",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">La Croazia fa parte dello spazio Schengen. In caso di controlli sporadici, basta avere un documento d’identità valido.<br data-w-id=\"56bb328c-ad49-0f13-ffc3-a737ebbc8c56\"></p>",
+              "text": "La Croazia fa parte dello spazio Schengen. In caso di controlli sporadici, basta avere un documento d’identità valido.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c59",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">In quale valuta e come si paga in Croazia?</h3>",
+              "text": "In quale valuta e come si paga in Croazia?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "56bb328c-ad49-0f13-ffc3-a737ebbc8c5f",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">In Croazia si utilizza l’euro. È possibile pagare in contanti (fino a 10.000 euro), con bonifico bancario o con carta di credito. Il contante può essere prelevato facilmente dagli sportelli automatici (ATM).<br data-w-id=\"56bb328c-ad49-0f13-ffc3-a737ebbc8c61\"></p>",
+              "text": "In Croazia si utilizza l’euro. È possibile pagare in contanti (fino a 10.000 euro), con bonifico bancario o con carta di credito. Il contante può essere prelevato facilmente dagli sportelli automatici (ATM).\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608bd3",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Dentisti a Rijeka e in Croazia</p>",
+              "text": "Dentisti a Rijeka e in Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608bd7",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Dentisti italiani o croati?</h3>",
+              "text": "Dentisti italiani o croati?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608bdd",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">I dentisti croati godono di grande popolarità per ottime ragioni. La facoltà di odontoiatria in Croazia è un corso di sei anni completamente dedicato ai denti e alla mascella, permettendo ai professionisti di acquisire eccellente preparazione e pratica fin dall’inizio della carriera.<br data-w-id=\"a5b80beb-f981-c9c3-fbf2-12e1f55fa689\"><br data-w-id=\"71dc3a9a-bb8c-f48d-f702-77407328a467\">Inoltre, grazie a un elevato numero di pazienti, i dentisti croati accumulano esperienza superiore, garantendo risultati di alta qualità. <br data-w-id=\"3925dccf-df65-cef5-80e4-ea46b43ff32a\"><br data-w-id=\"b8c750f1-7e81-8ad4-af69-2cdafd8de5dc\">Per scegliere la clinica giusta, in Croazia o in Italia, affidati a professionisti con esperienza e referenze solide: alla fine, ciò che conta davvero è ottenere il miglior rapporto qualità-prezzo.<br data-w-id=\"d662f44d-7866-c624-c762-41c19d608bdf\"></p>",
+              "text": "I dentisti croati godono di grande popolarità per ottime ragioni. La facoltà di odontoiatria in Croazia è un corso di sei anni completamente dedicato ai denti e alla mascella, permettendo ai professionisti di acquisire eccellente preparazione e pratica fin dall’inizio della carriera.\n\nInoltre, grazie a un elevato numero di pazienti, i dentisti croati accumulano esperienza superiore, garantendo risultati di alta qualità. \n\nPer scegliere la clinica giusta, in Croazia o in Italia, affidati a professionisti con esperienza e referenze solide: alla fine, ciò che conta davvero è ottenere il miglior rapporto qualità-prezzo.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608be2",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">A cosa prestare attenzione se scegli di curarti i denti in Croazia?</h3>",
+              "text": "A cosa prestare attenzione se scegli di curarti i denti in Croazia?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608be8",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Scegliere la clinica a cui affidare la propria salute orale è una decisione importante, soprattutto quando ci si rivolge a una struttura all’estero. Alcuni elementi possono aiutarti a fare una scelta consapevole: l’esperienza della clinica e dei suoi professionisti, la qualità dei materiali utilizzati, le recensioni dei pazienti e la trasparenza della documentazione.<br data-w-id=\"9520b8ae-5ec4-9b64-bd0a-7c1f3b29ddab\"><br data-w-id=\"e2d43f20-8086-d15f-c6f5-fca10d744379\">Prima di decidere, verifica da quanto tempo la clinica è attiva e approfondisci le esperienze di chi si è già affidato alla struttura. Le recensioni su Google possono offrirti un punto di vista concreto sulla soddisfazione dei pazienti. È inoltre importante che la clinica fornisca tutta la documentazione relativa alle cure in forma scritta e, quando necessario, nella tua lingua.\n\nQuesti criteri sono importanti indipendentemente dal Paese in cui scegli di curarti. Se stai valutando la Croazia anche per il rapporto qualità-prezzo, dedicare un po’ di tempo alla scelta della clinica significa poter affrontare il percorso di cura con maggiore consapevolezza e serenità.<br data-w-id=\"d662f44d-7866-c624-c762-41c19d608bea\"></p>",
+              "text": "Scegliere la clinica a cui affidare la propria salute orale è una decisione importante, soprattutto quando ci si rivolge a una struttura all’estero. Alcuni elementi possono aiutarti a fare una scelta consapevole: l’esperienza della clinica e dei suoi professionisti, la qualità dei materiali utilizzati, le recensioni dei pazienti e la trasparenza della documentazione.\n\nPrima di decidere, verifica da quanto tempo la clinica è attiva e approfondisci le esperienze di chi si è già affidato alla struttura. Le recensioni su Google possono offrirti un punto di vista concreto sulla soddisfazione dei pazienti. È inoltre importante che la clinica fornisca tutta la documentazione relativa alle cure in forma scritta e, quando necessario, nella tua lingua.\n\nQuesti criteri sono importanti indipendentemente dal Paese in cui scegli di curarti. Se stai valutando la Croazia anche per il rapporto qualità-prezzo, dedicare un po’ di tempo alla scelta della clinica significa poter affrontare il percorso di cura con maggiore consapevolezza e serenità.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608bed",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Quanto costa fare i denti in Croazia?</h3>",
+              "text": "Quanto costa fare i denti in Croazia?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d662f44d-7866-c624-c762-41c19d608bf3",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">I prezzi in Croazia sono decisamente più convenienti rispetto all’Italia. Più l’intervento è complesso - ad esempio nell’implantologia - maggiori sono i risparmi, che possono arrivare fino al 50%, senza compromettere la qualità delle cure.<br data-w-id=\"d662f44d-7866-c624-c762-41c19d608bf5\"></p>",
+              "text": "I prezzi in Croazia sono decisamente più convenienti rispetto all’Italia. Più l’intervento è complesso - ad esempio nell’implantologia - maggiori sono i risparmi, che possono arrivare fino al 50%, senza compromettere la qualità delle cure.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e8f38d3e-9e62-87de-61bd-abf0ee33054f",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Qual è la differenza tra curare i denti in Albania o in Croazia?</h3>",
+              "text": "Qual è la differenza tra curare i denti in Albania o in Croazia?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e8f38d3e-9e62-87de-61bd-abf0ee330555",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">L’Albania non fa parte dell’Unione Europea, quindi i pazienti non godono delle stesse tutele previste dalle normative europee sulla qualità dei materiali e sulle garanzie. Questo significa che, in caso di problemi, le protezioni legali sono molto più limitate rispetto alla Croazia. Se prevedi di usufruire della detrazione fiscale per le cure odontoiatriche (19%), tieni presente che senza il certificato di conformità non sarà possibile ottenere il beneficio. Inoltre, le fatture in Albania sono emesse nella valuta locale (lek), il che comporta la necessità di conversione in euro e di dimostrare il tasso di cambio, con ulteriori complicazioni amministrative.<br data-w-id=\"bd43578a-e3c8-5c18-5034-060ef34626ba\"><br data-w-id=\"941a9d35-64c2-dab4-c8db-0131ee195e0c\">Per evitare difficoltà future, è quindi fondamentale raccogliere tutte le informazioni necessarie prima di decidere dove effettuare le cure dentistiche.<br data-w-id=\"e8f38d3e-9e62-87de-61bd-abf0ee330557\"></p>",
+              "text": "L’Albania non fa parte dell’Unione Europea, quindi i pazienti non godono delle stesse tutele previste dalle normative europee sulla qualità dei materiali e sulle garanzie. Questo significa che, in caso di problemi, le protezioni legali sono molto più limitate rispetto alla Croazia. Se prevedi di usufruire della detrazione fiscale per le cure odontoiatriche (19%), tieni presente che senza il certificato di conformità non sarà possibile ottenere il beneficio. Inoltre, le fatture in Albania sono emesse nella valuta locale (lek), il che comporta la necessità di conversione in euro e di dimostrare il tasso di cambio, con ulteriori complicazioni amministrative.\n\nPer evitare difficoltà future, è quindi fondamentale raccogliere tutte le informazioni necessarie prima di decidere dove effettuare le cure dentistiche.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e08e",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Guida a Dentvitalis</p>",
+              "text": "Guida a Dentvitalis"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e092",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Quanto risparmio se faccio i denti da Dentvitalis?</h3>",
+              "text": "Quanto risparmio se faccio i denti da Dentvitalis?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e098",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Da Dentvitalis puoi risparmiare più del 50% rispetto ai prezzi italiani, soprattutto per interventi complessi di implantologia. Inoltre, potrai usufruire di vantaggi esclusivi su trasporto e alloggio. Tutte le informazioni ti saranno fornite durante la prima visita gratuita.<br data-w-id=\"834838b5-f067-6a4d-8691-239e4a44e0a0\"></p>",
+              "text": "Da Dentvitalis puoi risparmiare più del 50% rispetto ai prezzi italiani, soprattutto per interventi complessi di implantologia. Inoltre, potrai usufruire di vantaggi esclusivi su trasporto e alloggio. Tutte le informazioni ti saranno fornite durante la prima visita gratuita.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e0a3",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Quanto costa un impianto dentale?</h3>",
+              "text": "Quanto costa un impianto dentale?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e0a9",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Il prezzo di un singolo impianto parte da soli 249 euro. È importante, tuttavia, sapere che l’impianto rappresenta solo una parte della soluzione protesica complessiva. L’impianto viene inserito nell’osso e su di esso viene applicato un moncone, che collega l’impianto alla corona.<a href=\"/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali\" class=\"link\" data-w-id=\"950a27ae-08f3-c837-1f57-c57e50fec64b\"></a>\n\nIl prezzo finale dipende dal tipo di moncone e dal tipo di corona scelti. Per questo motivo, per determinare il costo complessivo è necessario elaborare un piano di trattamento individuale.\n\nApprofitta della visita gratuita e, in accordo con il medico, scegli la soluzione più adatta alle tue esigenze e alle tue aspettative.<br data-w-id=\"834838b5-f067-6a4d-8691-239e4a44e0ae\"></p>",
+              "text": "Il prezzo di un singolo impianto parte da soli 249 euro. È importante, tuttavia, sapere che l’impianto rappresenta solo una parte della soluzione protesica complessiva. L’impianto viene inserito nell’osso e su di esso viene applicato un moncone, che collega l’impianto alla corona.\n\nIl prezzo finale dipende dal tipo di moncone e dal tipo di corona scelti. Per questo motivo, per determinare il costo complessivo è necessario elaborare un piano di trattamento individuale.\n\nApprofitta della visita gratuita e, in accordo con il medico, scegli la soluzione più adatta alle tue esigenze e alle tue aspettative.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e0b1",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Quanto costa una corona dentale?</h3>",
+              "text": "Quanto costa una corona dentale?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e0b7",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Il prezzo di una singola corona parte da soli 220 euro.<a href=\"/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali\" class=\"link\" data-w-id=\"fd54401b-ed57-9730-a621-2f72640098e9\"></a><br data-w-id=\"834838b5-f067-6a4d-8691-239e4a44e0b9\"></p>",
+              "text": "Il prezzo di una singola corona parte da soli 220 euro.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e0bc",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Quali impianti utilizza Dentvitalis?</h3>",
+              "text": "Quali impianti utilizza Dentvitalis?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834838b5-f067-6a4d-8691-239e4a44e0c2",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Utilizziamo sistemi implantari Nobel Biocare, Straumann e JD (made in Italy). Se hai già impianti Astra Tech, Bredent, Dentium, Sweden &amp; Martina, PHI, 3i, Ankylos o Brånemark, possiamo, se necessario, aggiungere altri impianti o, se sono disponibili i componenti, realizzare un nuovo lavoro protesico sugli impianti esistenti.<br data-w-id=\"834838b5-f067-6a4d-8691-239e4a44e0c7\"></p>",
+              "text": "Utilizziamo sistemi implantari Nobel Biocare, Straumann e JD (made in Italy). Se hai già impianti Astra Tech, Bredent, Dentium, Sweden & Martina, PHI, 3i, Ankylos o Brånemark, possiamo, se necessario, aggiungere altri impianti o, se sono disponibili i componenti, realizzare un nuovo lavoro protesico sugli impianti esistenti.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f714cd7e-de5d-650e-c5e1-124797876fef",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">È possibile avere ogni corona singolarmente su un impianto oppure devono essere collegate in un ponte?</h3>",
+              "text": "È possibile avere ogni corona singolarmente su un impianto oppure devono essere collegate in un ponte?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f714cd7e-de5d-650e-c5e1-124797876ff5",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Non è necessario che tutte le corone siano collegate in un ponte tradizionale. Se le condizioni anatomiche e il piano di trattamento lo consentono, ogni impianto può sostenere una corona singola, ottenendo un aspetto e una sensazione molto naturali, simili a quelli dei denti naturali.\n\nUn’altra possibilità è il Malo Bridge, che si appoggia sugli impianti e costituisce una base stabile sulla quale ogni corona viene cementata singolarmente. In questo modo, le corone mantengono l’aspetto e la funzionalità di denti singoli, beneficiando al contempo della stabilità offerta dalla struttura supportata dagli impianti.\n\nLa soluzione più adatta dipende dal numero e dalla posizione degli impianti, dalla quantità di osso disponibile, dall’occlusione, dalle esigenze estetiche e dal piano di trattamento individuale.<br data-w-id=\"f714cd7e-de5d-650e-c5e1-124797876ff7\"></p>",
+              "text": "Non è necessario che tutte le corone siano collegate in un ponte tradizionale. Se le condizioni anatomiche e il piano di trattamento lo consentono, ogni impianto può sostenere una corona singola, ottenendo un aspetto e una sensazione molto naturali, simili a quelli dei denti naturali.\n\nUn’altra possibilità è il Malo Bridge, che si appoggia sugli impianti e costituisce una base stabile sulla quale ogni corona viene cementata singolarmente. In questo modo, le corone mantengono l’aspetto e la funzionalità di denti singoli, beneficiando al contempo della stabilità offerta dalla struttura supportata dagli impianti.\n\nLa soluzione più adatta dipende dal numero e dalla posizione degli impianti, dalla quantità di osso disponibile, dall’occlusione, dalle esigenze estetiche e dal piano di trattamento individuale.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e5103d78-d202-96a9-90bf-8a44e99db3fb",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Corona in zirconio o in ceramica: qual è la differenza?</h3>",
+              "text": "Corona in zirconio o in ceramica: qual è la differenza?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e5103d78-d202-96a9-90bf-8a44e99db401",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">La corona in zirconio è realizzata in ossido di zirconio, un materiale particolarmente resistente e durevole. Grazie alla sua elevata resistenza ai carichi masticatori, è una soluzione molto indicata soprattutto per i denti posteriori. Le moderne corone in zirconio offrono inoltre un risultato estetico molto naturale e, quando necessario, possono essere rivestite in ceramica per ottenere una resa estetica ancora più raffinata.<br data-w-id=\"03bfbb7b-cef7-cb9f-f1b6-63625aa02c80\"><br data-w-id=\"284abe0d-4fac-abb1-052b-b1a1bde7dea2\">La corona in ceramica è invece realizzata interamente in materiale ceramico e si distingue soprattutto per l’elevato livello estetico. La sua naturale traslucenza e la possibilità di riprodurre con grande precisione il colore e l’aspetto dei denti naturali la rendono particolarmente adatta ai denti anteriori, dove l’estetica riveste un ruolo fondamentale.\n\nIn sintesi, lo zirconio è apprezzato per la sua resistenza e durata, mentre la ceramica è spesso preferita quando l’obiettivo principale è ottenere un risultato estremamente naturale ed estetico. La scelta del materiale più adatto dipende dalla posizione del dente, dai carichi masticatori, dalle esigenze estetiche e dal piano di trattamento individuale.<br data-w-id=\"e5103d78-d202-96a9-90bf-8a44e99db403\"></p>",
+              "text": "La corona in zirconio è realizzata in ossido di zirconio, un materiale particolarmente resistente e durevole. Grazie alla sua elevata resistenza ai carichi masticatori, è una soluzione molto indicata soprattutto per i denti posteriori. Le moderne corone in zirconio offrono inoltre un risultato estetico molto naturale e, quando necessario, possono essere rivestite in ceramica per ottenere una resa estetica ancora più raffinata.\n\nLa corona in ceramica è invece realizzata interamente in materiale ceramico e si distingue soprattutto per l’elevato livello estetico. La sua naturale traslucenza e la possibilità di riprodurre con grande precisione il colore e l’aspetto dei denti naturali la rendono particolarmente adatta ai denti anteriori, dove l’estetica riveste un ruolo fondamentale.\n\nIn sintesi, lo zirconio è apprezzato per la sua resistenza e durata, mentre la ceramica è spesso preferita quando l’obiettivo principale è ottenere un risultato estremamente naturale ed estetico. La scelta del materiale più adatto dipende dalla posizione del dente, dai carichi masticatori, dalle esigenze estetiche e dal piano di trattamento individuale.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "71b50ba3-1bf0-0d9f-a616-ed163ded61ba",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Dove posso leggere le esperienze di chi si è già curato da voi?</h3>",
+              "text": "Dove posso leggere le esperienze di chi si è già curato da voi?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "71b50ba3-1bf0-0d9f-a616-ed163ded61c0",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\"><a class=\"link\" data-wf-link-page-id=\"69679710d4037ebd0cbb9df2\" data-w-id=\"ca0558d7-e51e-9d2f-3515-06f9a26f94dd\"></a>La maggior parte dei nostri nuovi pazienti ci sceglie grazie al passaparola di chi si è già affidato a noi per le proprie cure. Puoi leggere e vedere le loro esperienze qui sul nostro sito e sul nostro profilo Google.</p>",
+              "text": "La maggior parte dei nostri nuovi pazienti ci sceglie grazie al passaparola di chi si è già affidato a noi per le proprie cure. Puoi leggere e vedere le loro esperienze qui sul nostro sito e sul nostro profilo Google."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "261abbcd-4762-17a0-fd3d-b45304f324bc",
+            "text": {
+              "html": "<h3 class=\"accordion-title\">Cosa devo portare alla <a class=\"link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba890\" data-w-id=\"8e829109-a41c-558e-a6f1-f86a8dd9571e\">prima visita</a>?</h3>",
+              "text": "Cosa devo portare alla prima visita?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "261abbcd-4762-17a0-fd3d-b45304f324c2",
+            "text": {
+              "html": "<p class=\"large-paragraph-3 accordion-text\">Qui trovi tutte le informazioni sulla prima visita gratuita.</p>",
+              "text": "Qui trovi tutte le informazioni sulla prima visita gratuita."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 57
+        },
+        "lastUpdated": "2026-08-31T15:09:14.187Z"
+      }
+    }
+  ]
+}

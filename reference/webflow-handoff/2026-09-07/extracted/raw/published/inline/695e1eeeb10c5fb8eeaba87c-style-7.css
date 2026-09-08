@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 767px) {
+  .container-wrapper-list-detail .home-service-card .istaknuta-cijena {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .container-wrapper-list-detail .home-service-card .cijena-velika {
+    min-width: 0;
+    max-width: 100%;
+    white-space: normal;
+  }
+  .container-wrapper-list-detail .home-service-card .cijena-velika > strong {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}

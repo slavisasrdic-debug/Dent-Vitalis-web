@@ -1,0 +1,235 @@
+---
+import InlineContent from './InlineContent.astro';
+import type { InlineContent as RichAnswer } from '../content/inner-pages';
+interface AnswerPart {
+  text?: string;
+  strong?: boolean;
+  break?: boolean;
+}
+interface Props {
+  items: {
+    question: string;
+    answer: AnswerPart[];
+    richAnswer?: RichAnswer[];
+  }[];
+  variant?: 'home' | 'detail';
+}
+const { items } = Astro.props;
+---
+
+<div class:list={['faq-list', Astro.props.variant]}>
+  {
+    items.map((item) => (
+      <details class="faq-item">
+        <>
+          <summary>
+            <>
+              <h3>{item.question}</h3>
+              <span class="plus" />
+            </>
+          </summary>
+          <div class="answer">
+            <p>
+              {item.richAnswer ? (
+                <InlineContent content={item.richAnswer} />
+              ) : (
+                item.answer.map((part) =>
+                  part.break ? (
+                    <br />
+                  ) : part.strong ? (
+                    <strong>{part.text}</strong>
+                  ) : (
+                    part.text
+                  ),
+                )
+              )}
+            </p>
+          </div>
+        </>
+      </details>
+    ))
+  }
+</div>
+<style>
+  .faq-list {
+    display: flow-root;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 4px; /* Webflow inline-block baseline gap, explicit in the native block layout. */
+  }
+  summary {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px 16px 0;
+  }
+  h3 {
+    max-width: 80%;
+    font-size: 22px;
+    line-height: 140%;
+    font-weight: 500;
+    color: #6b7076;
+    transition: color 0.5s;
+  }
+  .plus {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    flex: none;
+    color: #6b7076;
+  }
+  .plus::before,
+  .plus::after {
+    content: '';
+    position: absolute;
+    background: currentColor;
+  }
+  .plus::before {
+    width: 100%;
+    height: 3px;
+  }
+  .plus::after {
+    width: 3px;
+    height: 100%;
+    transition: transform 0.3s;
+  }
+  [open] .plus::after {
+    transform: rotate(-90deg);
+  }
+  [open] h3 {
+    color: black;
+  }
+  [open] summary {
+    padding-bottom: 0;
+  }
+  .answer p {
+    margin: 16px 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .answer {
+    display: flow-root;
+  }
+  @media screen and (min-width: 1280px) {
+    h3 {
+      max-width: 85%;
+    }
+    summary {
+      padding-right: 50px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .faq-item {
+      padding-block: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    summary {
+      padding-right: 0;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    [open] summary {
+      padding-bottom: 20px;
+    }
+    .faq-item {
+      padding: 0;
+    }
+    summary {
+      padding-block: 20px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    .answer p {
+      margin-top: 0;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    h3,
+    .plus::after {
+      transition: none;
+    }
+  }
+</style>
+<script>
+  document.querySelectorAll<HTMLElement>('.faq-list').forEach((list) => {
+    if (list.dataset.ready) return;
+    list.dataset.ready = 'true';
+    const reduced = matchMedia('(prefers-reduced-motion:reduce)');
+    const controls: {
+      details: HTMLDetailsElement;
+      setOpen: (open: boolean) => void;
+    }[] = [];
+    list
+      .querySelectorAll<HTMLDetailsElement>('.faq-item')
+      .forEach((details) => {
+        const summary = details.querySelector('summary')!;
+        const answer = details.querySelector<HTMLElement>('.answer')!;
+        let animation: Animation | null = null;
+        let fade: Animation | null = null;
+        let target = details.open;
+        const setOpen = (open: boolean) => {
+          if (open === target) return;
+          target = open;
+          const start = details.getBoundingClientRect().height;
+          animation?.cancel();
+          fade?.cancel();
+          if (reduced.matches) {
+            details.open = target;
+            details.style.overflow = '';
+            return;
+          }
+          details.open = target;
+          const end = details.getBoundingClientRect().height;
+          details.open = true;
+          details.style.overflow = 'hidden';
+          animation = details.animate(
+            [{ height: `${start}px` }, { height: `${end}px` }],
+            { duration: 400, easing: 'ease' },
+          );
+          fade = answer.animate([{ opacity: 0 }, { opacity: target ? 1 : 0 }], {
+            duration: target ? 700 : 0,
+            fill: 'both',
+          });
+          animation.onfinish = () => {
+            details.open = target;
+            details.style.overflow = '';
+            animation = null;
+          };
+        };
+        controls.push({ details, setOpen });
+        summary.addEventListener('click', (event) => {
+          event.preventDefault();
+          const next = !target;
+          controls.forEach((control) => {
+            if (control.details !== details) control.setOpen(false);
+          });
+          setOpen(next);
+        });
+        details.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape') {
+            setOpen(false);
+            summary.focus();
+          }
+        });
+        reduced.addEventListener('change', () => {
+          if (!reduced.matches) return;
+          animation?.cancel();
+          fade?.cancel();
+          details.open = target;
+          details.style.overflow = '';
+        });
+      });
+    document.addEventListener('click', (event) => {
+      if (!list.contains(event.target as Node))
+        controls.forEach((control) => control.setOpen(false));
+    });
+  });
+</script>

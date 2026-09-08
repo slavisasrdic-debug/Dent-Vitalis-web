@@ -1,0 +1,358 @@
+---
+import Button from '../Button.astro';
+import Icon from '../Icon.astro';
+import BackgroundVideo from '../BackgroundVideo.astro';
+import ResponsiveImage from '../ResponsiveImage.astro';
+import type { home } from '../../content/home';
+import { heroVideos } from '../../content/background-videos';
+interface Props {
+  price: string;
+  benefits: readonly string[];
+  maps: string;
+  content: typeof home.hero;
+}
+const { price, benefits, maps, content } = Astro.props;
+const { href } = content;
+---
+
+<section class="hero" aria-labelledby="home-title">
+  <div class="hero-media">
+    <BackgroundVideo
+      {...heroVideos.desktop}
+      class="desktop-video"
+    /><BackgroundVideo {...heroVideos.mobile} class="mobile-video" /><div
+      class="gradient"
+    >
+    </div>
+  </div>
+  <div class="hero-container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow" data-reveal data-delay="200" data-offset="0">
+            <strong>{content.eyebrowAccent}</strong>{' '}{content.eyebrow}
+          </p><h1 id="home-title" data-reveal data-delay="400" data-offset="0">
+            <strong>{content.pricePrefix} {price}€</strong>, {content.title}
+          </h1>
+          <ul class="benefits">
+            {
+              benefits.map((benefit, index) => (
+                <li
+                  data-reveal="fade"
+                  data-delay={[800, 800, 1000, 1200, 1200][index]}
+                  data-offset="0"
+                >
+                  <>
+                    <Icon name="check" />
+                    <span>{benefit}</span>
+                  </>
+                </li>
+              ))
+            }
+          </ul>
+          <div class="hero-cta">
+            <Button href={href} label={content.cta} variant="hero" />
+          </div>
+        </div>
+        <a href={maps} class="google" target="_blank" rel="noopener"
+          ><ResponsiveImage
+            image="GR-DV.webp"
+            alt={content.ratingAlt}
+            eager
+            sizes="120px"
+          /></a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mobile-benefits" aria-label={content.eyebrowAccent}>
+  <div class="benefits-container">
+    <div class="benefits-card" data-reveal="card" data-reveal-media="mobile">
+      <ul>
+        {
+          benefits.map((benefit) => (
+            <li>
+              <>
+                <Icon name="check" />
+                <span>{benefit}</span>
+              </>
+            </li>
+          ))
+        }
+      </ul><Button href={href} label={content.cta} />
+    </div>
+  </div>
+</section>
+<style>
+  .hero {
+    position: relative;
+    background: var(--color-primary);
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-media {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: var(--color-primary);
+    border-radius: 14px;
+  }
+  .hero :global(.mobile-video) {
+    display: none;
+  }
+  .hero :global(.video) {
+    z-index: 2;
+  }
+  .gradient {
+    position: absolute;
+    z-index: 3;
+    inset: 0;
+    background: linear-gradient(
+      270deg,
+      #19242e8c,
+      #487ba400 10%,
+      #e3e3e300 38%,
+      var(--color-primary)
+    );
+  }
+  .hero-container {
+    position: absolute;
+    inset: 0;
+    padding: 0 5% 60px;
+  }
+  .hero-inner {
+    max-width: var(--container-max);
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+  }
+  .hero-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+  }
+  .hero-copy {
+    position: relative;
+    z-index: 10;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px;
+  }
+  .eyebrow {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 140%;
+    max-width: 650px;
+  }
+  .eyebrow strong {
+    color: var(--color-accent);
+  }
+  h1 {
+    font-size: 3.6vw;
+    font-weight: 500;
+    line-height: 110%;
+    margin-bottom: 10px;
+  }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 0 0;
+    margin: 0 0 40px;
+    list-style: none;
+  }
+  li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19.6px;
+  }
+  .google {
+    position: absolute;
+    z-index: 10;
+    top: 5%;
+    right: 5%;
+    width: 8vw;
+    min-width: 100px;
+    max-width: 120px;
+  }
+  .mobile-benefits {
+    display: none;
+  }
+  @media screen and (min-width: 1440px) {
+    h1 {
+      font-size: 3.4vw;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    h1 {
+      font-size: 2.8vw;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .hero {
+      height: auto;
+      background: var(--color-primary);
+    }
+    .hero-media {
+      order: 2;
+      aspect-ratio: 3 / 2;
+      height: auto;
+      margin-top: -210px;
+    }
+    .gradient {
+      background: linear-gradient(0deg, #5582a300 75%, var(--color-primary));
+    }
+    .hero-container {
+      position: relative;
+      padding: 0 5%;
+    }
+    .hero-inner {
+      padding-top: 60px;
+      height: auto;
+    }
+    .hero-content {
+      width: 80%;
+      justify-content: flex-start;
+      gap: 20px;
+    }
+    .hero-copy {
+      width: 100%;
+      gap: 10px;
+    }
+    h1 {
+      font-size: 5.4vw;
+    }
+    .benefits,
+    .hero-cta {
+      display: none;
+    }
+    .google {
+      position: static;
+    }
+    .mobile-benefits {
+      display: block;
+      position: relative;
+      z-index: 2;
+    }
+    .benefits-container {
+      padding: 0 5% 40px;
+    }
+    .benefits-card {
+      margin-top: -100px;
+      background: white;
+      border-radius: var(--radius);
+      border-left: 10px solid var(--color-primary);
+      padding: 40px 5%;
+      box-shadow: 0 0 5px 6px #0003;
+    }
+    .benefits-card ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 0 0 20px;
+      padding: 0;
+    }
+    .benefits-card li {
+      padding-block: 4px;
+    }
+    .benefits-card :global(.button) {
+      width: fit-content;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .hero-container {
+      padding-inline: 7%;
+    }
+    .hero-content {
+      width: 100%;
+    }
+    h1 {
+      font-size: 5.2vw;
+    }
+    .google {
+      width: 10vw;
+      min-width: 80px;
+    }
+    .benefits-container {
+      padding-inline: 7%;
+    }
+    .benefits-card {
+      margin-top: -80px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .hero-container {
+      background: linear-gradient(var(--color-primary), #22738e 62%);
+    }
+    .hero-inner {
+      padding-top: 40px;
+    }
+    .hero-copy {
+      max-width: none;
+    }
+    .eyebrow {
+      font-size: 16px;
+      letter-spacing: -0.6px;
+      margin-bottom: 0;
+    }
+    h1 {
+      font-size: 9vw;
+      line-height: 120%;
+      margin: 0;
+    }
+    .google {
+      min-width: 60px;
+    }
+    .hero-media {
+      aspect-ratio: 2 / 3;
+      margin-top: -120px;
+    }
+    .hero :global(.desktop-video) {
+      display: none;
+    }
+    .hero :global(.mobile-video) {
+      display: block;
+    }
+    .gradient {
+      background: linear-gradient(0deg, #5582a300 84%, #22738e);
+    }
+    .benefits-container {
+      padding-bottom: 30px;
+    }
+    .benefits-card {
+      margin-top: -140px;
+      border-left-width: 6px;
+      padding-top: 30px;
+    }
+    .benefits-card ul {
+      gap: 8px;
+    }
+    .benefits-card li {
+      align-items: start;
+      gap: 10px;
+      font-size: 18px;
+    }
+    .benefits-card li :global(svg) {
+      width: 19.2px;
+      height: 19.2px;
+    }
+    .benefits-card li :global(svg) {
+      margin-top: 2px;
+    }
+    .benefits-card :global(.button) {
+      width: 100%;
+    }
+  }
+</style>

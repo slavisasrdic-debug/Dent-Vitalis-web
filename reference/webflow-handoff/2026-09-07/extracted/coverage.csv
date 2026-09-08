@@ -1,0 +1,26 @@
+category,expected_scope,retrieved_scope,language,status,source,missing
+Italian pages,28,28,it,complete,content/it.json,
+Italian native content pagination,28,28,it,complete,raw/content-pagination-check.json,
+Croatian new content,0,0,hr,verified-not-present,raw/user-clarification.json,"To be authored in new project, per user correction"
+Other new locales,0,0,"de,en,sl",verified-not-present,project-and-locales.json,Language links currently point to legacy production
+Native variables,11,11,all,complete,variables.raw.json,Mode activation metadata unavailable
+Native styles,454,454,it,partial,raw/mcp/styles-detail.json,Native responsive/state reader unavailable; published responsive CSS fully retained
+Published styles,,1665,it,complete,styles-and-cascade.json,Computed values/browser measurements outside this task
+Breakpoint conditions,,16,it,partial,breakpoints.json,Native authoring IDs unavailable; all captured CSS and JS media rules retained
+Native component definitions,28,28,it,complete,components.json,
+Native page trees,28,28,it,complete,pages.json,
+Native component trees,28,28,it,complete,components.json,
+Assets,238,238,it,complete,assets.csv,
+Asset master downloads,238,238,it,complete,raw/asset-downloads.json,Responsive derivatives/external streams listed separately
+Fonts,,9,it,partial,typography.json,"Exact registry, CSS and downloaded font files; browser-selected subset and license audit not performed"
+Published IX2 configuration,276,276,it,complete,interactions.json,Current unpublished authoring graph unavailable
+Interaction target mapping,276,194,it,partial,interaction-targets.csv,82 configurations have no static target; dynamic/computed activation needs browser comparison
+Independent interaction recipes,,465,it,partial,interaction-recipes.json,No identical-reproduction readiness claim; exact raw parameters and scroll formulas retained; computed outcomes and widget defaults need validation
+Forms definitions,,28,it,complete,forms.json,Backend-only integration secrets/delivery unavailable; no submissions read
+CMS schema/items,,,unknown,unavailable,cms.json,Read action schema unavailable
+SEO metadata/schema,28,28,it,complete,seo-and-urls.json,Authoring sitemap settings are unavailable; public staging sitemap URL returned 404
+Existing redirects,,,all,unavailable,existing-redirects.csv,Enterprise-only endpoint
+Utility/404 Designer records,,,it,unavailable,pages.json,Not exposed by available page inventory
+Standard Webflow ZIP comparison,,,all,unavailable,missing-data.md,No standard Webflow export ZIP supplied
+Browser visual/keyboard measurement,,,it,unavailable,accessibility-findings.md,User assigns this to Codespaces agent
+Public staging sitemap,1 endpoint,HTTP 404,it,verified-not-present,raw/published/sitemap-status.json,No sitemap at this public staging URL; authoring settings separately unavailable.

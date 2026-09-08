@@ -1,0 +1,542 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:37:11.708Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba886",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba886",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba886",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba886",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "c4262717-abd1-10aa-3844-92eaa6ec7b2e",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"c4262717-abd1-10aa-3844-92eaa6ec7b2f\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c4262717-abd1-10aa-3844-92eaa6ec7b31",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c4262717-abd1-10aa-3844-92eaa6ec7b33",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/prestazioni-dentali\" data-w-id=\"46dab2d1-e442-722a-7f2e-f7cf4c76ae46\">Prestazioni</a></h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c4262717-abd1-10aa-3844-92eaa6ec7b35",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c4262717-abd1-10aa-3844-92eaa6ec7b37",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Corone, faccette, ponti e protesi</h6>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "61a35851-d3c5-53bb-891c-a1a10d68798d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "698498642566253b48569951"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "61a35851-d3c5-53bb-891c-a1a10d687992",
+            "text": {
+              "html": "<h6 class=\"nadnaslov-detaljna\">Sostituzione perfetta dei denti naturali</h6>",
+              "text": "Sostituzione perfetta dei denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "61a35851-d3c5-53bb-891c-a1a10d687995",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Corone, faccette, ponti e protesi</h1>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "61a35851-d3c5-53bb-891c-a1a10d687997",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Ogni lavoro protesico è eseguito internamente nel nostro laboratorio, secondo i più elevati standard UE.</p>",
+              "text": "Ogni lavoro protesico è eseguito internamente nel nostro laboratorio, secondo i più elevati standard UE."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b3d109d-0081-c1f2-4878-6403331d0b79",
+            "text": {
+              "html": "<div class=\"text-block-11\">Prezzo a partire da 220&nbsp;€</div>",
+              "text": "Prezzo a partire da 220 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "47933700-bb97-b61f-e191-7a4f486d24c1",
+            "text": {
+              "html": "<h3 class=\"large-paragraph\">Corone, faccette, ponti e protesi</h3>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27f",
+            "text": {
+              "html": "<div class=\"text-block-16\">Corone dentali a partire da 220&nbsp;€</div>",
+              "text": "Corone dentali a partire da 220 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e416815a-5a91-f0c5-a55b-05f2a12fa2c0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e416815a-5a91-f0c5-a55b-05f2a12fa2c1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Ponti su impianti e su denti naturali</div>",
+              "text": "Ponti su impianti e su denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "b3df0772-d621-9de8-ce3c-592573daf6f6",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b3df0772-d621-9de8-ce3c-592573daf6f7",
+            "text": {
+              "html": "<div class=\"text-block-16\">Protesi mobili e semifisse a partire da 319&nbsp;€</div>",
+              "text": "Protesi mobili e semifisse a partire da 319 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "30e35929-1763-04b0-6664-108d6cae3784",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "30e35929-1763-04b0-6664-108d6cae3785",
+            "text": {
+              "html": "<div class=\"text-block-16\">Faccette estetiche a partire da 420&nbsp;€</div>",
+              "text": "Faccette estetiche a partire da 420 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9f43e4f6-e458-0d15-07f3-6e0896abb339",
+            "text": {
+              "html": "<div class=\"text-block-16 malo\">* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%.</div>",
+              "text": "* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Corone dentali</p>",
+              "text": "Corone dentali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "54dd7b76-e9e4-c210-f78d-e685d668169f",
+            "text": {
+              "html": "<p class=\"cijena\">Prezzo a partire da 220&nbsp;€</p>",
+              "text": "Prezzo a partire da 220 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le corone dentali estetiche rappresentano oggi una delle soluzioni più efficaci per <a class=\"link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba896\" data-w-id=\"9e30bc75-cda1-e5e5-eb6a-a10fa53e91e6\">trasformare il sorriso</a> in modo naturale e armonioso. Realizzate su misura, permettono di correggere imperfezioni come colore, forma o dimensione dei denti, restituendo equilibrio e luminosità al volto.<br data-w-id=\"c8d7282d-3be3-43fe-67d4-f5cd8e38b4dc\"><br data-w-id=\"227f0b22-e2ec-433b-395a-abb92a2a1cd5\">A seconda delle esigenze, utilizziamo materiali di ultima generazione come ceramica integrale e zirconio, che garantiscono resistenza, biocompatibilità e un aspetto identico a quello dei denti naturali.<br data-w-id=\"b7a7671b-2ce5-15dd-6e4e-28d4bc6cd88e\"><br data-w-id=\"26683607-6bd6-d3bb-8af6-f795a8937fb3\">Grazie alla precisione delle tecnologie digitali e all’esperienza dei nostri specialisti, ogni corona viene realizzata con la massima cura, per un risultato esteticamente perfetto e duraturo nel tempo.<br data-w-id=\"d039eb17-6625-69b0-897f-753bf6df9574\">‍<br data-w-id=\"bf5eeec2-fc21-3c82-b9a7-d38421d339b6\">Le corone, la cui funzione principale è quella di sostituire i denti mancanti, possono essere realizzate singolarmente oppure collegate tra loro in un ponte, a seconda delle specifiche esigenze del paziente e della situazione clinica. <br data-w-id=\"8ec437ad-536b-4f9a-7cb9-a9601b420aad\"><br data-w-id=\"bf5212a7-a0a7-4be6-5fca-48817fd7a1cb\">La corona singola viene cementata direttamente su un dente naturale sano o su un impianto dentale, offrendo stabilità e una perfetta integrazione estetica.<br data-w-id=\"b8e9a3e1-b476-6332-b7c3-24bb308d5a3b\"><br data-w-id=\"c6d8cac4-4760-d3fe-5d9b-b6569ac9d4d5\"></p>",
+              "text": "Le corone dentali estetiche rappresentano oggi una delle soluzioni più efficaci per trasformare il sorriso in modo naturale e armonioso. Realizzate su misura, permettono di correggere imperfezioni come colore, forma o dimensione dei denti, restituendo equilibrio e luminosità al volto.\n\nA seconda delle esigenze, utilizziamo materiali di ultima generazione come ceramica integrale e zirconio, che garantiscono resistenza, biocompatibilità e un aspetto identico a quello dei denti naturali.\n\nGrazie alla precisione delle tecnologie digitali e all’esperienza dei nostri specialisti, ogni corona viene realizzata con la massima cura, per un risultato esteticamente perfetto e duraturo nel tempo.\n‍\nLe corone, la cui funzione principale è quella di sostituire i denti mancanti, possono essere realizzate singolarmente oppure collegate tra loro in un ponte, a seconda delle specifiche esigenze del paziente e della situazione clinica. \n\nLa corona singola viene cementata direttamente su un dente naturale sano o su un impianto dentale, offrendo stabilità e una perfetta integrazione estetica.\n\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "735dfc92-7dae-b5da-35ab-1516e359d5a2",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Ponti su impianti e su denti naturali</p>",
+              "text": "Ponti su impianti e su denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8a5921b6-804f-c6f7-7298-079a9922c73c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nel caso di più denti mancanti consecutivi, le corone possono essere collegate in un ponte, che permette di <a href=\"/domande-e-risposte#funzionale\" class=\"link\" data-w-id=\"ce9cc30c-9b6b-b2ec-be1c-ed097c0e810d\">ripristinare in modo efficace sia la funzione masticatoria sia l’estetica del sorriso</a>, garantendo resistenza e durata nel tempo.<br data-w-id=\"297efd62-ac26-7ab7-a735-0620ce26da77\"><br data-w-id=\"c3cb913c-4036-d101-1766-1b4406877940\">Proprio come le corone, anche i ponti dentali possono essere realizzati in modo da appoggiarsi sui denti naturali adiacenti o, in alternativa, sugli impianti dentali.<br data-w-id=\"40e7ee01-1e77-71b2-2d1f-afb49f8a9998\"><br data-w-id=\"c8697487-da5d-c6d5-f348-62aea55cf199\">Per garantire un ponte su impianti dal massimo aspetto naturale realizziamo il cosiddetto ponte ‘Malo’. La sua particolarità risiede nel fatto che ogni dente del ponte viene cementato singolarmente, permettendo di ottenere un effetto estetico perfetto.</p>",
+              "text": "Nel caso di più denti mancanti consecutivi, le corone possono essere collegate in un ponte, che permette di ripristinare in modo efficace sia la funzione masticatoria sia l’estetica del sorriso, garantendo resistenza e durata nel tempo.\n\nProprio come le corone, anche i ponti dentali possono essere realizzati in modo da appoggiarsi sui denti naturali adiacenti o, in alternativa, sugli impianti dentali.\n\nPer garantire un ponte su impianti dal massimo aspetto naturale realizziamo il cosiddetto ponte ‘Malo’. La sua particolarità risiede nel fatto che ogni dente del ponte viene cementato singolarmente, permettendo di ottenere un effetto estetico perfetto."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f92e8372-d791-ebc2-d379-bdab55c08de4",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Protesi mobili e semifisse</p>",
+              "text": "Protesi mobili e semifisse"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b1ea8b65-299e-9066-80cf-240ad43d94c7",
+            "text": {
+              "html": "<p class=\"cijena\">Prezzo a partire da 319&nbsp;€</p>",
+              "text": "Prezzo a partire da 319 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "811683ef-44b6-1af2-8f41-f053dca36a53",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Protesi mobili</h3>",
+              "text": "Protesi mobili"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9215d1f7-7e80-9f11-843e-32bb74a95817",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le protesi mobili sono dispositivi rimovibili che sostituiscono i denti mancanti, permettendo di ripristinare la funzione masticatoria e l’occlusione. Pur offrendo una stabilità inferiore rispetto alle protesi fisse, consentono una gestione igienica semplice e una manutenzione agevole.</p>",
+              "text": "Le protesi mobili sono dispositivi rimovibili che sostituiscono i denti mancanti, permettendo di ripristinare la funzione masticatoria e l’occlusione. Pur offrendo una stabilità inferiore rispetto alle protesi fisse, consentono una gestione igienica semplice e una manutenzione agevole."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dcaf5780-d0d0-e0b3-6f14-e97057e28cca",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Protesi semifisse</h3>",
+              "text": "Protesi semifisse"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f92e8372-d791-ebc2-d379-bdab55c08de6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le <a href=\"/domande-e-risposte#riabilitazione\" class=\"link\" data-w-id=\"5df46774-f5de-fc57-ebaf-f80b4ff7934c\">protesi </a>semifisse, ancorate a impianti o a una barra, rimangono stabili durante la masticazione e il parlare, riducendo fastidi e aumentando la sicurezza del paziente. Consentono di masticare con maggiore forza e precisione rispetto alle protesi rimovibili, avvicinandosi molto alla funzione dei denti naturali. Inoltre, il carico trasmesso agli impianti stimola l’osso mascellare o mandibolare, contribuendo a prevenire l’atrofia ossea spesso associata alle protesi tradizionali.<br data-w-id=\"773640c2-1e4a-01fd-2ac4-d50659bfad8a\"><br data-w-id=\"c2697df0-0ca0-abcf-243a-3124aa9f10ee\">La prima visita completa, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo.</p>",
+              "text": "Le protesi semifisse, ancorate a impianti o a una barra, rimangono stabili durante la masticazione e il parlare, riducendo fastidi e aumentando la sicurezza del paziente. Consentono di masticare con maggiore forza e precisione rispetto alle protesi rimovibili, avvicinandosi molto alla funzione dei denti naturali. Inoltre, il carico trasmesso agli impianti stimola l’osso mascellare o mandibolare, contribuendo a prevenire l’atrofia ossea spesso associata alle protesi tradizionali.\n\nLa prima visita completa, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3d13ea93-b38c-ca64-61b7-73ccdb873c8d",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Faccette estetiche</p>",
+              "text": "Faccette estetiche"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3d13ea93-b38c-ca64-61b7-73ccdb873c8f",
+            "text": {
+              "html": "<p class=\"cijena\">Prezzo a partire da 420&nbsp;€</p>",
+              "text": "Prezzo a partire da 420 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3d13ea93-b38c-ca64-61b7-73ccdb873c93",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Le faccette dentali sono sottili rivestimenti estetici che vengono applicati sulla superficie anteriore dei denti per migliorarne il colore, la forma e l’allineamento. Rappresentano una soluzione minimamente invasiva in grado di trasformare completamente il sorriso in tempi molto brevi.<br data-w-id=\"04cc64c7-d185-77db-4181-b4aefbf289a0\"><br data-w-id=\"29fc1e76-dc62-f101-cbf6-c04607e5ef60\">Le faccette più utilizzate sono quelle in ceramica (porcellana), apprezzate per la loro resistenza, la brillantezza naturale e la capacità di mantenere il colore nel tempo.<br data-w-id=\"ebc265c6-348a-cd95-efdf-e944c42e3b83\"><br data-w-id=\"7727f61a-b4e7-6c54-7aff-c0ba76b6f926\">Si possono utilizzare faccette in composito, modellate sul dente, per ottenere una correzione immediata e naturale.<br data-w-id=\"751bfd92-af3d-e392-dc55-f47a2e88cc18\"><br data-w-id=\"62cd17fc-72d3-9780-ee0e-e8c6f32bdf68\">Grazie alle moderne tecnologie digitali, le faccette di ultima generazione garantiscono un adattamento perfetto e un’estetica duratura, estremamente simile ai denti naturali.</p>",
+              "text": "Le faccette dentali sono sottili rivestimenti estetici che vengono applicati sulla superficie anteriore dei denti per migliorarne il colore, la forma e l’allineamento. Rappresentano una soluzione minimamente invasiva in grado di trasformare completamente il sorriso in tempi molto brevi.\n\nLe faccette più utilizzate sono quelle in ceramica (porcellana), apprezzate per la loro resistenza, la brillantezza naturale e la capacità di mantenere il colore nel tempo.\n\nSi possono utilizzare faccette in composito, modellate sul dente, per ottenere una correzione immediata e naturale.\n\nGrazie alle moderne tecnologie digitali, le faccette di ultima generazione garantiscono un adattamento perfetto e un’estetica duratura, estremamente simile ai denti naturali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3d13ea93-b38c-ca64-61b7-73ccdb873c95",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Quando sono indicate le faccette dentali:</h3>",
+              "text": "Quando sono indicate le faccette dentali:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "bee9eb58-f754-c561-cbe6-07be24c196a7",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "53d9115f-0bea-9ac3-5e06-aab846c95458",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per correggere il colore dei denti<br data-w-id=\"53d9115f-0bea-9ac3-5e06-aab846c9545a\"></p>",
+              "text": "Per correggere il colore dei denti\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "d4956a9b-2185-49d0-306c-c7c43525c08e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "53d9115f-0bea-9ac3-5e06-aab846c9545d",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per modificare forma e dimensioni dei denti<br data-w-id=\"53d9115f-0bea-9ac3-5e06-aab846c9545f\"></p>",
+              "text": "Per modificare forma e dimensioni dei denti\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "51b5286d-ec49-e27e-4946-b5f47e3a0cbc",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "53d9115f-0bea-9ac3-5e06-aab846c95462",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per correggere la posizione dei denti o per riparare denti fratturati<br data-w-id=\"53d9115f-0bea-9ac3-5e06-aab846c95464\"></p>",
+              "text": "Per correggere la posizione dei denti o per riparare denti fratturati\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "2bc08c69-597b-05f4-0b19-da399443b066",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "53d9115f-0bea-9ac3-5e06-aab846c95467",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per chiudere spazi tra i denti (diastemi).<br data-w-id=\"53d9115f-0bea-9ac3-5e06-aab846c95469\"></p>",
+              "text": "Per chiudere spazi tra i denti (diastemi).\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b2",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Ulteriori informazioni</p>",
+              "text": "Ulteriori informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0246106e-b406-d73f-3a93-b0386cc04ce8",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">L’estetica dentale desiderata </h3>",
+              "text": "L’estetica dentale desiderata "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e0ca49a4-00f5-6efc-7b9a-3cb4dbeed56a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’aspetto dei denti dipende dai materiali scelti, dal tipo di lavoro protesico e dalle preferenze del paziente. Grazie al processo digitalizzato, è possibile visualizzare in anticipo il risultato e apportare modifiche durante la 'prova in resina', ripetibile tutte le volte necessarie, garantendo così il risultato estetico desiderato.</p>",
+              "text": "L’aspetto dei denti dipende dai materiali scelti, dal tipo di lavoro protesico e dalle preferenze del paziente. Grazie al processo digitalizzato, è possibile visualizzare in anticipo il risultato e apportare modifiche durante la 'prova in resina', ripetibile tutte le volte necessarie, garantendo così il risultato estetico desiderato."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ee8f5dc9-e857-02d2-5f85-8180fb54b6c1",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Qual è la differenza tra zirconia e ceramica?</h3>",
+              "text": "Qual è la differenza tra zirconia e ceramica?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ee8f5dc9-e857-02d2-5f85-8180fb54b6b6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La zirconia è un materiale molto resistente e duraturo, adatto a carichi masticatori elevati e a ponti lunghi, mentre la ceramica offre un aspetto più traslucido e naturale, ideale per corone anteriori dove l’estetica è prioritaria. In generale, la zirconia è più robusta e meno soggetta a fratture, mentre la ceramica, pur essendo più fragile, consente una resa estetica superiore dei denti.</p>",
+              "text": "La zirconia è un materiale molto resistente e duraturo, adatto a carichi masticatori elevati e a ponti lunghi, mentre la ceramica offre un aspetto più traslucido e naturale, ideale per corone anteriori dove l’estetica è prioritaria. In generale, la zirconia è più robusta e meno soggetta a fratture, mentre la ceramica, pur essendo più fragile, consente una resa estetica superiore dei denti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0b2d3e3c-f287-ae11-b371-b5acaa69d785",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Garanzia</h3>",
+              "text": "Garanzia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "457a3ca5-d1b4-c0f4-0324-48262e7f9aa4",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutti i lavori protesici sono coperti da garanzia, fornita in forma scritta e in lingua italiana.</p>",
+              "text": "Tutti i lavori protesici sono coperti da garanzia, fornita in forma scritta e in lingua italiana."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6525aad8-6c2d-51f1-8ab2-16bbd2e40e42",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Certificato di conformità</h3>",
+              "text": "Certificato di conformità"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "013f2507-8f89-c9c8-f02b-39731b3873a6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il certificato di conformità è un documento fondamentale che consente al paziente di conoscere tutti i materiali utilizzati nella realizzazione del lavoro protesico. Come tutti gli altri documenti, viene fornito in forma scritta e in lingua italiana, garantendo chiarezza e trasparenza.  </p>",
+              "text": "Il certificato di conformità è un documento fondamentale che consente al paziente di conoscere tutti i materiali utilizzati nella realizzazione del lavoro protesico. Come tutti gli altri documenti, viene fornito in forma scritta e in lingua italiana, garantendo chiarezza e trasparenza.  "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "40e53009-623c-3b7a-a35d-2e129531e2a0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-altre\">Altre prestazioni</p>",
+              "text": "Altre prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "0a1d4186-f3d0-ca14-fec9-9bc250d0b749",
+            "componentId": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d9f14d67-bd58-3d93-1efb-1aa4e83b738c",
+            "componentId": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "5204e39b-dc82-49ce-fb99-b62904d96882",
+            "componentId": "9db036bc-9bac-25ca-e571-158aa48dd517",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "a4a27bd9-9ff8-a500-b2b2-576cce43746f",
+            "componentId": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "7b754b86-b021-1053-1d31-541aa49fffb4",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "c1a9603c-77e5-d937-d5db-05809e2fb449",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "3da5c601-8af3-316b-621d-96883d67d92d",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "c01ceb30-9aef-720c-ad2f-61f09523cf72",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 62
+        },
+        "lastUpdated": "2026-09-04T13:37:19.061Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+import type { RevealMedia, RevealVariant } from '../scripts/reveal';
+interface Props {
+  as?: 'div' | 'p' | 'h1' | 'h2' | 'li' | 'section' | 'article';
+  delay?: number;
+  offset?: number;
+  class?: string;
+  id?: string;
+  variant?: RevealVariant;
+  media?: RevealMedia;
+}
+const {
+  as: Tag = 'div',
+  variant = 'slide',
+  // Omit unless explicitly supplied: shared CSS tokens own profile defaults.
+  delay,
+  offset,
+  class: className,
+  id,
+  media = 'all',
+}: Props = Astro.props;
+---
+
+<Tag
+  id={id}
+  class:list={['reveal', className]}
+  data-reveal={variant}
+  data-reveal-media={media}
+  data-delay={delay}
+  data-offset={offset}><slot /></Tag
+>

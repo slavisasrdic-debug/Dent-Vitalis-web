@@ -1,0 +1,554 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:37:22.042Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba884",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba884",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba884",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba884",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fb",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"463f23b1-bd0f-aa83-81a6-1f7bfbaf98fc\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "463f23b1-bd0f-aa83-81a6-1f7bfbaf98fe",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9900",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/prestazioni-dentali\" data-w-id=\"3b2bcd3d-7c24-c94d-1435-6ce6f98ed805\">Prestazioni</a></h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9902",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "463f23b1-bd0f-aa83-81a6-1f7bfbaf9904",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Premium: ponte fisso su impianti</h6>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "5a2b2d6d-230a-9146-dc80-a8115fff8072",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86c287a427020a8631b10c"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5a2b2d6d-230a-9146-dc80-a8115fff8077",
+            "text": {
+              "html": "<h6 class=\"nadnaslov-detaljna\">Pacchetto “tutto incluso”</h6>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5a2b2d6d-230a-9146-dc80-a8115fff807a",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Premium: ponte fisso su impianti</h1>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5a2b2d6d-230a-9146-dc80-a8115fff807c",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Prezzo fisso per un ponte fisso su impianti, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.</p>",
+              "text": "Prezzo fisso per un ponte fisso su impianti, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b3d109d-0081-c1f2-4878-6403331d0b79",
+            "text": {
+              "html": "<div class=\"text-block-11\">Prezzo fisso a 4.990&nbsp;€<br data-w-id=\"6c5a9c99-7fb4-06c4-a3f9-480841d50955\"></div>",
+              "text": "Prezzo fisso a 4.990 €\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "23d5ada7-8dad-b239-c81e-4b3e840f8002",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"23d5ada7-8dad-b239-c81e-4b3e840f8005\"><strong class=\"bold-text-3\" data-w-id=\"23d5ada7-8dad-b239-c81e-4b3e840f8006\">(4.041,9&nbsp;€*)</strong></span></div>",
+              "text": "(4.041,9 €*)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "47933700-bb97-b61f-e191-7a4f486d24c1",
+            "text": {
+              "html": "<h3 class=\"large-paragraph\">Il pacchetto Premium “Ponte fisso su impianti” comprende:</h3>",
+              "text": "Il pacchetto Premium “Ponte fisso su impianti” comprende:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "af97d28d-4e6d-f6ec-60b1-a68846a13a92",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "af97d28d-4e6d-f6ec-60b1-a68846a13a93",
+            "text": {
+              "html": "<div class=\"text-block-16\">Numero illimitato di impianti (non solo impianti standard, ma anche pterigoidei di ultima generazione)</div>",
+              "text": "Numero illimitato di impianti (non solo impianti standard, ma anche pterigoidei di ultima generazione)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "74e51574-9294-1e07-4389-4d541fa1edaa",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74e51574-9294-1e07-4389-4d541fa1edab",
+            "text": {
+              "html": "<div class=\"text-block-16\">Applicazione di viti di copertura</div>",
+              "text": "Applicazione di viti di copertura"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27f",
+            "text": {
+              "html": "<div class=\"text-block-16\">Applicazione dei monconi protesici</div>",
+              "text": "Applicazione dei monconi protesici"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "33be8193-89b3-6b24-e08e-b5f575ea61e0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "33be8193-89b3-6b24-e08e-b5f575ea61e1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Estrazione di denti e impianti integrati, se necessario</div>",
+              "text": "Estrazione di denti e impianti integrati, se necessario"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e133b9e5-9ab2-371f-9579-3ed7df0be5d4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e133b9e5-9ab2-371f-9579-3ed7df0be5d5",
+            "text": {
+              "html": "<div class=\"text-block-16\">Livellamento osseo</div>",
+              "text": "Livellamento osseo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e088f9be-6b61-c156-9d33-fdadb9adb631",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e088f9be-6b61-c156-9d33-fdadb9adb632",
+            "text": {
+              "html": "<div class=\"text-block-16\">Ponte fisso provvisorio OnX entro 24 ore</div>",
+              "text": "Ponte fisso provvisorio OnX entro 24 ore"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a48fe020-f79a-4432-b929-ac58b64eb0a0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48fe020-f79a-4432-b929-ac58b64eb0a1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Anestesia</div>",
+              "text": "Anestesia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9f43e4f6-e458-0d15-07f3-6e0896abb339",
+            "text": {
+              "html": "<div class=\"text-block-16 malo\">* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%.</div>",
+              "text": "* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Pacchetto Premium è la scelta ideale per chi ha perso, o sta per perdere, tutti i denti. <br data-w-id=\"b7230d06-3cce-2236-fb70-f4ba0eec2418\"><br data-w-id=\"24ff9614-b6cd-61fa-d792-efd112cf18ad\">Anche in caso di significativa perdita ossea, quando è necessario inserire più impianti per realizzare un ponte fisso completo, il prezzo rimane invariato e non sono previsti costi aggiuntivi.<br data-w-id=\"7150ddc0-80bd-9a18-9c99-31fa75036d28\"></p>",
+              "text": "Pacchetto Premium è la scelta ideale per chi ha perso, o sta per perdere, tutti i denti. \n\nAnche in caso di significativa perdita ossea, quando è necessario inserire più impianti per realizzare un ponte fisso completo, il prezzo rimane invariato e non sono previsti costi aggiuntivi.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d1332290-f4cb-6c51-1229-fe38dba642bb",
+            "text": {
+              "html": "<div class=\"medjunaslov-h3\">Vantaggi aggiuntivi</div>",
+              "text": "Vantaggi aggiuntivi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "8585e7f9-801d-1f8b-1165-b023ecd287cc",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "47c98e00-38a5-1b5a-a067-9be9184c2235",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Possibilità di soggiorno gratuito all’interno della clinica<br data-w-id=\"f4323491-19eb-c573-3cbd-3702e82d21e0\"></p>",
+              "text": "Possibilità di soggiorno gratuito all’interno della clinica\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "561e220c-1555-ae9c-a60b-66397c9af34a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "413d376a-f60d-a5e3-25f6-881e60a0e832",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%<br data-w-id=\"413d376a-f60d-a5e3-25f6-881e60a0e834\"></p>",
+              "text": "Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "cf107a66-f3f6-c77c-3ef8-e08ed2b9e691",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "345449f5-28ed-043b-2aaa-98318b6b4791",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Garanzia scritta sugli impianti<br data-w-id=\"a22a5455-de25-e649-fce7-ffed27176ec5\"></p>",
+              "text": "Garanzia scritta sugli impianti\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "36247432-8907-73bd-1d0e-392a4222a6a4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d77c8ced-4a1d-8782-95b0-aeae0865bd33",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Passaporto dell’impianto con i dettagli di ciascun impianto<br data-w-id=\"d77c8ced-4a1d-8782-95b0-aeae0865bd35\"></p>",
+              "text": "Passaporto dell’impianto con i dettagli di ciascun impianto\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dfefc6e1-8f1d-0a9c-a04a-4c7af5c07e07",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cc71236a-fb0d-71fb-4654-3487113f37ac",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Organizzazione del trasporto<br data-w-id=\"cc71236a-fb0d-71fb-4654-3487113f37ae\"></p>",
+              "text": "Organizzazione del trasporto\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "137d8d18-a829-917b-34cd-ba0041d924e6",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "828acbd0-1d56-8c1e-c334-4f34f61c504e",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Sedazione cosciente disponibile su richiesta&nbsp;<br data-w-id=\"828acbd0-1d56-8c1e-c334-4f34f61c5050\"></p>",
+              "text": "Sedazione cosciente disponibile su richiesta \n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6e7b5764-dc5c-61b1-7a57-9ed9c0c27bd8",
+            "text": {
+              "html": "<p class=\"large-paragraph\"><a class=\"link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba890\" data-w-id=\"d4ee5124-0ac6-b469-60ed-157abde54c22\">La prima visita completa</a>, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo.</p>",
+              "text": "La prima visita completa, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Ulteriori informazioni</p>",
+              "text": "Ulteriori informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b1ea8b65-299e-9066-80cf-240ad43d94c7",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Inserimento degli impianti</h3>",
+              "text": "Inserimento degli impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Durante un’unica seduta vengono estratti tutti i denti residui e subito inseriti gli impianti. L’intervento dura circa un’ora ed è indolore grazie all’anestesia locale. È inoltre possibile eseguire questa procedura sia nella mascella superiore che in quella inferiore nella stessa seduta. Contattaci per ulteriori informazioni.</p>",
+              "text": "Durante un’unica seduta vengono estratti tutti i denti residui e subito inseriti gli impianti. L’intervento dura circa un’ora ed è indolore grazie all’anestesia locale. È inoltre possibile eseguire questa procedura sia nella mascella superiore che in quella inferiore nella stessa seduta. Contattaci per ulteriori informazioni."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcdc",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Perché un numero illimitato di impianti?</h3>",
+              "text": "Perché un numero illimitato di impianti?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcde",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La qualità dell’osso mascellare varia da paziente a paziente. Quando l’osso è debole, è opportuno inserire più impianti per assicurare la stabilità e la durabilità del ponte. Se ogni impianto extra fosse a pagamento, il costo finale sarebbe molto più alto di quello concordato. I nostri lavori sono garantiti e, per assicurarne la durata nel tempo, ci assumiamo tutti i costi, permettendoti di affrontare il trattamento in totale serenità.</p>",
+              "text": "La qualità dell’osso mascellare varia da paziente a paziente. Quando l’osso è debole, è opportuno inserire più impianti per assicurare la stabilità e la durabilità del ponte. Se ogni impianto extra fosse a pagamento, il costo finale sarebbe molto più alto di quello concordato. I nostri lavori sono garantiti e, per assicurarne la durata nel tempo, ci assumiamo tutti i costi, permettendoti di affrontare il trattamento in totale serenità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa5",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Ponte OnX su impianti appena inseriti</h3>",
+              "text": "Ponte OnX su impianti appena inseriti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Entro 24 ore dall'inserimento degli impianti, viene fissato un ponte OnX. A differenza dei ponti in acrilico, questi garantiscono una resistenza e un’estetica eccezionali, offrendo una protezione supplementare agli impianti e favorendone l'integrazione nell’osso.</p>",
+              "text": "Entro 24 ore dall'inserimento degli impianti, viene fissato un ponte OnX. A differenza dei ponti in acrilico, questi garantiscono una resistenza e un’estetica eccezionali, offrendo una protezione supplementare agli impianti e favorendone l'integrazione nell’osso."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a5",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Ritorno alle attività quotidiane</h3>",
+              "text": "Ritorno alle attività quotidiane"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Immediato, dopo il fissaggio del ponte sugli impianti. Durante l’intervento, il paziente riceve una terapia che previene il gonfiore delle gengive e dei tessuti circostanti.</p>",
+              "text": "Immediato, dopo il fissaggio del ponte sugli impianti. Durante l’intervento, il paziente riceve una terapia che previene il gonfiore delle gengive e dei tessuti circostanti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ba1f5fe-c113-0079-6664-a7686b347b23",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Prima dell’intervento</h3>",
+              "text": "Prima dell’intervento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ba1f5fe-c113-0079-6664-a7686b347b25",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Assumere un antibiotico secondo le indicazioni della clinica.</p>",
+              "text": "Assumere un antibiotico secondo le indicazioni della clinica."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf1",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Risultato finale</h3>",
+              "text": "Risultato finale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf3",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il ponte fisso OnX ha un aspetto naturale e consente una masticazione e un linguaggio normali, restituendo sicurezza e migliorando significativamente la qualità della vita e l’estetica del paziente. Contattaci per ulteriori informazioni.</p>",
+              "text": "Il ponte fisso OnX ha un aspetto naturale e consente una masticazione e un linguaggio normali, restituendo sicurezza e migliorando significativamente la qualità della vita e l’estetica del paziente. Contattaci per ulteriori informazioni."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c2059de2-2666-e3cd-c8c4-056bb17301fc",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-altre\">Altre prestazioni</p>",
+              "text": "Altre prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "d430cc2c-555c-6d7a-ff18-8922771fa89b",
+            "componentId": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "f40ab2c5-b024-7140-cee0-7fb946e80c01",
+            "componentId": "9db036bc-9bac-25ca-e571-158aa48dd517",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "9f329d04-429b-a1ab-b425-e51c549f384e",
+            "componentId": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "f03f98b1-0a13-9043-f9f7-04a9633cc8fe",
+            "componentId": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "e926f4c4-489b-2198-8eb3-d32899ab9390",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "0fd4c9dd-0e8b-827c-b2aa-b3637040d0e2",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "2bf95465-eb13-24d5-7ba7-e49e65d87c49",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "8681193d-0ca4-1c7d-4456-4fcdbd78a49c",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 65
+        },
+        "lastUpdated": "2026-09-04T13:36:58.182Z"
+      }
+    }
+  ]
+}

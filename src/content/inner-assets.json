@@ -1,0 +1,1888 @@
+{
+  "Prima-visita-gratuita.webp": {
+    "src": "/assets/images/Prima-visita-gratuita-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Prima-visita-gratuita-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Prima-visita-gratuita-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Prima-visita-gratuita-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Prima-visita-gratuita-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Prima-visita-gratuita-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Prima-visita-gratuita-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Prima-visita-gratuita-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Prima-visita-gratuita.webp",
+    "sha256": "96085ab4846cc3d962cc2bc6cc0145c69d2f865afb037a8c4e7f7a2e84b39f75"
+  },
+  "Tempi-del-trattamento.webp": {
+    "src": "/assets/images/Tempi-del-trattamento-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Tempi-del-trattamento-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Tempi-del-trattamento.webp",
+    "sha256": "60d1ec18a88400a9ffa0e168859191bea8249ad630e880ba53b9dda675475179"
+  },
+  "Pagamento-flessibile.webp": {
+    "src": "/assets/images/Pagamento-flessibile-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Pagamento-flessibile-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Pagamento-flessibile.webp",
+    "sha256": "3929fb01810966da7decdf4519a1db3d80a61628aadb789d0faf4b181ea594ab"
+  },
+  "Garanzie.webp": {
+    "src": "/assets/images/Garanzie-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Garanzie-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Garanzie-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Garanzie-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Garanzie-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Garanzie-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Garanzie-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Garanzie-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Garanzie.webp",
+    "sha256": "dcb3db8a4777760917c857337f407ca213fc43d5299193d14afcc12c45a3b3bf"
+  },
+  "Alloggio-hero-2600.webp": {
+    "src": "/assets/images/Alloggio-hero-2600-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Alloggio-hero-2600-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Alloggio-hero-2600-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Alloggio-hero-2600-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Alloggio-hero-2600-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Alloggio-hero-2600-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Alloggio-hero-2600-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Alloggio-hero-2600-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Alloggio-hero-2600.webp",
+    "sha256": "60a2c2b52bf7c12157d119a3e23f55f8b88d4f2c9fa2cf724869c417dae027e5"
+  },
+  "Dentvitalis-Dedo-1.webp": {
+    "src": "/assets/images/Dentvitalis-Dedo-1-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-1-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dentvitalis-Dedo-1.webp",
+    "sha256": "3c98140381a75484a9c768f4ec466089749f0ca80055790cdc8dbd4fc83a1f11"
+  },
+  "Dentvitalis-Dedo-mobile.webp": {
+    "src": "/assets/images/Dentvitalis-Dedo-mobile-1607.webp",
+    "width": 1607,
+    "height": 1205,
+    "variants": [
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-mobile-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-mobile-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-mobile-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-mobile-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-mobile-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Dentvitalis-Dedo-mobile-1607.webp",
+        "width": 1607
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dentvitalis-Dedo-mobile.webp",
+    "sha256": "80ab2807b0d2c6b1a9aab78ee22e739e65c8fde2921e46650ea67175b707a9ab"
+  },
+  "DV-cjenik.webp": {
+    "src": "/assets/images/DV-cjenik-2600.webp",
+    "width": 2600,
+    "height": 1464,
+    "variants": [
+      {
+        "src": "/assets/images/DV-cjenik-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/DV-cjenik-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/DV-cjenik-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/DV-cjenik-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/DV-cjenik-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/DV-cjenik-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/DV-cjenik-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/DV-cjenik.webp",
+    "sha256": "8d066600c2887bce650d435b52ec22d2a3345fe1d869751bbfb2db1ea1cf4eba"
+  },
+  "Laboratorio-odontotecnico.webp": {
+    "src": "/assets/images/Laboratorio-odontotecnico-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Laboratorio-odontotecnico-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Laboratorio-odontotecnico.webp",
+    "sha256": "530b9448ffd3e1a18dd76b9c7abe84e47095a3712c755bcdcde7606f78bcd028"
+  },
+  "Materiali-e-apparecchiature-1.webp": {
+    "src": "/assets/images/Materiali-e-apparecchiature-1-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Materiali-e-apparecchiature-1.webp",
+    "sha256": "b17a7a735273ebfd876a30ed196b4b33702e58bac277adef0027d896ab915032"
+  },
+  "Materiali-e-apparecchiature.webp": {
+    "src": "/assets/images/Materiali-e-apparecchiature-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Materiali-e-apparecchiature-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Materiali-e-apparecchiature.webp",
+    "sha256": "1669ff4efaabe9d56dbfffd0bc574df0896aabf04f7d50c4981207ccef8c3947"
+  },
+  "image.webp": {
+    "src": "/assets/images/image-1634.webp",
+    "width": 1634,
+    "height": 1307,
+    "variants": [
+      {
+        "src": "/assets/images/image-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/image-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/image-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/image-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/image-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/image-1634.webp",
+        "width": 1634
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/image.webp",
+    "sha256": "5f8ae97d6c1fb726bfdb7377ce0008ae6185803e497f01d33165a6939e9ae023"
+  },
+  "Sedazione.webp": {
+    "src": "/assets/images/Sedazione-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Sedazione-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sedazione-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sedazione-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sedazione-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Sedazione-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Sedazione-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Sedazione-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sedazione.webp",
+    "sha256": "4c0c6211e3abaca35ec30bbfd366c1953a96a5eca94ce21a4b730abccd75a961"
+  },
+  "Sedazione-mobile.webp": {
+    "src": "/assets/images/Sedazione-mobile-1347.webp",
+    "width": 1347,
+    "height": 899,
+    "variants": [
+      {
+        "src": "/assets/images/Sedazione-mobile-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sedazione-mobile-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sedazione-mobile-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sedazione-mobile-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Sedazione-mobile-1347.webp",
+        "width": 1347
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sedazione-mobile.webp",
+    "sha256": "022714c97d604eac7584cfb0e23313fa46ec7f39f88cbdc18b869e31e02b78db"
+  },
+  "Sbiancamento-dei-denti-3.webp": {
+    "src": "/assets/images/Sbiancamento-dei-denti-3-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Sbiancamento-dei-denti-3-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Sbiancamento-dei-denti-3.webp",
+    "sha256": "b958edc9ab9959e5fbd86eb3943e3fa9bc96725c1524092ca189e6d90d6ac0a9"
+  },
+  "Gogole-star1200px.svg": {
+    "src": "/assets/images/Gogole-star1200px.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Gogole-star1200px.svg",
+    "sha256": "89be66b3b788c7b2f481a9b0a9609fa3ac54507c44420405ca6f08fba2088675"
+  },
+  "Google-logo1200px.svg": {
+    "src": "/assets/images/Google-logo1200px.svg",
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Google-logo1200px.svg",
+    "sha256": "e92f8353706db444ad6f11f531c21ed8056f986d1569550473efd44a312f5ec5"
+  },
+  "Contatti.webp": {
+    "src": "/assets/images/Contatti-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Contatti-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Contatti-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Contatti-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Contatti-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Contatti-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Contatti-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Contatti-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Contatti.webp",
+    "sha256": "41cec38b3454ec0859a453f3103e4aba86c5049fe9fef4a90c7c9ec33c13f387"
+  },
+  "Domande-e-risposte-2.webp": {
+    "src": "/assets/images/Domande-e-risposte-2-2379.webp",
+    "width": 2379,
+    "height": 1339,
+    "variants": [
+      {
+        "src": "/assets/images/Domande-e-risposte-2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Domande-e-risposte-2-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Domande-e-risposte-2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Domande-e-risposte-2-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Domande-e-risposte-2-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Domande-e-risposte-2-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Domande-e-risposte-2-2379.webp",
+        "width": 2379
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Domande-e-risposte-2.webp",
+    "sha256": "be9fd08f2468baa6342b3a7388df70ed5ceb872f3f34f922650da2197344ec98"
+  },
+  "Galleria-header-2600.webp": {
+    "src": "/assets/images/Galleria-header-2600-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Galleria-header-2600-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Galleria-header-2600-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Galleria-header-2600-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Galleria-header-2600-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Galleria-header-2600-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Galleria-header-2600-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Galleria-header-2600-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Galleria-header-2600.webp",
+    "sha256": "3ced886083206e0ff3bd828edcb186cdc3b18043ae71906d44d68e328fa4e391"
+  },
+  "695fa97e89b12cf767b05da1_DV-1-prije (2).webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-1600.webp",
+    "width": 1600,
+    "height": 1061,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da1_DV-1-prije (2)-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3b3ae8b04642df7538c1/695e3b3ae8b04642df7538c1_DV-1-prije (2).webp",
+    "sha256": "5e1ef68a9709ef777aedbc32d9d03f5031c60165e68739d80a1a3a973c5ab8b1"
+  },
+  "695fa97e89b12cf767b05da8_DV-1-poslije (1).webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-1600.webp",
+    "width": 1600,
+    "height": 1061,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05da8_DV-1-poslije (1)-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3b495c3ad36d09fc1e62/695e3b495c3ad36d09fc1e62_DV-1-poslije (1).webp",
+    "sha256": "efff762007baa7c021efe033a251272611885d6344766f117ae560260feeeb88"
+  },
+  "695fa97e89b12cf767b05db1_DV-2-prije.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-2370.webp",
+    "width": 2370,
+    "height": 1600,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05db1_DV-2-prije-2370.webp",
+        "width": 2370
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3b575223708e2b125c6b/695e3b575223708e2b125c6b_DV-2-prije.webp",
+    "sha256": "909baff004a0d593ccf8cd662493e3443293534cb03ce893611fd8f00150cda2"
+  },
+  "695fa97e89b12cf767b05dc1_DV-2-poslije.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc1_DV-2-poslije-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3b64c631f84d1e00d98b/695e3b64c631f84d1e00d98b_DV-2-poslije.webp",
+    "sha256": "e96f741ffaad2b4bd40458363f8b6d2b961a17718e2b8540e02f174c8617b3cd"
+  },
+  "695fa97e89b12cf767b05dba_DV-prije-3.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dba_DV-prije-3-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3cb685af2964a2786fb5/695e3cb685af2964a2786fb5_DV-prije-3.webp",
+    "sha256": "8017a55d6cf509a81d93aef8bc8ee42e601f76ef94f62728c5fdaf99e9832a0d"
+  },
+  "695fa97e89b12cf767b05dc8_DV-poslije-3.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dc8_DV-poslije-3-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3cc02ab66825311a5463/695e3cc02ab66825311a5463_DV-poslije-3.webp",
+    "sha256": "5a77ce7ec29c7c8e7a5c40b18b7c65651f0b8ce90ef4148d09fe39cd5bc5850d"
+  },
+  "695fa97e89b12cf767b05ddd_DV-prije-5.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05ddd_DV-prije-5-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3df8abef0e64741380e2/695e3df8abef0e64741380e2_DV-prije-5.webp",
+    "sha256": "f750494e1c850c33e67e86f90624311c95a7c5985423dd7e14129667e269f75a"
+  },
+  "695fa97e89b12cf767b05d99_DV-poslije-5.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05d99_DV-poslije-5-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3e05b0a887f837f32d22/695e3e05b0a887f837f32d22_DV-poslije-5.webp",
+    "sha256": "04d08045762db315cb3284974ee471645f53eac50875aaff934746a0e6cc98ea"
+  },
+  "695fa97e89b12cf767b05e46_DV-prije-13.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e46_DV-prije-13-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e4442e1e182d11133a301/695e4442e1e182d11133a301_DV-prije-13.webp",
+    "sha256": "2ac91479f73dea9e0c4b0d691c2fa1d6d73fd13988737e8e08999334a2010971"
+  },
+  "695fa97e89b12cf767b05e4d_DV-poslije-13.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e4d_DV-poslije-13-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e444b9a7059d58dcc7c6d/695e444b9a7059d58dcc7c6d_DV-poslije-13.webp",
+    "sha256": "76904a22c1e9ceae0e750da558bd257f368cb8f643b564044d41695f526e211e"
+  },
+  "695fa97e89b12cf767b05e54_DV-prije-14.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e54_DV-prije-14-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e44c67b11e9f4b56232a4/695e44c67b11e9f4b56232a4_DV-prije-14.webp",
+    "sha256": "3495dac680628343a0bec0941502b43294f38d8ce9b753698cf65e7fdb852ca4"
+  },
+  "695fa97e89b12cf767b05e5b_DV-poslije-14.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e5b_DV-poslije-14-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e44d24e9bef34020b6909/695e44d24e9bef34020b6909_DV-poslije-14.webp",
+    "sha256": "9c945f75f49a30deed2448cfc0847a0f979bccdc1cf71a6f0ff73c5207d32e5e"
+  },
+  "695fa97e89b12cf767b05e62_DV-prije-15.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e62_DV-prije-15-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e45f1f212d5ff26e7f222/695e45f1f212d5ff26e7f222_DV-prije-15.webp",
+    "sha256": "edb88ddab8e561e7400389c16f3e9130862b2b04e13900d58053f90c6eda3ab2"
+  },
+  "695fa97e89b12cf767b05e69_DV-poslije-15.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e69_DV-poslije-15-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e45fb61591ebaf9d1b840/695e45fb61591ebaf9d1b840_DV-poslije-15.webp",
+    "sha256": "a4beb4a32b6468fc0a7ca1847c395f64fadd00c17748337332fa5a87e52e1f41"
+  },
+  "695fa97e89b12cf767b05dcf_DV-prije-4.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05dcf_DV-prije-4-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3d53342377a7d215cee1/695e3d53342377a7d215cee1_DV-prije-4.webp",
+    "sha256": "e1e65ca4d2daf0f7c4fbdef45b4877eb0013d15e44e7fa358e8b9c60e83c7ed9"
+  },
+  "DV-poslije-4-2.webp": {
+    "src": "/assets/images/DV-poslije-4-2-2816.webp",
+    "width": 2816,
+    "height": 1901,
+    "variants": [
+      {
+        "src": "/assets/images/DV-poslije-4-2-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/DV-poslije-4-2-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/DV-poslije-4-2-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/DV-poslije-4-2-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/DV-poslije-4-2-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/DV-poslije-4-2-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/DV-poslije-4-2-2816.webp",
+        "width": 2816
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/DV-poslije-4-2.webp",
+    "sha256": "d154b26d3c6cad13bfc42f34c447debfba56f5da77849f334b1133972fb33857"
+  },
+  "695fa97e89b12cf767b05df2_DV-prije-7.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df2_DV-prije-7-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3f4db58d50a4a3800ce3/695e3f4db58d50a4a3800ce3_DV-prije-7.webp",
+    "sha256": "121902a0ae137cbcbf8189e1191e9085feadfb55449330c1bc3be8291230250c"
+  },
+  "695fa97e89b12cf767b05df9_DV-poslije-7.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05df9_DV-poslije-7-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3f57072a33cc06a3678d/695e3f57072a33cc06a3678d_DV-poslije-7.webp",
+    "sha256": "c29aca6b4e2ead0bb4e441e95b433677ee734f5a9bebc8168b083181940b5735"
+  },
+  "695fa97e89b12cf767b05de4_DV-prije-6.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05de4_DV-prije-6-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3eb8b58d50a4a37fee58/695e3eb8b58d50a4a37fee58_DV-prije-6.webp",
+    "sha256": "9bb9a3a3a9ca56888ced69056e38831d78b39c760b7cb018c0b23d30b25f5e24"
+  },
+  "695fa97e89b12cf767b05deb_DV-poslije-6.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05deb_DV-poslije-6-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e3ec0119d17bbc0651e5e/695e3ec0119d17bbc0651e5e_DV-poslije-6.webp",
+    "sha256": "a66cf3a24522dbb275c6250e3b3426522cfd63c7c51b44d0dab881ddef8aadfb"
+  },
+  "695fa97e89b12cf767b05e00_DV-prije-8.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e00_DV-prije-8-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e406c038e68916346c506/695e406c038e68916346c506_DV-prije-8.webp",
+    "sha256": "b83a9ed422acbd129ae1e78d98aab23f36fc040bf2dfc4c9b20244fe5778ba9f"
+  },
+  "695fa97e89b12cf767b05e07_DV-poslije-8.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e07_DV-poslije-8-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e4075348898352a54065d/695e4075348898352a54065d_DV-poslije-8.webp",
+    "sha256": "56996a6eb7070e7b6bf17cbbc1198bcc7cdcc39e92d04e10005f4e54c89d58a5"
+  },
+  "695fa97e89b12cf767b05e0e_DV-prije-9.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e0e_DV-prije-9-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e40f2a65e8f229d9845b9/695e40f2a65e8f229d9845b9_DV-prije-9.webp",
+    "sha256": "92887e4122b3dc2d722d7d5403a344957a88301a7bc58a331b2d054fdc7d8f94"
+  },
+  "695fa97e89b12cf767b05e15_DV-poslije-9.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e15_DV-poslije-9-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e40fc83cc017dfa4642ac/695e40fc83cc017dfa4642ac_DV-poslije-9.webp",
+    "sha256": "2112261d98156fb351719048b5512a013df7eda29ae03f88a4c23d9725907312"
+  },
+  "695fa97e89b12cf767b05e1c_DV-prije-10.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e1c_DV-prije-10-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e41e21f7b37c72f02e47b/695e41e21f7b37c72f02e47b_DV-prije-10.webp",
+    "sha256": "5b48d44891a82e7733fb73fa9c9d8174640d7e16d2350b00c503a9a2c10a34bf"
+  },
+  "695fa97e89b12cf767b05e23_DV-poslije-10.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e23_DV-poslije-10-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e41ec52001166763c7d04/695e41ec52001166763c7d04_DV-poslije-10.webp",
+    "sha256": "57dc858050253313593adfb53d823286ea6f7c79d0d883e5efb46b1df63fa3cf"
+  },
+  "695fa97e89b12cf767b05e2a_DV-prije-11.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e2a_DV-prije-11-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e4296a409bc93e62a5e73/695e4296a409bc93e62a5e73_DV-prije-11.webp",
+    "sha256": "151549d7f31dd67bad7d15f9dc640e863a7151ce993f64ab5ff0a7d69b922f95"
+  },
+  "695fa97e89b12cf767b05e31_DV-poslije-11.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e31_DV-poslije-11-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e429fa65e8f229d98a97d/695e429fa65e8f229d98a97d_DV-poslije-11.webp",
+    "sha256": "1677cc9b939da103127e2c7cd39befabe6777e1b990af922233eda9f93a69947"
+  },
+  "695fa97e89b12cf767b05e38_DV-prije-12.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e38_DV-prije-12-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e43a9872a81e47514a43c/695e43a9872a81e47514a43c_DV-prije-12.webp",
+    "sha256": "c9e9c4e09aa347ce7bb18dd0106e02b067fa88b7cc8fc890f837c7d77f7618bb"
+  },
+  "695fa97e89b12cf767b05e3f_DV-poslije-12.webp": {
+    "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-1600.webp",
+    "width": 1600,
+    "height": 1080,
+    "variants": [
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/695fa97e89b12cf767b05e3f_DV-poslije-12-1600.webp",
+        "width": 1600
+      }
+    ],
+    "source": "reference/webflow-handoff/2026-09-07/extracted/assets/masters/695e43b5c1fca6b891296474/695e43b5c1fca6b891296474_DV-poslije-12.webp",
+    "sha256": "5f8d6799f36c1a56a05ece0ea337d2bddda8aa6a455854ddbbb8305a5fdc9851"
+  },
+  "Pagamento-flessibile-4.webp": {
+    "src": "/assets/images/Pagamento-flessibile-4-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Pagamento-flessibile-4-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Pagamento-flessibile-4.webp",
+    "sha256": "16b47da7025a743e890171014c4a49efae4036001d281a5af95819430a467958"
+  },
+  "codice-pagamento-bonifico-dentvitalis.png": {
+    "src": "/assets/images/codice-pagamento-bonifico-dentvitalis-512.webp",
+    "width": 512,
+    "height": 126,
+    "variants": [
+      {
+        "src": "/assets/images/codice-pagamento-bonifico-dentvitalis-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/codice-pagamento-bonifico-dentvitalis-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/codice-pagamento-bonifico-dentvitalis-512.webp",
+        "width": 512
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/codice-pagamento-bonifico-dentvitalis.png",
+    "sha256": "85b747fe5067b95df790998b1f1c1cacc5772f9c8c7e74295b8edcb716f83ec0"
+  },
+  "Tempi-del-trattamento-3.webp": {
+    "src": "/assets/images/Tempi-del-trattamento-3-2600.webp",
+    "width": 2600,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-2000.webp",
+        "width": 2000
+      },
+      {
+        "src": "/assets/images/Tempi-del-trattamento-3-2600.webp",
+        "width": 2600
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Tempi-del-trattamento-3.webp",
+    "sha256": "eaac4519925849f36280591a5ee6b6f57bd1cfcb7e083e856b763964d0a512a3"
+  },
+  "Zvonimir-Zivkovic.webp": {
+    "src": "/assets/images/Zvonimir-Zivkovic-1000.webp",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/assets/images/Zvonimir-Zivkovic-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Zvonimir-Zivkovic-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Zvonimir-Zivkovic-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Zvonimir-Zivkovic-1000.webp",
+        "width": 1000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Zvonimir-Zivkovic.webp",
+    "sha256": "d698d0109d70b125c04975a16e832745cdc860aaf5e0454e4f579ca74dd7237a"
+  },
+  "Zoran-Jurković-dr.med.dent..jpg": {
+    "src": "/assets/images/Zoran-Jurković-dr.med.dent.-1000.webp",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/assets/images/Zoran-Jurković-dr.med.dent.-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Zoran-Jurković-dr.med.dent.-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Zoran-Jurković-dr.med.dent.-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Zoran-Jurković-dr.med.dent.-1000.webp",
+        "width": 1000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Zoran-Jurković-dr.med.dent..jpg",
+    "sha256": "7026e9b37a419358c20a13001039ed2ce59881eaac01441a70084fbab1c8c829"
+  },
+  "Ana-Beljan-dr.med.dent.webp": {
+    "src": "/assets/images/Ana-Beljan-dr.med.dent-1000.webp",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/assets/images/Ana-Beljan-dr.med.dent-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Ana-Beljan-dr.med.dent-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Ana-Beljan-dr.med.dent-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Ana-Beljan-dr.med.dent-1000.webp",
+        "width": 1000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Ana-Beljan-dr.med.dent.webp",
+    "sha256": "1fdc582612403c77da524b6bd7a9e2c164a74bbc7581b6360dd3d984c8a402c9"
+  },
+  "Domagoj-Žalac-dr.med.dent..webp": {
+    "src": "/assets/images/Domagoj-Žalac-dr.med.dent.-1000.webp",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "src": "/assets/images/Domagoj-Žalac-dr.med.dent.-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Domagoj-Žalac-dr.med.dent.-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Domagoj-Žalac-dr.med.dent.-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Domagoj-Žalac-dr.med.dent.-1000.webp",
+        "width": 1000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Domagoj-Žalac-dr.med.dent..webp",
+    "sha256": "04a8a3c0c551dc8528b88ce131fa10ee3c2e1fc8e7d17a03f8ed41bb141fcb10"
+  },
+  "Dv-4-1.webp": {
+    "src": "/assets/images/Dv-4-1-2000.webp",
+    "width": 2000,
+    "height": 837,
+    "variants": [
+      {
+        "src": "/assets/images/Dv-4-1-320.webp",
+        "width": 320
+      },
+      {
+        "src": "/assets/images/Dv-4-1-500.webp",
+        "width": 500
+      },
+      {
+        "src": "/assets/images/Dv-4-1-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/assets/images/Dv-4-1-1080.webp",
+        "width": 1080
+      },
+      {
+        "src": "/assets/images/Dv-4-1-1400.webp",
+        "width": 1400
+      },
+      {
+        "src": "/assets/images/Dv-4-1-2000.webp",
+        "width": 2000
+      }
+    ],
+    "source": "source-assets/webflow-export/2026-09-07/extracted/images/Dv-4-1.webp",
+    "sha256": "9fc3262d67a94c392aabb6ebdf7fbcc3da3a2048d6e49f47a4e6d32ceb3aaed4"
+  }
+}

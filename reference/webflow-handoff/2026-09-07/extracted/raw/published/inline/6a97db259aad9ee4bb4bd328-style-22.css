@@ -1,0 +1,20 @@
+
+section.section-contatti .home-2-form-section .section-heading-wrapper-2 .nadnaslov.bijeli,
+section.section-contatti .home-2-form-section .home-2-form .medjunaslov-h2.bijeli,
+section.section-contatti .home-2-form-section .home-2-form .huge-paragraph.bijeli {
+  text-align: center !important;
+}
+section.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise {
+  background-color: var(--svijetla-call) !important;
+}
+section.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise:hover,
+section.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise:focus-visible {
+  background-color: var(--svjetlija-plava) !important;
+}
+@media screen and (max-width: 767px) {
+  section.section-contatti .home-2-form-section .section-heading-wrapper-2 .nadnaslov.bijeli,
+  section.section-contatti .home-2-form-section .home-2-form .medjunaslov-h2.bijeli,
+  section.section-contatti .home-2-form-section .home-2-form .huge-paragraph.bijeli {
+    text-align: left !important;
+  }
+}

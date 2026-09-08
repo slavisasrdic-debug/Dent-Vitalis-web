@@ -1,0 +1,1081 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:43:47.082Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "6a97db25519800ebff25b9f2",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "6a97db25519800ebff25b9f2",
+              "element": "6a97db25519800ebff25b9f8"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "e6544327-15bb-1db1-b0de-8dfefdae3195"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "6b5e847b-39b4-d4cf-d199-834da69b9ebe"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a97db25519800ebff25b9f2",
+                      "element": "89926bc1-2bdb-e02a-7db9-4ad6bd62c9a7"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a97db25519800ebff25b9f2",
+                          "element": "31cc33dc-874d-7189-1dda-4ed29ae1d0af"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "a8dc2950-7065-91fe-62e1-866969558e8f"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "7d9a607d-2810-529c-001c-772035312462"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "a9d88451-fe19-8e6f-9c39-fb1a6b98896f"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a97db25519800ebff25b9f2",
+                                          "element": "daf15d2c-9638-42e9-2c8d-4d91ea65804a"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "6a97db25519800ebff25b9f2",
+                                              "element": "8ba53b5e-03bc-d6a9-a100-946fbf6ab3f4"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "97e40db0-3b40-63e3-db7e-621e618a1a54"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a97db25519800ebff25b9f2",
+                                          "element": "a9128f9c-f258-f70a-9206-ed9f21237744"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "f883113d-dcf3-fba7-8130-4c36163f2577"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a97db25519800ebff25b9f2",
+                                          "element": "7df2f583-8fa4-a072-c41c-31fb8ae8e689"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Condizioni di utilizzo"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "304893d1-466e-f70a-89ac-19e2e1528dac"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a97db25519800ebff25b9f2",
+                      "element": "f49f7a19-db03-9881-cdbf-4c1f4236d319"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a97db25519800ebff25b9f2",
+                          "element": "d7a06ede-84d3-033c-9d11-b2eb787d1c5e"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "6a97db25519800ebff25b9f2",
+                          "element": "93022ec2-fab6-f3b0-0153-940ae7bc4067"
+                        },
+                        "type": "Image",
+                        "styleNames": [
+                          "Image 10"
+                        ],
+                        "settings": {
+                          "visibility": true,
+                          "assetId": "6a86e9828da1e0b605be4d29",
+                          "altText": "Prima visita odontoiatrica gratuita presso DentVitalis a Rijeka"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "6a97db25519800ebff25b9f2",
+                      "element": "784d901a-51e4-035a-0e05-2bc5eb6d91d3"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a97db25519800ebff25b9f2",
+                          "element": "1850f973-9254-3513-8aca-3c7fdad2ed96"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "ee0fc2e3-8681-ecdf-9cab-a1abe009feb7"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "e48c7bba-492b-e29a-ba2b-3ed3c2eefdad"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "11ddc139-75a5-077b-3e1e-6fae8788f472"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a97db25519800ebff25b9f2",
+                                          "element": "4d150257-bb59-d607-ff8d-36cad3cf0bac"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Condizioni di utilizzo"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "1123096b-7fee-d7c3-5ef3-09d31744ef50"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a97db25519800ebff25b9f2",
+                      "element": "44a5922c-0311-2d31-b4db-4be2ac87a1d2"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Detaljna tekst"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a97db25519800ebff25b9f2",
+                          "element": "be61ce2c-6094-1170-c446-26407ead22f1"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Tekst detaljna"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "da82a04c-c6a9-ba9b-8b1a-8387565b912d"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "b9fdd960-b974-2734-6dc3-d023ac0bb57a"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "255319ea-e4b4-d298-69fe-a659fe7df5c3"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Con la presente si definiscono le condizioni di utilizzo della pagina web www.dentvitalis.com (in seguito nel testo: Pagina). Il proprietario del contenuto della Pagina è Dentvitalis d.o.o. Krešimirova 60, 51000 Fiume, Croazia. Nel caso in cui non siate d'accordo con una o più disposizioni delle presenti Condizioni, vi preghiamo di abbandonare la Pagina e non usarla più."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "af4d4478-ac04-67e1-12df-d2a05941ad75"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "8c69916c-3607-4eb6-dfaf-fc75a2b459c6"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "74cf9a18-442d-d443-526d-2fa9dcdf8915"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Tutti i servizi odontoiatrici pubblicati su questa Pagina sono offerti a proprio nome e per proprio conto dagli Studi odontoiatrici privati del dr. med. dent. Šime Živković, e del dr. med. dent. Tomislav Živković, (in seguito nel testo: Studi) con i quali Dentvitalis d.o.o. ha sottoscritto un contratto di collaborazione esclusiva. È del tutto esclusa la possibilità che i suddetti servizi siano offerti da una terza persona, giuridica o fisica."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "90548070-7793-adaa-8cfe-1e1817093fee"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "6a4f16ac-6fd0-6688-2f47-ca4edc1f8fae"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "a56d52d8-e6f3-b574-aa51-d769d71b3f3a"
+                                    },
+                                    "type": "String",
+                                    "textContent": "1. Tutte le informazioni relative ai servizi odontoiatrici menzionati nella Pagina, così come i relativi prezzi e tempi di esecuzione, hanno solo carattere informativo e non possono essere un sostituto al piano terapeutico che viene offerto ad ogni singolo paziente dopo la visita effettuata da parte del medico nell'ambito dello Studio."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "462efbdb-b151-a2c9-d633-d21ad6444b0b"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "e390ab45-7f05-e253-3dc9-628b201c6cc9"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "7d0f588e-2bc3-701e-bb1c-8f6ace798b44"
+                                    },
+                                    "type": "String",
+                                    "textContent": "2. Il piano della terapia e la relativa offerta finanziaria mandata al paziente via e-mail o in qualche altro modo, hanno solo carattere informativo dato che sono formulate sulla base di dati incompleti, e senza la visita del paziente presso lo Studio."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "e90ae485-1a2b-efd0-e94f-4356818ef508"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "9612a884-8f2a-0a0f-4566-c13dc81ac5bc"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "3b27b703-efb8-e79d-7414-bd0c194eddb4"
+                                    },
+                                    "type": "String",
+                                    "textContent": "3. Il contenuto di questa Pagina è soggetto a modifiche senza previa notifica, scritta od orale, agli utenti."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "fc6c343e-12ed-deba-dc21-4492f1146a90"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "5369d6ea-ced2-4f3e-c7a4-a8ea1d68dbba"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "3e865f27-54c9-6c07-aa4c-616ed5c7764f"
+                                    },
+                                    "type": "String",
+                                    "textContent": "4. Tutto il contenuto della Pagina, compreso il design, è proprietà intellettuale di Dentvitalis d.o.o. e in quanto tale non può essere utilizzato senza suo previo consenso scritto."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "5b773e36-880a-20ee-659e-09caf544ed17"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "53f47958-44fc-5282-03fb-505efc93c9cb"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "a8494220-b55f-88eb-f072-d92532ed7cf0"
+                                    },
+                                    "type": "String",
+                                    "textContent": "5. Tutti gli eventuali collegamenti (cd. link) ad altre pagine web sono menzionati solo per una migliore informazione dell'utente e con buone intenzioni. Ciò esclude qualsiasi responsabilità di Dentvitalis d.o.o. per il contenuto degli stessi."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "2e826e15-9443-aa39-f389-847a81e54a58"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Medjunaslov H2 detaljna"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "cf5a7c99-4de1-d836-35cb-77e5bbc7840c"
+                                },
+                                "type": "String",
+                                "textContent": "Esclusione di responsabilità."
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "40ab89e9-7484-620a-b9f1-78b88f9324d3"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "8c14f115-ccb9-de15-25d5-f215be67f757"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "df80bc32-ef0c-e797-216c-0ec331659a23"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Dentvitalis d.o.o. non si assume alcuna responsabilità per qualsiasi possibile danno materiale e/o immateriale che potrebbe derivare all'utente con l'utilizzo della presente Pagina. Tutti i dati, le informazioni e i collegamenti sono offerti nel modo migliore e per maggiore informazione dell'utente."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "b71a55ab-0e27-30e0-40f9-29417e26396b"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "odlomak"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "783b0aa9-0e3c-4601-2df2-7ce206455443"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Large Paragraph"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "babcac1a-3bc1-e915-9885-67dde2cf1606"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Dentvitalis d.o.o. non è responsabile degli errori commessi nell'elaborazione della Pagina e nell'inserimento dei dati."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": {
+                          "component": "6a97db25519800ebff25b9f2",
+                          "element": "160d1d10-beab-7d0e-f191-b0376b229e06"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Podstranice sidebar"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "0a9a30ef-52e4-fdf5-30f9-2dda437691b4"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "93a80d5d-20da-3bb1-a1bb-14ebe02096d6"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 11"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "93a80d5d-20da-3bb1-a1bb-14ebe02096d7"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Informazioni legali"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "0494b880-40d0-d500-475f-9668d35c3806"
+                            },
+                            "type": "Link",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "link": {
+                                "linkType": "url",
+                                "href": "/informativa-sulla-privacy"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "fa8fa5ab-6305-f57c-0ea3-f83efa89d5a1"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "fa8fa5ab-6305-f57c-0ea3-f83efa89d5a2"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Informativa sulla privacy"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "6a97db25519800ebff25b9f2",
+                              "element": "98d0b936-e92d-b7de-a503-8e33c24b11b6"
+                            },
+                            "type": "Link",
+                            "styleNames": [
+                              "Prednost"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "link": {
+                                "linkType": "url",
+                                "href": "/condizioni-di-utilizzo"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a97db25519800ebff25b9f2",
+                                  "element": "cb401989-45db-09fd-d526-afbe9784708c"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Text Block 16"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a97db25519800ebff25b9f2",
+                                      "element": "cb401989-45db-09fd-d526-afbe9784708d"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Condizioni di utilizzo"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "659c50e9-7493-2a00-377d-b9211807ed22"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "a1c21741-c703-0636-dff6-ab2e59103a3f"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "e3c804b7-f09e-1be3-aa5c-06853fd85fc0"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a97db25519800ebff25b9f2",
+                  "element": "2f245c46-52ed-8389-3394-20e9ccd53f50"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "not-present",
+  "scope": "GET https://dentvitalis33.webflow.io/sitemap.xml returned HTTP 404, not a claim about authoring settings",
+  "evidence": {
+    "status": "unavailable",
+    "url": "https://dentvitalis33.webflow.io/sitemap.xml",
+    "sourceState": "published",
+    "retrievedAt": "2026-09-07T07:38:41.614622+00:00",
+    "file": null,
+    "httpStatus": 404,
+    "finalUrl": "https://dentvitalis33.webflow.io/sitemap.xml",
+    "mime": "text/html",
+    "etag": "W/\"6a99a5fd-38a\"",
+    "lastModified": null,
+    "reason": "HTTP 404"
+  }
+}

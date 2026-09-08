@@ -1,0 +1,2792 @@
+[
+  {
+    "route": "/prestazioni-dentali",
+    "width": 1440,
+    "samples": [
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 72,
+          "y": 616.59375,
+          "width": 560,
+          "height": 416,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 72,
+          "y": 1533.390625,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 72,
+          "y": 2430.1875,
+          "width": 560,
+          "height": 388.796875,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 72,
+          "y": 3338.390625,
+          "width": 560,
+          "height": 372.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.↗",
+          "x": 72,
+          "y": 4253.59375,
+          "width": 560,
+          "height": 342,
+          "photoPosition": "50% 50%",
+          "arrow": false
+        }
+      ],
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 72,
+          "y": 616.578125,
+          "width": 560,
+          "height": 416,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 72,
+          "y": 1533.375,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 72,
+          "y": 2430.171875,
+          "width": 560,
+          "height": 388.796875,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 72,
+          "y": 3338.375,
+          "width": 560,
+          "height": 372.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.",
+          "x": 72,
+          "y": 4253.578125,
+          "width": 560,
+          "height": 342,
+          "photoPosition": "50% 50%",
+          "arrow": false
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 991,
+    "samples": [
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 49.546875,
+          "y": 846.859375,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 49.546875,
+          "y": 1754.71875,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 49.546875,
+          "y": 2662.578125,
+          "width": 891.890625,
+          "height": 305.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 49.546875,
+          "y": 3568.4375,
+          "width": 891.890625,
+          "height": 297.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.↗",
+          "x": 49.546875,
+          "y": 4466.296875,
+          "width": 891.890625,
+          "height": 246.796875,
+          "photoPosition": "100% 50%",
+          "arrow": false
+        }
+      ],
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 49.546875,
+          "y": 846.84375,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 49.546875,
+          "y": 1754.703125,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 49.546875,
+          "y": 2662.5625,
+          "width": 891.890625,
+          "height": 305.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 49.546875,
+          "y": 3568.421875,
+          "width": 891.890625,
+          "height": 297.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.",
+          "x": 49.546875,
+          "y": 4466.28125,
+          "width": 891.890625,
+          "height": 246.796875,
+          "photoPosition": "100% 50%",
+          "arrow": false
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 480,
+    "samples": [
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 24,
+          "y": 524.609375,
+          "width": 432,
+          "height": 424.796875,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 24,
+          "y": 1209.40625,
+          "width": 432,
+          "height": 366,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 24,
+          "y": 1835.40625,
+          "width": 432,
+          "height": 364,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 24,
+          "y": 2459.40625,
+          "width": 432,
+          "height": 356,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.↗",
+          "x": 24,
+          "y": 3075.40625,
+          "width": 432,
+          "height": 312,
+          "photoPosition": "100% 50%",
+          "arrow": false
+        }
+      ],
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 24,
+          "y": 524.578125,
+          "width": 432,
+          "height": 424.796875,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 24,
+          "y": 1209.375,
+          "width": 432,
+          "height": 366,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 24,
+          "y": 1835.375,
+          "width": 432,
+          "height": 364,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 24,
+          "y": 2459.375,
+          "width": 432,
+          "height": 356,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.",
+          "x": 24,
+          "y": 3075.375,
+          "width": 432,
+          "height": 312,
+          "photoPosition": "100% 50%",
+          "arrow": false
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 479,
+    "samples": [
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 23.953125,
+          "y": 669.21875,
+          "width": 431.09375,
+          "height": 357.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 23.953125,
+          "y": 1445.828125,
+          "width": 431.09375,
+          "height": 332.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 23.953125,
+          "y": 2197.234375,
+          "width": 431.09375,
+          "height": 332.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 23.953125,
+          "y": 2948.640625,
+          "width": 431.09375,
+          "height": 303.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.↗",
+          "x": 23.953125,
+          "y": 3671.25,
+          "width": 431.09375,
+          "height": 277.203125,
+          "photoPosition": "50% 50%",
+          "arrow": false
+        }
+      ],
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 23.953125,
+          "y": 669.15625,
+          "width": 431.09375,
+          "height": 357.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 23.953125,
+          "y": 1445.765625,
+          "width": 431.09375,
+          "height": 332.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 23.953125,
+          "y": 2197.171875,
+          "width": 431.09375,
+          "height": 332.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 23.953125,
+          "y": 2948.578125,
+          "width": 431.09375,
+          "height": 303.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.",
+          "x": 23.953125,
+          "y": 3671.1875,
+          "width": 431.09375,
+          "height": 277.203125,
+          "photoPosition": "50% 50%",
+          "arrow": false
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 390,
+    "samples": [
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 19.5,
+          "y": 580.21875,
+          "width": 351,
+          "height": 411.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 19.5,
+          "y": 1321.828125,
+          "width": 351,
+          "height": 357.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 19.5,
+          "y": 2009.4375,
+          "width": 351,
+          "height": 357.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 19.5,
+          "y": 2697.046875,
+          "width": 351,
+          "height": 382.8125,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.↗",
+          "x": 19.5,
+          "y": 3409.859375,
+          "width": 351,
+          "height": 277.203125,
+          "photoPosition": "50% 50%",
+          "arrow": false
+        }
+      ],
+      [
+        {
+          "text": "Pacchetto “tutto incluso”Imperdibile: protesi definitiva ancorata su 4 impiantiPrezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.Prezzo fisso a 2.990 €",
+          "x": 19.5,
+          "y": 580.15625,
+          "width": 351,
+          "height": 411.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Premium: ponte fisso su impiantiIl prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.Prezzo fisso a 4.990 €",
+          "x": 19.5,
+          "y": 1321.765625,
+          "width": 351,
+          "height": 357.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Pacchetto “tutto incluso”Facilissimo: sbiancamento dei dentiTutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.Prezzo fisso a 250 €",
+          "x": 19.5,
+          "y": 2009.375,
+          "width": 351,
+          "height": 357.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sostituzione perfetta dei denti naturaliCorone, faccette, ponti e protesiCorone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.A partire da 220 €",
+          "x": 19.5,
+          "y": 2696.984375,
+          "width": 351,
+          "height": 382.8125,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Sedazione coscienteUn’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.Contattaci e scopri come puoi ottenere questo servizio gratuitamente.",
+          "x": 19.5,
+          "y": 3409.796875,
+          "width": 351,
+          "height": 277.203125,
+          "photoPosition": "50% 50%",
+          "arrow": false
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 1440,
+    "samples": [
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 72,
+          "y": 766.71875,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 72,
+          "y": 1933.375,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 72,
+          "y": 3113.625,
+          "width": 560,
+          "height": 355.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 72,
+          "y": 4284.28125,
+          "width": 560,
+          "height": 347.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 72,
+          "y": 5445.9375,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 72,
+          "y": 6625.203125,
+          "width": 560,
+          "height": 332,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 72,
+          "y": 766.703125,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 72,
+          "y": 1933.359375,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 72,
+          "y": 3113.609375,
+          "width": 560,
+          "height": 355.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 72,
+          "y": 4284.265625,
+          "width": 560,
+          "height": 347.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 72,
+          "y": 5445.921875,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 72,
+          "y": 6625.1875,
+          "width": 560,
+          "height": 332,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 991,
+    "samples": [
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 49.546875,
+          "y": 846.859375,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 49.546875,
+          "y": 1754.71875,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 49.546875,
+          "y": 2662.578125,
+          "width": 891.890625,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 49.546875,
+          "y": 3543.234375,
+          "width": 891.890625,
+          "height": 297.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 49.546875,
+          "y": 4441.09375,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 49.546875,
+          "y": 5323.75,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 49.546875,
+          "y": 846.84375,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 49.546875,
+          "y": 1754.703125,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 49.546875,
+          "y": 2662.5625,
+          "width": 891.890625,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 49.546875,
+          "y": 3543.21875,
+          "width": 891.890625,
+          "height": 297.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 49.546875,
+          "y": 4441.078125,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 49.546875,
+          "y": 5323.734375,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 480,
+    "samples": [
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 24,
+          "y": 524.609375,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 24,
+          "y": 1117.015625,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 24,
+          "y": 1709.421875,
+          "width": 432,
+          "height": 305.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 24,
+          "y": 2274.625,
+          "width": 432,
+          "height": 322.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 24,
+          "y": 2857.03125,
+          "width": 432,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 24,
+          "y": 3424.234375,
+          "width": 432,
+          "height": 340.796875,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 24,
+          "y": 524.578125,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 24,
+          "y": 1116.984375,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 24,
+          "y": 1709.390625,
+          "width": 432,
+          "height": 305.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 24,
+          "y": 2274.59375,
+          "width": 432,
+          "height": 322.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 24,
+          "y": 2857,
+          "width": 432,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 24,
+          "y": 3424.203125,
+          "width": 432,
+          "height": 340.796875,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 479,
+    "samples": [
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 23.953125,
+          "y": 669.21875,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 23.953125,
+          "y": 1387.828125,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 23.953125,
+          "y": 2106.4375,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "90% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 23.953125,
+          "y": 2799.84375,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 23.953125,
+          "y": 3518.453125,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 23.953125,
+          "y": 4211.859375,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 23.953125,
+          "y": 669.15625,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 23.953125,
+          "y": 1387.765625,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 23.953125,
+          "y": 2106.375,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "90% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 23.953125,
+          "y": 2799.78125,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 23.953125,
+          "y": 3518.390625,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 23.953125,
+          "y": 4211.796875,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 390,
+    "samples": [
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 19.5,
+          "y": 580.21875,
+          "width": 351,
+          "height": 324.8125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 19.5,
+          "y": 1235.03125,
+          "width": 351,
+          "height": 324.8125,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 19.5,
+          "y": 1889.84375,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "90% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 19.5,
+          "y": 2519.453125,
+          "width": 351,
+          "height": 353.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 19.5,
+          "y": 3203.0625,
+          "width": 351,
+          "height": 328.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 19.5,
+          "y": 3861.46875,
+          "width": 351,
+          "height": 303.203125,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "DentVitalisI nostri specialistiProfessionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica.Scopri di più",
+          "x": 19.5,
+          "y": 580.15625,
+          "width": 351,
+          "height": 324.8125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Cura completaTutto in un unico luogoCure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.Scopri di più",
+          "x": 19.5,
+          "y": 1234.96875,
+          "width": 351,
+          "height": 324.8125,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Rijeka (Fiume)Come raggiungerci?Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.Scopri di più",
+          "x": 19.5,
+          "y": 1889.78125,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "90% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia e qualitàLaboratorio odontotecnicoAlta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.Scopri di più",
+          "x": 19.5,
+          "y": 2519.390625,
+          "width": 351,
+          "height": 353.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Standard europeiMateriali e apparecchiatureMateriali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.Scopri di più",
+          "x": 19.5,
+          "y": 3203,
+          "width": 351,
+          "height": 328.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Tecnologia avanzataImpianti di nuova generazioneOra tutto è possibile: liberati dalla protesi mobile.Scopri di più",
+          "x": 19.5,
+          "y": 3861.40625,
+          "width": 351,
+          "height": 303.203125,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 1440,
+    "samples": [
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 72,
+          "y": 645.984375,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 72,
+          "y": 1545.984375,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 72,
+          "y": 2459.59375,
+          "width": 560,
+          "height": 330,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 72,
+          "y": 3350.984375,
+          "width": 560,
+          "height": 347.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 72,
+          "y": 4233.390625,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 72,
+          "y": 5145.984375,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 72,
+          "y": 6059.59375,
+          "width": 560,
+          "height": 330,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 72,
+          "y": 645.96875,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 72,
+          "y": 1545.96875,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 72,
+          "y": 2459.578125,
+          "width": 560,
+          "height": 330,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 72,
+          "y": 3350.96875,
+          "width": 560,
+          "height": 347.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 72,
+          "y": 4233.375,
+          "width": 560,
+          "height": 382.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 72,
+          "y": 5145.96875,
+          "width": 560,
+          "height": 357.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 72,
+          "y": 6059.578125,
+          "width": 560,
+          "height": 330,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 6,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 991,
+    "samples": [
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 49.546875,
+          "y": 846.859375,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 49.546875,
+          "y": 1754.71875,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 49.546875,
+          "y": 2637.375,
+          "width": 891.890625,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 49.546875,
+          "y": 3518.03125,
+          "width": 891.890625,
+          "height": 272,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 49.546875,
+          "y": 4390.6875,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 49.546875,
+          "y": 5298.546875,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 49.546875,
+          "y": 6181.203125,
+          "width": 891.890625,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 49.546875,
+          "y": 846.84375,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 49.546875,
+          "y": 1754.703125,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 49.546875,
+          "y": 2637.359375,
+          "width": 891.890625,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 49.546875,
+          "y": 3518.015625,
+          "width": 891.890625,
+          "height": 272,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 49.546875,
+          "y": 4390.671875,
+          "width": 891.890625,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 49.546875,
+          "y": 5298.53125,
+          "width": 891.890625,
+          "height": 282,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 49.546875,
+          "y": 6181.1875,
+          "width": 891.890625,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 6,
+        "delta": {
+          "x": 0,
+          "y": -0.016,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 480,
+    "samples": [
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 24,
+          "y": 524.609375,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 24,
+          "y": 1117.015625,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 24,
+          "y": 1709.421875,
+          "width": 432,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 24,
+          "y": 2249.421875,
+          "width": 432,
+          "height": 322.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 24,
+          "y": 2831.828125,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 24,
+          "y": 3424.234375,
+          "width": 432,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 24,
+          "y": 3991.4375,
+          "width": 432,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 24,
+          "y": 524.578125,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 24,
+          "y": 1116.984375,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 24,
+          "y": 1709.390625,
+          "width": 432,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 24,
+          "y": 2249.390625,
+          "width": 432,
+          "height": 322.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 24,
+          "y": 2831.796875,
+          "width": 432,
+          "height": 332.40625,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 24,
+          "y": 3424.203125,
+          "width": 432,
+          "height": 307.203125,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 24,
+          "y": 3991.40625,
+          "width": 432,
+          "height": 280,
+          "photoPosition": "100% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 6,
+        "delta": {
+          "x": 0,
+          "y": -0.031,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 479,
+    "samples": [
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 23.953125,
+          "y": 669.21875,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 23.953125,
+          "y": 1387.828125,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 23.953125,
+          "y": 2106.4375,
+          "width": 431.09375,
+          "height": 249.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 23.953125,
+          "y": 2774.640625,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 23.953125,
+          "y": 3493.25,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 23.953125,
+          "y": 4211.859375,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 23.953125,
+          "y": 4905.265625,
+          "width": 431.09375,
+          "height": 249.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 23.953125,
+          "y": 669.15625,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 23.953125,
+          "y": 1387.765625,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 23.953125,
+          "y": 2106.375,
+          "width": 431.09375,
+          "height": 249.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 23.953125,
+          "y": 2774.578125,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 23.953125,
+          "y": 3493.1875,
+          "width": 431.09375,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 23.953125,
+          "y": 4211.796875,
+          "width": 431.09375,
+          "height": 274.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 23.953125,
+          "y": 4905.203125,
+          "width": 431.09375,
+          "height": 249.203125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 6,
+        "delta": {
+          "x": 0,
+          "y": -0.063,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 390,
+    "samples": [
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 19.5,
+          "y": 605.421875,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 19.5,
+          "y": 1235.03125,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 19.5,
+          "y": 1864.640625,
+          "width": 351,
+          "height": 274.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 19.5,
+          "y": 2469.046875,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 19.5,
+          "y": 3098.65625,
+          "width": 351,
+          "height": 324.8125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 19.5,
+          "y": 3753.46875,
+          "width": 351,
+          "height": 274.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 19.5,
+          "y": 4357.875,
+          "width": 351,
+          "height": 274.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ],
+      [
+        {
+          "text": "Primo passoPrima visita gratuitaDopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.Scopri di più",
+          "x": 19.5,
+          "y": 605.34375,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "PianificazioneTempi del trattamentoLe nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.Scopri di più",
+          "x": 19.5,
+          "y": 1234.953125,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Soluzioni su misuraPagamento flessibileTrova la soluzione più comoda per te.Scopri di più",
+          "x": 19.5,
+          "y": 1864.5625,
+          "width": 351,
+          "height": 274.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Garanzie scritteGaranzieGaranzie fornite per iscritto e in italiano. La scelta della clinica giusta è la tua migliore garanzia.Scopri di più",
+          "x": 19.5,
+          "y": 2468.96875,
+          "width": 351,
+          "height": 299.609375,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Alloggio in clinicaAlloggioPotrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.Scopri di più",
+          "x": 19.5,
+          "y": 3098.578125,
+          "width": 351,
+          "height": 324.8125,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        },
+        {
+          "text": "Transfer inclusoTrasportoTi assistiamo fin da subito, anche quando sei ancora in Italia.Scopri di più",
+          "x": 19.5,
+          "y": 3753.390625,
+          "width": 351,
+          "height": 274.40625,
+          "photoPosition": "80% 50%",
+          "arrow": true
+        },
+        {
+          "text": "TrasparenzaListino prezziPrestazioni in evidenza e relativi prezzi.Scopri di più",
+          "x": 19.5,
+          "y": 4357.796875,
+          "width": 351,
+          "height": 274.40625,
+          "photoPosition": "50% 50%",
+          "arrow": true
+        }
+      ]
+    ],
+    "deltas": [
+      {
+        "index": 0,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 1,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 2,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 3,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 4,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 5,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      },
+      {
+        "index": 6,
+        "delta": {
+          "x": 0,
+          "y": -0.078,
+          "width": 0,
+          "height": 0
+        },
+        "photoMatches": true,
+        "arrowMatches": true
+      }
+    ]
+  }
+]

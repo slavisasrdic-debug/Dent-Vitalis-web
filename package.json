@@ -11,6 +11,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "preview:ensure": "bash scripts/ensure-preview.sh",
     "reference:audit": "node scripts/audit-webflow.mjs",
     "reference:audit-live": "xvfb-run -a node scripts/audit-live-site.mjs",
     "check": "astro check",
@@ -18,7 +19,8 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "test": "playwright test",
-    "validate": "npm run check && npm run lint && npm run format:check && npm test && npm run build"
+    "test:preview": "node --test scripts/ensure-preview.test.mjs",
+    "validate": "npm run check && npm run lint && npm run format:check && npm run test:preview && npm test && npm run build"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",

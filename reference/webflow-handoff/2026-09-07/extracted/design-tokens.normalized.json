@@ -1,0 +1,109 @@
+{
+  "status": "proposed",
+  "tokens": [
+    {
+      "status": "proposed",
+      "name": "--dv-color-tamana-call",
+      "sourceVariableId": "variable-1409a02f-5e45-fc0b-413b-160f609caa56",
+      "sourceName": "tamana-call",
+      "sourceCssName": "--tamana-call",
+      "value": "hsla(193, 93.97%, 23.03%, 1.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-svijetla-call",
+      "sourceVariableId": "variable-636803fe-8821-1ae5-1950-9634a6a61fbc",
+      "sourceName": "svijetla-call",
+      "sourceCssName": "--svijetla-call",
+      "value": "hsla(65.82089552238806, 55.37%, 47.45%, 1.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-size-zakrivljenost",
+      "sourceVariableId": "variable-a1b95303-e2d2-d513-3d9a-c4726e49c0d8",
+      "sourceName": "zakrivljenost",
+      "sourceCssName": "--zakrivljenost",
+      "value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-pozadina",
+      "sourceVariableId": "variable-b5706ac6-958b-58c2-4db2-ec8832f33e78",
+      "sourceName": "pozadina",
+      "sourceCssName": "--pozadina",
+      "value": "#f7f7f7",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-crna",
+      "sourceVariableId": "variable-7871740f-ec68-7438-41c4-7e0c36e94c3b",
+      "sourceName": "Crna",
+      "sourceCssName": "--crna",
+      "value": "hsla(140.76923076923077, 100.00%, 0.00%, 1.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-bijela",
+      "sourceVariableId": "variable-42628c23-e7e6-e965-dc67-74f46506df43",
+      "sourceName": "Bijela",
+      "sourceCssName": "--bijela",
+      "value": "hsla(53.68421052631579, 0.00%, 100.00%, 1.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-transparent",
+      "sourceVariableId": "variable-096e3c41-aba9-e979-277d-482de4374333",
+      "sourceName": "Transparent",
+      "sourceCssName": "--transparent",
+      "value": "hsla(0, 0.00%, 0.00%, 0.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-siva-crta",
+      "sourceVariableId": "variable-dbdd3ccf-b77c-6a3e-60b2-7e92aed7de59",
+      "sourceName": "siva-crta",
+      "sourceCssName": "--siva-crta",
+      "value": "#cdcfd0",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-svijtal-boja-podloga",
+      "sourceVariableId": "variable-617789c1-3344-d3c0-e9ab-0d90d2f343fc",
+      "sourceName": "Svijtal boja podloga",
+      "sourceCssName": "--svijtal-boja-podloga",
+      "value": "hsla(43, 100.00%, 91.11%, 1.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-siva-crta-transparent",
+      "sourceVariableId": "variable-c91afa07-c094-dcd9-4b58-ef280f217e72",
+      "sourceName": "Siva crta transparent",
+      "sourceCssName": "--siva-crta-transparent",
+      "value": "hsla(200, 3.09%, 80.98%, 0.50)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    },
+    {
+      "status": "proposed",
+      "name": "--dv-color-svjetlija-plava",
+      "sourceVariableId": "variable-4a7968e2-7904-2751-1793-11f0211814b6",
+      "sourceName": "Svjetlija plava",
+      "sourceCssName": "--svjetlija-plava",
+      "value": "hsla(193, 93.13%, 29.69%, 1.00)",
+      "reason": "One-to-one namespace mapping only; no merging, rounding or new spacing scale."
+    }
+  ],
+  "literalTokenCandidatesRef": "literal-values-audit.csv",
+  "note": "Only 11 native tokens exist. Fonts, shadows, z-index and most spacing remain source literals, not fabricated native variables."
+}

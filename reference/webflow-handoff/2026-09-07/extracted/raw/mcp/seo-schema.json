@@ -1,0 +1,144 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:39:13.004Z",
+  "tool": "mcp__codex_apps__webflow_data_pages_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "All native JSON-LD settings",
+        "query_pages_schema_markup": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "pages": [
+            {
+              "id": "6a97db25519800ebff25b9f2",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "6a97db259aad9ee4bb4bd328",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "6a8d7da66a4b3462ca3f0a23",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "6a8d7da585ba860c0b521829",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "6a8d7da5fff15c0449d670e2",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "696f4a9a3d82954cb43ac683",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "696f49d7f343717fcadfcf28",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "69679710d4037ebd0cbb9df2",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba898",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba897",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba896",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba894",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba893",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba892",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba891",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba890",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88e",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88d",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88c",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88b",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88a",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba889",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba888",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba886",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba885",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba884",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba882",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba87c",
+              "localeId": "695e1eeeb10c5fb8eeaba87f"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "All native JSON-LD settings",
+      "action": "query_pages_schema_markup",
+      "error": {
+        "name": "WebflowApiError",
+        "message": "Bad Request: Request is malformed: The provided locale 695e1eeeb10c5fb8eeaba87f must be a secondary locale.",
+        "status": 400,
+        "code": "bad_request"
+      }
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "unavailable",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

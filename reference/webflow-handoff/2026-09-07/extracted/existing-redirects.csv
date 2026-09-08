@@ -1,0 +1,2 @@
+status,source_path,destination,http_status,reason,source
+unavailable,,,,Read endpoint requires Enterprise; not an empty verified redirect set.,raw/mcp/redirects.json

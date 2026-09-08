@@ -1,0 +1,6088 @@
+[
+  {
+    "width": 1440,
+    "pairs": [
+      {
+        "text": "Dentisti Croazia",
+        "reference": {
+          "text": "Dentisti Croazia",
+          "class": "text-block-18",
+          "x": 72,
+          "y": 44.5,
+          "w": 150,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Dentisti Croazia",
+          "class": "",
+          "x": 72,
+          "y": 44.5,
+          "w": 150,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "IT",
+        "reference": {
+          "text": "IT",
+          "class": "dv-language-switcher-code",
+          "x": 1102.21875,
+          "y": 33.5,
+          "w": 12,
+          "h": 14,
+          "font": "14px",
+          "lineHeight": "14px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "IT",
+          "class": "",
+          "x": 1102.21875,
+          "y": 33.5,
+          "w": 12,
+          "h": 14,
+          "font": "14px",
+          "lineHeight": "14px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Consulta il dentista",
+        "reference": {
+          "text": "Consulta il dentista",
+          "class": "text-block-15",
+          "x": 1211.609375,
+          "y": 31.09375,
+          "w": 142,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Consulta il dentista",
+          "class": "label",
+          "x": 1211.609375,
+          "y": 31.09375,
+          "w": 142,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Pacchetto Premium",
+        "reference": {
+          "text": "Pacchetto Premium",
+          "class": "podebljano",
+          "x": 72,
+          "y": 247.609375,
+          "w": 189,
+          "h": 22,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Pacchetto Premium",
+          "class": "",
+          "x": 72,
+          "y": 247.609375,
+          "w": 189,
+          "h": 22,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 4.990€",
+        "reference": {
+          "text": "Prezzo fisso a 4.990€",
+          "class": "",
+          "x": 72,
+          "y": 278.8125,
+          "w": 349,
+          "h": 112.859375,
+          "font": "48.96px",
+          "lineHeight": "53.856px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 4.990€",
+          "class": "",
+          "x": 72,
+          "y": 278.8125,
+          "w": 350,
+          "h": 112.859375,
+          "font": "48.96px",
+          "lineHeight": "53.856px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0
+        }
+      },
+      {
+        "text": "Ponte fisso su impianti",
+        "reference": {
+          "text": "Ponte fisso su impianti",
+          "class": "text-block-9",
+          "x": 116,
+          "y": 475.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ponte fisso su impianti",
+          "class": "",
+          "x": 116,
+          "y": 475.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Senza costi aggiuntivi",
+        "reference": {
+          "text": "Senza costi aggiuntivi",
+          "class": "text-block-9",
+          "x": 116,
+          "y": 515.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Senza costi aggiuntivi",
+          "class": "",
+          "x": 116,
+          "y": 515.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alloggio in clinica",
+        "reference": {
+          "text": "Alloggio in clinica",
+          "class": "text-block-9",
+          "x": 116,
+          "y": 555.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Alloggio in clinica",
+          "class": "",
+          "x": 116,
+          "y": 555.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Documenti in italiano per l'IRPEF",
+        "reference": {
+          "text": "Documenti in italiano per l'IRPEF",
+          "class": "text-block-9",
+          "x": 116,
+          "y": 595.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Documenti in italiano per l'IRPEF",
+          "class": "",
+          "x": 116,
+          "y": 595.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Garanzia inclusa",
+        "reference": {
+          "text": "Garanzia inclusa",
+          "class": "text-block-9",
+          "x": 116,
+          "y": 635.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Garanzia inclusa",
+          "class": "",
+          "x": 116,
+          "y": 635.59375,
+          "w": 330,
+          "h": 19.59375,
+          "font": "20px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Maggiori informazioni",
+        "reference": {
+          "text": "Maggiori informazioni",
+          "class": "button-text-block",
+          "x": 102,
+          "y": 714.59375,
+          "w": 204.984375,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Maggiori informazioni",
+          "class": "label",
+          "x": 102,
+          "y": 704.59375,
+          "w": 234.984375,
+          "h": 41.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 30,
+          "h": 20
+        }
+      },
+      {
+        "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.",
+        "reference": {
+          "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.",
+          "class": "nadnaslov",
+          "x": 331.5,
+          "y": 1258.40625,
+          "w": 777,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.",
+          "class": "eyebrow",
+          "x": 331.5,
+          "y": 1258.40625,
+          "w": 777,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Grandi risparmi",
+        "reference": {
+          "text": "Grandi risparmi",
+          "class": "bold-text-5",
+          "x": 299.5,
+          "y": 1309,
+          "w": 408,
+          "h": 61,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Grandi risparmi",
+          "class": "",
+          "x": 299.5,
+          "y": 1309,
+          "w": 408,
+          "h": 61,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.",
+        "reference": {
+          "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.",
+          "class": "huge-paragraph",
+          "x": 270,
+          "y": 1470,
+          "w": 900,
+          "h": 61.59375,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.",
+          "class": "reveal description",
+          "x": 270,
+          "y": 1470,
+          "w": 900,
+          "h": 61.59375,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+        "reference": {
+          "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+          "class": "large-paragraph",
+          "x": 140,
+          "y": 2131.78125,
+          "w": 470,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+          "class": "description",
+          "x": 140,
+          "y": 2131.78125,
+          "w": 470,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 2.990 €",
+        "reference": {
+          "text": "Prezzo fisso a 2.990 €",
+          "class": "cijena-velika",
+          "x": 144,
+          "y": 2276.59375,
+          "w": 204,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 2.990 €",
+          "class": "price",
+          "x": 144,
+          "y": 2266.59375,
+          "w": 204,
+          "h": 40,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 0,
+          "h": 20
+        }
+      },
+      {
+        "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.",
+        "reference": {
+          "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.",
+          "class": "large-paragraph",
+          "x": 140,
+          "y": 3044.390625,
+          "w": 470,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.",
+          "class": "description",
+          "x": 140,
+          "y": 3044.390625,
+          "w": 470,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 4.990 €",
+        "reference": {
+          "text": "Prezzo fisso a 4.990 €",
+          "class": "cijena-velika",
+          "x": 144,
+          "y": 3164,
+          "w": 205,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 4.990 €",
+          "class": "price",
+          "x": 144,
+          "y": 3154,
+          "w": 205,
+          "h": 40,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 0,
+          "h": 20
+        }
+      },
+      {
+        "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.",
+        "reference": {
+          "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.",
+          "class": "large-paragraph",
+          "x": 140,
+          "y": 3935.390625,
+          "w": 470,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.",
+          "class": "description",
+          "x": 140,
+          "y": 3935.390625,
+          "w": 470,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 250 €",
+        "reference": {
+          "text": "Prezzo fisso a 250 €",
+          "class": "cijena-velika",
+          "x": 148,
+          "y": 4059,
+          "w": 188,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 250 €",
+          "class": "price inset",
+          "x": 144,
+          "y": 4045,
+          "w": 196,
+          "h": 48,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": -4,
+          "y": -14,
+          "w": 8,
+          "h": 28
+        }
+      },
+      {
+        "text": "Sostituzione perfetta dei denti naturali",
+        "reference": {
+          "text": "Sostituzione perfetta dei denti naturali",
+          "class": "nadnaslov-kartica",
+          "x": 140,
+          "y": 4723.796875,
+          "w": 470,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Sostituzione perfetta dei denti naturali",
+          "class": "eyebrow",
+          "x": 140,
+          "y": 4723.796875,
+          "w": 470,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.",
+        "reference": {
+          "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.",
+          "class": "large-paragraph",
+          "x": 140,
+          "y": 4822.59375,
+          "w": 470,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.",
+          "class": "description",
+          "x": 140,
+          "y": 4822.59375,
+          "w": 470,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "A partire da 220 €",
+        "reference": {
+          "text": "A partire da 220 €",
+          "class": "cijena-velika",
+          "x": 144,
+          "y": 4942.203125,
+          "w": 169,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "A partire da 220 €",
+          "class": "price",
+          "x": 144,
+          "y": 4932.203125,
+          "w": 169,
+          "h": 40,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 0,
+          "h": 20
+        }
+      },
+      {
+        "text": "Messaggio del titolare",
+        "reference": {
+          "text": "Messaggio del titolare",
+          "class": "nadnaslov",
+          "x": 830,
+          "y": 5700,
+          "w": 576.5,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Messaggio del titolare",
+          "class": "eyebrow",
+          "x": 830,
+          "y": 5700,
+          "w": 576.5,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Benvenuti a Dentvitalis Croazia",
+        "reference": {
+          "text": "Benvenuti a Dentvitalis Croazia",
+          "class": "medjunaslov-h2 left",
+          "x": 830,
+          "y": 5741.59375,
+          "w": 576.5,
+          "h": 120,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Benvenuti a Dentvitalis Croazia",
+          "class": "",
+          "x": 830,
+          "y": 5741.59375,
+          "w": 576.5,
+          "h": 120,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Documentazione completa, scritta e in italiano:",
+        "reference": {
+          "text": "Documentazione completa, scritta e in italiano:",
+          "class": "",
+          "x": 830,
+          "y": 6259.765625,
+          "w": 549,
+          "h": 27,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Documentazione completa, scritta e in italiano:",
+          "class": "",
+          "x": 830,
+          "y": 6259.765625,
+          "w": 549,
+          "h": 27,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Non serve tradurle per usufruire della detrazione IRPEF del 19%.",
+        "reference": {
+          "text": "Non serve tradurle per usufruire della detrazione IRPEF del 19%.",
+          "class": "large-paragraph-2",
+          "x": 830,
+          "y": 6360.765625,
+          "w": 576.5,
+          "h": 23.40625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Non serve tradurle per usufruire della detrazione IRPEF del 19%.",
+          "class": "",
+          "x": 830,
+          "y": 6360.765625,
+          "w": 576.5,
+          "h": 23.40625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Riporta tutte le informazioni relative a ogni impianto inserito.",
+        "reference": {
+          "text": "Riporta tutte le informazioni relative a ogni impianto inserito.",
+          "class": "large-paragraph-2",
+          "x": 830,
+          "y": 6476.375,
+          "w": 576.5,
+          "h": 23.40625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Riporta tutte le informazioni relative a ogni impianto inserito.",
+          "class": "",
+          "x": 830,
+          "y": 6476.375,
+          "w": 576.5,
+          "h": 23.40625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Contiene l’elenco completo dei materiali e dei componenti utilizzati per i lavori protesici.",
+        "reference": {
+          "text": "Contiene l’elenco completo dei materiali e dei componenti utilizzati per i lavori protesici.",
+          "class": "large-paragraph-2",
+          "x": 830,
+          "y": 6591.984375,
+          "w": 576.5,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Contiene l’elenco completo dei materiali e dei componenti utilizzati per i lavori protesici.",
+          "class": "",
+          "x": 830,
+          "y": 6591.984375,
+          "w": 576.5,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tutte le condizioni della garanzia, presentate con chiarezza e trasparenza.",
+        "reference": {
+          "text": "Tutte le condizioni della garanzia, presentate con chiarezza e trasparenza.",
+          "class": "large-paragraph-2",
+          "x": 830,
+          "y": 6731,
+          "w": 576.5,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Tutte le condizioni della garanzia, presentate con chiarezza e trasparenza.",
+          "class": "",
+          "x": 830,
+          "y": 6731,
+          "w": 576.5,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Fissa un appuntamento",
+        "reference": {
+          "text": "Fissa un appuntamento",
+          "class": "button-text-block",
+          "x": 860,
+          "y": 6875.015625,
+          "w": 219,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Fissa un appuntamento",
+          "class": "label",
+          "x": 860,
+          "y": 6865.015625,
+          "w": 249,
+          "h": 41.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 30,
+          "h": 20
+        }
+      },
+      {
+        "text": "Tradizione e competenza",
+        "reference": {
+          "text": "Tradizione e competenza",
+          "class": "medjunaslov-h2",
+          "x": 400.5,
+          "y": 7759.203125,
+          "w": 639,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Tradizione e competenza",
+          "class": "reveal",
+          "x": 400.5,
+          "y": 7759.203125,
+          "w": 639,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo.",
+        "reference": {
+          "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo.",
+          "class": "huge-paragraph",
+          "x": 419.5,
+          "y": 7839.203125,
+          "w": 601,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo.",
+          "class": "reveal description",
+          "x": 419.5,
+          "y": 7839.203125,
+          "w": 601,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "L’esperienza e la competenza dei nostri odontoiatri, maturata in anni di pratica e formazione, si riflette ogni giorno nel nostro studio dentistico a Rijeka (Fiume), in Croazia.",
+        "reference": {
+          "text": "L’esperienza e la competenza dei nostri odontoiatri, maturata in anni di pratica e formazione, si riflette ogni giorno nel nostro studio dentistico a Rijeka (Fiume), in Croazia.",
+          "class": "large-paragraph-2",
+          "x": 140,
+          "y": 8528.796875,
+          "w": 414,
+          "h": 93.625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "L’esperienza e la competenza dei nostri odontoiatri, maturata in anni di pratica e formazione, si riflette ogni giorno nel nostro studio dentistico a Rijeka (Fiume), in Croazia.",
+          "class": "description",
+          "x": 140,
+          "y": 8528.796875,
+          "w": 414,
+          "h": 93.625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.",
+        "reference": {
+          "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.",
+          "class": "large-paragraph-2",
+          "x": 140,
+          "y": 9440.5,
+          "w": 414,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.",
+          "class": "description",
+          "x": 140,
+          "y": 9440.5,
+          "w": 414,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Come raggiungerci?",
+        "reference": {
+          "text": "Come raggiungerci?",
+          "class": "medjunaslov-h3 bold",
+          "x": 140,
+          "y": 10288.609375,
+          "w": 298,
+          "h": 33.59375,
+          "font": "28px",
+          "lineHeight": "33.6px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Come raggiungerci?",
+          "class": "",
+          "x": 140,
+          "y": 10287.609375,
+          "w": 297,
+          "h": 34,
+          "font": "28px",
+          "lineHeight": "33.6px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1,
+          "w": -1,
+          "h": 0.40625
+        }
+      },
+      {
+        "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.",
+        "reference": {
+          "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.",
+          "class": "large-paragraph-2",
+          "x": 140,
+          "y": 10352.203125,
+          "w": 414,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.",
+          "class": "description",
+          "x": 140,
+          "y": 10352.203125,
+          "w": 414,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.",
+        "reference": {
+          "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.",
+          "class": "large-paragraph-2",
+          "x": 140,
+          "y": 11240.5,
+          "w": 414,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.",
+          "class": "description",
+          "x": 140,
+          "y": 11240.5,
+          "w": 414,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Rapporto di fiducia",
+        "reference": {
+          "text": "Rapporto di fiducia",
+          "class": "medjunaslov-h2",
+          "x": 476.5,
+          "y": 12079.203125,
+          "w": 487,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Rapporto di fiducia",
+          "class": "reveal",
+          "x": 476.5,
+          "y": 12079.203125,
+          "w": 487,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.",
+        "reference": {
+          "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.",
+          "class": "huge-paragraph",
+          "x": 276.5,
+          "y": 12159.203125,
+          "w": 887,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.",
+          "class": "reveal description",
+          "x": 276.5,
+          "y": 12159.203125,
+          "w": 887,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.",
+        "reference": {
+          "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.",
+          "class": "testimonials-text",
+          "x": 100,
+          "y": 12985.546875,
+          "w": 380,
+          "h": 123.1875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.",
+          "class": "quote",
+          "x": 100,
+          "y": 12985.546875,
+          "w": 380,
+          "h": 123.1875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Marianna Menini",
+        "reference": {
+          "text": "Marianna Menini",
+          "class": "no-margin",
+          "x": 213,
+          "y": 13118.734375,
+          "w": 154,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Marianna Menini",
+          "class": "",
+          "x": 213,
+          "y": 13118.734375,
+          "w": 154,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.",
+        "reference": {
+          "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.",
+          "class": "testimonials-text",
+          "x": 580,
+          "y": 12985.546875,
+          "w": 380,
+          "h": 123.1875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.",
+          "class": "quote",
+          "x": 580,
+          "y": 12985.546875,
+          "w": 380,
+          "h": 123.1875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tatiana Muggianu",
+        "reference": {
+          "text": "Tatiana Muggianu",
+          "class": "no-margin",
+          "x": 685.5,
+          "y": 13118.734375,
+          "w": 169,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Tatiana Muggianu",
+          "class": "",
+          "x": 685.5,
+          "y": 13118.734375,
+          "w": 169,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!",
+        "reference": {
+          "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!",
+          "class": "testimonials-text",
+          "x": 1060,
+          "y": 12985.546875,
+          "w": 380,
+          "h": 123.1875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!",
+          "class": "quote",
+          "x": 1060,
+          "y": 12985.546875,
+          "w": 380,
+          "h": 123.1875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Marlene Marchetto",
+        "reference": {
+          "text": "Marlene Marchetto",
+          "class": "no-margin",
+          "x": 1161,
+          "y": 13118.734375,
+          "w": 178,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Marlene Marchetto",
+          "class": "",
+          "x": 1161,
+          "y": 13118.734375,
+          "w": 178,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Esperienze dei pazienti",
+        "reference": {
+          "text": "Esperienze dei pazienti",
+          "class": "button-text-block",
+          "x": 393,
+          "y": 13815.9375,
+          "w": 213,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Esperienze dei pazienti",
+          "class": "label",
+          "x": 393,
+          "y": 13805.9375,
+          "w": 243,
+          "h": 41.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 30,
+          "h": 20
+        }
+      },
+      {
+        "text": "Prima e dopo",
+        "reference": {
+          "text": "Prima e dopo",
+          "class": "button-text-block",
+          "x": 789,
+          "y": 13815.9375,
+          "w": 125,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prima e dopo",
+          "class": "label",
+          "x": 789,
+          "y": 13805.9375,
+          "w": 216,
+          "h": 41.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 91,
+          "h": 20
+        }
+      },
+      {
+        "text": "Questo potrebbe interessarti",
+        "reference": {
+          "text": "Questo potrebbe interessarti",
+          "class": "medjunaslov-h2",
+          "x": 353,
+          "y": 14116.328125,
+          "w": 734,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Questo potrebbe interessarti",
+          "class": "reveal",
+          "x": 353,
+          "y": 14116.328125,
+          "w": 734,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206",
+        "reference": {
+          "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206",
+          "class": "huge-paragraph",
+          "x": 270,
+          "y": 14196.328125,
+          "w": 900,
+          "h": 61.59375,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206",
+          "class": "reveal description",
+          "x": 270,
+          "y": 14196.328125,
+          "w": 900,
+          "h": 61.59375,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.",
+        "reference": {
+          "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 14411.515625,
+          "w": 810,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.",
+          "class": "",
+          "x": 320,
+          "y": 14411.515625,
+          "w": 810,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alloggio all’interno della clinica",
+        "reference": {
+          "text": "Alloggio all’interno della clinica",
+          "class": "medjunaslov-h3",
+          "x": 320,
+          "y": 14581.921875,
+          "w": 704,
+          "h": 33.59375,
+          "font": "28px",
+          "lineHeight": "33.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Alloggio all’interno della clinica",
+          "class": "",
+          "x": 320,
+          "y": 14580.921875,
+          "w": 448,
+          "h": 34,
+          "font": "28px",
+          "lineHeight": "33.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1,
+          "w": -256,
+          "h": 0.40625
+        }
+      },
+      {
+        "text": "Il nostro trasporto",
+        "reference": {
+          "text": "Il nostro trasporto",
+          "class": "medjunaslov-h3",
+          "x": 320,
+          "y": 14780.71875,
+          "w": 544,
+          "h": 33.59375,
+          "font": "28px",
+          "lineHeight": "33.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Il nostro trasporto",
+          "class": "",
+          "x": 320,
+          "y": 14779.71875,
+          "w": 258,
+          "h": 34,
+          "font": "28px",
+          "lineHeight": "33.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1,
+          "w": -286,
+          "h": 0.40625
+        }
+      },
+      {
+        "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia.",
+        "reference": {
+          "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia.",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 14834.3125,
+          "w": 544,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia.",
+          "class": "",
+          "x": 320,
+          "y": 14834.3125,
+          "w": 810,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 266,
+          "h": 0
+        }
+      },
+      {
+        "text": "Trova la soluzione più comoda per te.",
+        "reference": {
+          "text": "Trova la soluzione più comoda per te.",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 15033.109375,
+          "w": 335,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Trova la soluzione più comoda per te.",
+          "class": "",
+          "x": 320,
+          "y": 15033.109375,
+          "w": 810,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 475,
+          "h": 0
+        }
+      },
+      {
+        "text": "Garanzie fornite per iscritto e in italiano.",
+        "reference": {
+          "text": "Garanzie fornite per iscritto e in italiano.",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 15231.90625,
+          "w": 358,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Garanzie fornite per iscritto e in italiano.",
+          "class": "",
+          "x": 320,
+          "y": 15231.90625,
+          "w": 810,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 452,
+          "h": 0
+        }
+      },
+      {
+        "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.",
+        "reference": {
+          "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 15430.703125,
+          "w": 810,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.",
+          "class": "",
+          "x": 320,
+          "y": 15430.703125,
+          "w": 810,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.",
+        "reference": {
+          "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 15654.703125,
+          "w": 650,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.",
+          "class": "",
+          "x": 320,
+          "y": 15654.703125,
+          "w": 810,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 160,
+          "h": 0
+        }
+      },
+      {
+        "text": "Ora tutto è possibile: liberati dalla protesi mobile!",
+        "reference": {
+          "text": "Ora tutto è possibile: liberati dalla protesi mobile!",
+          "class": "large-paragraph",
+          "x": 320,
+          "y": 15853.5,
+          "w": 441,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ora tutto è possibile: liberati dalla protesi mobile!",
+          "class": "",
+          "x": 320,
+          "y": 15853.5,
+          "w": 810,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 369,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prenota una visita gratuita",
+        "reference": {
+          "text": "Prenota una visita gratuita",
+          "class": "button-text-block",
+          "x": 550.328125,
+          "y": 15965.90625,
+          "w": 246.984375,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prenota una visita gratuita",
+          "class": "label",
+          "x": 550.328125,
+          "y": 15955.90625,
+          "w": 276.984375,
+          "h": 41.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 30,
+          "h": 20
+        }
+      },
+      {
+        "text": "Domande e risposte",
+        "reference": {
+          "text": "Domande e risposte",
+          "class": "medjunaslov-h2",
+          "x": 463,
+          "y": 16216.296875,
+          "w": 514,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Domande e risposte",
+          "class": "reveal",
+          "x": 463,
+          "y": 16216.296875,
+          "w": 514,
+          "h": 60,
+          "font": "50px",
+          "lineHeight": "60px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+        "reference": {
+          "text": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+          "class": "accordion-title",
+          "x": 270,
+          "y": 16342.296875,
+          "w": 653,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+          "class": "",
+          "x": 270,
+          "y": 16342.296875,
+          "w": 653,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Quanto costa fare i denti in Croazia?",
+        "reference": {
+          "text": "Quanto costa fare i denti in Croazia?",
+          "class": "accordion-title",
+          "x": 270,
+          "y": 16410.09375,
+          "w": 402,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Quanto costa fare i denti in Croazia?",
+          "class": "",
+          "x": 270,
+          "y": 16410.09375,
+          "w": 402,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Quanto costa un impianto dentale?",
+        "reference": {
+          "text": "Quanto costa un impianto dentale?",
+          "class": "accordion-title",
+          "x": 270,
+          "y": 16477.890625,
+          "w": 395,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Quanto costa un impianto dentale?",
+          "class": "",
+          "x": 270,
+          "y": 16477.890625,
+          "w": 395,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Quanto costa una corona dentale?",
+        "reference": {
+          "text": "Quanto costa una corona dentale?",
+          "class": "accordion-title",
+          "x": 270,
+          "y": 16545.6875,
+          "w": 385,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Quanto costa una corona dentale?",
+          "class": "",
+          "x": 270,
+          "y": 16545.6875,
+          "w": 385,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Dentisti italiani o croati?",
+        "reference": {
+          "text": "Dentisti italiani o croati?",
+          "class": "accordion-title",
+          "x": 270,
+          "y": 16613.484375,
+          "w": 270,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Dentisti italiani o croati?",
+          "class": "",
+          "x": 270,
+          "y": 16613.484375,
+          "w": 270,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "In quale valuta e come si paga in Croazia?",
+        "reference": {
+          "text": "In quale valuta e come si paga in Croazia?",
+          "class": "accordion-title",
+          "x": 270,
+          "y": 16681.28125,
+          "w": 464,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "In quale valuta e come si paga in Croazia?",
+          "class": "",
+          "x": 270,
+          "y": 16681.28125,
+          "w": 464,
+          "h": 30.796875,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tutte le risposte",
+        "reference": {
+          "text": "Tutte le risposte",
+          "class": "button-text-block",
+          "x": 591,
+          "y": 16790.28125,
+          "w": 150,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Tutte le risposte",
+          "class": "label",
+          "x": 591,
+          "y": 16780.28125,
+          "w": 216,
+          "h": 41.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 66,
+          "h": 20
+        }
+      },
+      {
+        "text": "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+        "reference": {
+          "text": "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+          "class": "medjunaslov-h2 bijeli",
+          "x": 270,
+          "y": 17060.671875,
+          "w": 900,
+          "h": 96.59375,
+          "font": "42px",
+          "lineHeight": "48.3px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+          "class": "",
+          "x": 270,
+          "y": 17060.671875,
+          "w": 900,
+          "h": 96.59375,
+          "font": "42px",
+          "lineHeight": "48.3px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.",
+        "reference": {
+          "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.",
+          "class": "huge-paragraph bijeli",
+          "x": 270,
+          "y": 17167.265625,
+          "w": 900,
+          "h": 92.390625,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.",
+          "class": "description",
+          "x": 270,
+          "y": 17167.265625,
+          "w": 900,
+          "h": 92.390625,
+          "font": "22px",
+          "lineHeight": "30.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Max 8 MB",
+        "reference": {
+          "text": "Max 8 MB",
+          "class": "dv-file-upload-hint w-file-upload-info",
+          "x": 473,
+          "y": 17641.65625,
+          "w": 58,
+          "h": 12,
+          "font": "12px",
+          "lineHeight": "12px",
+          "weight": "300"
+        },
+        "astro": {
+          "text": "Max 8 MB",
+          "class": "file-name",
+          "x": 473,
+          "y": 17639.5625,
+          "w": 58,
+          "h": 16.1875,
+          "font": "12px",
+          "lineHeight": "16.2px",
+          "weight": "300"
+        },
+        "delta": {
+          "x": 0,
+          "y": -2.09375,
+          "w": 0,
+          "h": 4.1875
+        }
+      },
+      {
+        "text": "informativa sulla privacy.",
+        "reference": {
+          "text": "informativa sulla privacy.",
+          "class": "",
+          "x": 388,
+          "y": 17692.65625,
+          "w": 183,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "20.3px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "informativa sulla privacy.",
+          "class": "",
+          "x": 388,
+          "y": 17692.65625,
+          "w": 183,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "20.3px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Invia il messaggio",
+        "reference": {
+          "text": "Invia il messaggio",
+          "class": "button-text-block",
+          "x": 588,
+          "y": 17756.046875,
+          "w": 153,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Invia il messaggio",
+          "class": "",
+          "x": 591,
+          "y": 17746.0625,
+          "w": 216,
+          "h": 39.1875,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 3,
+          "y": -9.984375,
+          "w": 63,
+          "h": 19.984375
+        }
+      },
+      {
+        "text": "Come raggiungerci",
+        "reference": {
+          "text": "Come raggiungerci",
+          "class": "footer-link-2",
+          "x": 407,
+          "y": 18224.90625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Come raggiungerci",
+          "class": "",
+          "x": 407,
+          "y": 18224.90625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Materiali e apparecchiature",
+        "reference": {
+          "text": "Materiali e apparecchiature",
+          "class": "footer-link-2",
+          "x": 407,
+          "y": 18294.5,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Materiali e apparecchiature",
+          "class": "",
+          "x": 407,
+          "y": 18294.5,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alloggio",
+        "reference": {
+          "text": "Alloggio",
+          "class": "footer-link-2",
+          "x": 731,
+          "y": 18294.5,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Alloggio",
+          "class": "",
+          "x": 731,
+          "y": 18294.5,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Trasporto",
+        "reference": {
+          "text": "Trasporto",
+          "class": "footer-link-2",
+          "x": 731,
+          "y": 18329.296875,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Trasporto",
+          "class": "",
+          "x": 731,
+          "y": 18329.296875,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Listino prezzi",
+        "reference": {
+          "text": "Listino prezzi",
+          "class": "footer-link-2",
+          "x": 731,
+          "y": 18364.09375,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Listino prezzi",
+          "class": "",
+          "x": 731,
+          "y": 18364.09375,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Video recensioni",
+        "reference": {
+          "text": "Video recensioni",
+          "class": "footer-link-2",
+          "x": 1055,
+          "y": 18155.3125,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Video recensioni",
+          "class": "",
+          "x": 1055,
+          "y": 18155.3125,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Recensioni Google",
+        "reference": {
+          "text": "Recensioni Google",
+          "class": "footer-link-2",
+          "x": 1055,
+          "y": 18190.109375,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Recensioni Google",
+          "class": "",
+          "x": 1055,
+          "y": 18190.109375,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Recensioni post-trattamento",
+        "reference": {
+          "text": "Recensioni post-trattamento",
+          "class": "footer-link-2",
+          "x": 1055,
+          "y": 18224.90625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Recensioni post-trattamento",
+          "class": "",
+          "x": 1055,
+          "y": 18224.90625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Su Rijeka (Fiume)",
+        "reference": {
+          "text": "Su Rijeka (Fiume)",
+          "class": "footer-link-2",
+          "x": 83,
+          "y": 18486.890625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Su Rijeka (Fiume)",
+          "class": "",
+          "x": 83,
+          "y": 18486.890625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Informazioni sulla Croazia",
+        "reference": {
+          "text": "Informazioni sulla Croazia",
+          "class": "footer-link-2",
+          "x": 83,
+          "y": 18521.6875,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Informazioni sulla Croazia",
+          "class": "",
+          "x": 83,
+          "y": 18521.6875,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Dentisti a Rijeka e in Croazia",
+        "reference": {
+          "text": "Dentisti a Rijeka e in Croazia",
+          "class": "footer-link-2",
+          "x": 83,
+          "y": 18556.484375,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Dentisti a Rijeka e in Croazia",
+          "class": "",
+          "x": 83,
+          "y": 18556.484375,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Guida a Dentvitalis",
+        "reference": {
+          "text": "Guida a Dentvitalis",
+          "class": "footer-link-2",
+          "x": 83,
+          "y": 18591.28125,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Guida a Dentvitalis",
+          "class": "",
+          "x": 83,
+          "y": 18591.28125,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Correzione estetica dei denti",
+        "reference": {
+          "text": "Correzione estetica dei denti",
+          "class": "footer-link-2",
+          "x": 407,
+          "y": 18486.890625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Correzione estetica dei denti",
+          "class": "",
+          "x": 407,
+          "y": 18486.890625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Correzione funzionale ed estetica dei denti",
+        "reference": {
+          "text": "Correzione funzionale ed estetica dei denti",
+          "class": "footer-link-2",
+          "x": 407,
+          "y": 18521.6875,
+          "w": 273,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Correzione funzionale ed estetica dei denti",
+          "class": "",
+          "x": 407,
+          "y": 18521.6875,
+          "w": 273,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Opzioni per la riabilitazione di una mascella senza denti",
+        "reference": {
+          "text": "Opzioni per la riabilitazione di una mascella senza denti",
+          "class": "footer-link-2",
+          "x": 407,
+          "y": 18573.28125,
+          "w": 273,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Opzioni per la riabilitazione di una mascella senza denti",
+          "class": "",
+          "x": 407,
+          "y": 18573.28125,
+          "w": 273,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Informazioni legali",
+        "reference": {
+          "text": "Informazioni legali",
+          "class": "title-small",
+          "x": 731,
+          "y": 18446.890625,
+          "w": 182,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Informazioni legali",
+          "class": "",
+          "x": 731,
+          "y": 18446.890625,
+          "w": 182,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Informativa sulla privacy",
+        "reference": {
+          "text": "Informativa sulla privacy",
+          "class": "dv-footer-legal-link",
+          "x": 731,
+          "y": 18474.890625,
+          "w": 173,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Informativa sulla privacy",
+          "class": "",
+          "x": 731,
+          "y": 18474.890625,
+          "w": 273,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 0
+        }
+      },
+      {
+        "text": "Condizioni di utilizzo",
+        "reference": {
+          "text": "Condizioni di utilizzo",
+          "class": "dv-footer-legal-link",
+          "x": 731,
+          "y": 18502.890625,
+          "w": 145,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Condizioni di utilizzo",
+          "class": "",
+          "x": 731,
+          "y": 18502.890625,
+          "w": 273,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 0
+        }
+      },
+      {
+        "text": "Krešimirova 60, 51000 Rijeka",
+        "reference": {
+          "text": "Krešimirova 60, 51000 Rijeka",
+          "class": "footer-link-2",
+          "x": 1055,
+          "y": 18486.890625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Krešimirova 60, 51000 Rijeka",
+          "class": "",
+          "x": 1055,
+          "y": 18486.890625,
+          "w": 273,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Numero verde: 800 174 206",
+        "reference": {
+          "text": "Numero verde: 800 174 206",
+          "class": "dv-footer-contact-link",
+          "x": 1055,
+          "y": 18527.6875,
+          "w": 190,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Numero verde: 800 174 206",
+          "class": "",
+          "x": 1055,
+          "y": 18527.6875,
+          "w": 257,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 67,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tel. +385 51 688 380",
+        "reference": {
+          "text": "Tel. +385 51 688 380",
+          "class": "dv-footer-contact-link",
+          "x": 1055,
+          "y": 18557.375,
+          "w": 137,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Tel. +385 51 688 380",
+          "class": "",
+          "x": 1055,
+          "y": 18557.375,
+          "w": 257,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 120,
+          "h": 0
+        }
+      },
+      {
+        "text": "it@dentvitalis.com",
+        "reference": {
+          "text": "it@dentvitalis.com",
+          "class": "dv-footer-contact-link",
+          "x": 1055,
+          "y": 18587.0625,
+          "w": 132,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "it@dentvitalis.com",
+          "class": "",
+          "x": 1055,
+          "y": 18587.0625,
+          "w": 257,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 125,
+          "h": 0
+        }
+      },
+      {
+        "text": "Orari della clinica",
+        "reference": {
+          "text": "Orari della clinica",
+          "class": "dv-footer-contact-label",
+          "x": 1055,
+          "y": 18623.75,
+          "w": 127,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Orari della clinica",
+          "class": "",
+          "x": 1055,
+          "y": 18623.75,
+          "w": 127,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Copyright © 2025 Dent Vitalis Fides",
+        "reference": {
+          "text": "Copyright © 2025 Dent Vitalis Fides",
+          "class": "footer-copyright-center",
+          "x": 72,
+          "y": 18869.8125,
+          "w": 1296,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "300"
+        },
+        "astro": {
+          "text": "Copyright © 2025 Dent Vitalis Fides",
+          "class": "copyright",
+          "x": 72,
+          "y": 18869.8125,
+          "w": 1296,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "300"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "pairs": [
+      {
+        "text": "Dentisti Croazia",
+        "reference": {
+          "text": "Dentisti Croazia",
+          "class": "text-block-18",
+          "x": 27.296875,
+          "y": 39.5,
+          "w": 140,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Dentisti Croazia",
+          "class": "",
+          "x": 27.296875,
+          "y": 39.5,
+          "w": 140,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "IT",
+        "reference": {
+          "text": "IT",
+          "class": "",
+          "x": 260.359375,
+          "y": 27.5,
+          "w": 33,
+          "h": 14,
+          "font": "14px",
+          "lineHeight": "14px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "IT",
+          "class": "",
+          "x": 281.703125,
+          "y": 27.5,
+          "w": 12,
+          "h": 14,
+          "font": "14px",
+          "lineHeight": "14px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 21.34375,
+          "y": 0,
+          "w": -21,
+          "h": 0
+        }
+      },
+      {
+        "text": "Pacchetto Premium",
+        "reference": {
+          "text": "Pacchetto Premium",
+          "class": "podebljano",
+          "x": 27.296875,
+          "y": 111,
+          "w": 158.8125,
+          "h": 19,
+          "font": "16px",
+          "lineHeight": "22.4px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Pacchetto Premium",
+          "class": "",
+          "x": 27.296875,
+          "y": 111,
+          "w": 158.8125,
+          "h": 19,
+          "font": "16px",
+          "lineHeight": "22.4px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 4.990€",
+        "reference": {
+          "text": "Prezzo fisso a 4.990€",
+          "class": "",
+          "x": 27.296875,
+          "y": 163.8125,
+          "w": 251,
+          "h": 85.125,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 4.990€",
+          "class": "",
+          "x": 27.296875,
+          "y": 163.8125,
+          "w": 251,
+          "h": 85.125,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Ponte fisso su impianti",
+        "reference": {
+          "text": "Ponte fisso su impianti",
+          "class": "text-block-9",
+          "x": 79.25,
+          "y": 753.984375,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ponte fisso su impianti",
+          "class": "",
+          "x": 79.25,
+          "y": 753.984375,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Senza costi aggiuntivi",
+        "reference": {
+          "text": "Senza costi aggiuntivi",
+          "class": "text-block-9",
+          "x": 79.25,
+          "y": 791.171875,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Senza costi aggiuntivi",
+          "class": "",
+          "x": 79.25,
+          "y": 791.171875,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alloggio in clinica",
+        "reference": {
+          "text": "Alloggio in clinica",
+          "class": "text-block-9",
+          "x": 79.25,
+          "y": 828.359375,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Alloggio in clinica",
+          "class": "",
+          "x": 79.25,
+          "y": 828.359375,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Documenti in italiano per l'IRPEF",
+        "reference": {
+          "text": "Documenti in italiano per l'IRPEF",
+          "class": "text-block-9",
+          "x": 79.25,
+          "y": 865.546875,
+          "w": 266.6875,
+          "h": 39.1875,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Documenti in italiano per l'IRPEF",
+          "class": "",
+          "x": 79.25,
+          "y": 865.546875,
+          "w": 266.6875,
+          "h": 39.1875,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Garanzia inclusa",
+        "reference": {
+          "text": "Garanzia inclusa",
+          "class": "text-block-9",
+          "x": 79.25,
+          "y": 920.734375,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Garanzia inclusa",
+          "class": "",
+          "x": 79.25,
+          "y": 920.734375,
+          "w": 266.6875,
+          "h": 19.59375,
+          "font": "18px",
+          "lineHeight": "19.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Maggiori informazioni",
+        "reference": {
+          "text": "Maggiori informazioni",
+          "class": "button-text-block",
+          "x": 70.0625,
+          "y": 984.3125,
+          "w": 188.875,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Maggiori informazioni",
+          "class": "label",
+          "x": 70.0625,
+          "y": 974.3125,
+          "w": 203.875,
+          "h": 39.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 15,
+          "h": 20
+        }
+      },
+      {
+        "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.",
+        "reference": {
+          "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.",
+          "class": "nadnaslov",
+          "x": 27.296875,
+          "y": 1191.921875,
+          "w": 335.40625,
+          "h": 64.78125,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "A soli 65 km da Trieste: ponte fisso su impianti in 24 ore. Tutti i lavori inclusi nel prezzo.",
+          "class": "eyebrow",
+          "x": 27.296875,
+          "y": 1191.921875,
+          "w": 335.40625,
+          "h": 64.78125,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Grandi risparmi",
+        "reference": {
+          "text": "Grandi risparmi",
+          "class": "bold-text-5",
+          "x": 27.296875,
+          "y": 1285.703125,
+          "w": 286,
+          "h": 43,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Grandi risparmi",
+          "class": "",
+          "x": 27.296875,
+          "y": 1285.703125,
+          "w": 286,
+          "h": 43,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.",
+        "reference": {
+          "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.",
+          "class": "huge-paragraph",
+          "x": 27.296875,
+          "y": 1475.203125,
+          "w": 335.40625,
+          "h": 140,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti e scegliere forma e dimensione.",
+          "class": "reveal description",
+          "x": 27.296875,
+          "y": 1475.203125,
+          "w": 335.40625,
+          "h": 140,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+        "reference": {
+          "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+          "class": "large-paragraph",
+          "x": 49.5,
+          "y": 2136.796875,
+          "w": 297,
+          "h": 151.21875,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+          "class": "description",
+          "x": 49.5,
+          "y": 2136.796875,
+          "w": 297,
+          "h": 151.21875,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 2.990 €",
+        "reference": {
+          "text": "Prezzo fisso a 2.990 €",
+          "class": "cijena-velika",
+          "x": 53.5,
+          "y": 2328.015625,
+          "w": 204,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 2.990 €",
+          "class": "price",
+          "x": 53.5,
+          "y": 2328.015625,
+          "w": 204,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.",
+        "reference": {
+          "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.",
+          "class": "large-paragraph",
+          "x": 49.5,
+          "y": 2870.8125,
+          "w": 297,
+          "h": 126.015625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.",
+          "class": "description",
+          "x": 49.5,
+          "y": 2870.8125,
+          "w": 297,
+          "h": 126.015625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 4.990 €",
+        "reference": {
+          "text": "Prezzo fisso a 4.990 €",
+          "class": "cijena-velika",
+          "x": 53.5,
+          "y": 3036.828125,
+          "w": 205,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 4.990 €",
+          "class": "price",
+          "x": 53.5,
+          "y": 3036.828125,
+          "w": 205,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.",
+        "reference": {
+          "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.",
+          "class": "large-paragraph",
+          "x": 49.5,
+          "y": 3608.421875,
+          "w": 297,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.",
+          "class": "description",
+          "x": 49.5,
+          "y": 3608.421875,
+          "w": 297,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prezzo fisso a 250 €",
+        "reference": {
+          "text": "Prezzo fisso a 250 €",
+          "class": "cijena-velika",
+          "x": 57.5,
+          "y": 3749.234375,
+          "w": 188,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Prezzo fisso a 250 €",
+          "class": "price inset",
+          "x": 53.5,
+          "y": 3745.234375,
+          "w": 196,
+          "h": 28,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": -4,
+          "y": -4,
+          "w": 8,
+          "h": 8
+        }
+      },
+      {
+        "text": "Sostituzione perfetta dei denti naturali",
+        "reference": {
+          "text": "Sostituzione perfetta dei denti naturali",
+          "class": "nadnaslov-kartica",
+          "x": 49.5,
+          "y": 4189.234375,
+          "w": 297,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Sostituzione perfetta dei denti naturali",
+          "class": "eyebrow",
+          "x": 49.5,
+          "y": 4189.234375,
+          "w": 297,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.",
+        "reference": {
+          "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.",
+          "class": "large-paragraph",
+          "x": 49.5,
+          "y": 4317.234375,
+          "w": 297,
+          "h": 126.015625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.",
+          "class": "description",
+          "x": 49.5,
+          "y": 4317.234375,
+          "w": 297,
+          "h": 126.015625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "A partire da 220 €",
+        "reference": {
+          "text": "A partire da 220 €",
+          "class": "cijena-velika",
+          "x": 53.5,
+          "y": 4483.25,
+          "w": 169,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "A partire da 220 €",
+          "class": "price",
+          "x": 53.5,
+          "y": 4483.25,
+          "w": 169,
+          "h": 20,
+          "font": "18px",
+          "lineHeight": "20px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Messaggio del titolare",
+        "reference": {
+          "text": "Messaggio del titolare",
+          "class": "nadnaslov",
+          "x": 27.296875,
+          "y": 5203.25,
+          "w": 335.40625,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Messaggio del titolare",
+          "class": "eyebrow",
+          "x": 27.296875,
+          "y": 5203.25,
+          "w": 335.40625,
+          "h": 21.59375,
+          "font": "18px",
+          "lineHeight": "21.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Benvenuti a Dentvitalis Croazia",
+        "reference": {
+          "text": "Benvenuti a Dentvitalis Croazia",
+          "class": "medjunaslov-h2 left",
+          "x": 27.296875,
+          "y": 5244.84375,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Benvenuti a Dentvitalis Croazia",
+          "class": "",
+          "x": 27.296875,
+          "y": 5244.84375,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Documentazione completa, scritta e in italiano:",
+        "reference": {
+          "text": "Documentazione completa, scritta e in italiano:",
+          "class": "",
+          "x": 27.296875,
+          "y": 5828.09375,
+          "w": 293,
+          "h": 52,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Documentazione completa, scritta e in italiano:",
+          "class": "",
+          "x": 27.296875,
+          "y": 5828.09375,
+          "w": 293,
+          "h": 52,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Non serve tradurle per usufruire della detrazione IRPEF del 19%.",
+        "reference": {
+          "text": "Non serve tradurle per usufruire della detrazione IRPEF del 19%.",
+          "class": "large-paragraph-2",
+          "x": 27.296875,
+          "y": 5958.5,
+          "w": 335.40625,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Non serve tradurle per usufruire della detrazione IRPEF del 19%.",
+          "class": "",
+          "x": 27.296875,
+          "y": 5958.5,
+          "w": 335.40625,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Riporta tutte le informazioni relative a ogni impianto inserito.",
+        "reference": {
+          "text": "Riporta tutte le informazioni relative a ogni impianto inserito.",
+          "class": "large-paragraph-2",
+          "x": 27.296875,
+          "y": 6102.71875,
+          "w": 335.40625,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Riporta tutte le informazioni relative a ogni impianto inserito.",
+          "class": "",
+          "x": 27.296875,
+          "y": 6102.71875,
+          "w": 335.40625,
+          "h": 46.8125,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Contiene l’elenco completo dei materiali e dei componenti utilizzati per i lavori protesici.",
+        "reference": {
+          "text": "Contiene l’elenco completo dei materiali e dei componenti utilizzati per i lavori protesici.",
+          "class": "large-paragraph-2",
+          "x": 27.296875,
+          "y": 6246.9375,
+          "w": 335.40625,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Contiene l’elenco completo dei materiali e dei componenti utilizzati per i lavori protesici.",
+          "class": "",
+          "x": 27.296875,
+          "y": 6246.9375,
+          "w": 335.40625,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tutte le condizioni della garanzia, presentate con chiarezza e trasparenza.",
+        "reference": {
+          "text": "Tutte le condizioni della garanzia, presentate con chiarezza e trasparenza.",
+          "class": "large-paragraph-2",
+          "x": 27.296875,
+          "y": 6414.5625,
+          "w": 335.40625,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Tutte le condizioni della garanzia, presentate con chiarezza e trasparenza.",
+          "class": "",
+          "x": 27.296875,
+          "y": 6414.5625,
+          "w": 335.40625,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Fissa un appuntamento",
+        "reference": {
+          "text": "Fissa un appuntamento",
+          "class": "button-text-block",
+          "x": 47.296875,
+          "y": 6583.171875,
+          "w": 197,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Fissa un appuntamento",
+          "class": "label",
+          "x": 47.296875,
+          "y": 6573.171875,
+          "w": 216,
+          "h": 39.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 19,
+          "h": 20
+        }
+      },
+      {
+        "text": "Tradizione e competenza",
+        "reference": {
+          "text": "Tradizione e competenza",
+          "class": "medjunaslov-h2",
+          "x": 27.296875,
+          "y": 6892.375,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Tradizione e competenza",
+          "class": "reveal",
+          "x": 27.296875,
+          "y": 6892.375,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo.",
+        "reference": {
+          "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo.",
+          "class": "huge-paragraph",
+          "x": 27.296875,
+          "y": 6996.625,
+          "w": 335.40625,
+          "h": 56,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo.",
+          "class": "reveal description",
+          "x": 27.296875,
+          "y": 6996.625,
+          "w": 335.40625,
+          "h": 56,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "L’esperienza e la competenza dei nostri odontoiatri, maturata in anni di pratica e formazione, si riflette ogni giorno nel nostro studio dentistico a Rijeka (Fiume), in Croazia.",
+        "reference": {
+          "text": "L’esperienza e la competenza dei nostri odontoiatri, maturata in anni di pratica e formazione, si riflette ogni giorno nel nostro studio dentistico a Rijeka (Fiume), in Croazia.",
+          "class": "large-paragraph-2",
+          "x": 49.5,
+          "y": 7491.421875,
+          "w": 297,
+          "h": 140.4375,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "L’esperienza e la competenza dei nostri odontoiatri, maturata in anni di pratica e formazione, si riflette ogni giorno nel nostro studio dentistico a Rijeka (Fiume), in Croazia.",
+          "class": "description",
+          "x": 49.5,
+          "y": 7491.421875,
+          "w": 297,
+          "h": 140.4375,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.",
+        "reference": {
+          "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.",
+          "class": "large-paragraph-2",
+          "x": 49.5,
+          "y": 8160.65625,
+          "w": 297,
+          "h": 93.625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.",
+          "class": "description",
+          "x": 49.5,
+          "y": 8160.65625,
+          "w": 297,
+          "h": 93.625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Come raggiungerci?",
+        "reference": {
+          "text": "Come raggiungerci?",
+          "class": "medjunaslov-h3 bold",
+          "x": 49.5,
+          "y": 8734.28125,
+          "w": 297,
+          "h": 28.796875,
+          "font": "24px",
+          "lineHeight": "28.8px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Come raggiungerci?",
+          "class": "",
+          "x": 49.5,
+          "y": 8733.28125,
+          "w": 255,
+          "h": 29,
+          "font": "24px",
+          "lineHeight": "28.8px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1,
+          "w": -42,
+          "h": 0.203125
+        }
+      },
+      {
+        "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.",
+        "reference": {
+          "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.",
+          "class": "large-paragraph-2",
+          "x": 49.5,
+          "y": 8783.078125,
+          "w": 297,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito.",
+          "class": "description",
+          "x": 49.5,
+          "y": 8783.078125,
+          "w": 297,
+          "h": 70.21875,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.",
+        "reference": {
+          "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.",
+          "class": "large-paragraph-2",
+          "x": 49.5,
+          "y": 9410.890625,
+          "w": 297,
+          "h": 93.625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo.",
+          "class": "description",
+          "x": 49.5,
+          "y": 9410.890625,
+          "w": 297,
+          "h": 93.625,
+          "font": "18px",
+          "lineHeight": "23.4px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Rapporto di fiducia",
+        "reference": {
+          "text": "Rapporto di fiducia",
+          "class": "medjunaslov-h2",
+          "x": 27.296875,
+          "y": 9796.109375,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Rapporto di fiducia",
+          "class": "reveal",
+          "x": 27.296875,
+          "y": 9796.109375,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.",
+        "reference": {
+          "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.",
+          "class": "huge-paragraph",
+          "x": 27.296875,
+          "y": 9900.359375,
+          "w": 335.40625,
+          "h": 84,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.",
+          "class": "reveal description",
+          "x": 27.296875,
+          "y": 9900.359375,
+          "w": 335.40625,
+          "h": 84,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.",
+        "reference": {
+          "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.",
+          "class": "testimonials-text",
+          "x": 27.296875,
+          "y": 10206.09375,
+          "w": 335.40625,
+          "h": 167.96875,
+          "font": "24px",
+          "lineHeight": "33.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Personale molto cortese e preparato. Ho fatto un intervento impegnativo ma sono stata felice del lavoro svolto.",
+          "class": "quote",
+          "x": 27.296875,
+          "y": 10206.09375,
+          "w": 335.40625,
+          "h": 167.96875,
+          "font": "24px",
+          "lineHeight": "33.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Marianna Menini",
+        "reference": {
+          "text": "Marianna Menini",
+          "class": "no-margin",
+          "x": 118,
+          "y": 10384.0625,
+          "w": 154,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Marianna Menini",
+          "class": "",
+          "x": 118,
+          "y": 10384.0625,
+          "w": 154,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.",
+        "reference": {
+          "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.",
+          "class": "testimonials-text",
+          "x": 362.703125,
+          "y": 10206.09375,
+          "w": 335.40625,
+          "h": 167.96875,
+          "font": "24px",
+          "lineHeight": "33.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ottima clinica, personale molto disponibile. La consiglierei a chiunque ne avesse bisogno: molto professionali.",
+          "class": "quote",
+          "x": 362.703125,
+          "y": 10206.09375,
+          "w": 335.40625,
+          "h": 167.96875,
+          "font": "24px",
+          "lineHeight": "33.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tatiana Muggianu",
+        "reference": {
+          "text": "Tatiana Muggianu",
+          "class": "no-margin",
+          "x": 445.90625,
+          "y": 10384.0625,
+          "w": 169,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Tatiana Muggianu",
+          "class": "",
+          "x": 445.90625,
+          "y": 10384.0625,
+          "w": 169,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!",
+        "reference": {
+          "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!",
+          "class": "testimonials-text",
+          "x": 698.109375,
+          "y": 10206.09375,
+          "w": 335.40625,
+          "h": 134.375,
+          "font": "24px",
+          "lineHeight": "33.6px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Mai avuto un’attenzione così curata. Posso dire che è piacevole andare dal dentista e ciò dice tutto!",
+          "class": "quote",
+          "x": 698.109375,
+          "y": 10206.09375,
+          "w": 335.40625,
+          "h": 134.375,
+          "font": "24px",
+          "lineHeight": "33.6px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Marlene Marchetto",
+        "reference": {
+          "text": "Marlene Marchetto",
+          "class": "no-margin",
+          "x": 776.8125,
+          "y": 10350.46875,
+          "w": 178,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Marlene Marchetto",
+          "class": "",
+          "x": 776.8125,
+          "y": 10350.46875,
+          "w": 178,
+          "h": 24,
+          "font": "18px",
+          "lineHeight": "24px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Esperienze dei pazienti",
+        "reference": {
+          "text": "Esperienze dei pazienti",
+          "class": "button-text-block",
+          "x": 48.296875,
+          "y": 11056.453125,
+          "w": 194,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Esperienze dei pazienti",
+          "class": "label",
+          "x": 48.296875,
+          "y": 11046.453125,
+          "w": 235.046875,
+          "h": 39.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 41.046875,
+          "h": 20
+        }
+      },
+      {
+        "text": "Prima e dopo",
+        "reference": {
+          "text": "Prima e dopo",
+          "class": "button-text-block",
+          "x": 48.296875,
+          "y": 11132.453125,
+          "w": 111,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prima e dopo",
+          "class": "label",
+          "x": 48.296875,
+          "y": 11122.453125,
+          "w": 235.046875,
+          "h": 39.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 124.046875,
+          "h": 20
+        }
+      },
+      {
+        "text": "Questo potrebbe interessarti",
+        "reference": {
+          "text": "Questo potrebbe interessarti",
+          "class": "medjunaslov-h2",
+          "x": 27.296875,
+          "y": 11361.65625,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Questo potrebbe interessarti",
+          "class": "reveal",
+          "x": 27.296875,
+          "y": 11361.65625,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206",
+        "reference": {
+          "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206",
+          "class": "huge-paragraph",
+          "x": 27.296875,
+          "y": 11465.90625,
+          "w": 335.40625,
+          "h": 84,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde: 800 174 206",
+          "class": "reveal description",
+          "x": 27.296875,
+          "y": 11465.90625,
+          "w": 335.40625,
+          "h": 84,
+          "font": "20px",
+          "lineHeight": "28px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.",
+        "reference": {
+          "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 11658.703125,
+          "w": 289.40625,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili.",
+          "class": "",
+          "x": 53.296875,
+          "y": 11658.703125,
+          "w": 289.40625,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alloggio all’interno della clinica",
+        "reference": {
+          "text": "Alloggio all’interno della clinica",
+          "class": "medjunaslov-h3",
+          "x": 53.296875,
+          "y": 11859.515625,
+          "w": 289.40625,
+          "h": 57.59375,
+          "font": "24px",
+          "lineHeight": "28.8px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Alloggio all’interno della clinica",
+          "class": "",
+          "x": 53.296875,
+          "y": 11858.515625,
+          "w": 234,
+          "h": 57.796875,
+          "font": "24px",
+          "lineHeight": "28.8px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1,
+          "w": -55.40625,
+          "h": 0.203125
+        }
+      },
+      {
+        "text": "Il nostro trasporto",
+        "reference": {
+          "text": "Il nostro trasporto",
+          "class": "medjunaslov-h3",
+          "x": 53.296875,
+          "y": 12102.71875,
+          "w": 289.40625,
+          "h": 28.796875,
+          "font": "24px",
+          "lineHeight": "28.8px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Il nostro trasporto",
+          "class": "",
+          "x": 53.296875,
+          "y": 12101.71875,
+          "w": 219,
+          "h": 29,
+          "font": "24px",
+          "lineHeight": "28.8px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1,
+          "w": -70.40625,
+          "h": 0.203125
+        }
+      },
+      {
+        "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia.",
+        "reference": {
+          "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia.",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 12141.515625,
+          "w": 289.40625,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia.",
+          "class": "",
+          "x": 53.296875,
+          "y": 12141.515625,
+          "w": 289.40625,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Trova la soluzione più comoda per te.",
+        "reference": {
+          "text": "Trova la soluzione più comoda per te.",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 12355.921875,
+          "w": 289.40625,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Trova la soluzione più comoda per te.",
+          "class": "",
+          "x": 53.296875,
+          "y": 12355.921875,
+          "w": 289.40625,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Garanzie fornite per iscritto e in italiano.",
+        "reference": {
+          "text": "Garanzie fornite per iscritto e in italiano.",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 12545.125,
+          "w": 289.40625,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Garanzie fornite per iscritto e in italiano.",
+          "class": "",
+          "x": 53.296875,
+          "y": 12545.125,
+          "w": 289.40625,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.",
+        "reference": {
+          "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 12734.328125,
+          "w": 289.40625,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite.",
+          "class": "",
+          "x": 53.296875,
+          "y": 12734.328125,
+          "w": 289.40625,
+          "h": 100.8125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.",
+        "reference": {
+          "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 12973.9375,
+          "w": 289.40625,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.",
+          "class": "",
+          "x": 53.296875,
+          "y": 12973.9375,
+          "w": 289.40625,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Ora tutto è possibile: liberati dalla protesi mobile!",
+        "reference": {
+          "text": "Ora tutto è possibile: liberati dalla protesi mobile!",
+          "class": "large-paragraph",
+          "x": 53.296875,
+          "y": 13217.140625,
+          "w": 289.40625,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Ora tutto è possibile: liberati dalla protesi mobile!",
+          "class": "",
+          "x": 53.296875,
+          "y": 13217.140625,
+          "w": 289.40625,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Prenota una visita gratuita",
+        "reference": {
+          "text": "Prenota una visita gratuita",
+          "class": "button-text-block",
+          "x": 47.296875,
+          "y": 13337.546875,
+          "w": 221.546875,
+          "h": 38.40625,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prenota una visita gratuita",
+          "class": "label",
+          "x": 47.296875,
+          "y": 13327.546875,
+          "w": 236.546875,
+          "h": 58.40625,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10,
+          "w": 15,
+          "h": 20
+        }
+      },
+      {
+        "text": "Domande e risposte",
+        "reference": {
+          "text": "Domande e risposte",
+          "class": "medjunaslov-h2",
+          "x": 27.296875,
+          "y": 13537.546875,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Domande e risposte",
+          "class": "reveal",
+          "x": 27.296875,
+          "y": 13537.546875,
+          "w": 335.40625,
+          "h": 84.25,
+          "font": "35.1px",
+          "lineHeight": "42.12px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+        "reference": {
+          "text": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+          "class": "accordion-title",
+          "x": 27.296875,
+          "y": 13671.796875,
+          "w": 268.3125,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+          "class": "",
+          "x": 27.296875,
+          "y": 13671.796875,
+          "w": 268.3125,
+          "h": 75.609375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Quanto costa fare i denti in Croazia?",
+        "reference": {
+          "text": "Quanto costa fare i denti in Croazia?",
+          "class": "accordion-title",
+          "x": 27.296875,
+          "y": 13792.40625,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Quanto costa fare i denti in Croazia?",
+          "class": "",
+          "x": 27.296875,
+          "y": 13792.40625,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Quanto costa un impianto dentale?",
+        "reference": {
+          "text": "Quanto costa un impianto dentale?",
+          "class": "accordion-title",
+          "x": 27.296875,
+          "y": 13887.8125,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Quanto costa un impianto dentale?",
+          "class": "",
+          "x": 27.296875,
+          "y": 13887.8125,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Quanto costa una corona dentale?",
+        "reference": {
+          "text": "Quanto costa una corona dentale?",
+          "class": "accordion-title",
+          "x": 27.296875,
+          "y": 13983.21875,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Quanto costa una corona dentale?",
+          "class": "",
+          "x": 27.296875,
+          "y": 13983.21875,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Dentisti italiani o croati?",
+        "reference": {
+          "text": "Dentisti italiani o croati?",
+          "class": "accordion-title",
+          "x": 27.296875,
+          "y": 14078.625,
+          "w": 219,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "Dentisti italiani o croati?",
+          "class": "",
+          "x": 27.296875,
+          "y": 14078.625,
+          "w": 219,
+          "h": 25.203125,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "In quale valuta e come si paga in Croazia?",
+        "reference": {
+          "text": "In quale valuta e come si paga in Croazia?",
+          "class": "accordion-title",
+          "x": 27.296875,
+          "y": 14148.828125,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "astro": {
+          "text": "In quale valuta e come si paga in Croazia?",
+          "class": "",
+          "x": 27.296875,
+          "y": 14148.828125,
+          "w": 268.3125,
+          "h": 50.40625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "500"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tutte le risposte",
+        "reference": {
+          "text": "Tutte le risposte",
+          "class": "button-text-block",
+          "x": 47.296875,
+          "y": 14272.625,
+          "w": 134,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Tutte le risposte",
+          "class": "label",
+          "x": 47.296875,
+          "y": 14272.625,
+          "w": 236.546875,
+          "h": 39.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 102.546875,
+          "h": 20
+        }
+      },
+      {
+        "text": "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+        "reference": {
+          "text": "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+          "class": "medjunaslov-h2 bijeli",
+          "x": 27.296875,
+          "y": 14551.828125,
+          "w": 335.40625,
+          "h": 147.1875,
+          "font": "32px",
+          "lineHeight": "36.8px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prenota la prima visita gratuita a Rijeka (Fiume), Croazia!",
+          "class": "",
+          "x": 27.296875,
+          "y": 14551.828125,
+          "w": 335.40625,
+          "h": 147.1875,
+          "font": "32px",
+          "lineHeight": "36.8px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.",
+        "reference": {
+          "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.",
+          "class": "huge-paragraph bijeli",
+          "x": 27.296875,
+          "y": 14709.015625,
+          "w": 335.40625,
+          "h": 126.015625,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.",
+          "class": "description",
+          "x": 27.296875,
+          "y": 14709.015625,
+          "w": 335.40625,
+          "h": 125.9375,
+          "font": "18px",
+          "lineHeight": "25.2px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": -0.078125
+        }
+      },
+      {
+        "text": "Max 8 MB",
+        "reference": {
+          "text": "Max 8 MB",
+          "class": "dv-file-upload-hint w-file-upload-info",
+          "x": 27.296875,
+          "y": 15314.03125,
+          "w": 55,
+          "h": 11,
+          "font": "11px",
+          "lineHeight": "11px",
+          "weight": "300"
+        },
+        "astro": {
+          "text": "Max 8 MB",
+          "class": "file-name",
+          "x": 27.296875,
+          "y": 15313.953125,
+          "w": 55,
+          "h": 11,
+          "font": "11px",
+          "lineHeight": "11px",
+          "weight": "300"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "informativa sulla privacy.",
+        "reference": {
+          "text": "informativa sulla privacy.",
+          "class": "",
+          "x": 145.296875,
+          "y": 15342.03125,
+          "w": 183,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "20.3px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "informativa sulla privacy.",
+          "class": "",
+          "x": 145.296875,
+          "y": 15341.953125,
+          "w": 183,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "20.3px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Invia il messaggio",
+        "reference": {
+          "text": "Invia il messaggio",
+          "class": "button-text-block",
+          "x": 47.296875,
+          "y": 15401.421875,
+          "w": 153,
+          "h": 19.203125,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Invia il messaggio",
+          "class": "",
+          "x": 47.296875,
+          "y": 15391.359375,
+          "w": 236.546875,
+          "h": 39.1875,
+          "font": "16px",
+          "lineHeight": "19.2px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": -10.0625,
+          "w": 83.546875,
+          "h": 19.984375
+        }
+      },
+      {
+        "text": "Prestazioni",
+        "reference": {
+          "text": "Prestazioni",
+          "class": "title-small",
+          "x": 38.296875,
+          "y": 15740.6875,
+          "w": 284.40625,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Prestazioni",
+          "class": "",
+          "x": 38.296875,
+          "y": 15739.609375,
+          "w": 107,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1.078125,
+          "w": -177.40625,
+          "h": 2
+        }
+      },
+      {
+        "text": "Come raggiungerci",
+        "reference": {
+          "text": "Come raggiungerci",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16060.265625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Come raggiungerci",
+          "class": "",
+          "x": 38.296875,
+          "y": 16060.1875,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Materiali e apparecchiature",
+        "reference": {
+          "text": "Materiali e apparecchiature",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16125.859375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Materiali e apparecchiature",
+          "class": "",
+          "x": 38.296875,
+          "y": 16125.78125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Alloggio",
+        "reference": {
+          "text": "Alloggio",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16423.4375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Alloggio",
+          "class": "",
+          "x": 38.296875,
+          "y": 16423.359375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Trasporto",
+        "reference": {
+          "text": "Trasporto",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16456.234375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Trasporto",
+          "class": "",
+          "x": 38.296875,
+          "y": 16456.15625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Listino prezzi",
+        "reference": {
+          "text": "Listino prezzi",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16489.03125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Listino prezzi",
+          "class": "",
+          "x": 38.296875,
+          "y": 16488.953125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Video recensioni",
+        "reference": {
+          "text": "Video recensioni",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16589.828125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Video recensioni",
+          "class": "",
+          "x": 38.296875,
+          "y": 16589.75,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Recensioni Google",
+        "reference": {
+          "text": "Recensioni Google",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16622.625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Recensioni Google",
+          "class": "",
+          "x": 38.296875,
+          "y": 16622.546875,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Recensioni post-trattamento",
+        "reference": {
+          "text": "Recensioni post-trattamento",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16655.421875,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Recensioni post-trattamento",
+          "class": "",
+          "x": 38.296875,
+          "y": 16655.34375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Su Rijeka (Fiume)",
+        "reference": {
+          "text": "Su Rijeka (Fiume)",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16756.21875,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Su Rijeka (Fiume)",
+          "class": "",
+          "x": 38.296875,
+          "y": 16756.140625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Informazioni sulla Croazia",
+        "reference": {
+          "text": "Informazioni sulla Croazia",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16789.015625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Informazioni sulla Croazia",
+          "class": "",
+          "x": 38.296875,
+          "y": 16788.9375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Dentisti a Rijeka e in Croazia",
+        "reference": {
+          "text": "Dentisti a Rijeka e in Croazia",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16821.8125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Dentisti a Rijeka e in Croazia",
+          "class": "",
+          "x": 38.296875,
+          "y": 16821.734375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Guida a Dentvitalis",
+        "reference": {
+          "text": "Guida a Dentvitalis",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16854.609375,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Guida a Dentvitalis",
+          "class": "",
+          "x": 38.296875,
+          "y": 16854.53125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Galleria",
+        "reference": {
+          "text": "Galleria",
+          "class": "title-small",
+          "x": 38.296875,
+          "y": 16917.40625,
+          "w": 284.40625,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Galleria",
+          "class": "",
+          "x": 38.296875,
+          "y": 16916.328125,
+          "w": 78,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -1.078125,
+          "w": -206.40625,
+          "h": 2
+        }
+      },
+      {
+        "text": "Correzione estetica dei denti",
+        "reference": {
+          "text": "Correzione estetica dei denti",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16955.40625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Correzione estetica dei denti",
+          "class": "",
+          "x": 38.296875,
+          "y": 16955.328125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Correzione funzionale ed estetica dei denti",
+        "reference": {
+          "text": "Correzione funzionale ed estetica dei denti",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 16988.203125,
+          "w": 284.40625,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Correzione funzionale ed estetica dei denti",
+          "class": "",
+          "x": 38.296875,
+          "y": 16988.125,
+          "w": 284.40625,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Opzioni per la riabilitazione di una mascella senza denti",
+        "reference": {
+          "text": "Opzioni per la riabilitazione di una mascella senza denti",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 17037.796875,
+          "w": 284.40625,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Opzioni per la riabilitazione di una mascella senza denti",
+          "class": "",
+          "x": 38.296875,
+          "y": 17037.71875,
+          "w": 284.40625,
+          "h": 33.59375,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Informazioni legali",
+        "reference": {
+          "text": "Informazioni legali",
+          "class": "title-small",
+          "x": 38.296875,
+          "y": 17117.390625,
+          "w": 182,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Informazioni legali",
+          "class": "",
+          "x": 38.296875,
+          "y": 17117.3125,
+          "w": 182,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Informativa sulla privacy",
+        "reference": {
+          "text": "Informativa sulla privacy",
+          "class": "dv-footer-legal-link",
+          "x": 38.296875,
+          "y": 17145.390625,
+          "w": 173,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Informativa sulla privacy",
+          "class": "",
+          "x": 38.296875,
+          "y": 17145.3125,
+          "w": 284.40625,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 111.40625,
+          "h": 0
+        }
+      },
+      {
+        "text": "Condizioni di utilizzo",
+        "reference": {
+          "text": "Condizioni di utilizzo",
+          "class": "dv-footer-legal-link",
+          "x": 38.296875,
+          "y": 17171.390625,
+          "w": 145,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Condizioni di utilizzo",
+          "class": "",
+          "x": 38.296875,
+          "y": 17171.3125,
+          "w": 284.40625,
+          "h": 20,
+          "font": "14px",
+          "lineHeight": "20px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 139.40625,
+          "h": 0
+        }
+      },
+      {
+        "text": "Krešimirova 60, 51000 Rijeka",
+        "reference": {
+          "text": "Krešimirova 60, 51000 Rijeka",
+          "class": "footer-link-2",
+          "x": 38.296875,
+          "y": 17269.390625,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Krešimirova 60, 51000 Rijeka",
+          "class": "",
+          "x": 38.296875,
+          "y": 17269.3125,
+          "w": 284.40625,
+          "h": 16.796875,
+          "font": "14px",
+          "lineHeight": "16.8px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Numero verde: 800 174 206",
+        "reference": {
+          "text": "Numero verde: 800 174 206",
+          "class": "dv-footer-contact-link",
+          "x": 38.296875,
+          "y": 17308.1875,
+          "w": 190,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Numero verde: 800 174 206",
+          "class": "",
+          "x": 38.296875,
+          "y": 17308.109375,
+          "w": 257,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 67,
+          "h": 0
+        }
+      },
+      {
+        "text": "Tel. +385 51 688 380",
+        "reference": {
+          "text": "Tel. +385 51 688 380",
+          "class": "dv-footer-contact-link",
+          "x": 38.296875,
+          "y": 17337.875,
+          "w": 137,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "Tel. +385 51 688 380",
+          "class": "",
+          "x": 38.296875,
+          "y": 17337.796875,
+          "w": 257,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 120,
+          "h": 0
+        }
+      },
+      {
+        "text": "it@dentvitalis.com",
+        "reference": {
+          "text": "it@dentvitalis.com",
+          "class": "dv-footer-contact-link",
+          "x": 38.296875,
+          "y": 17367.5625,
+          "w": 132,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "astro": {
+          "text": "it@dentvitalis.com",
+          "class": "",
+          "x": 38.296875,
+          "y": 17367.484375,
+          "w": 257,
+          "h": 21.6875,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "400"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 125,
+          "h": 0
+        }
+      },
+      {
+        "text": "Orari della clinica",
+        "reference": {
+          "text": "Orari della clinica",
+          "class": "dv-footer-contact-label",
+          "x": 38.296875,
+          "y": 17398.25,
+          "w": 127,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "600"
+        },
+        "astro": {
+          "text": "Orari della clinica",
+          "class": "",
+          "x": 38.296875,
+          "y": 17398.171875,
+          "w": 127,
+          "h": 18,
+          "font": "14px",
+          "lineHeight": "21.7px",
+          "weight": "600"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Copyright © 2025 Dent Vitalis Fides",
+        "reference": {
+          "text": "Copyright © 2025 Dent Vitalis Fides",
+          "class": "footer-copyright-center",
+          "x": 27.296875,
+          "y": 17622.3125,
+          "w": 335.40625,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "300"
+        },
+        "astro": {
+          "text": "Copyright © 2025 Dent Vitalis Fides",
+          "class": "copyright",
+          "x": 27.296875,
+          "y": 17622.234375,
+          "w": 335.40625,
+          "h": 16,
+          "font": "14px",
+          "lineHeight": "16px",
+          "weight": "300"
+        },
+        "delta": {
+          "x": 0,
+          "y": -0.078125,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "text": "Consulta il dentista",
+        "reference": {
+          "text": "Consulta il dentista",
+          "class": "text-block-13",
+          "x": 105.5,
+          "y": 859.796875,
+          "w": 211,
+          "h": 20.390625,
+          "font": "17px",
+          "lineHeight": "20.4px",
+          "weight": "700"
+        },
+        "astro": {
+          "text": "Consulta il dentista",
+          "class": "label",
+          "x": 105.5,
+          "y": 859.796875,
+          "w": 211,
+          "h": 20.40625,
+          "font": "17px",
+          "lineHeight": "20.4px",
+          "weight": "700"
+        },
+        "delta": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0.015625
+        }
+      }
+    ]
+  }
+]

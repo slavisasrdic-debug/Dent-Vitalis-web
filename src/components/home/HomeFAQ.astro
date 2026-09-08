@@ -1,0 +1,51 @@
+---
+import SectionHeading from '../SectionHeading.astro';
+import FAQ from '../FAQ.astro';
+import Button from '../Button.astro';
+import type { homeQuestions } from '../../content/faq';
+import type { LinkData } from '../../content/site';
+interface Props {
+  heading: { eyebrow: string; title: string };
+  questions: typeof homeQuestions;
+  action: LinkData;
+}
+const { heading, questions, action } = Astro.props;
+---
+
+<section class="home-faq">
+  <SectionHeading {...heading} variant="compact" /><div class="faq-container">
+    <FAQ items={questions} /><div class="cta">
+      <Button {...action} />
+    </div>
+  </div>
+</section>
+<style>
+  .faq-container {
+    max-width: 900px;
+    margin-inline: auto;
+    padding-bottom: 80px;
+  }
+  .cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 991px) {
+    .faq-container {
+      margin-inline: 5%;
+    }
+    .cta {
+      justify-content: flex-start;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .faq-container {
+      margin-inline: 7%;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .cta :global(.button) {
+      width: 100%;
+    }
+  }
+</style>

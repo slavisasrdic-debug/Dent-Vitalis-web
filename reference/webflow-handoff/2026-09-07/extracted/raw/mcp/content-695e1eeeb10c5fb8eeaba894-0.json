@@ -1,0 +1,800 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:13.568Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba894",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba894",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba894",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba894",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "ba4ad281-24af-254a-de97-9903b7c446e1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"ba4ad281-24af-254a-de97-9903b7c446e2\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ba4ad281-24af-254a-de97-9903b7c446e4",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ba4ad281-24af-254a-de97-9903b7c446e6",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"f53b28eb-0bcd-9068-0f6c-8e0dedc68b54\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ba4ad281-24af-254a-de97-9903b7c446e8",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ba4ad281-24af-254a-de97-9903b7c446ea",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Listino prezzi</h6>",
+              "text": "Listino prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "57af09ad-a99b-4c4f-9c3f-0e8a9a29497b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a956ce64b11fafb9e1e33d3"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "57af09ad-a99b-4c4f-9c3f-0e8a9a294983",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Listino prezzi</h1>",
+              "text": "Listino prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "57af09ad-a99b-4c4f-9c3f-0e8a9a294985",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Prestazioni in evidenza e relativi prezzi</p>",
+              "text": "Prestazioni in evidenza e relativi prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24123a",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik\">Prima visita</p>",
+              "text": "Prima visita"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "9c4bb9a0-87f0-9dc5-e283-0e9e0aefe8cb",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "feb7be72-d3e8-735c-dfe4-84cd1610840b",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Visita medica<br data-w-id=\"feb7be72-d3e8-735c-dfe4-84cd1610840d\"></p>",
+              "text": "Visita medica\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "4d076e3b-65bc-2fa1-ae06-744ec6163c39",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "46fc54de-1071-affa-d6d9-b197baf8a648",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">TAC<br data-w-id=\"46fc54de-1071-affa-d6d9-b197baf8a64a\"></p>",
+              "text": "TAC\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "cd705399-1259-d9e3-3e45-dbbd3b7207b5",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cd705399-1259-d9e3-3e45-dbbd3b7207b6",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Spiegazione dei risultati della TAC<br data-w-id=\"cd705399-1259-d9e3-3e45-dbbd3b7207b8\"></p>",
+              "text": "Spiegazione dei risultati della TAC\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "91a2c7d7-ab2a-3374-63ec-16226b7a8da9",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "91a2c7d7-ab2a-3374-63ec-16226b7a8daa",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Diagnosi<br data-w-id=\"91a2c7d7-ab2a-3374-63ec-16226b7a8dac\"></p>",
+              "text": "Diagnosi\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "23b77549-4f1d-8b6e-243a-56a7ccc5773c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "23b77549-4f1d-8b6e-243a-56a7ccc5773d",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Opzioni di trattamento<br data-w-id=\"23b77549-4f1d-8b6e-243a-56a7ccc5773f\"></p>",
+              "text": "Opzioni di trattamento\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "716734d4-5f3d-1442-7868-108f0cd10820",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "716734d4-5f3d-1442-7868-108f0cd10821",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Preventivo<br data-w-id=\"716734d4-5f3d-1442-7868-108f0cd10823\"></p>",
+              "text": "Preventivo\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "f1003460-f02b-9de6-33b8-0ae223e703e1",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f1003460-f02b-9de6-33b8-0ae223e703e2",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Trasporto da Trieste e ritorno<br data-w-id=\"f1003460-f02b-9de6-33b8-0ae223e703e4\"></p>",
+              "text": "Trasporto da Trieste e ritorno\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "65b8a57a-1656-1545-f230-bc3f03348008",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "65b8a57a-1656-1545-f230-bc3f03348009",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Supporto riguardo alle modalità di pagamento, al trasporto e all’alloggio<br data-w-id=\"65b8a57a-1656-1545-f230-bc3f0334800b\"></p>",
+              "text": "Supporto riguardo alle modalità di pagamento, al trasporto e all’alloggio\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bd493603-b561-6752-db0d-121cf409c093",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">0&nbsp;€</div>",
+              "text": "0 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f52",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik\">Il pacchetto “Protesi definitiva ancorata su 4 impianti”</p>",
+              "text": "Il pacchetto “Protesi definitiva ancorata su 4 impianti”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "76958627-a533-21ce-cb5c-197966005f58",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f59",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Estrazione di denti e impianti integrati, se necessario<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f5b\"></p>",
+              "text": "Estrazione di denti e impianti integrati, se necessario\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "387942a9-5701-5687-39e9-d56e028cc843",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f5e",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Livellamento osseo<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f60\"></p>",
+              "text": "Livellamento osseo\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "6745c822-b568-db53-309e-0e192bac3131",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f63",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Posizionamento di quattro impianti<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f65\"></p>",
+              "text": "Posizionamento di quattro impianti\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "7b142e71-1942-1091-935d-7c194a384dea",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f68",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Applicazione di quattro viti di copertura<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f6a\"></p>",
+              "text": "Applicazione di quattro viti di copertura\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "8516d53d-5436-6707-6259-f4ba360ec045",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f6d",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Installazione di quattro locatori o monconi a sfera<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f6f\"></p>",
+              "text": "Installazione di quattro locatori o monconi a sfera\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "65c2e4a2-598f-8cda-2253-689a85888272",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f72",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Protesi provvisoria<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f74\"></p>",
+              "text": "Protesi provvisoria\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "2060ad6e-e68a-0243-b241-36f79a931920",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f77",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Protesi definitiva<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f79\"></p>",
+              "text": "Protesi definitiva\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e990cfe8-8b6d-8b7b-f1db-0e420e6b6d52",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f7c",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Anestesia<br data-w-id=\"76958627-a533-21ce-cb5c-197966005f7e\"></p>",
+              "text": "Anestesia\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f80",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">Prezzo fisso a </div>",
+              "text": "Prezzo fisso a "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "76958627-a533-21ce-cb5c-197966005f82",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">2.990&nbsp;€</div>",
+              "text": "2.990 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc13f",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik\">Il pacchetto Premium “Ponte fisso su impianti”</p>",
+              "text": "Il pacchetto Premium “Ponte fisso su impianti”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc145",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc146",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\"><strong data-w-id=\"d02700f6-8028-2f9d-6e69-421a46134f12\">Numero illimitato di impianti</strong> (non solo impianti standard, ma anche pterigoidei di ultima generazione)<br data-w-id=\"fee9fc3f-8776-bdf2-9cfa-54ec29dcc148\"></p>",
+              "text": "Numero illimitato di impianti (non solo impianti standard, ma anche pterigoidei di ultima generazione)\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc14a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc14b",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Applicazione di viti di copertura<br data-w-id=\"fee9fc3f-8776-bdf2-9cfa-54ec29dcc14d\"></p>",
+              "text": "Applicazione di viti di copertura\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc14f",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc150",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Applicazione dei monconi protesici<br data-w-id=\"fee9fc3f-8776-bdf2-9cfa-54ec29dcc152\"></p>",
+              "text": "Applicazione dei monconi protesici\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc154",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc155",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Estrazione di denti e impianti integrati, se necessario</p>",
+              "text": "Estrazione di denti e impianti integrati, se necessario"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc159",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc15a",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Livellamento osseo<br data-w-id=\"fee9fc3f-8776-bdf2-9cfa-54ec29dcc15c\"></p>",
+              "text": "Livellamento osseo\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc15e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc15f",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Ponte fisso provvisorio OnX entro 24 ore<br data-w-id=\"fee9fc3f-8776-bdf2-9cfa-54ec29dcc161\"></p>",
+              "text": "Ponte fisso provvisorio OnX entro 24 ore\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc163",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc164",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Anestesia<br data-w-id=\"fee9fc3f-8776-bdf2-9cfa-54ec29dcc166\"></p>",
+              "text": "Anestesia\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc16d",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">Prezzo fisso a </div>",
+              "text": "Prezzo fisso a "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fee9fc3f-8776-bdf2-9cfa-54ec29dcc16f",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">4.990&nbsp;€</div>",
+              "text": "4.990 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bce",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik\">Pacchetto tutto incluso: „Sbiancamento dei denti“</p>",
+              "text": "Pacchetto tutto incluso: „Sbiancamento dei denti“"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bd4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bd5",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Rimozione del tartaro: elimina i depositi duri dai denti con vibrazioni ultrasoniche, prevenendo alitosi, gengivite e parodontite<br data-w-id=\"beb6b2f1-a216-f048-e493-d41900191bd9\"></p>",
+              "text": "Rimozione del tartaro: elimina i depositi duri dai denti con vibrazioni ultrasoniche, prevenendo alitosi, gengivite e parodontite\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bdb",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bdc",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Pulizia dentale con tecnologia Air Flow: un trattamento delicato, indolore e sicuro, che rimuove efficacemente la placca e le pigmentazioni superficiali, lasciando i denti più puliti e luminosi.<br data-w-id=\"beb6b2f1-a216-f048-e493-d41900191bde\"></p>",
+              "text": "Pulizia dentale con tecnologia Air Flow: un trattamento delicato, indolore e sicuro, che rimuove efficacemente la placca e le pigmentazioni superficiali, lasciando i denti più puliti e luminosi.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191be0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191be1",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Due mascherine personalizzate per uno sbiancamento efficace (realizzate sulla base di una scansione intraorale)<br data-w-id=\"beb6b2f1-a216-f048-e493-d41900191be3\"></p>",
+              "text": "Due mascherine personalizzate per uno sbiancamento efficace (realizzate sulla base di una scansione intraorale)\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191be5",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191be6",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Gel sbiancante professionale</p>",
+              "text": "Gel sbiancante professionale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191be9",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bea",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Crema per la protezione dei denti dopo lo sbiancamento<br data-w-id=\"beb6b2f1-a216-f048-e493-d41900191bec\"></p>",
+              "text": "Crema per la protezione dei denti dopo lo sbiancamento\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bee",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bef",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Istruzioni per l’uso in italiano<br data-w-id=\"beb6b2f1-a216-f048-e493-d41900191bf1\"></p>",
+              "text": "Istruzioni per l’uso in italiano\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bf3",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bf4",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Anestesia<br data-w-id=\"beb6b2f1-a216-f048-e493-d41900191bf6\"></p>",
+              "text": "Anestesia\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bf8",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">Prezzo fisso a </div>",
+              "text": "Prezzo fisso a "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "beb6b2f1-a216-f048-e493-d41900191bfa",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">250&nbsp;€</div>",
+              "text": "250 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0fe8171d-f44f-d682-5a23-6adf0b01a74e",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik bez\">Corone dentali</p>",
+              "text": "Corone dentali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8a236bab-eac8-4820-4df2-301a00952053",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">A partire da </div>",
+              "text": "A partire da "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8a236bab-eac8-4820-4df2-301a00952055",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">220&nbsp;€</div>",
+              "text": "220 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7763ed46-1cd6-389b-a5e0-8ab9d01e820c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik bez\">Protesi mobili e semifisse</p>",
+              "text": "Protesi mobili e semifisse"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7763ed46-1cd6-389b-a5e0-8ab9d01e820f",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">A partire da</div>",
+              "text": "A partire da"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7763ed46-1cd6-389b-a5e0-8ab9d01e8211",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">319&nbsp;€</div>",
+              "text": "319 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "75183002-43aa-e7a0-9030-986f61661173",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik bez\">Rimodellamento gengivale (Gummy smile)</p>",
+              "text": "Rimodellamento gengivale (Gummy smile)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "75183002-43aa-e7a0-9030-986f61661176",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">A partire da </div>",
+              "text": "A partire da "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "75183002-43aa-e7a0-9030-986f61661178",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">119&nbsp;€</div>",
+              "text": "119 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d9a4bf2b-92eb-0582-a0f0-755acf68680b",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna cjenik bez\">Faccette estetiche</p>",
+              "text": "Faccette estetiche"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d9a4bf2b-92eb-0582-a0f0-755acf68680e",
+            "text": {
+              "html": "<div class=\"large-paragraph _2\">A partire da </div>",
+              "text": "A partire da "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d9a4bf2b-92eb-0582-a0f0-755acf686810",
+            "text": {
+              "html": "<div class=\"cijena cjenik\">420&nbsp;€</div>",
+              "text": "420 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 97
+        },
+        "lastUpdated": "2026-09-04T13:37:29.419Z"
+      }
+    }
+  ]
+}

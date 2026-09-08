@@ -1,0 +1,94 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:57.325Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source kartica Facilissimo: sbiancamento dei denti",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults kartica Facilissimo: sbiancamento dei denti",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source kartica Facilissimo: sbiancamento dei denti",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "9db036bc-9bac-25ca-e571-158aa48dd517",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "9db036bc-9bac-25ca-e571-158aa48dd519",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9db036bc-9bac-25ca-e571-158aa48dd51b",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/prestazioni/sbiancamento-dei-denti\">Facilissimo: sbiancamento dei denti</a>",
+              "text": "Facilissimo: sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9db036bc-9bac-25ca-e571-158aa48dd51d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.</p>",
+              "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9db036bc-9bac-25ca-e571-158aa48dd521",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong data-w-id=\"9db036bc-9bac-25ca-e571-158aa48dd522\">Prezzo fisso a 250 €</strong></div>",
+              "text": "Prezzo fisso a 250 €"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults kartica Facilissimo: sbiancamento dei denti",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "9db036bc-9bac-25ca-e571-158aa48dd517",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

@@ -8,5 +8,9 @@
     }
   },
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"]
+  "exclude": [
+    "dist",
+    "source-assets/**",
+    "reference/webflow-handoff/*/extracted/**"
+  ]
 }

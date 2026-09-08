@@ -1,0 +1,569 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:37:26.221Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba882",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba882",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba882",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba882",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "9fe27da0-faeb-9e6c-f9c0-ac6408beaee9",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"9fe27da0-faeb-9e6c-f9c0-ac6408beaeea\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9fe27da0-faeb-9e6c-f9c0-ac6408beaeec",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9fe27da0-faeb-9e6c-f9c0-ac6408beaeee",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/prestazioni-dentali\" data-w-id=\"e53fa36d-5d86-cc08-1ffb-2a2ab7df2b78\">Prestazioni</a></h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9fe27da0-faeb-9e6c-f9c0-ac6408beaef0",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9fe27da0-faeb-9e6c-f9c0-ac6408beaef2",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Imperdibile: protesi definitiva ancorata su 4 impianti</h6>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "b529a6c9-65db-e4e1-0fb7-85794f6f9d4e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e8253f93ce4afce97988"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b529a6c9-65db-e4e1-0fb7-85794f6f9d53",
+            "text": {
+              "html": "<h6 class=\"nadnaslov-detaljna\">Pacchetto “tutto incluso”</h6>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b529a6c9-65db-e4e1-0fb7-85794f6f9d56",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Imperdibile: protesi definitiva ancorata su 4 impianti</h1>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b529a6c9-65db-e4e1-0fb7-85794f6f9d58",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Prezzo fisso per una <a href=\"/prestazioni/corone-faccette-ponti-e-protesi#protesi_mobili\" class=\"link-svijetli\" data-w-id=\"11017bd4-40c7-db3d-1560-9fb26991ea95\">protesi </a>definitiva su <a class=\"link-svijetli\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88d\" data-w-id=\"c7cc24a0-3eaf-234e-a908-db998827e99d\">4 impianti</a>, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.</p>",
+              "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b3d109d-0081-c1f2-4878-6403331d0b79",
+            "text": {
+              "html": "<div class=\"text-block-11\">Prezzo fisso a 2.990€<br data-w-id=\"6c5a9c99-7fb4-06c4-a3f9-480841d50955\"></div>",
+              "text": "Prezzo fisso a 2.990€\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "23d5ada7-8dad-b239-c81e-4b3e840f8002",
+            "text": {
+              "html": "<div class=\"text-block-11\"><span class=\"text-span-4\" data-w-id=\"23d5ada7-8dad-b239-c81e-4b3e840f8005\"><strong class=\"bold-text-3\" data-w-id=\"23d5ada7-8dad-b239-c81e-4b3e840f8006\">(2.421,9&nbsp;€*)</strong></span></div>",
+              "text": "(2.421,9 €*)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "47933700-bb97-b61f-e191-7a4f486d24c1",
+            "text": {
+              "html": "<h3 class=\"large-paragraph\">Il pacchetto “Protesi definitiva ancorata su 4 impianti” comprende:</h3>",
+              "text": "Il pacchetto “Protesi definitiva ancorata su 4 impianti” comprende:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "af97d28d-4e6d-f6ec-60b1-a68846a13a92",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "af97d28d-4e6d-f6ec-60b1-a68846a13a93",
+            "text": {
+              "html": "<div class=\"text-block-16\">Estrazione di denti e impianti integrati, se necessario</div>",
+              "text": "Estrazione di denti e impianti integrati, se necessario"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "74e51574-9294-1e07-4389-4d541fa1edaa",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "74e51574-9294-1e07-4389-4d541fa1edab",
+            "text": {
+              "html": "<div class=\"text-block-16\">Livellamento osseo</div>",
+              "text": "Livellamento osseo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "34818983-08ec-1501-08f7-7c1ea736d27f",
+            "text": {
+              "html": "<div class=\"text-block-16\">Posizionamento di quattro impianti</div>",
+              "text": "Posizionamento di quattro impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "33be8193-89b3-6b24-e08e-b5f575ea61e0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "33be8193-89b3-6b24-e08e-b5f575ea61e1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Applicazione di quattro viti di copertura</div>",
+              "text": "Applicazione di quattro viti di copertura"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e133b9e5-9ab2-371f-9579-3ed7df0be5d4",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e133b9e5-9ab2-371f-9579-3ed7df0be5d5",
+            "text": {
+              "html": "<div class=\"text-block-16\">Installazione di quattro locatori o monconi a sfera</div>",
+              "text": "Installazione di quattro locatori o monconi a sfera"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e088f9be-6b61-c156-9d33-fdadb9adb631",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e088f9be-6b61-c156-9d33-fdadb9adb632",
+            "text": {
+              "html": "<div class=\"text-block-16\">Protesi provvisoria</div>",
+              "text": "Protesi provvisoria"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "dcc9e8cd-8e67-dde1-f07f-39cdbe1dc312",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "dcc9e8cd-8e67-dde1-f07f-39cdbe1dc313",
+            "text": {
+              "html": "<div class=\"text-block-16\">Protesi definitiva</div>",
+              "text": "Protesi definitiva"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "a48fe020-f79a-4432-b929-ac58b64eb0a0",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\"><path d=\"m7 12.5l3 3l7-7\"></path><path d=\"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10Z\"></path></g></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a48fe020-f79a-4432-b929-ac58b64eb0a1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Anestesia</div>",
+              "text": "Anestesia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9f43e4f6-e458-0d15-07f3-6e0896abb339",
+            "text": {
+              "html": "<div class=\"text-block-16 malo\">* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%.</div>",
+              "text": "* Questa è la spesa indicativa che dovrai sostenere se usufruirai della detrazione IRPEF del 19%."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Questo Pacchetto è la scelta ideale per chi ha perso, o sta per perdere, tutti i denti e desidera una soluzione stabile, funzionale e conveniente.<br data-w-id=\"4ad708dd-66f5-5085-8ead-be636d96dbfc\">‍<br data-w-id=\"4ff514a1-6dae-e868-fbc6-e748c1b6c33f\">Se in futuro desideri sostituire la protesi con un ponte fisso, potrai farlo senza difficoltà: basterà aggiungere alcuni impianti.<br data-w-id=\"7150ddc0-80bd-9a18-9c99-31fa75036d28\"></p>",
+              "text": "Questo Pacchetto è la scelta ideale per chi ha perso, o sta per perdere, tutti i denti e desidera una soluzione stabile, funzionale e conveniente.\n‍\nSe in futuro desideri sostituire la protesi con un ponte fisso, potrai farlo senza difficoltà: basterà aggiungere alcuni impianti.\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d1332290-f4cb-6c51-1229-fe38dba642bb",
+            "text": {
+              "html": "<div class=\"medjunaslov-h2-detaljna\">Vantaggi aggiuntivi</div>",
+              "text": "Vantaggi aggiuntivi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "05e776dc-f66d-53ca-d62d-f55172b5f565",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "47c98e00-38a5-1b5a-a067-9be9184c2235",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Possibilità di soggiorno gratuito all’interno della clinica<br data-w-id=\"f4323491-19eb-c573-3cbd-3702e82d21e0\"></p>",
+              "text": "Possibilità di soggiorno gratuito all’interno della clinica\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "81349ecc-ddc9-f696-f766-2e824db13b2a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "413d376a-f60d-a5e3-25f6-881e60a0e832",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%<br data-w-id=\"413d376a-f60d-a5e3-25f6-881e60a0e834\"></p>",
+              "text": "Fatture in lingua italiana – non è necessario tradurle per usufruire della detrazione IRPEF del 19%\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "aa67df41-1ad7-88ca-152e-04984747659e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "345449f5-28ed-043b-2aaa-98318b6b4791",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Garanzia scritta sugli impianti<br data-w-id=\"a22a5455-de25-e649-fce7-ffed27176ec5\"></p>",
+              "text": "Garanzia scritta sugli impianti\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "8fdb8cac-281a-4af3-3b12-29c2fc56a0e5",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d77c8ced-4a1d-8782-95b0-aeae0865bd33",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Passaporto dell’impianto con i dettagli di ciascun impianto<br data-w-id=\"d77c8ced-4a1d-8782-95b0-aeae0865bd35\"></p>",
+              "text": "Passaporto dell’impianto con i dettagli di ciascun impianto\n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "e331691b-55de-50ce-4c11-23788c0cf83e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cc71236a-fb0d-71fb-4654-3487113f37ac",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Organizzazione del trasporto&nbsp;<br data-w-id=\"cc71236a-fb0d-71fb-4654-3487113f37ae\"></p>",
+              "text": "Organizzazione del trasporto \n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "3ea68d80-e941-ac89-abc4-b49916c0836e",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"10\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14Zm0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4Z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "828acbd0-1d56-8c1e-c334-4f34f61c504e",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Sedazione cosciente disponibile su richiesta&nbsp;<br data-w-id=\"828acbd0-1d56-8c1e-c334-4f34f61c5050\"></p>",
+              "text": "Sedazione cosciente disponibile su richiesta \n"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6e7b5764-dc5c-61b1-7a57-9ed9c0c27bd8",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La prima visita completa, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo.</p>",
+              "text": "La prima visita completa, con TAC inclusa, è gratuita. Dedica un po’ di tempo a te stesso e scopri tutte le opzioni e i vantaggi che ti offriamo dopo il controllo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Ulteriori informazioni</p>",
+              "text": "Ulteriori informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b1ea8b65-299e-9066-80cf-240ad43d94c7",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Inserimento degli impianti</h3>",
+              "text": "Inserimento degli impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">In un’unica seduta della durata di circa un’ora, e sotto anestesia locale, vengono estratti tutti i denti (e gli eventuali impianti integrati, se necessario). Successivamente viene eseguita la livellazione dell’osso per preparare il sito implantare nella maniera più sicura e precisa possibile, dopodiché vengono posizionati i nuovi impianti, garantendo un trattamento rapido, sicuro ed efficiente.</p>",
+              "text": "In un’unica seduta della durata di circa un’ora, e sotto anestesia locale, vengono estratti tutti i denti (e gli eventuali impianti integrati, se necessario). Successivamente viene eseguita la livellazione dell’osso per preparare il sito implantare nella maniera più sicura e precisa possibile, dopodiché vengono posizionati i nuovi impianti, garantendo un trattamento rapido, sicuro ed efficiente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcdc",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Perché 4 impianti?</h3>",
+              "text": "Perché 4 impianti?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcde",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il posizionamento di quattro impianti rappresenta la soluzione ottimale per garantire la stabilità della protesi. Un numero inferiore di impianti potrebbe ridurre la stabilità durante la parola o la masticazione, mentre un numero maggiore non comporterebbe un miglioramento significativo della stabilità complessiva.</p>",
+              "text": "Il posizionamento di quattro impianti rappresenta la soluzione ottimale per garantire la stabilità della protesi. Un numero inferiore di impianti potrebbe ridurre la stabilità durante la parola o la masticazione, mentre un numero maggiore non comporterebbe un miglioramento significativo della stabilità complessiva."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa5",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Protesi rinforzata con supporto locator</h3>",
+              "text": "Protesi rinforzata con supporto locator"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "81b48bc3-8773-9e6e-8670-a8a166a1bfa7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Questa protesi è rinforzata rispetto a una protesi tradizionale, aumentando così resistenza e durata. Al suo interno sono integrati dei supporti per i locator sugli impianti, permettendo alla protesi di fissarsi saldamente e garantendo una stabilità eccezionale, incomparabile con quella di una protesi convenzionale.</p>",
+              "text": "Questa protesi è rinforzata rispetto a una protesi tradizionale, aumentando così resistenza e durata. Al suo interno sono integrati dei supporti per i locator sugli impianti, permettendo alla protesi di fissarsi saldamente e garantendo una stabilità eccezionale, incomparabile con quella di una protesi convenzionale."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a5",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Prima dell’intervento</h3>",
+              "text": "Prima dell’intervento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99d716fd-672b-03de-1a34-651f356fa2a7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Assumere un antibiotico secondo le indicazioni della clinica.</p>",
+              "text": "Assumere un antibiotico secondo le indicazioni della clinica."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ba1f5fe-c113-0079-6664-a7686b347b23",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Risultato finale</h3>",
+              "text": "Risultato finale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ba1f5fe-c113-0079-6664-a7686b347b25",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La protesi fissata su 4 impianti è progettata per offrire un aspetto completamente naturale, ripristinando l’estetica del sorriso e aumentando la fiducia in sé stessi. Grazie alla sua fissazione sicura, garantisce comfort e stabilità durante le attività quotidiane come masticare e parlare.</p>",
+              "text": "La protesi fissata su 4 impianti è progettata per offrire un aspetto completamente naturale, ripristinando l’estetica del sorriso e aumentando la fiducia in sé stessi. Grazie alla sua fissazione sicura, garantisce comfort e stabilità durante le attività quotidiane come masticare e parlare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf1",
+            "text": {
+              "html": "<h3 class=\"medjunaslov-h3\">Manutenzione</h3>",
+              "text": "Manutenzione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "25a1eb9a-3d16-1aae-cf90-5839d0ef7bf3",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Inoltre, la manutenzione è semplice e agevole, permettendo una pulizia quotidiana facile e senza complicazioni, per un sorriso sano e duraturo nel tempo.<br data-w-id=\"7d476995-5ebf-5338-2c34-99a6aa7644bf\"><br data-w-id=\"b9cf01c8-ceb8-3db2-e763-2c6b5e41db90\">La protesi, saldamente fissata agli impianti, non si muove durante la masticazione o il parlare, offrendo maggiore sicurezza rispetto a una protesi mobile tradizionale, e permette di masticare e parlare quasi come se si avessero denti naturali, migliorando notevolmente la qualità della vita.</p>",
+              "text": "Inoltre, la manutenzione è semplice e agevole, permettendo una pulizia quotidiana facile e senza complicazioni, per un sorriso sano e duraturo nel tempo.\n\nLa protesi, saldamente fissata agli impianti, non si muove durante la masticazione o il parlare, offrendo maggiore sicurezza rispetto a una protesi mobile tradizionale, e permette di masticare e parlare quasi come se si avessero denti naturali, migliorando notevolmente la qualità della vita."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "96ceed03-9909-68ff-e23c-9cdd2c8874eb",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna-altre\">Altre prestazioni</p>",
+              "text": "Altre prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c67",
+            "componentId": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "9db036bc-9bac-25ca-e571-158aa48dd525",
+            "componentId": "9db036bc-9bac-25ca-e571-158aa48dd517",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8e",
+            "componentId": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "9c0662dd-5cfc-ca58-fd5b-c0c027504814",
+            "componentId": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 67
+        },
+        "lastUpdated": "2026-09-04T13:36:47.835Z"
+      }
+    }
+  ]
+}

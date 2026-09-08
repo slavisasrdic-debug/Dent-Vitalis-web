@@ -1,0 +1,1149 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:40:18.057Z",
+  "tool": "mcp__codex_apps__webflow_data_pages_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Primary locale JSON-LD settings",
+        "query_pages_schema_markup": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "pages": [
+            {
+              "id": "6a97db25519800ebff25b9f2"
+            },
+            {
+              "id": "6a97db259aad9ee4bb4bd328"
+            },
+            {
+              "id": "6a8d7da66a4b3462ca3f0a23"
+            },
+            {
+              "id": "6a8d7da585ba860c0b521829"
+            },
+            {
+              "id": "6a8d7da5fff15c0449d670e2"
+            },
+            {
+              "id": "696f4a9a3d82954cb43ac683"
+            },
+            {
+              "id": "696f49d7f343717fcadfcf28"
+            },
+            {
+              "id": "69679710d4037ebd0cbb9df2"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba898"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba897"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba896"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba894"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba893"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba892"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba891"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba890"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88e"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88d"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88c"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88b"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba88a"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba889"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba888"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba886"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba885"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba884"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba882"
+            },
+            {
+              "id": "695e1eeeb10c5fb8eeaba87c"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Primary locale JSON-LD settings",
+      "action": "query_pages_schema_markup",
+      "result": {
+        "pages": [
+          {
+            "id": "6a97db25519800ebff25b9f2",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": null,
+            "publishedPath": "/condizioni-di-utilizzo",
+            "lastUpdated": "2026-09-02T12:06:36.113Z",
+            "jsonLdSchema": null,
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "6a97db259aad9ee4bb4bd328",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": null,
+            "publishedPath": "/informativa-sulla-privacy",
+            "lastUpdated": "2026-09-02T12:05:45.770Z",
+            "jsonLdSchema": null,
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "6a8d7da66a4b3462ca3f0a23",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni-per-pazienti",
+            "lastUpdated": "2026-09-04T13:27:37.092Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "6a8d7da585ba860c0b521829",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/chi-siamo",
+            "lastUpdated": "2026-09-04T09:03:47.785Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "6a8d7da5fff15c0449d670e2",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/prestazioni-dentali",
+            "lastUpdated": "2026-09-03T12:36:37.020Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Prestazioni",
+                  "item": "https://www.dentvitalis.com/prestazioni-dentali"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "696f4a9a3d82954cb43ac683",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/trasporto",
+            "lastUpdated": "2026-08-31T14:00:45.660Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Trasporto",
+                  "item": "https://www.dentvitalis.com/informazioni/trasporto"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "696f49d7f343717fcadfcf28",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/alloggio",
+            "lastUpdated": "2026-08-31T13:58:44.691Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Alloggio",
+                  "item": "https://www.dentvitalis.com/informazioni/alloggio"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "69679710d4037ebd0cbb9df2",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/testimonianze",
+            "lastUpdated": "2026-09-03T07:57:05.091Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Testimonianze",
+                  "item": "https://www.dentvitalis.com/testimonianze"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba898",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/contatti",
+            "lastUpdated": "2026-09-04T09:26:32.092Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Contatti",
+                  "item": "https://www.dentvitalis.com/contatti"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba897",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/faq",
+            "lastUpdated": "2026-08-31T15:09:14.168Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://www.dentvitalis.com/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Domande e risposte",
+                      "item": "https://www.dentvitalis.com/faq"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FAQPage",
+                  "mainEntity": [
+                    {
+                      "@type": "Question",
+                      "name": "Dove si trova Rijeka (Fiume)?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Fiume si trova sul Mar Adriatico, a soli 60 km da Trieste."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Perché scegliere Rijeka (Fiume) per le cure dentistiche?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Rijeka è facilmente raggiungibile dall’Italia. Qui vi sentirete subito a casa: grazie alla storia condivisa, la maggior parte degli abitanti parla fluentemente l’italiano, rendendo ogni visita piacevole e senza difficoltà di comunicazione. Grazie alla sua posizione strategica, visitare Rijeka per le tue cure odontoiatriche significa unire cura e relax in un’unica esperienza."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Perché visitare Rijeka (Fiume)?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Affacciata sul mare Adriatico, Rijeka è circondata da alcune delle mete turistiche più amate e facilmente raggiungibili durante tutto l’anno. Tra le destinazioni più popolari si trovano Opatija (Abbazia), le splendide isole di Krk, Lošinj e Cres, oltre alle rinomate località istriane come Rovigno, Parenzo e Pola."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "La Croazia è nell’UE?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, la Croazia è membro a pieno titolo dell’UE dal 2013."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Esiste il controllo di frontiera per entrare in Croazia?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "La Croazia fa parte dello spazio Schengen. In caso di controlli sporadici, basta avere un documento d’identità valido."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "In quale valuta e come si paga in Croazia?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "In Croazia si utilizza l’euro. È possibile pagare in contanti (fino a 10.000 euro), con bonifico bancario o con carta di credito. Il contante può essere prelevato facilmente dagli sportelli automatici (ATM)."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Dentisti italiani o croati?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "I dentisti croati godono di grande popolarità per ottime ragioni. La facoltà di odontoiatria in Croazia è un corso di sei anni completamente dedicato ai denti e alla mascella, permettendo ai professionisti di acquisire eccellente preparazione e pratica fin dall’inizio della carriera. Inoltre, grazie a un elevato numero di pazienti, i dentisti croati accumulano esperienza superiore, garantendo risultati di alta qualità. Per scegliere la clinica giusta, in Croazia o in Italia, affidati a professionisti con esperienza e referenze solide: alla fine, ciò che conta davvero è ottenere il miglior rapporto qualità-prezzo."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "A cosa fare attenzione se scegli di curare i denti in Croazia?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Non è sempre facile scegliere la clinica giusta, ma alcuni criteri possono aiutarti: verifica da quanto tempo opera e con quali risultati, controlla le valutazioni su Google (che riflettono la soddisfazione reale dei pazienti) e accertati che tutta la documentazione ti venga fornita in forma scritta e nella tua lingua. Questi aspetti valgono anche per i dentisti italiani, ma se hai deciso di curare i denti in Croazia grazie ai prezzi più convenienti, è fondamentale prestare attenzione a questi elementi per garantire cure sicure e di qualità."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Quanto costa fare i denti in Croazia?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "I prezzi in Croazia sono decisamente più convenienti rispetto all’Italia. Più l’intervento è complesso - ad esempio nell’implantologia - maggiori sono i risparmi, che possono arrivare fino al 50%, senza compromettere la qualità delle cure."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Qual è la differenza tra curare i denti in Albania o in Croazia?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "L’Albania non fa parte dell’Unione Europea, quindi i pazienti non godono delle stesse tutele previste dalle normative europee sulla qualità dei materiali e sulle garanzie. Questo significa che, in caso di problemi, le protezioni legali sono molto più limitate rispetto alla Croazia. Se prevedi di usufruire della detrazione fiscale per le cure odontoiatriche (19%), tieni presente che senza il certificato di conformità non sarà possibile ottenere il beneficio. Inoltre, le fatture in Albania sono emesse nella valuta locale (lek), il che comporta la necessità di conversione in euro e di dimostrare il tasso di cambio, con ulteriori complicazioni amministrative. Per evitare difficoltà future, è quindi fondamentale raccogliere tutte le informazioni necessarie prima di decidere dove effettuare le cure dentistiche."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Quanto risparmio se faccio i denti da Dentvitalis?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Da Dentvitalis puoi risparmiare più del 50% rispetto ai prezzi italiani, soprattutto per interventi complessi di implantologia. Inoltre, potrai usufruire di vantaggi esclusivi su trasporto e alloggio. Tutte le informazioni ti saranno fornite durante la prima visita gratuita."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Quanto costa un impianto dentale?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il prezzo di un singolo impianto parte da 249 euro. Tuttavia, se hai bisogno di un impianto, questo non sarà il costo finale. Infatti, l’impianto viene inserito nell’osso e su di esso viene avvitata una componente chiamata moncone, sulla quale si posiziona la corona. Il costo totale dipenderà dal tipo di moncone e dalla scelta della corona. Approfitta della visita gratuita e decidi insieme al dentista quale opzione è la migliore per te."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Quanto costa una corona dentale?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Il prezzo di una singola corona su un dente naturale è di 330 euro."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Quali impianti utilizza Dentvitalis?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Utilizziamo sistemi implantari Nobel Biocare, Straumann e JD (made in Italy). Se hai già impianti Astra Tech, Bredent, Dentium, Sweden & Martina, PHI, 3i, Ankylos o Brånemark, possiamo, se necessario, aggiungere altri impianti o, se sono disponibili i componenti, realizzare un nuovo lavoro protesico sugli impianti esistenti."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "È possibile avere ogni corona singola su un impianto oppure devono essere unite in un ponte?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sì, se hai abbastanza osso per l’inserimento di più impianti, puoi avere una corona separata su ciascun impianto. In alternativa, puoi scegliere il ‘Malo ponte’ su impianti, dove ogni corona viene fissata singolarmente sulla base del ponte, ottenendo un risultato estetico eccezionale."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Qual è la differenza tra una corona dentale in zirconio e una corona in ceramica?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "La corona in zirconio è realizzata in ossido di zirconio, un materiale molto resistente e durevole, ideale per i denti posteriori soggetti a masticazione intensa; offre un aspetto naturale, anche se leggermente meno traslucido rispetto alla ceramica, e spesso viene utilizzata come base su cui applicare uno strato di ceramica per migliorarne l’estetica. La corona in ceramica, invece, è realizzata interamente in ceramica o porcellana ed è molto estetica, con trasparenza e colore simili al dente naturale, ma meno resistente dello zirconio, quindi più adatta ai denti anteriori o a zone con minor carico masticatorio, ed è ideale quando l’aspetto estetico è la priorità. In sintesi, lo zirconio punta sulla resistenza e sulla durata mentre la ceramica privilegia l’estetica naturale."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Dove posso vedere le esperienze di altri pazienti?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Sul nostro sito web sono riportate solo alcune delle esperienze dei nostri pazienti. Se vuoi leggere altre testimonianze, visita il nostro profilo Google."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Cosa devo portare alla prima visita?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Da Dentvitalis tutta la diagnostica necessaria per i trattamenti dentali, l’implantologia e la chirurgia orale, compresa la TAC, è completamente gratuita. Ti consigliamo però di portare con te eventuali farmaci che assumi regolarmente, così i nostri specialisti potranno valutare al meglio il tuo stato di salute generale."
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba896",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/domande-e-risposte",
+            "lastUpdated": "2026-09-02T13:25:01.928Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Galleria",
+                  "item": "https://www.dentvitalis.com/domande-e-risposte"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba894",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/listino-prezzi",
+            "lastUpdated": "2026-09-04T13:37:29.395Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Listino prezzi",
+                  "item": "https://www.dentvitalis.com/informazioni/listino-prezzi"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba893",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/garanzie",
+            "lastUpdated": "2026-08-31T13:55:23.066Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Garanzie",
+                  "item": "https://www.dentvitalis.com/informazioni/garanzie"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba892",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/pagamento-flessibile",
+            "lastUpdated": "2026-09-02T12:32:28.686Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Pagamento flessibile",
+                  "item": "https://www.dentvitalis.com/informazioni/pagamento-flessibile"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba891",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/tempi-del-trattamento",
+            "lastUpdated": "2026-08-31T13:23:17.759Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Tempi del trattamento",
+                  "item": "https://www.dentvitalis.com/informazioni/tempi-del-trattamento"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba890",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/informazioni/prima-visita-gratuita",
+            "lastUpdated": "2026-09-02T10:35:16.089Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Informazioni",
+                  "item": "https://www.dentvitalis.com/informazioni-per-pazienti"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Prima visita gratuita",
+                  "item": "https://www.dentvitalis.com/informazioni/prima-visita-gratuita"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88e",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/prestazioni/sedazione-cosciente",
+            "lastUpdated": "2026-09-02T13:38:42.511Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Sedazione cosciente",
+                  "item": "https://www.dentvitalis.com/su-di-noi/sedazione-cosciente"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88d",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/su-di-noi/impianti-di-nuova-generazione",
+            "lastUpdated": "2026-08-31T11:56:27.892Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Impianti di nuova generazione",
+                  "item": "https://www.dentvitalis.com/su-di-noi/impianti-di-nuova-generazione"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88c",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/su-di-noi/materiali-e-apparecchiature",
+            "lastUpdated": "2026-08-31T11:28:55.037Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Materiali e apparecchiature",
+                  "item": "https://www.dentvitalis.com/su-di-noi/materiali-e-apparecchiature"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88b",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/su-di-noi/laboratorio-odontotecnico",
+            "lastUpdated": "2026-08-31T11:24:54.633Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Laboratorio odontotecnico",
+                  "item": "https://www.dentvitalis.com/su-di-noi/laboratorio-odontotecnico"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88a",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/su-di-noi/come-raggiungerci",
+            "lastUpdated": "2026-09-03T11:51:30.990Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Come raggiungerci?",
+                  "item": "https://www.dentvitalis.com/su-di-noi/come-raggiungerci"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba889",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/su-di-noi/tutto-in-un-unico-luogo",
+            "lastUpdated": "2026-08-31T10:59:36.899Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Tutto in un unico luogo",
+                  "item": "https://www.dentvitalis.com/su-di-noi/tutto-in-un-unico-luogo"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba888",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/su-di-noi/i-nostri-specialisti",
+            "lastUpdated": "2026-09-04T09:04:31.368Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Su di noi",
+                  "item": "https://www.dentvitalis.com/chi-siamo"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "I nostri specialisti",
+                  "item": "https://www.dentvitalis.com/su-di-noi/i-nostri-specialisti"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba886",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/prestazioni/corone-faccette-ponti-e-protesi",
+            "lastUpdated": "2026-09-04T13:37:19.035Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Prestazioni",
+                  "item": "https://www.dentvitalis.com/prestazioni-dentali"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Corone, faccette, ponti e protesi",
+                  "item": "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba885",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/prestazioni/sbiancamento-dei-denti",
+            "lastUpdated": "2026-09-04T13:37:08.768Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Prestazioni",
+                  "item": "https://www.dentvitalis.com/prestazioni-dentali"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Sbiancamento dei denti",
+                  "item": "https://www.dentvitalis.com/prestazioni/sbiancamento-dei-denti"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba884",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/prestazioni/premium-ponte-fisso-su-impianti",
+            "lastUpdated": "2026-09-04T13:36:58.163Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Prestazioni",
+                  "item": "https://www.dentvitalis.com/prestazioni-dentali"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Premium: ponte fisso su impianti",
+                  "item": "https://www.dentvitalis.com/prestazioni/premium-ponte-fisso-su-impianti"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba882",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+            "lastUpdated": "2026-09-04T13:36:47.812Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.dentvitalis.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Prestazioni",
+                  "item": "https://www.dentvitalis.com/prestazioni-dentali"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Protesi definitiva ancorata su 4 impianti",
+                  "item": "https://www.dentvitalis.com/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba87c",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "localeId": "695e1eeeb10c5fb8eeaba87f",
+            "effectiveLocaleId": "695e1eeeb10c5fb8eeaba87f",
+            "publishedPath": "/",
+            "lastUpdated": "2026-09-04T13:36:47.772Z",
+            "jsonLdSchema": {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Dentist",
+                  "@id": "https://www.dentvitalis.com/#dentist",
+                  "name": "DentVitalis",
+                  "legalName": "DentVitalis Fides d.o.o.",
+                  "url": "https://www.dentvitalis.com/",
+                  "telephone": "+38551688380",
+                  "email": "it@dentvitalis.com",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Krešimirova 60",
+                    "postalCode": "51000",
+                    "addressLocality": "Rijeka",
+                    "addressCountry": "HR"
+                  },
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": [
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday"
+                      ],
+                      "opens": "08:00",
+                      "closes": "16:00"
+                    }
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.dentvitalis.com/#website",
+                  "url": "https://www.dentvitalis.com/",
+                  "name": "DentVitalis",
+                  "inLanguage": "it",
+                  "publisher": {
+                    "@id": "https://www.dentvitalis.com/#dentist"
+                  }
+                }
+              ]
+            },
+            "rawJsonLdSchema": null,
+            "isInherited": false
+          }
+        ]
+      }
+    }
+  ]
+}

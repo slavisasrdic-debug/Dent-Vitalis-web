@@ -1,0 +1,31 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:39:25.361Z",
+  "tool": "mcp__codex_apps__webflow_data_assets_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Asset folder metadata",
+        "list_asset_folders": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Asset folder metadata",
+      "action": "list_asset_folders",
+      "result": {
+        "assetFolders": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

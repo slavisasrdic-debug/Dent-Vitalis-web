@@ -1,0 +1,242 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:26.165Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba891",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba891",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba891",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba891",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "e271de97-aedd-562e-bf33-4ef0354f3096",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"e271de97-aedd-562e-bf33-4ef0354f3097\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e271de97-aedd-562e-bf33-4ef0354f3099",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e271de97-aedd-562e-bf33-4ef0354f309b",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/informazioni-per-pazienti\" data-w-id=\"83f16b67-06da-4b6f-962e-4731bfb21b13\">Informazioni</a></h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e271de97-aedd-562e-bf33-4ef0354f309d",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e271de97-aedd-562e-bf33-4ef0354f309f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Tempi del trattamento</h6>",
+              "text": "Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "586bea81-623d-139e-5a22-37fcdaf9ab11",
+            "image": {
+              "alt": "Tempi del trattamento",
+              "assetId": "6a86ee924685cf6950ab527a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "586bea81-623d-139e-5a22-37fcdaf9ab19",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Tempi del trattamento</h1>",
+              "text": "Tempi del trattamento"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "586bea81-623d-139e-5a22-37fcdaf9ab1b",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Le nostre terapie sono attentamente progettate per consentire ai pazienti di ottenere risultati eccellenti con il minor numero possibile di visite, attraverso un piano di cura personalizzato e organizzato in modo efficiente.</p>",
+              "text": "Le nostre terapie sono attentamente progettate per consentire ai pazienti di ottenere risultati eccellenti con il minor numero possibile di visite, attraverso un piano di cura personalizzato e organizzato in modo efficiente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "01415f8e-f1dc-065f-6696-5928ab24123a",
+            "componentId": "01415f8e-f1dc-065f-6696-5928ab24121b",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Grazie all’impiego di tecnologie avanzate, metodologie all’avanguardia e materiali di eccellente qualità, presso Dentvitalis siamo in grado di gestire con successo anche i casi più complessi in tempi brevi, senza compromessi in termini di qualità e precisione.<br data-w-id=\"a4b01150-4f6f-0a0d-f9ec-7c573541bf1a\"><br data-w-id=\"820b070d-5d21-ad43-f9e3-63cc0cae5376\">Tutti i servizi necessari sono disponibili in un’unica sede, rendendo l’intero percorso più semplice, rapido e confortevole per il paziente. Durante tutta la permanenza, garantiamo assistenza e supporto 24 ore su 24, affinché ogni paziente possa sentirsi sicuro, seguito e accompagnato in ogni fase del proprio percorso di cura.</p>",
+              "text": "Grazie all’impiego di tecnologie avanzate, metodologie all’avanguardia e materiali di eccellente qualità, presso Dentvitalis siamo in grado di gestire con successo anche i casi più complessi in tempi brevi, senza compromessi in termini di qualità e precisione.\n\nTutti i servizi necessari sono disponibili in un’unica sede, rendendo l’intero percorso più semplice, rapido e confortevole per il paziente. Durante tutta la permanenza, garantiamo assistenza e supporto 24 ore su 24, affinché ogni paziente possa sentirsi sicuro, seguito e accompagnato in ogni fase del proprio percorso di cura."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Tecnologia</p>",
+              "text": "Tecnologia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La diagnostica avanzata e la pianificazione precisa ci consentono di programmare in dettaglio ogni fase del percorso di cura, ridurre il numero di visite necessarie e rendere l’intero processo più rapido, preciso e prevedibile.</p>",
+              "text": "La diagnostica avanzata e la pianificazione precisa ci consentono di programmare in dettaglio ogni fase del percorso di cura, ridurre il numero di visite necessarie e rendere l’intero processo più rapido, preciso e prevedibile."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bad2587a-5047-b531-e551-b8942e00dcde",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nel caso delle terapie implantologiche, questo approccio consente di individuare con precisione la posizione ottimale dell’impianto, valutare in modo approfondito le strutture anatomiche e preparare accuratamente l’intervento, riducendo così la possibilità di imprevisti durante il percorso di cura.\n\nAllo stesso tempo, la pianificazione digitale e il coordinamento di tutte le fasi del trattamento permettono di accelerare la realizzazione delle soluzioni protesiche, ridurre i tempi di attesa e rendere l’intero percorso terapeutico più efficiente, mantenendo i più elevati standard di qualità e precisione.</p>",
+              "text": "Nel caso delle terapie implantologiche, questo approccio consente di individuare con precisione la posizione ottimale dell’impianto, valutare in modo approfondito le strutture anatomiche e preparare accuratamente l’intervento, riducendo così la possibilità di imprevisti durante il percorso di cura.\n\nAllo stesso tempo, la pianificazione digitale e il coordinamento di tutte le fasi del trattamento permettono di accelerare la realizzazione delle soluzioni protesiche, ridurre i tempi di attesa e rendere l’intero percorso terapeutico più efficiente, mantenendo i più elevati standard di qualità e precisione."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Laboratorio interno della clinica</p>",
+              "text": "Laboratorio interno della clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il laboratorio odontotecnico interno consente una collaborazione diretta e immediata tra odontoiatri e tecnici, facilitando il coordinamento e accelerando significativamente l’intero processo di realizzazione dei manufatti protesici. Senza la necessità di affidare i lavori a laboratori esterni, è possibile effettuare verifiche, correzioni e modifiche in tempi rapidi durante ogni fase della lavorazione.</p>",
+              "text": "Il laboratorio odontotecnico interno consente una collaborazione diretta e immediata tra odontoiatri e tecnici, facilitando il coordinamento e accelerando significativamente l’intero processo di realizzazione dei manufatti protesici. Senza la necessità di affidare i lavori a laboratori esterni, è possibile effettuare verifiche, correzioni e modifiche in tempi rapidi durante ogni fase della lavorazione."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Questa stretta integrazione permette di garantire un maggiore controllo sulla qualità, sulla precisione e sull’estetica di ogni manufatto, assicurandone al contempo un adattamento ottimale alle esigenze del paziente. Il risultato è una riduzione dei tempi di realizzazione, un minor numero di visite e una soluzione protesica di elevata qualità.<a href=\"/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali\" class=\"link\" data-w-id=\"30c9d597-2b1f-e23f-3270-217218770ebf\"></a></p>",
+              "text": "Questa stretta integrazione permette di garantire un maggiore controllo sulla qualità, sulla precisione e sull’estetica di ogni manufatto, assicurandone al contempo un adattamento ottimale alle esigenze del paziente. Il risultato è una riduzione dei tempi di realizzazione, un minor numero di visite e una soluzione protesica di elevata qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Alloggio all’interno della clinica</p>",
+              "text": "Alloggio all’interno della clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Quando il percorso terapeutico prevede più appuntamenti, la possibilità di soggiornare in un appartamento all’interno della clinica offre ai pazienti un ulteriore livello di comfort, privacy e praticità. Invece di attendere tra un appuntamento e l’altro o di dover organizzare il trasporto e il soggiorno in un’altra struttura, il paziente può semplicemente tornare nel proprio appartamento e riposarsi.\n\nTutto è organizzato in un’unica sede – alloggio, percorso terapeutico e assistenza – permettendo di organizzare più facilmente la giornata e riducendo il tempo trascorso inutilmente in sala d’attesa o negli spostamenti. È una soluzione particolarmente pratica per i pazienti che arrivano da altre città o dall’estero e desiderano avere l’intero percorso di cura organizzato in un unico luogo.</p>",
+              "text": "Quando il percorso terapeutico prevede più appuntamenti, la possibilità di soggiornare in un appartamento all’interno della clinica offre ai pazienti un ulteriore livello di comfort, privacy e praticità. Invece di attendere tra un appuntamento e l’altro o di dover organizzare il trasporto e il soggiorno in un’altra struttura, il paziente può semplicemente tornare nel proprio appartamento e riposarsi.\n\nTutto è organizzato in un’unica sede – alloggio, percorso terapeutico e assistenza – permettendo di organizzare più facilmente la giornata e riducendo il tempo trascorso inutilmente in sala d’attesa o negli spostamenti. È una soluzione particolarmente pratica per i pazienti che arrivano da altre città o dall’estero e desiderano avere l’intero percorso di cura organizzato in un unico luogo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a2d207f1-4153-feb3-fdd3-64075fcd4c0f",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Implantologia di entrambe le arcate in un’unica seduta</p>",
+              "text": "Implantologia di entrambe le arcate in un’unica seduta"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a2d207f1-4153-feb3-fdd3-64075fcd4c12",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La sedazione cosciente consente, quando previsto dal piano di cura individuale e in presenza delle necessarie indicazioni cliniche, di eseguire l’intervento implantologico su entrambe le arcate dentali in un’unica seduta. Durante la procedura, il paziente rimane sveglio e può comunicare con il medico, ma è rilassato e vive l’intervento con un minore livello di stress e disagio.\n\nQuesto approccio può ridurre significativamente la durata complessiva del percorso di cura, diminuire il numero di visite e rendere l’intero processo più semplice, soprattutto per i pazienti che arrivano da altre città o dall’estero.</p>",
+              "text": "La sedazione cosciente consente, quando previsto dal piano di cura individuale e in presenza delle necessarie indicazioni cliniche, di eseguire l’intervento implantologico su entrambe le arcate dentali in un’unica seduta. Durante la procedura, il paziente rimane sveglio e può comunicare con il medico, ma è rilassato e vive l’intervento con un minore livello di stress e disagio.\n\nQuesto approccio può ridurre significativamente la durata complessiva del percorso di cura, diminuire il numero di visite e rendere l’intero processo più semplice, soprattutto per i pazienti che arrivano da altre città o dall’estero."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 25
+        },
+        "lastUpdated": "2026-08-31T13:23:17.778Z"
+      }
+    }
+  ]
+}

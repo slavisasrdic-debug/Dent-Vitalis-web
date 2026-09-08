@@ -1,0 +1,240 @@
+---
+import TeaserCard from './TeaserCard.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+import type { TeaserCardData } from '../content/home';
+type SequenceCard = Omit<TeaserCardData, 'desktopImage' | 'mobileImage'> & {
+  desktopImage: string;
+  mobileImage: string;
+};
+interface Props {
+  cards: SequenceCard[];
+  variant: 'service' | 'about';
+  label: string;
+  directory?: 'services' | 'about' | 'information';
+}
+const { cards, variant, label, directory } = Astro.props;
+---
+
+<section
+  class:list={['teaser-sequence', { directory }, directory]}
+  aria-label={label}
+  data-teaser-sequence
+  data-directory-kind={directory}
+  data-reveal={directory ? undefined : true}
+  data-reveal-media="desktop"
+>
+  <div class="sequence-container">
+    <div class="sequence-grid">
+      <div class="card-column">
+        {
+          cards.map((card) => (
+            <div class="card-step">
+              <>
+                <div
+                  class="mobile-photo"
+                  style={`--mobile-position:${card.mobilePosition || '50% 50%'}`}
+                >
+                  <ResponsiveImage
+                    image={card.mobileImage}
+                    alt={card.alt}
+                    sizes="100vw"
+                  />
+                </div>
+                <TeaserCard
+                  card={card}
+                  variant={variant}
+                  context={directory ? 'directory' : 'home'}
+                  headingLevel={directory ? 2 : 3}
+                />
+              </>
+            </div>
+          ))
+        }
+      </div><div class="image-column">
+        <div class="sticky-images">
+          {
+            cards.map((card, index) => (
+              <div
+                class="sequence-image"
+                data-image-index={index}
+                style={`z-index:${cards.length - index}`}
+              >
+                <ResponsiveImage
+                  image={card.desktopImage}
+                  alt=""
+                  sizes="2000px"
+                />
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .teaser-sequence {
+    overflow-x: clip;
+  }
+  .sequence-container {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+  .sequence-grid {
+    display: flex;
+    align-items: stretch;
+  }
+  .card-column,
+  .image-column {
+    width: 50%;
+    margin-left: 5%;
+    flex-shrink: 1;
+  }
+  .card-step {
+    position: relative;
+    z-index: 10;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .mobile-photo {
+    display: none;
+  }
+  .sticky-images {
+    position: sticky;
+    top: 2svh;
+    height: 98svh;
+    width: 100vw;
+    margin-left: -50vw;
+    overflow: hidden;
+  }
+  .sequence-image {
+    position: absolute;
+    inset: 0;
+  }
+  .sequence-image :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media screen and (min-width: 992px) {
+    .directory .card-step {
+      justify-content: flex-start;
+    }
+    .directory.about .card-step {
+      height: calc(7000px / 6);
+    }
+    .directory .sequence-image {
+      transition: opacity 600ms cubic-bezier(0.45, 0, 0.55, 1);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .directory .sequence-image {
+      transition: none;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .sequence-container {
+      max-width: 1400px;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .sequence-container {
+      max-width: 1600px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .sequence-container {
+      max-width: 1200px;
+    }
+    .sequence-grid {
+      display: block;
+    }
+    .card-column {
+      width: 100%;
+      margin: 0;
+    }
+    .image-column {
+      display: none;
+    }
+    .card-step {
+      height: auto;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .mobile-photo {
+      width: 100%;
+      display: block;
+    }
+    .mobile-photo :global(img) {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 3/2;
+      object-fit: cover;
+      object-position: 100% 50%;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .mobile-photo :global(img) {
+      aspect-ratio: 1;
+      object-position: var(--mobile-position);
+    }
+  }
+</style>
+<script>
+  import { initializeDirectory } from '../scripts/directory';
+  document
+    .querySelectorAll<HTMLElement>('[data-teaser-sequence]')
+    .forEach((section) => {
+      if (section.dataset.ready) return;
+      section.dataset.ready = 'true';
+      if (section.dataset.directoryKind) {
+        initializeDirectory(section);
+        return;
+      }
+      const images = [
+        ...section.querySelectorAll<HTMLElement>('[data-image-index]'),
+      ];
+      const desktop = matchMedia('(min-width:992px)');
+      const reduced = matchMedia('(prefers-reduced-motion:reduce)');
+      let frame = 0;
+      let smoothed = 0;
+      const render = () => {
+        frame = 0;
+        if (!desktop.matches) return;
+        const rect = section.getBoundingClientRect();
+        const progress = Math.max(
+          0,
+          Math.min(
+            100,
+            ((innerHeight - rect.top) / (rect.height + innerHeight)) * 100,
+          ),
+        );
+        smoothed += (progress - smoothed) * 0.2; // Webflow continuous smoothing 80.
+        images.forEach((image, index) => {
+          if (index === images.length - 1) return;
+          const start = 33 + index * 20;
+          const fade = Math.max(0, Math.min(1, (smoothed - start) / 5));
+          image.style.opacity = String(1 - fade);
+          const scaleFade =
+            index === 2 && smoothed > 78
+              ? Math.max(0, 1 - (smoothed - 78) / 11)
+              : fade;
+          image.style.transform = reduced.matches
+            ? 'none'
+            : `scale(${1 + 0.2 * scaleFade})`;
+        });
+        if (Math.abs(smoothed - progress) > 0.01)
+          frame = requestAnimationFrame(render);
+      };
+      const schedule = () => {
+        if (!frame) frame = requestAnimationFrame(render);
+      };
+      addEventListener('scroll', schedule, { passive: true });
+      addEventListener('resize', schedule, { passive: true });
+      desktop.addEventListener('change', schedule);
+      reduced.addEventListener('change', schedule);
+      schedule();
+    });
+</script>

@@ -1,0 +1,933 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:44:43.862Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba893",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "68e77bb8a2d3bcb91046b16b"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "40c20fec-63bf-0a37-5e0f-226c1073de72"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba893",
+                      "element": "35521343-eda2-f34e-a709-45140254e8d6"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "35521343-eda2-f34e-a709-45140254e8d7"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba893",
+                              "element": "35521343-eda2-f34e-a709-45140254e8d8"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "35521343-eda2-f34e-a709-45140254e8d9"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "35521343-eda2-f34e-a709-45140254e8da"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "35521343-eda2-f34e-a709-45140254e8db"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "none"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba893",
+                                              "element": "35521343-eda2-f34e-a709-45140254e8dc"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "35521343-eda2-f34e-a709-45140254e8dd"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "35521343-eda2-f34e-a709-45140254e8de"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "35521343-eda2-f34e-a709-45140254e8df"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "1d910049-e678-bc94-9048-81cb2cfba9cd"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/informazioni-per-pazienti"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba893",
+                                              "element": "ca8204a0-856a-63aa-c736-cc6637120462"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Informazioni"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "35521343-eda2-f34e-a709-45140254e8e1"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "35521343-eda2-f34e-a709-45140254e8e2"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "35521343-eda2-f34e-a709-45140254e8e3"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "35521343-eda2-f34e-a709-45140254e8e4"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Garanzie"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "6e5b73a1-d208-4087-1841-4c50437b701f"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba893",
+                      "element": "fc0849d0-fa9f-787a-a054-62f7b32aeaf9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "fc0849d0-fa9f-787a-a054-62f7b32aeafa"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "fc0849d0-fa9f-787a-a054-62f7b32aeafb"
+                        },
+                        "type": "Image",
+                        "styleNames": [
+                          "Image 10"
+                        ],
+                        "settings": {
+                          "visibility": true,
+                          "assetId": "6a86fa107eb37b4292de530f",
+                          "altText": "Dentista e paziente esaminano il piano di cura presso DentVitalis"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba893",
+                      "element": "fc0849d0-fa9f-787a-a054-62f7b32aeafc"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "fc0849d0-fa9f-787a-a054-62f7b32aeafd"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba893",
+                              "element": "fc0849d0-fa9f-787a-a054-62f7b32aeafe"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "fc0849d0-fa9f-787a-a054-62f7b32aeb02"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "fc0849d0-fa9f-787a-a054-62f7b32aeb03"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "fc0849d0-fa9f-787a-a054-62f7b32aeb04"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Garanzie"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "fc0849d0-fa9f-787a-a054-62f7b32aeb05"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "fc0849d0-fa9f-787a-a054-62f7b32aeb06"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Garanzie fornite per iscritto e in italiano"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2c"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba893",
+                      "element": "47933700-bb97-b61f-e191-7a4f486d24a9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Detaljna tekst"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab24123a"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "name": "Sidebar informazioni",
+                          "props": [],
+                          "slots": []
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "1cb5350d-82f2-c742-116d-a36c6a86d23b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Tekst detaljna"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba893",
+                              "element": "78124333-d5f5-020a-794e-312ed4cacf02"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Large Paragraph"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "78124333-d5f5-020a-794e-312ed4cacf03"
+                                },
+                                "type": "String",
+                                "textContent": "La scelta della clinica giusta è la migliore garanzia per un trattamento di qualità."
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba893",
+                              "element": "8f03356f-7ded-9e28-06d9-a7b7a87f1de1"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "e831af9e-f5a7-8b68-5383-a2625f83dde0"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "e831af9e-f5a7-8b68-5383-a2625f83dde1"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Garanzia in lingua italiana"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "3e4af075-e737-56a2-8fba-fd5fe2fc772b"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "62f4e84c-6fdb-4d01-4b41-022674aa8caf"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "62f4e84c-6fdb-4d01-4b41-022674aa8cb1"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Per le prestazioni odontoiatriche per le quali è prevista la garanzia, rilasciamo una garanzia scritta, con condizioni e durata chiaramente definite.\n\nAlla garanzia vengono allegati i relativi documenti fiscali delle prestazioni eseguite, che attestano in modo chiaro i servizi effettuati e i relativi costi. In questo modo garantiamo la massima trasparenza e una documentazione completa del percorso di cura.\n\nIl paziente dispone così di tutta la documentazione relativa alle prestazioni effettuate, ai materiali utilizzati, ai costi e alle condizioni della garanzia."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba893",
+                              "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004b"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004d"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Passaporto dell’impianto"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70050"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70052"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Insieme alla garanzia, ogni paziente riceve anche un passaporto degli impianti, un documento che riporta in modo preciso tutti i dati relativi agli impianti inseriti, tra cui produttore, modello e caratteristiche di ciascun impianto.\n\nQuesta documentazione è particolarmente importante per chi vive all’estero o viaggia frequentemente. In caso di necessità o di eventuali problemi, qualsiasi implantologo può consultare i dati relativi agli impianti inseriti e intervenire in modo adeguato, anche quando il paziente si trova lontano dalla nostra clinica.\n\nIl passaporto è inoltre importante per eventuali esigenze future. Se, dopo diversi anni, fosse necessario sostituire o rifare la protesi sugli impianti esistenti, il paziente potrà rivolgersi anche a un altro dentista o implantologo, disponendo già di tutte le informazioni necessarie per procedere.\n\nRiteniamo che ogni paziente debba avere pieno accesso alle informazioni relative alle proprie cure. Per questo consegniamo tutta la documentazione sugli impianti inseriti, affinché possa conservarla e utilizzarla in qualsiasi momento e ovunque si trovi."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba893",
+                              "element": "3270731e-3a01-e3e5-fe17-253f9eabf125"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf126"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "3270731e-3a01-e3e5-fe17-253f9eabf127"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Certificazione UE dei materiali utilizzati"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba893",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf12a"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba893",
+                                      "element": "3270731e-3a01-e3e5-fe17-253f9eabf12b"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba893",
+                                          "element": "3270731e-3a01-e3e5-fe17-253f9eabf12c"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Per la realizzazione dei nostri manufatti protesici utilizziamo esclusivamente materiali di qualità comprovata e conformi ai requisiti previsti dalla normativa europea vigente. Per i materiali impiegati è disponibile la relativa documentazione che ne attesta la conformità agli standard europei di qualità e sicurezza.\n\nPer il paziente, questo significa sapere esattamente quali materiali sono stati utilizzati, conoscerne la provenienza e poter disporre della relativa documentazione. È un importante elemento di trasparenza e tutela, che consente di avere informazioni precise sul proprio manufatto protesico.\n\nLa documentazione sui materiali utilizzati viene conservata insieme a quella relativa al manufatto protesico, così da poter essere consultata anche in futuro, ad esempio in caso di controlli, riparazioni, modifiche o realizzazione di un nuovo manufatto protesico."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba893",
+                      "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2e"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 2"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba893",
+                          "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2f"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Home 2 Services Text Wrapper"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba893",
+                  "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

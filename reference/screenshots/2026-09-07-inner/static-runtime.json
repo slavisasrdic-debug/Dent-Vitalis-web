@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-09-07T18:24:02.606Z",
+  "results": [
+    {
+      "engine": "chromium",
+      "origin": "http://127.0.0.1:4173",
+      "revealDuration": [
+        1000
+      ],
+      "galleryPrima": 100,
+      "galleryTransition": "0.3s",
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "origin": "http://127.0.0.1:4173",
+      "revealDuration": [
+        1000
+      ],
+      "galleryPrima": 100,
+      "galleryTransition": "0.3s",
+      "errors": []
+    }
+  ]
+}

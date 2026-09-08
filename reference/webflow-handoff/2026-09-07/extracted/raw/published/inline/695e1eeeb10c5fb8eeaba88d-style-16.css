@@ -1,0 +1,63 @@
+
+.dv-file-upload .w-file-upload-default {
+  display: inline-flex !important;
+  align-items: stretch;
+  vertical-align: top;
+}
+.dv-file-upload .dv-file-upload-label {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 9px;
+  min-height: 56px;
+  margin: 0 !important;
+  padding: 0 14px 0 16px !important;
+  border-right-width: 0 !important;
+  border-radius: 4px 0 0 4px !important;
+  white-space: nowrap;
+}
+.dv-file-upload .dv-file-upload-label::before {
+  content: "";
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+.dv-file-upload .dv-file-upload-hint {
+  display: inline-flex !important;
+  align-items: center;
+  min-height: 56px;
+  margin: 0 !important;
+  padding: 0 16px 0 4px !important;
+  background-color: #fff;
+  border: 1px solid rgb(200, 217, 222);
+  border-left-width: 0;
+  border-radius: 0 4px 4px 0;
+  color: rgb(5 97 122 / 68%) !important;
+  font-family: inherit !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 1 !important;
+  white-space: nowrap;
+}
+.navbar .brand .text-block-18 {
+  white-space: nowrap;
+}
+@media screen and (max-width: 767px) {
+  .dv-file-upload .dv-file-upload-label {
+    gap: 7px;
+    min-height: 52px;
+    padding: 0 11px 0 12px !important;
+  }
+  .dv-file-upload .dv-file-upload-label::before {
+    flex-basis: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .dv-file-upload .dv-file-upload-hint {
+    min-height: 52px;
+    padding: 0 12px 0 2px !important;
+    font-size: 11px !important;
+  }
+}

@@ -1,0 +1,4736 @@
+{
+  "status": "extracted",
+  "components": [
+    {
+      "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+      "name": "navigacija",
+      "instanceCount": 28,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-0.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+      "directPageInstances": [
+        {
+          "pageId": "6a97db25519800ebff25b9f2",
+          "path": "/condizioni-di-utilizzo",
+          "instance": {
+            "id": {
+              "component": "6a97db25519800ebff25b9f2",
+              "element": "e6544327-15bb-1db1-b0de-8dfefdae3195"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a97db259aad9ee4bb4bd328",
+          "path": "/informativa-sulla-privacy",
+          "instance": {
+            "id": {
+              "component": "6a97db259aad9ee4bb4bd328",
+              "element": "4dfdd2d8-ac3d-abdf-0b84-1a0a03816d35"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da66a4b3462ca3f0a23",
+          "path": "/informazioni-per-pazienti",
+          "instance": {
+            "id": {
+              "component": "6a8d7da66a4b3462ca3f0a23",
+              "element": "6c14f4cf-37ed-2a0f-d42a-d83b5b1df8d4"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da585ba860c0b521829",
+          "path": "/chi-siamo",
+          "instance": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "ff1182ff-34c8-6b2e-44a1-9f46e42c0389"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da5fff15c0449d670e2",
+          "path": "/prestazioni-dentali",
+          "instance": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "a7811c45-af10-60b9-3dc2-48ab6a44a124"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f4a9a3d82954cb43ac683",
+          "path": "/informazioni/trasporto",
+          "instance": {
+            "id": {
+              "component": "696f4a9a3d82954cb43ac683",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f49d7f343717fcadfcf28",
+          "path": "/informazioni/alloggio",
+          "instance": {
+            "id": {
+              "component": "696f49d7f343717fcadfcf28",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "69679710d4037ebd0cbb9df2",
+          "path": "/testimonianze",
+          "instance": {
+            "id": {
+              "component": "69679710d4037ebd0cbb9df2",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba898",
+          "path": "/contatti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba898",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba897",
+          "path": "/faq",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba897",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba896",
+          "path": "/domande-e-risposte",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba896",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba894",
+          "path": "/informazioni/listino-prezzi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba894",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba893",
+          "path": "/informazioni/garanzie",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba892",
+          "path": "/informazioni/pagamento-flessibile",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba892",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba891",
+          "path": "/informazioni/tempi-del-trattamento",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba890",
+          "path": "/informazioni/prima-visita-gratuita",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba890",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88e",
+          "path": "/prestazioni/sedazione-cosciente",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88e",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88d",
+          "path": "/su-di-noi/impianti-di-nuova-generazione",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88d",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88c",
+          "path": "/su-di-noi/materiali-e-apparecchiature",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88c",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88b",
+          "path": "/su-di-noi/laboratorio-odontotecnico",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88a",
+          "path": "/su-di-noi/come-raggiungerci",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88a",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba889",
+          "path": "/su-di-noi/tutto-in-un-unico-luogo",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba889",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba888",
+          "path": "/su-di-noi/i-nostri-specialisti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba888",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "name": "navigacija",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Brand",
+        "Brand Tablet",
+        "Close Menu Button",
+        "Gumb upit",
+        "Header Button",
+        "Header Button Wrapper",
+        "Hidden Button",
+        "Image Burger",
+        "Menu Button",
+        "Menu Wrap",
+        "Mobile Menu Wrap",
+        "Nav Arrow Wrap",
+        "Nav Close Icon",
+        "Nav Container",
+        "Nav Dropdown",
+        "Nav Dropdown Column",
+        "Nav Dropdown Icon",
+        "Nav Dropdown Link",
+        "Nav Dropdown Link Line",
+        "Nav Dropdown Link Wrapper",
+        "Nav Dropdown List",
+        "Nav Dropdown Toggle",
+        "Nav Item Title",
+        "Nav Link",
+        "Nav Menu",
+        "Nav Menu Wrapper",
+        "Navbar",
+        "Secondary Button",
+        "Tablet Menu",
+        "Text Block 15",
+        "Text Block 17",
+        "Text Block 18",
+        "bijeli",
+        "dv-language-mobile-adjacent",
+        "dv-language-mobile-adjacent-chevron",
+        "dv-language-mobile-adjacent-current",
+        "dv-language-mobile-adjacent-link",
+        "dv-language-mobile-adjacent-menu",
+        "dv-language-mobile-adjacent-summary",
+        "dv-language-mobile-chevron",
+        "dv-language-mobile-current",
+        "dv-language-mobile-header",
+        "dv-language-mobile-link",
+        "dv-language-mobile-menu",
+        "dv-language-mobile-summary",
+        "icon-embed-xxsmall"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "Navigacija.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "a6383e85-b972-e425-5602-e5554d54c939",
+      "name": "banner-card",
+      "instanceCount": 0,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-0.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/a6383e85-b972-e425-5602-e5554d54c939",
+      "directPageInstances": [],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Button Text Block",
+        "Div Block 3",
+        "Div Block 4",
+        "Gumb-vise",
+        "Primary Button Left Block",
+        "Primary Button Right Block",
+        "Text Block 11",
+        "Text Block 9",
+        "banner-card-simbol",
+        "icon-embed-medium"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "BannerCard.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+      "name": "Footer",
+      "instanceCount": 28,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-0.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/cdb4010a-fc4d-930a-8493-bc7524d3344d",
+      "directPageInstances": [
+        {
+          "pageId": "6a97db25519800ebff25b9f2",
+          "path": "/condizioni-di-utilizzo",
+          "instance": {
+            "id": {
+              "component": "6a97db25519800ebff25b9f2",
+              "element": "a1c21741-c703-0636-dff6-ab2e59103a3f"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a97db259aad9ee4bb4bd328",
+          "path": "/informativa-sulla-privacy",
+          "instance": {
+            "id": {
+              "component": "6a97db259aad9ee4bb4bd328",
+              "element": "9e77c3a4-f577-c48d-ba71-cd955a657afa"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da66a4b3462ca3f0a23",
+          "path": "/informazioni-per-pazienti",
+          "instance": {
+            "id": {
+              "component": "6a8d7da66a4b3462ca3f0a23",
+              "element": "442a0df8-91ae-199e-f270-5af0ab744c15"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da585ba860c0b521829",
+          "path": "/chi-siamo",
+          "instance": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "d9c78483-382a-136c-b035-5fb69263cc82"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da5fff15c0449d670e2",
+          "path": "/prestazioni-dentali",
+          "instance": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "3d5810e4-763c-4783-7b7a-26b902d6a876"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f4a9a3d82954cb43ac683",
+          "path": "/informazioni/trasporto",
+          "instance": {
+            "id": {
+              "component": "696f4a9a3d82954cb43ac683",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f49d7f343717fcadfcf28",
+          "path": "/informazioni/alloggio",
+          "instance": {
+            "id": {
+              "component": "696f49d7f343717fcadfcf28",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "69679710d4037ebd0cbb9df2",
+          "path": "/testimonianze",
+          "instance": {
+            "id": {
+              "component": "69679710d4037ebd0cbb9df2",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba898",
+          "path": "/contatti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba898",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba897",
+          "path": "/faq",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba897",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba896",
+          "path": "/domande-e-risposte",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba896",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba894",
+          "path": "/informazioni/listino-prezzi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba894",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba893",
+          "path": "/informazioni/garanzie",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba892",
+          "path": "/informazioni/pagamento-flessibile",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba892",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba891",
+          "path": "/informazioni/tempi-del-trattamento",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba890",
+          "path": "/informazioni/prima-visita-gratuita",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba890",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88e",
+          "path": "/prestazioni/sedazione-cosciente",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88e",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88d",
+          "path": "/su-di-noi/impianti-di-nuova-generazione",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88d",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88c",
+          "path": "/su-di-noi/materiali-e-apparecchiature",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88c",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88b",
+          "path": "/su-di-noi/laboratorio-odontotecnico",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88a",
+          "path": "/su-di-noi/come-raggiungerci",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88a",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba889",
+          "path": "/su-di-noi/tutto-in-un-unico-luogo",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba889",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba888",
+          "path": "/su-di-noi/i-nostri-specialisti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba888",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "c1a9603c-77e5-d937-d5db-05809e2fb449"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "c1fabe2b-6345-1f75-ab78-f767a9022f07"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "0fd4c9dd-0e8b-827c-b2aa-b3637040d0e2"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "cdb4010a-fc4d-930a-8493-bc7524d334a7"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+              "name": "Footer",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "100",
+        "Container",
+        "Footer",
+        "Footer Block",
+        "Footer Brand 2",
+        "Footer Content",
+        "Footer Copyright Center",
+        "Footer Dark",
+        "Footer Divider",
+        "Footer Link 2",
+        "Footer Social Block",
+        "Footer Social Link",
+        "Footer Wrapper",
+        "Link Block 2",
+        "Title Small",
+        "center",
+        "dv-footer-contact-details",
+        "dv-footer-contact-hours",
+        "dv-footer-contact-label",
+        "dv-footer-contact-link",
+        "dv-footer-legal-link",
+        "dv-footer-legal-links"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "Footer.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "587b085b-0eb5-6f0e-763d-212fecd904e0",
+      "name": "Section Benvenuti",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-0.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/587b085b-0eb5-6f0e-763d-212fecd904e0",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "587b085b-0eb5-6f0e-763d-212fecd90523"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "587b085b-0eb5-6f0e-763d-212fecd904e0",
+              "name": "Section Benvenuti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "100",
+        "Button Text Block",
+        "Container Wrapper",
+        "Div Block 11",
+        "Div Block 6",
+        "Div Block 7",
+        "Div Block 8",
+        "Foto background",
+        "Foto-doktor",
+        "Full Width Wrapper",
+        "Gumb-vise",
+        "Huge Paragraph",
+        "Image 7",
+        "Italic Text 2",
+        "Large Paragraph 2",
+        "Medjunaslov H2",
+        "Medjunaslov H3",
+        "Nadnaslov",
+        "Primary Button Left Block",
+        "Primary Button Right Block",
+        "Section Benvenuti",
+        "Section Heading Wrapper",
+        "Values Block",
+        "Values Heading Wrapper",
+        "Values Image",
+        "Values Left Block",
+        "Values List",
+        "Values List Item",
+        "Values Wrapper",
+        "dr",
+        "full",
+        "icon-embed-xxsmall 3",
+        "ikona-bullet",
+        "ikona-bullet large",
+        "izjava",
+        "left",
+        "medju",
+        "no round",
+        "zadnji"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionBenvenuti.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "48eb149b-bbbd-805c-69ed-1266a634337f",
+      "name": "Section Tradizione",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-4.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/48eb149b-bbbd-805c-69ed-1266a634337f",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "2fd0e3c5-0033-c434-d6ad-8a8123add2d6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "48eb149b-bbbd-805c-69ed-1266a634337f",
+              "name": "Section Tradizione",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Base Container",
+        "Container Wrapper 2",
+        "Full Width",
+        "Home 2 Services Grid Text Wrapper",
+        "Home 2 Services Text Wrapper",
+        "Home Service Card HP",
+        "Huge Paragraph",
+        "Large Paragraph 2",
+        "Link Block 4",
+        "Link Block 5",
+        "Link-Block-5",
+        "Medjunaslov H2",
+        "Medjunaslov H3",
+        "Nadnaslov",
+        "Opis",
+        "Section Heading Wrapper 2",
+        "Section Tradizione",
+        "b",
+        "bold",
+        "full height",
+        "icon-embed-xxsmall 2",
+        "p-teaser-img-wrap",
+        "p-xs-start",
+        "teaser-column",
+        "teaser-container",
+        "teaser-copy-wrap",
+        "teaser-grid",
+        "teaser-img",
+        "teaser-img-tablet-down",
+        "teaser-section"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionTradizione.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+      "name": "Section Testimonianze",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-4.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c3a2"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+              "name": "Section Testimonianze",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "100",
+        "2",
+        "Base Container",
+        "Button Text Block",
+        "Container Wrapper",
+        "Container Wrapper 2",
+        "Div Block 14",
+        "Div Block 6",
+        "Div Block 7",
+        "Foto background",
+        "Foto-doktor",
+        "Full Width",
+        "Full Width Wrapper",
+        "Google-ocjena",
+        "Gumb-razmak",
+        "Gumb-vise",
+        "Home 2 Services Grid Text Wrapper",
+        "Home 2 Services Text Wrapper",
+        "Huge Paragraph",
+        "Icon 5",
+        "Icon 6",
+        "Image 7",
+        "Image 8",
+        "Large Paragraph 3",
+        "Left Arrow 3",
+        "Medjunaslov H2",
+        "Nadnaslov",
+        "No Margin",
+        "Primary Button Left Block",
+        "Primary Button Right Block",
+        "Recenzije",
+        "Right Arrow 3",
+        "Section 4",
+        "Section Heading Wrapper",
+        "Section Heading Wrapper 2",
+        "Section Testimonianze",
+        "Slide 3",
+        "Slide Nav 2",
+        "Slide-sadrzaj",
+        "Slider 3",
+        "TM 4px",
+        "Testi",
+        "Testimonials Text",
+        "Values Block",
+        "Values Image",
+        "Values Left Block",
+        "Values Wrapper",
+        "bez",
+        "bijeli",
+        "full",
+        "full height",
+        "google-zvjezdice",
+        "icon-embed-xxsmall 3",
+        "no round",
+        "rec"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionTestimonianze.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+      "name": "Section Informazioni",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-4.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "4e75e80f-18e3-7eb0-519d-3b33dc5a3ca9"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+              "name": "Section Informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Button Text Block",
+        "Container Wrapper 2",
+        "Container Wrapper list",
+        "Div Block 13",
+        "Gumb-vise",
+        "Home 2 Services Grid Text Wrapper",
+        "Home 2 Services Text Wrapper",
+        "Home Service Card",
+        "Huge Paragraph",
+        "Large Paragraph",
+        "Medjunaslov H2",
+        "Medjunaslov H3",
+        "Nadnaslov",
+        "Primary Button Left Block",
+        "Primary Button Right Block",
+        "Section Heading Wrapper 2",
+        "Section Informazioni",
+        "TM 40 Button Wrapper",
+        "icon-embed-xxsmall 3",
+        "informazioni"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionInformazioni.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "2218f1d9-b81b-56c5-3884-620b224831a9",
+      "name": "Section FAQ",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-4.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/2218f1d9-b81b-56c5-3884-620b224831a9",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "a1d38355-7824-9cfa-7e1e-21ca2689554d"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "2218f1d9-b81b-56c5-3884-620b224831a9",
+              "name": "Section FAQ",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Accordion Item",
+        "Accordion List",
+        "Accordion One Column",
+        "Accordion Text",
+        "Accordion Title",
+        "Accordion Toggle",
+        "Accordion Wrapper One Column",
+        "Base Container",
+        "Button Text Block",
+        "Container Wrapper 2",
+        "Container Wrapper 3",
+        "Cross Lines Wrapper",
+        "Full Width",
+        "Full Width Wrapper 2",
+        "Gumb-vise",
+        "Home 2 FAG Grid Cell",
+        "Home 2 FAQ Button Block Wrap",
+        "Home 2 Services Grid Text Wrapper",
+        "Home 2 Services Text Wrapper",
+        "Horizontal Line",
+        "Large Paragraph 3",
+        "Medjunaslov H2",
+        "Nadnaslov",
+        "No Right Line",
+        "Primary Button Left Block",
+        "Primary Button Right Block",
+        "Primary Color",
+        "Section FAQ",
+        "Section Heading Wrapper 2",
+        "TM 40 Button Wrapper",
+        "Two Column Section Grid",
+        "Two Rows",
+        "Vertical Line",
+        "icon-embed-xxsmall 3",
+        "informazioni"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionFAQ.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+      "name": "Section Contatti",
+      "instanceCount": 28,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-8.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+      "directPageInstances": [
+        {
+          "pageId": "6a97db25519800ebff25b9f2",
+          "path": "/condizioni-di-utilizzo",
+          "instance": {
+            "id": {
+              "component": "6a97db25519800ebff25b9f2",
+              "element": "659c50e9-7493-2a00-377d-b9211807ed22"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a97db259aad9ee4bb4bd328",
+          "path": "/informativa-sulla-privacy",
+          "instance": {
+            "id": {
+              "component": "6a97db259aad9ee4bb4bd328",
+              "element": "7df2e106-ac43-5962-612b-b90ef2079ed9"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da66a4b3462ca3f0a23",
+          "path": "/informazioni-per-pazienti",
+          "instance": {
+            "id": {
+              "component": "6a8d7da66a4b3462ca3f0a23",
+              "element": "6aeb0dfd-b0fb-b3cc-8faf-41fef235af02"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da585ba860c0b521829",
+          "path": "/chi-siamo",
+          "instance": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "595b92e1-6c05-3a92-7e2e-47823c4d2f53"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da5fff15c0449d670e2",
+          "path": "/prestazioni-dentali",
+          "instance": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "ef3b57b7-4f3d-ccfd-54d0-273762030ff1"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f4a9a3d82954cb43ac683",
+          "path": "/informazioni/trasporto",
+          "instance": {
+            "id": {
+              "component": "696f4a9a3d82954cb43ac683",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f49d7f343717fcadfcf28",
+          "path": "/informazioni/alloggio",
+          "instance": {
+            "id": {
+              "component": "696f49d7f343717fcadfcf28",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "69679710d4037ebd0cbb9df2",
+          "path": "/testimonianze",
+          "instance": {
+            "id": {
+              "component": "69679710d4037ebd0cbb9df2",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba898",
+          "path": "/contatti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba898",
+              "element": "741e4c3c-26ec-5883-38d6-a888862640a7"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba897",
+          "path": "/faq",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba897",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba896",
+          "path": "/domande-e-risposte",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba896",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba894",
+          "path": "/informazioni/listino-prezzi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba894",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba893",
+          "path": "/informazioni/garanzie",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba892",
+          "path": "/informazioni/pagamento-flessibile",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba892",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba891",
+          "path": "/informazioni/tempi-del-trattamento",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba890",
+          "path": "/informazioni/prima-visita-gratuita",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba890",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88e",
+          "path": "/prestazioni/sedazione-cosciente",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88e",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88d",
+          "path": "/su-di-noi/impianti-di-nuova-generazione",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88d",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88c",
+          "path": "/su-di-noi/materiali-e-apparecchiature",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88c",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88b",
+          "path": "/su-di-noi/laboratorio-odontotecnico",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88a",
+          "path": "/su-di-noi/come-raggiungerci",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88a",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba889",
+          "path": "/su-di-noi/tutto-in-un-unico-luogo",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba889",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba888",
+          "path": "/su-di-noi/i-nostri-specialisti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba888",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "7b754b86-b021-1053-1d31-541aa49fffb4"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "1818c76d-8a05-1b76-3d08-1f3baaa6ed81"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "e926f4c4-489b-2198-8eb3-d32899ab9390"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23de4"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "name": "Section Contatti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Button Text Block",
+        "Container Wrapper 3",
+        "DV File Upload",
+        "DV File Upload Hint",
+        "DV File Upload Label",
+        "DV Privacy Link",
+        "DV Privacy Text",
+        "Error Message",
+        "Full Width Wrapper 3",
+        "Gumb-vise",
+        "Home 2 Form",
+        "Home 2 Form Block",
+        "Home 2 Form Section",
+        "Home 2 Form Text Field",
+        "Home 2 Form Wrapper",
+        "Huge Paragraph",
+        "Medium Width",
+        "Medjunaslov H2",
+        "Nadnaslov",
+        "No Bottom Line",
+        "Primary Button Left Block",
+        "Primary Button Right Block",
+        "Section Contatti",
+        "Section Heading Wrapper 2",
+        "Success Message",
+        "TM 40 Button Wrapper",
+        "Textarea",
+        "bijeli",
+        "contatti",
+        "icon-embed-xxsmall 3"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionContatti.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+      "name": "WhatsApp",
+      "instanceCount": 28,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-8.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/511a527c-0818-f243-94fb-c91d2b84e74a",
+      "directPageInstances": [
+        {
+          "pageId": "6a97db25519800ebff25b9f2",
+          "path": "/condizioni-di-utilizzo",
+          "instance": {
+            "id": {
+              "component": "6a97db25519800ebff25b9f2",
+              "element": "e3c804b7-f09e-1be3-aa5c-06853fd85fc0"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a97db259aad9ee4bb4bd328",
+          "path": "/informativa-sulla-privacy",
+          "instance": {
+            "id": {
+              "component": "6a97db259aad9ee4bb4bd328",
+              "element": "e424f710-b410-316c-0ad3-f3adc866f3ef"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da66a4b3462ca3f0a23",
+          "path": "/informazioni-per-pazienti",
+          "instance": {
+            "id": {
+              "component": "6a8d7da66a4b3462ca3f0a23",
+              "element": "1912f134-31c1-4d4a-65f2-f51bbd599a13"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da585ba860c0b521829",
+          "path": "/chi-siamo",
+          "instance": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "b9552538-581f-bd6b-214b-1cebd768b9a2"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da5fff15c0449d670e2",
+          "path": "/prestazioni-dentali",
+          "instance": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "2bba3d71-4b81-f4e8-f8ab-1feeaffa3f71"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f4a9a3d82954cb43ac683",
+          "path": "/informazioni/trasporto",
+          "instance": {
+            "id": {
+              "component": "696f4a9a3d82954cb43ac683",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f49d7f343717fcadfcf28",
+          "path": "/informazioni/alloggio",
+          "instance": {
+            "id": {
+              "component": "696f49d7f343717fcadfcf28",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "69679710d4037ebd0cbb9df2",
+          "path": "/testimonianze",
+          "instance": {
+            "id": {
+              "component": "69679710d4037ebd0cbb9df2",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba898",
+          "path": "/contatti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba898",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba897",
+          "path": "/faq",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba897",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba896",
+          "path": "/domande-e-risposte",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba896",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba894",
+          "path": "/informazioni/listino-prezzi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba894",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba893",
+          "path": "/informazioni/garanzie",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba892",
+          "path": "/informazioni/pagamento-flessibile",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba892",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba891",
+          "path": "/informazioni/tempi-del-trattamento",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba890",
+          "path": "/informazioni/prima-visita-gratuita",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba890",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88e",
+          "path": "/prestazioni/sedazione-cosciente",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88e",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88d",
+          "path": "/su-di-noi/impianti-di-nuova-generazione",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88d",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88c",
+          "path": "/su-di-noi/materiali-e-apparecchiature",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88c",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88b",
+          "path": "/su-di-noi/laboratorio-odontotecnico",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88a",
+          "path": "/su-di-noi/come-raggiungerci",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88a",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba889",
+          "path": "/su-di-noi/tutto-in-un-unico-luogo",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba889",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba888",
+          "path": "/su-di-noi/i-nostri-specialisti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba888",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "3da5c601-8af3-316b-621d-96883d67d92d"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "a58ed721-f787-2a6c-611a-130494f76548"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "2bf95465-eb13-24d5-7ba7-e49e65d87c49"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "511a527c-0818-f243-94fb-c91d2b84e769"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "name": "WhatsApp",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Text Block 12",
+        "block",
+        "chat-block",
+        "chat-section",
+        "close-live-chat-container",
+        "close-livechat-icon",
+        "live-chat-bottom-text",
+        "live-chat-link",
+        "live-chat-text",
+        "live-chat-top-text",
+        "live-icon",
+        "live-icon-chat",
+        "livechat-button",
+        "small-whatsapp-icon",
+        "top-section",
+        "top-text-container",
+        "whatsapp-block",
+        "whatsapp-chat",
+        "whatsapp-container",
+        "whatsapp-icon"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "WhatsApp.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+      "name": "Fiksni kontakti mobile",
+      "instanceCount": 28,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-8.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+      "directPageInstances": [
+        {
+          "pageId": "6a97db25519800ebff25b9f2",
+          "path": "/condizioni-di-utilizzo",
+          "instance": {
+            "id": {
+              "component": "6a97db25519800ebff25b9f2",
+              "element": "2f245c46-52ed-8389-3394-20e9ccd53f50"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a97db259aad9ee4bb4bd328",
+          "path": "/informativa-sulla-privacy",
+          "instance": {
+            "id": {
+              "component": "6a97db259aad9ee4bb4bd328",
+              "element": "bff3b247-3da0-f34a-23cb-12f987d80b67"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da66a4b3462ca3f0a23",
+          "path": "/informazioni-per-pazienti",
+          "instance": {
+            "id": {
+              "component": "6a8d7da66a4b3462ca3f0a23",
+              "element": "1e2bb927-86bd-8370-4635-d987d5da1f40"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da585ba860c0b521829",
+          "path": "/chi-siamo",
+          "instance": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "cb56b0e8-bfdd-532e-b945-d3bbb2decada"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "6a8d7da5fff15c0449d670e2",
+          "path": "/prestazioni-dentali",
+          "instance": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "4f7bceef-72a7-29a9-df2a-ff524db59f74"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f4a9a3d82954cb43ac683",
+          "path": "/informazioni/trasporto",
+          "instance": {
+            "id": {
+              "component": "696f4a9a3d82954cb43ac683",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f49d7f343717fcadfcf28",
+          "path": "/informazioni/alloggio",
+          "instance": {
+            "id": {
+              "component": "696f49d7f343717fcadfcf28",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "69679710d4037ebd0cbb9df2",
+          "path": "/testimonianze",
+          "instance": {
+            "id": {
+              "component": "69679710d4037ebd0cbb9df2",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba898",
+          "path": "/contatti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba898",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba897",
+          "path": "/faq",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba897",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba896",
+          "path": "/domande-e-risposte",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba896",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba894",
+          "path": "/informazioni/listino-prezzi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba894",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba893",
+          "path": "/informazioni/garanzie",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba892",
+          "path": "/informazioni/pagamento-flessibile",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba892",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba891",
+          "path": "/informazioni/tempi-del-trattamento",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba890",
+          "path": "/informazioni/prima-visita-gratuita",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba890",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88e",
+          "path": "/prestazioni/sedazione-cosciente",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88e",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88d",
+          "path": "/su-di-noi/impianti-di-nuova-generazione",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88d",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88c",
+          "path": "/su-di-noi/materiali-e-apparecchiature",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88c",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88b",
+          "path": "/su-di-noi/laboratorio-odontotecnico",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88a",
+          "path": "/su-di-noi/come-raggiungerci",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88a",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba889",
+          "path": "/su-di-noi/tutto-in-un-unico-luogo",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba889",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba888",
+          "path": "/su-di-noi/i-nostri-specialisti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba888",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "c01ceb30-9aef-720c-ad2f-61f09523cf72"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "5a8d9ddf-461e-5f22-02b2-ccbb9c998cda"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "8681193d-0ca4-1c7d-4456-4fcdbd78a49c"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba87c",
+          "path": "/",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba87c",
+              "element": "1b710e68-38ef-1a3b-db46-5efe98f74ef0"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "name": "Fiksni kontakti mobile",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Div Block 10",
+        "Gumb upit",
+        "Text Block 13",
+        "bijeli",
+        "fiksni kontakti mobile",
+        "icon-embed-xxsmall",
+        "podloga"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "FiksniKontaktiMobile.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+      "name": "Section usluge",
+      "instanceCount": 0,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-8.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/6f3fc695-721c-243a-39ea-1ec76ea081e5",
+      "directPageInstances": [],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Container Wrapper list",
+        "Full Width Wrapper"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SectionUsluge.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+      "name": "sidebar",
+      "instanceCount": 6,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-12.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88d",
+          "path": "/su-di-noi/impianti-di-nuova-generazione",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88d",
+              "element": "d44089b5-6c44-a77f-8926-660ec0d6a110"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "name": "sidebar",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88c",
+          "path": "/su-di-noi/materiali-e-apparecchiature",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88c",
+              "element": "7bf4bbdb-6442-7a4f-1dd4-ae055fe7bc84"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "name": "sidebar",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88b",
+          "path": "/su-di-noi/laboratorio-odontotecnico",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "d105f64b-bfd5-5573-35d4-71abf601dc74"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "name": "sidebar",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88a",
+          "path": "/su-di-noi/come-raggiungerci",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88a",
+              "element": "dc34db01-7c8b-9691-e7b8-29f75196bc64"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "name": "sidebar",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba889",
+          "path": "/su-di-noi/tutto-in-un-unico-luogo",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba889",
+              "element": "4c1e5c96-757c-d8b1-04f0-248a2cefe05a"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "name": "sidebar",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba888",
+          "path": "/su-di-noi/i-nostri-specialisti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba888",
+              "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8e0"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "name": "sidebar",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Link Block",
+        "Podstranice sidebar",
+        "Prednost",
+        "Text Block 11",
+        "Text Block 16",
+        "Text Span 4"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "Sidebar.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+      "name": "Sidebar informazioni",
+      "instanceCount": 7,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-12.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/01415f8e-f1dc-065f-6696-5928ab24121b",
+      "directPageInstances": [
+        {
+          "pageId": "696f4a9a3d82954cb43ac683",
+          "path": "/informazioni/trasporto",
+          "instance": {
+            "id": {
+              "component": "696f4a9a3d82954cb43ac683",
+              "element": "e97da5a4-ccd6-5e76-4bd1-397c08914758"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "696f49d7f343717fcadfcf28",
+          "path": "/informazioni/alloggio",
+          "instance": {
+            "id": {
+              "component": "696f49d7f343717fcadfcf28",
+              "element": "e97da5a4-ccd6-5e76-4bd1-397c08914758"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba894",
+          "path": "/informazioni/listino-prezzi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba894",
+              "element": "01415f8e-f1dc-065f-6696-5928ab24123a"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba893",
+          "path": "/informazioni/garanzie",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba893",
+              "element": "01415f8e-f1dc-065f-6696-5928ab24123a"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba892",
+          "path": "/informazioni/pagamento-flessibile",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba892",
+              "element": "01415f8e-f1dc-065f-6696-5928ab24123a"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba891",
+          "path": "/informazioni/tempi-del-trattamento",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba891",
+              "element": "01415f8e-f1dc-065f-6696-5928ab24123a"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba890",
+          "path": "/informazioni/prima-visita-gratuita",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba890",
+              "element": "e97da5a4-ccd6-5e76-4bd1-397c08914758"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "name": "Sidebar informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Link Block",
+        "Podstranice sidebar",
+        "Prednost",
+        "Text Block 11",
+        "Text Block 16",
+        "Text Span 4"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SidebarInformazioni.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+      "name": "Breadcrumb",
+      "instanceCount": 0,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-12.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+      "directPageInstances": [],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Breadcrum text",
+        "Breadcrumb Wrapper 4",
+        "Breadcrumb conteiner",
+        "Div Block 38",
+        "Inner Banner breadcrumb",
+        "Link breadcrumb",
+        "breadcrumb",
+        "current"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "Breadcrumb.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "9451505b-5015-c534-40e8-5413c82b759b",
+      "name": "Zaglavlje detaljna",
+      "instanceCount": 0,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-12-retry-3.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/9451505b-5015-c534-40e8-5413c82b759b",
+      "directPageInstances": [],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Career Collection List Wrapper",
+        "Container Wrapper 4",
+        "Home 2 Header",
+        "Image 10",
+        "Inner Banner",
+        "Inner Banner Photo",
+        "Inner Banner Text Wrap",
+        "Nadnaslov detaljna",
+        "Naslov detaljna",
+        "Podnaslov detaljna",
+        "Section Heading Wrapper 3",
+        "Team Page",
+        "Zaglavlje detaljna",
+        "naslov detaljna tekstovi",
+        "sjena-lijevo"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "ZaglavljeDetaljna.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+      "name": "kartica Premium: ponte fisso su impianti",
+      "instanceCount": 3,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-16.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "d9f14d67-bd58-3d93-1efb-1aa4e83b738c"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+              "name": "kartica Premium: ponte fisso su impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "7adaa30d-a758-b3b2-e67d-ab4221fa4e7b"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+              "name": "kartica Premium: ponte fisso su impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "11f7cd79-d19d-6f76-04ff-ce57e5706c67"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+              "name": "kartica Premium: ponte fisso su impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [
+        {
+          "parentComponentId": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "instance": {
+            "id": {
+              "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+              "element": "48dd69b5-bcf2-598d-dd60-d354f7f63dab"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+              "name": "kartica Premium: ponte fisso su impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Home Service Card",
+        "Large Paragraph",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "bold",
+        "cijena velika",
+        "istaknuta cijena"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "KarticaPremiumPonteFissoSuImpianti.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+      "name": "kartica Facilissimo: sbiancamento dei denti",
+      "instanceCount": 3,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-16.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/9db036bc-9bac-25ca-e571-158aa48dd517",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "5204e39b-dc82-49ce-fb99-b62904d96882"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+              "name": "kartica Facilissimo: sbiancamento dei denti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "f40ab2c5-b024-7140-cee0-7fb946e80c01"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+              "name": "kartica Facilissimo: sbiancamento dei denti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "9db036bc-9bac-25ca-e571-158aa48dd525"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+              "name": "kartica Facilissimo: sbiancamento dei denti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [
+        {
+          "parentComponentId": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "instance": {
+            "id": {
+              "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+              "element": "40351043-8d8e-b45b-5e3c-21b8484e542e"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+              "name": "kartica Facilissimo: sbiancamento dei denti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Home Service Card",
+        "Large Paragraph",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "bold",
+        "cijena velika",
+        "istaknuta cijena"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "KarticaFacilissimoSbiancamentoDeiDenti.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+      "name": "kartica Corone, faccette, ponti e protesi",
+      "instanceCount": 3,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-16.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "0cedbfec-7b64-ed7b-50a6-7becaea2cdb2"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+              "name": "kartica Corone, faccette, ponti e protesi",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "9f329d04-429b-a1ab-b425-e51c549f384e"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+              "name": "kartica Corone, faccette, ponti e protesi",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f8e"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+              "name": "kartica Corone, faccette, ponti e protesi",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [
+        {
+          "parentComponentId": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "instance": {
+            "id": {
+              "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+              "element": "1788aecf-86cb-914f-9cf8-26def63c06ab"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+              "name": "kartica Corone, faccette, ponti e protesi",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Home Service Card",
+        "Large Paragraph",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "bold",
+        "cijena velika",
+        "istaknuta cijena"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "KarticaCoroneFaccettePontiEProtesi.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+      "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+      "instanceCount": 3,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-16.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/d430cc2c-555c-6d7a-ff18-8922771fa88e",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "0a1d4186-f3d0-ca14-fec9-9bc250d0b749"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+              "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "d7868e87-7aad-a2ab-2b87-c1af71267a79"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+              "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "d430cc2c-555c-6d7a-ff18-8922771fa89b"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+              "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [
+        {
+          "parentComponentId": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "instance": {
+            "id": {
+              "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+              "element": "b0c67d72-29ad-65ac-cb26-33276f70651a"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+              "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Home Service Card",
+        "Large Paragraph",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "bold",
+        "cijena velika",
+        "istaknuta cijena"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "KarticaImperdibileProtesiDefinitivaAncorataSu4Impianti.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+      "name": "Directory cards - Home layout",
+      "group": "Directory pages",
+      "description": "Exact Home service-card layout with its existing card behavior and responsive styles.",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-20-retry-0.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+      "directPageInstances": [
+        {
+          "pageId": "6a8d7da5fff15c0449d670e2",
+          "path": "/prestazioni-dentali",
+          "instance": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "66840bd9-9b5e-cfc3-e1af-71433b1a67b8"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+              "name": "Directory cards - Home layout",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Base Container",
+        "Div Block 13",
+        "Div Block 35",
+        "Div Block 36",
+        "Full Width",
+        "Home Service Card HP",
+        "Large Paragraph",
+        "Link Block 5",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "Section Tradizione",
+        "bold",
+        "cijena velika",
+        "icon-embed-xxsmall 2",
+        "istaknuta cijena",
+        "p-teaser-img-wrap",
+        "teaser-column",
+        "teaser-container",
+        "teaser-copy-wrap",
+        "teaser-grid",
+        "teaser-img",
+        "teaser-img-tablet-down",
+        "teaser-section"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "DirectoryCardsHomeLayout.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+      "name": "Directory cards - Su di noi",
+      "group": "Directory pages",
+      "description": "Home-derived directory cards for the first four About pages.",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-20-final-1.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+      "directPageInstances": [
+        {
+          "pageId": "6a8d7da585ba860c0b521829",
+          "path": "/chi-siamo",
+          "instance": {
+            "id": {
+              "component": "6a8d7da585ba860c0b521829",
+              "element": "8e2f7b89-1072-56a4-253f-d0ab23724eda"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+              "name": "Directory cards - Su di noi",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Base Container",
+        "Div Block 13",
+        "Div Block 35",
+        "Div Block 36",
+        "Full Width",
+        "Home Service Card HP",
+        "Large Paragraph",
+        "Link Block 5",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "Section Tradizione",
+        "b",
+        "bold",
+        "cijena velika",
+        "icon-embed-xxsmall 2",
+        "istaknuta cijena",
+        "p-teaser-img-wrap",
+        "teaser-column",
+        "teaser-container",
+        "teaser-copy-wrap",
+        "teaser-grid",
+        "teaser-img",
+        "teaser-img-tablet-down",
+        "teaser-section"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "DirectoryCardsSuDiNoi.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "189b6a3e-5614-be7c-f080-f6f0e377e820",
+      "name": "Directory cards - Su di noi 2",
+      "group": "Directory pages",
+      "description": "Home-derived cards for materials, implants, and conscious sedation.",
+      "instanceCount": 0,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-20-final-2.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/189b6a3e-5614-be7c-f080-f6f0e377e820",
+      "directPageInstances": [],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Base Container",
+        "Div Block 13",
+        "Div Block 35",
+        "Div Block 36",
+        "Full Width",
+        "Home Service Card HP",
+        "Large Paragraph",
+        "Link Block 5",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "Section Tradizione",
+        "bold",
+        "cijena velika",
+        "icon-embed-xxsmall 2",
+        "istaknuta cijena",
+        "p-teaser-img-wrap",
+        "teaser-column",
+        "teaser-container",
+        "teaser-copy-wrap",
+        "teaser-grid",
+        "teaser-img",
+        "teaser-img-tablet-down",
+        "teaser-section"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "DirectoryCardsSuDiNoi2.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "a48c8fee-76f0-7240-0500-30f49cec6908",
+      "name": "Directory cards - Informazioni",
+      "group": "Directory pages",
+      "description": "Home-derived cards for the first four patient-information pages.",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-20.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/a48c8fee-76f0-7240-0500-30f49cec6908",
+      "directPageInstances": [
+        {
+          "pageId": "6a8d7da66a4b3462ca3f0a23",
+          "path": "/informazioni-per-pazienti",
+          "instance": {
+            "id": {
+              "component": "6a8d7da66a4b3462ca3f0a23",
+              "element": "75a8c7d0-7784-3b84-6aa2-23ef8e9034f3"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "a48c8fee-76f0-7240-0500-30f49cec6908",
+              "name": "Directory cards - Informazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Base Container",
+        "Div Block 13",
+        "Div Block 35",
+        "Div Block 36",
+        "Full Width",
+        "Home Service Card HP",
+        "Large Paragraph",
+        "Link Block 5",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "Section Tradizione",
+        "bold",
+        "cijena velika",
+        "icon-embed-xxsmall 2",
+        "istaknuta cijena",
+        "p-teaser-img-wrap",
+        "teaser-column",
+        "teaser-container",
+        "teaser-copy-wrap",
+        "teaser-grid",
+        "teaser-img",
+        "teaser-img-tablet-down",
+        "teaser-section"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "DirectoryCardsInformazioni.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+      "name": "Directory cards - Informazioni 2",
+      "group": "Directory pages",
+      "description": "Home-derived cards for accommodation, transport, and price list.",
+      "instanceCount": 0,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-24.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+      "directPageInstances": [],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Base Container",
+        "Div Block 13",
+        "Div Block 35",
+        "Div Block 36",
+        "Full Width",
+        "Home Service Card HP",
+        "Large Paragraph",
+        "Link Block 5",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "Section Tradizione",
+        "bold",
+        "cijena velika",
+        "icon-embed-xxsmall 2",
+        "istaknuta cijena",
+        "p-teaser-img-wrap",
+        "teaser-column",
+        "teaser-container",
+        "teaser-copy-wrap",
+        "teaser-grid",
+        "teaser-img",
+        "teaser-img-tablet-down",
+        "teaser-section"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "DirectoryCardsInformazioni2.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+      "name": "Izbornik jezika",
+      "group": "Navigacija",
+      "description": "Native Webflow language selector for Italian, Croatian, German, English, and Slovenian.",
+      "instanceCount": 28,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-24.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+      "directPageInstances": [],
+      "nestedInstances": [
+        {
+          "parentComponentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "instance": {
+            "id": {
+              "component": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+              "element": "f3973687-eb97-4341-fa26-759f81eab1d5"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+              "name": "Izbornik jezika",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nativeStyleNames": [
+        "dv-language-switcher",
+        "dv-language-switcher-chevron",
+        "dv-language-switcher-code",
+        "dv-language-switcher-current",
+        "dv-language-switcher-link",
+        "dv-language-switcher-menu",
+        "dv-language-switcher-name",
+        "dv-language-switcher-prefix",
+        "dv-language-switcher-summary"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "IzbornikJezika.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+      "name": "kartica Sedazione cosciente",
+      "group": "Directory pages",
+      "description": "Kartica postojeće Sedazione cosciente stranice za native Webflow liste usluga.",
+      "instanceCount": 4,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-24.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/80120cd6-e65f-28c3-91c4-db8ef46ae663",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba886",
+          "path": "/prestazioni/corone-faccette-ponti-e-protesi",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba886",
+              "element": "a4a27bd9-9ff8-a500-b2b2-576cce43746f"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+              "name": "kartica Sedazione cosciente",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba885",
+          "path": "/prestazioni/sbiancamento-dei-denti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba885",
+              "element": "16d5bd80-b2e9-e000-c012-9504c3d9bab2"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+              "name": "kartica Sedazione cosciente",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba884",
+          "path": "/prestazioni/premium-ponte-fisso-su-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba884",
+              "element": "f03f98b1-0a13-9043-f9f7-04a9633cc8fe"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+              "name": "kartica Sedazione cosciente",
+              "props": [],
+              "slots": []
+            }
+          }
+        },
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba882",
+          "path": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba882",
+              "element": "9c0662dd-5cfc-ca58-fd5b-c0c027504814"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+              "name": "kartica Sedazione cosciente",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Home Service Card",
+        "Large Paragraph",
+        "Medjunaslov H3",
+        "Nadnaslov kartica",
+        "bold",
+        "cijena velika",
+        "istaknuta cijena"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "KarticaSedazioneCosciente.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    },
+    {
+      "id": "735f2c84-7518-48f7-693c-0197067ecaaf",
+      "name": "sidebar Prestazioni",
+      "group": "Directory pages",
+      "description": "Navigazione bočnih poveznica za detaljne stranice Prestazioni.",
+      "instanceCount": 1,
+      "props": [],
+      "variants": [
+        {
+          "id": "base",
+          "name": "Base",
+          "isSelected": true
+        }
+      ],
+      "status": "extracted",
+      "sourceState": "Designer/current",
+      "structureRef": "raw/mcp/component-trees-24.json",
+      "contentAndDefaultPropsRef": "content/it.json#/components/735f2c84-7518-48f7-693c-0197067ecaaf",
+      "directPageInstances": [
+        {
+          "pageId": "695e1eeeb10c5fb8eeaba88e",
+          "path": "/prestazioni/sedazione-cosciente",
+          "instance": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88e",
+              "element": "66cbdb0c-bc8c-5111-2125-7ddf75090313"
+            },
+            "type": "ComponentInstance",
+            "instanceDetails": {
+              "type": "ComponentInstance",
+              "id": "735f2c84-7518-48f7-693c-0197067ecaaf",
+              "name": "sidebar Prestazioni",
+              "props": [],
+              "slots": []
+            }
+          }
+        }
+      ],
+      "nestedInstances": [],
+      "nativeStyleNames": [
+        "Div Block 13",
+        "Link Block",
+        "Podstranice sidebar",
+        "Prednost",
+        "Text Block 11",
+        "Text Block 16",
+        "Text Span 4"
+      ],
+      "conditionalVisibility": {
+        "status": "extracted",
+        "source": "settings.visibility and visibility-related fields in structureRef; CSS and instance overrides retained separately"
+      },
+      "astroMapping": {
+        "status": "proposed",
+        "file": "SidebarPrestazioni.astro",
+        "rule": "Reuse actual component boundaries; optional specialization for semantically different components."
+      }
+    }
+  ],
+  "repeatedNoncomponentStructures": {
+    "status": "derived",
+    "patterns": [
+      "breadcrumb-wrapper variants",
+      "detail hero/image plus price card",
+      "FAQ accordion link/answer wrappers",
+      "video testimonial list",
+      "embedded native inquiry forms generated by shared code"
+    ],
+    "evidence": "Native trees, published DOM, forms.json and repeated selectors in styles-and-cascade.json",
+    "caution": "These are structural candidates, not newly asserted Webflow components."
+  }
+}

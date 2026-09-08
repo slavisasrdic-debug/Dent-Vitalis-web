@@ -1,0 +1,650 @@
+[
+  {
+    "route": "/condizioni-di-utilizzo",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.7179750514403292
+  },
+  {
+    "route": "/condizioni-di-utilizzo",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.17948765432098765
+  },
+  {
+    "route": "/condizioni-di-utilizzo",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.3974814814814815
+  },
+  {
+    "route": "/condizioni-di-utilizzo",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.7613969610636278
+  },
+  {
+    "route": "/informativa-sulla-privacy",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.8498613683127572
+  },
+  {
+    "route": "/informativa-sulla-privacy",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.47724099794238684
+  },
+  {
+    "route": "/informativa-sulla-privacy",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.469329534662868
+  },
+  {
+    "route": "/informativa-sulla-privacy",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.607403608736942
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.4786167695473251
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.6545434670781893
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.4632165242165243
+  },
+  {
+    "route": "/informazioni-per-pazienti",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.9205432098765431
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.3782399691358025
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.6662412551440329
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.4714529914529915
+  },
+  {
+    "route": "/chi-siamo",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.0742203228869895
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.7330774176954733
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.1743091563786008
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.9282374169040837
+  },
+  {
+    "route": "/prestazioni-dentali",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.167261158594492
+  },
+  {
+    "route": "/informazioni/trasporto",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.9666404320987654
+  },
+  {
+    "route": "/informazioni/trasporto",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.6265743312757202
+  },
+  {
+    "route": "/informazioni/trasporto",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.3419002849002848
+  },
+  {
+    "route": "/informazioni/trasporto",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.914014245014245
+  },
+  {
+    "route": "/informazioni/alloggio",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 6.494912551440329
+  },
+  {
+    "route": "/informazioni/alloggio",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.274869341563786
+  },
+  {
+    "route": "/informazioni/alloggio",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.4905042735042735
+  },
+  {
+    "route": "/informazioni/alloggio",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.470806267806268
+  },
+  {
+    "route": "/testimonianze",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.9502957818930041
+  },
+  {
+    "route": "/testimonianze",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 8.260378600823046
+  },
+  {
+    "route": "/testimonianze",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.0958632478632477
+  },
+  {
+    "route": "/testimonianze",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 14.350273504273504
+  },
+  {
+    "route": "/contatti",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.6378402777777777
+  },
+  {
+    "route": "/contatti",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.3129393004115226
+  },
+  {
+    "route": "/contatti",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.2996742640075973
+  },
+  {
+    "route": "/contatti",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.3485546058879392
+  },
+  {
+    "route": "/faq",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 1.0828816872427984
+  },
+  {
+    "route": "/faq",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.42986265432098764
+  },
+  {
+    "route": "/faq",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.9875403608736941
+  },
+  {
+    "route": "/faq",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.177079772079772
+  },
+  {
+    "route": "/domande-e-risposte",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.3724264403292181
+  },
+  {
+    "route": "/domande-e-risposte",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.7478870884773663
+  },
+  {
+    "route": "/domande-e-risposte",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 0.9247863247863248
+  },
+  {
+    "route": "/domande-e-risposte",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.3289088319088318
+  },
+  {
+    "route": "/informazioni/listino-prezzi",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.6053173868312757
+  },
+  {
+    "route": "/informazioni/listino-prezzi",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.2796087962962963
+  },
+  {
+    "route": "/informazioni/listino-prezzi",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.0482174738841405
+  },
+  {
+    "route": "/informazioni/listino-prezzi",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.9967150997150998
+  },
+  {
+    "route": "/informazioni/garanzie",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 5.076714763374485
+  },
+  {
+    "route": "/informazioni/garanzie",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.5335046296296296
+  },
+  {
+    "route": "/informazioni/garanzie",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.0616552706552707
+  },
+  {
+    "route": "/informazioni/garanzie",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.9237720797720798
+  },
+  {
+    "route": "/informazioni/pagamento-flessibile",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 5.520972736625515
+  },
+  {
+    "route": "/informazioni/pagamento-flessibile",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.3976844135802469
+  },
+  {
+    "route": "/informazioni/pagamento-flessibile",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.2762288698955366
+  },
+  {
+    "route": "/informazioni/pagamento-flessibile",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.28270465337132
+  },
+  {
+    "route": "/informazioni/tempi-del-trattamento",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 1.0140259773662552
+  },
+  {
+    "route": "/informazioni/tempi-del-trattamento",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.26208256172839506
+  },
+  {
+    "route": "/informazioni/tempi-del-trattamento",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 3.430826210826211
+  },
+  {
+    "route": "/informazioni/tempi-del-trattamento",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.231998100664767
+  },
+  {
+    "route": "/informazioni/prima-visita-gratuita",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.9446520061728395
+  },
+  {
+    "route": "/informazioni/prima-visita-gratuita",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.2615599279835391
+  },
+  {
+    "route": "/informazioni/prima-visita-gratuita",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.621945868945869
+  },
+  {
+    "route": "/informazioni/prima-visita-gratuita",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.915122507122507
+  },
+  {
+    "route": "/prestazioni/sedazione-cosciente",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.5834390432098765
+  },
+  {
+    "route": "/prestazioni/sedazione-cosciente",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.39046322016460905
+  },
+  {
+    "route": "/prestazioni/sedazione-cosciente",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.2871481481481482
+  },
+  {
+    "route": "/prestazioni/sedazione-cosciente",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.0071025641025642
+  },
+  {
+    "route": "/su-di-noi/impianti-di-nuova-generazione",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.5618225308641975
+  },
+  {
+    "route": "/su-di-noi/impianti-di-nuova-generazione",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.3065054012345679
+  },
+  {
+    "route": "/su-di-noi/impianti-di-nuova-generazione",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.5244539411206077
+  },
+  {
+    "route": "/su-di-noi/impianti-di-nuova-generazione",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.0324966761633427
+  },
+  {
+    "route": "/su-di-noi/materiali-e-apparecchiature",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.979482767489712
+  },
+  {
+    "route": "/su-di-noi/materiali-e-apparecchiature",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.8490316358024692
+  },
+  {
+    "route": "/su-di-noi/materiali-e-apparecchiature",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.7307616334283
+  },
+  {
+    "route": "/su-di-noi/materiali-e-apparecchiature",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 4.433549857549858
+  },
+  {
+    "route": "/su-di-noi/laboratorio-odontotecnico",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.7424783950617284
+  },
+  {
+    "route": "/su-di-noi/laboratorio-odontotecnico",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.6013950617283951
+  },
+  {
+    "route": "/su-di-noi/laboratorio-odontotecnico",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.2451728395061727
+  },
+  {
+    "route": "/su-di-noi/laboratorio-odontotecnico",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.6381899335232668
+  },
+  {
+    "route": "/su-di-noi/come-raggiungerci",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 1.818587705761317
+  },
+  {
+    "route": "/su-di-noi/come-raggiungerci",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.24648431069958848
+  },
+  {
+    "route": "/su-di-noi/come-raggiungerci",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.6147948717948717
+  },
+  {
+    "route": "/su-di-noi/come-raggiungerci",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.907764482431149
+  },
+  {
+    "route": "/su-di-noi/tutto-in-un-unico-luogo",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.8194701646090535
+  },
+  {
+    "route": "/su-di-noi/tutto-in-un-unico-luogo",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.7404714506172839
+  },
+  {
+    "route": "/su-di-noi/tutto-in-un-unico-luogo",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.9181880341880342
+  },
+  {
+    "route": "/su-di-noi/tutto-in-un-unico-luogo",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.3646467236467237
+  },
+  {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.9183865740740741
+  },
+  {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.6771123971193416
+  },
+  {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.4127445394112061
+  },
+  {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.265773029439696
+  },
+  {
+    "route": "/prestazioni/corone-faccette-ponti-e-protesi",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 1.1585295781893004
+  },
+  {
+    "route": "/prestazioni/corone-faccette-ponti-e-protesi",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 0.17198045267489712
+  },
+  {
+    "route": "/prestazioni/corone-faccette-ponti-e-protesi",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.346880341880342
+  },
+  {
+    "route": "/prestazioni/corone-faccette-ponti-e-protesi",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.7197350427350426
+  },
+  {
+    "route": "/prestazioni/sbiancamento-dei-denti",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 0.9121671810699589
+  },
+  {
+    "route": "/prestazioni/sbiancamento-dei-denti",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 1.8123076131687244
+  },
+  {
+    "route": "/prestazioni/sbiancamento-dei-denti",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 1.5556828110161443
+  },
+  {
+    "route": "/prestazioni/sbiancamento-dei-denti",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 3.4683827160493825
+  },
+  {
+    "route": "/prestazioni/premium-ponte-fisso-su-impianti",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 1.2737659465020577
+  },
+  {
+    "route": "/prestazioni/premium-ponte-fisso-su-impianti",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.948593106995885
+  },
+  {
+    "route": "/prestazioni/premium-ponte-fisso-su-impianti",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.154392212725546
+  },
+  {
+    "route": "/prestazioni/premium-ponte-fisso-su-impianti",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 3.1309867046533713
+  },
+  {
+    "route": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+    "width": 1440,
+    "state": "top",
+    "meanAbsoluteError": 1.8936756687242797
+  },
+  {
+    "route": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+    "width": 1440,
+    "state": "scroll-650",
+    "meanAbsoluteError": 2.9387890946502058
+  },
+  {
+    "route": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+    "width": 390,
+    "state": "top",
+    "meanAbsoluteError": 2.099327635327635
+  },
+  {
+    "route": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+    "width": 390,
+    "state": "scroll-650",
+    "meanAbsoluteError": 3.5355612535612537
+  }
+]

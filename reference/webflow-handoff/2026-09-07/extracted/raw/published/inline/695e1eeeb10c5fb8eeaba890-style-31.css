@@ -1,0 +1,16 @@
+
+.dv-language-switcher {
+  display: block;
+}
+.dv-language-mobile-adjacent {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .dv-language-switcher {
+    display: none !important;
+  }
+  .dv-language-mobile-adjacent {
+    display: block !important;
+    flex: 0 0 auto;
+  }
+}

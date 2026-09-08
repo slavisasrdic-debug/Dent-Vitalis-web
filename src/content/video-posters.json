@@ -1,0 +1,60 @@
+{
+  "Dentvitalis_video-left": {
+    "source": "source-assets/webflow-export/2026-09-07/extracted/videos/Dentvitalis_video-left_mp4.mp4",
+    "sourceSha256": "0d28120943ed1f986c7ff661ca02791643fa73fd59a72655d9c45db33dc8e34d",
+    "frame": "first decoded presentation frame; no seek, no crop",
+    "frameSha256": "d3ef47ce3681277400527f684af65377cf3f8c1ab07b1a6f84e750fe1a06fac8",
+    "width": 1280,
+    "height": 720,
+    "src": "/assets/video/Dentvitalis_video-left_first-frame-1280.webp",
+    "variants": [
+      {
+        "src": "/assets/video/Dentvitalis_video-left_first-frame-320.webp",
+        "width": 320,
+        "bytes": 5532,
+        "sha256": "ac0dfaeb3b735796aefce5d1fbbb7a557d4c26298cc8c91ae67fdb4387a5f279"
+      },
+      {
+        "src": "/assets/video/Dentvitalis_video-left_first-frame-640.webp",
+        "width": 640,
+        "bytes": 18336,
+        "sha256": "2a32d2986680e787f6fe4640b41f1ffeb6caba11b470689ca20214614de5bbbe"
+      },
+      {
+        "src": "/assets/video/Dentvitalis_video-left_first-frame-960.webp",
+        "width": 960,
+        "bytes": 35986,
+        "sha256": "5e9f9150064478fe8f22786383c6b6d3c3ddd8f91f988a6f3c5750e3df186489"
+      },
+      {
+        "src": "/assets/video/Dentvitalis_video-left_first-frame-1280.webp",
+        "width": 1280,
+        "bytes": 54340,
+        "sha256": "9c661c0e5ff194f908b549130671a82d790583cc3242ee2752405bfab04da0ab"
+      }
+    ]
+  },
+  "DV-MObile-video01_3": {
+    "source": "source-assets/webflow-export/2026-09-07/extracted/videos/DV-MObile-video01_3_mp4.mp4",
+    "sourceSha256": "f7bca8dcdd389cb4a0102967deed1ae9127f5af2a1af289184dd103d8df775d0",
+    "frame": "first decoded presentation frame; no seek, no crop",
+    "frameSha256": "e1b7e20e70b8554c6bd5f63975d54811782150af941edc00d6b43386c55e05d7",
+    "width": 406,
+    "height": 720,
+    "src": "/assets/video/DV-MObile-video01_3_first-frame-406.webp",
+    "variants": [
+      {
+        "src": "/assets/video/DV-MObile-video01_3_first-frame-320.webp",
+        "width": 320,
+        "bytes": 26060,
+        "sha256": "2d17c481fdd3aa3bd68b93b031fb033e108fb2d80bc1c6fc6b127f40e4ab2526"
+      },
+      {
+        "src": "/assets/video/DV-MObile-video01_3_first-frame-406.webp",
+        "width": 406,
+        "bytes": 38166,
+        "sha256": "66a0964d6d5a952d4362bc9d237aede7d9f279979dd5a6844d30c4c204505c01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,970 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:45:23.987Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba88b",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "695e1eeeb10c5fb8eeaba88b",
+              "element": "68e77bb8a2d3bcb91046b16b"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "81f095f4-9787-0d97-dd1b-72bcf8b897bb"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba88b",
+                      "element": "175e7149-847c-b565-7795-88f5a376a26a"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "175e7149-847c-b565-7795-88f5a376a26b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba88b",
+                              "element": "175e7149-847c-b565-7795-88f5a376a26c"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "175e7149-847c-b565-7795-88f5a376a26d"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "175e7149-847c-b565-7795-88f5a376a26e"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "175e7149-847c-b565-7795-88f5a376a26f"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "none"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba88b",
+                                              "element": "175e7149-847c-b565-7795-88f5a376a270"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "175e7149-847c-b565-7795-88f5a376a271"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "175e7149-847c-b565-7795-88f5a376a272"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "175e7149-847c-b565-7795-88f5a376a273"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "2c4b8b57-1bb1-2e04-28b3-ae181696d29f"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/chi-siamo"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "695e1eeeb10c5fb8eeaba88b",
+                                              "element": "95b6483d-21b3-f30e-ba27-e0f40e5b1ddd"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Su di noi"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "175e7149-847c-b565-7795-88f5a376a275"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "175e7149-847c-b565-7795-88f5a376a276"
+                                        },
+                                        "type": "String",
+                                        "textContent": "/"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "175e7149-847c-b565-7795-88f5a376a277"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "175e7149-847c-b565-7795-88f5a376a278"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Laboratorio odontotecnico"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "cdc57c5b-abec-d8d6-913b-6dde9814e14f"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba88b",
+                      "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4dd"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4de"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4df"
+                        },
+                        "type": "Image",
+                        "styleNames": [
+                          "Image 10"
+                        ],
+                        "settings": {
+                          "visibility": true,
+                          "assetId": "6a86da4eae8635c0cdb45a0a",
+                          "altText": "Laboratorio odontotecnico"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba88b",
+                      "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e0"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e1"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba88b",
+                              "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e2"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e6"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e7"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e8"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Laboratorio odontotecnico"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4e9"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "2b29b01a-7d1d-647d-66c1-47f79e91c4ea"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Qualità, precisione e rapidità ai massimi livelli, grazie all’utilizzo di materiali premium e delle più moderne tecnologie digitali, con un eccellente rapporto tra qualità e prezzo."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "6eb75b0e-231b-7e70-8326-eb772b8c8d2c"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba88b",
+                      "element": "47933700-bb97-b61f-e191-7a4f486d24a9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Detaljna tekst"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "d105f64b-bfd5-5573-35d4-71abf601dc74"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "name": "sidebar",
+                          "props": [],
+                          "slots": []
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "1cb5350d-82f2-c742-116d-a36c6a86d23b"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Tekst detaljna"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba88b",
+                              "element": "78124333-d5f5-020a-794e-312ed4cacf02"
+                            },
+                            "type": "Paragraph",
+                            "styleNames": [
+                              "Large Paragraph"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "78124333-d5f5-020a-794e-312ed4cacf03"
+                                },
+                                "type": "String",
+                                "textContent": "All’interno della nostra clinica disponiamo di un moderno laboratorio odontotecnico completamente digitalizzato, che ci consente di realizzare manufatti protesici con elevati standard di precisione ed estetica, in tempi di lavorazione significativamente più brevi. La stretta integrazione tra laboratorio e clinica ci permette di controllare direttamente ogni fase del processo, apportare rapidamente eventuali modifiche e gestire in modo efficiente l’intero percorso, dalla progettazione alla realizzazione del manufatto definitivo."
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba88b",
+                              "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004b"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004d"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Processi produttivi completamente digitalizzati"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70053"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70055"
+                                        },
+                                        "type": "String",
+                                        "textContent": "L’elevato livello di digitalizzazione ci consente di rendere l’intero processo di realizzazione dei manufatti protesici più preciso, rapido e costantemente controllato. Ogni fase, dalla prima scansione e dalla pianificazione digitale fino alla realizzazione di corone, ponti e protesi, si svolge all’interno di un flusso di lavoro digitale integrato, che permette al medico e al laboratorio odontotecnico di lavorare sugli stessi dati e di monitorare il risultato in ogni momento.\n\nPrima di realizzare il manufatto protesico definitivo, il paziente può visualizzarne e approvarne il risultato. Solo dopo la sua approvazione procediamo con la realizzazione, garantendo un lavoro personalizzato e conforme alle sue esigenze estetiche e funzionali."
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "9b6e970c-c2b4-c4b0-545e-08d2fd5979d5"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/prestazioni/corone-faccette-ponti-e-protesi#corone_dentali"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70056"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70059"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "695e1eeeb10c5fb8eeaba88b",
+                              "element": "3270731e-3a01-e3e5-fe17-253f9eabf125"
+                            },
+                            "type": "Block",
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf126"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Medjunaslov H2 detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "3270731e-3a01-e3e5-fe17-253f9eabf127"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Materiali e componenti"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf12a"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "695e1eeeb10c5fb8eeaba88b",
+                                      "element": "3270731e-3a01-e3e5-fe17-253f9eabf12b"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Large Paragraph"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "3270731e-3a01-e3e5-fe17-253f9eabf12c"
+                                        },
+                                        "type": "String",
+                                        "textContent": "In tutti i trattamenti protesici e implantologici utilizziamo esclusivamente materiali approvati per uso medico nell’Unione Europea e conformi alla normativa europea vigente. Prestiamo particolare attenzione alla loro biocompatibilità, ovvero alla capacità del materiale di essere ben tollerato dall’organismo e di non provocare reazioni indesiderate a contatto con i tessuti del cavo orale.\n\nLa scelta dei materiali si basa sulla loro qualità, sicurezza, indicazione clinica e affidabilità nel tempo. Per ogni manufatto protesico garantiamo inoltre la tracciabilità dei materiali utilizzati e la relativa documentazione di conformità, offrendo al paziente un ulteriore livello di sicurezza e piena trasparenza."
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "695e1eeeb10c5fb8eeaba88b",
+                                          "element": "83d1ad6f-7286-b3c5-6c51-b7011422f459"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "none"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf12d"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf130"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "695e1eeeb10c5fb8eeaba88b",
+                                  "element": "3270731e-3a01-e3e5-fe17-253f9eabf133"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "odlomak"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "695e1eeeb10c5fb8eeaba88b",
+                      "element": "89c7fc6b-5eab-948e-ebb2-5b46967174e9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 2"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "695e1eeeb10c5fb8eeaba88b",
+                          "element": "89c7fc6b-5eab-948e-ebb2-5b46967174ea"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Home 2 Services Text Wrapper"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "3dfc295b-f6b3-d8cb-6038-a253c65547b6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "d24b6c77-2c3b-c5dd-5918-9145a83851c6"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "267c17f6-a75b-5abe-234f-42ef96ea03bc"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "695e1eeeb10c5fb8eeaba88b",
+                  "element": "de1c6f1d-7c60-131b-a8cd-51599890cc91"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

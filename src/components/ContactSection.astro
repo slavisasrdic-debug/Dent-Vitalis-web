@@ -1,0 +1,234 @@
+---
+import ContactForm from './ContactForm.astro';
+import type { contactCopy } from '../content/site';
+interface Props {
+  content: typeof contactCopy;
+  lang: string;
+  id?: string;
+}
+const { content, lang, id = 'contatti' } = Astro.props;
+const headingId = `inquiry-heading-${crypto.randomUUID()}`;
+---
+
+<section class="contact" id={id}>
+  <div class="contact-container">
+    <div class="contact-content">
+      <p class="eyebrow" data-reveal="grow" data-offset="0">
+        {content.eyebrow}
+      </p><div class="contact-main">
+        <h2 data-reveal>{content.title}</h2><p class="description" data-reveal>
+          {content.description}
+        </p><div data-inline-form-host>
+          <ContactForm content={content} lang={lang} />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<dialog class="inquiry-dialog" data-inquiry-dialog aria-labelledby={headingId}>
+  <div class="dialog-panel">
+    <button class="dialog-close" type="button" aria-label="Chiudi la richiesta"
+      >×</button
+    ><div class="dialog-heading">
+      <p>DENTVITALIS</p><h2 id={headingId}>{content.title}</h2>
+    </div><div class="dialog-form-host" data-dialog-form-host></div>
+  </div>
+</dialog>
+<style>
+  .contact {
+    padding: 40px 0;
+    background: linear-gradient(135deg, #055268, #0c7a99);
+    color: white;
+  }
+  .contact-container {
+    width: 90%;
+    max-width: var(--container-max);
+    margin: 0 auto 60px;
+  }
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 50px;
+  }
+  .eyebrow {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .contact-main {
+    width: 100%;
+    max-width: 900px;
+    padding-top: 10px;
+  }
+  .contact h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.15;
+    text-align: center;
+    margin: 0 0 10px;
+  }
+  .description {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .inquiry-dialog {
+    position: fixed;
+    border: 0;
+    padding: 0;
+    width: min(720px, calc(100% - 48px));
+    max-width: none;
+    max-height: calc(100dvh - 48px);
+    border-radius: 8px;
+    background: white;
+    color: #05617a;
+    box-shadow: 0 24px 64px #00232d47;
+  }
+  .inquiry-dialog::backdrop {
+    background: #00232db3;
+  }
+  .dialog-panel {
+    position: relative;
+  }
+  .dialog-close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0;
+    border-radius: 4px;
+    color: #05617a;
+    font-size: 30px;
+    line-height: 1;
+  }
+  .dialog-close:hover {
+    background: #edf4f4;
+  }
+  .dialog-heading {
+    padding: 28px 40px 14px;
+  }
+  .dialog-heading p {
+    margin-bottom: 8px;
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+  .dialog-heading h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.16;
+  }
+  .dialog-form-host {
+    padding: 0 40px 34px;
+  }
+  @media screen and (max-width: 991px) {
+    .contact-content {
+      padding-inline: 0;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .contact {
+      padding-inline: 7%;
+    }
+    .contact-container {
+      width: 100%;
+    }
+    .contact h2 {
+      font-size: 32px;
+      text-align: left;
+    }
+    .description {
+      text-align: left;
+      font-size: 20px;
+    }
+    .eyebrow {
+      align-self: flex-start;
+    }
+    .inquiry-dialog {
+      width: calc(100% - 24px);
+      max-height: calc(100dvh - 24px);
+    }
+    .dialog-heading {
+      padding: 24px 22px 14px;
+    }
+    .dialog-heading h2 {
+      font-size: 18px;
+      line-height: 1.25;
+    }
+    .dialog-heading p {
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+    .dialog-close {
+      right: 8px;
+      top: 8px;
+      width: 36px;
+      height: 36px;
+      font-size: 27px;
+    }
+    .dialog-form-host {
+      padding: 2px 22px 24px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .description {
+      font-size: 18px;
+    }
+  }
+</style>
+<script>
+  document
+    .querySelectorAll<HTMLDialogElement>('[data-inquiry-dialog]')
+    .forEach((dialog) => {
+      if (dialog.dataset.ready) return;
+      dialog.dataset.ready = 'true';
+      const section = dialog.previousElementSibling!;
+      const inlineHost = section.querySelector('[data-inline-form-host]')!;
+      const form = inlineHost.querySelector<HTMLElement>(
+        '[data-contact-form]',
+      )!;
+      const host = dialog.querySelector('[data-dialog-form-host]')!;
+      let activeTrigger: HTMLElement | null = null;
+      let overflow = '';
+      const close = () => dialog.close();
+      document
+        .querySelectorAll<HTMLElement>('[data-contact-trigger]')
+        .forEach((trigger) =>
+          trigger.addEventListener('click', (event) => {
+            if (trigger.getAttribute('href') !== `#${section.id}`) return;
+            event.preventDefault();
+            activeTrigger = trigger;
+            overflow = document.body.style.overflow;
+            document.body.style.overflow = 'hidden';
+            form.dataset.placement = 'home_popup';
+            host.append(form);
+            dialog.showModal();
+            form.querySelector<HTMLInputElement>('input')?.focus();
+          }),
+        );
+      dialog.querySelector('.dialog-close')!.addEventListener('click', close);
+      dialog.addEventListener('click', (event) => {
+        if (event.target === dialog) {
+          const rect = dialog.getBoundingClientRect();
+          if (
+            event.clientX < rect.left ||
+            event.clientX > rect.right ||
+            event.clientY < rect.top ||
+            event.clientY > rect.bottom
+          )
+            close();
+        }
+      });
+      dialog.addEventListener('close', () => {
+        inlineHost.append(form);
+        form.dataset.placement = 'home_inline';
+        document.body.style.overflow = overflow;
+        activeTrigger?.focus();
+      });
+    });
+</script>

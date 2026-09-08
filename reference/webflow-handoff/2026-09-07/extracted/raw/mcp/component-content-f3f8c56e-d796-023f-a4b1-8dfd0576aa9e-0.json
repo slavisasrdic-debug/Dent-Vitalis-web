@@ -1,0 +1,103 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:32.982Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Breadcrumb",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Breadcrumb",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Breadcrumb",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa3",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"f3f8c56e-d796-023f-a4b1-8dfd0576aaa4\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa6",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa8",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">Prestazioni</h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aaaa",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aaac",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Testimonianze</h6>",
+              "text": "Testimonianze"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "label": "Component defaults Breadcrumb",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

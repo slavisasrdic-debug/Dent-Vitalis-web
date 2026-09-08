@@ -1,0 +1,94 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:11.821Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "d430cc2c-555c-6d7a-ff18-8922771fa890",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d430cc2c-555c-6d7a-ff18-8922771fa892",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/prestazioni/protesi-definitiva-ancorata-su-4-impianti\">Imperdibile: protesi definitiva ancorata su 4 impianti</a>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d430cc2c-555c-6d7a-ff18-8922771fa894",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.</p>",
+              "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d430cc2c-555c-6d7a-ff18-8922771fa898",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Prezzo fisso a 2.990 €</div>",
+              "text": "Prezzo fisso a 2.990 €"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "label": "Component defaults kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

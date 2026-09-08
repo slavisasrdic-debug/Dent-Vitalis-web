@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://flagcdn.com/w40/it.png",
+    "original": "source-assets/external-images/2026-09-07/flagcdn/w40/it.png",
+    "output": "public/assets/images/flag-it.png",
+    "sha256": "13ac00068b4541fdac777c9710eea64044c365df6a72a1a94bc0c5765b8ba123"
+  },
+  {
+    "url": "https://flagcdn.com/w40/hr.png",
+    "original": "source-assets/external-images/2026-09-07/flagcdn/w40/hr.png",
+    "output": "public/assets/images/flag-hr.png",
+    "sha256": "5cd7795f670dc14e83b97cc49403b011f5aa91bae36247be1f1aa0cbf2597fe9"
+  },
+  {
+    "url": "https://flagcdn.com/w40/de.png",
+    "original": "source-assets/external-images/2026-09-07/flagcdn/w40/de.png",
+    "output": "public/assets/images/flag-de.png",
+    "sha256": "4bf08b86243b0c5d79c196728100dd278a398ab57edaf56c871fceb9d879dbeb"
+  },
+  {
+    "url": "https://flagcdn.com/w40/gb.png",
+    "original": "source-assets/external-images/2026-09-07/flagcdn/w40/gb.png",
+    "output": "public/assets/images/flag-gb.png",
+    "sha256": "e2e39a14b87527ab4893d3f17510fcf2d12c6078f15289a2289a6b96da0d7098"
+  },
+  {
+    "url": "https://flagcdn.com/w40/si.png",
+    "original": "source-assets/external-images/2026-09-07/flagcdn/w40/si.png",
+    "output": "public/assets/images/flag-si.png",
+    "sha256": "d4272756e6664abfbcd5bd1be48a83c679340fdf15589ff58eed6add9fb5943b"
+  }
+]

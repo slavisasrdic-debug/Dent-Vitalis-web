@@ -1,0 +1,206 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:37.102Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba88e",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba88e",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba88e",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba88e",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "574dffc5-0d1d-3e0f-273f-48f7069fc61e",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"574dffc5-0d1d-3e0f-273f-48f7069fc61f\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "574dffc5-0d1d-3e0f-273f-48f7069fc621",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "574dffc5-0d1d-3e0f-273f-48f7069fc623",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"6a8d7da5fff15c0449d670e2\" data-w-id=\"9867001f-2edf-7f4e-f5cd-39a39b2afcbe\">Prestazioni</a></h6>",
+              "text": "Prestazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "574dffc5-0d1d-3e0f-273f-48f7069fc625",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "574dffc5-0d1d-3e0f-273f-48f7069fc627",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Sedazione cosciente</h6>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ad8c4667-3a92-20a1-5322-75fc265796ac",
+            "image": {
+              "alt": "Sedazione cosciente",
+              "assetId": "6a97ddcafef6e2905c2f3e1e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ad8c4667-3a92-20a1-5322-75fc265796b4",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Sedazione cosciente</h1>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ad8c4667-3a92-20a1-5322-75fc265796b6",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.</p>",
+              "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "66cbdb0c-bc8c-5111-2125-7ddf75090313",
+            "componentId": "735f2c84-7518-48f7-693c-0197067ecaaf",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La sedazione cosciente, praticata sotto la supervisione di un medico specialista in Anestesia e Rianimazione, consente di affrontare gli interventi implantologici più complessi in modo sereno e confortevole. È particolarmente indicata nei casi in cui sia necessario intervenire contemporaneamente su entrambe le arcate, permettendo, quando le condizioni cliniche lo consentono, di completare l’intero trattamento in un’unica seduta, con il supporto costante di un’équipe anestesiologica qualificata.</p>",
+              "text": "La sedazione cosciente, praticata sotto la supervisione di un medico specialista in Anestesia e Rianimazione, consente di affrontare gli interventi implantologici più complessi in modo sereno e confortevole. È particolarmente indicata nei casi in cui sia necessario intervenire contemporaneamente su entrambe le arcate, permettendo, quando le condizioni cliniche lo consentono, di completare l’intero trattamento in un’unica seduta, con il supporto costante di un’équipe anestesiologica qualificata."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0d9",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Procedura</p>",
+              "text": "Procedura"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0dc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’intera procedura è seguita da uno specialista in anestesiologia, che monitora costantemente lo stato del paziente per garantire la massima sicurezza e comfort durante tutto l’intervento.</p>",
+              "text": "L’intera procedura è seguita da uno specialista in anestesiologia, che monitora costantemente lo stato del paziente per garantire la massima sicurezza e comfort durante tutto l’intervento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "137e8371-a85f-fb0c-4b80-6926079c6010",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prima dell’intervento, l’anestesista esaminerà la tua anamnesi per verificare che il tipo di anestesia scelto sia sicuro e adatto al tuo stato di salute generale.</p>",
+              "text": "Prima dell’intervento, l’anestesista esaminerà la tua anamnesi per verificare che il tipo di anestesia scelto sia sicuro e adatto al tuo stato di salute generale."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "02112069-59c1-db23-c6a7-1456358cdc1b",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Vantaggi</p>",
+              "text": "Vantaggi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "02112069-59c1-db23-c6a7-1456358cdc1e",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La sedazione cosciente permette al paziente di affrontare anche trattamenti odontoiatrici complessi in modo sereno e rilassato, riducendo paura e disagio e mantenendo la possibilità di comunicare con il medico durante tutta la procedura.\n\nÈ particolarmente indicata per interventi lunghi e complessi e per i pazienti che vivono con ansia le cure odontoiatriche. Quando clinicamente indicato, consente di eseguire un trattamento più ampio, anche su entrambe le arcate, in un’unica seduta, riducendo il numero di appuntamenti e i tempi complessivi del percorso terapeutico. La sedazione viene praticata e supervisionata da un medico specialista in Anestesia e Rianimazione, con un livello di sedazione adattato individualmente alle esigenze del paziente durante la procedura.</p>",
+              "text": "La sedazione cosciente permette al paziente di affrontare anche trattamenti odontoiatrici complessi in modo sereno e rilassato, riducendo paura e disagio e mantenendo la possibilità di comunicare con il medico durante tutta la procedura.\n\nÈ particolarmente indicata per interventi lunghi e complessi e per i pazienti che vivono con ansia le cure odontoiatriche. Quando clinicamente indicato, consente di eseguire un trattamento più ampio, anche su entrambe le arcate, in un’unica seduta, riducendo il numero di appuntamenti e i tempi complessivi del percorso terapeutico. La sedazione viene praticata e supervisionata da un medico specialista in Anestesia e Rianimazione, con un livello di sedazione adattato individualmente alle esigenze del paziente durante la procedura."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "78d818e0-73ec-f6c0-7d79-47676153da21",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Contattaci e scopri come puoi ottenere questo servizio gratuitamente.</p>",
+              "text": "Contattaci e scopri come puoi ottenere questo servizio gratuitamente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 21
+        },
+        "lastUpdated": "2026-09-02T13:38:42.526Z"
+      }
+    }
+  ]
+}

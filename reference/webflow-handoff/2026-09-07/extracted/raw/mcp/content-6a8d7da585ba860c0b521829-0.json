@@ -1,0 +1,116 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:11.601Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 6a8d7da585ba860c0b521829",
+        "get_page_content": {
+          "page_id": "6a8d7da585ba860c0b521829",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 6a8d7da585ba860c0b521829",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "6a8d7da585ba860c0b521829",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "ff1182ff-34c8-6b2e-44a1-9f46e42c0389",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "dc9c5edf-b4b4-022b-fd0f-e15614411635",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/\" data-w-id=\"304f41ae-94be-57c3-3eaa-dc1abbbe5215\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d1b1cd62-33c2-e332-787a-a98888c80f5f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"> / </h6>",
+              "text": " / "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "89e5a027-f33d-dc2b-8a8d-78446514413d",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Su di noi</h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4bb9d424-e8aa-c45c-b365-fee0b37163dd",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Su di noi</h1>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "27036a0d-a16c-19fd-c9b7-f0de67a09271",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Da 30 anni, oltre 30.000 impianti inseriti con successo.</p>",
+              "text": "Da 30 anni, oltre 30.000 impianti inseriti con successo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "8e2f7b89-1072-56a4-253f-d0ab23724eda",
+            "componentId": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "595b92e1-6c05-3a92-7e2e-47823c4d2f53",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d9c78483-382a-136c-b035-5fb69263cc82",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "b9552538-581f-bd6b-214b-1cebd768b9a2",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "cb56b0e8-bfdd-532e-b945-d3bbb2decada",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 11
+        },
+        "lastUpdated": "2026-09-04T09:03:47.822Z"
+      }
+    }
+  ]
+}

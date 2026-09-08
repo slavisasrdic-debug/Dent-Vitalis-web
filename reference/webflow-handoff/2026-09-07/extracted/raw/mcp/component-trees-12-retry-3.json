@@ -1,0 +1,271 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:52:37.634Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "context": "The read-only snapshot retries rate-limited structure reads sequentially to complete page and component coverage without changing source.",
+    "actions": [
+      {
+        "label": "Complete source component 9451505b-5015-c534-40e8-5413c82b759b",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "9451505b-5015-c534-40e8-5413c82b759b"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete source component 9451505b-5015-c534-40e8-5413c82b759b",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"9451505b-5015-c534-40e8-5413c82b759b\" tree loaded",
+          "data": {
+            "id": {
+              "component": "9451505b-5015-c534-40e8-5413c82b759b",
+              "element": "9451505b-5015-c534-40e8-5413c82b759b"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Zaglavlje detaljna"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                  "element": "9451505b-5015-c534-40e8-5413c82b759c"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Inner Banner Photo",
+                  "Team Page"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                      "element": "9451505b-5015-c534-40e8-5413c82b759d"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "sjena-lijevo"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    }
+                  },
+                  {
+                    "id": {
+                      "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                      "element": "9451505b-5015-c534-40e8-5413c82b759e"
+                    },
+                    "type": "Image",
+                    "styleNames": [
+                      "Image 10"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "assetId": "69638685bcfda6df6870b6f6"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                  "element": "9451505b-5015-c534-40e8-5413c82b759f"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Container Wrapper 4"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                      "element": "9451505b-5015-c534-40e8-5413c82b75a0"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                          "element": "9451505b-5015-c534-40e8-5413c82b75a1"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner Text Wrap",
+                          "Career Collection List Wrapper"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                              "element": "9451505b-5015-c534-40e8-5413c82b75a2"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Section Heading Wrapper 3",
+                              "Home 2 Header"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                                  "element": "9451505b-5015-c534-40e8-5413c82b75a3"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Nadnaslov detaljna"
+                                ],
+                                "settings": {
+                                  "tag": "h6",
+                                  "visibility": true,
+                                  "headingLevel": 6
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                                      "element": "9451505b-5015-c534-40e8-5413c82b75a4"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Pacchetto “tutto incluso”"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                              "element": "9451505b-5015-c534-40e8-5413c82b75a5"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "naslov detaljna tekstovi"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                                  "element": "9451505b-5015-c534-40e8-5413c82b75a6"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Naslov detaljna"
+                                ],
+                                "settings": {
+                                  "tag": "h1",
+                                  "visibility": true,
+                                  "headingLevel": 1
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                                      "element": "9451505b-5015-c534-40e8-5413c82b75a7"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Premium: ponte fisso su impianti"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                                  "element": "9451505b-5015-c534-40e8-5413c82b75a8"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Podnaslov detaljna"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "9451505b-5015-c534-40e8-5413c82b759b",
+                                      "element": "9451505b-5015-c534-40e8-5413c82b75a9"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

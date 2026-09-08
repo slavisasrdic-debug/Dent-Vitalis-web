@@ -1,0 +1,712 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T08:07:26.658Z",
+  "tool": "mcp__codex_apps__webflow_data_pages_tool",
+  "request": {
+    "context": "The final source consistency check compares all page identities and modification timestamps to detect changes during read-only extraction.",
+    "actions": [
+      {
+        "label": "Current final page list",
+        "list_pages": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Current final page list",
+      "action": "list_pages",
+      "result": {
+        "pages": [
+          {
+            "id": "6a97db25519800ebff25b9f2",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Condizioni di utilizzo",
+            "slug": "condizioni-di-utilizzo",
+            "createdOn": "2026-09-02T08:15:33.826Z",
+            "lastUpdated": "2026-09-02T12:06:36.113Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {},
+            "openGraph": {
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/condizioni-di-utilizzo"
+          },
+          {
+            "id": "6a97db259aad9ee4bb4bd328",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Informativa sulla privacy",
+            "slug": "informativa-sulla-privacy",
+            "createdOn": "2026-09-02T08:15:33.416Z",
+            "lastUpdated": "2026-09-02T12:05:45.770Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {},
+            "openGraph": {
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informativa-sulla-privacy"
+          },
+          {
+            "id": "6a8d7da66a4b3462ca3f0a23",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Informazioni per i pazienti",
+            "slug": "informazioni-per-pazienti",
+            "createdOn": "2026-08-25T11:33:58.769Z",
+            "lastUpdated": "2026-09-04T13:27:37.092Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Informazioni per i pazienti | DentVitalis",
+              "description": "Informazioni su prima visita gratuita, alloggio, trasporto, pagamenti, garanzie e tempi del trattamento."
+            },
+            "openGraph": {
+              "titleCopied": false,
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni-per-pazienti"
+          },
+          {
+            "id": "6a8d7da585ba860c0b521829",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Su di noi",
+            "slug": "chi-siamo",
+            "createdOn": "2026-08-25T11:33:57.907Z",
+            "lastUpdated": "2026-09-04T09:03:47.785Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Su di noi | DentVitalis",
+              "description": "Scopri DentVitalis a Rijeka: esperienza, specialisti, laboratorio odontotecnico e assistenza dedicata in italiano."
+            },
+            "openGraph": {
+              "titleCopied": false,
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/chi-siamo"
+          },
+          {
+            "id": "6a8d7da5fff15c0449d670e2",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Le nostre prestazioni",
+            "slug": "prestazioni-dentali",
+            "createdOn": "2026-08-25T11:33:57.113Z",
+            "lastUpdated": "2026-09-03T12:36:37.020Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Prestazioni dentali in Croazia | DentVitalis",
+              "description": "Scopri le soluzioni odontoiatriche DentVitalis a Rijeka: implantologia, protesi, sbiancamento e trattamenti personalizzati."
+            },
+            "openGraph": {
+              "titleCopied": false,
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/prestazioni-dentali"
+          },
+          {
+            "id": "696f4a9a3d82954cb43ac683",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Trasporto",
+            "slug": "trasporto",
+            "createdOn": "2026-01-20T09:27:54.578Z",
+            "lastUpdated": "2026-08-31T14:00:45.660Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Trasporto per pazienti italiani | DentVitalis",
+              "description": "Organizziamo il trasferimento per i pazienti italiani diretti a DentVitalis a Rijeka, con assistenza prima dell'arrivo e durante il soggiorno."
+            },
+            "openGraph": {
+              "title": "Trasporto per pazienti italiani",
+              "titleCopied": true,
+              "description": "Assistenza per raggiungere DentVitalis a Rijeka dall'Italia.",
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/trasporto"
+          },
+          {
+            "id": "696f49d7f343717fcadfcf28",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Alloggio",
+            "slug": "alloggio",
+            "createdOn": "2026-01-20T09:24:39.668Z",
+            "lastUpdated": "2026-08-31T13:58:44.691Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Alloggio in clinica a Rijeka | DentVitalis",
+              "description": "Potrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare che ti accompagna."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/alloggio"
+          },
+          {
+            "id": "69679710d4037ebd0cbb9df2",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Testimonianze",
+            "slug": "testimonianze",
+            "createdOn": "2026-01-14T13:16:00.636Z",
+            "lastUpdated": "2026-09-03T07:57:05.091Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Testimonianze dei pazienti | DentVitalis",
+              "description": "Leggi le testimonianze dei pazienti DentVitalis e guarda le video recensioni su trattamenti dentali, assistenza e risultati ottenuti a Rijeka."
+            },
+            "openGraph": {
+              "title": "Testimonianze dei pazienti DentVitalis",
+              "titleCopied": true,
+              "description": "Esperienze e video recensioni dei pazienti DentVitalis a Rijeka.",
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/testimonianze"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba898",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Contatti",
+            "slug": "contatti",
+            "createdOn": "2025-12-15T11:51:14.918Z",
+            "lastUpdated": "2026-09-04T09:26:32.092Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Contatti dentista a Rijeka | DentVitalis",
+              "description": "Dentvitalis Fides d.o.o. , Krešimirova 60, 51000 Rijeka (Fiume), Hrvatska (Croazia)\n"
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/contatti"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba897",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Domande e risposte",
+            "slug": "faq",
+            "createdOn": "2025-12-05T09:00:59.592Z",
+            "lastUpdated": "2026-08-31T15:09:14.168Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Domande frequenti sulle cure dentali in Croazia | DentVitalis",
+              "description": "Trova risposte chiare su cure dentali in Croazia, prezzi, tempi, prima visita, viaggio a Rijeka e assistenza DentVitalis in italiano."
+            },
+            "openGraph": {
+              "title": "Domande frequenti sulle cure dentali in Croazia",
+              "titleCopied": true,
+              "description": "Risposte su prezzi, tempi, prima visita, viaggio a Rijeka e assistenza DentVitalis in italiano.",
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/faq"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba896",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Galleria",
+            "slug": "domande-e-risposte",
+            "createdOn": "2025-12-01T12:10:32.682Z",
+            "lastUpdated": "2026-09-02T13:25:01.928Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Galleria dei sorrisi e dei trattamenti | DentVitalis",
+              "description": "Scopri i risultati dei trattamenti DentVitalis a Rijeka: correzioni estetiche e funzionali, riabilitazioni implantari e sorrisi prima e dopo."
+            },
+            "openGraph": {
+              "title": "Galleria dei sorrisi e dei trattamenti",
+              "titleCopied": true,
+              "description": "Scopri correzioni estetiche e funzionali, riabilitazioni implantari e risultati DentVitalis a Rijeka.",
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/domande-e-risposte"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba894",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Listino prezzi",
+            "slug": "listino-prezzi",
+            "createdOn": "2025-11-28T13:17:30.239Z",
+            "lastUpdated": "2026-09-04T13:37:29.395Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Listino prezzi dentista Croazia | DentVitalis",
+              "description": "Consulta il listino prezzi DentVitalis per le principali prestazioni odontoiatriche a Rijeka e richiedi un piano di cura personalizzato."
+            },
+            "openGraph": {
+              "title": "Listino prezzi DentVitalis",
+              "titleCopied": true,
+              "description": "Prezzi delle principali prestazioni odontoiatriche a Rijeka e piano di cura personalizzato.",
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/listino-prezzi"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba893",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Garanzie",
+            "slug": "garanzie",
+            "createdOn": "2025-11-28T12:50:04.453Z",
+            "lastUpdated": "2026-08-31T13:55:23.066Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Garanzie per cure dentali | DentVitalis",
+              "description": "Garanzie fornite per iscritto e in italiano. Per risultati sicuri, la scelta della clinica giusta è la tua migliore garanzia."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/garanzie"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba892",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Pagamento flessibile",
+            "slug": "pagamento-flessibile",
+            "createdOn": "2025-11-28T12:42:02.809Z",
+            "lastUpdated": "2026-09-02T12:32:28.686Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Pagamento flessibile | DentVitalis",
+              "description": "Scopri le opzioni di pagamento flessibile DentVitalis per pianificare le cure dentali a Rijeka in modo chiaro e sostenibile."
+            },
+            "openGraph": {
+              "title": "Pagamento flessibile per le cure dentali",
+              "titleCopied": true,
+              "description": "Opzioni trasparenti per pianificare le cure DentVitalis a Rijeka.",
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/pagamento-flessibile"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba891",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Tempi del trattamento",
+            "slug": "tempi-del-trattamento",
+            "createdOn": "2025-11-28T12:20:01.637Z",
+            "lastUpdated": "2026-08-31T13:23:17.759Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Tempi del trattamento dentale | DentVitalis",
+              "description": "Le nostre cure sono pensate per garantire il risultato desiderato con il minor numero di visite."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/tempi-del-trattamento"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba890",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba88f",
+            "title": "Prima visita gratuita",
+            "slug": "prima-visita-gratuita",
+            "createdOn": "2025-11-28T11:44:50.304Z",
+            "lastUpdated": "2026-09-02T10:35:16.089Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Prima visita dentistica gratuita | DentVitalis",
+              "description": "Dopo la prima visita ti forniremo tutte le informazioni sulle ulteriori agevolazioni e vantaggi disponibili."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/informazioni/prima-visita-gratuita"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88e",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba883",
+            "title": "Sedazione cosciente",
+            "slug": "sedazione-cosciente",
+            "createdOn": "2025-11-20T14:22:21.917Z",
+            "lastUpdated": "2026-09-02T13:38:42.511Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Sedazione cosciente a Rijeka | DentVitalis",
+              "description": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax."
+            },
+            "openGraph": {
+              "title": "Sedazione cosciente | DentVitalis",
+              "titleCopied": false,
+              "description": "Trattamenti dentali in totale relax con sedazione cosciente a DentVitalis, Rijeka.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/prestazioni/sedazione-cosciente"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88d",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba887",
+            "title": "Impianti di nuova generazione",
+            "slug": "impianti-di-nuova-generazione",
+            "createdOn": "2025-11-20T14:12:30.908Z",
+            "lastUpdated": "2026-08-31T11:56:27.892Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Impianti dentali di nuova generazione | DentVitalis",
+              "description": "Scopri gli impianti dentali di nuova generazione usati da DentVitalis a Rijeka per soluzioni stabili, confortevoli e personalizzate."
+            },
+            "openGraph": {
+              "title": "Impianti dentali di nuova generazione",
+              "titleCopied": false,
+              "description": "Soluzioni implantari stabili, confortevoli e personalizzate a Rijeka.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/su-di-noi/impianti-di-nuova-generazione"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88c",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba887",
+            "title": "Materiali e apparecchiature",
+            "slug": "materiali-e-apparecchiature",
+            "createdOn": "2025-11-20T14:02:38.834Z",
+            "lastUpdated": "2026-08-31T11:28:55.037Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Materiali e tecnologie dentali | DentVitalis",
+              "description": "Scopri materiali certificati e tecnologie digitali utilizzati da DentVitalis a Rijeka per cure odontoiatriche precise, sicure e durature."
+            },
+            "openGraph": {
+              "title": "Materiali e tecnologie dentali",
+              "titleCopied": false,
+              "description": "Materiali certificati e tecnologie digitali per cure precise e durature a Rijeka.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/su-di-noi/materiali-e-apparecchiature"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88b",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba887",
+            "title": "Laboratorio odontotecnico",
+            "slug": "laboratorio-odontotecnico",
+            "createdOn": "2025-11-20T13:56:18.902Z",
+            "lastUpdated": "2026-08-31T11:24:54.633Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Laboratorio odontotecnico interno | DentVitalis",
+              "description": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo."
+            },
+            "openGraph": {
+              "title": "Laboratorio odontotecnico | DentVitalis",
+              "titleCopied": false,
+              "description": "Laboratorio interno, materiali premium e tecnologie digitali per protesi precise e rapide.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/su-di-noi/laboratorio-odontotecnico"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba88a",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba887",
+            "title": "Come raggiungerci?",
+            "slug": "come-raggiungerci",
+            "createdOn": "2025-11-20T13:01:00.195Z",
+            "lastUpdated": "2026-09-03T11:51:30.990Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Come raggiungere DentVitalis a Rijeka | DentVitalis",
+              "description": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito."
+            },
+            "openGraph": {
+              "title": "Come raggiungere DentVitalis a Rijeka",
+              "titleCopied": false,
+              "description": "DentVitalis si trova a Rijeka, a pochi chilometri da Trieste, con assistenza per il trasferimento.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/su-di-noi/come-raggiungerci"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba889",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba887",
+            "title": "Tutto in un unico luogo",
+            "slug": "tutto-in-un-unico-luogo",
+            "createdOn": "2025-11-20T12:54:57.817Z",
+            "lastUpdated": "2026-08-31T10:59:36.899Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Tutto in un unico luogo",
+              "description": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano."
+            },
+            "openGraph": {
+              "title": "Tutto in un unico luogo | DentVitalis",
+              "titleCopied": false,
+              "description": "Cure complete, laboratorio certificato, comfort e assistenza dedicata in italiano a Rijeka.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/su-di-noi/tutto-in-un-unico-luogo"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba888",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba887",
+            "title": "I nostri specialisti",
+            "slug": "i-nostri-specialisti",
+            "createdOn": "2025-11-20T11:34:20.886Z",
+            "lastUpdated": "2026-09-04T09:04:31.368Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "I nostri specialisti dentali | DentVitalis",
+              "description": "Professionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica."
+            },
+            "openGraph": {
+              "title": "I nostri specialisti | DentVitalis",
+              "titleCopied": false,
+              "description": "Conosci il team DentVitalis e l'esperienza clinica che accompagna ogni piano di cura a Rijeka.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/su-di-noi/i-nostri-specialisti"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba886",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba883",
+            "title": "Corone, faccette, ponti e protesi",
+            "slug": "corone-faccette-ponti-e-protesi",
+            "createdOn": "2025-11-17T08:33:38.805Z",
+            "lastUpdated": "2026-09-04T13:37:19.035Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Corone, faccette e protesi dentali | DentVitalis",
+              "description": "Ogni lavoro protesico è eseguito internamente nel nostro laboratorio, secondo i più elevati standard UE."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/prestazioni/corone-faccette-ponti-e-protesi"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba885",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba883",
+            "title": "Sbiancamento dei denti",
+            "slug": "sbiancamento-dei-denti",
+            "createdOn": "2025-11-17T08:24:10.374Z",
+            "lastUpdated": "2026-09-04T13:37:08.768Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Sbiancamento dentale a Rijeka | DentVitalis",
+              "description": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/prestazioni/sbiancamento-dei-denti"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba884",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba883",
+            "title": "Premium: ponte fisso su impianti",
+            "slug": "premium-ponte-fisso-su-impianti",
+            "createdOn": "2025-11-17T08:13:55.332Z",
+            "lastUpdated": "2026-09-04T13:36:58.163Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Ponte fisso su impianti | DentVitalis",
+              "description": "Prezzo fisso per un ponte fisso su impianti, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/prestazioni/premium-ponte-fisso-su-impianti"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba882",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "parentId": "695e1eeeb10c5fb8eeaba883",
+            "title": "Protesi definitiva ancorata su 4 impianti",
+            "slug": "protesi-definitiva-ancorata-su-4-impianti",
+            "createdOn": "2025-11-11T10:04:33.186Z",
+            "lastUpdated": "2026-09-04T13:36:47.812Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "Imperdibile: protesi definitiva ancorata su 4 impianti",
+              "description": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+            },
+            "openGraph": {
+              "title": "Imperdibile: protesi definitiva ancorata su 4 impianti",
+              "titleCopied": false,
+              "description": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.",
+              "descriptionCopied": false,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+          },
+          {
+            "id": "695e1eeeb10c5fb8eeaba87c",
+            "siteId": "695e1eeeb10c5fb8eeaba87d",
+            "title": "Home",
+            "createdOn": "2025-10-09T09:09:12.268Z",
+            "lastUpdated": "2026-09-04T13:36:47.772Z",
+            "archived": false,
+            "draft": false,
+            "canBranch": true,
+            "isBranch": false,
+            "seo": {
+              "title": "DentVitalis - migliori dentisti in Croazia",
+              "description": "Grandi risparmi senza rinunciare alla massima qualità. Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti"
+            },
+            "openGraph": {
+              "titleCopied": true,
+              "descriptionCopied": true,
+              "imageUrl": null,
+              "imageAssetId": null
+            },
+            "publishedPath": "/"
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 28
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+
+.podstranice-sidebar > div:first-child:has(> .text-block-11) {
+  margin-bottom: 32px !important;
+}

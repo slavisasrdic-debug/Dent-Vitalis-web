@@ -1,0 +1,247 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:25.283Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Directory cards - Su di noi 2",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "189b6a3e-5614-be7c-f080-f6f0e377e820",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Directory cards - Su di noi 2",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "189b6a3e-5614-be7c-f080-f6f0e377e820",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Directory cards - Su di noi 2",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "189b6a3e-5614-be7c-f080-f6f0e377e820",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e828",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e2fe3a09a609c87955c2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e82b",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Standard europei</div>",
+              "text": "Standard europei"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e82d",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/materiali-e-apparecchiature\">Materiali e apparecchiature</a>",
+              "text": "Materiali e apparecchiature"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e82f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Materiali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili.</p>",
+              "text": "Materiali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e833",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e836",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e839",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86debaa7487087044c1589"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e83c",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Tecnologia avanzata</div>",
+              "text": "Tecnologia avanzata"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e83e",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/impianti-di-nuova-generazione\">Impianti di nuova generazione</a>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e840",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ora tutto è possibile: liberati dalla protesi mobile.</p>",
+              "text": "Ora tutto è possibile: liberati dalla protesi mobile."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e844",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e847",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e84a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e8253f93ce4afce97988"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e84d",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Comfort e serenità</div>",
+              "text": "Comfort e serenità"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e84f",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/su-di-noi/sedazione-cosciente\">Sedazione cosciente</a>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e851",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.</p>",
+              "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e855",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"189b6a3e-5614-be7c-f080-f6f0e377e856\">Scopri di più</strong></div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e859",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e86d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e2fe3a09a609c87955c2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e86e",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86debaa7487087044c1589"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e86f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e8253f93ce4afce97988"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "189b6a3e-5614-be7c-f080-f6f0e377e870",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86da4eae8635c0cdb45a0a"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 22
+        }
+      }
+    },
+    {
+      "label": "Component defaults Directory cards - Su di noi 2",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "189b6a3e-5614-be7c-f080-f6f0e377e820",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

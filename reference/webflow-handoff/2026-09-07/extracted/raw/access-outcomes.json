@@ -1,0 +1,2158 @@
+{
+  "status": "derived",
+  "reason": "Raw envelopes preserve the original tool response; action-level errors take precedence over the capture helper top-level status. Retried successful reads are separate evidence.",
+  "records": [
+    {
+      "source": "raw/mcp/all-page-code.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 6a97db25519800ebff25b9f2",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 6a97db259aad9ee4bb4bd328",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 6a8d7da66a4b3462ca3f0a23",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 6a8d7da585ba860c0b521829",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 6a8d7da5fff15c0449d670e2",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 696f4a9a3d82954cb43ac683",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 696f49d7f343717fcadfcf28",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 69679710d4037ebd0cbb9df2",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba898",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba897",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba896",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba894",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba893",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba892",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba891",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba890",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba88e",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba88d",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba88c",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba88b",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba88a",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba889",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba888",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba886",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba885",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba884",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba882",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_freeform_code",
+          "label": "Code 695e1eeeb10c5fb8eeaba87c",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/asset-folders.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_asset_folders",
+          "label": "Asset folder metadata",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/assets-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_assets",
+          "label": "Current asset inventory first page",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/assets-100.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_assets",
+          "label": "Assets page two",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/assets-200.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_assets",
+          "label": "Assets page three",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/cms-collections-v2.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].list_collections [additionalProperties]: Additional property 'list_collections' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/cms-collections.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].get_collection_list [additionalProperties]: Additional property 'get_collection_list' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/cms-list.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].get_collections [additionalProperties]: Additional property 'get_collections' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].create_collection [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-01415f8e-f1dc-065f-6696-5928ab24121b-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Sidebar informazioni",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Sidebar informazioni",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-114e4711-0fe3-9df0-602e-50b9eb2bc92b-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Izbornik jezika",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Izbornik jezika",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-11f7cd79-d19d-6f76-04ff-ce57e5706c5a-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source kartica Premium: ponte fisso su impianti",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults kartica Premium: ponte fisso su impianti",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-12779da6-57f4-1edc-0b0f-c14d7c69e8c1-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source sidebar",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults sidebar",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-189b6a3e-5614-be7c-f080-f6f0e377e820-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Directory cards - Su di noi 2",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Directory cards - Su di noi 2",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-1b710e68-38ef-1a3b-db46-5efe98f74ee5-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Fiksni kontakti mobile",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Fiksni kontakti mobile",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-1d728e57-fa68-61c7-a4b3-55aca79d3e43-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Directory cards - Home layout",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Directory cards - Home layout",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source kartica Corone, faccette, ponti e protesi",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults kartica Corone, faccette, ponti e protesi",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-2218f1d9-b81b-56c5-3884-620b224831a9-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section FAQ",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section FAQ",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-32a193c4-2226-c41d-04a5-7c80a45fc9bd-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Directory cards - Su di noi",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Directory cards - Su di noi",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-48eb149b-bbbd-805c-69ed-1266a634337f-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section Tradizione",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section Tradizione",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section Informazioni",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section Informazioni",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-511a527c-0818-f243-94fb-c91d2b84e74a-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source WhatsApp",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults WhatsApp",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-587b085b-0eb5-6f0e-763d-212fecd904e0-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section Benvenuti",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section Benvenuti",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-6f3fc695-721c-243a-39ea-1ec76ea081e5-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section usluge",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section usluge",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-735f2c84-7518-48f7-693c-0197067ecaaf-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source sidebar Prestazioni",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults sidebar Prestazioni",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-80120cd6-e65f-28c3-91c4-db8ef46ae663-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source kartica Sedazione cosciente",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults kartica Sedazione cosciente",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-82b2ce1d-fc74-8408-a46c-893c2f6ef824-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source navigacija",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults navigacija",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-9451505b-5015-c534-40e8-5413c82b759b-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Zaglavlje detaljna",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Zaglavlje detaljna",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-9db036bc-9bac-25ca-e571-158aa48dd517-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source kartica Facilissimo: sbiancamento dei denti",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults kartica Facilissimo: sbiancamento dei denti",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-a48c8fee-76f0-7240-0500-30f49cec6908-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Directory cards - Informazioni",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Directory cards - Informazioni",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-a6383e85-b972-e425-5602-e5554d54c939-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source banner-card",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults banner-card",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section Contatti",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section Contatti",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-c5b4d3d6-9300-613f-7c22-f4b3d5b0c351-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Section Testimonianze",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Section Testimonianze",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-cdb4010a-fc4d-930a-8493-bc7524d3344d-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Footer",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Footer",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-d430cc2c-555c-6d7a-ff18-8922771fa88e-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-ddb95103-2171-39b2-bd7f-9df9bbf9b63c-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Directory cards - Informazioni 2",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Directory cards - Informazioni 2",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-content-f3f8c56e-d796-023f-a4b1-8dfd0576aa9e-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component_content",
+          "label": "Italian component source Breadcrumb",
+          "status": "extracted"
+        },
+        {
+          "action": "get_component_properties",
+          "label": "Component defaults Breadcrumb",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-navigation.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_component",
+          "label": "Navigation props and variants",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component a6383e85-b972-e425-5602-e5554d54c939",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component cdb4010a-fc4d-930a-8493-bc7524d3344d",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 587b085b-0eb5-6f0e-763d-212fecd904e0",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-12-retry-3.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 9451505b-5015-c534-40e8-5413c82b759b",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-12.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 01415f8e-f1dc-065f-6696-5928ab24121b",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 9451505b-5015-c534-40e8-5413c82b759b",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-16.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 9db036bc-9bac-25ca-e571-158aa48dd517",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component d430cc2c-555c-6d7a-ff18-8922771fa88e",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-20-final-1.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-20-final-2.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 189b6a3e-5614-be7c-f080-f6f0e377e820",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-20-retry-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-20-retry-1.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-20-retry-2.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 189b6a3e-5614-be7c-f080-f6f0e377e820",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-20.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 189b6a3e-5614-be7c-f080-f6f0e377e820",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component a48c8fee-76f0-7240-0500-30f49cec6908",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-24.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 80120cd6-e65f-28c3-91c4-db8ef46ae663",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 735f2c84-7518-48f7-693c-0197067ecaaf",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-4.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 48eb149b-bbbd-805c-69ed-1266a634337f",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 2218f1d9-b81b-56c5-3884-620b224831a9",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/component-trees-8.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 511a527c-0818-f243-94fb-c91d2b84e74a",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+          "status": "extracted"
+        },
+        {
+          "action": "get_all_elements",
+          "label": "Complete source component 6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/components-full.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_components",
+          "label": "All props defaults and variants",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba87c-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Primary Italian original rich text",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba882-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba882",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba884-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba884",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba885-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba885",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba886-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba886",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba888-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba888",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba889-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba889",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba88a-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba88a",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba88b-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba88b",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba88c-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba88c",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba88d-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba88d",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba88e-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba88e",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba890-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba890",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba891-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba891",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba892-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba892",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba893-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba893",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba894-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba894",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba896-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba896",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba896-100.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian content continuation 100",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba897-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba897",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-695e1eeeb10c5fb8eeaba898-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 695e1eeeb10c5fb8eeaba898",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-69679710d4037ebd0cbb9df2-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 69679710d4037ebd0cbb9df2",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-69679710d4037ebd0cbb9df2-100.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian content continuation 100",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-69679710d4037ebd0cbb9df2-200.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian content continuation 200",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-696f49d7f343717fcadfcf28-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 696f49d7f343717fcadfcf28",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-696f4a9a3d82954cb43ac683-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 696f4a9a3d82954cb43ac683",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-6a8d7da585ba860c0b521829-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 6a8d7da585ba860c0b521829",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-6a8d7da5fff15c0449d670e2-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 6a8d7da5fff15c0449d670e2",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-6a8d7da66a4b3462ca3f0a23-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 6a8d7da66a4b3462ca3f0a23",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-6a97db25519800ebff25b9f2-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 6a97db25519800ebff25b9f2",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-6a97db259aad9ee4bb4bd328-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian current source 6a97db259aad9ee4bb4bd328",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/content-6a97db259aad9ee4bb4bd328-100.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_content",
+          "label": "Italian content continuation 100",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/designer-breakpoints.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": null,
+          "label": null,
+          "status": "unavailable",
+          "reason": "Unable to connect to Webflow Designer, Please make sure Webflow Designer MCP app is running on Webflow Designer. Launch the app using following link https://dentvitalis33.design.webflow.com?app=dc8209c65e3ec02254d15275ca056539c89f6d15741893a0adf29ad6f381eb99 on Dentvitalis33. Please share this link with USER. and share as markdown link. ask USER to click on the link. Quick tip: Ensure the Webflow Designer tab is active and in the foreground (not in the background or idle). If the problem persists, refer to https://developers.webflow.com/mcp/v1.0.0/reference/fa-qs#the-mcp-server-is-timing-out-in-the-designer and ensure the suggested browser settings are applied."
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/fonts-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_fonts",
+          "label": "Uploaded native font inventory",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/forms-0.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_forms",
+          "label": "Form definitions only, no submissions",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/page-folders-read.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_page_metadata",
+          "label": "Prestazioni folder metadata",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_metadata",
+          "label": "Su di noi folder metadata",
+          "status": "extracted"
+        },
+        {
+          "action": "get_page_metadata",
+          "label": "Informazioni folder metadata",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/pages-end.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_pages",
+          "label": "Current final page list",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/pages-start.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_pages",
+          "label": "Current all pages first page",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/redirects.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_301_redirects",
+          "label": "Existing redirects only",
+          "status": "unavailable",
+          "reason": {
+            "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+          }
+        },
+        {
+          "action": "get_robots_txt",
+          "label": "Existing robots settings",
+          "status": "unavailable",
+          "reason": {
+            "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/registered-applied-scripts-read.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_registered_scripts",
+          "label": "Registered",
+          "status": "extracted"
+        },
+        {
+          "action": "get_site_scripts",
+          "label": "Site scripts",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "6a97db25519800ebff25b9f2",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "6a97db259aad9ee4bb4bd328",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "6a8d7da66a4b3462ca3f0a23",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "6a8d7da585ba860c0b521829",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "6a8d7da5fff15c0449d670e2",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "696f4a9a3d82954cb43ac683",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "696f49d7f343717fcadfcf28",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "69679710d4037ebd0cbb9df2",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba898",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba897",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba896",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba894",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba893",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba892",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba891",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba890",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba88e",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba88d",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba88c",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba88b",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba88a",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba889",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba888",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba886",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba885",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba884",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba882",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        },
+        {
+          "action": "get_page_scripts",
+          "label": "695e1eeeb10c5fb8eeaba87c",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "NotFoundError\nStatus code: 404\nBody: {\n  \"message\": \"Requested resource not found: Custom code block not found\",\n  \"code\": \"resource_not_found\",\n  \"details\": []\n}"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/registered-applied-scripts.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].label [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[0].label [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); actions[1].label [required]: Missing required property (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.); 57 additional validation error(s)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/seo-schema-primary.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "query_pages_schema_markup",
+          "label": "Primary locale JSON-LD settings",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/seo-schema.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "query_pages_schema_markup",
+          "label": "All native JSON-LD settings",
+          "status": "unavailable",
+          "reason": {
+            "name": "WebflowApiError",
+            "message": "Bad Request: Request is malformed: The provided locale 695e1eeeb10c5fb8eeaba87f must be a secondary locale.",
+            "status": 400,
+            "code": "bad_request"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/site-code.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_site_freeform_code",
+          "label": "Current shared head and footer custom code",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/site-end.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_site",
+          "label": "Current source at verification",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/sitemap-settings.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "list_pages_sitemap_status",
+          "label": "All page indexing settings",
+          "status": "unavailable",
+          "reason": {
+            "name": "WebflowApiError",
+            "message": "Forbidden: Site plan doesn't support sitemap indexing controls",
+            "status": 403,
+            "code": "forbidden"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/styles-detail.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_styles",
+          "label": "All declarations",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/styles-medium.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].get_styles.breakpoint_id [additionalProperties]: Additional property 'breakpoint_id' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/styles-responsive.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].get_styles.include_all_breakpoints [additionalProperties]: Additional property 'include_all_breakpoints' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/styles-tablet-read.json",
+      "capturedStatus": "unavailable",
+      "effectiveActions": [
+        {
+          "status": "unavailable",
+          "reason": "Parameters failed connector schema validation: actions[0].get_styles.breakpoint [additionalProperties]: Additional property 'breakpoint' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba87c.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Full current homepage node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba882.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba884.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba885.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba886.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba888.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba889.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba88a.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba88b.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba88c.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba88d.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba88e.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba890.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba891.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba892.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba893.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba894.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba896-retry.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba896.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba897-retry.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba897.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "unavailable",
+          "reason": {
+            "name": "Error",
+            "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+          }
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-695e1eeeb10c5fb8eeaba898.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-69679710d4037ebd0cbb9df2.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-696f49d7f343717fcadfcf28.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-696f4a9a3d82954cb43ac683.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-6a8d7da585ba860c0b521829.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-6a8d7da5fff15c0449d670e2.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-6a8d7da66a4b3462ca3f0a23.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-6a97db25519800ebff25b9f2.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/tree-6a97db259aad9ee4bb4bd328.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_all_elements",
+          "label": "Complete current page node tree",
+          "status": "extracted"
+        }
+      ]
+    },
+    {
+      "source": "raw/mcp/variables.json",
+      "capturedStatus": "extracted",
+      "effectiveActions": [
+        {
+          "action": "get_variables",
+          "label": "Every variable",
+          "status": "extracted"
+        }
+      ]
+    }
+  ]
+}

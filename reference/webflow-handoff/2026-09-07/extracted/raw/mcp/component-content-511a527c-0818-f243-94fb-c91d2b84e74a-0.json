@@ -1,0 +1,139 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:06.203Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source WhatsApp",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults WhatsApp",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source WhatsApp",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e74f",
+            "text": {
+              "html": "<div class=\"live-chat-top-text\">Team DentVitalis</div>",
+              "text": "Team DentVitalis"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e751",
+            "text": {
+              "html": "<div class=\"live-chat-bottom-text\">Di solito rispondiamo entro poche ore</div>",
+              "text": "Di solito rispondiamo entro poche ore"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e754",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b4"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e757",
+            "text": {
+              "html": "<div class=\"live-chat-top-text block\">Team DentVitalis</div>",
+              "text": "Team DentVitalis"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e759",
+            "text": {
+              "html": "<div class=\"live-chat-bottom-text block\">Ciao!<br data-w-id=\"511a527c-0818-f243-94fb-c91d2b84e75b\">Come possiamo aiutarti?</div>",
+              "text": "Ciao!\nCome possiamo aiutarti?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e75f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e760",
+            "text": {
+              "html": "<div class=\"live-chat-text\">Avvia chat su WhatsApp</div>",
+              "text": "Avvia chat su WhatsApp"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e763",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba8b5"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "511a527c-0818-f243-94fb-c91d2b84e765",
+            "text": {
+              "html": "<div class=\"text-block-12\">1<br data-w-id=\"511a527c-0818-f243-94fb-c91d2b84e767\"></div>",
+              "text": "1\n"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 9
+        }
+      }
+    },
+    {
+      "label": "Component defaults WhatsApp",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:15.804Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Directory cards - Home layout",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Directory cards - Home layout",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Directory cards - Home layout",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e4b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a953ff4e6702cd213b533f4"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e4e",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e50",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba882\">Imperdibile: protesi definitiva ancorata su 4 impianti</a>",
+              "text": "Imperdibile: protesi definitiva ancorata su 4 impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e52",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico.</p>",
+              "text": "Prezzo fisso per una protesi definitiva su 4 impianti, comprensivo di tutti gli eventuali interventi necessari prima o durante il trattamento implantologico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e56",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Prezzo fisso a 2.990 €</div>",
+              "text": "Prezzo fisso a 2.990 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e59",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e5c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6984a8dc78c36eec8608ba1a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e5f",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e61",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba884\">Premium: ponte fisso su impianti</a>",
+              "text": "Premium: ponte fisso su impianti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e63",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia.</p>",
+              "text": "Il prezzo rimane invariato, indipendentemente dal numero di impianti e dagli interventi necessari prima o durante l’implantologia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e67",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Prezzo fisso a 4.990 €</div>",
+              "text": "Prezzo fisso a 4.990 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e6a",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e6d",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a96aa744c5444ffc6cfb3de"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e70",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Pacchetto “tutto incluso”</div>",
+              "text": "Pacchetto “tutto incluso”"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e72",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba885\">Facilissimo: sbiancamento dei denti</a>",
+              "text": "Facilissimo: sbiancamento dei denti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e74",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo.</p>",
+              "text": "Tutto compreso: un metodo semplice e sicuro per ritrovare un sorriso luminoso, senza alcun intervento invasivo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e78",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"1d728e57-fa68-61c7-a4b3-55aca79d3e79\">Prezzo fisso a 250 €</strong></div>",
+              "text": "Prezzo fisso a 250 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e7c",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e7f",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69849ab9a25dbcc5928bede2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e82",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Sostituzione perfetta dei denti naturali</div>",
+              "text": "Sostituzione perfetta dei denti naturali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e84",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba886\">Corone, faccette, ponti e protesi</a>",
+              "text": "Corone, faccette, ponti e protesi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e86",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità.</p>",
+              "text": "Corone, faccette, ponti e protesi realizzati nel nostro laboratorio secondo standard UE, con certificato di conformità per materiali e qualità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e8a",
+            "text": {
+              "html": "<div class=\"cijena-velika\">A partire da 220 €</div>",
+              "text": "A partire da 220 €"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e8d",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "2b563d86-5555-8dc8-bc35-5f3b788216d2",
+            "image": {
+              "alt": "Sedazione cosciente",
+              "assetId": "6a97ddc955642d974aaf9e4b"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4aa52f1e-0929-26e4-2c13-16327aaf941b",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88e\">Sedazione cosciente</a>",
+              "text": "Sedazione cosciente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "54159958-c1d7-c560-f307-521474838652",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax.</p>",
+              "text": "Un’unica seduta: entrambe le arcate risolte, senza ansia e in totale relax."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a5a23935-5cca-2015-5a5d-4d02e91be1be",
+            "text": {
+              "html": "<div>Contattaci e scopri come puoi ottenere questo servizio gratuitamente.</div>",
+              "text": "Contattaci e scopri come puoi ottenere questo servizio gratuitamente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f788f6df-57d2-6b54-7473-b22d552d3515",
+            "text": {
+              "html": "<div class=\"icon-embed-xxsmall-2\">↗</div>",
+              "text": "↗"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e90",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e8253f93ce4afce97988"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e91",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86c287a427020a8631b10c"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e92",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8c26f50fa9581e69bf6112"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e93",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69849ab9a25dbcc5928bede2"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "d9516306-b359-a49c-782a-04e668bee5d9",
+            "image": {
+              "alt": "Sedazione cosciente",
+              "assetId": "6a97ddcafef6e2905c2f3e1e"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 34
+        }
+      }
+    },
+    {
+      "label": "Component defaults Directory cards - Home layout",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

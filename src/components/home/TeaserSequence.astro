@@ -1,0 +1,12 @@
+---
+// Compatibility composition: geometry and interactions live in the shared primitive.
+import PhotoCardSequence from '../PhotoCardSequence.astro';
+import type { TeaserCardData } from '../../content/home';
+interface Props {
+  cards: TeaserCardData[];
+  variant: 'service' | 'about';
+  label: string;
+}
+---
+
+<PhotoCardSequence {...Astro.props} />

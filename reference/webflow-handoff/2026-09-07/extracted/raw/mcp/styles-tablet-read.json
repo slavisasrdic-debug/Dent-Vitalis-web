@@ -1,0 +1,24 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:44:53.606Z",
+  "tool": "mcp__codex_apps__webflow_data_style_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "Tablet style declarations",
+        "get_styles": {
+          "query": "all",
+          "include_properties": true,
+          "breakpoint": "medium"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "text": "Parameters failed connector schema validation: actions[0].get_styles.breakpoint [additionalProperties]: Additional property 'breakpoint' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+    }
+  ]
+}

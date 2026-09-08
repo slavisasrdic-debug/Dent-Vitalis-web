@@ -8,3 +8,8 @@ playwright-report/
 test-results/
 .DS_Store
 *.log
+/scripts/__pycache__/
+
+# Uploaded source archives; extracted evidence remains eligible for versioning.
+/reference/webflow-handoff/2026-09-07/dentvitalis-webflow-handoff.zip
+/source-assets/webflow-export/2026-09-07/dentvitalis33.webflow.zip

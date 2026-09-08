@@ -1,0 +1,161 @@
+---
+import type { LanguageLink } from '../content/site';
+interface Props {
+  languages: LanguageLink[];
+  current: string;
+  variant?: 'desktop' | 'mobile';
+}
+const { languages, current, variant = 'desktop' } = Astro.props;
+const active = languages.find((language) => language.lang === current)!;
+---
+
+<details class:list={['language', variant]} data-language>
+  <summary aria-label={`Lingua: ${active.label}`}
+    ><img
+      src={`/assets/images/flag-${active.flag}.png`}
+      alt=""
+      width="16"
+      height="12"
+    /><span>{active.code}</span><span class="chevron"></span></summary
+  >
+  <div class="language-menu">
+    {
+      languages.map((language) => (
+        <a
+          href={language.available === false ? undefined : language.href}
+          aria-disabled={language.available === false ? 'true' : undefined}
+          role={language.available === false ? 'link' : undefined}
+          title={
+            language.available === false
+              ? 'Traduzione non disponibile in questa anteprima'
+              : undefined
+          }
+          lang={language.lang}
+          aria-label={language.label}
+          aria-current={language.lang === current ? 'page' : undefined}
+        >
+          <img
+            src={`/assets/images/flag-${language.flag}.png`}
+            alt=""
+            width="16"
+            height="12"
+          />
+          {language.code}
+        </a>
+      ))
+    }
+  </div>
+</details>
+<style>
+  .language {
+    position: relative;
+    flex: none;
+    margin: 0 28px 0 16px;
+    color: #05617a;
+  }
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 40px;
+    padding: 0 2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  summary img {
+    border-radius: 1px;
+    width: 16px;
+    height: 12px;
+    object-fit: cover;
+  }
+  .chevron {
+    width: 7px;
+    height: 7px;
+    margin-top: -3px;
+    border-right: 1.5px solid;
+    border-bottom: 1.5px solid;
+    transform: rotate(45deg);
+    transition: transform 160ms ease;
+  }
+  [open] .chevron {
+    margin-top: 4px;
+    transform: rotate(225deg);
+  }
+  .language-menu {
+    position: absolute;
+    z-index: 80;
+    top: calc(100% + 8px);
+    right: 0;
+    display: grid;
+    width: 132px;
+    min-width: 184px;
+    padding: 6px;
+    background: white;
+    border: 1px solid #d5e0e2;
+    border-radius: 4px;
+    box-shadow: 0 14px 30px #00232d29;
+  }
+  a {
+    display: flex;
+    gap: 8px;
+    min-height: 36px;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 3px;
+    color: #173c46;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  a[aria-current] {
+    background: #f2f6d8;
+    color: #52630a;
+  }
+  a[aria-disabled] {
+    opacity: 0.45;
+    cursor: default;
+  }
+  a:hover,
+  a:focus-visible {
+    background: #edf4f4;
+    color: #05617a;
+  }
+  .mobile {
+    display: none;
+  }
+  @media screen and (max-width: 991px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+      margin: 0 18px 0 auto;
+    }
+    .mobile summary {
+      min-height: 44px;
+    }
+    .mobile .language-menu {
+      width: 128px;
+      min-width: 0;
+      top: calc(100% + 6px);
+    }
+  }
+</style>
+<script>
+  document
+    .querySelectorAll<HTMLDetailsElement>('[data-language]')
+    .forEach((details) => {
+      if (details.dataset.ready) return;
+      details.dataset.ready = 'true';
+      document.addEventListener('click', (event) => {
+        if (!details.contains(event.target as Node)) details.open = false;
+      });
+      details.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          details.open = false;
+          details.querySelector('summary')?.focus();
+        }
+      });
+    });
+</script>

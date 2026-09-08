@@ -1,0 +1,9 @@
+
+.nav-dropdown-toggle .nav-item-title[data-dv-parent-link="true"] {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.nav-dropdown-toggle .nav-item-title[data-dv-parent-link="true"]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}

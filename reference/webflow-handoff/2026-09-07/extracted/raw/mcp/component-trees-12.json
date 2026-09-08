@@ -1,0 +1,1173 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:50:20.414Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "Complete source component 12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1"
+        }
+      },
+      {
+        "label": "Complete source component 01415f8e-f1dc-065f-6696-5928ab24121b",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "01415f8e-f1dc-065f-6696-5928ab24121b"
+        }
+      },
+      {
+        "label": "Complete source component f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e"
+        }
+      },
+      {
+        "label": "Complete source component 9451505b-5015-c534-40e8-5413c82b759b",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "9451505b-5015-c534-40e8-5413c82b759b"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete source component 12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"12779da6-57f4-1edc-0b0f-c14d7c69e8c1\" tree loaded",
+          "data": {
+            "id": {
+              "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+              "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Podstranice sidebar"
+            ],
+            "attributes": {
+              "id": "sadrzaji"
+            },
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c2"
+                },
+                "type": "Block",
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c3"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 11"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c4"
+                        },
+                        "type": "String",
+                        "textContent": "Su di noi"
+                      },
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c5"
+                        },
+                        "type": "",
+                        "settings": {
+                          "visibility": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c6"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Link Block"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "none"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c7"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Text Block 11"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                              "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c8"
+                            },
+                            "type": "Span",
+                            "styleNames": [
+                              "Text Span 4"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8c9"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8ca"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8cb"
+                        },
+                        "type": "String",
+                        "textContent": "I nostri specialisti"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8cc"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8cd"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8ce"
+                        },
+                        "type": "String",
+                        "textContent": "Tutto in un unico luogo"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8cf"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d0"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d1"
+                        },
+                        "type": "String",
+                        "textContent": "Come raggiungerci"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d2"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d3"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d4"
+                        },
+                        "type": "String",
+                        "textContent": "Laboratorio odontotecnico"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d5"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d6"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d7"
+                        },
+                        "type": "String",
+                        "textContent": "Materiali e apparecchiature"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d8"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                      "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8d9"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                          "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8da"
+                        },
+                        "type": "String",
+                        "textContent": "Impianti di nuova generazione"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+                  "element": "12779da6-57f4-1edc-0b0f-c14d7c69e8de"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Div Block 13"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 01415f8e-f1dc-065f-6696-5928ab24121b",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"01415f8e-f1dc-065f-6696-5928ab24121b\" tree loaded",
+          "data": {
+            "id": {
+              "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+              "element": "01415f8e-f1dc-065f-6696-5928ab24121b"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Podstranice sidebar"
+            ],
+            "attributes": {
+              "id": "sadrzaji"
+            },
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "01415f8e-f1dc-065f-6696-5928ab24121c"
+                },
+                "type": "Block",
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab24121d"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 11"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab24121e"
+                        },
+                        "type": "String",
+                        "textContent": "Informazioni"
+                      },
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab24121f"
+                        },
+                        "type": "",
+                        "settings": {
+                          "visibility": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab241220"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Link Block"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "none"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab241221"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Text Block 11"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                              "element": "01415f8e-f1dc-065f-6696-5928ab241222"
+                            },
+                            "type": "Span",
+                            "styleNames": [
+                              "Text Span 4"
+                            ],
+                            "settings": {
+                              "visibility": true
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "01415f8e-f1dc-065f-6696-5928ab241223"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab241224"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab241225"
+                        },
+                        "type": "String",
+                        "textContent": "Prima visita gratuita"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "01415f8e-f1dc-065f-6696-5928ab241226"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab241227"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab241228"
+                        },
+                        "type": "String",
+                        "textContent": "Tempi del trattamento"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "01415f8e-f1dc-065f-6696-5928ab241229"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab24122a"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab24122b"
+                        },
+                        "type": "String",
+                        "textContent": "Pagamento flessibile"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "01415f8e-f1dc-065f-6696-5928ab24122c"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab24122d"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab24122e"
+                        },
+                        "type": "String",
+                        "textContent": "Garanzie"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "e31cc681-c5d4-013f-5875-def59d3f9ad4"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "e31cc681-c5d4-013f-5875-def59d3f9ad5"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "e31cc681-c5d4-013f-5875-def59d3f9ad6"
+                        },
+                        "type": "String",
+                        "textContent": "Alloggio"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "70137292-cab6-f6bf-3a52-0ad16845d78e"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "70137292-cab6-f6bf-3a52-0ad16845d78f"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "70137292-cab6-f6bf-3a52-0ad16845d790"
+                        },
+                        "type": "String",
+                        "textContent": "Trasporto"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                  "element": "01415f8e-f1dc-065f-6696-5928ab24122f"
+                },
+                "type": "Link",
+                "styleNames": [
+                  "Prednost"
+                ],
+                "settings": {
+                  "visibility": true,
+                  "link": {
+                    "linkType": "none"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                      "element": "01415f8e-f1dc-065f-6696-5928ab241230"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Text Block 16"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "01415f8e-f1dc-065f-6696-5928ab24121b",
+                          "element": "01415f8e-f1dc-065f-6696-5928ab241231"
+                        },
+                        "type": "String",
+                        "textContent": "Listino prezzi"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"f3f8c56e-d796-023f-a4b1-8dfd0576aa9e\" tree loaded",
+          "data": {
+            "id": {
+              "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+              "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e"
+            },
+            "type": "Block",
+            "styleNames": [
+              "Breadcrumb conteiner"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                  "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9f"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb Wrapper 4"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                      "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa0"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner breadcrumb"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                          "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa1"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Div Block 38"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                              "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa2"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "breadcrumb"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                  "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa3"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Breadcrum text"
+                                ],
+                                "settings": {
+                                  "tag": "h6",
+                                  "visibility": true,
+                                  "headingLevel": 6
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                      "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa4"
+                                    },
+                                    "type": "Link",
+                                    "styleNames": [
+                                      "Link breadcrumb"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "link": {
+                                        "linkType": "none"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                          "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa5"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Home"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                  "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa6"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Breadcrum text"
+                                ],
+                                "settings": {
+                                  "tag": "h6",
+                                  "visibility": true,
+                                  "headingLevel": 6
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                      "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa7"
+                                    },
+                                    "type": "String",
+                                    "textContent": "/"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                  "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa8"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Breadcrum text"
+                                ],
+                                "settings": {
+                                  "tag": "h6",
+                                  "visibility": true,
+                                  "headingLevel": 6
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                      "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaa9"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Prestazioni"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                  "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaaa"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Breadcrum text"
+                                ],
+                                "settings": {
+                                  "tag": "h6",
+                                  "visibility": true,
+                                  "headingLevel": 6
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                      "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaab"
+                                    },
+                                    "type": "String",
+                                    "textContent": "/"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                  "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaac"
+                                },
+                                "type": "Heading",
+                                "styleNames": [
+                                  "Breadcrum text",
+                                  "current"
+                                ],
+                                "settings": {
+                                  "tag": "h6",
+                                  "visibility": true,
+                                  "headingLevel": 6
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+                                      "element": "f3f8c56e-d796-023f-a4b1-8dfd0576aaad"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Testimonianze"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 9451505b-5015-c534-40e8-5413c82b759b",
+      "action": "get_all_elements",
+      "error": {
+        "name": "Error",
+        "message": "Tool get_all_elements failed: GET /v2/assets returned 429"
+      }
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "partial",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

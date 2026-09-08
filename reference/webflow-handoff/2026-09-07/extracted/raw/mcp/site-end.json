@@ -1,0 +1,50 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T08:07:20.406Z",
+  "tool": "mcp__codex_apps__webflow_data_sites_tool",
+  "request": {
+    "context": "The final read-only consistency check compares current publication and modification timestamps against the beginning of the source extraction.",
+    "actions": [
+      {
+        "label": "Current source at verification",
+        "get_site": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Current source at verification",
+      "action": "get_site",
+      "result": {
+        "id": "695e1eeeb10c5fb8eeaba87d",
+        "workspaceId": "6332554529eea90195a3f5e5",
+        "displayName": "Dentvitalis33",
+        "shortName": "dentvitalis33",
+        "previewUrl": "https://screenshots.webflow.com/sites/695e1eeeb10c5fb8eeaba87d/20260907072132_2bbb93ca524e5846fee0f7084b703179.png",
+        "timeZone": "Europe/Zagreb",
+        "createdOn": "2026-01-07T08:53:04.848Z",
+        "lastUpdated": "2026-09-07T07:21:41.929Z",
+        "lastPublished": "2026-09-07T07:21:32.143Z",
+        "fullSiteCompiledAt": "2026-09-07T07:21:32.143Z",
+        "parentFolderId": "647704a25ec7149bdd8ffa74",
+        "customDomains": [],
+        "locales": {
+          "primary": {
+            "id": "695e1eeeb10c5fb8eeaba87f",
+            "enabled": false,
+            "displayName": "Italian",
+            "redirect": true,
+            "subdirectory": "",
+            "tag": "it"
+          },
+          "secondary": []
+        },
+        "dataCollectionEnabled": false,
+        "dataCollectionType": "always",
+        "googleTagIds": []
+      }
+    }
+  ]
+}

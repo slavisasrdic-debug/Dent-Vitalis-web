@@ -1,0 +1,305 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:36:41.693Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba88d",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba88d",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba88d",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba88d",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "770c8c44-817f-7ccd-8c25-5ba902d79d76",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"770c8c44-817f-7ccd-8c25-5ba902d79d77\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "770c8c44-817f-7ccd-8c25-5ba902d79d79",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "770c8c44-817f-7ccd-8c25-5ba902d79d7b",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/chi-siamo\" data-w-id=\"5d368a03-d4f1-8372-c12c-9e9b431dee43\">Su di noi</a></h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "770c8c44-817f-7ccd-8c25-5ba902d79d7d",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "770c8c44-817f-7ccd-8c25-5ba902d79d7f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Impianti di nuova generazione</h6>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "32a9e7bd-d9cd-ad00-44d7-831ad10ba374",
+            "image": {
+              "alt": "Impianti di nuova generazione",
+              "assetId": "6a86debaa7487087044c1589"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a9e7bd-d9cd-ad00-44d7-831ad10ba37c",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Impianti di nuova generazione</h1>",
+              "text": "Impianti di nuova generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "32a9e7bd-d9cd-ad00-44d7-831ad10ba37e",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Ora tutto è possibile: liberati dalla protesi mobile!</p>",
+              "text": "Ora tutto è possibile: liberati dalla protesi mobile!"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "d44089b5-6c44-a77f-8926-660ec0d6a110",
+            "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Gli impianti di nuova generazione consentono, in casi selezionati, di ottenere una riabilitazione protesica fissa in tempi molto brevi, spesso entro 24 ore, anche nei pazienti in cui una quantità insufficiente di osso rende più complessa l’applicazione degli impianti tradizionali.</p>",
+              "text": "Gli impianti di nuova generazione consentono, in casi selezionati, di ottenere una riabilitazione protesica fissa in tempi molto brevi, spesso entro 24 ore, anche nei pazienti in cui una quantità insufficiente di osso rende più complessa l’applicazione degli impianti tradizionali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cc187aa1-2f95-3b2c-e9ff-8f3c3ab7d14f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il loro utilizzo può permettere, a seconda della situazione clinica, di evitare procedure complesse di rigenerazione o ricostruzione ossea, semplificando e riducendo significativamente i tempi complessivi del trattamento. In determinate condizioni cliniche, il paziente può ricevere una soluzione fissa già durante la prima seduta.</p>",
+              "text": "Il loro utilizzo può permettere, a seconda della situazione clinica, di evitare procedure complesse di rigenerazione o ricostruzione ossea, semplificando e riducendo significativamente i tempi complessivi del trattamento. In determinate condizioni cliniche, il paziente può ricevere una soluzione fissa già durante la prima seduta."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5d0aa4b6-cdb3-b396-ef76-0eb7f020bb76",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Questo approccio richiede elevata competenza, una significativa esperienza implantologica e una pianificazione estremamente precisa di ogni fase del trattamento. Proprio per la complessità della procedura e per le competenze specifiche che richiede, questo tipo di trattamento non è disponibile presso tutti gli studi odontoiatrici.</p>",
+              "text": "Questo approccio richiede elevata competenza, una significativa esperienza implantologica e una pianificazione estremamente precisa di ogni fase del trattamento. Proprio per la complessità della procedura e per le competenze specifiche che richiede, questo tipo di trattamento non è disponibile presso tutti gli studi odontoiatrici."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "009de7b9-a52d-d45b-4fcf-3c5eaad429fd",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prenota una prima visita gratuita e scopri quale soluzione implantologica è più adatta alle tue esigenze.</p>",
+              "text": "Prenota una prima visita gratuita e scopri quale soluzione implantologica è più adatta alle tue esigenze."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0d9",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Impianto pterigoideo</p>",
+              "text": "Impianto pterigoideo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2d98085e-cd9e-13f5-2f77-1477afe2d0dc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Con l’inserimento degli impianti pterigoidei si evitano il rialzo del seno mascellare e l’innesto osseo. Invece di attendere un anno per l’inserimento di impianti in osso artificiale, l’impianto pterigoideo viene posizionato nell’osso naturale e il paziente riceve un ponte fisso entro 24 ore.</p>",
+              "text": "Con l’inserimento degli impianti pterigoidei si evitano il rialzo del seno mascellare e l’innesto osseo. Invece di attendere un anno per l’inserimento di impianti in osso artificiale, l’impianto pterigoideo viene posizionato nell’osso naturale e il paziente riceve un ponte fisso entro 24 ore."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "137e8371-a85f-fb0c-4b80-6926079c6010",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’impianto pterigoideo viene utilizzato nella mascella superiore anche come supporto aggiuntivo alla tecnica All-on-4, poiché in questo modo il paziente privo di osso riesce ad avere 6 impianti invece di 4. Ciò aumenta il numero di punti di appoggio per la trasmissione delle forze masticatorie e prolunga la durata del lavoro protesico.</p>",
+              "text": "L’impianto pterigoideo viene utilizzato nella mascella superiore anche come supporto aggiuntivo alla tecnica All-on-4, poiché in questo modo il paziente privo di osso riesce ad avere 6 impianti invece di 4. Ciò aumenta il numero di punti di appoggio per la trasmissione delle forze masticatorie e prolunga la durata del lavoro protesico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "02112069-59c1-db23-c6a7-1456358cdc1b",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Impianto palatinale</p>",
+              "text": "Impianto palatinale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "02112069-59c1-db23-c6a7-1456358cdc1e",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’impianto palatinale viene utilizzato nell’arcata superiore quando l’osso è molto sottile, ma presenta un’altezza sufficiente. Rappresenta un’alternativa agli impianti zigomatici, subperiostali e alle protesi mobili.</p>",
+              "text": "L’impianto palatinale viene utilizzato nell’arcata superiore quando l’osso è molto sottile, ma presenta un’altezza sufficiente. Rappresenta un’alternativa agli impianti zigomatici, subperiostali e alle protesi mobili."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d3b8b951-93f4-002b-2648-cfe647e67aba",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Impianto transsinusale</p>",
+              "text": "Impianto transsinusale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d3b8b951-93f4-002b-2648-cfe647e67abd",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’impianto transsinusale viene utilizzato nell’arcata superiore quando il seno mascellare è molto espanso in avanti, situazione comune nei pazienti che hanno perso canini e incisivi. L’inserimento prevede solitamente l’impianto simultaneo e l’elevazione del seno mascellare.</p>",
+              "text": "L’impianto transsinusale viene utilizzato nell’arcata superiore quando il seno mascellare è molto espanso in avanti, situazione comune nei pazienti che hanno perso canini e incisivi. L’inserimento prevede solitamente l’impianto simultaneo e l’elevazione del seno mascellare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d6bfb971-d24b-f3de-e8e5-7923147ee346",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Impianto extra-corto</p>",
+              "text": "Impianto extra-corto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d6bfb971-d24b-f3de-e8e5-7923147ee349",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’impianto extra-corto viene utilizzato sia nell’arcata superiore che in quella inferiore e si indica quando lo spessore dell’osso è sufficiente, ma l’altezza è ridotta.</p>",
+              "text": "L’impianto extra-corto viene utilizzato sia nell’arcata superiore che in quella inferiore e si indica quando lo spessore dell’osso è sufficiente, ma l’altezza è ridotta."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d4eabdca-7712-e26e-0e59-0d93f8e5477e",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Impianto zigomatico</p>",
+              "text": "Impianto zigomatico"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d4eabdca-7712-e26e-0e59-0d93f8e54781",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’impianto zigomatico viene utilizzato nell’arcata superiore ed è indicato nei casi in cui l’osso manca sia in altezza sia in spessore, trovando il supporto direttamente nell’osso zigomatico.</p>",
+              "text": "L’impianto zigomatico viene utilizzato nell’arcata superiore ed è indicato nei casi in cui l’osso manca sia in altezza sia in spessore, trovando il supporto direttamente nell’osso zigomatico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5aaa8f23-f671-04bd-994d-1cf3adad90c5",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Impianto subperiostale</p>",
+              "text": "Impianto subperiostale"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5aaa8f23-f671-04bd-994d-1cf3adad90c8",
+            "text": {
+              "html": "<p class=\"large-paragraph\">L’impianto subperiostale viene utilizzato sia nell’arcata superiore che in quella inferiore ed è indicato quando l’osso manca sia in spessore sia in altezza.</p>",
+              "text": "L’impianto subperiostale viene utilizzato sia nell’arcata superiore che in quella inferiore ed è indicato quando l’osso manca sia in spessore sia in altezza."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "44fa7e45-3302-f19a-a769-ef90c27e05aa",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Può rappresentare un’alternativa agli impianti zigomatici nell’arcata superiore, nei casi in cui l’osso zigomatico sia sottile o quando la posizione di un impianto zigomatico risulti rischiosa a causa dell’anatomia del seno mascellare.</p>",
+              "text": "Può rappresentare un’alternativa agli impianti zigomatici nell’arcata superiore, nei casi in cui l’osso zigomatico sia sottile o quando la posizione di un impianto zigomatico risulti rischiosa a causa dell’anatomia del seno mascellare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 32
+        },
+        "lastUpdated": "2026-08-31T11:56:27.913Z"
+      }
+    }
+  ]
+}

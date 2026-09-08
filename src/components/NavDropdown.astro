@@ -1,0 +1,304 @@
+---
+import type { NavigationGroup } from '../content/site';
+interface Props {
+  group: NavigationGroup;
+}
+const { group } = Astro.props;
+---
+
+<details class="dropdown" data-nav-dropdown>
+  <summary
+    ><a href={group.href}>{group.label}</a><span class="dropdown-arrow"
+      ><img
+        src="/assets/images/arrow-right.svg"
+        width="14"
+        height="14"
+        alt=""
+      /></span
+    ></summary
+  >
+  <div class="dropdown-panel">
+    <div class="dropdown-links">
+      {
+        group.children.map((link) => (
+          <a href={link.href}>
+            <span class="line" />
+            <span class="link-label">{link.label}</span>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</details>
+<style>
+  .dropdown {
+    --dropdown-link-shift: 20px;
+    --dropdown-link-duration: 300ms;
+    position: relative;
+    flex: none;
+    text-align: left;
+  }
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px 3px;
+    border-radius: var(--radius);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1;
+  }
+  summary:hover {
+    background: var(--color-accent);
+    color: white;
+  }
+  .dropdown-arrow {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown-arrow img {
+    height: 100%;
+  }
+  .dropdown-panel {
+    position: absolute;
+    z-index: 1000;
+    top: 30px;
+    padding-top: 20px;
+    min-width: 500px;
+  }
+  .dropdown-links {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .dropdown-links a {
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 0;
+    margin-left: calc(-1 * var(--dropdown-link-shift));
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    transition: color var(--dropdown-link-duration);
+  }
+  .dropdown-links a:focus-visible {
+    color: var(--color-primary);
+  }
+  .link-label {
+    min-width: 0;
+  }
+  /* Move only the visuals: wrapping, row height and the hit area stay fixed.
+     The existing 40px panel padding leaves room for the 20px desktop shift. */
+  .line,
+  .link-label {
+    transition: transform var(--dropdown-link-duration);
+  }
+  @media (hover: hover) {
+    .dropdown-links a:hover {
+      color: var(--color-primary);
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .dropdown-links a:focus-visible .link-label {
+      transform: translateX(var(--dropdown-link-shift));
+    }
+    .dropdown-links a:focus-visible .line {
+      transform: translateX(var(--dropdown-link-shift)) scaleX(1);
+    }
+  }
+  @media screen and (min-width: 992px) and (hover: hover) {
+    .dropdown-links a:hover .link-label {
+      transform: translateX(var(--dropdown-link-shift));
+    }
+    .dropdown-links a:hover .line {
+      transform: translateX(var(--dropdown-link-shift)) scaleX(1);
+    }
+  }
+  .line {
+    display: inline-block;
+    flex: none;
+    width: 16px;
+    height: 2px;
+    margin-right: 15px;
+    background: var(--color-accent);
+    transform-origin: left center;
+    transform: translateX(var(--dropdown-link-shift)) scaleX(0);
+  }
+  @media screen and (min-width: 1280px) {
+    .dropdown-panel {
+      min-width: 600px;
+    }
+    summary,
+    .dropdown-links a {
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    .dropdown-panel {
+      min-width: 540px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    summary {
+      gap: 6px;
+      padding-inline: 0.8vw;
+      font-size: 15px;
+    }
+    .dropdown-arrow {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .dropdown {
+      width: 100%;
+      border-bottom: 1px solid var(--color-border);
+    }
+    summary {
+      justify-content: space-between;
+      padding: 20px;
+      font-size: 16px;
+      color: #282828;
+    }
+    summary:hover {
+      color: #282828;
+    }
+    .dropdown-arrow {
+      width: 8px;
+      height: 8px;
+      border-bottom: 2px solid;
+      border-right: 2px solid;
+      transform: rotate(45deg);
+      margin-right: 3px;
+    }
+    .dropdown-arrow img {
+      display: none;
+    }
+    .dropdown-panel {
+      position: static;
+      min-width: 0;
+      padding-top: 0;
+    }
+    .dropdown-links {
+      background: var(--color-surface);
+      padding: 10px 0 40px 40px;
+      border-radius: 0;
+    }
+    .dropdown-links a {
+      font-size: 16px;
+      line-height: 120%;
+      margin: 0;
+      padding-block: 10px;
+    }
+    .line {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .dropdown-links {
+      gap: 0;
+    }
+    .dropdown-links a {
+      padding-block: 12px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    summary {
+      padding-block: 16px;
+    }
+    .dropdown-links a {
+      padding-block: 10px;
+    }
+  }
+</style>
+<style>
+  @media screen and (max-width: 991px) {
+    @supports (interpolate-size: allow-keywords) {
+      .dropdown::details-content {
+        interpolate-size: allow-keywords;
+        block-size: 0;
+        overflow: clip;
+        transition:
+          block-size 300ms linear,
+          content-visibility 300ms allow-discrete;
+      }
+      .dropdown[open]::details-content {
+        block-size: auto;
+      }
+    }
+    .dropdown-arrow {
+      transition: transform 200ms linear;
+    }
+    .dropdown[open] .dropdown-arrow {
+      transform: rotate(225deg);
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .dropdown[open] .dropdown-links {
+      animation: dropdown-open 300ms linear;
+    }
+  }
+  @keyframes dropdown-open {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .dropdown::details-content,
+    .dropdown-arrow,
+    .dropdown-links a,
+    .line,
+    .link-label {
+      transition: none;
+    }
+    .dropdown[open] .dropdown-links {
+      animation: none;
+    }
+  }
+</style>
+<script>
+  document
+    .querySelectorAll<HTMLDetailsElement>('[data-nav-dropdown]')
+    .forEach((details) => {
+      if (details.dataset.ready) return;
+      details.dataset.ready = 'true';
+      details.addEventListener('mouseenter', () => {
+        if (matchMedia('(min-width: 992px)').matches) details.open = true;
+      });
+      details.addEventListener('mouseleave', () => {
+        if (
+          matchMedia('(min-width: 992px)').matches &&
+          !details.contains(document.activeElement)
+        )
+          details.open = false;
+      });
+      details.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          details.open = false;
+          details.querySelector('summary')?.focus();
+        }
+      });
+      details.addEventListener('toggle', () => {
+        if (details.open)
+          details
+            .closest('nav')
+            ?.querySelectorAll<HTMLDetailsElement>('[data-nav-dropdown]')
+            .forEach((other) => {
+              if (other !== details) other.open = false;
+            });
+      });
+      document.addEventListener('click', (event) => {
+        if (!details.contains(event.target as Node)) details.open = false;
+      });
+    });
+</script>

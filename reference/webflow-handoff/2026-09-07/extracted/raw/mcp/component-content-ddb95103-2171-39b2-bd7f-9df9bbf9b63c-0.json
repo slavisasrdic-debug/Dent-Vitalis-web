@@ -1,0 +1,247 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:42:34.274Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Directory cards - Informazioni 2",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Directory cards - Informazioni 2",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Directory cards - Informazioni 2",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+        "nodes": [
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b644",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8d4a382da9d4db6fe07469"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b647",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Alloggio in clinica</div>",
+              "text": "Alloggio in clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b649",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/alloggio\">Alloggio</a>",
+              "text": "Alloggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b64b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Potrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare.</p>",
+              "text": "Potrai soggiornare in un alloggio di lusso direttamente all’interno della clinica, insieme a un amico o a un familiare."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b64f",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b652",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b655",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba90a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b658",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Transfer incluso</div>",
+              "text": "Transfer incluso"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b65a",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/trasporto\">Trasporto</a>",
+              "text": "Trasporto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b65c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Ti assistiamo fin da subito, anche quando sei ancora in Italia.</p>",
+              "text": "Ti assistiamo fin da subito, anche quando sei ancora in Italia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b660",
+            "text": {
+              "html": "<div class=\"cijena-velika\">Scopri di più</div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b663",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b666",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69638685bcfda6df6870b6f6"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b669",
+            "text": {
+              "html": "<div class=\"nadnaslov-kartica\">Trasparenza</div>",
+              "text": "Trasparenza"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b66b",
+            "text": {
+              "html": "<a class=\"medjunaslov-h3 bold\" href=\"/informazioni/listino-prezzi\">Listino prezzi</a>",
+              "text": "Listino prezzi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b66d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prestazioni in evidenza e relativi prezzi.</p>",
+              "text": "Prestazioni in evidenza e relativi prezzi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b671",
+            "text": {
+              "html": "<div class=\"cijena-velika\"><strong class=\"cijena-velika\" data-w-id=\"ddb95103-2171-39b2-bd7f-9df9bbf9b672\">Scopri di più</strong></div>",
+              "text": "Scopri di più"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b675",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--carbon\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 32 32\"><path fill=\"currentColor\" d=\"M10 6v2h12.59L6 24.59L7.41 26L24 9.41V22h2V6H10z\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b689",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a8d4a382da9d4db6fe07469"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b68a",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "695e1eeeb10c5fb8eeaba90a"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b68b",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "69638685bcfda6df6870b6f6"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b68c",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86fa107eb37b4292de530f"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 22
+        }
+      }
+    },
+    {
+      "label": "Component defaults Directory cards - Informazioni 2",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 767px) {
+  .detaljna-tekst .sadrzaji-usluge,
+  .detaljna-tekst .sadrzaji-usluge .prednost {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

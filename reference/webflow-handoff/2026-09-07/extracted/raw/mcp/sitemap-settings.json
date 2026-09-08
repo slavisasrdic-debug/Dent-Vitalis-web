@@ -1,0 +1,33 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:39:16.830Z",
+  "tool": "mcp__codex_apps__webflow_data_sitemap_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "All page indexing settings",
+        "list_pages_sitemap_status": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "All page indexing settings",
+      "action": "list_pages_sitemap_status",
+      "error": {
+        "name": "WebflowApiError",
+        "message": "Forbidden: Site plan doesn't support sitemap indexing controls",
+        "status": 403,
+        "code": "forbidden"
+      }
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "unavailable",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

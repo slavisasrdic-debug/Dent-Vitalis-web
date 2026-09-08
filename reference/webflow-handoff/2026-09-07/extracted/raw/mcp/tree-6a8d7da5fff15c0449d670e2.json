@@ -1,0 +1,493 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:44:01.004Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "6a8d7da5fff15c0449d670e2",
+    "actions": [
+      {
+        "label": "Complete current page node tree",
+        "get_all_elements": {
+          "depth": -1
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete current page node tree",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Elements tree loaded",
+          "data": {
+            "id": {
+              "component": "6a8d7da5fff15c0449d670e2",
+              "element": "6a8d7da5fff15c0449d670e8"
+            },
+            "type": "Body",
+            "children": [
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "a7811c45-af10-60b9-3dc2-48ab6a44a124"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+                  "name": "navigacija",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "535b7142-423c-944d-b546-7ffe7f86612d"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Breadcrumb conteiner"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a8d7da5fff15c0449d670e2",
+                      "element": "e0bdc1d4-82fd-f11d-641e-be664fdf0924"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Breadcrumb Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a8d7da5fff15c0449d670e2",
+                          "element": "b1776cc1-fd50-0802-8c6e-0881fd3a94aa"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner breadcrumb"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a8d7da5fff15c0449d670e2",
+                              "element": "88081b5b-266e-abed-86e9-298605b8636e"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Div Block 38"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a8d7da5fff15c0449d670e2",
+                                  "element": "4ea67d5a-ee5c-7957-7f1d-15221cb4c497"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "breadcrumb"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da5fff15c0449d670e2",
+                                      "element": "6eb38989-0fc5-d6a4-9052-22dd0dc6b608"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da5fff15c0449d670e2",
+                                          "element": "7c65c170-16eb-3eda-855d-44023bfd4f4d"
+                                        },
+                                        "type": "Link",
+                                        "styleNames": [
+                                          "Link breadcrumb"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "link": {
+                                            "linkType": "url",
+                                            "href": "/"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "6a8d7da5fff15c0449d670e2",
+                                              "element": "99ec31c5-95a3-5be4-c583-a102547b9b8d"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Home"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da5fff15c0449d670e2",
+                                      "element": "84f96f09-d04c-9169-e930-f12275345cce"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da5fff15c0449d670e2",
+                                          "element": "b2828d62-5aec-027d-9649-6a122983dc26"
+                                        },
+                                        "type": "String",
+                                        "textContent": " / "
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da5fff15c0449d670e2",
+                                      "element": "fa5980ad-7918-1402-f569-5ab2371a7400"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Breadcrum text",
+                                      "current"
+                                    ],
+                                    "settings": {
+                                      "tag": "h6",
+                                      "visibility": true,
+                                      "headingLevel": 6
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da5fff15c0449d670e2",
+                                          "element": "6b031882-e8c0-7d13-ce9a-db2944ae409c"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Prestazioni"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "30830b81-2ff5-7767-bb04-b923cc0baf90"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Zaglavlje detaljna"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6a8d7da5fff15c0449d670e2",
+                      "element": "3105e47d-4f47-12da-b0f2-0ae932f83873"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Inner Banner Photo",
+                      "Team Page"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a8d7da5fff15c0449d670e2",
+                          "element": "d7894a97-33c0-e318-3cc8-d769bc90f8d3"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "sjena-lijevo"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": false,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "6a8d7da5fff15c0449d670e2",
+                      "element": "2fa64224-c364-7324-7f5b-33ac82991153"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 4"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6a8d7da5fff15c0449d670e2",
+                          "element": "2ef75098-f438-9f4f-b608-7e02a9842033"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Inner Banner"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "6a8d7da5fff15c0449d670e2",
+                              "element": "65d5f60e-140e-4b7e-7cec-fc0a214740c1"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Inner Banner Text Wrap",
+                              "Career Collection List Wrapper"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "6a8d7da5fff15c0449d670e2",
+                                  "element": "c1af8e75-fd57-a4a4-42bd-7d0348365835"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "naslov detaljna tekstovi"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da5fff15c0449d670e2",
+                                      "element": "8f8ade52-e1c3-b6d0-e6b4-a95ea6370f06"
+                                    },
+                                    "type": "Heading",
+                                    "styleNames": [
+                                      "Naslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "tag": "h1",
+                                      "visibility": true,
+                                      "headingLevel": 1
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da5fff15c0449d670e2",
+                                          "element": "8dccd124-f9e0-14e2-6d02-f20262e19ff8"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Prestazioni"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "6a8d7da5fff15c0449d670e2",
+                                      "element": "79a41400-cb7c-363c-0ef8-9899fa63e22f"
+                                    },
+                                    "type": "Paragraph",
+                                    "styleNames": [
+                                      "Podnaslov detaljna"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "6a8d7da5fff15c0449d670e2",
+                                          "element": "81d69e88-0dc1-2a87-5396-235d1e130e69"
+                                        },
+                                        "type": "String",
+                                        "textContent": "Grandi risparmi senza rinunciare alla massima qualità."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "66840bd9-9b5e-cfc3-e1af-71433b1a67b8"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+                  "name": "Directory cards - Home layout",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "ef3b57b7-4f3d-ccfd-54d0-273762030ff1"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "name": "Section Contatti",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "3d5810e4-763c-4783-7b7a-26b902d6a876"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+                  "name": "Footer",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "2bba3d71-4b81-f4e8-f8ab-1feeaffa3f71"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "name": "WhatsApp",
+                  "props": [],
+                  "slots": []
+                }
+              },
+              {
+                "id": {
+                  "component": "6a8d7da5fff15c0449d670e2",
+                  "element": "4f7bceef-72a7-29a9-df2a-ff524db59f74"
+                },
+                "type": "ComponentInstance",
+                "instanceDetails": {
+                  "type": "ComponentInstance",
+                  "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "name": "Fiksni kontakti mobile",
+                  "props": [],
+                  "slots": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

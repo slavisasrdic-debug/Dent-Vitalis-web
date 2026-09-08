@@ -1,0 +1,20 @@
+---
+import {
+  videoPoster,
+  type BackgroundVideoSource,
+} from '../content/background-videos';
+type Props = BackgroundVideoSource;
+const { name, media }: Props = Astro.props;
+const poster = videoPoster(name);
+---
+
+<link
+  rel="preload"
+  as="image"
+  type="image/webp"
+  href={poster.src}
+  imagesrcset={poster.srcset}
+  imagesizes="100vw"
+  media={media}
+  fetchpriority="high"
+/>

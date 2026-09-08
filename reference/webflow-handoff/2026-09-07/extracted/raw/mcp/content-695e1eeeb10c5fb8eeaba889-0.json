@@ -1,0 +1,251 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:37:01.562Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 695e1eeeb10c5fb8eeaba889",
+        "get_page_content": {
+          "page_id": "695e1eeeb10c5fb8eeaba889",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 695e1eeeb10c5fb8eeaba889",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "695e1eeeb10c5fb8eeaba889",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef8f6",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "c8623d6a-4f57-1398-e02c-a43ff362dd06",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba87c\" data-w-id=\"c8623d6a-4f57-1398-e02c-a43ff362dd07\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c8623d6a-4f57-1398-e02c-a43ff362dd09",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c8623d6a-4f57-1398-e02c-a43ff362dd0b",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/chi-siamo\" data-w-id=\"dc54a842-73f4-2746-7c9d-bdeab4615cfe\">Su di noi</a></h6>",
+              "text": "Su di noi"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c8623d6a-4f57-1398-e02c-a43ff362dd0d",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c8623d6a-4f57-1398-e02c-a43ff362dd0f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Tutto in un unico luogo</h6>",
+              "text": "Tutto in un unico luogo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0d637b1a-7f15-be10-2c2d-9552949a0f51",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86d2ab9e181809458efc87"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0d637b1a-7f15-be10-2c2d-9552949a0f59",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Tutto in un unico luogo</h1>",
+              "text": "Tutto in un unico luogo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0d637b1a-7f15-be10-2c2d-9552949a0f5b",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano.</p>",
+              "text": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "4c1e5c96-757c-d8b1-04f0-248a2cefe05a",
+            "componentId": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "78124333-d5f5-020a-794e-312ed4cacf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Siamo un punto di riferimento in Croazia per implantologia, chirurgia orale ed estetica del sorriso. <br data-w-id=\"e50db675-9b64-b677-63d1-91375a03d680\"><br data-w-id=\"d53dfc14-832e-9898-86a8-b860f29f034e\">Ogni trattamento è personalizzato, con diagnosi dettagliata e pianificazione chiara. Il nostro team ti accompagna dal primo contatto al completamento della terapia, con attenzione alla tua salute e soddisfazione a lungo termine.<br data-w-id=\"ce1d0b0e-9ca3-82c8-a11e-e8f059d527e7\"><br data-w-id=\"9b235cf9-9327-3c40-efb0-75e8842758d6\">I nostri specialisti sono apprezzati sia dai pazienti sia dai principali esperti di implantologia a livello internazionale. Si dedicano costantemente all’aggiornamento e alla formazione continua in diversi ambiti dell’odontoiatria, garantendo cure di altissimo livello basate sulle più moderne conoscenze e tecniche del settore.<br data-w-id=\"6b4bc9e2-8f68-1b86-baab-90638a35110b\">‍</p>",
+              "text": "Siamo un punto di riferimento in Croazia per implantologia, chirurgia orale ed estetica del sorriso. \n\nOgni trattamento è personalizzato, con diagnosi dettagliata e pianificazione chiara. Il nostro team ti accompagna dal primo contatto al completamento della terapia, con attenzione alla tua salute e soddisfazione a lungo termine.\n\nI nostri specialisti sono apprezzati sia dai pazienti sia dai principali esperti di implantologia a livello internazionale. Si dedicano costantemente all’aggiornamento e alla formazione continua in diversi ambiti dell’odontoiatria, garantendo cure di altissimo livello basate sulle più moderne conoscenze e tecniche del settore.\n‍"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e831af9e-f5a7-8b68-5383-a2625f83dde0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Organizzazione efficiente</p>",
+              "text": "Organizzazione efficiente"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62f4e84c-6fdb-4d01-4b41-022674aa8caf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il nostro obiettivo è rendere il percorso terapeutico il più breve ed efficace possibile, senza mai compromettere la qualità e la precisione. Grazie a un’attenta pianificazione e a un’organizzazione impeccabile di tutte le fasi del trattamento, riduciamo al minimo i tempi complessivi di cura, garantendo al contempo il pieno controllo di ogni fase del percorso terapeutico.</p>",
+              "text": "Il nostro obiettivo è rendere il percorso terapeutico il più breve ed efficace possibile, senza mai compromettere la qualità e la precisione. Grazie a un’attenta pianificazione e a un’organizzazione impeccabile di tutte le fasi del trattamento, riduciamo al minimo i tempi complessivi di cura, garantendo al contempo il pieno controllo di ogni fase del percorso terapeutico."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f7004c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Attrezzatura di ultima generazione</p>",
+              "text": "Attrezzatura di ultima generazione"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70051",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Disponiamo di sei studi odontoiatrici modernamente attrezzati, due dei quali sono dedicati specificamente alla chirurgia orale e all’implantologia. Tutte le nostre apparecchiature sono certificate e conformi ai più elevati standard europei.</p>",
+              "text": "Disponiamo di sei studi odontoiatrici modernamente attrezzati, due dei quali sono dedicati specificamente alla chirurgia orale e all’implantologia. Tutte le nostre apparecchiature sono certificate e conformi ai più elevati standard europei."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1cdea7b8-f3a0-d7f3-f8b1-86b770f70054",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Prestiamo particolare attenzione alla sterilizzazione degli strumenti. A questo scopo, disponiamo di un’area dedicata, dotata di tecnologie all’avanguardia e di sistemi professionali di sterilizzazione, che ci consentono di garantire i più elevati standard di sicurezza, igiene e tutela dei nostri pazienti.</p>",
+              "text": "Prestiamo particolare attenzione alla sterilizzazione degli strumenti. A questo scopo, disponiamo di un’area dedicata, dotata di tecnologie all’avanguardia e di sistemi professionali di sterilizzazione, che ci consentono di garantire i più elevati standard di sicurezza, igiene e tutela dei nostri pazienti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf126",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Corone, ponti, faccette e protesi realizzate in sede</p>",
+              "text": "Corone, ponti, faccette e protesi realizzate in sede"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3270731e-3a01-e3e5-fe17-253f9eabf12b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Realizziamo protesi dentali – ponti, corone e protesi mobili – nel nostro laboratorio odontotecnico certificato, situato all’interno della clinica. Grazie alla stretta integrazione tra studio dentistico e laboratorio, tutte le fasi di realizzazione e personalizzazione vengono eseguite in modo rapido e preciso, senza inutili attese. In nessuna fase del trattamento i nostri pazienti rimangono senza denti e possono tornare alle loro attività quotidiane nel più breve tempo possibile.</p>",
+              "text": "Realizziamo protesi dentali – ponti, corone e protesi mobili – nel nostro laboratorio odontotecnico certificato, situato all’interno della clinica. Grazie alla stretta integrazione tra studio dentistico e laboratorio, tutte le fasi di realizzazione e personalizzazione vengono eseguite in modo rapido e preciso, senza inutili attese. In nessuna fase del trattamento i nostri pazienti rimangono senza denti e possono tornare alle loro attività quotidiane nel più breve tempo possibile."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2eb722aa-cc23-ab86-85fc-7e22d32b12bf",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Sistemazione dei pazienti in clinica</p>",
+              "text": "Sistemazione dei pazienti in clinica"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2eb722aa-cc23-ab86-85fc-7e22d32b12c4",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per i pazienti che arrivano dall’estero o da altre regioni della Croazia, abbiamo predisposto la possibilità di soggiornare in una struttura esclusiva all’interno della nostra stessa clinica. In questo modo garantiamo il massimo comfort e la massima privacy per tutta la durata del trattamento, con il nostro team medico sempre a disposizione e un’assistenza continua e attenta.\n\nLa struttura è particolarmente indicata per i pazienti che necessitano di trattamenti della durata di più giorni, consentendo loro di soggiornare nelle immediate vicinanze dello studio. In questo modo offriamo un’esperienza completa, che unisce cure odontoiatriche di eccellenza, soggiorno confortevole e organizzazione integrale del percorso terapeutico in un’unica struttura.</p>",
+              "text": "Per i pazienti che arrivano dall’estero o da altre regioni della Croazia, abbiamo predisposto la possibilità di soggiornare in una struttura esclusiva all’interno della nostra stessa clinica. In questo modo garantiamo il massimo comfort e la massima privacy per tutta la durata del trattamento, con il nostro team medico sempre a disposizione e un’assistenza continua e attenta.\n\nLa struttura è particolarmente indicata per i pazienti che necessitano di trattamenti della durata di più giorni, consentendo loro di soggiornare nelle immediate vicinanze dello studio. In questo modo offriamo un’esperienza completa, che unisce cure odontoiatriche di eccellenza, soggiorno confortevole e organizzazione integrale del percorso terapeutico in un’unica struttura."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530fe4",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Sedazione cosciente con anestesista</p>",
+              "text": "Sedazione cosciente con anestesista"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a07d6a22-e83d-c515-6579-0d6ea9530fe9",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Grazie alla <a class=\"link\" data-wf-link-page-id=\"695e1eeeb10c5fb8eeaba88e\" data-w-id=\"d07a411e-584f-65e7-3820-f4620de1dead\">sedazione cosciente</a>, praticata sotto la supervisione del nostro medico specialista in Anestesia e Rianimazione, con il supporto di un tecnico di anestesia qualificato, offriamo ai nostri pazienti un’esperienza più serena, rilassata e confortevole durante le procedure odontoiatriche e chirurgiche.\n\nIl paziente rimane cosciente e può collaborare con il medico per tutta la durata della procedura, mentre il livello di sedazione viene adeguato individualmente alle sue esigenze. Questo approccio è particolarmente indicato per gli interventi più lunghi e complessi, così come per i pazienti che provano paura, ansia o particolare disagio durante le cure odontoiatriche.\n\nLa presenza costante di un’équipe anestesiologica qualificata offre al paziente un elevato livello di assistenza e contribuisce a rendere anche i trattamenti più impegnativi un’esperienza il più possibile tranquilla, confortevole e sicura.</p>",
+              "text": "Grazie alla sedazione cosciente, praticata sotto la supervisione del nostro medico specialista in Anestesia e Rianimazione, con il supporto di un tecnico di anestesia qualificato, offriamo ai nostri pazienti un’esperienza più serena, rilassata e confortevole durante le procedure odontoiatriche e chirurgiche.\n\nIl paziente rimane cosciente e può collaborare con il medico per tutta la durata della procedura, mentre il livello di sedazione viene adeguato individualmente alle sue esigenze. Questo approccio è particolarmente indicato per gli interventi più lunghi e complessi, così come per i pazienti che provano paura, ansia o particolare disagio durante le cure odontoiatriche.\n\nLa presenza costante di un’équipe anestesiologica qualificata offre al paziente un elevato livello di assistenza e contribuisce a rendere anche i trattamenti più impegnativi un’esperienza il più possibile tranquilla, confortevole e sicura."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "3dfc295b-f6b3-d8cb-6038-a253c65547b6",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "d24b6c77-2c3b-c5dd-5918-9145a83851c6",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "267c17f6-a75b-5abe-234f-42ef96ea03bc",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "de1c6f1d-7c60-131b-a8cd-51599890cc91",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 26
+        },
+        "lastUpdated": "2026-08-31T10:59:36.929Z"
+      }
+    }
+  ]
+}

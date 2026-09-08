@@ -1,5 +1,9 @@
 # Inventar komponenti
 
+## Aktualna implementacija — 7. rujna 2026.
+
+Konačne granice, tipizirani propsi, varijante i potrošači svih 28 talijanskih stranica dokumentirani su u [Astro mapi komponenti](./astro-component-map.md), nakon pregleda svih 28 sastava prihvaćenog handoffa. Layout, zajedničke komponente i sekcijske kompozicije su odvojene razine. Ostatak ovog dokumenta čuva kandidate iz starijeg audita, ne stanje implementacije. Izraz “200 rute” u tablici znači uspješan HTTP status, ne 200 različitih stranica.
+
 Ovaj inventar opisuje ponavljajuće kompozicije zatečene na renderiranom Webflow previewu. Granice Astro komponenti još nisu zaključane: potvrđuju se tek usporedbom svih jezika i odobrenog exporta. Cilj je izbjeći i jedan golemi page template i prerano stvaranje apstrakcija koje ne odgovaraju dizajnu.
 
 ## Globalni elementi

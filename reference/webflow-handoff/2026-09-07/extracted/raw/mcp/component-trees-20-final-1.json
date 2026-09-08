@@ -1,0 +1,1880 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:59:22.861Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "context": "The extraction finishes two rate-limited component structure reads after a pause, preserving original definitions without changes.",
+    "actions": [
+      {
+        "label": "Complete source component 32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete source component 32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"32a193c4-2226-c41d-04a5-7c80a45fc9bd\" tree loaded",
+          "data": {
+            "id": {
+              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9bd"
+            },
+            "type": "Section",
+            "styleNames": [
+              "Section Tradizione"
+            ],
+            "settings": {
+              "tag": "section",
+              "visibility": true
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9be"
+                },
+                "type": "BlockContainer",
+                "styleNames": [
+                  "Base Container",
+                  "Full Width",
+                  "2"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                }
+              },
+              {
+                "id": {
+                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9bf"
+                },
+                "type": "Section",
+                "styleNames": [
+                  "teaser-section"
+                ],
+                "attributes": {
+                  "data-directory-cards": "7"
+                },
+                "settings": {
+                  "tag": "div",
+                  "visibility": true
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c0"
+                    },
+                    "type": "Container",
+                    "styleNames": [
+                      "teaser-container"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c1"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "teaser-grid"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c2"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "teaser-column"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c3"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "teaser-copy-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c4"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "teaser-img-tablet-down"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c5"
+                                        },
+                                        "type": "Image",
+                                        "styleNames": [
+                                          "teaser-img"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "assetId": "6a9a894328a2d6f886ffabaf",
+                                          "altText": "Due dentisti DentVitalis esaminano una protesi dentale nella clinica di Rijeka"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c6"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Home Service Card HP"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c7"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 36"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c8"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "Nadnaslov kartica"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9c9"
+                                                },
+                                                "type": "String",
+                                                "textContent": "DentVitalis"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ca"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Medjunaslov H3",
+                                              "bold"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/i-nostri-specialisti"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9cb"
+                                                },
+                                                "type": "String",
+                                                "textContent": "I nostri specialisti"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9cc"
+                                            },
+                                            "type": "Paragraph",
+                                            "styleNames": [
+                                              "Large Paragraph"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9cd"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Professionalità ed eccellenza, maturate nel percorso professionale e rafforzate da anni di esperienza nella nostra clinica."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ce"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 13"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9cf"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "istaknuta cijena"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d0"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "cijena velika"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d1"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "Scopri di più"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d2"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Link Block 5"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/i-nostri-specialisti"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d3"
+                                                },
+                                                "type": "HtmlEmbed",
+                                                "styleNames": [
+                                                  "icon-embed-xxsmall 2"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d4"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "teaser-copy-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d5"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "teaser-img-tablet-down"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d6"
+                                        },
+                                        "type": "Image",
+                                        "styleNames": [
+                                          "teaser-img",
+                                          "2"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "assetId": "6a86d2ab9e181809458efc87",
+                                          "altText": "Team DentVitalis con pazienti nella sala d'attesa della clinica di Rijeka"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d7"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Home Service Card HP"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d8"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 35"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9d9"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "Nadnaslov kartica"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9da"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Cura completa"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9db"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Medjunaslov H3",
+                                              "bold"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/tutto-in-un-unico-luogo"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9dc"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Tutto in un unico luogo"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9dd"
+                                            },
+                                            "type": "Paragraph",
+                                            "styleNames": [
+                                              "Large Paragraph"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9de"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Cure complete all’avanguardia, laboratorio certificato, comfort in clinica e transfer da Trieste. Assistenza dedicata in italiano."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9df"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 13"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e0"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "istaknuta cijena"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e1"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "cijena velika"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e2"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "Scopri di più"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e3"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Link Block 5"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/tutto-in-un-unico-luogo"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e4"
+                                                },
+                                                "type": "HtmlEmbed",
+                                                "styleNames": [
+                                                  "icon-embed-xxsmall 2"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e5"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "teaser-copy-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e6"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "teaser-img-tablet-down"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e7"
+                                        },
+                                        "type": "Image",
+                                        "styleNames": [
+                                          "teaser-img",
+                                          "3",
+                                          "b"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "assetId": "6a995eeda77024f4c59193f0",
+                                          "altText": "Rijeka, Croazia, sede della clinica DentVitalis"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e8"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Home Service Card HP"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9e9"
+                                        },
+                                        "type": "Block",
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ea"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "Nadnaslov kartica"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9eb"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Rijeka (Fiume)"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ec"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Medjunaslov H3",
+                                              "bold"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/come-raggiungerci"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ed"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Come raggiungerci?"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ee"
+                                            },
+                                            "type": "Paragraph",
+                                            "styleNames": [
+                                              "Large Paragraph"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ef"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Siamo a Rijeka (Fiume), in Croazia, a soli 60 km da Trieste. Trasferimento gratuito."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f0"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 13"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f1"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "istaknuta cijena"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f2"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "cijena velika"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f3"
+                                                    },
+                                                    "type": "Strong",
+                                                    "styleNames": [
+                                                      "cijena velika"
+                                                    ],
+                                                    "settings": {
+                                                      "visibility": true
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "id": {
+                                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f4"
+                                                        },
+                                                        "type": "String",
+                                                        "textContent": "Scopri di più"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f5"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Link Block 5"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/come-raggiungerci"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f6"
+                                                },
+                                                "type": "HtmlEmbed",
+                                                "styleNames": [
+                                                  "icon-embed-xxsmall 2"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f7"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "teaser-copy-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f8"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "teaser-img-tablet-down"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9f9"
+                                        },
+                                        "type": "Image",
+                                        "styleNames": [
+                                          "teaser-img",
+                                          "4"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "assetId": "6a86da4eae8635c0cdb45a0a",
+                                          "altText": "Odontotecnica DentVitalis al lavoro nel laboratorio della clinica di Rijeka"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fc9fa"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Home Service Card HP"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fc9fb"
+                                        },
+                                        "type": "Block",
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9fc"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "Nadnaslov kartica"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9fd"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Tecnologia e qualità"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fc9fe"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Medjunaslov H3",
+                                              "bold"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/laboratorio-odontotecnico"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fc9ff"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Laboratorio odontotecnico"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fca00"
+                                            },
+                                            "type": "Paragraph",
+                                            "styleNames": [
+                                              "Large Paragraph"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fca01"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Alta qualità e rapidità, basate su materiali premium e tecnologie digitali, con il miglior rapporto qualità-prezzo."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "32a193c4-2226-c41d-04a5-7c80a45fca02"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 13"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fca03"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "istaknuta cijena"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fca04"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "cijena velika"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fca05"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "Scopri di più"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "32a193c4-2226-c41d-04a5-7c80a45fca06"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Link Block 5"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/laboratorio-odontotecnico"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fca07"
+                                                },
+                                                "type": "HtmlEmbed",
+                                                "styleNames": [
+                                                  "icon-embed-xxsmall 2"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f42d"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "teaser-copy-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f42e"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "teaser-img-tablet-down"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "dee3d813-927f-91b5-0b1a-d6af2d40f42f"
+                                        },
+                                        "type": "Image",
+                                        "styleNames": [
+                                          "teaser-img"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "assetId": "6a86e2fe3a09a609c87955c2",
+                                          "altText": "Pianificazione digitale di una protesi dentale nel laboratorio DentVitalis"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f430"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Home Service Card HP"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "dee3d813-927f-91b5-0b1a-d6af2d40f431"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 36"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f432"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "Nadnaslov kartica"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f433"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Standard europei"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f434"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Medjunaslov H3",
+                                              "bold"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/materiali-e-apparecchiature"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f435"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Materiali e apparecchiature"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f436"
+                                            },
+                                            "type": "Paragraph",
+                                            "styleNames": [
+                                              "Large Paragraph"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f437"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Materiali certificati e tecnologie di ultima generazione per trattamenti precisi e affidabili."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "dee3d813-927f-91b5-0b1a-d6af2d40f438"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 13"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f439"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "istaknuta cijena"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f43a"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "cijena velika"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f43b"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "Scopri di più"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f43c"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Link Block 5"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/materiali-e-apparecchiature"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f43d"
+                                                },
+                                                "type": "HtmlEmbed",
+                                                "styleNames": [
+                                                  "icon-embed-xxsmall 2"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f43e"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "teaser-copy-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f43f"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "teaser-img-tablet-down"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "dee3d813-927f-91b5-0b1a-d6af2d40f440"
+                                        },
+                                        "type": "Image",
+                                        "styleNames": [
+                                          "teaser-img",
+                                          "2"
+                                        ],
+                                        "settings": {
+                                          "visibility": true,
+                                          "assetId": "6a86debaa7487087044c1589",
+                                          "altText": "Materiali implantari certificati utilizzati da DentVitalis a Rijeka"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f441"
+                                    },
+                                    "type": "Block",
+                                    "styleNames": [
+                                      "Home Service Card HP"
+                                    ],
+                                    "settings": {
+                                      "tag": "div",
+                                      "visibility": true,
+                                      "block": {
+                                        "tag": "div"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "dee3d813-927f-91b5-0b1a-d6af2d40f442"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 35"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f443"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "Nadnaslov kartica"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f444"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Tecnologia avanzata"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f445"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Medjunaslov H3",
+                                              "bold"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/impianti-di-nuova-generazione"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f446"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Impianti di nuova generazione"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f447"
+                                            },
+                                            "type": "Paragraph",
+                                            "styleNames": [
+                                              "Large Paragraph"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f448"
+                                                },
+                                                "type": "String",
+                                                "textContent": "Ora tutto è possibile: liberati dalla protesi mobile."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                          "element": "dee3d813-927f-91b5-0b1a-d6af2d40f449"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Div Block 13"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f44a"
+                                            },
+                                            "type": "Block",
+                                            "styleNames": [
+                                              "istaknuta cijena"
+                                            ],
+                                            "settings": {
+                                              "tag": "div",
+                                              "visibility": true,
+                                              "block": {
+                                                "tag": "div"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f44b"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "cijena velika"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f44c"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "Scopri di più"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                              "element": "dee3d813-927f-91b5-0b1a-d6af2d40f44d"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Link Block 5"
+                                            ],
+                                            "settings": {
+                                              "visibility": true,
+                                              "link": {
+                                                "linkType": "url",
+                                                "href": "/su-di-noi/impianti-di-nuova-generazione"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                                  "element": "dee3d813-927f-91b5-0b1a-d6af2d40f44e"
+                                                },
+                                                "type": "HtmlEmbed",
+                                                "styleNames": [
+                                                  "icon-embed-xxsmall 2"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                              "element": "32a193c4-2226-c41d-04a5-7c80a45fca08"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "teaser-column"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                  "element": "32a193c4-2226-c41d-04a5-7c80a45fca09"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "p-teaser-img-wrap"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fca0a"
+                                    },
+                                    "type": "Image",
+                                    "styleNames": [
+                                      "teaser-img",
+                                      "1"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "assetId": "6a9a892a55232c9f5a3c13a3",
+                                      "altText": "Due dentisti DentVitalis esaminano una protesi dentale nella clinica di Rijeka"
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fca0b"
+                                    },
+                                    "type": "Image",
+                                    "styleNames": [
+                                      "teaser-img",
+                                      "2"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "assetId": "6a86d2ab9e181809458efc87",
+                                      "altText": "Team DentVitalis con pazienti nella sala d'attesa della clinica di Rijeka"
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fca0c"
+                                    },
+                                    "type": "Image",
+                                    "styleNames": [
+                                      "teaser-img",
+                                      "3"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "assetId": "6a995eeda77024f4c59193f0",
+                                      "altText": "Rijeka, Croazia, sede della clinica DentVitalis"
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "32a193c4-2226-c41d-04a5-7c80a45fca0d"
+                                    },
+                                    "type": "Image",
+                                    "styleNames": [
+                                      "teaser-img",
+                                      "4"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "assetId": "6a86da4eae8635c0cdb45a0a",
+                                      "altText": "Odontotecnica DentVitalis al lavoro nel laboratorio della clinica di Rijeka"
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f463"
+                                    },
+                                    "type": "Image",
+                                    "styleNames": [
+                                      "teaser-img",
+                                      "1"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "assetId": "6a86e2fe3a09a609c87955c2",
+                                      "altText": "Pianificazione digitale di una protesi dentale nel laboratorio DentVitalis"
+                                    }
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+                                      "element": "dee3d813-927f-91b5-0b1a-d6af2d40f464"
+                                    },
+                                    "type": "Image",
+                                    "styleNames": [
+                                      "teaser-img",
+                                      "2"
+                                    ],
+                                    "settings": {
+                                      "visibility": true,
+                                      "assetId": "6a86debaa7487087044c1589",
+                                      "altText": "Materiali implantari certificati utilizzati da DentVitalis a Rijeka"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

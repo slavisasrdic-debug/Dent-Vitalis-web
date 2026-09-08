@@ -1,0 +1,5 @@
+
+html body section.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise:hover,
+html body section.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise:focus-visible {
+  background-color: color-mix(in srgb, var(--svijetla-call) 92%, var(--crna)) !important;
+}

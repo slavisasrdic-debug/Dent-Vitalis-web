@@ -4,3 +4,9 @@ node_modules/
 package-lock.json
 public/assets/
 source-assets/
+# Immutable handoff evidence must retain the manifest's exact source bytes.
+reference/webflow-handoff/*/extracted/
+# Generated QA telemetry keeps the scripts' raw JSON output (not a Git exclusion).
+reference/screenshots/2026-09-07-home/**/*.json
+reference/screenshots/2026-09-07-inner/**/*.json
+reference/webflow-handoff/2026-09-07/*.json

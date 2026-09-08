@@ -1,0 +1,64 @@
+---
+import type { InlineContent } from '../content/inner-pages';
+interface Props {
+  content: InlineContent[];
+}
+const { content } = Astro.props;
+---
+
+{
+  content.map((part) =>
+    part.kind === 'text' ? (
+      part.text
+    ) : part.kind === 'break' ? (
+      <br />
+    ) : part.kind === 'link' ? (
+      <a href={part.href} class={part.variant}>
+        <Astro.self content={part.children} />
+      </a>
+    ) : part.kind === 'qualification' ? (
+      <span class="qualification">
+        <Astro.self content={part.children} />
+      </span>
+    ) : (
+      <part.kind>
+        <Astro.self content={part.children} />
+      </part.kind>
+    ),
+  )
+}
+<style>
+  a {
+    color: var(--color-primary-hover);
+    font-weight: 500;
+  }
+  a:hover {
+    color: var(--color-primary);
+  }
+  .underlined {
+    color: var(--color-primary);
+    word-break: break-all;
+    text-decoration: underline;
+  }
+  .native {
+    color: #0000ee;
+    text-decoration: underline;
+  }
+  .hero-phone {
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+  .hero-phone:hover,
+  .hero-phone:focus-visible {
+    color: var(--color-white);
+    text-decoration: underline;
+  }
+  .qualification {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 479px) {
+    .qualification {
+      line-height: 1;
+    }
+  }
+</style>

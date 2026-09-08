@@ -1,0 +1,40 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:39:21.407Z",
+  "tool": "mcp__codex_apps__webflow_data_enterprise_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Existing redirects only",
+        "list_301_redirects": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d"
+        }
+      },
+      {
+        "label": "Existing robots settings",
+        "get_robots_txt": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Existing redirects only",
+      "action": "list_301_redirects",
+      "error": {
+        "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+      }
+    },
+    {
+      "label": "Existing robots settings",
+      "action": "get_robots_txt",
+      "error": {
+        "message": "This site does not have an Enterprise hosting plan. This action requires an Enterprise site plan."
+      }
+    }
+  ],
+  "originalCaptureStatus": "extracted",
+  "actionCoverage": "unavailable",
+  "outcomeNote": "Action errors take precedence; original response payload is preserved. Successful retries have their own evidence files."
+}

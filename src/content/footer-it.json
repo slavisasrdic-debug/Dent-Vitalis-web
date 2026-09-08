@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Prestazioni",
+    "href": "/prestazioni-dentali",
+    "legal": false,
+    "links": [
+      {
+        "label": "Imperdibile: protesi definitiva ancorata su 4 impianti",
+        "href": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+      },
+      {
+        "label": "Premium: ponte fisso su impianti",
+        "href": "/prestazioni/premium-ponte-fisso-su-impianti"
+      },
+      {
+        "label": "Facilissimo: sbiancamento dei denti",
+        "href": "/prestazioni/sbiancamento-dei-denti"
+      },
+      {
+        "label": "Corone, faccette, ponti e protesi",
+        "href": "/prestazioni/corone-faccette-ponti-e-protesi"
+      }
+    ]
+  },
+  {
+    "title": "Su di noi",
+    "href": "/chi-siamo",
+    "legal": false,
+    "links": [
+      {
+        "label": "I nostri specialisti",
+        "href": "/su-di-noi/i-nostri-specialisti"
+      },
+      {
+        "label": "Tutto in un unico luogo",
+        "href": "/su-di-noi/tutto-in-un-unico-luogo"
+      },
+      {
+        "label": "Come raggiungerci",
+        "href": "/su-di-noi/come-raggiungerci"
+      },
+      {
+        "label": "Laboratorio odontotecnico",
+        "href": "/su-di-noi/laboratorio-odontotecnico"
+      },
+      {
+        "label": "Materiali e apparecchiature",
+        "href": "/su-di-noi/materiali-e-apparecchiature"
+      },
+      {
+        "label": "Impianti di nuova generazione",
+        "href": "/su-di-noi/impianti-di-nuova-generazione"
+      },
+      {
+        "label": "Sedazione cosciente",
+        "href": "/prestazioni/sedazione-cosciente"
+      }
+    ]
+  },
+  {
+    "title": "Informazioni",
+    "href": "/informazioni-per-pazienti",
+    "legal": false,
+    "links": [
+      {
+        "label": "Prima visita gratuita",
+        "href": "/informazioni/prima-visita-gratuita"
+      },
+      {
+        "label": "Tempi del trattamento",
+        "href": "/informazioni/tempi-del-trattamento"
+      },
+      {
+        "label": "Pagamento flessibile",
+        "href": "/informazioni/pagamento-flessibile"
+      },
+      {
+        "label": "Garanzie",
+        "href": "/informazioni/garanzie"
+      },
+      {
+        "label": "Alloggio",
+        "href": "/informazioni/alloggio"
+      },
+      {
+        "label": "Trasporto",
+        "href": "/informazioni/trasporto"
+      },
+      {
+        "label": "Listino prezzi",
+        "href": "/informazioni/listino-prezzi"
+      }
+    ]
+  },
+  {
+    "title": "Testimonianze",
+    "href": "/testimonianze",
+    "legal": false,
+    "links": [
+      {
+        "label": "Video recensioni",
+        "href": "/testimonianze#video"
+      },
+      {
+        "label": "Recensioni Google",
+        "href": "/testimonianze#google"
+      },
+      {
+        "label": "Recensioni post-trattamento",
+        "href": "/testimonianze#dentvitalis"
+      }
+    ]
+  },
+  {
+    "title": "FAQ",
+    "href": "/faq",
+    "legal": false,
+    "links": [
+      {
+        "label": "Su Rijeka (Fiume)",
+        "href": "/faq#su-rijeka"
+      },
+      {
+        "label": "Informazioni sulla Croazia",
+        "href": "/faq#croazia"
+      },
+      {
+        "label": "Dentisti a Rijeka e in Croazia",
+        "href": "/faq#dentisti-rijeka"
+      },
+      {
+        "label": "Guida a Dentvitalis",
+        "href": "/faq#dentvitalis"
+      }
+    ]
+  },
+  {
+    "title": "Galleria",
+    "href": "/domande-e-risposte",
+    "legal": false,
+    "links": [
+      {
+        "label": "Correzione estetica dei denti",
+        "href": "/domande-e-risposte#estetica"
+      },
+      {
+        "label": "Correzione funzionale ed estetica dei denti",
+        "href": "/domande-e-risposte#funzionale"
+      },
+      {
+        "label": "Opzioni per la riabilitazione di una mascella senza denti",
+        "href": "/domande-e-risposte#riabilitazione"
+      }
+    ]
+  },
+  {
+    "title": "Informazioni legali",
+    "href": null,
+    "legal": true,
+    "links": [
+      {
+        "label": "Informativa sulla privacy",
+        "href": "/informativa-sulla-privacy"
+      },
+      {
+        "label": "Condizioni di utilizzo",
+        "href": "/condizioni-di-utilizzo"
+      }
+    ]
+  }
+]

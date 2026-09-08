@@ -1,0 +1,14 @@
+
+.footer .title-small,
+.footer .footer-link-2,
+.footer .dv-footer-legal-link,
+.footer .dv-footer-contact-link,
+.footer .footer-copyright-center {
+  text-align: left !important;
+}
+.footer .footer-link-2,
+.footer .dv-footer-legal-link,
+.footer .dv-footer-contact-link {
+  color: #173c46 !important;
+  font-weight: 400 !important;
+}

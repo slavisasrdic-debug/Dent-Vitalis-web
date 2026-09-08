@@ -1,0 +1,24 @@
+{
+  "status": "unavailable",
+  "retrievedAt": "2026-09-07T07:39:06.203Z",
+  "tool": "mcp__codex_apps__webflow_data_style_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "All native breakpoints and pseudo states",
+        "get_styles": {
+          "query": "all",
+          "include_properties": true,
+          "include_all_breakpoints": true
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "text": "Parameters failed connector schema validation: actions[0].get_styles.include_all_breakpoints [additionalProperties]: Additional property 'include_all_breakpoints' is not allowed (does not match constraints configured by your ChatGPT workspace admin. If the issue persists, instruct the user to contact their workspace admin.)"
+    }
+  ]
+}

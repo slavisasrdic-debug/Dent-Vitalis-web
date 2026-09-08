@@ -1,0 +1,208 @@
+---
+import {
+  videoPoster,
+  type BackgroundVideoSource,
+} from '../content/background-videos';
+interface Props extends BackgroundVideoSource {
+  class?: string;
+}
+const { name, media, class: className } = Astro.props;
+const poster = videoPoster(name);
+---
+
+<div
+  class:list={['video', className]}
+  data-poster-url={poster.src}
+  data-video-media={media}
+>
+  <picture>
+    <source
+      media={media}
+      type="image/webp"
+      srcset={poster.srcset}
+      sizes="100vw"
+    />
+    <img
+      data-video-poster
+      src="/assets/images/transparent.svg"
+      width={poster.width}
+      height={poster.height}
+      alt=""
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+    />
+  </picture>
+  <video muted loop playsinline preload="none" aria-hidden="true"
+    ><source
+      data-src={`/assets/video/${name}_mp4.mp4`}
+      type="video/mp4"
+    /><source
+      data-src={`/assets/video/${name}_webm.webm`}
+      type="video/webm"
+    /></video
+  >
+</div>
+<style>
+  .video {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    background: var(--color-primary);
+  }
+  picture,
+  img,
+  video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  video {
+    opacity: 0;
+    transition: opacity 120ms linear;
+  }
+  .video[data-video-ready] video {
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    video {
+      transition: none;
+    }
+  }
+</style>
+<script>
+  document
+    .querySelectorAll<HTMLVideoElement>('.video video')
+    .forEach((video) => {
+      if (video.dataset.ready) return;
+      video.dataset.ready = 'true';
+      if (!('IntersectionObserver' in window)) return;
+      const root = video.parentElement!;
+      const poster = root.querySelector<HTMLImageElement>(
+        '[data-video-poster]',
+      )!;
+      const selected = matchMedia(root.dataset.videoMedia || 'all');
+      const preference = matchMedia('(prefers-reduced-motion:reduce)');
+      let visible = false;
+      let loaded = false;
+      let posterReady = false;
+      let playPending = false;
+      let frameCallback: number | undefined;
+      let paintFrame = 0;
+      const canPlay = () =>
+        visible && selected.matches && !preference.matches && !document.hidden;
+      const cancelFrame = () => {
+        if (frameCallback !== undefined)
+          video.cancelVideoFrameCallback?.(frameCallback);
+        frameCallback = undefined;
+        cancelAnimationFrame(paintFrame);
+      };
+      const showFrame = () => {
+        frameCallback = undefined;
+        // A decoded frame may observe a new media preference before its change
+        // listener runs. Enforce playback too, not just the frame's visibility.
+        if (!canPlay()) {
+          video.autoplay = false;
+          video.pause();
+          return;
+        }
+        if (!video.paused && video.readyState >= 2) {
+          root.setAttribute('data-video-ready', '');
+        }
+      };
+      video.addEventListener('playing', () => {
+        cancelFrame();
+        // A queued native autoplay/play() completion can arrive after a motion
+        // preference or visibility change. Re-check the policy at that boundary.
+        if (!canPlay()) {
+          video.autoplay = false;
+          video.pause();
+          return;
+        }
+        if (video.requestVideoFrameCallback) {
+          frameCallback = video.requestVideoFrameCallback(showFrame);
+        } else {
+          // loaded/playing + two paints for Safari versions without rVFC.
+          paintFrame = requestAnimationFrame(() => {
+            paintFrame = requestAnimationFrame(showFrame);
+          });
+        }
+      });
+      video.addEventListener('error', () => {
+        cancelFrame();
+        root.removeAttribute('data-video-ready');
+      });
+      const update = () => {
+        if (!canPlay()) {
+          cancelFrame();
+          video.autoplay = false;
+          video.pause();
+          return;
+        }
+        if (!loaded) {
+          if (!posterReady) return;
+          // Only the visible breakpoint's video gets real sources. The poster has
+          // already decoded and painted; no competing desktop/mobile downloads.
+          video.poster = poster.currentSrc;
+          video
+            .querySelectorAll<HTMLSourceElement>('source[data-src]')
+            .forEach((source) => {
+              source.src = source.dataset.src!;
+            });
+          loaded = true;
+          video.load();
+        }
+        video.autoplay = true;
+        if (video.paused && !playPending) {
+          playPending = true;
+          void video
+            .play()
+            .catch(() => {
+              // Autoplay may be denied (e.g. low-power mode). Keep the real poster.
+            })
+            .finally(() => {
+              playPending = false;
+              if (!canPlay()) {
+                video.autoplay = false;
+                video.pause();
+              }
+            });
+        }
+      };
+      const preparePoster = async () => {
+        if (!selected.matches || !poster.complete || poster.naturalWidth <= 1)
+          return;
+        const src = poster.currentSrc;
+        await poster.decode().catch(() => {});
+        if (src !== poster.currentSrc) return;
+        // Give the image its first paint before starting native video decoding.
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => {
+            if (src !== poster.currentSrc) return;
+            posterReady = true;
+            update();
+          }),
+        );
+      };
+      poster.addEventListener('load', preparePoster);
+      poster.addEventListener('error', () => {
+        posterReady = true;
+        update();
+      });
+      selected.addEventListener('change', () => {
+        void preparePoster();
+        update();
+      });
+      void preparePoster();
+      update();
+      preference.addEventListener('change', update);
+      document.addEventListener('visibilitychange', update);
+      const observer = new IntersectionObserver((entries) => {
+        visible = entries.some((entry) => entry.isIntersecting);
+        update();
+      });
+      observer.observe(video);
+    });
+</script>

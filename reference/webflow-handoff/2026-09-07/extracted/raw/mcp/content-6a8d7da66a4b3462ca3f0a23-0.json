@@ -1,0 +1,116 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:35:06.972Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 6a8d7da66a4b3462ca3f0a23",
+        "get_page_content": {
+          "page_id": "6a8d7da66a4b3462ca3f0a23",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 6a8d7da66a4b3462ca3f0a23",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "6a8d7da66a4b3462ca3f0a23",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "6c14f4cf-37ed-2a0f-d42a-d83b5b1df8d4",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "d0c335a7-dffc-dcaf-b9e2-c4139a3e7940",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/\" data-w-id=\"48ace7b9-1b02-f6a2-e7a1-53fe803a9017\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cf59af81-e78a-2ddf-f0cd-37b2abf57655",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"> / </h6>",
+              "text": " / "
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "692400c6-3677-ccd7-2eca-46417e4dbbf1",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Informazioni</h6>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0a218e18-4576-ab2e-38f3-74737d86005e",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Informazioni</h1>",
+              "text": "Informazioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ca0c669c-3547-2b33-69ac-d0baa65191fe",
+            "text": {
+              "html": "<p class=\"podnaslov-detaljna\">Per maggiori informazioni, inviaci un messaggio o contattaci al Numero Verde <a class=\"dv-hero-phone\" href=\"tel:800174206\" data-w-id=\"ca0c669c-3547-2b33-69ac-d0baa65191fc\">800 174 206</a>.</p>",
+              "text": "Per maggiori informazioni, inviaci un messaggio o contattaci al Numero Verde 800 174 206."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "75a8c7d0-7784-3b84-6aa2-23ef8e9034f3",
+            "componentId": "a48c8fee-76f0-7240-0500-30f49cec6908",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "6aeb0dfd-b0fb-b3cc-8faf-41fef235af02",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "442a0df8-91ae-199e-f270-5af0ab744c15",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "1912f134-31c1-4d4a-65f2-f51bbd599a13",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "1e2bb927-86bd-8370-4635-d987d5da1f40",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 11
+        },
+        "lastUpdated": "2026-09-04T13:27:37.164Z"
+      }
+    }
+  ]
+}

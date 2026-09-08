@@ -1,0 +1,1760 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:50:10.582Z",
+  "tool": "mcp__codex_apps__webflow_data_element_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "Complete source component b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2"
+        }
+      },
+      {
+        "label": "Complete source component 511a527c-0818-f243-94fb-c91d2b84e74a",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "511a527c-0818-f243-94fb-c91d2b84e74a"
+        }
+      },
+      {
+        "label": "Complete source component 1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5"
+        }
+      },
+      {
+        "label": "Complete source component 6f3fc695-721c-243a-39ea-1ec76ea081e5",
+        "get_all_elements": {
+          "depth": -1,
+          "scope_component_id": "6f3fc695-721c-243a-39ea-1ec76ea081e5"
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Complete source component b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2\" tree loaded",
+          "data": {
+            "id": {
+              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2"
+            },
+            "type": "Section",
+            "styleNames": [
+              "Section Contatti"
+            ],
+            "settings": {
+              "tag": "section",
+              "visibility": true
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc3"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Full Width Wrapper 3",
+                  "No Bottom Line"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc4"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper 3",
+                      "contatti"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                          "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc5"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Home 2 Form Section"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc6"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Section Heading Wrapper 2"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc7"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Nadnaslov",
+                                  "bijeli"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc8"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Contatti"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc9"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "Home 2 Form"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dca"
+                                },
+                                "type": "Block",
+                                "styleNames": [
+                                  "Medjunaslov H2",
+                                  "bijeli"
+                                ],
+                                "settings": {
+                                  "tag": "div",
+                                  "visibility": true,
+                                  "block": {
+                                    "tag": "div"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dcb"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Mettiamoci in contatto"
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dcc"
+                                },
+                                "type": "Paragraph",
+                                "styleNames": [
+                                  "Huge Paragraph",
+                                  "bijeli"
+                                ],
+                                "settings": {
+                                  "visibility": true
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dcd"
+                                    },
+                                    "type": "String",
+                                    "textContent": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia."
+                                  }
+                                ]
+                              },
+                              {
+                                "id": {
+                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dce"
+                                },
+                                "type": "FormWrapper",
+                                "styleNames": [
+                                  "Home 2 Form Block"
+                                ],
+                                "settings": {
+                                  "visibility": true,
+                                  "form": {
+                                    "name": "Email Form Home 2",
+                                    "formSettings": {
+                                      "action": "",
+                                      "method": "get",
+                                      "name": "Email Form Home 2",
+                                      "redirect": "",
+                                      "state": "normal"
+                                    }
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": {
+                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dcf"
+                                    },
+                                    "type": "FormForm",
+                                    "attributes": {
+                                      "id": "wf-form-Email-Form-Home-2"
+                                    },
+                                    "settings": {
+                                      "visibility": true,
+                                      "form": {
+                                        "name": "Email Form Home 2",
+                                        "formSettings": {
+                                          "action": "",
+                                          "method": "get",
+                                          "name": "Email Form Home 2",
+                                          "redirect": "",
+                                          "state": "normal"
+                                        }
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                          "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd0"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "Home 2 Form Wrapper"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd1"
+                                            },
+                                            "type": "FormTextInput",
+                                            "styleNames": [
+                                              "Home 2 Form Text Field",
+                                              "Medium Width"
+                                            ],
+                                            "attributes": {
+                                              "id": "name-2"
+                                            },
+                                            "settings": {
+                                              "visibility": true,
+                                              "input": {
+                                                "isRequired": true,
+                                                "inputName": "Name 2",
+                                                "inputType": "text"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd2"
+                                            },
+                                            "type": "FormTextInput",
+                                            "styleNames": [
+                                              "Home 2 Form Text Field",
+                                              "Medium Width"
+                                            ],
+                                            "attributes": {
+                                              "id": "Last-Name-2"
+                                            },
+                                            "settings": {
+                                              "visibility": true,
+                                              "input": {
+                                                "isRequired": true,
+                                                "inputName": "Last Name 2",
+                                                "inputType": "text"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd3"
+                                            },
+                                            "type": "FormTextInput",
+                                            "styleNames": [
+                                              "Home 2 Form Text Field",
+                                              "Medium Width"
+                                            ],
+                                            "attributes": {
+                                              "id": "Email-5"
+                                            },
+                                            "settings": {
+                                              "visibility": true,
+                                              "input": {
+                                                "isRequired": true,
+                                                "inputName": "Email 5",
+                                                "inputType": "email"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd4"
+                                            },
+                                            "type": "FormTextInput",
+                                            "styleNames": [
+                                              "Home 2 Form Text Field",
+                                              "Medium Width"
+                                            ],
+                                            "attributes": {
+                                              "id": "Phone-2"
+                                            },
+                                            "settings": {
+                                              "visibility": true,
+                                              "input": {
+                                                "isRequired": true,
+                                                "inputName": "Phone 2",
+                                                "inputType": "tel"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd5"
+                                            },
+                                            "type": "FormTextarea",
+                                            "styleNames": [
+                                              "Textarea"
+                                            ],
+                                            "attributes": {
+                                              "id": "field-2"
+                                            },
+                                            "settings": {
+                                              "visibility": true,
+                                              "input": {
+                                                "inputName": "Field 2"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                          "element": "70e2f9b7-8754-aa0b-d076-75eac02fb89a"
+                                        },
+                                        "type": "FormFileUploadWrapper",
+                                        "styleNames": [
+                                          "DV File Upload"
+                                        ],
+                                        "attributes": {
+                                          "data-dv-file-upload": "true"
+                                        },
+                                        "settings": {
+                                          "visibility": true,
+                                          "input": {
+                                            "inputName": "File"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "70e2f9b7-8754-aa0b-d076-75eac02fb89b"
+                                            },
+                                            "type": "FormFileUploadDefault",
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "70e2f9b7-8754-aa0b-d076-75eac02fb89c"
+                                                },
+                                                "type": "FormFileUploadInput",
+                                                "attributes": {
+                                                  "id": "file"
+                                                },
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              },
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "70e2f9b7-8754-aa0b-d076-75eac02fb89d"
+                                                },
+                                                "type": "FormFileUploadLabel",
+                                                "styleNames": [
+                                                  "DV File Upload Label"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb89e"
+                                                    },
+                                                    "type": "Icon",
+                                                    "settings": {
+                                                      "visibility": true
+                                                    }
+                                                  },
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb89f"
+                                                    },
+                                                    "type": "FormFileUploadText",
+                                                    "settings": {
+                                                      "visibility": true
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "id": {
+                                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                          "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a0"
+                                                        },
+                                                        "type": "String",
+                                                        "textContent": "Allega un documento"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a1"
+                                                },
+                                                "type": "FormFileUploadInfo",
+                                                "styleNames": [
+                                                  "DV File Upload Hint"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a2"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "PDF, JPG o PNG · max 8 MB"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a3"
+                                            },
+                                            "type": "FormFileUploadUploading",
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a4"
+                                                },
+                                                "type": "FormFileUploadUploadingBtn",
+                                                "settings": {
+                                                  "visibility": true
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a5"
+                                                    },
+                                                    "type": "FormFileUploadUploadingIcon",
+                                                    "settings": {
+                                                      "visibility": true
+                                                    }
+                                                  },
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a6"
+                                                    },
+                                                    "type": "FormFileUploadText",
+                                                    "settings": {
+                                                      "visibility": true
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "id": {
+                                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                          "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a7"
+                                                        },
+                                                        "type": "String",
+                                                        "textContent": "Uploading..."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a8"
+                                            },
+                                            "type": "FormFileUploadSuccess",
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8a9"
+                                                },
+                                                "type": "FormFileUploadFile",
+                                                "settings": {
+                                                  "visibility": true
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8aa"
+                                                    },
+                                                    "type": "FormFileUploadFileName",
+                                                    "settings": {
+                                                      "visibility": true
+                                                    }
+                                                  },
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8ab"
+                                                    },
+                                                    "type": "FormFileUploadRemoveLink",
+                                                    "settings": {
+                                                      "visibility": true
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "id": {
+                                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                          "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8ac"
+                                                        },
+                                                        "type": "Icon",
+                                                        "settings": {
+                                                          "visibility": true
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8ad"
+                                            },
+                                            "type": "FormFileUploadError",
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "70e2f9b7-8754-aa0b-d076-75eac02fb8ae"
+                                                },
+                                                "type": "FormFileUploadErrorMsg",
+                                                "settings": {
+                                                  "visibility": true
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                          "element": "b824ac94-4280-f4b8-6ea7-ec48f2e3ded7"
+                                        },
+                                        "type": "Block",
+                                        "attributes": {
+                                          "data-dv-privacy": "true"
+                                        },
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "3d2c0281-4a49-1a9c-df55-3d64b6ce70b4"
+                                            },
+                                            "type": "FormCheckboxWrapper",
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "3d2c0281-4a49-1a9c-df55-3d64b6ce70b5"
+                                                },
+                                                "type": "FormCheckboxInput",
+                                                "attributes": {
+                                                  "id": "checkbox"
+                                                },
+                                                "settings": {
+                                                  "visibility": true,
+                                                  "input": {
+                                                    "isRequired": true,
+                                                    "inputName": "Privacy consent"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "3d2c0281-4a49-1a9c-df55-3d64b6ce70b6"
+                                                },
+                                                "type": "FormInlineLabel",
+                                                "styleNames": [
+                                                  "DV Privacy Text"
+                                                ],
+                                                "settings": {
+                                                  "visibility": true
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "ef4df6f7-e41b-a199-0bc0-9d192024d5c1"
+                                                    },
+                                                    "type": "String",
+                                                    "textContent": "Accetto l'"
+                                                  },
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "01596a60-8782-a54c-b7d9-7b814083b705"
+                                                    },
+                                                    "type": "Link",
+                                                    "styleNames": [
+                                                      "DV Privacy Link"
+                                                    ],
+                                                    "settings": {
+                                                      "visibility": true,
+                                                      "link": {
+                                                        "linkType": "url",
+                                                        "href": "https://www.dentvitalis.com/informativa-sulla-privacy"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "id": {
+                                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                          "element": "697a7a8f-97d4-fafc-397b-a05f5050694e"
+                                                        },
+                                                        "type": "String",
+                                                        "textContent": "informativa sulla privacy."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": {
+                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                          "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd6"
+                                        },
+                                        "type": "Block",
+                                        "styleNames": [
+                                          "TM 40 Button Wrapper"
+                                        ],
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd7"
+                                            },
+                                            "type": "Link",
+                                            "styleNames": [
+                                              "Gumb-vise"
+                                            ],
+                                            "settings": {
+                                              "visibility": true
+                                            },
+                                            "children": [
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd8"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "Primary Button Left Block"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd9"
+                                                    },
+                                                    "type": "Block",
+                                                    "styleNames": [
+                                                      "Button Text Block"
+                                                    ],
+                                                    "settings": {
+                                                      "tag": "div",
+                                                      "visibility": true,
+                                                      "block": {
+                                                        "tag": "div"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "id": {
+                                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                          "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dda"
+                                                        },
+                                                        "type": "String",
+                                                        "textContent": "Invia il messaggio"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "id": {
+                                                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                  "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23ddb"
+                                                },
+                                                "type": "Block",
+                                                "styleNames": [
+                                                  "Primary Button Right Block"
+                                                ],
+                                                "settings": {
+                                                  "tag": "div",
+                                                  "visibility": true,
+                                                  "block": {
+                                                    "tag": "div"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "id": {
+                                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                                      "element": "753a4f15-cd0c-2809-f59c-26b77a2aaa15"
+                                                    },
+                                                    "type": "HtmlEmbed",
+                                                    "styleNames": [
+                                                      "icon-embed-xxsmall 3"
+                                                    ],
+                                                    "settings": {
+                                                      "visibility": true
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23ddd"
+                                    },
+                                    "type": "FormSuccessMessage",
+                                    "styleNames": [
+                                      "Success Message"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                          "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dde"
+                                        },
+                                        "type": "Block",
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23ddf"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Grazie! La tua richiesta è stata inviata."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": {
+                                      "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                      "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23de0"
+                                    },
+                                    "type": "FormErrorMessage",
+                                    "styleNames": [
+                                      "Error Message"
+                                    ],
+                                    "settings": {
+                                      "visibility": true
+                                    },
+                                    "children": [
+                                      {
+                                        "id": {
+                                          "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                          "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23de1"
+                                        },
+                                        "type": "Block",
+                                        "settings": {
+                                          "tag": "div",
+                                          "visibility": true,
+                                          "block": {
+                                            "tag": "div"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "id": {
+                                              "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                                              "element": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23de2"
+                                            },
+                                            "type": "String",
+                                            "textContent": "Si è verificato un errore. Riprova o contattaci telefonicamente."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+                  "element": "43280ac5-ae17-a657-aefc-029ebcb2b7e4"
+                },
+                "type": "HtmlEmbed",
+                "settings": {
+                  "visibility": true
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 511a527c-0818-f243-94fb-c91d2b84e74a",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"511a527c-0818-f243-94fb-c91d2b84e74a\" tree loaded",
+          "data": {
+            "id": {
+              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+              "element": "511a527c-0818-f243-94fb-c91d2b84e74a"
+            },
+            "type": "Block",
+            "styleNames": [
+              "whatsapp-block"
+            ],
+            "settings": {
+              "tag": "div",
+              "visibility": true,
+              "block": {
+                "tag": "div"
+              }
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "element": "511a527c-0818-f243-94fb-c91d2b84e74b"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "whatsapp-chat"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                      "element": "511a527c-0818-f243-94fb-c91d2b84e74c"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "top-section"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                          "element": "511a527c-0818-f243-94fb-c91d2b84e74d"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "live-icon-chat"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                          "element": "511a527c-0818-f243-94fb-c91d2b84e74e"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "top-text-container"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e74f"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "live-chat-top-text"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e750"
+                                },
+                                "type": "String",
+                                "textContent": "Team DentVitalis"
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e751"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "live-chat-bottom-text"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e752"
+                                },
+                                "type": "String",
+                                "textContent": "Di solito rispondiamo entro poche ore"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": {
+                          "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                          "element": "511a527c-0818-f243-94fb-c91d2b84e753"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "close-live-chat-container"
+                        ],
+                        "attributes": {
+                          "id": "close-chat"
+                        },
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e754"
+                            },
+                            "type": "Image",
+                            "styleNames": [
+                              "close-livechat-icon"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "assetId": "695e1eeeb10c5fb8eeaba8b4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                      "element": "511a527c-0818-f243-94fb-c91d2b84e755"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "chat-section"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                          "element": "511a527c-0818-f243-94fb-c91d2b84e756"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "chat-block"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e757"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "live-chat-top-text",
+                              "block"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e758"
+                                },
+                                "type": "String",
+                                "textContent": "Team DentVitalis"
+                              }
+                            ]
+                          },
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e759"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "live-chat-bottom-text",
+                              "block"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e75a"
+                                },
+                                "type": "String",
+                                "textContent": "Ciao!"
+                              },
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e75b"
+                                },
+                                "type": "",
+                                "settings": {
+                                  "visibility": true
+                                }
+                              },
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e75c"
+                                },
+                                "type": "String",
+                                "textContent": "Come possiamo aiutarti?"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                      "element": "511a527c-0818-f243-94fb-c91d2b84e75d"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "live-chat-link"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "link": {
+                        "linkType": "url",
+                        "href": "https://api.whatsapp.com/send?phone=+ADDNUMBERHERE"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                          "element": "511a527c-0818-f243-94fb-c91d2b84e75e"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "livechat-button"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e75f"
+                            },
+                            "type": "Image",
+                            "styleNames": [
+                              "small-whatsapp-icon"
+                            ],
+                            "settings": {
+                              "visibility": true,
+                              "assetId": "695e1eeeb10c5fb8eeaba8b2"
+                            }
+                          },
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e760"
+                            },
+                            "type": "Block",
+                            "styleNames": [
+                              "live-chat-text"
+                            ],
+                            "settings": {
+                              "tag": "div",
+                              "visibility": true,
+                              "block": {
+                                "tag": "div"
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": {
+                                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                                  "element": "511a527c-0818-f243-94fb-c91d2b84e761"
+                                },
+                                "type": "String",
+                                "textContent": "Avvia chat su WhatsApp"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": {
+                  "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                  "element": "511a527c-0818-f243-94fb-c91d2b84e762"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "whatsapp-container"
+                ],
+                "attributes": {
+                  "id": "whatsapp-button"
+                },
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                      "element": "511a527c-0818-f243-94fb-c91d2b84e763"
+                    },
+                    "type": "Image",
+                    "styleNames": [
+                      "whatsapp-icon"
+                    ],
+                    "settings": {
+                      "visibility": true,
+                      "assetId": "695e1eeeb10c5fb8eeaba8b5"
+                    }
+                  },
+                  {
+                    "id": {
+                      "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                      "element": "511a527c-0818-f243-94fb-c91d2b84e764"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "live-icon"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                          "element": "511a527c-0818-f243-94fb-c91d2b84e765"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Text Block 12"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e766"
+                            },
+                            "type": "String",
+                            "textContent": "1"
+                          },
+                          {
+                            "id": {
+                              "component": "511a527c-0818-f243-94fb-c91d2b84e74a",
+                              "element": "511a527c-0818-f243-94fb-c91d2b84e767"
+                            },
+                            "type": "",
+                            "settings": {
+                              "visibility": true
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"1b710e68-38ef-1a3b-db46-5efe98f74ee5\" tree loaded",
+          "data": {
+            "id": {
+              "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+              "element": "1b710e68-38ef-1a3b-db46-5efe98f74ee5"
+            },
+            "type": "Section",
+            "styleNames": [
+              "fiksni kontakti mobile"
+            ],
+            "settings": {
+              "tag": "section",
+              "visibility": true
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                  "element": "1b710e68-38ef-1a3b-db46-5efe98f74ee6"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "podloga"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                      "element": "1b710e68-38ef-1a3b-db46-5efe98f74eeb"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Gumb upit"
+                    ],
+                    "settings": {
+                      "visibility": true
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                          "element": "1b710e68-38ef-1a3b-db46-5efe98f74eec"
+                        },
+                        "type": "HtmlEmbed",
+                        "styleNames": [
+                          "icon-embed-xxsmall",
+                          "bijeli"
+                        ],
+                        "settings": {
+                          "visibility": true
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                          "element": "1b710e68-38ef-1a3b-db46-5efe98f74eed"
+                        },
+                        "type": "Block",
+                        "styleNames": [
+                          "Text Block 13"
+                        ],
+                        "settings": {
+                          "tag": "div",
+                          "visibility": true,
+                          "block": {
+                            "tag": "div"
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": {
+                              "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                              "element": "1b710e68-38ef-1a3b-db46-5efe98f74eee"
+                            },
+                            "type": "String",
+                            "textContent": "Consulta il dentista"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                      "element": "1b710e68-38ef-1a3b-db46-5efe98f74ee7"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Div Block 10"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": false,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                          "element": "1b710e68-38ef-1a3b-db46-5efe98f74ee8"
+                        },
+                        "type": "HtmlEmbed",
+                        "styleNames": [
+                          "icon-embed-xxsmall"
+                        ],
+                        "settings": {
+                          "visibility": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                      "element": "f1dbc639-3112-916c-0fc2-2dbc3ad034b1"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Div Block 10"
+                    ],
+                    "attributes": {
+                      "aria-label": "Apri le indicazioni per DentVitalis, Krešimirova 60, Rijeka"
+                    },
+                    "settings": {
+                      "visibility": false,
+                      "link": {
+                        "linkType": "url",
+                        "href": "https://www.google.com/maps/dir/?api=1&destination=Kre%C5%A1imirova%2060%2C%2051000%20Rijeka%2C%20Croatia"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                          "element": "4f33ae2e-ee03-b979-9039-e5e61236364c"
+                        },
+                        "type": "HtmlEmbed",
+                        "styleNames": [
+                          "icon-embed-xxsmall"
+                        ],
+                        "settings": {
+                          "visibility": true
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": {
+                      "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                      "element": "1b710e68-38ef-1a3b-db46-5efe98f74ee9"
+                    },
+                    "type": "Link",
+                    "styleNames": [
+                      "Div Block 10"
+                    ],
+                    "attributes": {
+                      "aria-label": "Chiama il Numero Verde 800 174 206"
+                    },
+                    "settings": {
+                      "visibility": false,
+                      "link": {
+                        "linkType": "phone",
+                        "href": "tel:800174206"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+                          "element": "1b710e68-38ef-1a3b-db46-5efe98f74eea"
+                        },
+                        "type": "HtmlEmbed",
+                        "styleNames": [
+                          "icon-embed-xxsmall"
+                        ],
+                        "settings": {
+                          "visibility": true
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Complete source component 6f3fc695-721c-243a-39ea-1ec76ea081e5",
+      "action": "get_all_elements",
+      "result": [
+        {
+          "status": "success",
+          "message": "Component \"6f3fc695-721c-243a-39ea-1ec76ea081e5\" tree loaded",
+          "data": {
+            "id": {
+              "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+              "element": "6f3fc695-721c-243a-39ea-1ec76ea081e5"
+            },
+            "type": "Section",
+            "settings": {
+              "tag": "section",
+              "visibility": true
+            },
+            "children": [
+              {
+                "id": {
+                  "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+                  "element": "6f3fc695-721c-243a-39ea-1ec76ea081e6"
+                },
+                "type": "Block",
+                "styleNames": [
+                  "Full Width Wrapper"
+                ],
+                "settings": {
+                  "tag": "div",
+                  "visibility": true,
+                  "block": {
+                    "tag": "div"
+                  }
+                },
+                "children": [
+                  {
+                    "id": {
+                      "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+                      "element": "6f3fc695-721c-243a-39ea-1ec76ea081e7"
+                    },
+                    "type": "Block",
+                    "styleNames": [
+                      "Container Wrapper list"
+                    ],
+                    "settings": {
+                      "tag": "div",
+                      "visibility": true,
+                      "block": {
+                        "tag": "div"
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": {
+                          "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+                          "element": "b0c67d72-29ad-65ac-cb26-33276f70651a"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+                          "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+                          "props": [],
+                          "slots": []
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+                          "element": "48dd69b5-bcf2-598d-dd60-d354f7f63dab"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+                          "name": "kartica Premium: ponte fisso su impianti",
+                          "props": [],
+                          "slots": []
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+                          "element": "40351043-8d8e-b45b-5e3c-21b8484e542e"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+                          "name": "kartica Facilissimo: sbiancamento dei denti",
+                          "props": [],
+                          "slots": []
+                        }
+                      },
+                      {
+                        "id": {
+                          "component": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+                          "element": "1788aecf-86cb-914f-9cf8-26def63c06ab"
+                        },
+                        "type": "ComponentInstance",
+                        "instanceDetails": {
+                          "type": "ComponentInstance",
+                          "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+                          "name": "kartica Corone, faccette, ponti e protesi",
+                          "props": [],
+                          "slots": []
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

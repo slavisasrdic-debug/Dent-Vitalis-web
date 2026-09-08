@@ -1,0 +1,932 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:34:56.185Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 6a97db259aad9ee4bb4bd328",
+        "get_page_content": {
+          "page_id": "6a97db259aad9ee4bb4bd328",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 6a97db259aad9ee4bb4bd328",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "6a97db259aad9ee4bb4bd328",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "4dfdd2d8-ac3d-abdf-0b84-1a0a03816d35",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "4ad1965f-d8cd-23b0-25e4-adac9b4255cd",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/\" data-w-id=\"5a93e4b2-1026-4186-9e3b-0778c936afbd\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bfa66ff0-0621-e208-96e5-d91f7116b16d",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "337218af-d9e5-a415-b5d5-e3ae68f63d8f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Informativa sulla privacy</h6>",
+              "text": "Informativa sulla privacy"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "0222f262-76a3-a804-e2ef-efb914fdcb55",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e9828da1e0b605be4d29"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4a046878-373c-ff03-c773-be9f3c15e769",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Informativa sulla privacy</h1>",
+              "text": "Informativa sulla privacy"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7a7e6a1e-4b6b-dd65-414a-1e708f65c07a",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Per cosa useremo i vostri dati?</p>",
+              "text": "Per cosa useremo i vostri dati?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d704d270-88fc-21e8-0786-546e341dfd65",
+            "text": {
+              "html": "<p class=\"large-paragraph\">All'occorrenza raccogliamo i vostri dati, riportati sotto forma di richiesta (nome e cognome, e-mail, numero di telefono, ecc.). Altrimenti potete utilizzare le nostre pagine in forma anonima.</p>",
+              "text": "All'occorrenza raccogliamo i vostri dati, riportati sotto forma di richiesta (nome e cognome, e-mail, numero di telefono, ecc.). Altrimenti potete utilizzare le nostre pagine in forma anonima."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "bdcb5d8d-ec2e-3f9b-c309-508e5e494663",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Quali dati raccogliamo?</p>",
+              "text": "Quali dati raccogliamo?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "03e435e9-c60c-8034-cfd8-314cfeb6ad01",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Possiamo utilizzare i vostri dati, personali e non, in uno dei seguenti modi:</p>",
+              "text": "Possiamo utilizzare i vostri dati, personali e non, in uno dei seguenti modi:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f8b25f8d-7eff-0b7f-d23b-278d03433763",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per comunicazioni personalizzate, ovvero per offrire informazioni secondo le vostre necessità reali.</p>",
+              "text": "Per comunicazioni personalizzate, ovvero per offrire informazioni secondo le vostre necessità reali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ca96025d-45b2-db98-149b-6bd3ec2c828b",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Al fine di migliorare questa pagina web.</p>",
+              "text": "Al fine di migliorare questa pagina web."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5d71fe5e-5ea2-20ee-9ada-97116ee323f9",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per una migliore comprensione delle necessità dei potenziali clienti e degli utenti della Pagina.</p>",
+              "text": "Per una migliore comprensione delle necessità dei potenziali clienti e degli utenti della Pagina."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b5c0d86e-728e-a1bc-c67a-056fabb03420",
+            "text": {
+              "html": "<p class=\"large-paragraph bullet\">Per l'invio di e-mail con le quali informarvi di vantaggi e di nuovi servizi.</p>",
+              "text": "Per l'invio di e-mail con le quali informarvi di vantaggi e di nuovi servizi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "26774d0b-d038-c486-f3cc-fff8f9811c0b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Avvertenze: se desiderate cancellarvi ed interrompere la ricezione di future e-mail, potete farlo in qualsiasi momento seguendo le istruzioni riportate nella parte inferiore di ogni e-mail.</p>",
+              "text": "Avvertenze: se desiderate cancellarvi ed interrompere la ricezione di future e-mail, potete farlo in qualsiasi momento seguendo le istruzioni riportate nella parte inferiore di ogni e-mail."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4e4445ae-a4b0-13df-65bc-27592667cab3",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Come proteggiamo i vostri dati personali?</p>",
+              "text": "Come proteggiamo i vostri dati personali?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "75c8bcd2-7c16-dd32-21f0-4c7967f3b270",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Adottiamo una serie di misure di sicurezza per mantenere la segretezza dei vostri dati personali in ogni momento: quando accedete al sito, quando ci inviate una richiesta attraverso il formulario del web oppure quando ci mandate una e-mail.</p>",
+              "text": "Adottiamo una serie di misure di sicurezza per mantenere la segretezza dei vostri dati personali in ogni momento: quando accedete al sito, quando ci inviate una richiesta attraverso il formulario del web oppure quando ci mandate una e-mail."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "febb81e4-b50f-a8a3-c983-ad3dc7a25f65",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Perché usiamo cookies?</p>",
+              "text": "Perché usiamo cookies?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4b223658-8175-d46c-24e6-826122d44be0",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I cookies sono piccoli file che trasferiamo nel vostro hard disk attraverso il browser (se lo consentite), e che ci permettono di riconoscere l'utente e memorizzare determinati dati collegati a lui.</p>",
+              "text": "I cookies sono piccoli file che trasferiamo nel vostro hard disk attraverso il browser (se lo consentite), e che ci permettono di riconoscere l'utente e memorizzare determinati dati collegati a lui."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2c730b17-ea59-c66e-feda-b01f369a5b6a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Grazie a questi dati possiamo offrire in futuro informazioni più precise e di qualità sui nostri servizi. Per analizzare questi dati possiamo ingaggiare una terza parte che può aiutarci in questo. Posto ciò, in nessun momento questa terza parte ha diritto a disporre dei dati per qualsiasi finalità salvo quelle precedentemente menzionate e non è autorizzata a cedere i dati a terzi.</p>",
+              "text": "Grazie a questi dati possiamo offrire in futuro informazioni più precise e di qualità sui nostri servizi. Per analizzare questi dati possiamo ingaggiare una terza parte che può aiutarci in questo. Posto ciò, in nessun momento questa terza parte ha diritto a disporre dei dati per qualsiasi finalità salvo quelle precedentemente menzionate e non è autorizzata a cedere i dati a terzi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9290091a-cd43-4691-92ed-a50463fbeedf",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Se desiderate, potete selezionare sul vostro computer l'opzione che vi informa ogni qual volta un cookie è inviato o potete scegliere di escludere completamente tutti i cookies.</p>",
+              "text": "Se desiderate, potete selezionare sul vostro computer l'opzione che vi informa ogni qual volta un cookie è inviato o potete scegliere di escludere completamente tutti i cookies."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "da8fecdb-4cb9-b711-cd5f-016ffb6b3adb",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Chi può utilizzare i miei dati personali?</p>",
+              "text": "Chi può utilizzare i miei dati personali?"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8774339f-b9e2-10aa-b141-0d2b295bce60",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I vostri dati personali non saranno mai oggetto di compravendita né saranno ceduti, gratuitamente o a pagamento, a terzi per il loro sfruttamento commerciale.</p>",
+              "text": "I vostri dati personali non saranno mai oggetto di compravendita né saranno ceduti, gratuitamente o a pagamento, a terzi per il loro sfruttamento commerciale."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7c801c1e-241c-fffa-70d9-3f63ea29b27f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I dati non personali raccolti durante una visita anonima a questo sito possono essere forniti a terzi allo scopo di migliorare la promozione e il marketing.</p>",
+              "text": "I dati non personali raccolti durante una visita anonima a questo sito possono essere forniti a terzi allo scopo di migliorare la promozione e il marketing."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2b069b22-adcf-5526-01c7-7916054fc701",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Link indipendenti (collegamenti)</p>",
+              "text": "Link indipendenti (collegamenti)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f60e15a-24bc-9e08-07f9-3b37fb2032db",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Occasionalmente, a nostra discrezione, possiamo inserire sulle nostre pagine dei collegamenti a siti web di terze parti. Ricordiamo che queste pagine hanno politiche sulla privacy separate ed indipendenti. Non ci assumiamo alcuna responsabilità sul contenuto e sulle vostre attività in tali pagine. Dato il nostro interesse a proteggere l'integrità del nostro sito, qualsiasi informazione di ritorno su questi siti web è benvenuta.</p>",
+              "text": "Occasionalmente, a nostra discrezione, possiamo inserire sulle nostre pagine dei collegamenti a siti web di terze parti. Ricordiamo che queste pagine hanno politiche sulla privacy separate ed indipendenti. Non ci assumiamo alcuna responsabilità sul contenuto e sulle vostre attività in tali pagine. Dato il nostro interesse a proteggere l'integrità del nostro sito, qualsiasi informazione di ritorno su questi siti web è benvenuta."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fc9767c2-4e4c-f761-5b40-e0d3bcc26590",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Legge per la protezione della privacy online dei minori</p>",
+              "text": "Legge per la protezione della privacy online dei minori"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "165df491-6393-06bb-14a7-2c2d5782205b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">In conformità con le disposizioni del COPPA (Children Online Privacy Protection Act - Legge per la protezione della privacy online dei minori), non raccogliamo alcuna informazione personale da individui che non abbiano compiuto almeno 13 anni di età.</p>",
+              "text": "In conformità con le disposizioni del COPPA (Children Online Privacy Protection Act - Legge per la protezione della privacy online dei minori), non raccogliamo alcuna informazione personale da individui che non abbiano compiuto almeno 13 anni di età."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1d4e9721-6b7f-ddc4-e6cf-5b251a0e32e9",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Privacy Online</p>",
+              "text": "Privacy Online"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "ca186ddf-1fcb-87cf-8903-e4906eea6978",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il documento di Informativa sulla Privacy relativo alla protezione della privacy in Internet riguarda solamente i dati raccolti tramite il nostro sito web, non interessa i dati raccolti in altra maniera.</p>",
+              "text": "Il documento di Informativa sulla Privacy relativo alla protezione della privacy in Internet riguarda solamente i dati raccolti tramite il nostro sito web, non interessa i dati raccolti in altra maniera."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1de5a95b-ee94-5ea8-5cc6-38ba83217ed5",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Condizioni</p>",
+              "text": "Condizioni"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "99226f93-ea6e-fa5e-0f2c-d21fe1f0ee71",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Vi preghiamo di consultare Condizioni di utilizzo del nostro sito web.</p>",
+              "text": "Vi preghiamo di consultare Condizioni di utilizzo del nostro sito web."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7d4fdf86-7286-8699-f7f2-555f685196d6",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Il vostro consenso</p>",
+              "text": "Il vostro consenso"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9b5744eb-ec52-167e-bbca-bf9364c01027",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Utilizzando il nostro sito web accettate l'Informativa sulla privacy qui menzionata.</p>",
+              "text": "Utilizzando il nostro sito web accettate l'Informativa sulla privacy qui menzionata."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "510ccbfb-79a0-9278-8c26-214042853545",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Modifiche all'Informativa sulla privacy</p>",
+              "text": "Modifiche all'Informativa sulla privacy"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6b4dcdbd-e521-b25c-912a-8e8521b06417",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Nel caso in cui per qualsiasi motivo fossero cambiate le condizioni di questa Informativa, le suddette modifiche saranno rese note in questa Pagina.</p>",
+              "text": "Nel caso in cui per qualsiasi motivo fossero cambiate le condizioni di questa Informativa, le suddette modifiche saranno rese note in questa Pagina."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8971654e-5fdc-d89b-f812-4c80d5c5d82d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Per qualsiasi domanda relativa a questa Informativa sulla privacy, potete contattarci per iscritto oppure oralmente a:</p>",
+              "text": "Per qualsiasi domanda relativa a questa Informativa sulla privacy, potete contattarci per iscritto oppure oralmente a:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "566698fd-8551-0755-2f7d-895ff06dbd8b",
+            "text": {
+              "html": "<p class=\"large-paragraph\">www.dentvitalis.com</p>",
+              "text": "www.dentvitalis.com"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8d4f47f3-2408-d823-0cc3-09c153a3f081",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Krešimirova 60</p>",
+              "text": "Krešimirova 60"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62214408-0907-b47f-d4e4-080214c28606",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Fiume, 51000</p>",
+              "text": "Fiume, 51000"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9167274b-c27e-a830-b668-4e95890ba18d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Croazia</p>",
+              "text": "Croazia"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4d0e4f20-a865-ba41-d31e-d52e63debd41",
+            "text": {
+              "html": "<p class=\"large-paragraph\">info@dentvitalis.com</p>",
+              "text": "info@dentvitalis.com"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c0fc3789-160b-3684-aef5-daba1839ac65",
+            "text": {
+              "html": "<p class=\"large-paragraph\">+38551371064</p>",
+              "text": "+38551371064"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d1314585-c4c2-2494-8065-a7f351e1106b",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Regolamento sul trattamento dei dati personali</p>",
+              "text": "Regolamento sul trattamento dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fe01fb2d-d3b0-1384-cea6-974d99f205ad",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dentvitalis Fides d.o.o. (Srl) con sede a Rijeka (Fiume), Krešimirova 60, Croazia, OIB (CF) 39977041464 (di seguito: Responsabile del trattamento), soggetta all'applicazione di:</p>",
+              "text": "Dentvitalis Fides d.o.o. (Srl) con sede a Rijeka (Fiume), Krešimirova 60, Croazia, OIB (CF) 39977041464 (di seguito: Responsabile del trattamento), soggetta all'applicazione di:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "834d3682-b9bd-e7e8-4fd0-f1cefc0c865e",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio europeo del 27 aprile 2016 (di seguito: Regolamento generale), e</p>",
+              "text": "* Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio europeo del 27 aprile 2016 (di seguito: Regolamento generale), e"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "57918781-06df-43c3-071a-60bccb4ccc13",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* disposizioni di tutte le altre normative applicabili in materia di protezione dei dati personali</p>",
+              "text": "* disposizioni di tutte le altre normative applicabili in materia di protezione dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "a3c69cb5-6a23-a0d8-9299-cfa5904fc129",
+            "text": {
+              "html": "<p class=\"large-paragraph\">con il presente regolamento gestisce la protezione dei dati personali delle persone (persone fisiche) cui fornisce informazioni e/o servizi nel corso della sua attività.</p>",
+              "text": "con il presente regolamento gestisce la protezione dei dati personali delle persone (persone fisiche) cui fornisce informazioni e/o servizi nel corso della sua attività."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "da4d3622-6047-2a77-6f84-cf1a4709ee37",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Disposizioni introduttive</p>",
+              "text": "Disposizioni introduttive"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "69f8c2c0-fb04-0811-470b-4bf2a25d933f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">1. Il regolamento sul trattamento dei dati personali è un atto giuridico unilaterale e vincolante basato sui principi di base del Regolamento generale e su tutti gli altri regolamenti applicabili alla protezione dei dati personali delle persone fisiche.</p>",
+              "text": "1. Il regolamento sul trattamento dei dati personali è un atto giuridico unilaterale e vincolante basato sui principi di base del Regolamento generale e su tutti gli altri regolamenti applicabili alla protezione dei dati personali delle persone fisiche."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "919a73b6-3d51-4cb1-b8d4-c3eb804d3b0a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">2. La persona interessata è la persona fisica i cui dati sono raccolti in conformità al presente Regolamento.</p>",
+              "text": "2. La persona interessata è la persona fisica i cui dati sono raccolti in conformità al presente Regolamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1041db2e-3fb1-2595-b9d3-2bc923dcbf02",
+            "text": {
+              "html": "<p class=\"large-paragraph\">3. Il dato personale è qualsiasi dato riguardante un individuo la cui identità è identificata o identificabile.</p>",
+              "text": "3. Il dato personale è qualsiasi dato riguardante un individuo la cui identità è identificata o identificabile."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c976d84e-ee91-6cfc-4c75-34111ef3cb19",
+            "text": {
+              "html": "<p class=\"large-paragraph\">4. Il trattamento di dati personali è qualsiasi processo o insieme di procedure in cui vengono utilizzati i dati personali.</p>",
+              "text": "4. Il trattamento di dati personali è qualsiasi processo o insieme di procedure in cui vengono utilizzati i dati personali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e7474682-2904-b276-c9c6-5b20f515aded",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Principi di raccolta, trattamento e archiviazione dei dati personali</p>",
+              "text": "Principi di raccolta, trattamento e archiviazione dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c3e173fc-bf23-4331-5890-bc14af5fb3b4",
+            "text": {
+              "html": "<p class=\"large-paragraph\">1. I dati personali della persona interessata sono trattati in modo lecito, equo e trasparente. Sono raccolti e trattati solo i dati relativi alla fornitura di informazioni e servizi nell'ambito delle attività del Responsabile del trattamento.</p>",
+              "text": "1. I dati personali della persona interessata sono trattati in modo lecito, equo e trasparente. Sono raccolti e trattati solo i dati relativi alla fornitura di informazioni e servizi nell'ambito delle attività del Responsabile del trattamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "0d8d4846-2906-25e3-d036-b8c29417db6c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">2. Se la persona interessata è d’accordo, il responsabile del trattamento è disposto a raccogliere altri dati personali che potrebbero essere utilizzati esclusivamente ai fini di una migliore assistenza sanitaria futura della persona interessata.</p>",
+              "text": "2. Se la persona interessata è d’accordo, il responsabile del trattamento è disposto a raccogliere altri dati personali che potrebbero essere utilizzati esclusivamente ai fini di una migliore assistenza sanitaria futura della persona interessata."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6d8426b8-8b92-611a-720b-3462f9f3ac5a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">3. I dati personali sono raccolti e archiviati in modo tale da essere protetti da furti, uso non autorizzato, perdita, distruzione o danno.</p>",
+              "text": "3. I dati personali sono raccolti e archiviati in modo tale da essere protetti da furti, uso non autorizzato, perdita, distruzione o danno."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7c369642-01a5-a543-3ea2-cf3549c76727",
+            "text": {
+              "html": "<p class=\"large-paragraph\">4. I dati personali sono raccolti e trattati e archiviati esclusivamente in conformità con:</p>",
+              "text": "4. I dati personali sono raccolti e trattati e archiviati esclusivamente in conformità con:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "4cf07922-50a2-25f6-439c-399f6f8ea79f",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* regolamenti in materia di registri nel campo della salute e altre norme legali applicabili relative a tipi specifici di dati,</p>",
+              "text": "* regolamenti in materia di registri nel campo della salute e altre norme legali applicabili relative a tipi specifici di dati,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2f66c424-5279-d4ba-744c-2c6185bd7791",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* esigenze giustificate dal punto di vista aziendale ovvero esigenze condizionate dal processo di fornitura di servizi dalle attività del responsabile del trattamento.</p>",
+              "text": "* esigenze giustificate dal punto di vista aziendale ovvero esigenze condizionate dal processo di fornitura di servizi dalle attività del responsabile del trattamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3afac772-734a-ff13-b604-60d7b280106d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">5. La persona interessata fornisce i dati personali esclusivamente su base volontaria. Nel fare ciò, il responsabile del trattamento si riserva il diritto di rifiutare il servizio alla persona interessata che non gli abbia fornito i dati personali necessari per la qualità e la sicurezza della prestazione del servizio.</p>",
+              "text": "5. La persona interessata fornisce i dati personali esclusivamente su base volontaria. Nel fare ciò, il responsabile del trattamento si riserva il diritto di rifiutare il servizio alla persona interessata che non gli abbia fornito i dati personali necessari per la qualità e la sicurezza della prestazione del servizio."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "abccf8e1-96e2-819c-e8dd-cbd77b7fc13c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Scopo della raccolta e trattamento dei dati personali</p>",
+              "text": "Scopo della raccolta e trattamento dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7d31367c-a890-f13a-1550-3dde5f67f777",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I dati personali della persona interessata sono raccolti e trattati solo se è soddisfatta una delle seguenti condizioni:</p>",
+              "text": "I dati personali della persona interessata sono raccolti e trattati solo se è soddisfatta una delle seguenti condizioni:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "64ccfe4d-4819-6096-9c28-06585a238141",
+            "text": {
+              "html": "<p class=\"large-paragraph\">1. se il trattamento dei dati personali è necessario per la fornitura di servizi nell'ambito delle attività del responsabile del trattamento,</p>",
+              "text": "1. se il trattamento dei dati personali è necessario per la fornitura di servizi nell'ambito delle attività del responsabile del trattamento,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "acd82647-a888-241e-7057-7c68dccec2c8",
+            "text": {
+              "html": "<p class=\"large-paragraph\">2. se esiste un obbligo legale di trattarli,</p>",
+              "text": "2. se esiste un obbligo legale di trattarli,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "17ce5339-78af-73fa-bb36-f5f2fc0231eb",
+            "text": {
+              "html": "<p class=\"large-paragraph\">3. se è necessario tutelare gli interessi chiave della persona interessata o di altra persona fisica,</p>",
+              "text": "3. se è necessario tutelare gli interessi chiave della persona interessata o di altra persona fisica,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b2748940-a859-c7c7-3a4b-c84cb4aeb77d",
+            "text": {
+              "html": "<p class=\"large-paragraph\">4. se il trattamento è necessario per l'esecuzione di un'attività di interesse pubblico,</p>",
+              "text": "4. se il trattamento è necessario per l'esecuzione di un'attività di interesse pubblico,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "14b73935-8693-8411-5a6a-f3d51525d5c7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">5. se il trattamento è necessario per la tutela degli interessi legittimi del responsabile del trattamento, eccetto che nei casi in cui la protezione della persona interessata o dei suoi diritti fondamentali dovrebbe avere la priorità (ad es. protezione degli interessi del minorenne).</p>",
+              "text": "5. se il trattamento è necessario per la tutela degli interessi legittimi del responsabile del trattamento, eccetto che nei casi in cui la protezione della persona interessata o dei suoi diritti fondamentali dovrebbe avere la priorità (ad es. protezione degli interessi del minorenne)."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "409e885e-263b-0ab7-8f61-4b3b2ce13cd7",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Metodo di raccolta dei dati personali della persona interessata</p>",
+              "text": "Metodo di raccolta dei dati personali della persona interessata"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c6fd6927-b24b-3236-13fd-de18f8949763",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I dati personali della persona interessata sono raccolti nei modi seguenti:</p>",
+              "text": "I dati personali della persona interessata sono raccolti nei modi seguenti:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "277c0d6a-36d4-ca8d-4919-9811a2b09e8c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">1. Direttamente dalla persona interessata cui il responsabile del trattamento fornisce servizi all'interno della propria attività. La persona interessata può fornire tali informazioni oralmente, per iscritto o tramite il sito Web del responsabile del trattamento.</p>",
+              "text": "1. Direttamente dalla persona interessata cui il responsabile del trattamento fornisce servizi all'interno della propria attività. La persona interessata può fornire tali informazioni oralmente, per iscritto o tramite il sito Web del responsabile del trattamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2ddb0e82-0513-c014-389e-090c4ae7f455",
+            "text": {
+              "html": "<p class=\"large-paragraph\">2. Attraverso la documentazione medica e di altra natura di terzi, fornita dalla persona interessata al responsabile del trattamento.</p>",
+              "text": "2. Attraverso la documentazione medica e di altra natura di terzi, fornita dalla persona interessata al responsabile del trattamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "671b2d4a-5a83-b6f3-2af6-29d7b12dc429",
+            "text": {
+              "html": "<p class=\"large-paragraph\">3. Attraverso la documentazione medica e di altra natura della persona interessata che risulta nel processo di fornitura di servizi dalle attività del responsabile del trattamento (ad esempio materiale diagnostico, registri delle procedure mediche, farmaci, processi ecc.).</p>",
+              "text": "3. Attraverso la documentazione medica e di altra natura della persona interessata che risulta nel processo di fornitura di servizi dalle attività del responsabile del trattamento (ad esempio materiale diagnostico, registri delle procedure mediche, farmaci, processi ecc.)."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d259e246-d362-3bcb-119d-6f51714ffece",
+            "text": {
+              "html": "<p class=\"large-paragraph\">4. Attraverso la documentazione di terzi coinvolti nel processo di fornitura di servizi alla persona interessata (ad es. risultati dei test di laboratorio, impronte dentali dell'odontotecnico ecc.).</p>",
+              "text": "4. Attraverso la documentazione di terzi coinvolti nel processo di fornitura di servizi alla persona interessata (ad es. risultati dei test di laboratorio, impronte dentali dell'odontotecnico ecc.)."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9e4ed4e7-f911-bdf7-b467-f4e19a61d614",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Trasferimento dei dati personali</p>",
+              "text": "Trasferimento dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "de96ccab-72d6-0cf8-700b-ba4d39fbfe63",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I dati personali della persona interessata vengono trasmessi a terzi solo a scopo di:</p>",
+              "text": "I dati personali della persona interessata vengono trasmessi a terzi solo a scopo di:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "1e2adafd-73b4-d396-7328-f4299d8441b5",
+            "text": {
+              "html": "<p class=\"large-paragraph\">1. adempimento degli obblighi previsti dalla legge,</p>",
+              "text": "1. adempimento degli obblighi previsti dalla legge,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "312815c4-1280-8477-4a48-15632e440eb6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">2. esecuzione di determinati compiti per i quali il responsabile del trattamento ha assunto una terza parte (ad es. laboratorio odontotecnico, ufficio contabile ecc.)</p>",
+              "text": "2. esecuzione di determinati compiti per i quali il responsabile del trattamento ha assunto una terza parte (ad es. laboratorio odontotecnico, ufficio contabile ecc.)"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "12e9cdfa-e77e-9649-a9b1-25a34cdc3ad9",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Durata e tempi di conservazione dei dati personali</p>",
+              "text": "Durata e tempi di conservazione dei dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f0b42ceb-0a44-ed11-6da4-945c7cc22408",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il responsabile del trattamento conserverà i dati personali della persona interessata in conformità con i termini previsti dalla legge e, in caso contrario, fino al momento in cui la loro conservazione è giustificata dal punto di vista commerciale. Eccezionalmente, i dati personali saranno conservati per un periodo superiore a tale periodo se la loro conservazione è una condizione per la legittima protezione degli interessi del responsabile del trattamento.</p>",
+              "text": "Il responsabile del trattamento conserverà i dati personali della persona interessata in conformità con i termini previsti dalla legge e, in caso contrario, fino al momento in cui la loro conservazione è giustificata dal punto di vista commerciale. Eccezionalmente, i dati personali saranno conservati per un periodo superiore a tale periodo se la loro conservazione è una condizione per la legittima protezione degli interessi del responsabile del trattamento."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f2c49292-1bfc-d8bd-74d5-3ca8c17260b7",
+            "text": {
+              "html": "<p class=\"large-paragraph\">I dati personali della persona interessata vengono eliminati dopo la scadenza del periodo legale che obbliga il responsabile del trattamento a conservare determinati dati personali o alla cessazione della necessità di conservarli.</p>",
+              "text": "I dati personali della persona interessata vengono eliminati dopo la scadenza del periodo legale che obbliga il responsabile del trattamento a conservare determinati dati personali o alla cessazione della necessità di conservarli."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8a1deb21-5db5-e8cc-5578-9ae03c0838a4",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Diritti della persona interessata</p>",
+              "text": "Diritti della persona interessata"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "13f562a0-cddc-5dd4-dea7-92640dddc05e",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">1. Diritto di accesso ai dati personali</p>",
+              "text": "1. Diritto di accesso ai dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9ec89261-d087-57bf-2e83-4854aaabafe9",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il responsabile del trattamento si impegna, sulla base di una richiesta scritta, a consentire alla persona interessata l'accesso ai dati personali, di informarla sullo scopo del trattamento dei dati personali, sul tipo di dati personali trattati, sui destinatari o sulle categorie di destinatari cui i dati personali sono stati divulgati o saranno divulgati, sui tempi previsti per la loro conservazione o i criteri utilizzati per determinare tale periodo.</p>",
+              "text": "Il responsabile del trattamento si impegna, sulla base di una richiesta scritta, a consentire alla persona interessata l'accesso ai dati personali, di informarla sullo scopo del trattamento dei dati personali, sul tipo di dati personali trattati, sui destinatari o sulle categorie di destinatari cui i dati personali sono stati divulgati o saranno divulgati, sui tempi previsti per la loro conservazione o i criteri utilizzati per determinare tale periodo."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f8ce8992-c0c3-c4c6-10cb-f544433788f5",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">2. Diritto di correggere dati personali inesatti</p>",
+              "text": "2. Diritto di correggere dati personali inesatti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8ddecce4-a2a3-46fd-33e2-55585f14c6e6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il responsabile del trattamento è tenuto a consentire alla persona interessata di correggere dati inesatti o completare i dati personali esistenti.</p>",
+              "text": "Il responsabile del trattamento è tenuto a consentire alla persona interessata di correggere dati inesatti o completare i dati personali esistenti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "637aca0a-2655-f019-4f7b-4d6125b5a849",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">3. Diritto di cancellare i dati personali</p>",
+              "text": "3. Diritto di cancellare i dati personali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "41183ef7-c926-0918-6aaa-a5e942d80020",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il responsabile del trattamento cancellerà i dati personali nei seguenti casi:</p>",
+              "text": "Il responsabile del trattamento cancellerà i dati personali nei seguenti casi:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "d349f64a-4c39-1e06-1dd9-e83cb11977c2",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* quando i dati personali della persona interessata non sono più necessari per l'adempimento dello scopo del trattamento, vale a dire con la cessazione dello scopo del trattamento,</p>",
+              "text": "* quando i dati personali della persona interessata non sono più necessari per l'adempimento dello scopo del trattamento, vale a dire con la cessazione dello scopo del trattamento,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5491200d-d269-e3a3-849c-727b3134277c",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* quando la persona interessata revoca il consenso come base giuridica per il trattamento dei dati e non esiste un'altra base giuridica per l'ulteriore trattamento dei dati,</p>",
+              "text": "* quando la persona interessata revoca il consenso come base giuridica per il trattamento dei dati e non esiste un'altra base giuridica per l'ulteriore trattamento dei dati,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "7a06ad54-6eae-daf8-8a14-345bdd2430df",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* quando la persona interessata presenta un'obiezione giustificata al trattamento dei dati,</p>",
+              "text": "* quando la persona interessata presenta un'obiezione giustificata al trattamento dei dati,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f5dcecc1-06eb-8c25-df58-1771fdd74c7a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* quando i dati personali devono essere cancellati per adempiere gli obblighi di legge.</p>",
+              "text": "* quando i dati personali devono essere cancellati per adempiere gli obblighi di legge."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "c64b9def-d83d-639e-579a-bd29f64a4f73",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">4. Diritto di limitare il trattamento dei dati</p>",
+              "text": "4. Diritto di limitare il trattamento dei dati"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "068e791e-3f8c-317e-8465-2d7e0e9081e3",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Il responsabile del trattamento limiterà il trattamento dei dati personali se viene soddisfatta una delle seguenti condizioni:</p>",
+              "text": "Il responsabile del trattamento limiterà il trattamento dei dati personali se viene soddisfatta una delle seguenti condizioni:"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "070639a9-fd42-7055-b097-feec55ce1072",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* la persona interessata contesta l'accuratezza dei dati personali,</p>",
+              "text": "* la persona interessata contesta l'accuratezza dei dati personali,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "23b8a3cd-83c8-4f77-786d-a4a39f6799f8",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* il trattamento dei dati personali è illegale, ma la persona interessata non richiede la cancellazione, ma solo la limitazione del trattamento,</p>",
+              "text": "* il trattamento dei dati personali è illegale, ma la persona interessata non richiede la cancellazione, ma solo la limitazione del trattamento,"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "62ea2d41-b31e-db44-c645-5d296dd1ceab",
+            "text": {
+              "html": "<p class=\"large-paragraph\">* il responsabile del trattamento non ha più bisogno di dati personali, ma la persona interessata richiede il loro trattamento parziale per proteggere i suoi interessi.</p>",
+              "text": "* il responsabile del trattamento non ha più bisogno di dati personali, ma la persona interessata richiede il loro trattamento parziale per proteggere i suoi interessi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "98b5e7a3-647c-0562-57a6-26d94ec86cf0",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">5. Diritto di presentare un reclamo</p>",
+              "text": "5. Diritto di presentare un reclamo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "09851ec2-327e-fd9c-8a7b-b2d936f450ec",
+            "text": {
+              "html": "<p class=\"large-paragraph\">La persona interessata ha il diritto di presentare un reclamo in merito al trattamento dei propri dati personali. Il responsabile del trattamento si riserva il diritto di non soddisfare tale reclamo se sussiste un interesse legittimo e giustificato al trattamento dei dati personali.</p>",
+              "text": "La persona interessata ha il diritto di presentare un reclamo in merito al trattamento dei propri dati personali. Il responsabile del trattamento si riserva il diritto di non soddisfare tale reclamo se sussiste un interesse legittimo e giustificato al trattamento dei dati personali."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "58e912e1-e07c-b2f4-bbff-93b8803bf63c",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">6. Diritto alla portabilità dei dati personali</p>",
+              "text": "6. Diritto alla portabilità dei dati personali"
+            },
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 126
+        },
+        "lastUpdated": "2026-09-02T12:05:45.790Z"
+      }
+    }
+  ]
+}

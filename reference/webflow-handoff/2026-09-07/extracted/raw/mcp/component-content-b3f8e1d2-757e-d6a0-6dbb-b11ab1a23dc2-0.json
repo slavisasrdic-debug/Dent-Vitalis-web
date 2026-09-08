@@ -1,0 +1,163 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:41:01.888Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian component source Section Contatti",
+        "get_component_content": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      },
+      {
+        "label": "Component defaults Section Contatti",
+        "get_component_properties": {
+          "site_id": "695e1eeeb10c5fb8eeaba87d",
+          "component_id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian component source Section Contatti",
+      "action": "get_component_content",
+      "result": {
+        "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+        "nodes": [
+          {
+            "type": "text",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc7",
+            "text": {
+              "html": "<div class=\"nadnaslov bijeli\">Contatti</div>",
+              "text": "Contatti"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dca",
+            "text": {
+              "html": "<div class=\"medjunaslov-h2 bijeli\">Mettiamoci in contatto</div>",
+              "text": "Mettiamoci in contatto"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dcc",
+            "text": {
+              "html": "<p class=\"huge-paragraph bijeli\">Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia.</p>",
+              "text": "Contattaci per ricevere una consulenza dal nostro dentista o per organizzare la tua visita, il trasferimento e il soggiorno presso la nostra clinica di Fiume, in Croazia."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text-input",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd1",
+            "placeholder": "Nome*",
+            "attributes": {}
+          },
+          {
+            "type": "text-input",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd2",
+            "placeholder": "Nome*",
+            "attributes": {}
+          },
+          {
+            "type": "text-input",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd3",
+            "placeholder": "E-mail*",
+            "attributes": {}
+          },
+          {
+            "type": "text-input",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd4",
+            "placeholder": "Telefono*",
+            "attributes": {}
+          },
+          {
+            "type": "text-input",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd5",
+            "placeholder": "Messagio",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "3d2c0281-4a49-1a9c-df55-3d64b6ce70b6",
+            "text": {
+              "html": "<label class=\"dv-privacy-text\">Accetto l'<a class=\"dv-privacy-link\" href=\"https://www.dentvitalis.com/informativa-sulla-privacy\" data-w-id=\"01596a60-8782-a54c-b7d9-7b814083b705\">informativa sulla privacy.</a></label>",
+              "text": "Accetto l'informativa sulla privacy."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dd9",
+            "text": {
+              "html": "<div class=\"button-text-block\">Invia il messaggio</div>",
+              "text": "Invia il messaggio"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "753a4f15-cd0c-2809-f59c-26b77a2aaa15",
+            "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" role=\"img\" class=\"iconify iconify--iconoir\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m13 6l6 6l-6 6M5 6l6 6l-6 6\"></path></svg>",
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dde",
+            "text": {
+              "html": "<div>Grazie! La tua richiesta è stata inviata.</div>",
+              "text": "Grazie! La tua richiesta è stata inviata."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23de1",
+            "text": {
+              "html": "<div>Si è verificato un errore. Riprova o contattaci telefonicamente.</div>",
+              "text": "Si è verificato un errore. Riprova o contattaci telefonicamente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "html-embed",
+            "id": "43280ac5-ae17-a657-aefc-029ebcb2b7e4",
+            "html": "<style>\nsection.section-contatti .home-2-form-section .section-heading-wrapper-2 .nadnaslov.bijeli,\nsection.section-contatti .home-2-form-section .home-2-form .medjunaslov-h2.bijeli,\nsection.section-contatti .home-2-form-section .home-2-form .huge-paragraph.bijeli {\n  text-align: center !important;\n}\nsection.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise {\n  background-color: var(--svijetla-call) !important;\n}\nsection.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise:hover,\nsection.section-contatti .home-2-form-section .home-2-form .dv-native-form .gumb-vise:focus-visible {\n  background-color: var(--svjetlija-plava) !important;\n}\n@media screen and (max-width: 767px) {\n  section.section-contatti .home-2-form-section .section-heading-wrapper-2 .nadnaslov.bijeli,\n  section.section-contatti .home-2-form-section .home-2-form .medjunaslov-h2.bijeli,\n  section.section-contatti .home-2-form-section .home-2-form .huge-paragraph.bijeli {\n    text-align: left !important;\n  }\n}\n</style>",
+            "attributes": {}
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 14
+        }
+      }
+    },
+    {
+      "label": "Component defaults Section Contatti",
+      "action": "get_component_properties",
+      "result": {
+        "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+        "properties": [],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 0
+        }
+      }
+    }
+  ]
+}

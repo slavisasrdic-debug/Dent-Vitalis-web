@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 991px) {
+  .fiksni-kontakti-mobile .podloga {
+    padding: 6px 20px;
+  }
+  .fiksni-kontakti-mobile .gumb-upit {
+    width: 100%;
+    min-width: 0;
+  }
+  .fiksni-kontakti-mobile .text-block-13 {
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .fiksni-kontakti-mobile .gumb-upit > .icon-embed-xxsmall,
+  .fiksni-kontakti-mobile .gumb-upit > .text-block-13 {
+    animation: dv-sticky-cta-load-fade 1.8s ease-in-out both,
+      dv-sticky-cta-content-fade 5s ease-in-out 2s infinite;
+  }
+}
+@keyframes dv-sticky-cta-load-fade {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: .12;
+  }
+}
+@keyframes dv-sticky-cta-content-fade {
+  0%,
+  52%,
+  70%,
+  88%,
+  100% {
+    opacity: 1;
+  }
+  61%,
+  79% {
+    opacity: .12;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fiksni-kontakti-mobile .gumb-upit > .icon-embed-xxsmall,
+  .fiksni-kontakti-mobile .gumb-upit > .text-block-13 {
+    animation: none;
+  }
+}

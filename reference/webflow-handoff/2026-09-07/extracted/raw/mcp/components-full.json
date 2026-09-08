@@ -1,0 +1,409 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:33:55.800Z",
+  "tool": "mcp__codex_apps__webflow_data_component_tool",
+  "request": {
+    "siteId": "695e1eeeb10c5fb8eeaba87d",
+    "pageId": "695e1eeeb10c5fb8eeaba87c",
+    "actions": [
+      {
+        "label": "All props defaults and variants",
+        "get_all_components": {
+          "options": {
+            "includeProps": true,
+            "includeInstanceCount": true,
+            "includeVariants": true
+          }
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "All props defaults and variants",
+      "action": "get_all_components",
+      "result": [
+        {
+          "id": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+          "name": "navigacija",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "a6383e85-b972-e425-5602-e5554d54c939",
+          "name": "banner-card",
+          "instanceCount": 0,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+          "name": "Footer",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "587b085b-0eb5-6f0e-763d-212fecd904e0",
+          "name": "Section Benvenuti",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "48eb149b-bbbd-805c-69ed-1266a634337f",
+          "name": "Section Tradizione",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "c5b4d3d6-9300-613f-7c22-f4b3d5b0c351",
+          "name": "Section Testimonianze",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "4e75e80f-18e3-7eb0-519d-3b33dc5a3c5c",
+          "name": "Section Informazioni",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "2218f1d9-b81b-56c5-3884-620b224831a9",
+          "name": "Section FAQ",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+          "name": "Section Contatti",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "511a527c-0818-f243-94fb-c91d2b84e74a",
+          "name": "WhatsApp",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+          "name": "Fiksni kontakti mobile",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "6f3fc695-721c-243a-39ea-1ec76ea081e5",
+          "name": "Section usluge",
+          "instanceCount": 0,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "12779da6-57f4-1edc-0b0f-c14d7c69e8c1",
+          "name": "sidebar",
+          "instanceCount": 6,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "01415f8e-f1dc-065f-6696-5928ab24121b",
+          "name": "Sidebar informazioni",
+          "instanceCount": 7,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "f3f8c56e-d796-023f-a4b1-8dfd0576aa9e",
+          "name": "Breadcrumb",
+          "instanceCount": 0,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "9451505b-5015-c534-40e8-5413c82b759b",
+          "name": "Zaglavlje detaljna",
+          "instanceCount": 0,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "11f7cd79-d19d-6f76-04ff-ce57e5706c5a",
+          "name": "kartica Premium: ponte fisso su impianti",
+          "instanceCount": 3,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "9db036bc-9bac-25ca-e571-158aa48dd517",
+          "name": "kartica Facilissimo: sbiancamento dei denti",
+          "instanceCount": 3,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "1d7ffbd5-8dbd-bf93-8a74-9fdeb3200f80",
+          "name": "kartica Corone, faccette, ponti e protesi",
+          "instanceCount": 3,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "d430cc2c-555c-6d7a-ff18-8922771fa88e",
+          "name": "kartica Imperdibile: protesi definitiva ancorata su 4 impianti",
+          "instanceCount": 3,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "1d728e57-fa68-61c7-a4b3-55aca79d3e43",
+          "name": "Directory cards - Home layout",
+          "group": "Directory pages",
+          "description": "Exact Home service-card layout with its existing card behavior and responsive styles.",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "32a193c4-2226-c41d-04a5-7c80a45fc9bd",
+          "name": "Directory cards - Su di noi",
+          "group": "Directory pages",
+          "description": "Home-derived directory cards for the first four About pages.",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "189b6a3e-5614-be7c-f080-f6f0e377e820",
+          "name": "Directory cards - Su di noi 2",
+          "group": "Directory pages",
+          "description": "Home-derived cards for materials, implants, and conscious sedation.",
+          "instanceCount": 0,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "a48c8fee-76f0-7240-0500-30f49cec6908",
+          "name": "Directory cards - Informazioni",
+          "group": "Directory pages",
+          "description": "Home-derived cards for the first four patient-information pages.",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "ddb95103-2171-39b2-bd7f-9df9bbf9b63c",
+          "name": "Directory cards - Informazioni 2",
+          "group": "Directory pages",
+          "description": "Home-derived cards for accommodation, transport, and price list.",
+          "instanceCount": 0,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "114e4711-0fe3-9df0-602e-50b9eb2bc92b",
+          "name": "Izbornik jezika",
+          "group": "Navigacija",
+          "description": "Native Webflow language selector for Italian, Croatian, German, English, and Slovenian.",
+          "instanceCount": 28,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "80120cd6-e65f-28c3-91c4-db8ef46ae663",
+          "name": "kartica Sedazione cosciente",
+          "group": "Directory pages",
+          "description": "Kartica postojeće Sedazione cosciente stranice za native Webflow liste usluga.",
+          "instanceCount": 4,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        },
+        {
+          "id": "735f2c84-7518-48f7-693c-0197067ecaaf",
+          "name": "sidebar Prestazioni",
+          "group": "Directory pages",
+          "description": "Navigazione bočnih poveznica za detaljne stranice Prestazioni.",
+          "instanceCount": 1,
+          "props": [],
+          "variants": [
+            {
+              "id": "base",
+              "name": "Base",
+              "isSelected": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

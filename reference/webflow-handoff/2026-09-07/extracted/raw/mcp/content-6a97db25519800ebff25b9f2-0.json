@@ -1,0 +1,227 @@
+{
+  "status": "extracted",
+  "retrievedAt": "2026-09-07T07:34:48.741Z",
+  "tool": "mcp__codex_apps__webflow_data_localization_tool",
+  "request": {
+    "actions": [
+      {
+        "label": "Italian current source 6a97db25519800ebff25b9f2",
+        "get_page_content": {
+          "page_id": "6a97db25519800ebff25b9f2",
+          "localeId": "695e1eeeb10c5fb8eeaba87f",
+          "limit": 100,
+          "offset": 0
+        }
+      }
+    ]
+  },
+  "response": [
+    {
+      "label": "Italian current source 6a97db25519800ebff25b9f2",
+      "action": "get_page_content",
+      "result": {
+        "pageId": "6a97db25519800ebff25b9f2",
+        "nodes": [
+          {
+            "type": "component-instance",
+            "id": "e6544327-15bb-1db1-b0de-8dfefdae3195",
+            "componentId": "82b2ce1d-fc74-8408-a46c-893c2f6ef824",
+            "propertyOverrides": []
+          },
+          {
+            "type": "text",
+            "id": "a9d88451-fe19-8e6f-9c39-fb1a6b98896f",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\"><a class=\"link-breadcrumb\" href=\"/\" data-w-id=\"daf15d2c-9638-42e9-2c8d-4d91ea65804a\">Home</a></h6>",
+              "text": "Home"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "97e40db0-3b40-63e3-db7e-621e618a1a54",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text\">/</h6>",
+              "text": "/"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "f883113d-dcf3-fba7-8130-4c36163f2577",
+            "text": {
+              "html": "<h6 class=\"breadcrum-text current\">Condizioni di utilizzo</h6>",
+              "text": "Condizioni di utilizzo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "image",
+            "id": "93022ec2-fab6-f3b0-0153-940ae7bc4067",
+            "image": {
+              "alt": "__wf_reserved_inherit",
+              "assetId": "6a86e9828da1e0b605be4d29"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "11ddc139-75a5-077b-3e1e-6fae8788f472",
+            "text": {
+              "html": "<h1 class=\"naslov-detaljna\">Condizioni di utilizzo</h1>",
+              "text": "Condizioni di utilizzo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "b9fdd960-b974-2734-6dc3-d023ac0bb57a",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Con la presente si definiscono le condizioni di utilizzo della pagina web www.dentvitalis.com (in seguito nel testo: Pagina). Il proprietario del contenuto della Pagina è Dentvitalis d.o.o. Krešimirova 60, 51000 Fiume, Croazia. Nel caso in cui non siate d'accordo con una o più disposizioni delle presenti Condizioni, vi preghiamo di abbandonare la Pagina e non usarla più.</p>",
+              "text": "Con la presente si definiscono le condizioni di utilizzo della pagina web www.dentvitalis.com (in seguito nel testo: Pagina). Il proprietario del contenuto della Pagina è Dentvitalis d.o.o. Krešimirova 60, 51000 Fiume, Croazia. Nel caso in cui non siate d'accordo con una o più disposizioni delle presenti Condizioni, vi preghiamo di abbandonare la Pagina e non usarla più."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8c69916c-3607-4eb6-dfaf-fc75a2b459c6",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Tutti i servizi odontoiatrici pubblicati su questa Pagina sono offerti a proprio nome e per proprio conto dagli Studi odontoiatrici privati del dr. med. dent. Šime Živković, e del dr. med. dent. Tomislav Živković, (in seguito nel testo: Studi) con i quali Dentvitalis d.o.o. ha sottoscritto un contratto di collaborazione esclusiva. È del tutto esclusa la possibilità che i suddetti servizi siano offerti da una terza persona, giuridica o fisica.</p>",
+              "text": "Tutti i servizi odontoiatrici pubblicati su questa Pagina sono offerti a proprio nome e per proprio conto dagli Studi odontoiatrici privati del dr. med. dent. Šime Živković, e del dr. med. dent. Tomislav Živković, (in seguito nel testo: Studi) con i quali Dentvitalis d.o.o. ha sottoscritto un contratto di collaborazione esclusiva. È del tutto esclusa la possibilità che i suddetti servizi siano offerti da una terza persona, giuridica o fisica."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "6a4f16ac-6fd0-6688-2f47-ca4edc1f8fae",
+            "text": {
+              "html": "<p class=\"large-paragraph\">1. Tutte le informazioni relative ai servizi odontoiatrici menzionati nella Pagina, così come i relativi prezzi e tempi di esecuzione, hanno solo carattere informativo e non possono essere un sostituto al piano terapeutico che viene offerto ad ogni singolo paziente dopo la visita effettuata da parte del medico nell'ambito dello Studio.</p>",
+              "text": "1. Tutte le informazioni relative ai servizi odontoiatrici menzionati nella Pagina, così come i relativi prezzi e tempi di esecuzione, hanno solo carattere informativo e non possono essere un sostituto al piano terapeutico che viene offerto ad ogni singolo paziente dopo la visita effettuata da parte del medico nell'ambito dello Studio."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "e390ab45-7f05-e253-3dc9-628b201c6cc9",
+            "text": {
+              "html": "<p class=\"large-paragraph\">2. Il piano della terapia e la relativa offerta finanziaria mandata al paziente via e-mail o in qualche altro modo, hanno solo carattere informativo dato che sono formulate sulla base di dati incompleti, e senza la visita del paziente presso lo Studio.</p>",
+              "text": "2. Il piano della terapia e la relativa offerta finanziaria mandata al paziente via e-mail o in qualche altro modo, hanno solo carattere informativo dato che sono formulate sulla base di dati incompleti, e senza la visita del paziente presso lo Studio."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "9612a884-8f2a-0a0f-4566-c13dc81ac5bc",
+            "text": {
+              "html": "<p class=\"large-paragraph\">3. Il contenuto di questa Pagina è soggetto a modifiche senza previa notifica, scritta od orale, agli utenti.</p>",
+              "text": "3. Il contenuto di questa Pagina è soggetto a modifiche senza previa notifica, scritta od orale, agli utenti."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "5369d6ea-ced2-4f3e-c7a4-a8ea1d68dbba",
+            "text": {
+              "html": "<p class=\"large-paragraph\">4. Tutto il contenuto della Pagina, compreso il design, è proprietà intellettuale di Dentvitalis d.o.o. e in quanto tale non può essere utilizzato senza suo previo consenso scritto.</p>",
+              "text": "4. Tutto il contenuto della Pagina, compreso il design, è proprietà intellettuale di Dentvitalis d.o.o. e in quanto tale non può essere utilizzato senza suo previo consenso scritto."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "53f47958-44fc-5282-03fb-505efc93c9cb",
+            "text": {
+              "html": "<p class=\"large-paragraph\">5. Tutti gli eventuali collegamenti (cd. link) ad altre pagine web sono menzionati solo per una migliore informazione dell'utente e con buone intenzioni. Ciò esclude qualsiasi responsabilità di Dentvitalis d.o.o. per il contenuto degli stessi.</p>",
+              "text": "5. Tutti gli eventuali collegamenti (cd. link) ad altre pagine web sono menzionati solo per una migliore informazione dell'utente e con buone intenzioni. Ciò esclude qualsiasi responsabilità di Dentvitalis d.o.o. per il contenuto degli stessi."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "2e826e15-9443-aa39-f389-847a81e54a58",
+            "text": {
+              "html": "<p class=\"medjunaslov-h2-detaljna\">Esclusione di responsabilità.</p>",
+              "text": "Esclusione di responsabilità."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "8c14f115-ccb9-de15-25d5-f215be67f757",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dentvitalis d.o.o. non si assume alcuna responsabilità per qualsiasi possibile danno materiale e/o immateriale che potrebbe derivare all'utente con l'utilizzo della presente Pagina. Tutti i dati, le informazioni e i collegamenti sono offerti nel modo migliore e per maggiore informazione dell'utente.</p>",
+              "text": "Dentvitalis d.o.o. non si assume alcuna responsabilità per qualsiasi possibile danno materiale e/o immateriale che potrebbe derivare all'utente con l'utilizzo della presente Pagina. Tutti i dati, le informazioni e i collegamenti sono offerti nel modo migliore e per maggiore informazione dell'utente."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "783b0aa9-0e3c-4601-2df2-7ce206455443",
+            "text": {
+              "html": "<p class=\"large-paragraph\">Dentvitalis d.o.o. non è responsabile degli errori commessi nell'elaborazione della Pagina e nell'inserimento dei dati.</p>",
+              "text": "Dentvitalis d.o.o. non è responsabile degli errori commessi nell'elaborazione della Pagina e nell'inserimento dei dati."
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "93a80d5d-20da-3bb1-a1bb-14ebe02096d6",
+            "text": {
+              "html": "<div class=\"text-block-11\">Informazioni legali</div>",
+              "text": "Informazioni legali"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "fa8fa5ab-6305-f57c-0ea3-f83efa89d5a1",
+            "text": {
+              "html": "<div class=\"text-block-16\">Informativa sulla privacy</div>",
+              "text": "Informativa sulla privacy"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "text",
+            "id": "cb401989-45db-09fd-d526-afbe9784708c",
+            "text": {
+              "html": "<div class=\"text-block-16\">Condizioni di utilizzo</div>",
+              "text": "Condizioni di utilizzo"
+            },
+            "attributes": {}
+          },
+          {
+            "type": "component-instance",
+            "id": "659c50e9-7493-2a00-377d-b9211807ed22",
+            "componentId": "b3f8e1d2-757e-d6a0-6dbb-b11ab1a23dc2",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "a1c21741-c703-0636-dff6-ab2e59103a3f",
+            "componentId": "cdb4010a-fc4d-930a-8493-bc7524d3344d",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "e3c804b7-f09e-1be3-aa5c-06853fd85fc0",
+            "componentId": "511a527c-0818-f243-94fb-c91d2b84e74a",
+            "propertyOverrides": []
+          },
+          {
+            "type": "component-instance",
+            "id": "2f245c46-52ed-8389-3394-20e9ccd53f50",
+            "componentId": "1b710e68-38ef-1a3b-db46-5efe98f74ee5",
+            "propertyOverrides": []
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 23
+        },
+        "lastUpdated": "2026-09-02T12:06:36.132Z"
+      }
+    }
+  ]
+}
