@@ -29,12 +29,13 @@ const { items, lang = 'it' } = Astro.props;
     top: var(--header-height);
     z-index: 100;
     background: var(--color-white);
+    padding-inline: var(--header-gutter);
     border-bottom: 1px solid var(--color-border-translucent);
     color: var(--color-text);
   }
   ol {
-    width: 90%;
-    max-width: var(--container-max);
+    width: 100%;
+    max-width: var(--header-container-max);
     margin: 0 auto;
     padding: 14px 0;
     list-style: none;
@@ -61,6 +62,8 @@ const { items, lang = 'it' } = Astro.props;
     color: var(--color-primary-hover);
   }
   [aria-current] {
+    min-width: 0;
+    overflow-wrap: anywhere;
     font-weight: 600;
   }
   @media screen and (max-width: 991px) {
@@ -74,9 +77,6 @@ const { items, lang = 'it' } = Astro.props;
     }
   }
   @media screen and (max-width: 767px) {
-    ol {
-      width: 86%;
-    }
     li {
       font-size: 12px;
     }

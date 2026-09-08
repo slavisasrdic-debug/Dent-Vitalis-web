@@ -275,7 +275,7 @@ const copy = ui(lang);
       padding: 0;
     }
     .header-container {
-      padding-inline: 5%;
+      padding-inline: var(--header-gutter);
     }
     .brand {
       width: 140px;
@@ -292,9 +292,6 @@ const copy = ui(lang);
     }
   }
   @media screen and (max-width: 479px) {
-    .header-container {
-      padding-inline: 7%;
-    }
     .nav-items {
       padding-inline: 7%;
     }

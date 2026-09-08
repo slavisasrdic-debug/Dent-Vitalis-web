@@ -52,6 +52,7 @@
 }
 @media screen and (max-width: 991px) {
   :root {
+    --header-gutter: 5%;
     --reveal-sidebar-delay: var(--reveal-delay);
     --reveal-sidebar-offset: var(--reveal-offset);
   }
@@ -74,5 +75,10 @@
 @media screen and (max-width: 767px) {
   :root {
     --page-gutter: 7%;
+  }
+}
+@media screen and (max-width: 479px) {
+  :root {
+    --header-gutter: 7%;
   }
 }
