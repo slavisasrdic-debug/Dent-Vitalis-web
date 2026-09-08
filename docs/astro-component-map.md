@@ -83,7 +83,13 @@ Bez JavaScripta link i CSS efekt rade, bez skrivenog sadržaja ili ovisnosti o i
 
 QA 2026-09-08: novih **6/6 Chromium + 6/6 WebKit** provjera prošlo je zasebno s jednim workerom, uključujući svih 28 potrošača na 390/990/991/992/993/1440px. Statički build dodatno je otvoren u oba enginea: 7000ms ciklus i prigušeni/prikazani frameovi, ista geometrija, ispravan HTML/HTTP 200, bez error overlaya/console grešaka i bez poslanih upita. `check`, `lint`, `format:check`, `build` i `git diff --check` prošli su. Puni testni poziv nakon smanjenja paralelizma imao je 136 prolaznih postojećih testova prije SIGTERM prekida procesa; preostalih šest novih testova dovršeno je odvojeno, zato se taj puni poziv ne bilježi kao jedan uspješan exit. Prvi preopterećeni paralelni pokušaj imao je browser crash/timeout nalaze koji se nisu ponovili. Fizički iOS/Android uređaji nisu korišteni.
 
+### Outline gumbi — kontrast hover/focus stanja
+
+`Button` varijanta `outline` u mirovanju zadržava bijelu podlogu i primarno plavi tekst. Na `:hover` i `:focus-visible` koristi `--color-primary-hover` podlogu i `--color-white` tekst; strelice nasljeđuju istu boju preko `currentColor`. Nema promjene dimenzija, prijeloma, razmaka ni JS-a. Trenutačni potrošači: dva `Testimonials.actions` gumba na naslovnici; pravilo vrijedi i za buduće `outline` instance, bez promjene drugih varijanti. Regresija: `tests/button-hover.spec.ts`, 390/991/992/1440 px, oba gumba, tipkovnica i navigacija na galeriju.
+
 ### Stabilna hover/focus stanja navigacije
+
+Provjera outline popravka: 4 Chromium + 4 WebKit slučaja prolaze na navedenim širinama, uključujući oba gumba, bijeli SVG stroke, stabilnu geometriju, fokus, navigaciju na galeriju i konzolu bez grešaka. Firefox nije provjeren jer browser binary nije instaliran; opći `--browser=all` zato ima četiri startup greške, ne četiri potvrđene UI regresije. Snimke pregledane na 390/1440 px; ostale varijante gumba zadržavaju bijeli foreground. Za ponavljanje birati instalirane browsere pojedinačno.
 
 `NavDropdown` ostaje jedna zajednička komponenta za Prestazioni, Su di noi i Informazioni. Na desktopu pomiče samo `.link-label` kroz `transform`, uz stalnu širinu teksta i nepomičan link/hitbox. Crtica `.line` nije vidljiva u mirovanju: na hover/focus izraste slijeva (`scaleX(0 → 1)`) na odredišnoj poziciji. Lokalni parametri su `--dropdown-link-shift: 20px` i `--dropdown-link-duration: 300ms`; postojeći desni padding panela ostavlja prostor za pomak. Hover se primjenjuje samo na uređajima koji ga podržavaju, a `:focus-visible` dobiva isto isticanje uz vidljiv outline. Do 991px nema bočnog pomaka ni crtice; dugi mobilni nazivi normalno se prelamaju. Reduced-motion isključuje prijelaze.
 
