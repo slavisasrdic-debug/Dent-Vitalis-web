@@ -44,16 +44,20 @@ const { items, lang = 'it' } = Astro.props;
   }
   li {
     display: flex;
+    min-width: 0;
+    align-items: center;
     font-size: 14px;
     line-height: 1.2;
     font-weight: 500;
   }
-  li:not(:last-child) {
+  li:first-child {
     flex: none;
   }
-  li:last-child {
+  li > a {
     min-width: 0;
-    align-items: center;
+  }
+  li > [aria-hidden] {
+    flex: none;
   }
   li > * {
     padding-right: 10px;

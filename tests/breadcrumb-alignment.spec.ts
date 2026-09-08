@@ -90,6 +90,17 @@ for (const route of [
     ]) {
       await page.setViewportSize({ width, height: 900 });
       await expectAlignment(page);
+      if (width === 320 && route === '/hr/prvi-pregled') {
+        const lines = await page
+          .locator('.breadcrumbs [aria-current]')
+          .evaluate(
+            (element) =>
+              element.getBoundingClientRect().height /
+              parseFloat(getComputedStyle(element).lineHeight),
+          );
+        // Preserve readable words, not a narrow column of broken syllables.
+        expect(lines).toBeLessThanOrEqual(2.1);
+      }
     }
     await page.evaluate(() =>
       window.scrollTo({ top: 300, behavior: 'instant' }),
