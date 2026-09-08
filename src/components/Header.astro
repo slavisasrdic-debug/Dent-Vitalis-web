@@ -22,7 +22,9 @@ const copy = ui(lang);
 <header class="site-header" data-header>
   <div class="header-container">
     <div class="header-row">
-      <a href={lang === 'hr' ? '/hr/' : '/'} class="brand"
+      <a
+        href={lang === 'hr' ? '/hr/' : '/'}
+        class:list={['brand', { 'brand-hr': lang === 'hr' }]}
         ><img
           src="/assets/images/Dentvitalis-logo-color_21200px.svg"
           width="150"
@@ -164,6 +166,14 @@ const copy = ui(lang);
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+  .brand-hr span {
+    font-family: var(--font-body);
+    font-size: 8.2px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-align: justify;
+    text-align-last: justify;
+  }
   .site-nav {
     flex: 1;
     display: flex;
@@ -263,6 +273,10 @@ const copy = ui(lang);
     }
     .brand span {
       letter-spacing: 0.375px;
+    }
+    .brand-hr span {
+      font-size: 7.75px;
+      letter-spacing: 0;
     }
     .site-nav {
       display: none;
