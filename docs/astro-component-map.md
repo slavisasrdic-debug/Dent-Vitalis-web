@@ -180,6 +180,8 @@ Dopuna za dodir/klik: prvi obični klik ili Enter na naziv zatvorenog `NavDropdo
 
 `TeaserCardData.copyLayout` razlikuje `stack` (prve dvije usluge: izvorni flex column bez collapsea margina) od zadanog `flow` (treća/četvrta usluga: normalni block tok). Ta razlika pomiče tekst 5px ako se pogrešno ujednači. `priceInset` čuva zasebnu strukturu treće cijene. Slider zadržava prirodnu visinu pojedinačnih slajdova unutar maske visoke kao najviši slajd; kraći treći slajd ne centrira se dodatno vertikalno.
 
+`TeaserCard` renderira `.card-bottom` samo kada sadrži cijenu, opis varijante `about` ili stvarnu strelicu. Prazna HR kartica sedacije zato ne rezervira 40/44px za nevidljivu strelicu i dodatni 10px gap; visina slijedi sadržaj, bez novog min-heighta ili promjene paddinga. Talijanska sedacija zadržava izvorni tekst ponude i spacer uz njega; ostale kartice, related grid i reveal ostaju nepromijenjeni. Pravilo vrijedi za sve jezike, bez uvjeta vezanog za određeni naslov ili URL. Regresija: `tests/teaser-card-layout.spec.ts`.
+
 Statične komponente ne trebaju klijentski framework. Interaktivne instance imaju lokalni root, jedinstvene ID-eve i guard protiv ponovne inicijalizacije. Scroll primitive može označiti postojeći media element `data-reveal` atributima kada bi dodatni wrapper promijenio sticky/crop geometriju; inicijalizacija i easing ostaju isti, bez drugog animacijskog sustava.
 
 Nakon promjene zajedničke komponente treba pokrenuti `npm test` i vizualnu provjeru svih izrađenih potrošača. Matrica sada obuhvaća svih 28 ruta: `tests/inner-pages.spec.ts`, home i interakcijske regresije te screenshot/geometry/breakpoint audite. Home zadržava dvije teaser sekvence, dvije language varijante, pet button varijanti i dvije form pozicije.
