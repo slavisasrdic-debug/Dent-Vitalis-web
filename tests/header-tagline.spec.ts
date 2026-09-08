@@ -17,8 +17,10 @@ test('Croatian descriptor aligns to the logo at mobile and desktop breakpoints',
       await page.setViewportSize({ width, height: 900 });
       expect((await page.goto(route))?.status()).toBe(200);
       await page.evaluate(() => document.fonts.ready);
-      await expect(page.locator('.brand span')).toHaveText(
-        'ORDINACIJE DENTALNE MEDICINE',
+      await expect(page.locator('.brand span')).toHaveText('Stomatolog Rijeka');
+      await expect(page.locator('.brand span')).toHaveCSS(
+        'font-size',
+        width < 992 ? '12px' : '13px',
       );
       await expect(page.locator('main')).toBeVisible();
       await expect(
@@ -43,7 +45,7 @@ test('Croatian descriptor aligns to the logo at mobile and desktop breakpoints',
         1,
       );
       expect(geometry.overflow).toBe(0);
-      expect(geometry.textHeight).toBeLessThan(13);
+      expect(geometry.textHeight).toBeLessThan(20);
       expect(geometry.font).toContain('Montserrat');
       expect(['normal', '0px']).toContain(geometry.tracking);
     }

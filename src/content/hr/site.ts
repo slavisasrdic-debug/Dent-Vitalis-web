@@ -137,7 +137,7 @@ export const footerGroups = [
 export const clinic = {
   ...itClinic,
   // User-approved Croatian logo descriptor, 2026-09-08.
-  tagline: 'ORDINACIJE DENTALNE MEDICINE',
+  tagline: 'Stomatolog Rijeka',
   consultation: t(1, 11, 1),
   menuRequest: { label: t(1, 11, 0), href: '#contatti' },
   tollFree: '',
