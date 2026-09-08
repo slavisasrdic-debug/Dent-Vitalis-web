@@ -1,0 +1,20 @@
+---
+import { imageAttributes } from '../content/images';
+interface Props {
+  image: string;
+  sizes?: string;
+  media?: string;
+}
+const { image, sizes = '100vw', media } = Astro.props;
+const asset = imageAttributes(image);
+---
+
+<link
+  rel="preload"
+  as="image"
+  href={asset.src}
+  imagesrcset={asset.srcset}
+  imagesizes={sizes}
+  media={media}
+  fetchpriority="high"
+/>

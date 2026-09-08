@@ -11,7 +11,7 @@
   --color-border-translucent: #cdcfd080; /* --siva-crta-transparent */
   --color-transparent: #0000; /* --transparent */
   --radius: 8px; /* --zakrivljenost */
-  --font-body: 'Montserrat', sans-serif;
+  --font-body: 'Montserrat', 'Montserrat Extended', sans-serif;
   --container-max: 1200px;
   --page-gutter: 5%;
   --header-height: 70px;

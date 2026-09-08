@@ -6,6 +6,9 @@ test('all used Montserrat styles render Croatian and Latin glyphs with real cust
 }) => {
   await page.goto('/');
   const samples = await page.evaluate(async () => {
+    const family = getComputedStyle(document.documentElement)
+      .getPropertyValue('--font-body')
+      .trim();
     const variants = [300, 400, 500, 600, 700, 800].map((weight) => ({
       weight,
       style: 'normal',
@@ -20,10 +23,10 @@ test('all used Montserrat styles render Croatian and Latin glyphs with real cust
         const element = document.createElement('span');
         element.id = `font-proof-${index}-${subset}`;
         element.textContent = text;
-        element.style.cssText = `position:fixed;left:0;top:0;font: ${variant.style} ${variant.weight} 24px Montserrat;white-space:nowrap`;
+        element.style.cssText = `position:fixed;left:0;top:0;font: ${variant.style} ${variant.weight} 24px ${family};white-space:nowrap`;
         document.body.append(element);
         await document.fonts.load(
-          `${variant.style} ${variant.weight} 24px Montserrat`,
+          `${variant.style} ${variant.weight} 24px ${family}`,
           text,
         );
         ids.push(element.id);

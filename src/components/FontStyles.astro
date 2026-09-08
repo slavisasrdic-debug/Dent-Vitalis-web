@@ -1,0 +1,24 @@
+---
+import fonts from '../content/font-styles.json';
+// Generated once from immutable font sources; shared by every language.
+---
+
+<!-- Binary FontFace sources decode synchronously in both Chromium and WebKit.
+     This shared cached payload runs before body parsing; no visibility gate. -->
+<script is:inline src={fonts.script} data-font-styles></script>
+<script is:inline define:vars={{ fallback: fonts.stylesheet }}>
+  // Native CSS fallback for unavailable FontFace APIs or a failed payload.
+  if (
+    !document.fonts ||
+    [...document.fonts].filter(
+      (face) =>
+        face.family.startsWith('Montserrat') && face.status === 'loaded',
+    ).length < 9
+  ) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = fallback;
+    document.head.append(link);
+  }
+</script>
+<noscript><link rel="stylesheet" href={fonts.stylesheet} /></noscript>

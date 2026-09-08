@@ -2,6 +2,7 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import DetailHero from '../components/DetailHero.astro';
+import ImagePreload from '../components/ImagePreload.astro';
 import PhotoCardSequence from '../components/PhotoCardSequence.astro';
 import ContactSection from '../components/ContactSection.astro';
 import EditorialPage from '../components/EditorialPage.astro';
@@ -83,6 +84,9 @@ if (referenceRoute.startsWith('/prestazioni/')) {
   lang={page.lang}
   seo={seo}
 >
+  <Fragment slot="head">
+    {page.hero.photo && <ImagePreload image={page.hero.photo.image} />}
+  </Fragment>
   <Breadcrumb items={page.breadcrumb} lang={page.lang} />
   <DetailHero content={page.hero} />
   {

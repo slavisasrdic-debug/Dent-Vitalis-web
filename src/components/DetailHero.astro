@@ -17,6 +17,7 @@ const { content } = Astro.props;
             image={content.photo.image}
             alt={content.photo.alt}
             eager
+            fetchPriority="high"
             sizes="100vw"
           />
           <div class="shade" />
@@ -50,6 +51,7 @@ const { content } = Astro.props;
   .hero-photo {
     position: absolute;
     inset: 0;
+    background: var(--color-primary);
   }
   .hero-photo :global(img) {
     width: 100%;

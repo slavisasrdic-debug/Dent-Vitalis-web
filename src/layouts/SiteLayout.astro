@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import ContactWidgets from '../components/ContactWidgets.astro';
 import RevealSetup from '../components/RevealSetup.astro';
 import SEOHead from '../components/SEOHead.astro';
+import FontStyles from '../components/FontStyles.astro';
 import type { PageSEO } from '../content/seo';
 import * as hr from '../content/hr/site';
 import { equivalentLanguages } from '../content/hr/routes';
@@ -48,14 +49,14 @@ const copy = ui(lang);
     ><meta charset="UTF-8" /><meta
       name="viewport"
       content="width=device-width, initial-scale=1"
-    /><RevealSetup /><SEOHead
+    /><slot name="head" /><FontStyles /><RevealSetup /><SEOHead
       title={title}
       description={description}
       lang={lang}
       canonical={canonical}
       languages={pageLanguages}
       seo={seo}
-    /><slot name="head" /></head
+    /></head
   >
   <body class:list={{ 'reference-default': typography === 'reference-default' }}
     ><a class="skip-link" href="#main">{copy.skip}</a><Header

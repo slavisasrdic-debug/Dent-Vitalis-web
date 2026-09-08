@@ -1,9 +1,7 @@
 ---
-import homeAssets from '../content/home-assets.json';
-import innerAssets from '../content/inner-assets.json';
+import { imageAttributes } from '../content/images';
+export type { ImageKey } from '../content/images';
 import transparent from '../../public/assets/images/transparent.svg?raw';
-const assets = { ...homeAssets, ...innerAssets };
-export type ImageKey = keyof typeof assets;
 interface Props {
   image: string;
   alt: string;
@@ -11,6 +9,7 @@ interface Props {
   class?: string;
   eager?: boolean;
   eagerMedia?: string | undefined;
+  fetchPriority?: 'high' | 'low' | 'auto';
   reveal?: boolean;
 }
 const {
@@ -21,11 +20,7 @@ const {
   eager = false,
   eagerMedia,
 } = Astro.props;
-const asset = assets[image as ImageKey];
-if (!asset) throw new Error(`Unknown source image: ${image}`);
-// Encode URL path segments, not filenames on disk. Spaces split srcset candidates.
-const imageUrl = (path: string) =>
-  path.split('/').map(encodeURIComponent).join('/');
+const asset = imageAttributes(image);
 ---
 
 {
@@ -43,19 +38,11 @@ const imageUrl = (path: string) =>
       data-delay={Astro.props.reveal ? 400 : undefined}
       data-offset={Astro.props.reveal ? 0 : undefined}
       class={className}
-      src={imageUrl(asset.src)}
+      {...asset}
       alt={alt}
-      width={'width' in asset ? asset.width : undefined}
-      height={'height' in asset ? asset.height : undefined}
-      srcset={
-        'variants' in asset
-          ? asset.variants
-              .map((variant) => `${imageUrl(variant.src)} ${variant.width}w`)
-              .join(', ')
-          : undefined
-      }
       sizes={sizes}
       loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={Astro.props.fetchPriority}
       decoding="async"
     />
   )
