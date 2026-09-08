@@ -31,7 +31,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 for (const width of [
-  992, 993, 1279, 1280, 1281, 1439, 1440, 1441, 1919, 1920, 1921, 2560,
+  1200, 1201, 1279, 1280, 1281, 1439, 1440, 1441, 1919, 1920, 1921, 2560,
 ]) {
   test(`all desktop dropdown rows stay fixed on hover and keyboard focus at ${width}px`, async ({
     page,
@@ -165,7 +165,9 @@ test('desktop hover moves smoothly without reflow or an unstable left-edge hitbo
 
 test.describe('touch navigation', () => {
   test.use({ isMobile: true, hasTouch: true });
-  for (const width of [390, 479, 480, 767, 768, 990, 991]) {
+  for (const width of [
+    390, 479, 480, 767, 768, 990, 991, 992, 1145, 1198, 1199,
+  ]) {
     test(`mobile dropdowns wrap naturally without desktop displacement at ${width}px`, async ({
       page,
     }) => {

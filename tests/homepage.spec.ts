@@ -74,7 +74,7 @@ test('mobile menu opens, closes and reconciles the desktop breakpoint', async ({
   await expect(toggle).toBeFocused();
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
   await toggle.click();
-  await page.setViewportSize({ width: 992, height: 900 });
+  await page.setViewportSize({ width: 1200, height: 900 });
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
   await expect(toggle).toBeHidden();
 });

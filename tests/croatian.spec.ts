@@ -214,7 +214,9 @@ for (const width of [390, 1440])
     expect(errors).toEqual([]);
   });
 
-for (const width of [991, 992, 1279, 1280, 1281, 1439, 1440, 1441, 1920])
+for (const width of [
+  991, 992, 1145, 1199, 1200, 1201, 1279, 1280, 1281, 1439, 1440, 1441, 1920,
+])
   test(`HR header fits and language switch maps equivalents at ${width}px`, async ({
     page,
   }) => {
@@ -222,7 +224,7 @@ for (const width of [991, 992, 1279, 1280, 1281, 1439, 1440, 1441, 1920])
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto('/hr/izbjeljivanje-zubi');
     await page.evaluate(() => document.fonts.ready);
-    if (width < 992) {
+    if (width < 1200) {
       await page
         .getByRole('button', { name: 'Otvori izbornik', exact: true })
         .click();
@@ -253,14 +255,14 @@ for (const width of [991, 992, 1279, 1280, 1281, 1439, 1440, 1441, 1920])
       ).toBeLessThanOrEqual(1);
     }
     const switcher = page.locator(
-      width < 992 ? '.language.mobile' : '.desktop-language .language',
+      width < 1200 ? '.language.mobile' : '.desktop-language .language',
     );
     await switcher.locator('summary').click();
     await switcher.getByRole('link', { name: 'Italiano', exact: true }).click();
     await expect(page).toHaveURL(/\/prestazioni\/sbiancamento-dei-denti$/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'it');
     const back = page.locator(
-      width < 992 ? '.language.mobile' : '.desktop-language .language',
+      width < 1200 ? '.language.mobile' : '.desktop-language .language',
     );
     await back.locator('summary').click();
     await back.getByRole('link', { name: 'Hrvatski', exact: true }).click();

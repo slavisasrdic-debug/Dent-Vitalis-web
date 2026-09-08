@@ -11,7 +11,7 @@ test('Croatian descriptor aligns to the logo at mobile and desktop breakpoints',
     if (['warning', 'error'].includes(message.type()))
       errors.push(message.text());
   });
-  // Home uses brand typography; directory/legal variants otherwise inherit Arial.
+  // The header keeps brand typography even when directory/legal body uses Arial.
   for (const route of ['/hr/', '/hr/usluge', '/hr/polica-privatnosti']) {
     for (const width of [390, 479, 480, 767, 768, 991, 992, 1280, 1440, 1920]) {
       await page.setViewportSize({ width, height: 900 });

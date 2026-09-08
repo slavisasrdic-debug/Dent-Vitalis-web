@@ -97,7 +97,7 @@ const copy = ui(lang);
 </header>
 <noscript
   ><style>
-    @media screen and (max-width: 991px) {
+    @media screen and (max-width: 1199px) {
       .site-header {
         position: relative !important;
         height: auto !important;
@@ -112,6 +112,7 @@ const copy = ui(lang);
         transform: none !important;
         position: static !important;
         order: 3;
+        flex-basis: 100%;
         height: auto !important;
       }
       .menu-toggle {
@@ -130,6 +131,7 @@ const copy = ui(lang);
     padding-inline: 20px;
     border-bottom: 1px solid var(--color-border-translucent);
     background: white;
+    font-family: var(--font-body);
     backdrop-filter: blur(10px);
   }
   .header-container {
@@ -145,7 +147,7 @@ const copy = ui(lang);
     align-items: center;
     justify-content: space-between;
     min-width: 0;
-    column-gap: 6px;
+    column-gap: var(--header-group-gap);
     row-gap: 10px;
   }
   .brand {
@@ -153,6 +155,7 @@ const copy = ui(lang);
     flex-direction: column;
     width: 150px;
     min-width: 137px;
+    flex-shrink: 0;
     color: #00647e;
   }
   .brand img {
@@ -178,21 +181,20 @@ const copy = ui(lang);
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     min-width: 0;
-    margin-left: auto;
+    margin-left: 0;
   }
   .nav-items {
     display: flex;
     align-items: center;
-    gap: 6px 4px;
-    padding-top: 2px;
+    gap: var(--header-nav-gap);
   }
   .nav-link {
-    padding: 10px 3px;
+    padding: 12px var(--header-nav-item-padding);
     white-space: nowrap;
-    font-size: 12px;
-    line-height: 1;
+    font-size: var(--header-nav-font-size);
+    line-height: 20px;
     font-weight: 500;
   }
   .nav-link:hover,
@@ -202,8 +204,13 @@ const copy = ui(lang);
   .header-actions {
     flex-shrink: 0;
     display: flex;
-    align-items: flex-end;
-    margin-left: -4px;
+    align-items: center;
+    gap: var(--header-group-gap);
+  }
+  .header-consultation :global(.button) {
+    font-size: 14px;
+    padding: 10px 12px;
+    white-space: nowrap;
   }
   .menu-toggle {
     display: none;
@@ -221,62 +228,16 @@ const copy = ui(lang);
     .header-container {
       max-width: 1400px;
     }
-    .nav-items {
-      gap: 8px;
-    }
-    .site-nav {
-      justify-content: center;
-    }
-    .nav-link {
-      font-size: 16px;
-    }
   }
   @media screen and (min-width: 1440px) {
     .site-header {
       padding-inline: 5%;
     }
-    .header-row {
-      column-gap: 10px;
-    }
-    .nav-items {
-      column-gap: 6px;
-    }
-    .site-nav {
-      flex: 0 auto;
-    }
-    .nav-link {
-      padding-inline: 0.8vw;
-      font-size: 15px;
-    }
   }
-  @media screen and (min-width: 1920px) {
-    .header-row {
-      min-width: 100%;
-    }
-    .nav-items {
-      margin-left: auto;
-    }
-  }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1199px) {
     .menu-request {
       display: block;
       margin-top: 20px;
-    }
-    .site-header {
-      padding: 0;
-    }
-    .header-container {
-      padding-inline: 5%;
-    }
-    .brand {
-      width: 140px;
-    }
-    .brand span {
-      letter-spacing: 0.375px;
-    }
-    .brand-hr span {
-      font-size: 12px;
-      letter-spacing: 0;
     }
     .site-nav {
       display: none;
@@ -307,27 +268,47 @@ const copy = ui(lang);
       font-size: 16px;
       color: #282828;
     }
-    .desktop-language,
-    .header-consultation {
+    .desktop-language {
       display: none;
     }
     .header-actions {
       margin: 0;
-      gap: 10px;
+      gap: var(--header-group-gap);
       align-items: center;
     }
     .menu-toggle {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 26px;
-      height: 22px;
+      width: 44px;
+      height: 44px;
     }
     .menu-toggle[aria-expanded='true'] .menu-icon {
       display: none;
     }
     .menu-toggle[aria-expanded='true'] .close-icon {
       display: block;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .site-header {
+      padding: 0;
+    }
+    .header-container {
+      padding-inline: 5%;
+    }
+    .brand {
+      width: 140px;
+    }
+    .brand span {
+      letter-spacing: 0.375px;
+    }
+    .brand-hr span {
+      font-size: 12px;
+      letter-spacing: 0;
+    }
+    .header-consultation {
+      display: none;
     }
   }
   @media screen and (max-width: 479px) {
@@ -357,11 +338,15 @@ const copy = ui(lang);
   }
 </style>
 <script>
+  import { desktopNavigationQuery } from '../scripts/navigation';
   document.querySelectorAll<HTMLElement>('[data-header]').forEach((header) => {
     if (header.dataset.ready) return;
     header.dataset.ready = 'true';
     const button = header.querySelector<HTMLButtonElement>('.menu-toggle')!;
     const nav = header.querySelector<HTMLElement>('nav')!;
+    const desktopNavigation = matchMedia(desktopNavigationQuery);
+    let wasDesktop = desktopNavigation.matches;
+    let hiddenOnResize: HTMLElement | null = null;
     let previousOverflow = '';
     let closing: Animation | null = null;
     const setOpen = (open: boolean) => {
@@ -381,7 +366,7 @@ const copy = ui(lang);
         if (wasOpen) document.body.style.overflow = previousOverflow;
         if (
           wasOpen &&
-          matchMedia('(max-width:991px)').matches &&
+          !desktopNavigation.matches &&
           !matchMedia('(prefers-reduced-motion:reduce)').matches
         ) {
           closing = nav.animate(
@@ -427,8 +412,34 @@ const copy = ui(lang);
         button.focus();
       }
     });
-    matchMedia('(min-width:992px)').addEventListener('change', () =>
-      setOpen(false),
-    );
+    // Browsers may blur a newly hidden control before dispatching media change.
+    // Remember only that breakpoint-triggered blur, never unrelated past focus.
+    header.addEventListener('focusout', (event) => {
+      if (
+        desktopNavigation.matches !== wasDesktop &&
+        event.target instanceof HTMLElement &&
+        !event.target.checkVisibility({ visibilityProperty: true })
+      )
+        hiddenOnResize = event.target;
+    });
+    desktopNavigation.addEventListener('change', (event) => {
+      const focused = hiddenOnResize ?? document.activeElement;
+      hiddenOnResize = null;
+      wasDesktop = event.matches;
+      const focusWillHide =
+        focused instanceof HTMLElement &&
+        (event.matches
+          ? focused === button ||
+            Boolean(focused.closest('[data-language].mobile'))
+          : nav.contains(focused));
+      setOpen(false);
+      header
+        .querySelectorAll<HTMLDetailsElement>('details[open]')
+        .forEach((details) => (details.open = false));
+      if (focusWillHide) {
+        if (event.matches) nav.querySelector<HTMLElement>('summary')?.focus();
+        else button.focus();
+      }
+    });
   });
 </script>

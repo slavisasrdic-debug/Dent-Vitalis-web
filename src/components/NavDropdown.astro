@@ -42,12 +42,13 @@ const { group } = Astro.props;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4px;
-    padding: 10px 3px;
+    gap: 6px;
+    padding: 12px var(--header-nav-item-padding);
     border-radius: var(--radius);
     font-weight: 500;
-    font-size: 12px;
-    line-height: 1;
+    font-size: var(--header-nav-font-size);
+    line-height: 20px;
+    white-space: nowrap;
   }
   summary:hover {
     background: var(--color-accent);
@@ -65,7 +66,7 @@ const { group } = Astro.props;
   .dropdown-panel {
     position: absolute;
     z-index: 1000;
-    top: 30px;
+    top: calc(100% - 4px);
     padding-top: 20px;
     min-width: 500px;
   }
@@ -83,7 +84,7 @@ const { group } = Astro.props;
     align-items: center;
     padding: 8px 8px 8px 0;
     margin-left: calc(-1 * var(--dropdown-link-shift));
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     transition: color var(--dropdown-link-duration);
@@ -105,7 +106,7 @@ const { group } = Astro.props;
       color: var(--color-primary);
     }
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     .dropdown-links a:focus-visible .link-label {
       transform: translateX(var(--dropdown-link-shift));
     }
@@ -113,7 +114,7 @@ const { group } = Astro.props;
       transform: translateX(var(--dropdown-link-shift)) scaleX(1);
     }
   }
-  @media screen and (min-width: 992px) and (hover: hover) {
+  @media screen and (min-width: 1200px) and (hover: hover) {
     .dropdown-links a:hover .link-label {
       transform: translateX(var(--dropdown-link-shift));
     }
@@ -135,10 +136,6 @@ const { group } = Astro.props;
     .dropdown-panel {
       min-width: 600px;
     }
-    summary,
-    .dropdown-links a {
-      font-size: 16px;
-    }
   }
   @media screen and (min-width: 1920px) {
     .dropdown-panel {
@@ -146,17 +143,12 @@ const { group } = Astro.props;
     }
   }
   @media screen and (min-width: 1440px) {
-    summary {
-      gap: 6px;
-      padding-inline: 0.8vw;
-      font-size: 15px;
-    }
     .dropdown-arrow {
       width: 14px;
       height: 14px;
     }
   }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1199px) {
     .dropdown {
       width: 100%;
       border-bottom: 1px solid var(--color-border);
@@ -219,7 +211,7 @@ const { group } = Astro.props;
   }
 </style>
 <style>
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1199px) {
     @supports (interpolate-size: allow-keywords) {
       .dropdown::details-content {
         interpolate-size: allow-keywords;
@@ -240,7 +232,7 @@ const { group } = Astro.props;
       transform: rotate(225deg);
     }
   }
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1200px) {
     .dropdown[open] .dropdown-links {
       animation: dropdown-open 300ms linear;
     }
@@ -267,21 +259,45 @@ const { group } = Astro.props;
   }
 </style>
 <script>
+  import { desktopNavigationQuery } from '../scripts/navigation';
   document
     .querySelectorAll<HTMLDetailsElement>('[data-nav-dropdown]')
     .forEach((details) => {
       if (details.dataset.ready) return;
       details.dataset.ready = 'true';
-      details.addEventListener('mouseenter', () => {
-        if (matchMedia('(min-width: 992px)').matches) details.open = true;
-      });
-      details.addEventListener('mouseleave', () => {
+      details.addEventListener('pointerenter', (event) => {
         if (
-          matchMedia('(min-width: 992px)').matches &&
+          event.pointerType === 'mouse' &&
+          matchMedia(desktopNavigationQuery).matches
+        )
+          details.open = true;
+      });
+      details.addEventListener('pointerleave', (event) => {
+        if (
+          event.pointerType === 'mouse' &&
+          matchMedia(desktopNavigationQuery).matches &&
           !details.contains(document.activeElement)
         )
           details.open = false;
       });
+      details
+        .querySelector('summary > a')
+        ?.addEventListener('click', (event) => {
+          // First plain activation reveals the list; the next follows its real URL.
+          // Keep new-tab/window shortcuts and the no-JS link behavior native.
+          if (
+            event instanceof MouseEvent &&
+            !event.button &&
+            !event.metaKey &&
+            !event.ctrlKey &&
+            !event.shiftKey &&
+            !event.altKey &&
+            !details.open
+          ) {
+            event.preventDefault();
+            details.open = true;
+          }
+        });
       details.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
           details.open = false;
