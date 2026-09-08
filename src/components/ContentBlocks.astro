@@ -12,8 +12,10 @@ import ReviewSource from './ReviewSource.astro';
 interface Props {
   blocks: ContentBlock[];
   lang?: string;
+  eagerVideoId?: string | undefined;
+  eagerImage?: string | undefined;
 }
-const { blocks, lang = 'it' } = Astro.props;
+const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
 ---
 
 {
@@ -24,7 +26,12 @@ const { blocks, lang = 'it' } = Astro.props;
         <List class="content-list">
           {block.items.map((items) => (
             <li>
-              <Astro.self blocks={items} lang={lang} />
+              <Astro.self
+                blocks={items}
+                lang={lang}
+                eagerVideoId={eagerVideoId}
+                eagerImage={eagerImage}
+              />
             </li>
           ))}
         </List>
@@ -35,7 +42,12 @@ const { blocks, lang = 'it' } = Astro.props;
     if (block.type === 'group')
       return (
         <div id={block.id} class:list={['content-group', block.variant]}>
-          <Astro.self blocks={block.children} lang={lang} />
+          <Astro.self
+            blocks={block.children}
+            lang={lang}
+            eagerVideoId={eagerVideoId}
+            eagerImage={eagerImage}
+          />
         </div>
       );
     if (block.type === 'paragraph')
@@ -84,6 +96,7 @@ const { blocks, lang = 'it' } = Astro.props;
           class={`content-image ${block.variant}`}
           image={block.image}
           alt={block.alt}
+          eager={block.image === eagerImage}
           sizes="(min-width:992px) 55vw, 90vw"
         />
       );
@@ -106,7 +119,13 @@ const { blocks, lang = 'it' } = Astro.props;
       );
     if (block.type === 'comparison') return <GalleryComparison {...block} />;
     if (block.type === 'youtube')
-      return <YouTubeVideo {...block} lang={lang} />;
+      return (
+        <YouTubeVideo
+          {...block}
+          lang={lang}
+          eager={block.videoId === eagerVideoId}
+        />
+      );
     if (block.type === 'map') return <MapPanel src={block.src} />;
     if (block.type === 'review-source') return <ReviewSource {...block} />;
     return null;

@@ -14,6 +14,18 @@ const variant =
     : page.typography === 'reference-default'
       ? 'legal'
       : 'standard';
+// Only the leading testimonial poster can enter the first tall desktop screen.
+// This does not preload a YouTube player or promote subsequent video posters.
+const eagerVideoId =
+  variant === 'testimonials'
+    ? page.blocks.find((block) => block.type === 'youtube')?.videoId
+    : undefined;
+// The shorter Croatian introduction exposes the first portrait on tall screens.
+// Select it from existing content; later doctor portraits retain lazy loading.
+const eagerImage =
+  (page.referenceRoute ?? page.route) === '/su-di-noi/i-nostri-specialisti'
+    ? page.blocks.find((block) => block.type === 'image')?.image
+    : undefined;
 ---
 
 <div
@@ -30,7 +42,12 @@ const variant =
         />
       )
     }<article class="editorial-copy">
-      <ContentBlocks blocks={page.blocks} lang={page.lang} />
+      <ContentBlocks
+        blocks={page.blocks}
+        lang={page.lang}
+        eagerVideoId={eagerVideoId}
+        eagerImage={eagerImage}
+      />
     </article>
   </div>
 </div>

@@ -1,5 +1,6 @@
 ---
 import Button from './Button.astro';
+import BrandLogo from './BrandLogo.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import NavDropdown from './NavDropdown.astro';
 import { ui } from '../content/ui';
@@ -25,14 +26,7 @@ const copy = ui(lang);
       <a
         href={lang === 'hr' ? '/hr/' : '/'}
         class:list={['brand', { 'brand-hr': lang === 'hr' }]}
-        ><img
-          src="/assets/images/Dentvitalis-logo-color_21200px.svg"
-          width="150"
-          height="30"
-          alt={copy.logo}
-          fetchpriority="high"
-          loading="eager"
-        /><span>{tagline}</span></a
+        ><BrandLogo label={copy.logo} /><span>{tagline}</span></a
       >
       <nav id={id} aria-label={copy.nav} class="site-nav">
         <div class="nav-items">
@@ -157,10 +151,6 @@ const copy = ui(lang);
     min-width: 137px;
     flex-shrink: 0;
     color: #00647e;
-  }
-  .brand img {
-    width: 100%;
-    height: 30px;
   }
   .brand span {
     white-space: nowrap;

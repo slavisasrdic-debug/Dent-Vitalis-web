@@ -31,7 +31,10 @@ test('Croatian descriptor aligns to the logo at mobile and desktop breakpoints',
         const range = document.createRange();
         range.selectNodeContents(span);
         return {
-          logo: brand.querySelector('img')!.getBoundingClientRect().toJSON(),
+          logo: brand
+            .querySelector('[data-brand-logo]')!
+            .getBoundingClientRect()
+            .toJSON(),
           text: range.getBoundingClientRect().toJSON(),
           textHeight: span.clientHeight,
           overflow: span.scrollWidth - span.clientWidth,

@@ -1,6 +1,7 @@
 ---
 import homeAssets from '../content/home-assets.json';
 import innerAssets from '../content/inner-assets.json';
+import transparent from '../../public/assets/images/transparent.svg?raw';
 const assets = { ...homeAssets, ...innerAssets };
 export type ImageKey = keyof typeof assets;
 interface Props {
@@ -9,6 +10,7 @@ interface Props {
   sizes?: string;
   class?: string;
   eager?: boolean;
+  eagerMedia?: string | undefined;
   reveal?: boolean;
 }
 const {
@@ -17,6 +19,7 @@ const {
   sizes = '100vw',
   class: className,
   eager = false,
+  eagerMedia,
 } = Astro.props;
 const asset = assets[image as ImageKey];
 if (!asset) throw new Error(`Unknown source image: ${image}`);
@@ -25,21 +28,40 @@ const imageUrl = (path: string) =>
   path.split('/').map(encodeURIComponent).join('/');
 ---
 
-<img
-  data-reveal={Astro.props.reveal ? 'grow' : undefined}
-  data-delay={Astro.props.reveal ? 400 : undefined}
-  data-offset={Astro.props.reveal ? 0 : undefined}
-  class={className}
-  src={imageUrl(asset.src)}
-  alt={alt}
-  width={'width' in asset ? asset.width : undefined}
-  height={'height' in asset ? asset.height : undefined}
-  srcset={'variants' in asset
-    ? asset.variants
-        .map((variant) => `${imageUrl(variant.src)} ${variant.width}w`)
-        .join(', ')
-    : undefined}
-  sizes={sizes}
-  loading={eager ? 'eager' : 'lazy'}
-  decoding="async"
-/>
+{
+  eager && eagerMedia ? (
+    <picture class="eager-picture">
+      <source
+        media={`not all and ${eagerMedia}`}
+        srcset={`data:image/svg+xml,${encodeURIComponent(transparent)}`}
+      />
+      <Astro.self {...Astro.props} eagerMedia={undefined} />
+    </picture>
+  ) : (
+    <img
+      data-reveal={Astro.props.reveal ? 'grow' : undefined}
+      data-delay={Astro.props.reveal ? 400 : undefined}
+      data-offset={Astro.props.reveal ? 0 : undefined}
+      class={className}
+      src={imageUrl(asset.src)}
+      alt={alt}
+      width={'width' in asset ? asset.width : undefined}
+      height={'height' in asset ? asset.height : undefined}
+      srcset={
+        'variants' in asset
+          ? asset.variants
+              .map((variant) => `${imageUrl(variant.src)} ${variant.width}w`)
+              .join(', ')
+          : undefined
+      }
+      sizes={sizes}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+  )
+}
+<style>
+  .eager-picture {
+    display: contents;
+  }
+</style>

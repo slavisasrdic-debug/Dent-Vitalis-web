@@ -27,7 +27,7 @@ const { cards, variant, label, directory } = Astro.props;
     <div class="sequence-grid">
       <div class="card-column">
         {
-          cards.map((card) => (
+          cards.map((card, index) => (
             <div class="card-step">
               <>
                 <div
@@ -38,6 +38,8 @@ const { cards, variant, label, directory } = Astro.props;
                     image={card.mobileImage}
                     alt={card.alt}
                     sizes="100vw"
+                    eager={!!directory && index === 0}
+                    eagerMedia="(max-width: 991px)"
                   />
                 </div>
                 <TeaserCard
@@ -63,6 +65,8 @@ const { cards, variant, label, directory } = Astro.props;
                   image={card.desktopImage}
                   alt=""
                   sizes="2000px"
+                  eager={!!directory && index === 0}
+                  eagerMedia="(min-width: 992px)"
                 />
               </div>
             ))

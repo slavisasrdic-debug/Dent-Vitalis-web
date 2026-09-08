@@ -1,6 +1,7 @@
 ---
 import type groups from '../content/footer-it.json';
 import { ui } from '../content/ui';
+import BrandLogo from './BrandLogo.astro';
 interface Props {
   business: {
     address: string;
@@ -29,11 +30,7 @@ const socials = [
   <div class="footer-inner">
     <div class="footer-container">
       <a class="footer-brand" href={lang === 'hr' ? '/hr/' : '/'}
-        ><img
-          src="/assets/images/Dentvitalis-logo-color_21200px.svg"
-          alt={copy.logo}
-          width="140"
-        /></a
+        ><BrandLogo label={copy.logo} variant="footer" /></a
       ><div class="footer-grid">
         {
           sections.map((group) => (
@@ -118,10 +115,6 @@ const socials = [
   .footer-brand {
     display: block;
     width: 140px;
-  }
-  .footer-brand img {
-    display: inline-block;
-    vertical-align: middle;
   }
   .footer-grid {
     display: flex;

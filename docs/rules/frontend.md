@@ -29,6 +29,8 @@ Izdvojeno iz AGENTS.md 2026-09-08 bez ukidanja pravila. Učitati prema usmjerava
 Produkcijske slike moraju imati optimalne dimenzije, WebP/AVIF izvedenice, responsive `srcset` gdje je potreban i smislen alt tekst. Dekorativne slike moraju imati `alt=""`.
 
 - Izvorne nazive datoteka sačuvati, ali segmente URL-a kodirati pri ispisu `src` i osobito `srcset`: neescapani razmak razdvaja URL od width descriptora. Provjeriti decode i browser upozorenja, ne samo HTTP odgovor osnovne slike.
+- Logotip koristi zajednički statički `BrandLogo`, ugrađen iz izvornog SVG-a u početni HTML bez zasebnog zahtjeva, JS-a ili reveal efekta. Sačuvati boje, geometriju, lokaliziranu dostupnu oznaku i originalnu datoteku; nove instance ne smiju duplicirati SVG ID-jeve.
+- Fotografije/posteri u prvom ekranu moraju imati SSR `loading="eager"`. Provjeriti svaki jezik i stvarni desktop/mobile raspored, uključujući više ekrane. `eagerMedia` na odvojenim responsive fotografijama mora preuzeti samo aktivni izvor. Kasnije kartice/posteri ostaju lazy; `eager` nije nalog za sve slike, preload svih videa ili visoki fetch prioritet svakog resursa.
 
 Najveće dostupne fotografije iz Webflow exporta koristit će se kao izvor za sve optimizirane izvedenice. Ne povećavati fotografije iznad stvarne rezolucije.
 

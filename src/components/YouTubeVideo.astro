@@ -4,8 +4,9 @@ interface Props {
   videoId: string;
   title: string;
   lang?: string;
+  eager?: boolean;
 }
-const { videoId, title, lang = 'it' } = Astro.props;
+const { videoId, title, lang = 'it', eager = false } = Astro.props;
 if (!/^[\w-]{11}$/.test(videoId))
   throw new Error(`Invalid reference video ID: ${videoId}`);
 ---
@@ -18,7 +19,7 @@ if (!/^[\w-]{11}$/.test(videoId))
       ><img
         src={`/assets/images/youtube-${videoId}.webp`}
         alt=""
-        loading="lazy"
+        loading={eager ? 'eager' : 'lazy'}
         width="480"
         height="360"
       /><span class="play" aria-hidden="true"

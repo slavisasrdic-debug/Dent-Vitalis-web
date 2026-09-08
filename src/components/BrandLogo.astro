@@ -1,0 +1,65 @@
+---
+import original from '../../public/assets/images/Dentvitalis-logo-color_21200px.svg?raw';
+
+interface Props {
+  label: string;
+  variant?: 'header' | 'footer';
+}
+const { label, variant = 'header' } = Astro.props;
+const viewBox = original.match(/\bviewBox="([^"]+)"/)?.[1];
+// Inline the accepted artwork at build time, without editing its source bytes.
+// The two unused Illustrator layer IDs must not repeat between logo instances.
+const artwork = original
+  .replace(/^[\s\S]*?<svg\b[^>]*>/, '')
+  .replace(/<\/svg>\s*$/, '')
+  .replace(/\s+id="Layer_[^"]*"/g, '');
+if (!viewBox || /\bid=|\bhref=|url\(|<script\b/i.test(artwork)) {
+  throw new Error(
+    'Logo artwork changed: review SVG references before inlining.',
+  );
+}
+---
+
+{
+  variant === 'header' ? (
+    <svg
+      data-brand-logo
+      class="header"
+      role="img"
+      aria-label={label}
+      focusable="false"
+      viewBox={viewBox}
+      width="150"
+      height="30"
+    >
+      <Fragment set:html={artwork} />
+    </svg>
+  ) : (
+    // Preserve the original image rasterization at the footer's fractional height.
+    // A data URL embeds the exact source bytes without an external image request.
+    <img
+      data-brand-logo
+      class="footer"
+      src={`data:image/svg+xml,${encodeURIComponent(original)}`}
+      alt={label}
+      width="140"
+    />
+  )
+}
+
+<style>
+  svg,
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .header {
+    height: 30px;
+  }
+  .footer {
+    display: inline-block;
+    vertical-align: middle;
+  }
+</style>
