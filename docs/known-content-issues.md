@@ -2,6 +2,15 @@
 
 Ovo nije lista zadataka koje treba automatski “popraviti” nagađanjem. Svaka stavka traži potvrdu vlasnika sadržaja, dizajna, SEO-a ili integracije.
 
+## Aktualizacija 8. rujna 2026. — HR izvor i ponovna provjera IT kopije
+
+- Ponovni mrežni dohvat potvrđuje svih 28 objavljenih Webflow HTML-ova i glavni CSS kao hash-identične prihvaćenom handoffu. Title, meta description i H1 odgovaraju Astrou na svih 28 ruta. IT tekst iz naknadnog DOCX-a korisnik izričito ne želi ponovno mijenjati.
+- Nova `npm run audit:copy:it` provjera uspoređuje normalizirane tekstualne jedinice statičkog HTML-a, uključujući FAQ odgovore; ne mijenja sadržaj. Nije dokaz jednakog redoslijeda, broja ponavljanja ili vizualnog prikaza. Otkrivenih 19 jedinstvenih razlika odnosi se na jezične kratice, pristupačnu skip poveznicu i oznake obrasca koje Webflow naknadno zamjenjuje svojim skriptama. Stvarni render Webflow obrasca dodatno je pregledan i potvrđuje `Seleziona il file`, `Ho letto l'informativa sulla privacy.` i isti kontaktni naslov kao Astro. Nema preostalih nerazvrstanih tekstualnih razlika u tom auditu.
+- Raw odgovori i detaljni rezultat ostaju u `.astro/audits/italian-copy/`. Ponovljena lokalna provjera može koristiti `--cached`, uz zadržavanje datuma stvarnog mrežnog dohvata; to ne smije biti predstavljeno kao nova provjera objavljenog weba. Nisu ponovno generirane velike vizualne matrice niti mijenjan IT prikaz.
+- Postoji potvrđeni HR DOCX izvor, uz žute napomene i IT-only izuzeća. To ne mijenja činjenicu da je sam Webflow handoff talijanski. Prihvat, poznate razlike, prazne ćelije i prijedlog HR URL-ova nalaze se u `croatian-content-intake.md`.
+- HR slugovi čekaju korisničku potvrdu; privremeno preslikavanje IT slugova pod `/hr/` odbijeno je. Pravne HR stranice nemaju odobren izvor u DOCX-u. Backend, produkcijski SEO, pravni/medicinski pregled i uključivanje integracija ostaju zasebne odluke.
+- Ranija primjedba o kasnom učitavanju logotipa nije zatvorena ovom provjerom teksta. Potrebna je ciljana provjera hladnog učitavanja; ne tvrditi da je riješena bez mjerenja i browser dokaza.
+
 ## Aktualizacija 7. rujna 2026. — naslovnica
 
 - Prihvat exporta i handoffa je završen, manifest verificiran; HTML i glavni CSS objavljene naslovnice ponovno su potvrđeni kao identični handoffu. Stari nedostatak exporta je **riješen**.

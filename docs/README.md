@@ -6,6 +6,8 @@
 - `astro-component-map.md` — implementirane komponente, tipizirani propsi, varijante i potrošači
 - `homepage-implementation.md` — preview, provjere, usporedni screenshotovi i otvorene stavke isporuke naslovnice
 - `content-guidelines.md` — pravila unosa i provjere sadržaja
+- `croatian-content-intake.md` — potvrđeni HR izvor, napomene i prijedlog slugova koji čeka potvrdu
+- `rules/` — obvezna detaljna pravila izdvojena iz AGENTS.md; čitati prema vrsti zadatka
 - `known-content-issues.md` — potvrđeni problemi i blokatori bez nagađanja
 - `page-inventory.md` — Webflow/live rute i obvezni jezični model
 - `seo-migration.md` — plan inventara URL-ova i redirecta

@@ -10,3 +10,5 @@ reference/webflow-handoff/*/extracted/
 reference/screenshots/2026-09-07-home/**/*.json
 reference/screenshots/2026-09-07-inner/**/*.json
 reference/webflow-handoff/2026-09-07/*.json
+# Deterministic DOCX catalogue; verify with content:check:hr, do not reformat.
+data/translations/hr-source.json
