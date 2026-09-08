@@ -123,6 +123,34 @@ const { cards, variant, label, directory } = Astro.props;
     object-fit: cover;
   }
   @media screen and (min-width: 992px) {
+    /* Directory geometry must be correct before JavaScript (and without it).
+       The card shares the page gutter; only its background is full-bleed. */
+    .directory .sequence-container {
+      width: calc(100% - var(--header-gutter) - var(--header-gutter));
+      max-width: var(--header-container-max);
+    }
+    .directory .sequence-grid {
+      display: block;
+      position: relative;
+    }
+    .directory .card-column {
+      width: min(45vw, 540px);
+      margin: 0;
+      position: relative;
+      z-index: 1;
+    }
+    .directory .image-column {
+      position: absolute;
+      inset-block: 0;
+      left: 50%;
+      width: 100vw;
+      margin: 0;
+      transform: translateX(-50%);
+    }
+    .directory .sticky-images {
+      width: 100%;
+      margin: 0;
+    }
     .directory .card-step {
       justify-content: flex-start;
     }
@@ -141,6 +169,9 @@ const { cards, variant, label, directory } = Astro.props;
   @media screen and (min-width: 1440px) {
     .sequence-container {
       max-width: 1400px;
+    }
+    .directory .card-column {
+      width: 560px;
     }
   }
   @media screen and (min-width: 1920px) {

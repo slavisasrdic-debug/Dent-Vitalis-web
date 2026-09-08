@@ -1,5 +1,6 @@
 import data from './inner-pages-it.json';
 import { bindReferenceBusiness } from './reference-bindings';
+import { completeRelatedServices } from './related-services';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -116,8 +117,13 @@ export interface InnerPage {
   hiddenSourceSections: string[];
 }
 // A generated transcription, not an approved production content database.
-export const innerPages = (data as InnerPage[]).map((page) =>
-  ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(page.route)
-    ? page
-    : bindReferenceBusiness(page),
+export const innerPages = completeRelatedServices(
+  (data as InnerPage[]).map((page) =>
+    ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
+      page.route,
+    )
+      ? page
+      : bindReferenceBusiness(page),
+  ),
+  '/prestazioni-dentali',
 );

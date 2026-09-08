@@ -6,6 +6,7 @@
 - Naknadno je izričito odobrio hrvatske pravne tekstove s postojećeg public weba: `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja`. Time opseg raste na 27 HR stranica; jedino prijevoz ostaje isključen. Izvorne pravne tekstove sačuvati s datumom i SHA-256, bez samostalnog pravnog preuređivanja.
 - Odobrenje URL-ova nije instalacija produkcijskih redirekcija niti odobrenje objave. DOCX ostaje glavni izvor nepravnog HR sadržaja; stari live sadržaj ne zamjenjuje njegove cijene, recenzije ili medicinske tekstove.
 - Lokalizirati i alt/ARIA, title/description, OG i strukturirane podatke. SEO opisi se izvode iz stvarno prikazanog izvornog teksta; ne dodavati medicinske tvrdnje, ocjene, autore provjere ili datume kojih nema u izvoru.
+- Korisnik je naknadno zatražio kraći hrvatski ekvivalent gumba „Consulta il dentista”: `clinic.consultation` koristi „Pitaj stomatologa” u headeru i sticky CTA-u. To je izričita UI iznimka, ne prevođenje ili promjena DOCX teksta kontaktne sekcije. „Ostale usluge” uključuju sve četiri preostale usluge; kartica sedacije ponovno koristi postojeće HR izvore `p62`/`p63`, bez talijanske cijene/ponude.
 
 ## Mjerodavni izvori i granica zadatka
 

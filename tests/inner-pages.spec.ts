@@ -163,11 +163,11 @@ test('inner-page content and FAQ remain available without JavaScript', async ({
   }
 });
 
-test('related services keep all four desktop columns and stack at the source breakpoint', async ({
+test('related services use two desktop columns inside page margins and a mobile stack', async ({
   page,
 }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  for (const width of [1440, 992, 991, 390]) {
+  for (const width of [1920, 1440, 992, 991, 390]) {
     await page.setViewportSize({ width, height: 900 });
     for (const entry of innerPages.filter((entry) => entry.related.length)) {
       await page.goto(entry.route);
@@ -178,7 +178,7 @@ test('related services keep all four desktop columns and stack at the source bre
         nodes.map((node) => node.getBoundingClientRect().toJSON()),
       );
       if (width >= 992) {
-        expect(new Set(boxes.map((box) => box.y)).size).toBe(1);
+        expect(new Set(boxes.map((box) => box.y)).size).toBe(2);
       } else {
         expect(
           boxes.every((box, i) => !i || box.y >= boxes[i - 1].bottom + 39),

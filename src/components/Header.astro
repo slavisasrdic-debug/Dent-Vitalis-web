@@ -122,14 +122,14 @@ const copy = ui(lang);
     z-index: var(--z-header);
     width: 100%;
     height: var(--header-height);
-    padding-inline: 20px;
+    padding-inline: var(--header-gutter);
     border-bottom: 1px solid var(--color-border-translucent);
     background: white;
     font-family: var(--font-body);
     backdrop-filter: blur(10px);
   }
   .header-container {
-    max-width: 1200px;
+    max-width: var(--header-container-max);
     height: 100%;
     margin-inline: auto;
     display: flex;
@@ -213,16 +213,6 @@ const copy = ui(lang);
   }
   .close-icon {
     display: none;
-  }
-  @media screen and (min-width: 1280px) {
-    .header-container {
-      max-width: 1400px;
-    }
-  }
-  @media screen and (min-width: 1440px) {
-    .site-header {
-      padding-inline: 5%;
-    }
   }
   @media screen and (max-width: 1199px) {
     .menu-request {

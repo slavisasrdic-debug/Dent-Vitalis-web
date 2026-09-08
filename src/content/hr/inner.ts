@@ -406,11 +406,16 @@ for (const id of ['services', 'about', 'information']) {
     ];
   });
 }
+// The directory contains all five translated services, including sedation.
+// Home intentionally contains only four and is not the related-service catalogue.
+const translatedServices = pages.find(
+  (page) => page.route === route('services'),
+)!.directory;
 for (const page of pages) {
   const original = italianPages.find((p) => p.route === page.referenceRoute)!;
   page.related = original.related.flatMap((card) => {
     const target = hrRoutes.find((r) => r.it_path === card.href);
-    const translated = services.find(
+    const translated = translatedServices.find(
       (c) => c.href === target?.proposed_hr_path,
     );
     return translated

@@ -22,28 +22,8 @@ export function initializeDirectory(root: HTMLElement) {
   function schedule() {
     if (!frame) frame = requestAnimationFrame(update);
   }
-  function measure() {
-    const logo = document.querySelector('header img');
-    cards.forEach((card) => {
-      if (!desktop.matches || !logo) {
-        card.style.removeProperty('--directory-card-width');
-        card.style.removeProperty('--directory-card-offset');
-        return;
-      }
-      const step = card.parentElement!.getBoundingClientRect();
-      card.style.setProperty(
-        '--directory-card-width',
-        `${Math.min(560, Math.round(step.width))}px`,
-      );
-      card.style.setProperty(
-        '--directory-card-offset',
-        `${Math.round(logo.getBoundingClientRect().left - step.left)}px`,
-      );
-    });
-    schedule();
-  }
   addEventListener('scroll', schedule, { passive: true });
-  addEventListener('resize', measure, { passive: true });
-  desktop.addEventListener('change', measure);
-  measure();
+  addEventListener('resize', schedule, { passive: true });
+  desktop.addEventListener('change', schedule);
+  schedule();
 }

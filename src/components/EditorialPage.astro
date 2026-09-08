@@ -100,9 +100,11 @@ const eagerImage =
   }
   .related-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 40px;
   }
+  /* Keep the shared page margins: its 1400px maximum is too narrow for four
+     readable cards. Two balanced rows preserve both alignment and typography. */
   .related-container > h2 {
     font-size: 34px;
     line-height: 1.2;
@@ -141,9 +143,6 @@ const eagerImage =
     .editorial-container,
     .related-container {
       width: 86%;
-    }
-    .related-grid {
-      grid-template-columns: 1fr;
     }
   }
   @media screen and (max-width: 479px) {

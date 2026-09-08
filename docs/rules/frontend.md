@@ -10,6 +10,9 @@ Izdvojeno iz AGENTS.md 2026-09-08 bez ukidanja pravila. Učitati prema usmjerava
 - Poslovne vrijednosti su u `data/site.ts`; transkripcija reference sa statusom review nije produkcijsko odobrenje. Sadržaj i linkove prosljeđivati propsima/slotovima, ne duplicirati poslovna pravila u prikazu.
 - Interakcije ograničiti na root instance, koristiti jedinstvene ID-eve i guard za inicijalizaciju. Page-specific directory animacije nikad ne smiju zahvatiti home.
 - Nakon izmjene shared komponente provjeriti sve izrađene potrošače/varijante; viewport screenshotove sticky sekcija uspoređivati pri istom scrollu. Uspješan build nije dokaz vizualne jednakosti.
+- „Ostale usluge” na svakoj od pet usluga sadrže preostale četiri iz potpunog jezičnog direktorija, ne iz home izbora. Sačuvati zajedničke margine članka; koristiti 2 × 2 od 992px, jedan stupac ispod, bez zasebnog širenja containera radi četiri stisnute kartice.
+- Geometrija directory kartica mora biti spremna u CSS-u prije prvog prikaza i bez JS-a. Ne računati širinu/odmak naknadno preko selektora `header img`; shared SVG/ikone nisu layout API. Pri promjeni logotipa provjeriti i sve ovisne liste, ne samo sam header.
+- Upload kontrolu provjeriti u inline i popup kontekstu oba jezika: ikona i tekst centrirani, cijeli gumb aktivan, dugi nazivi prelomljivi, poruke pogrešnog tipa/veličine vidljive i lokalizirane. Izbor datoteke ne šalje podatke; ne uključivati backend niti testne upite klinici.
 
 - Koristiti Astro sa strogim TypeScriptom i statičkim outputom.
 - Prednost imaju native Astro komponente i organizirani obični CSS s varijablama/tokenima.

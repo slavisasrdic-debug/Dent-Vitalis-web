@@ -138,7 +138,9 @@ export const clinic = {
   ...itClinic,
   // User-approved Croatian logo descriptor, 2026-09-08.
   tagline: 'Stomatolog Rijeka',
-  consultation: t(1, 11, 1),
+  // User-requested short Croatian equivalent of "Consulta il dentista", 2026-09-08.
+  // This overrides the button only; the DOCX contact-section title is unchanged.
+  consultation: 'Pitaj stomatologa',
   menuRequest: { label: t(1, 11, 0), href: '#contatti' },
   tollFree: '',
   openingHours: t(28, 0, 1),

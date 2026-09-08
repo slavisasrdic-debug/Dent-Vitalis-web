@@ -27,11 +27,16 @@ test('Italian preview has truthful language/SEO and local media', async ({
     page.locator('iframe,script[src*=webflow],script[src*=jquery]'),
   ).toHaveCount(0);
   expect(
-    await page
-      .locator('img')
-      .evaluateAll((es) =>
-        es.every((e) => e.getAttribute('src')?.startsWith('/assets/')),
-      ),
+    await page.locator('img').evaluateAll((es) =>
+      es.every((e) => {
+        const src = e.getAttribute('src') || '';
+        return (
+          src.startsWith('/assets/') ||
+          (e.matches('[data-brand-logo]') &&
+            src.startsWith('data:image/svg+xml,'))
+        );
+      }),
+    ),
   ).toBe(true);
   const ids = await page
     .locator('[id]')
