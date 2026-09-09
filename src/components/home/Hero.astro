@@ -16,15 +16,9 @@ const { href } = content;
 ---
 
 <section class="hero" aria-labelledby="home-title">
-  <div class="hero-media">
-    <BackgroundVideo
-      {...heroVideos.desktop}
-      class="desktop-video"
-    /><BackgroundVideo {...heroVideos.mobile} class="mobile-video" /><div
-      class="gradient"
-    >
-    </div>
-  </div>
+  <!-- Keep the in-flow mobile copy before its media in streamed HTML. CSS order
+       alone lets the poster paint above missing copy, then jump down as parsing
+       continues. Desktop copy stays absolutely positioned over the same media. -->
   <div class="hero-container">
     <div class="hero-inner">
       <div class="hero-content">
@@ -65,6 +59,15 @@ const { href } = content;
           /></a
         >
       </div>
+    </div>
+  </div>
+  <div class="hero-media">
+    <BackgroundVideo
+      {...heroVideos.desktop}
+      class="desktop-video"
+    /><BackgroundVideo {...heroVideos.mobile} class="mobile-video" /><div
+      class="gradient"
+    >
     </div>
   </div>
 </section>
