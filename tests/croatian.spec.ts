@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { canonicalUrl } from '../src/content/seo-urls';
+const videoMetadata = JSON.parse(
+  readFileSync('data/video-metadata.json', 'utf8'),
+) as typeof import('../data/video-metadata.json');
 const catalogue = JSON.parse(
   readFileSync('data/translations/hr-source.json', 'utf8'),
 ) as typeof import('../data/translations/hr-source.json');
@@ -108,11 +112,11 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     expect(data.emptySidebars, route.hr).toBe(0);
     expect(data.lang).toBe('hr');
     expect(data.robots).toContain('noindex');
-    expect(data.canonical).toBe('https://www.dentvitalis.com' + route.hr);
+    expect(data.canonical).toBe(canonicalUrl(route.hr));
     expect(data.alternates).toEqual(
       expect.arrayContaining([
-        ['it', 'https://www.dentvitalis.com' + route.it],
-        ['hr', 'https://www.dentvitalis.com' + route.hr],
+        ['it', canonicalUrl(route.it)],
+        ['hr', canonicalUrl(route.hr)],
         ['x-default', 'https://www.dentvitalis.com/'],
       ]),
     );
@@ -120,7 +124,11 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     expect(data.ogTitle).toBe(data.title);
     expect(data.ogDescription).toBe(data.description);
     expect(data.description!.length).toBeGreaterThan(15);
-    expect(data.ogImage).toMatch(/^https:\/\/www\.dentvitalis.com\/assets\//);
+    expect(data.ogImage).toBeTruthy();
+    expect(new URL(data.ogImage!).pathname).toMatch(/^\/assets\//);
+    const socialImage = await request.get(data.ogImage!);
+    expect(socialImage.status()).toBe(200);
+    expect(socialImage.headers()['content-type']).toMatch(/^image\//);
     expect(titles.has(data.title), route.hr).toBe(false);
     titles.add(data.title);
     expect(descriptions.has(data.description!), route.hr).toBe(false);
@@ -370,7 +378,13 @@ test('Croatian structured data describes visible FAQs, offers, people and videos
       );
       expect(videos).toHaveLength(13);
       expect(data.videos).toBe(13);
-      for (const video of videos) expect(video.uploadDate).toBeUndefined();
+      for (const video of videos) {
+        const metadata = videoMetadata.videos.find((item) =>
+          video['@id'].endsWith(`#video-${item.videoId}`),
+        );
+        expect(metadata).toBeTruthy();
+        expect(video.uploadDate).toBe(metadata!.uploadDate);
+      }
       await expect(page.locator('[data-youtube] iframe')).toHaveCount(0);
     }
   }

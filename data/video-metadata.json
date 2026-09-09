@@ -1,0 +1,135 @@
+{
+  "description": "Publication dates read from each video's public YouTube primary information. Day precision only; no time or timezone invented.",
+  "videos": [
+    {
+      "videoId": "H-FtIARwy9o",
+      "uploadDate": "2026-05-27",
+      "sourceUrl": "https://www.youtube.com/watch?v=H-FtIARwy9o&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Lucilla Cecchin",
+      "sourceDate": "May 27, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "4efac7f0752e3a8c11a3dd8fdf67f9d8cd6123ae1d620f62a2d2af04c26f7ed0"
+    },
+    {
+      "videoId": "Af4nKAWScLU",
+      "uploadDate": "2026-05-27",
+      "sourceUrl": "https://www.youtube.com/watch?v=Af4nKAWScLU&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Anna Giacomin",
+      "sourceDate": "May 27, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "00fdb88098577b26bd7f66c927b9b9461d17b194a667b6d08537f851282ba71e"
+    },
+    {
+      "videoId": "0FPxrnc8LgY",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=0FPxrnc8LgY&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Maria Garotti",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "7c393456bc2350594898c41eb9f8c0857adc42837e1ce97a4766f15e4de9b764"
+    },
+    {
+      "videoId": "tOvIrmjGjxc",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=tOvIrmjGjxc&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Maurizio Vegro",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "8fbf1d0454b4702f1694ab6ffb8564865c5c55e242907566463180965a09b8b2"
+    },
+    {
+      "videoId": "hhyIS4OW1LY",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=hhyIS4OW1LY&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Cinzia Caffarra, Fabrizio Gualerzi",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "2cf78c80445d371d0152611b3eb166250a53918c156b2453112fd8ca1b948e18"
+    },
+    {
+      "videoId": "bqx36O-ctGg",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=bqx36O-ctGg&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Giacomo Muggianu",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "1c937cdf6aad39abb3fdba1d65a68a6aa6d148d5f1643bfeae123f6eeebbb30e"
+    },
+    {
+      "videoId": "vHh4413VRV0",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=vHh4413VRV0&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Gianna Masoni",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "4f426a3e997e4ac29e30d5de80e3679f345a930edf1e2613ee9f35d6713af993"
+    },
+    {
+      "videoId": "Pf8xKv1UvzU",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=Pf8xKv1UvzU&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Lorena May Ruzol",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "b58db2dc0ad67ea1c263112ab3c46e44ac0895e7cac4e479bbcaf1cf3504fcc1"
+    },
+    {
+      "videoId": "E_KlE7e9h-M",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=E_KlE7e9h-M&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Vito Mastromatteo",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "b907dda7ae4e3d8a02b494faf13362198432de1c02c383ddda279b93f9e93d90"
+    },
+    {
+      "videoId": "9eoJ0-6wa4M",
+      "uploadDate": "2026-05-19",
+      "sourceUrl": "https://www.youtube.com/watch?v=9eoJ0-6wa4M&hl=en",
+      "sourceTitle": "Dentvitalis - Dentisti Croazia, recensione: Maria Alba Seddone",
+      "sourceDate": "May 19, 2026",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "cbd8c013f3722de0aad7f4d122be465cdd74125262013862427531b21d5a086e"
+    },
+    {
+      "videoId": "zyUCJSaCPgQ",
+      "uploadDate": "2014-06-17",
+      "sourceUrl": "https://www.youtube.com/watch?v=zyUCJSaCPgQ&hl=en",
+      "sourceTitle": "Dentvitalis - I migliori Dentisti della Croatia",
+      "sourceDate": "Jun 17, 2014",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "475bddcaaecb1b86a0713c279b42d53915a5c92052603fdeaf24b5de6b3d80fb"
+    },
+    {
+      "videoId": "Zs_gwP-7iuc",
+      "uploadDate": "2014-05-13",
+      "sourceUrl": "https://www.youtube.com/watch?v=Zs_gwP-7iuc&hl=en",
+      "sourceTitle": "Dentvitalis - I migliori Dentisti della Croatia",
+      "sourceDate": "May 13, 2014",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "bb0f3f2fbdc4856d27adb39e8e07abf8ff7b1287c41302a3ca42a9b5daf0b5d4"
+    },
+    {
+      "videoId": "fzDUHdfqXfo",
+      "uploadDate": "2014-06-17",
+      "sourceUrl": "https://www.youtube.com/watch?v=fzDUHdfqXfo&hl=en",
+      "sourceTitle": "Dentvitalis - I migliori Dentisti della Croatia",
+      "sourceDate": "Jun 17, 2014",
+      "sourceField": "ytInitialData.videoPrimaryInfoRenderer.dateText",
+      "retrievedOn": "2026-09-09",
+      "sha256": "7d057bdfa48523ff2b578d686ab7ac11863cfb93c1c207d953e96db4f3613646"
+    }
+  ]
+}

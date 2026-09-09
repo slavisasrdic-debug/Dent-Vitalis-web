@@ -50,11 +50,20 @@ for (const viewport of [
                 .forEach((node) => node.remove());
               return clone.textContent || '';
             });
+          // Previously approved parking label replaces only the visible long URL.
+          // The original destination is independently checked in parking-links.spec.ts.
+          const expectedCopy =
+            entry.route === '/su-di-noi/come-raggiungerci'
+              ? expected.replace(
+                  'https://share.google/71jvli5wQ7ylYdd8N',
+                  'Posizione del parcheggio',
+                )
+              : expected;
           expect(
             normalized(
               (await page.locator('.editorial-copy').textContent()) || '',
             ),
-          ).toBe(normalized(expected));
+          ).toBe(normalized(expectedCopy));
           await reference.close();
         }
         if (entry.sidebar && viewport.width === 390) {

@@ -34,7 +34,8 @@ SEO: lokalizirani title/description/OG/Twitter/alt/ARIA, canonical i recipročni
 
 - Obrazac nema odobren backend. Nema lažnog uspjeha, testnih upita klinici ni aktiviranog uploada na server. Treba odobriti endpoint, privole, retention, zaštitu i polja.
 - WhatsApp, social destinacije i consent za YouTube/Google Maps ostaju zasebne integracijske odluke.
-- `VideoObject` opisuje 13 stvarnih video zapisa, ali nema izvorno potvrđen `uploadDate` ni trajanje. Ne tvrditi da ispunjava sve zahtjeve Google video rich rezultata. Medicinski autor/reviewer/datum ne izmišljaju se ako nisu dostavljeni.
+- Dopuna 9. rujna: za svih 13 stvarnih videa dohvaćen je datum javne objave iz YouTube `videoPrimaryInfoRenderer.dateText`. `data/video-metadata.json` čuva URL, izvorni naslov/datum, datum dohvata i SHA-256 odgovora; `uploadDate` ima samo potvrđenu preciznost dana, bez izmišljenog vremena/zone. Trajanje nije dohvaćeno; indeksiranje videa nije zajamčeno samim JSON-LD-om. Medicinski autor/reviewer/datum i dalje se ne izmišljaju.
+- Poznati IT „Dr. XY” ostaje u izvornom članku do uredničkog odobrenja. Taj nepotvrđeni opis više se ne prenosi u `Person.description`; ime liječnika i ostali potvrđeni podaci ostaju. Ovo ne zatvara biografsku stavku gornje liste.
 - Sadržaj je semantički i čitljiv bez JS-a; nema posebnog skrivenog „AI” teksta ni obećanja rangiranja. Standardna [Google pravila za AI značajke](https://developers.google.com/search/docs/appearance/ai-features) primjenjuju iste temeljne SEO zahtjeve.
 - Potpuna stara URL → nova URL migracija, 301/410 odluke, produkcijski robots/indexiranje i hosting čekaju zasebnu fazu. Posebno uskladiti staro `/hr/iskustva-pacijenata` → `/hr/testimonials` preusmjerenje prije obrata smjera. Nema DNS promjena ni produkcijske objave.
 - DE/EN/SI prijevodi nisu dostavljeni; njihove stavke nisu lažni prijevodi HR/IT stranica. Fizički iOS/Android uređaji nisu obuhvaćeni headless Chromium/WebKit provjerom.

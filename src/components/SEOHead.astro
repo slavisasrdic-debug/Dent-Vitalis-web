@@ -1,6 +1,7 @@
 ---
 import { graph, socialImage, type PageSEO, origin } from '../content/seo';
 import type { LanguageLink } from '../content/site';
+import { canonicalUrl, publicationSettings } from '../content/seo-urls';
 interface Props {
   title: string;
   description: string;
@@ -13,11 +14,16 @@ const {
   title,
   description,
   lang,
-  canonical,
+  canonical: requestedCanonical,
   languages,
   seo = {},
 } = Astro.props;
-const image = socialImage(seo.photo);
+const canonical = canonicalUrl(requestedCanonical);
+const publication = publicationSettings(process.env);
+const assetOrigin = import.meta.env.DEV
+  ? Astro.url.origin
+  : publication.assetOrigin;
+const image = socialImage(seo.photo, assetOrigin);
 if (!image.alt)
   image.alt =
     lang === 'hr'
@@ -25,19 +31,19 @@ if (!image.alt)
       : 'Donna sorridente — DentVitalis';
 // A literal '<' inside JSON-LD may otherwise terminate an HTML script element.
 const structured = JSON.stringify(
-  graph(title, description, lang, canonical, seo),
+  graph(title, description, lang, canonical, seo, assetOrigin),
 ).replaceAll('<', '\\u003c');
 ---
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<meta name="robots" content="noindex, nofollow" />
+<meta name="robots" content={publication.robots} />
 <link rel="canonical" href={canonical} />
 {
   languages
     .filter((l) => l.available !== false && l.href.startsWith('/'))
     .map((l) => (
-      <link rel="alternate" hreflang={l.lang} href={origin + l.href} />
+      <link rel="alternate" hreflang={l.lang} href={canonicalUrl(l.href)} />
     ))
 }
 <link rel="alternate" hreflang="x-default" href={origin + '/'} />

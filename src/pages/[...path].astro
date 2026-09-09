@@ -25,6 +25,21 @@ interface Props {
 const { page } = Astro.props;
 const pageLanguages = equivalentLanguages(page.route);
 const referenceRoute = page.referenceRoute ?? page.route;
+// Approved metadata repair only; the legal source and visible article stay intact.
+const isItalianLegal =
+  page.lang === 'it' &&
+  ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
+    referenceRoute,
+  );
+const firstParagraph = isItalianLegal
+  ? flatten(page.blocks).find((block) => block.type === 'paragraph')
+  : undefined;
+const title = isItalianLegal ? `${page.hero.title} | DentVitalis` : page.title;
+const description =
+  firstParagraph?.type === 'paragraph'
+    ? (plain(firstParagraph.content).match(/^.*?[.!?](?=\s|$)/s)?.[0] ??
+      plain(firstParagraph.content))
+    : page.description;
 const directory =
   referenceRoute === '/chi-siamo'
     ? 'about'
@@ -38,6 +53,16 @@ const cards = page.directory.map((card) => ({
   alt: card.mobile.alt,
 }));
 const seo: PageSEO = {
+  type:
+    referenceRoute === '/contatti'
+      ? 'ContactPage'
+      : referenceRoute === '/chi-siamo'
+        ? 'AboutPage'
+        : referenceRoute === '/domande-e-risposte'
+          ? 'ImageGallery'
+          : page.directory.length || referenceRoute === '/testimonianze'
+            ? 'CollectionPage'
+            : 'WebPage',
   breadcrumb: page.breadcrumb,
   photo: page.hero.photo ?? page.directory[0]?.desktop,
   questions: flatten(page.blocks).flatMap((b) =>
@@ -76,8 +101,8 @@ if (referenceRoute.startsWith('/prestazioni/')) {
 ---
 
 <SiteLayout
-  title={page.title}
-  description={page.description}
+  title={title}
+  description={description}
   typography={page.typography}
   canonical={`https://www.dentvitalis.com${page.route}`}
   pageLanguages={pageLanguages}

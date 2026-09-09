@@ -1,6 +1,25 @@
 # SEO migracija
 
-Ovaj dokument je početni okvir. Inventar se popunjava tek nakon što se dostavi Webflow export i odobri početak inventara.
+Izvedeno je 55 IT/HR stranica iz prihvaćenih izvora. Potpuna migracijska mapa starog javnog weba i produkcijski hosting ostaju zasebna odluka; ove tehničke dorade ne odobravaju objavu.
+
+## Usklađivanje nakon audita — 9. rujna 2026.
+
+- Korisnik je odobrio provedbu SEO nalaza. Canonical, hreflang, OG URL, schema page/Service/Offer/Breadcrumb URL-ovi i XML koriste završni `/` preko `canonicalUrl()`. Slugovi, izvorni sadržajni ID-evi, query/fragment odredišta internih linkova i povijesne redirekcije nisu promijenjeni. Astro gradi directory/index.html, a postojeći Cloudflare Pages poslužuje directory URL-ove; dev server ne uvodi novu obveznu redirekciju.
+- Talijanske pravne stranice dobivaju title iz postojećeg H1 + brenda te description iz prve potpune rečenice vidljivog članka. Izvorni JSON/export i pravni body ostaju nepromijenjeni. To je odobreno odstupanje od Webflow metapodataka „Dentvitalis33” / praznog opisa, ne razlog za mijenjanje reference radi copy audita.
+- Kontakti su `ContactPage`, O nama `AboutPage`, galerija `ImageGallery`, direktoriji usluga/informacija i video-testimonijala `CollectionPage`. Pravne i ostale informativne stranice ostaju `WebPage`; pet usluga po jeziku zadržava `Service` i postojeće sadržajno potkrijepljene ponude. Nisu dodani članci, ocjene, medicinski revieweri ni proizvoljne cijene.
+- Svih 13 datuma video objave dolazi iz javnih YouTube podataka, uz izvor i SHA-256 u `data/video-metadata.json`. Naslovi i prikazani videi ostaju lokalizirani prema postojećem sadržaju; ne tvrdi se da je govor preveden. Puni mrežni odgovori ostaju u ignoriranom `.astro/audits/video-metadata-2026-09-09/`, ne u javnom buildu. Datum je preciznosti dana, bez izmišljene ponoći ili zone. Dodavanje novog videa bez provjerenog datuma prekida build.
+
+## Preview i buduća produkcija
+
+`publicationSettings()` je jedno mjesto za SEO režim. Zadano je **preview**, čak i uz `NODE_ENV=production` i `CF_PAGES_BRANCH=main`.
+
+- Preview: HTML ostaje `noindex, nofollow`; postojeća `_headers` pravila dodatno štite stabilni i verzionirani `*.pages.dev` preview. `robots.txt` dopušta crawl radi čitanja noindexa i ne oglašava sitemap. Nema `Disallow: /` koji bi sakrio noindex.
+- Preview mediji u OG/Twitter/JSON-LD koriste [Cloudflareov `CF_PAGES_URL`](https://developers.cloudflare.com/pages/configuration/build-configuration/#environment-variables), odnosno stabilni Pages preview kad varijabla ne postoji. Dev prikaz koristi vlastiti origin. Kanonski identitet klinike i budućih stranica ostaje `https://www.dentvitalis.com`, nije zamijenjen preview domenom.
+- **Tek nakon zasebnog odobrenja produkcije**, build s `DENTVITALIS_SITE_MODE=production` uključuje indeksiranje, produkcijske media URL-ove i `Sitemap: https://www.dentvitalis.com/sitemap-index.xml` u robotsu. Varijabla nije sada postavljena niti se aktivira samim pushom. 404 uvijek ostaje noindex. Pages HTTP noindex pravila ostaju na preview hostovima i tada.
+- Na budući server prenosi se samo provjereni `dist/`, ne repozitorij, izvori, tajne ili node_modules. Server mora podržati directory `index.html`, HTTPS/canonical host, dogovorene 301/410 i pravi 404 status. Cloudflare `_headers` nisu automatski Apache/cPanel konfiguracija: cache/security/preview headere treba prilagoditi potvrđenom serveru. Obrazac zahtijeva zasebno odobren backend.
+- GitHub ostaje izvor istine; preview automatski prati push. Produkcijski build/deploy može se naknadno povezati preko GitHub Actions + SSH/SFTP ili cPanel Git deploymenta ako hosting to omogućuje. Produkcijske vjerodajnice, ciljni direktorij, odobrenje i rollback još nisu konfigurirani.
+
+FAQ podaci ostaju sadržajno istiniti, bez obećanja proširenih Google FAQ rezultata: [Google ih je ukinuo u svibnju 2026.](https://developers.google.com/search/updates#may-2026). Video schema mora slijediti [stvarne podatke i zahtjeve](https://developers.google.com/search/docs/appearance/structured-data/video), a markup sam ne jamči indeksiranje ili rangiranje.
 
 ## Redirect inventar
 

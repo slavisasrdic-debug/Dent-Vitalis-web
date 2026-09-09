@@ -4,7 +4,9 @@ import type { ContentBlock, InlineContent, ContentPhoto } from './inner-pages';
 import homeAssets from './home-assets.json';
 import innerAssets from './inner-assets.json';
 import { videoPoster } from './background-videos';
-export const origin = 'https://www.dentvitalis.com';
+import { canonicalUrl, productionOrigin } from './seo-urls';
+import videoMetadata from '../../data/video-metadata.json';
+export const origin = productionOrigin;
 export const plain = (content: InlineContent[]): string =>
   content
     .map((item) =>
@@ -26,6 +28,8 @@ export function flatten(blocks: ContentBlock[]): ContentBlock[] {
   ]);
 }
 export interface PageSEO {
+  type?:
+    'WebPage' | 'ContactPage' | 'AboutPage' | 'ImageGallery' | 'CollectionPage';
   breadcrumb?: { label: string; href: string }[];
   questions?: { question: string; answer: string }[];
   service?: { name: string; price?: string | undefined };
@@ -33,7 +37,7 @@ export interface PageSEO {
   videos?: { videoId: string; title: string }[];
   photo?: ContentPhoto | undefined;
 }
-export function socialImage(photo?: ContentPhoto) {
+export function socialImage(photo?: ContentPhoto, assetOrigin = origin) {
   const assets: Record<
     string,
     { src: string; width?: number; height?: number }
@@ -41,7 +45,11 @@ export function socialImage(photo?: ContentPhoto) {
   const poster = videoPoster('Dentvitalis_video-left');
   const asset = photo ? assets[photo.image] : poster;
   if (!asset) throw new Error(`Unknown SEO image: ${photo?.image}`);
-  return { ...asset, url: origin + asset.src, alt: photo?.alt ?? '' };
+  return {
+    ...asset,
+    url: new URL(asset.src, assetOrigin).href,
+    alt: photo?.alt ?? '',
+  };
 }
 export function graph(
   title: string,
@@ -49,7 +57,9 @@ export function graph(
   lang: string,
   canonical: string,
   seo: PageSEO,
+  assetOrigin = origin,
 ): Graph {
+  canonical = canonicalUrl(canonical);
   const dentistId = `${origin}/#dentist`,
     siteId = `${origin}/#website`,
     pageId = `${canonical}#webpage`;
@@ -62,7 +72,7 @@ export function graph(
       telephone: clinic.contact.phone,
       email: clinic.contact.email,
       address: { '@type': 'PostalAddress', ...structuredBusiness.address },
-      logo: `${origin}/assets/images/Dentvitalis-logo-color_21200px.svg`,
+      logo: `${assetOrigin}/assets/images/Dentvitalis-logo-color_21200px.svg`,
       openingHoursSpecification: {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: [...structuredBusiness.openingDays],
@@ -79,7 +89,7 @@ export function graph(
       inLanguage: ['it', 'hr'],
     },
     {
-      '@type': 'WebPage',
+      '@type': seo.type ?? 'WebPage',
       '@id': pageId,
       url: canonical,
       name: title,
@@ -91,7 +101,7 @@ export function graph(
         ? {
             primaryImageOfPage: {
               '@type': 'ImageObject',
-              url: socialImage(seo.photo).url,
+              url: socialImage(seo.photo, assetOrigin).url,
               caption: seo.photo.alt,
               inLanguage: lang,
             },
@@ -110,7 +120,7 @@ export function graph(
         '@type': 'ListItem',
         position: i + 1,
         name: item.label,
-        item: item.href ? origin + item.href : canonical,
+        item: item.href ? canonicalUrl(item.href) : canonical,
       })),
     });
   if (seo.questions?.length)
@@ -147,17 +157,27 @@ export function graph(
       '@type': 'Person',
       '@id': `${canonical}#person-${i + 1}`,
       name: person.name,
-      ...(person.description ? { description: person.description } : {}),
+      // The known source placeholder awaits editorial approval, not schema publication.
+      ...(person.description && !/\bDr\.\s*XY\b/.test(person.description)
+        ? { description: person.description }
+        : {}),
       worksFor: { '@id': dentistId },
     });
-  for (const video of seo.videos ?? [])
+  for (const video of seo.videos ?? []) {
+    const metadata = videoMetadata.videos.find(
+      (item) => item.videoId === video.videoId,
+    );
+    if (!metadata)
+      throw new Error(`Missing verified publication date: ${video.videoId}`);
     nodes.push({
       '@type': 'VideoObject',
       '@id': `${origin}/#video-${video.videoId}`,
       name: video.title,
+      uploadDate: metadata.uploadDate,
       embedUrl: `https://www.youtube-nocookie.com/embed/${video.videoId}`,
-      thumbnailUrl: `${origin}/assets/images/youtube-${video.videoId}.webp`,
+      thumbnailUrl: `${assetOrigin}/assets/images/youtube-${video.videoId}.webp`,
       isPartOf: { '@id': pageId },
     });
+  }
   return { '@context': 'https://schema.org', '@graph': nodes };
 }
