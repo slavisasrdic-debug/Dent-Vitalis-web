@@ -1,6 +1,25 @@
 # DentVitalis web
 
-Statički Astro projekt s **28 talijanskih stranica**, rekonstruiranih prema prihvaćenoj Webflow referenci. Native Astro komponente, centralizirani sadržaj i lokalni asseti; bez Webflow runtimea. Ovo je `noindex` razvojni preview, ne objavljen novi web. Webflow URL-ovi odobreni su za preview; ostali jezici i konačna SEO migracija nisu izrađeni niti odobreni.
+Statički Astro projekt s **28 talijanskih i 27 hrvatskih stranica**, rekonstruiranih prema prihvaćenoj Webflow referenci i potvrđenim hrvatskim izvorima. Native Astro komponente, centralizirani sadržaj i lokalni asseti; bez Webflow runtimea. Ovo je `noindex` klijentski preview, ne zamjena produkcijskog weba. IT/HR preview putanje su odobrene; DE/EN/SI prijevodi i konačna SEO migracija nisu dovršeni.
+
+## Klijentski preview — Cloudflare Pages
+
+- [Hrvatski preview](https://dent-vitalis-web.pages.dev/hr/)
+- [Talijanski preview](https://dent-vitalis-web.pages.dev/)
+
+Povezan je GitHub repozitorij `slavisasrdic-debug/Dent-Vitalis-web`, grana `main`, s Pages projektom `dent-vitalis-web`. Preview radi neovisno o pokrenutom Codespaceu. Push na `main` pokreće novi Cloudflare build; link prikazuje posljednju uspješno objavljenu verziju, ne nespremljene lokalne izmjene. Status se provjerava kroz GitHub check **Cloudflare Pages** i odgovarajući build log u Cloudflareu.
+
+Postavke za ponavljanje deploymenta: preset `Astro`, korijen repozitorija (prazno polje Root directory), izlaz `dist`, `NODE_VERSION=24` (isto kao `.nvmrc`). Build naredba:
+
+```bash
+git lfs pull --include="public/assets/**" --exclude="" && npm run build
+```
+
+LFS korak dohvaća potrebne javne slike, video i fontove prije builda; asseti se ne regeneriraju iz Webflow exporta. Objavljuje se samo `dist/`, ne repozitorij, ZIP-ovi, izvorni dokumenti ni QA reference. Cloudflareov raniji clone korak može zasebno preuzeti LFS objekte; ova naredba ne jamči da je cijeli checkout ograničen samo na `public/assets/`.
+
+Korisnik je 9. rujna 2026. odobrio ovaj javni klijentski preview. Sadržajne stranice zadržavaju `noindex, nofollow`; to nije zaštita pristupa — svatko s linkom može ih otvoriti. Obrasci i dalje ne šalju upite. `dentvitalis.com`, DNS, produkcijski canonicali i postojeći javni web nisu promijenjeni. Naziv **Production branch** u Pages postavkama označava granu ovog preview projekta, ne odobrenje produkcijske migracije.
+
+Razvojni Codespaces port 4321 i dalje služi za praćenje rada prije commita/pusha, prema postupku niže.
 
 ## Preduvjeti
 

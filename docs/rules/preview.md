@@ -2,6 +2,13 @@
 
 Izdvojeno iz AGENTS.md 2026-09-08 bez ukidanja pravila. Učitati prema usmjeravanju u korijenskom AGENTS.md.
 
+### Javni klijentski preview — odobreno 2026-09-09
+
+- Cloudflare Pages projekt `dent-vitalis-web` povezan je s GitHub granom `main`: IT `https://dent-vitalis-web.pages.dev/`, HR `https://dent-vitalis-web.pages.dev/hr/`. Postavke obnove i LFS build naredba su u README-u. Ne stvarati drugi projekt niti mijenjati hosting/DNS bez novog naloga.
+- Push na `main` sada pokreće i javni preview build. Prije tvrdnje da je promjena dostupna klijentima provjeriti Cloudflare Pages check za točan commit i stvarni javni odgovor. Neuspjeli build ne znači da je prethodni preview nestao. Lokalni Codespaces prikaz može sadržavati još nepushane izmjene; ne predstavljati ga kao istu objavljenu verziju.
+- Odobrenje vrijedi samo za ovaj `pages.dev` preview: sačuvati `noindex`, ne aktivirati slanje obrazaca, ne mijenjati produkcijsku domenu, canonical/hreflang ni DNS. Javni link nije privatan; `noindex` nije kontrola pristupa. Objavljivati isključivo `dist/`, bez izvornih dokumenata i referenci.
+- Codespaces postupak ispod ostaje obvezan za razvojne sesije; Pages preview ne zahtijeva aktivan Codespace.
+
 ### Preview na početku svake radne sesije
 
 - Prije ostalih zadataka provjeriti razvojni server na `0.0.0.0:4321`. Ako ne radi, pokrenuti ga u postojećem Astro projektu; ako radi, ne pokretati drugu instancu niti prebacivati preview na drugi port.
