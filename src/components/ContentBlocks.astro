@@ -295,15 +295,11 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     border-radius: var(--radius);
     margin: 10px 0 20px;
   }
-  .content-anchor {
-    scroll-margin-top: calc(var(--header-height) + 60px);
-  }
   .content-anchor.space {
     height: 40px;
   }
   .content-anchor.section-offset {
     height: 90px;
-    scroll-margin-top: 140px;
   }
   @media screen and (max-width: 991px) {
     .content-paragraph.price {
@@ -311,7 +307,6 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     }
     .content-anchor.section-offset {
       height: 70px;
-      scroll-margin-top: 120px;
     }
     .content-heading.subsection {
       margin-bottom: 10px;
