@@ -22,7 +22,7 @@ const copy = ui(lang);
     <div class="slider-track">
       {
         slides.map((slide, index) => (
-          <article
+          <div
             class="slide"
             role="group"
             aria-roledescription={copy.slide}
@@ -47,7 +47,7 @@ const copy = ui(lang);
                 />
               )}
             </>
-          </article>
+          </div>
         ))
       }
     </div>

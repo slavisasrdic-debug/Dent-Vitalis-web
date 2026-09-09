@@ -36,6 +36,14 @@ for (const route of [
 
     for (const width of widths) {
       await page.setViewportSize({ width, height: 900 });
+      // CSS switches immediately, but the native media-query change callback
+      // (which closes old menus) arrives on a frame. Do not race it with Enter.
+      await page.evaluate(
+        () =>
+          new Promise<void>((resolve) => {
+            requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+          }),
+      );
       const toggle = page.locator('.menu-toggle');
       if (width < 1200) await expect(toggle).toBeVisible();
       else await expect(toggle).toBeHidden();

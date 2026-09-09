@@ -1,6 +1,7 @@
 ---
 import {
   videoPoster,
+  videoUrl,
   type BackgroundVideoSource,
 } from '../content/background-videos';
 interface Props extends BackgroundVideoSource {
@@ -34,11 +35,8 @@ const poster = videoPoster(name);
     />
   </picture>
   <video muted loop playsinline preload="none" aria-hidden="true"
-    ><source
-      data-src={`/assets/video/${name}_mp4.mp4`}
-      type="video/mp4"
-    /><source
-      data-src={`/assets/video/${name}_webm.webm`}
+    ><source data-src={videoUrl(name, 'mp4')} type="video/mp4" /><source
+      data-src={videoUrl(name, 'webm')}
       type="video/webm"
     /></video
   >

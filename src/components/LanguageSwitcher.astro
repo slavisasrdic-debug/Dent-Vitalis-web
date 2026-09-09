@@ -9,6 +9,19 @@ interface Props {
 const { languages, current, variant = 'desktop' } = Astro.props;
 const active = languages.find((language) => language.lang === current)!;
 const copy = ui(current);
+// Native PNG dimensions; keep one fixed visual width without stretching flags.
+const flagHeights: Record<string, number> = {
+  it: 27,
+  de: 24,
+  hr: 20,
+  gb: 20,
+  si: 20,
+};
+function flagHeight(flag: string) {
+  const height = flagHeights[flag];
+  if (!height) throw new Error(`Unknown language flag: ${flag}`);
+  return height;
+}
 ---
 
 <details class:list={['language', variant]} data-language>
@@ -16,8 +29,8 @@ const copy = ui(current);
     ><img
       src={`/assets/images/flag-${active.flag}.png`}
       alt=""
-      width="16"
-      height="12"
+      width="40"
+      height={flagHeight(active.flag)}
     /><span>{active.code}</span><span class="chevron"></span></summary
   >
   <div class="language-menu">
@@ -37,8 +50,8 @@ const copy = ui(current);
           <img
             src={`/assets/images/flag-${language.flag}.png`}
             alt=""
-            width="16"
-            height="12"
+            width="40"
+            height={flagHeight(language.flag)}
           />
           {language.code}
         </a>
@@ -63,11 +76,10 @@ const copy = ui(current);
     font-weight: 600;
     line-height: 1;
   }
-  summary img {
+  img {
     border-radius: 1px;
     width: 16px;
-    height: 12px;
-    object-fit: cover;
+    height: auto;
   }
   .chevron {
     width: 7px;

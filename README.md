@@ -19,6 +19,8 @@ LFS korak dohvaća potrebne javne slike, video i fontove prije builda; asseti se
 
 Korisnik je 9. rujna 2026. odobrio ovaj javni klijentski preview. Sadržajne stranice zadržavaju `noindex, nofollow`; to nije zaštita pristupa — svatko s linkom može ih otvoriti. Obrasci i dalje ne šalju upite. `dentvitalis.com`, DNS, produkcijski canonicali i postojeći javni web nisu promijenjeni. Naziv **Production branch** u Pages postavkama označava granu ovog preview projekta, ne odobrenje produkcijske migracije.
 
+`public/_headers` pojačava preview zabranu indeksiranja HTTP zaglavljem, uključujući deployment poddomene. Hashirani CSS/JS/fontovi i verzionirani videozapisi imaju jednogodišnji browser cache; HTML ostaje na zadanoj revalidaciji. `videoUrl()` tijekom builda računa SHA-256 stvarnih video bajtova i dodaje `?v=`, pa novi video dobiva novi cache ključ. Ne uklanjati taj parametar niti postavljati `immutable` globalno. [Cloudflare pravila za statička zaglavlja](https://developers.cloudflare.com/pages/configuration/headers/).
+
 Razvojni Codespaces port 4321 i dalje služi za praćenje rada prije commita/pusha, prema postupku niže.
 
 ## Preduvjeti

@@ -69,6 +69,7 @@ const { href, label, variant = 'more', class: className } = Astro.props;
   }
   .hero {
     background: var(--color-accent);
+    color: var(--color-on-accent);
   }
   .outline {
     background: white;
@@ -78,6 +79,8 @@ const { href, label, variant = 'more', class: className } = Astro.props;
   .button:hover {
     background: var(--color-primary-hover);
   }
+  .hero:hover,
+  .hero:focus-visible,
   .outline:hover,
   .outline:focus-visible {
     background: var(--color-primary-hover);

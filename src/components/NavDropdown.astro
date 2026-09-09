@@ -43,7 +43,7 @@ const { group } = Astro.props;
     align-items: center;
     justify-content: center;
     gap: 6px;
-    padding: 12px var(--header-nav-item-padding);
+    padding: 0 var(--header-nav-item-padding);
     border-radius: var(--radius);
     font-weight: 500;
     font-size: var(--header-nav-font-size);
@@ -52,7 +52,12 @@ const { group } = Astro.props;
   }
   summary:hover {
     background: var(--color-accent);
-    color: white;
+    color: var(--color-on-accent);
+  }
+  summary > a {
+    display: flex;
+    align-items: center;
+    padding-block: 12px;
   }
   .dropdown-arrow {
     width: 12px;
@@ -155,12 +160,15 @@ const { group } = Astro.props;
     }
     summary {
       justify-content: space-between;
-      padding: 20px;
+      padding: 0 20px;
       font-size: 16px;
       color: #282828;
     }
     summary:hover {
       color: #282828;
+    }
+    summary > a {
+      padding-block: 20px;
     }
     .dropdown-arrow {
       width: 8px;
@@ -202,7 +210,7 @@ const { group } = Astro.props;
     }
   }
   @media screen and (max-width: 479px) {
-    summary {
+    summary > a {
       padding-block: 16px;
     }
     .dropdown-links a {

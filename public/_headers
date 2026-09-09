@@ -1,0 +1,24 @@
+# Only the approved staging hosts: keep this protection when production launches.
+https://dent-vitalis-web.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+
+https://:version.dent-vitalis-web.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+
+# Content-hashed build assets and font packages. Never apply immutable to HTML.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/fonts/montserrat-*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/fonts/montserrat-*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# BackgroundVideo always includes the actual file SHA-256 in its ?v= cache key.
+# Do not link these files without videoUrl() or strip the version parameter.
+/assets/video/*.mp4
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/video/*.webm
+  Cache-Control: public, max-age=31536000, immutable
