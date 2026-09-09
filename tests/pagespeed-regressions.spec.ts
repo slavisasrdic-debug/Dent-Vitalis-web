@@ -62,7 +62,7 @@ for (const route of ['/', '/hr/']) {
         expect(await contrast(hero)).toBeGreaterThanOrEqual(4.5);
         await expect(hero.locator('.arrow svg')).toHaveCSS(
           'color',
-          'rgb(255, 255, 255)',
+          'rgb(23, 60, 70)',
         );
         await page.mouse.move(0, 0);
       } else {

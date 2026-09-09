@@ -80,7 +80,13 @@ const { href, label, variant = 'more', class: className } = Astro.props;
     background: var(--color-primary-hover);
   }
   .hero:hover,
-  .hero:focus-visible,
+  .hero:focus-visible {
+    background: var(--color-accent-hover);
+    color: var(--color-on-accent);
+  }
+  .hero:focus-visible {
+    outline-color: var(--color-white);
+  }
   .outline:hover,
   .outline:focus-visible {
     background: var(--color-primary-hover);

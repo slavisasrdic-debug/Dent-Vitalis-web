@@ -2,6 +2,57 @@ import { expect, test } from '@playwright/test';
 
 test.use({ contextOptions: { reducedMotion: 'reduce' } });
 
+for (const route of ['/', '/hr/']) {
+  for (const width of [390, 991, 992, 1440]) {
+    test(`hero green hover/focus preserves the responsive CTA: ${route} ${width}px`, async ({
+      page,
+    }) => {
+      await page.setViewportSize({ width, height: 950 });
+      const errors: string[] = [];
+      page.on('pageerror', (error) => errors.push(error.message));
+      expect((await page.goto(route))?.status()).toBe(200);
+      await expect(page).toHaveTitle(/Dent[Vv]italis/i);
+      const hero = page.locator('.button.hero');
+      const mobile = page.locator('.mobile-benefits .button');
+      if (width <= 991) {
+        await expect(hero).toBeHidden();
+        await expect(mobile).toBeVisible();
+        await expect(mobile).toHaveCSS('background-color', 'rgb(4, 90, 114)');
+        await mobile.hover();
+        await expect(mobile).toHaveCSS('background-color', 'rgb(5, 116, 146)');
+      } else {
+        await expect(hero).toBeVisible();
+        await expect(mobile).toBeHidden();
+        await hero.scrollIntoViewIfNeeded();
+        const geometry = await hero.boundingBox();
+        await expect(hero).toHaveCSS('background-color', 'rgb(175, 188, 54)');
+        await hero.hover();
+        await expect(hero).toHaveCSS('background-color', 'rgb(192, 205, 74)');
+        await expect(hero.locator('.label')).toHaveCSS(
+          'color',
+          'rgb(23, 60, 70)',
+        );
+        await expect(hero.locator('.arrow path')).toHaveCSS(
+          'stroke',
+          'rgb(23, 60, 70)',
+        );
+        expect(await hero.boundingBox()).toEqual(geometry);
+        await page.mouse.move(0, 0);
+        await page.keyboard.press('Tab');
+        await hero.focus();
+        await expect(hero).toHaveCSS('background-color', 'rgb(192, 205, 74)');
+        await expect(hero).toHaveCSS('outline-color', 'rgb(255, 255, 255)');
+        await expect(hero).toHaveCSS('outline-style', 'solid');
+        const href = await hero.getAttribute('href');
+        await page.keyboard.press('Enter');
+        await expect(page).toHaveURL(new RegExp(`${href}/?$`));
+        await expect(page.locator('h1')).toBeVisible();
+      }
+      expect(errors).toEqual([]);
+    });
+  }
+}
+
 for (const width of [390, 991, 992, 1440]) {
   test(`outline buttons retain geometry and white foreground on hover/focus at ${width}px`, async ({
     page,

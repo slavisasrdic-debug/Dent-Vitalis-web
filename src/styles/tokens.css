@@ -3,6 +3,7 @@
   --color-primary: #045a72; /* --tamana-call */
   --color-primary-hover: #057492; /* --svjetlija-plava */
   --color-accent: #afbc36; /* --svijetla-call */
+  --color-accent-hover: #c0cd4a; /* Green hover stays distinct on blue hero backgrounds. */
   --color-on-accent: #173c46; /* Approved readable text/icons on green controls. */
   --color-text: #000; /* --crna */
   --color-white: #fff; /* --bijela */

@@ -270,7 +270,7 @@ Video izvori počinju kao `data-src`, `preload="none"`, opacity 0. Svaka instanc
 
 ### PageSpeed pristupačnost — korisnički odobren popravak 9. rujna
 
-- `--color-on-accent: #173c46` daje tamni tekst/ikone na zelenom hero/inline-submit gumbu i zelenom hoveru desktop nav grupa. Hero hover/focus i plavi popup submit ostaju bijeli na plavoj podlozi; dimenzije gumba nisu promijenjene.
+- `--color-on-accent: #173c46` daje tamni tekst/ikone na zelenom hero/inline-submit gumbu i zelenom hoveru desktop nav grupa. Od korisničke dopune 9. rujna hero hover/focus koristi svjetliju zelenu `--color-accent-hover: #c0cd4a`, s istim tamnim tekstom/strelicama i bijelim fokusnim obrubom, kako gumb ne bi nestajao na plavoj hero podlozi. Plavi popup submit ostaje bijeli na plavoj podlozi. Ostale varijante, mobilni CTA na bijeloj kartici i dimenzije gumba nisu promijenjeni.
 - `NavDropdown` premješta postojeći vertikalni padding sa summaryja na parent link. Klikabilni naziv sada je visok 44px na desktopu, uz istu ukupnu geometriju zaglavlja i isti first-click/second-click/arrow ugovor. Mobilne visine ostaju postojeće.
 - `LanguageSwitcher` koristi stvarne dimenzije PNG zastava (40×27 IT, 40×24 DE, 40×20 HR/GB/SI), prikazane na širini 16px uz automatsku visinu. Jedna tablica vrijedi za aktivnu zastavu i sve opcije u obje varijante.
 - `TestimonialSlider` koristi valjani `div[role=group]` za slajdove umjesto nedopuštenog overridea na `article`. Klase, sadržaj, tipkovnica, swipe i no-JS prikaz ostaju isti.
