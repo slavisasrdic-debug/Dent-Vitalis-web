@@ -3,8 +3,33 @@ import { expect, test, type Page } from '@playwright/test';
 declare global {
   interface Window {
     __revealFrames: number[];
+    __revealViewportReads: number;
   }
 }
+
+test('reveal startup reads viewport height once before preparing all observers', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(() => {
+    const descriptor = Object.getOwnPropertyDescriptor(window, 'innerHeight')!;
+    window.__revealViewportReads = 0;
+    Object.defineProperty(window, 'innerHeight', {
+      ...descriptor,
+      get() {
+        if (new Error().stack?.includes('/src/scripts/reveal.ts'))
+          window.__revealViewportReads += 1;
+        return descriptor.get?.call(window) ?? descriptor.value;
+      },
+    });
+  });
+  await page.goto('/');
+  await expect(
+    page.locator('[data-reveal]:not([data-reveal-ready])'),
+  ).toHaveCount(0);
+  expect(await page.locator('[data-reveal]').count()).toBeGreaterThan(20);
+  expect(await page.evaluate(() => window.__revealViewportReads)).toBe(1);
+});
 
 test.beforeEach(async ({ page }) => {
   // Keep posters, but isolate reveal startup from native video decoder startup.

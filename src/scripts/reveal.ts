@@ -40,6 +40,10 @@ export function initializeReveals() {
   const outQuart = CSS.supports('animation-timing-function', 'linear(0, 1)')
     ? `linear(${Array.from({ length: 101 }, (_, i) => 1 - (1 - i / 100) ** 4).join(',')})`
     : 'cubic-bezier(.165, .84, .44, 1)';
+  // Read geometry before the loop mutates waiting/ready attributes. Reading
+  // innerHeight after every element's style changes forces repeated layouts.
+  const initialViewportHeight =
+    preparedBeforePaint && !reduced.matches ? innerHeight : 0;
   document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((element) => {
     if (element.dataset.revealReady) return;
     element.dataset.revealReady = 'true';
@@ -121,9 +125,10 @@ export function initializeReveals() {
         return;
       }
       if (media && !media.matches) return;
+      const viewportHeight = event ? innerHeight : initialViewportHeight;
       if (event) {
         const rect = element.getBoundingClientRect();
-        if (rect.top < innerHeight && rect.bottom > 0) {
+        if (rect.top < viewportHeight && rect.bottom > 0) {
           reveal(false);
           return;
         }
@@ -135,7 +140,7 @@ export function initializeReveals() {
         (entries) => {
           if (entries.some((entry) => entry.isIntersecting)) reveal(true);
         },
-        { rootMargin: `0px 0px -${(innerHeight * offset) / 100}px 0px` },
+        { rootMargin: `0px 0px -${(viewportHeight * offset) / 100}px 0px` },
       );
       element.setAttribute('data-waiting', '');
       observer.observe(element);
