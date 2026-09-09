@@ -7,6 +7,9 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 const accepted = 'reference/webflow-handoff/2026-09-07/extracted';
 const output = process.env.COPY_AUDIT_OUTPUT || '.astro/audits/italian-copy';
 const origin = process.env.QA_ORIGIN || 'http://127.0.0.1:4321';
+const { italianDoctor } = JSON.parse(
+  await readFile('data/editorial-corrections.json', 'utf8'),
+);
 const cached = process.argv.includes('--cached')
   ? JSON.parse(await readFile(`${output}/report.json`, 'utf8'))
   : undefined;
@@ -40,6 +43,27 @@ const reviewed = {
 const { pages } = JSON.parse(await readFile(`${accepted}/pages.json`, 'utf8'));
 const hash = (value) => createHash('sha256').update(value).digest('hex');
 const normalize = (value) => value.normalize('NFC').replace(/\s+/gu, '');
+// Earlier user-approved addition: all four other services on the sedation page.
+// Only exact card text from the accepted service directory is recognized.
+const transcribedPages = JSON.parse(
+  await readFile('src/content/inner-pages-it.json', 'utf8'),
+);
+const sedationRelatedCopy = new Set(
+  [
+    'Altre prestazioni',
+    ...transcribedPages
+      .find((entry) => entry.route === '/prestazioni-dentali')
+      .directory.filter(
+        (card) => card.href !== '/prestazioni/sedazione-cosciente',
+      )
+      .flatMap((card) => [
+        card.title,
+        card.eyebrow,
+        card.description,
+        card.price,
+      ]),
+  ].map(normalize),
+);
 await mkdir(output, { recursive: true });
 const browser = await chromium.launch();
 const page = await browser.newPage({ javaScriptEnabled: false });
@@ -101,12 +125,50 @@ try {
           description:
             document.querySelector('meta[name="description"]')?.content || '',
           h1: document.querySelector('h1')?.textContent.trim(),
+          firstParagraph:
+            [...document.querySelectorAll('.tekst-detaljna p')]
+              // Webflow styles this paragraph as a heading; Astro emits an h2.
+              .filter(
+                (node) => !node.classList.contains('medjunaslov-h2-detaljna'),
+              )
+              .map((node) => node.textContent.trim())
+              .find(Boolean) ?? '',
           text: document.body.textContent,
           units: [...new Set(units)],
         };
       }, markup);
     const reference = await extract(html);
+    // Compare the approved Word correction without rewriting the accepted HTML.
+    if (path === italianDoctor.route) {
+      row.editorialCorrection = italianDoctor;
+      reference.text = reference.text.replace(
+        italianDoctor.from,
+        italianDoctor.to,
+      );
+      reference.units = reference.units.map((unit) =>
+        unit.replace(italianDoctor.from, italianDoctor.to),
+      );
+    }
     const astro = await extract(localHtml);
+    if (path === '/su-di-noi/come-raggiungerci') {
+      const from = 'https://share.google/71jvli5wQ7ylYdd8N';
+      const to = 'Posizione del parcheggio';
+      row.parkingLabelCorrection = { from, to };
+      reference.text = reference.text.replaceAll(from, to);
+      reference.units = reference.units.map((unit) =>
+        unit.replaceAll(from, to),
+      );
+    }
+    const legalMetadataApproved =
+      ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
+        path,
+      ) &&
+      astro.title === `${reference.h1} | DentVitalis` &&
+      normalize(astro.description) ===
+        normalize(
+          reference.firstParagraph.match(/^.*?[.!?](?=\s|$)/s)?.[0] ??
+            reference.firstParagraph,
+        );
     const missing = reference.units.filter(
       (unit) => !normalize(astro.text).includes(normalize(unit)),
     );
@@ -116,6 +178,7 @@ try {
     Object.assign(row, {
       titleMatches: reference.title === astro.title,
       descriptionMatches: reference.description === astro.description,
+      legalMetadataApproved,
       h1Matches: normalize(reference.h1 || '') === normalize(astro.h1 || ''),
       referenceUnits: reference.units.length,
       missing: missing.filter(
@@ -163,7 +226,15 @@ try {
   const unreviewed = report.pages.flatMap((row) =>
     ['missing', 'added'].flatMap((kind) =>
       (row[kind] || [])
-        .filter((text) => !reviewed[kind].has(text))
+        .filter(
+          (text) =>
+            !reviewed[kind].has(text) &&
+            !(
+              row.path === '/prestazioni/sedazione-cosciente' &&
+              kind === 'added' &&
+              sedationRelatedCopy.has(normalize(text))
+            ),
+        )
         .map((text) => ({ path: row.path, kind, text })),
     ),
   );
@@ -183,10 +254,15 @@ try {
           .filter(
             (row) =>
               row.sourceIdentical &&
-              (!row.titleMatches || !row.descriptionMatches || !row.h1Matches),
+              ((!row.legalMetadataApproved &&
+                (!row.titleMatches || !row.descriptionMatches)) ||
+                !row.h1Matches),
           )
           .map((row) => row.path),
         referenceMode: report.referenceMode,
+        approvedLegalMetadata: report.pages
+          .filter((row) => row.legalMetadataApproved)
+          .map((row) => row.path),
         distinctReviewedMarkupDifferences: [
           ...new Set(
             report.pages.flatMap((row) => [
@@ -206,7 +282,10 @@ try {
     report.pages.some((row) => !row.sourceIdentical) ||
     !report.stylesheet.identical ||
     report.pages.some(
-      (row) => !row.titleMatches || !row.descriptionMatches || !row.h1Matches,
+      (row) =>
+        (!row.legalMetadataApproved &&
+          (!row.titleMatches || !row.descriptionMatches)) ||
+        !row.h1Matches,
     ) ||
     unreviewed.length
   )

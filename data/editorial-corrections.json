@@ -1,0 +1,18 @@
+{
+  "approvedOn": "2026-09-09",
+  "authority": "User approved aligning the Croatian crown price with Italian and restoring the doctor's name from the Word source.",
+  "docxSha256": "7b9273a1338415f095ec43e367e051afaa30df24de9a91b31ec3d7dc4ecc648e",
+  "italianDoctor": {
+    "route": "/su-di-noi/i-nostri-specialisti",
+    "sourceId": "t6.r5.c0.p2",
+    "from": "Il Dr. XY",
+    "to": "Il Dr. Domagoj Žalac"
+  },
+  "croatianCrown": {
+    "route": "/hr/krunice-ljuskice-mostovi-i-proteze",
+    "sourceId": "t5.r0.c1.p10",
+    "italianSourceId": "t5.r0.c0.p9",
+    "from": "Zubne krunice 330 €",
+    "to": "Zubne krunice već od 220 €"
+  }
+}

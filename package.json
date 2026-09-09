@@ -15,6 +15,7 @@
     "reference:audit": "node scripts/audit-webflow.mjs",
     "reference:audit-live": "xvfb-run -a node scripts/audit-live-site.mjs",
     "audit:copy:it": "node scripts/audit-italian-copy.mjs",
+    "audit:urls": "node scripts/audit-url-inventory.mjs",
     "content:extract:hr": "python3 scripts/extract-translation-source.py",
     "content:check:hr": "python3 scripts/extract-translation-source.py --check",
     "content:extract:hr-legal": "node scripts/extract-hr-legal.mjs",

@@ -8,6 +8,8 @@ Implementirano je 27 HR stranica uz 28 IT stranica. Odobreni slugovi i dva pravn
 
 **Jedna aktualna lista za zajednički pregled:** [Hrvatski sadržaj i preostale odluke](croatian-review.md). Ona uključuje bankovne/cjenovne razlike, pravne kontakte i uredničke nalaze te preostale produkcijske granice. Ne ispravljati ih nagađanjem.
 
+Dopuna 9. rujna: korisnički odobreno usklađivanje HR krunice na „već od 220 €” i prijenos imena „Il Dr. Domagoj Žalac” iz Worda. Te dvije stavke više nisu otvorene; povijesni navodi o 330 € i „Dr. XY” niže opisuju izvorni snapshot, ne trenutačni prikaz. Dokaz i ograničenje izmjena: `data/editorial-corrections.json`.
+
 ## Aktualizacija 8. rujna 2026. — HR izvor i ponovna provjera IT kopije
 
 - Ponovni mrežni dohvat potvrđuje svih 28 objavljenih Webflow HTML-ova i glavni CSS kao hash-identične prihvaćenom handoffu. Title, meta description i H1 odgovaraju Astrou na svih 28 ruta. IT tekst iz naknadnog DOCX-a korisnik izričito ne želi ponovno mijenjati.

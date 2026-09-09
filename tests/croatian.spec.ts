@@ -1,6 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { canonicalUrl } from '../src/content/seo-urls';
+const corrections = JSON.parse(
+  readFileSync('data/editorial-corrections.json', 'utf8'),
+) as typeof import('../data/editorial-corrections.json');
 const videoMetadata = JSON.parse(
   readFileSync('data/video-metadata.json', 'utf8'),
 ) as typeof import('../data/video-metadata.json');
@@ -163,7 +166,11 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     const id = tableRoutes[Number(table.id.slice(1))];
     if (!id) continue;
     for (const paragraph of table.rows!.flatMap((r) => r[1] ?? [])) {
-      const text = normalize(paragraph.text);
+      const text = normalize(
+        paragraph.id === corrections.croatianCrown.sourceId
+          ? corrections.croatianCrown.to
+          : paragraph.text,
+      );
       if (!text || /^Hrvatskine$|^Nemaprijevoda/.test(text)) continue;
       if (paragraph.id === 't8.r2.c1.p3') {
         // User-approved label replaces the visible URL, not its destination.

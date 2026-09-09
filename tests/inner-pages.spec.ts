@@ -5,6 +5,9 @@ import type { InnerPage } from '../src/content/inner-pages';
 const innerPages: InnerPage[] = JSON.parse(
   readFileSync('src/content/inner-pages-it.json', 'utf8'),
 );
+const corrections = JSON.parse(
+  readFileSync('data/editorial-corrections.json', 'utf8'),
+) as typeof import('../data/editorial-corrections.json');
 
 const normalized = (text: string) => text.replace(/[\s\u200b]+/g, '');
 for (const viewport of [
@@ -52,13 +55,18 @@ for (const viewport of [
             });
           // Previously approved parking label replaces only the visible long URL.
           // The original destination is independently checked in parking-links.spec.ts.
-          const expectedCopy =
+          let expectedCopy =
             entry.route === '/su-di-noi/come-raggiungerci'
               ? expected.replace(
                   'https://share.google/71jvli5wQ7ylYdd8N',
                   'Posizione del parcheggio',
                 )
               : expected;
+          if (entry.route === corrections.italianDoctor.route)
+            expectedCopy = expectedCopy.replace(
+              corrections.italianDoctor.from,
+              corrections.italianDoctor.to,
+            );
           expect(
             normalized(
               (await page.locator('.editorial-copy').textContent()) || '',

@@ -2,6 +2,7 @@ import catalogue from '../../../data/translations/hr-source.json';
 import type { ContentBlock, InlineContent } from '../inner-pages';
 import { bindReferenceBusiness } from '../reference-bindings';
 import { croatianBusinessReview } from '../../../data/site';
+import corrections from '../../../data/editorial-corrections.json';
 
 // Build-time only. IDs refer to the approved, SHA-256 locked DOCX, not row alignment.
 interface Paragraph {
@@ -32,7 +33,14 @@ export function text(id: string): string {
   )
     throw new Error(`Excluded Croatian source: ${id}`);
   usedSourceIds.add(id);
-  return bindReferenceBusiness(paragraph.text.trim())
+  let value = paragraph.text.trim();
+  const correction = corrections.croatianCrown;
+  if (id === correction.sourceId) {
+    if (value !== correction.from)
+      throw new Error(`Croatian crown correction source changed: ${id}`);
+    value = correction.to;
+  }
+  return bindReferenceBusiness(value)
     .replaceAll('ZABAHR2X', croatianBusinessReview.swift)
     .replaceAll(
       'do 36 rata',

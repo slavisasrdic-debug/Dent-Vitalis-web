@@ -25,8 +25,6 @@ export const referenceBusiness = {
   implantPrice: '2.990',
   whiteningPrice: '250',
   crownPrice: '220',
-  // DOCX t5.r0.c1.p10: different context from the 220 € starting price.
-  crownSidebarPrice: '330',
   singleImplantPrice: '249',
   mobileProsthesisPrice: '319',
   gumRemodellingPrice: '119',

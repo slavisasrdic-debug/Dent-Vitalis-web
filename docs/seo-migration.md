@@ -23,6 +23,35 @@ FAQ podaci ostaju sadržajno istiniti, bez obećanja proširenih Google FAQ rezu
 
 ## Redirect inventar
 
+### Prvi aktualni inventar — 9. rujna 2026.
+
+`data/seo/url-inventory.json` sadrži 206 otkrivenih i provjerenih URL-ova:
+196 iz javnog sitemapa, dopunjeno ranijim inventarom 174 adrese i internim
+poveznicama. HTTP GET provjera našla je 181 odgovor 200 i 25 odgovora 404;
+svih 25 nepostojećih adresa nalazi se u starom javnom sitemapu. To nisu 404
+pogreške novog previewa. Stari `robots.txt` također vraća 404.
+
+Od dostupnih adresa 105 pripada DE/EN/SI verzijama koje još nisu izrađene u
+novom projektu. Njih 19 ima isti normalizirani put kao novi web, ali i za njih
+treba potvrditi sadržajnu ekvivalenciju. Preostalih 57 dostupnih adresa traži
+pojedinačno mapiranje. Brojevi uključuju zabilježene ulazne alias URL-ove;
+nisu broj jedinstvenih sadržajnih stranica.
+
+`samePathCandidate` je samo kandidat, ne odluka o redirekciji. Nijedan 301/410
+nije odobren ili instaliran ovom provjerom, a `data/redirects.csv` ostaje
+namijenjen zasebno pregledanim migracijskim odlukama. Posebno paziti na
+postojeći smjer `/hr/iskustva-pacijenata` → `/hr/testimonials` i na stare
+pojedinačne usluge koje nemaju dokazan ekvivalent u novim paketima.
+
+Ponovljiv postupak: `npm run audit:urls`; `npm run audit:urls -- --cached`
+ponovno obrađuje iste odgovore bez mrežnog dohvata. Svaki zapis čuva datum,
+status, konačni URL, SHA-256, metapodatke i način otkrivanja. Raw odgovori su
+u ignoriranom `.astro/audits/url-inventory-2026-09-09/`, ne u buildu. Audit radi
+isključivo GET zahtjeve, najviše dva istodobno, bez slanja obrazaca i bez
+zaobilaženja zaštita. Sitemap/interni linkovi nisu potpuni dokaz svih URL-ova
+koji imaju promet: prije konačne migracije dodati Search Console, backlink i
+server-log podatke kad budu dostupni. Izvorni inventar od 2. rujna je sačuvan.
+
 Neutralni izvor podataka je `/data/redirects.csv` sa stupcima:
 
 1. `old_url`

@@ -11,6 +11,20 @@ const tables = catalogue.blocks.filter((block) => block.type === 'table');
 const paragraphs = catalogue.blocks.flatMap((block) =>
   block.type === 'table' ? block.rows.flatMap((row) => row.flat()) : [block],
 );
+test('approved editorial corrections retain evidence in the original Word source', () => {
+  const corrections = JSON.parse(
+    readFileSync('data/editorial-corrections.json', 'utf8'),
+  );
+  assert.equal(corrections.docxSha256, catalogue.sha256);
+  const paragraph = (id) => paragraphs.find((p) => p.id === id).text;
+  const doctor = corrections.italianDoctor;
+  const crown = corrections.croatianCrown;
+  assert.ok(paragraph(doctor.sourceId).startsWith(doctor.to));
+  assert.ok(!paragraph(doctor.sourceId).includes(doctor.from));
+  assert.equal(paragraph(crown.sourceId), crown.from);
+  assert.match(paragraph(crown.italianSourceId), /a partire da 220 €/);
+  assert.equal(crown.to, 'Zubne krunice već od 220 €');
+});
 
 test('DOCX catalogue matches the original source and deterministic extraction', () => {
   assert.equal(

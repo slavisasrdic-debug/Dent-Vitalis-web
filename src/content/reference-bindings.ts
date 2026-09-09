@@ -8,7 +8,6 @@ const amounts: Record<string, string> = {
   '2.990': business.implantPrice,
   '250': business.whiteningPrice,
   '220': business.crownPrice,
-  '330': business.crownSidebarPrice,
   '249': business.singleImplantPrice,
   '319': business.mobileProsthesisPrice,
   '119': business.gumRemodellingPrice,

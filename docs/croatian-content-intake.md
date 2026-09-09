@@ -2,6 +2,7 @@
 
 ## Aktualna odobrenja (imaju prednost nad arhiviranim prijedlogom ispod)
 
+- Dopuna 9. rujna: korisnik je odobrio usklađivanje HR sidebar krunice s talijanskim „a partire da 220 €”: sada „Zubne krunice već od 220 €”, umjesto preostalih 330 € iz `t5.r0.c1.p10`. Odobren je i prijenos imena „Il Dr. Domagoj Žalac” iz talijanskog Word odlomka `t6.r5.c0.p2` umjesto Webflow placeholdera. `data/editorial-corrections.json` čuva uske iznimke; Word, katalog i izvorni export nisu mijenjani. Ovo ima prednost nad ranijom zabranom ponovnog provođenja IT korekcija samo za taj odlomak.
 - Korisnik je 2026-09-08 potvrdio predložene hrvatske URL-ove i zatražio izradu. CSV zadržava naziv radi kontinuiteta, ali status `approved` sada odobrava runtime putanje.
 - Naknadno je izričito odobrio hrvatske pravne tekstove s postojećeg public weba: `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja`. Time opseg raste na 27 HR stranica; jedino prijevoz ostaje isključen. Izvorne pravne tekstove sačuvati s datumom i SHA-256, bez samostalnog pravnog preuređivanja.
 - Odobrenje URL-ova nije instalacija produkcijskih redirekcija niti odobrenje objave. DOCX ostaje glavni izvor nepravnog HR sadržaja; stari live sadržaj ne zamjenjuje njegove cijene, recenzije ili medicinske tekstove.
@@ -43,7 +44,7 @@ Katalog je dokaz izvora, **nije sadržaj za automatsku objavu**. Ne smije se u c
 - Google recenzije u tablici `t20` imaju HR tekstove i drugačiji sadržaj od dijela IT stupca; ne prevoditi ili izmišljati ocjene, godine, recenzente ni video titlove. Tekstualne recenzije izvan tablica moraju biti zasebno mapirane.
 - DOCX sadrži kontaktne vrijednosti, uključujući WhatsApp broj u `t29`; to nije nestali resurs. Ne uključivati integraciju ili globalno prepisivati talijanske poslovne podatke bez zasebne odluke. Prazne HR kontakte ne nadopunjavati iz IT stupca.
 - FAQ uvod naziva `+385 51 688 380` „besplatnim brojem”; izvorni HR izraz ne ispravljati nagađanjem, označiti vlasniku za provjeru prije produkcije.
-- Na nekim mjestima cijene/rangevi razlikuju se po kontekstu (npr. krunice 330 € i „Već od 220 €”). Sačuvati pojedinačni izvor i kontekst; ne ujednačavati sve pojave iste imenice na jednu cijenu.
+- Preostali HR unos krunice 330 € usklađen je s talijanskih „od 220 €” izričitom dopunom iznad. Ostale cijene/rangeve sačuvati prema pojedinačnom izvoru i kontekstu; ne ujednačavati sve pojave iste imenice na jednu cijenu.
 - Hrvatski pravni/privacy tekstovi nisu u DOCX-u. Korisnik je zasebno odobrio postojeći live `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja`; nepromijenjeni HTML izvori su u `reference/legal-hr/2026-09-08/`, a deterministički izvučeni sadržaj i SHA-256 u `src/content/hr/legal.json`.
 - Naslovnice direktorija, navigacija, footer i tehničke UI oznake zahtijevaju eksplicitno mapiranje postojećih HR fragmenata; katalog nije dokaz da je preveden svaki novi UI string.
 
