@@ -65,6 +65,8 @@ HR pravne stranice `/hr/polica-privatnosti` i `/hr/uvjeti-koristenja` na zahtjev
 
 ### Proširenje za unutarnje stranice
 
+Korisnička dorada 10. rujna 2026.: `DetailHero` na ≤991px smanjuje razmak između H1 i podnaslova s 20 na 12px. Obje susjedne margine postavljene su na 12px jer se u postojećem normalnom toku kolabiraju; promjena samo jedne ostavila bi razmak od 20px. Vrijedi za sve IT/HR varijante plavog mobilnog bloka (directory/photo/plain/specialists). Desktop ≥992px zadržava 20px, a fontovi, vanjski padding, eyebrow, fotografije, sadržaj i zasebni home hero ostaju nepromijenjeni. Regresija `tests/detail-hero-spacing.spec.ts` mjeri stvarni razmak svih 53 unutarnjih ruta na 320/390/767/768/991/992/1440px te refresh i breadcrumb navigaciju specijalista. Sažetak za nastavak rada: [handoff](handoff.md).
+
 Zajednički `SiteLayout`, header, footer, kontakt i reveal koriste **svih 28** ruta. Layout prihvaća `typography: brand | reference-default` i `pageLanguages`; druge jezične stranice nisu izmišljene. `ResponsiveImage` sada provjerava ime u spojenom home/inner manifestu i prekida build za nepoznati asset.
 
 | Komponenta            | Odgovornost i props                                                       | Varijante / potrošači                                                                                                                               |

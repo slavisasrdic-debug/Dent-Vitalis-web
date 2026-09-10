@@ -4,6 +4,8 @@ Statički Astro projekt s **28 talijanskih i 27 hrvatskih stranica**, rekonstrui
 
 ## Klijentski preview — Cloudflare Pages
 
+**Nastavak s drugim agentom:** prvo [aktualni handoff](docs/handoff.md), zatim obvezni `AGENTS.md` i pravila za konkretan zadatak. Handoff razdvaja završene izmjene, QA dokaze i otvorene produkcijske odluke.
+
 - [Hrvatski preview](https://dent-vitalis-web.pages.dev/hr/)
 - [Talijanski preview](https://dent-vitalis-web.pages.dev/)
 
