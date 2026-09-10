@@ -1,0 +1,256 @@
+{
+  "status": "proposal-only",
+  "queryPolicy": "preserve-exact; future-host-verification-required",
+  "reviewedOn": "2026-09-10",
+  "scope": "Prijedlog za inventar od 206 URL-ova od 9. rujna; nije odobrenje migracije, promjene sadržaja ili produkcijske konfiguracije.",
+  "groups": [
+    {
+      "id": "same-purpose",
+      "action": "keep",
+      "paths": [
+        "/",
+        "/chi-siamo",
+        "/condizioni-di-utilizzo",
+        "/contatti",
+        "/faq",
+        "/informativa-sulla-privacy",
+        "/testimonianze",
+        "/hr/",
+        "/hr/faq",
+        "/hr/jamstva",
+        "/hr/kontakt",
+        "/hr/o-nama",
+        "/hr/placanje",
+        "/hr/polica-privatnosti",
+        "/hr/prvi-pregled",
+        "/hr/uvjeti-koristenja"
+      ],
+      "reason": "Zadržati istu sadržajnu namjenu i kanonsku putanju sa završnim /. Ažuriran sadržaj nije doslovna kopija starog; poslovne i pravne razlike provjeriti prije produkcije. Za stari oblik bez / predvidjeti jedan kanonski 301, ne dodatnu sadržajnu redirekciju."
+    },
+    {
+      "id": "hr-home-alias",
+      "action": "redirect",
+      "paths": ["/hr"],
+      "target": "/hr/",
+      "reason": "Ista hrvatska naslovnica. Jedan 301 na kanonski /hr/; ukloniti staro skidanje završnog / da se ne stvori petlja."
+    },
+    {
+      "id": "hr-reviews-canonical",
+      "action": "keep",
+      "paths": ["/hr/iskustva-pacijenata"],
+      "reason": "Zadržati odobrenu hrvatsku stranicu iskustava. Stari server šalje ovu adresu na /hr/testimonials: ukloniti taj smjer prije uključivanja obrnutog 301. Novi sadržaj je zbirka iskustava, ne zasebna biografija svakog starog svjedoka."
+    },
+    {
+      "id": "hr-reviews-alias",
+      "action": "redirect",
+      "paths": ["/hr/testimonials"],
+      "target": "/hr/iskustva-pacijenata/",
+      "reason": "Ista zbirka iskustava pacijenata na odobrenom hrvatskom slugu. Jedan 301 izravno na /hr/iskustva-pacijenata/; prvo ukloniti stari obrnuti redirect."
+    },
+    {
+      "id": "it-accommodation",
+      "action": "redirect",
+      "paths": ["/alloggio", "/accommodation"],
+      "target": "/informazioni/alloggio/",
+      "reason": "Obje stare adrese nude informacije o smještaju pacijenata; nova stranica opisuje aktualni smještaj. /accommodation već vodi na /alloggio: oba ulaza poslati izravno na novi cilj, bez lanca."
+    },
+    {
+      "id": "it-first-visit",
+      "action": "redirect",
+      "paths": ["/prima-visita"],
+      "target": "/informazioni/prima-visita-gratuita/",
+      "reason": "Opis besplatnog prvog pregleda, dijagnostike i plana terapije premješten je na novu stranicu iste namjene. Nova dijagnostika i upute nisu preslik stare ponude."
+    },
+    {
+      "id": "it-payment",
+      "action": "redirect",
+      "paths": ["/pagamento"],
+      "target": "/informazioni/pagamento-flessibile/",
+      "reason": "Načini plaćanja i podaci za uplatu ostaju namjena stranice. Stari tekst navodi dva računa; potvrda aktualnih bankovnih podataka ostaje zasebna sadržajna obveza."
+    },
+    {
+      "id": "it-guarantees",
+      "action": "redirect",
+      "paths": ["/garanzie"],
+      "target": "/informazioni/garanzie/",
+      "reason": "Informacije o jamstvima premještene su u direktorij informacija. Stari tekst izričito navodi rokove jamstva; potvrditi očuvanje informacija i prava ranijih pacijenata, ne smatrati URL mapu promjenom uvjeta."
+    },
+    {
+      "id": "it-laboratory",
+      "action": "redirect",
+      "paths": ["/laboratorio-odontotecnico"],
+      "target": "/su-di-noi/laboratorio-odontotecnico/",
+      "reason": "Oba članka predstavljaju interni dentalni laboratorij i povezani tijek izrade protetskih radova; jasna nova adresa iste ustanove i namjene."
+    },
+    {
+      "id": "it-transport",
+      "action": "redirect",
+      "paths": ["/trasferta"],
+      "target": "/informazioni/trasporto/",
+      "reason": "Oba članka opisuju organizirani transfer pacijenata iz Trsta do klinike. Mapiranje vrijedi samo za IT; nema odobrene HR usluge prijevoza."
+    },
+    {
+      "id": "whitening-method",
+      "action": "review",
+      "paths": ["/sbiancamento-dentale", "/hr/izbjeljivanje-zubi"],
+      "candidates": {
+        "it": ["/prestazioni/sbiancamento-dei-denti/"],
+        "hr": ["/hr/izbjeljivanje-zubi/"]
+      },
+      "reason": "Stari tekst opisuje prvenstveno ordinacijsko izbjeljivanje u 45 minuta (Opalescence Boost), novi kućni postupak udlagama. Kandidat je ista šira usluga, ali nije ista metoda. Za HR se URL zadržava uz ovu sadržajnu razliku; za IT potvrditi 301 ili očuvanje zasebne ordinacijske usluge."
+    },
+    {
+      "id": "all-on-four",
+      "action": "review",
+      "paths": ["/all-on-four", "/hr/all-on-four"],
+      "candidates": {
+        "it": ["/prestazioni/premium-ponte-fisso-su-impianti/"],
+        "hr": ["/hr/fiksni-most-na-implantatima/"]
+      },
+      "reason": "Stari All-on-4 je fiksni most; novi fiksni paket nema ograničen broj implantata. Mogući kandidat zahtijeva stručnu potvrdu. Ne preusmjeravati na novu protezu na 4 implantata s locatorima samo zbog broja 4."
+    },
+    {
+      "id": "implant-denture",
+      "action": "review",
+      "paths": ["/protesi-su-impianti", "/hr/proteza-na-implantatima"],
+      "candidates": {
+        "it": ["/prestazioni/protesi-definitiva-ancorata-su-4-impianti/"],
+        "hr": ["/hr/proteza-na-4-implantata/"]
+      },
+      "reason": "Stara proteza koristi najmanje 2 donja ili 4 gornja implantata i opisuje prečku; novi paket navodi 4 implantata i locatore. Srodna namjena, ali različita konstrukcija i opseg: odluka liječnika prije 301."
+    },
+    {
+      "id": "crowns-and-bridges",
+      "action": "review",
+      "paths": [
+        "/corona-su-dente-naturale",
+        "/corona-su-impianto",
+        "/corone",
+        "/faccette",
+        "/ponte-di-tre-pezzi",
+        "/ponte-in-ceramica-su-denti-naturali",
+        "/soluzione-protesica-fissa",
+        "/hr/krunica-na-prirodnom-zubu",
+        "/hr/krunica-na-implantatu",
+        "/hr/krunice",
+        "/hr/ljuskice",
+        "/hr/most-od-tri-clana",
+        "/hr/keramicki-most-na-prirodnim-zubima",
+        "/hr/keramicki-most-na-implantatima"
+      ],
+      "candidates": {
+        "it": ["/prestazioni/corone-faccette-ponti-e-protesi/"],
+        "hr": ["/hr/krunice-ljuskice-mostovi-i-proteze/"]
+      },
+      "reason": "Nova skupna stranica ima odgovarajuće odjeljke, ali stari članci imaju dodatne indikacije, konstrukcije i postupke za pojedinu uslugu. Predloženi kandidat nije automatski ekvivalent: potvrditi spajanje ili očuvati/dopuniti zaseban sadržaj prije 301. Ne slati parcijalne mostove na paket za cijelu čeljust."
+    },
+    {
+      "id": "full-arch-bridge",
+      "action": "review",
+      "paths": [
+        "/ponte-in-ceramica-su-impianti",
+        "/hr/keramicki-most-na-svim-implantatima"
+      ],
+      "candidates": {
+        "it": ["/prestazioni/premium-ponte-fisso-su-impianti/"],
+        "hr": ["/hr/fiksni-most-na-implantatima/"]
+      },
+      "reason": "Stari članak za bezubu čeljust opisuje keramički most, broj implantata i tijek izrade; novi paket opisuje OnX i drugačiji opseg. Tematski kandidat za cijelu čeljust, ne dokazana identična usluga."
+    },
+    {
+      "id": "other-prosthetics",
+      "action": "review",
+      "paths": [
+        "/protesi",
+        "/lavoro-combinato",
+        "/protesi-parziale-con-base-in-metallo",
+        "/protesi-ancorate-su-corone-telescopiche",
+        "/hr/kombinirani-rad",
+        "/hr/parcijalna-proteza-s-metalnom-bazom",
+        "/hr/proteza-sidrena-na-teleskopskim-krunicama"
+      ],
+      "candidates": {
+        "it": ["/prestazioni/corone-faccette-ponti-e-protesi/"],
+        "hr": ["/hr/krunice-ljuskice-mostovi-i-proteze/"]
+      },
+      "reason": "Odjeljak mobilnih i polufiksnih proteza je srodan, ali nije dokazana zamjena za svaku posebnu konstrukciju (teleskopske krunice, metalna baza, kombinirani rad). Potvrditi usluge i očuvanje njihovih objašnjenja prije spajanja."
+    },
+    {
+      "id": "implantology-education",
+      "action": "review",
+      "paths": ["/implantologia", "/hr/implantologija"],
+      "candidates": {
+        "it": ["/su-di-noi/impianti-di-nuova-generazione/"],
+        "hr": ["/hr/implantati-nove-generacije/"]
+      },
+      "reason": "Stari opći edukativni članak uključuje implantologiju i upute nakon zahvata; novi govori o odabranim implantatima nove generacije. Pokrivenost nije jednaka. Razmotriti očuvanje općeg članka, ne preusmjeriti automatski na pojedini paket."
+    },
+    {
+      "id": "technology",
+      "action": "review",
+      "paths": ["/tecnologia", "/hr/technologija"],
+      "candidates": {
+        "it": [
+          "/su-di-noi/materiali-e-apparecchiature/",
+          "/su-di-noi/laboratorio-odontotecnico/"
+        ],
+        "hr": ["/hr/materijali-i-oprema/", "/hr/dentalni-laboratorij/"]
+      },
+      "reason": "Stari članak objedinjuje CEREC CAD/CAM i materijale, a novi sadržaj podijeljen je na dvije stranice. Odabrati primarnu zamjenu tek nakon provjere očuvanja informacija i ulaznog prometa."
+    },
+    {
+      "id": "sterilization",
+      "action": "review",
+      "paths": ["/disinfezione", "/hr/desinfekcija"],
+      "candidates": {
+        "it": ["/su-di-noi/tutto-in-un-unico-luogo/"],
+        "hr": ["/hr/sve-na-jednom-mjestu/"]
+      },
+      "reason": "Novi opis klinike kratko spominje sterilizaciju, ali ne prenosi zasebni detaljni postupak dezinfekcije. Nije dovoljna sadržajna zamjena samo zato što spominje istu riječ; razmotriti očuvanje članka."
+    },
+    {
+      "id": "no-dedicated-equivalent",
+      "action": "review",
+      "paths": [
+        "/bruxismo",
+        "/inlay-in-ceramica",
+        "/allungamento-clinico-della-corona-del-dente-naturale",
+        "/hr/bruksizam",
+        "/hr/keramicki-inlay",
+        "/hr/klinicko-produzenje-krune-prirodnog-zuba"
+      ],
+      "reason": "Nema odgovarajućeg novog detaljnog članka za ovu uslugu. Puko spominjanje u cjeniku ili drugom članku nije ekvivalent. Odlučiti o očuvanju/izradi sadržaja; 410 tek uz izričitu odluku o trajnom uklanjanju i provjeru prometa."
+    },
+    {
+      "id": "destination-guide",
+      "action": "review",
+      "paths": ["/croazia-e-fiume"],
+      "candidates": { "it": ["/faq/"] },
+      "reason": "Stari turistički članak o Rijeci i Hrvatskoj nije isti sadržaj kao nova FAQ zbirka. Pregledati opseg i zastarjele podatke; bez automatskog 301 na FAQ ili naslovnicu."
+    },
+    {
+      "id": "booking-form",
+      "action": "review",
+      "paths": ["/registrazione", "/hr/registration"],
+      "candidates": { "it": ["/contatti/"], "hr": ["/hr/kontakt/"] },
+      "reason": "Stara prijava ima obrazac i upload. Kontakt je kandidat tek kad novi backend, privici, privole i praćenje konverzije rade; sada se ne tvrdi funkcionalna jednakost niti šalje testni upit."
+    },
+    {
+      "id": "campaigns",
+      "action": "review",
+      "paths": [
+        "/action",
+        "/registration-fb",
+        "/registration-fb2",
+        "/hr/registration-fb"
+      ],
+      "reason": "Stara kampanja s vlastitom ponudom i obrascem. Pregledati aktivne oglase, cijenu/opseg, konverzije i UTM prije odluke o zamjeni ili gašenju. Ne slati sve kampanje na naslovnicu ili novi medicinski paket bez potvrde."
+    },
+    {
+      "id": "thank-you",
+      "action": "review",
+      "paths": ["/grazie", "/hr/hvala"],
+      "reason": "Potvrda zaprimljenog upita ovisi o stvarno uspješnom slanju. Ne mapirati na kontakt niti prikazivati lažan uspjeh. Dogovoriti novi tijek obrasca i noindex za potvrdu, zatim status stare adrese."
+    }
+  ]
+}

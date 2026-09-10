@@ -16,6 +16,9 @@
     "reference:audit-live": "xvfb-run -a node scripts/audit-live-site.mjs",
     "audit:copy:it": "node scripts/audit-italian-copy.mjs",
     "audit:urls": "node scripts/audit-url-inventory.mjs",
+    "proposal:redirects": "node scripts/redirect-proposal.mjs",
+    "audit:redirects": "node scripts/audit-redirect-targets.mjs",
+    "test:redirects": "node --test scripts/redirect-proposal.test.mjs",
     "content:extract:hr": "python3 scripts/extract-translation-source.py",
     "content:check:hr": "python3 scripts/extract-translation-source.py --check",
     "content:extract:hr-legal": "node scripts/extract-hr-legal.mjs",
@@ -27,7 +30,7 @@
     "format:check": "prettier . --check",
     "test": "playwright test",
     "test:preview": "node --test scripts/ensure-preview.test.mjs",
-    "validate": "npm run check && npm run lint && npm run format:check && npm run test:content && npm run test:preview && npm test && npm run build"
+    "validate": "npm run check && npm run lint && npm run format:check && npm run test:content && npm run test:redirects && npm run test:preview && npm test && npm run build"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",

@@ -23,6 +23,18 @@ FAQ podaci ostaju sadržajno istiniti, bez obećanja proširenih Google FAQ rezu
 
 ## Redirect inventar
 
+### Prijedlog mape — 10. rujna 2026.
+
+[Mapa i odluke za pregled](redirect-proposal.md) obrađuje svih 206 adresa.
+`data/redirects.csv` sada sadrži **isključivo prijedloge**: 24 predložena 301
+(16 normalizacija završnog `/`, 8 sadržajnih preseljenja), 2 nepromijenjene
+kanonske adrese i 180 otvorenih odluka. Od otvorenih, 50 je dostupnih IT/HR
+adresa, 105 pripada DE/EN/SI, a 25 je starih HTTP 404.
+Kandidati za nejasne zamjene odvojeni su od ciljeva; nijedan 410 nije odabran.
+38 lokalnih ciljeva/kandidata provjereno je bez mijenjanja weba. CSV se ne
+učitava u aplikaciju niti generira hosting pravila. Svi retci nose
+`proposal-only`; spremanje/push ove mape **ne aktivira** redirekcije.
+
 ### Prvi aktualni inventar — 9. rujna 2026.
 
 `data/seo/url-inventory.json` sadrži 206 otkrivenih i provjerenih URL-ova:

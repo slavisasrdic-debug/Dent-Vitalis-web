@@ -30,6 +30,14 @@ SEO: lokalizirani title/description/OG/Twitter/alt/ARIA, canonical i recipročni
 | Djelomično riješeno — IT biografije | Word već sadrži „Il Dr. Domagoj Žalac”; taj je ispravak uz odobrenje 9. rujna prenesen u prikaz i Person opis            | „Dr. XY” više nije otvoren nalaz. Zasebni skriveni Tomislavov profil nije otkriven; ostali podaci i dalje trebaju redovnu stručnu provjeru.                        |
 | Prethodni IT nalaz                  | Različitih **60/65 km od Trsta** i različiti vidljivi/ciljni parking linkovi u IT izvoru                                 | Potvrditi namjeravane podatke; ne mijenjati već prihvaćeni IT copy kroz HR unos.                                                                                   |
 
+Dopuna sadržajnog pregleda pri mapiranju URL-ova, 10. rujna: talijanska
+`/informazioni/prima-visita-gratuita/` u odjeljku „Cosa portare alla visita”
+sadrži biografski odlomak „Con oltre 30 anni di esperienza…” o implantološkom
+iskustvu liječnika. Odlomak postoji u prihvaćenom IT izvoru i trenutačnom SSR
+prikazu, ali nije uputa što pacijent treba ponijeti. Potvrditi njegovo
+uklanjanje iz tog odjeljka ili pravilno smještanje; ovom provjerom tekst nije
+mijenjan. Ovo je dodatna stavka za vlasnika sadržaja, ne odluka o redirectu.
+
 ## Tehničke granice prije produkcije
 
 - Obrazac nema odobren backend. Nema lažnog uspjeha, testnih upita klinici ni aktiviranog uploada na server. Treba odobriti endpoint, privole, retention, zaštitu i polja.
