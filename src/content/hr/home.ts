@@ -95,7 +95,7 @@ export const welcome = {
   thanks: t(1, 6, 6),
   author: t(1, 6, 8),
   documentation: t(1, 6, 10),
-  cta: { href: route('contact'), label: t(1, 6, 28) },
+  cta: { href: '#contatti', label: t(1, 6, 28) },
   items: [12, 16, 20, 24].map((p) => ({
     title: t(1, 6, p),
     text: t(1, 6, p + 2),

@@ -185,7 +185,7 @@ export const welcome = {
   thanks: 'Grazie a tutti coloro che ci hanno dato la loro fiducia.',
   author: 'Šime Živković, dr.med.dent.',
   documentation: 'Documentazione completa, scritta e in italiano:',
-  cta: { label: 'Fissa un appuntamento', href: '/contatti' },
+  cta: { label: 'Fissa un appuntamento', href: '#contatti' },
   items: [
     {
       title: 'Offerta e fatture',
