@@ -23,6 +23,7 @@ import { services, aboutCards } from './home';
 import { alt } from './assets';
 import { specialPages } from './special';
 import { labelParkingLinks } from '../parking-link-labels';
+import { linkDoctorResearch } from '../doctor-research';
 
 function base(id: string, title: string, description: string): InnerPage {
   const original = italianPages.find((p) => p.route === italianRoute(id))!;
@@ -433,4 +434,4 @@ for (const page of pages) {
       : [];
   });
 }
-export const innerPagesHr = pages;
+export const innerPagesHr = pages.map(linkDoctorResearch);

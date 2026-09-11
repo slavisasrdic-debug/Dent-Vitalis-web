@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+Rad dr. Ane: postojeći naslov u IT/HR profilu sada vodi na provjereni DOI `10.1111/clr.320_13042`, bez promjene biografskog teksta. Word ID-evi, izdavačev dokaz suautorstva, razlika između sažetka/e-postera i punog PDF-a te ograničenja dohvata dokumentirani su u [ana-beljan-research.md](ana-beljan-research.md). Izvorni IT `href="#"` zamijenjen je stvarnim linkom; HR naslov dobio je isti link.
+
 Footer, 11. rujna: korisnik zatražio „Dentvitalis Fides”. Zajednički `data/site.ts:referenceBusiness.copyright` ispravljen iz „Dent Vitalis Fides” u „Dentvitalis Fides”, za HR i IT. Godina 2025, pravni tekstovi, kontaktni podaci i schema nisu mijenjani. Ovo je uska odobrena razlika prema referentnom footer tekstu.
 
 FAQ istraga prije ove dorade: reproducirano da zatvaranje prethodnog dugog odgovora pomiče novo pitanje iznad viewporta, na HR FAQ-u i naslovnici, u Chromiumu/WebKitu te s animacijom i reduced-motion. Zajednički FAQ nema provjeru vidljivosti nakon promjene visine. Predložen uvjetni scroll ispod headera/breadcrumba samo ako pitanje/početak odgovora nisu vidljivi. **Popravak nije implementiran**; korisnik je zatražio istraživanje, nakon čega je zatražio ovu footer doradu.

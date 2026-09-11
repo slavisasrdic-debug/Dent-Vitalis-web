@@ -3,6 +3,7 @@ import { bindReferenceBusiness } from './reference-bindings';
 import { completeRelatedServices } from './related-services';
 import { labelParkingLinks } from './parking-link-labels';
 import { applyItalianCorrections } from './editorial-corrections';
+import { linkDoctorResearch } from './doctor-research';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -122,6 +123,7 @@ export interface InnerPage {
 export const innerPages = completeRelatedServices(
   (data as InnerPage[])
     .map(applyItalianCorrections)
+    .map(linkDoctorResearch)
     .map((page) =>
       ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
         page.route,
