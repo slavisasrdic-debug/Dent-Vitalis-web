@@ -10,6 +10,7 @@ function sourceParagraph(value: unknown, id: string): string | undefined {
     const text = sourceParagraph(child, id);
     if (text !== undefined) return text;
   }
+  return undefined;
 }
 const normalize = (text: string) => text.replace(/\s+/g, ' ').trim();
 for (const [route, id] of [

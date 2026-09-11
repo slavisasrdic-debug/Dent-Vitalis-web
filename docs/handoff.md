@@ -1,5 +1,11 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+Najnovija dopuna: kontaktni linkovi na svih 55 IT/HR ruta i četiri pravna članka usklađeni su s potvrđenim izvorima. Korisnik je izričito odobrio zamjenu OBA IT pravna teksta aktualnim javnim tekstom nakon prijave sadržajnih razlika. HR tekstovi ostaju doslovno prethodno odobreni. Dokazi, iznimke, liste i postupak obnove u [legal-and-contact-audit.md](legal-and-contact-audit.md). Svi pravni članci sada koriste Montserrat; ovo ima prednost nad ranijim privacy-only pravilom o Arialu uvjeta.
+
+FAQ pomicanje korisnik je naknadno izričito odobrio: `faq-scroll.ts` nakon završetka height animacija provjerava vidljivost summaryja i prvih 48px odgovora, koristi zajednički scroll-padding i donji mobile CTA. Pomak samo ako početak nije vidljiv; ne mijenja fokus/hash. Novi klik/ručno pomicanje poništavaju odgođenu korekciju. Zajednički `FAQ` pokriva oba jezika, home i detail; testovi `faq-scroll.spec.ts`. Povijesna istraga ispod opisuje stanje prije ove implementacije, ne aktualnu blokadu.
+
+Chat: hrvatski public koristi Zendesk/Zopim preko GTM-a, ne Elfsight WhatsApp. Ranija provjera tražila je samo WhatsApp i propustila ovaj dodatak. Potvrđena HR poruka „Kako vam možemo pomoći?”, offline „Pošaljite poruku”; GTM sadrži i slovenski pozdrav „Kako vam lahko pomagamo?”. Iz toga nije potvrđen HR WhatsApp broj. Novi panel nije implementiran, postojeća chat UI ostaje nepromijenjena; ne izmišljati da Zendesk konfiguracija sadrži WhatsApp broj.
+
 Rad dr. Ane: postojeći naslov u IT/HR profilu sada vodi na provjereni DOI `10.1111/clr.320_13042`, bez promjene biografskog teksta. Word ID-evi, izdavačev dokaz suautorstva, razlika između sažetka/e-postera i punog PDF-a te ograničenja dohvata dokumentirani su u [ana-beljan-research.md](ana-beljan-research.md). Izvorni IT `href="#"` zamijenjen je stvarnim linkom; HR naslov dobio je isti link.
 
 Footer, 11. rujna: korisnik zatražio „Dentvitalis Fides”. Zajednički `data/site.ts:referenceBusiness.copyright` ispravljen iz „Dent Vitalis Fides” u „Dentvitalis Fides”, za HR i IT. Godina 2025, pravni tekstovi, kontaktni podaci i schema nisu mijenjani. Ovo je uska odobrena razlika prema referentnom footer tekstu.

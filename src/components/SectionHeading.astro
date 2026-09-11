@@ -1,5 +1,6 @@
 ---
 import Reveal from './Reveal.astro';
+import InlineContent from './InlineContent.astro';
 interface Props {
   eyebrow: string;
   title: string;
@@ -33,7 +34,7 @@ const {
         >{
           variant !== 'intro' && description && (
             <Reveal as="p" class="description">
-              {description}
+              <InlineContent content={[{ kind: 'text', text: description }]} />
             </Reveal>
           )
         }
@@ -43,7 +44,9 @@ const {
             <>
               <div class="intro-gap" />
               <Reveal as="p" class="description">
-                {description}
+                <InlineContent
+                  content={[{ kind: 'text', text: description }]}
+                />
               </Reveal>
             </>
           </>

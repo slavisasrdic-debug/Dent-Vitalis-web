@@ -44,7 +44,12 @@ const eagerImage =
           variant={variant}
         />
       )
-    }<article class:list={['editorial-copy', { 'privacy-copy': isPrivacy }]}>
+    }<article
+      class:list={[
+        'editorial-copy',
+        { 'privacy-copy': isPrivacy, 'legal-copy': variant === 'legal' },
+      ]}
+    >
       <ContentBlocks
         blocks={isPrivacy
           ? privacyPresentation(page.blocks, page.lang ?? 'it')
@@ -100,7 +105,8 @@ const eagerImage =
     padding-right: 80px;
   }
   /* Presentation only: preserve every legal block, word and link verbatim. */
-  .privacy-copy {
+  .privacy-copy,
+  .legal-copy {
     font-family: var(--font-body);
     overflow-wrap: anywhere;
   }

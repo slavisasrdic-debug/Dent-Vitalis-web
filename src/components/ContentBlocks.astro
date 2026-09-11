@@ -23,7 +23,13 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     if (block.type === 'list') {
       const List = block.ordered ? 'ol' : 'ul';
       return (
-        <List id={block.id} class="content-list">
+        <List
+          id={block.id}
+          class="content-list"
+          type={
+            block.ordered && block.listStyle === 'lower-alpha' ? 'a' : undefined
+          }
+        >
           {block.items.map((items) => (
             <li>
               <Astro.self

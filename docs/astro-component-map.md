@@ -1,5 +1,13 @@
 # Astro komponente — 28 talijanskih i 27 hrvatskih stranica
 
+## Dopune 11. rujna — pravni izvori, kontaktni linkovi i FAQ
+
+Ova dopuna ima prednost nad povijesnim privacy-only i FAQ zapisima niže. `legal-public.ts` mapira dva izričito odobrena IT public pravna članka iz novog inertnog AST snapshota; HR ostaje na prethodnom jednakom tekstu. `ContentBlock.listStyle` podržava izvorni `ol type="a"`. `EditorialPage.legal-copy` uvodi Montserrat i za uvjete, a legal sidebar/layout ostaju postojeći. Izvori, točan sadržaj i odobrenja: [legal-and-contact-audit.md](legal-and-contact-audit.md).
+
+`InlineContent.linkContacts` zadano uključuje SSR pretvaranje kontaktnih literala iz `contact-links.ts`; rekurzija unutar postojećeg linka izričito ga isključuje. Nema HTML stringova ni novog client JS-a za linkove. Izvorni tekst se ne mijenja; formatiranje novih linkova nasljeđuje font i koristi underline/wrapping. `SectionHeading` dijeli renderer za opis. Dvije nefunkcionalne spomenute domene dentiumeu.com ostaju tekst; jedna pogrešna HR tel poveznica usklađena je s vidljivim brojem.
+
+`FAQ` označava postojeću 400ms height animaciju s `faq-height`; `revealFAQStart` čeka završetak svih aktivnih FAQ height animacija (uključujući zatvaranje drugog root-a), zatim provjerava summary i početak odgovora. Scroll samo ako je potrebno, uz postojeći header/breadcrumb scroll-padding, visual viewport i donji CTA. Reduced motion koristi instant, inače smooth. Jedna generacija otvaranja odbacuje stare zahtjeve; wheel/touchmove/pointerdown/keydown poništavaju čekajući pomak. Privremeni listeneri se uklanjaju, fokus i URL ostaju nepromijenjeni, no-JS native details ostaju dostupni.
+
 Izvor granica: prihvaćeni `component-map.md`, svih 28 zapisa u `components.json` te sastav svih 28 stranica u `page-composition.md` i `pages.json`. Nazivi koje je handoff označio kao **proposed** nisu obvezni Astro nazivi. Jedan Webflow wrapper nije automatski komponenta.
 
 ## Hrvatska lokalizacija — 8. rujna 2026.

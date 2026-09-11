@@ -18,6 +18,19 @@ export function privacyPresentation(
     };
   };
   if (lang === 'hr') {
+    // Every ordered list in the public HR article uses type="a", not just
+    // the list of rights. Preserve nested unordered lists and every inline node.
+    const listStyles = (items: ContentBlock[]): ContentBlock[] =>
+      items.map((block) =>
+        block.type === 'list'
+          ? {
+              ...block,
+              ...(block.ordered ? { listStyle: 'lower-alpha' as const } : {}),
+              items: block.items.map(listStyles),
+            }
+          : block,
+      );
+    blocks = listStyles(blocks);
     // Source classes: question / policy-title / policy-section-title.
     const main = new Set([0, 2, 9, 11, 15, 18, 20, 22, 24, 26, 30]);
     const sections = new Set([34, 36, 38, 41, 44, 47, 49, 51, 55]);
@@ -38,23 +51,7 @@ export function privacyPresentation(
       return block;
     });
   }
-  let regulation = false;
-  return blocks.map((block) => {
-    if (block.type !== 'heading') return block;
-    if (
-      block.content.some(
-        (node) =>
-          node.kind === 'text' &&
-          node.text === 'Regolamento sul trattamento dei dati personali',
-      )
-    ) {
-      regulation = true;
-      return block;
-    }
-    if (!regulation) return block;
-    const numbered = block.content.some(
-      (node) => node.kind === 'text' && /^[1-8]\. /.test(node.text),
-    );
-    return heading(block, numbered ? 4 : 3);
-  });
+  // Italian public-source extraction now carries the source list structure
+  // and heading hierarchy directly; do not flatten or renumber it again.
+  return blocks;
 }

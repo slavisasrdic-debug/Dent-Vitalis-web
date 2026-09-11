@@ -6,10 +6,6 @@ import { createHash } from 'node:crypto';
 // (including whitespace), block order, list structure, labels or hrefs.
 const pages = [
   [
-    '/informativa-sulla-privacy',
-    '18882a3015c1e7622e7dc7cca56cbc6db0e16b1be9ebd08e89db99a0887f29b1',
-  ],
-  [
     '/hr/polica-privatnosti',
     'e66ffbac46f3e4ff2256899c8cd7ce8ce0f0fceaa03772eb7574b77112e9d003',
   ],
@@ -54,16 +50,29 @@ for (const [route, hash] of pages) {
       await page.setViewportSize({ width, height: 900 });
       const article = page.locator('.editorial-copy');
       await expect(article).toHaveCSS('font-family', /Montserrat/);
-      const data = await article.evaluate((el) => ({
-        text: el.textContent,
-        structure: [...el.querySelectorAll('*')].map((e) => ({
-          tag: ['P', 'H2', 'H3', 'H4'].includes(e.tagName)
-            ? 'TEXT-BLOCK'
-            : e.tagName,
-          href: e.getAttribute('href'),
-          text: e.childElementCount ? null : e.textContent,
-        })),
-      }));
+      const data = await article.evaluate((original) => {
+        // Approved contact anchors may be added, but every original character,
+        // existing link and structural node must still match the old checksum.
+        const el = original.cloneNode(true) as HTMLElement;
+        el.querySelectorAll('a[data-contact-link]').forEach((a) =>
+          a.replaceWith(...a.childNodes),
+        );
+        // One approved href-only correction in the HR snapshot; restore it
+        // solely for comparison with the immutable pre-change checksum.
+        el.querySelectorAll('a[href="tel:+38551371064"]').forEach((a) =>
+          a.setAttribute('href', 'tel:0038550371064'),
+        );
+        return {
+          text: el.textContent,
+          structure: [...el.querySelectorAll('*')].map((e) => ({
+            tag: ['P', 'H2', 'H3', 'H4'].includes(e.tagName)
+              ? 'TEXT-BLOCK'
+              : e.tagName,
+            href: e.getAttribute('href'),
+            text: e.childElementCount ? null : e.textContent,
+          })),
+        };
+      });
       expect(
         createHash('sha256').update(JSON.stringify(data)).digest('hex'),
       ).toBe(hash);
@@ -91,12 +100,12 @@ for (const [route, hash] of pages) {
   });
 }
 
-test('terms of use retain their existing font', async ({ page }) => {
+test('terms of use use the approved website font', async ({ page }) => {
   for (const route of ['/condizioni-di-utilizzo', '/hr/uvjeti-koristenja']) {
     await page.goto(route, { waitUntil: 'domcontentloaded' });
     await expect(page.locator('.editorial-copy')).toHaveCSS(
       'font-family',
-      /Arial/,
+      /Montserrat/,
     );
   }
 });

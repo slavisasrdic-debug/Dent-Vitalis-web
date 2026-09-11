@@ -4,6 +4,7 @@ import { completeRelatedServices } from './related-services';
 import { labelParkingLinks } from './parking-link-labels';
 import { applyItalianCorrections } from './editorial-corrections';
 import { linkDoctorResearch } from './doctor-research';
+import { applyPublicLegal } from './legal-public';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -15,7 +16,7 @@ export type InlineContent =
       kind: 'link';
       href: string;
       children: InlineContent[];
-      variant?: 'plain' | 'underlined' | 'hero-phone' | 'native';
+      variant?: 'plain' | 'underlined' | 'hero-phone' | 'native' | 'contact';
     };
 export interface ContentPhoto {
   image: string;
@@ -38,7 +39,12 @@ export interface DirectoryCard extends PageCard {
   actionLayout: 'standard' | 'wide-arrow';
 }
 export type ContentBlock = { id?: string } & (
-  | { type: 'list'; ordered: boolean; items: ContentBlock[][] }
+  | {
+      type: 'list';
+      ordered: boolean;
+      listStyle?: 'lower-alpha';
+      items: ContentBlock[][];
+    }
   | { type: 'contact-row'; cells: InlineContent[][]; border: boolean }
   | { type: 'paragraph'; content: InlineContent[]; variant: string }
   | {
@@ -124,6 +130,7 @@ export const innerPages = completeRelatedServices(
   (data as InnerPage[])
     .map(applyItalianCorrections)
     .map(linkDoctorResearch)
+    .map(applyPublicLegal)
     .map((page) =>
       ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
         page.route,

@@ -15,3 +15,5 @@ data/translations/hr-source.json
 # Reproducible inert parsing of the approved legal snapshots.
 src/content/hr/legal.json
 reference/legal-hr/
+reference/legal-public/
+src/content/legal-public.json

@@ -1,0 +1,3182 @@
+[
+  {
+    "route": "/informativa-sulla-privacy",
+    "title": "Informativa sulla privacy",
+    "blocks": [
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Per cosa useremo i vostri dati?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "All'occorrenza raccogliamo i vostri dati, riportati sotto forma di richiesta (nome e cognome, e-mail, numero di telefono, ecc.). Altrimenti potete utilizzare le nostre pagine in forma anonima."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Quali dati raccogliamo?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Possiamo utilizzare i vostri dati, personali e non, in uno dei seguenti modi:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Per comunicazioni personalizzate, ovvero per offrire informazioni secondo le vostre necessità reali."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Al fine di migliorare questa pagina web."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Per una migliore comprensione delle necessità dei potenziali clienti e degli utenti della Pagina."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Per l'invio di e-mail con le quali informarvi di vantaggi e di nuovi servizi."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Avvertenze: se desiderate cancellarvi ed interrompere la ricezione di future e-mail, potete farlo in qualsiasi momento seguendo le istruzioni riportate nella parte inferiore di ogni e-mail."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Come proteggiamo i vostri dati personali?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Adottiamo una serie di misure di sicurezza per mantenere la segretezza dei vostri dati personali in ogni momento: quando accedete al sito, quando ci inviate una richiesta attraverso il formulario del web oppure quando ci mandate una e-mail."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Perché usiamo cookies?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "I cookies sono piccoli file che trasferiamo nel vostro hard disk attraverso il browser (se lo consentite), e che ci permettono di riconoscere l'utente e memorizzare determinati dati collegati a lui."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Grazie a questi dati possiamo offrire in futuro informazioni più precise e di qualità sui nostri servizi. Per analizzare questi dati possiamo ingaggiare una terza parte che può aiutarci in questo. Posto ciò, in nessun momento questa terza parte ha diritto a disporre dei dati per qualsiasi finalità salvo quelle precedentemente menzionate e non è autorizzata a cedere i dati a terzi."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Se desiderate, potete selezionare sul vostro computer l'opzione che vi informa ogni qual volta un cookie è inviato o potete scegliere di escludere completamente tutti i cookies."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Chi può utilizzare i miei dati personali?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "I vostri dati personali non saranno mai oggetto di compravendita né saranno ceduti, gratuitamente o a pagamento, a terzi per il loro sfruttamento commerciale."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "I dati non personali raccolti durante una visita anonima a questo sito possono essere forniti a terzi allo scopo di migliorare la promozione e il marketing."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Link indipendenti (collegamenti)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Occasionalmente, a nostra discrezione, possiamo inserire sulle nostre pagine dei collegamenti a siti web di terze parti. Ricordiamo che queste pagine hanno politiche sulla privacy separate ed indipendenti. Non ci assumiamo alcuna responsabilità sul contenuto e sulle vostre attività in tali pagine. Dato il nostro interesse a proteggere l'integrità del nostro sito, qualsiasi informazione di ritorno su questi siti web è benvenuta."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Legge per la protezione della privacy online dei minori"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "In conformità con le disposizioni del COPPA (Children Online Privacy Protection Act - Legge per la protezione della privacy online dei minori), non raccogliamo alcuna informazione personale da individui che non abbiano compiuto almeno 13 anni di età."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Privacy Online"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Il documento di Informativa sulla Privacy relativo alla protezione della privacy in Internet riguarda solamente i dati raccolti tramite il nostro sito web, non interessa i dati raccolti in altra maniera."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Condizioni"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vi preghiamo di consultare "
+          },
+          {
+            "kind": "link",
+            "href": "/condizioni-di-utilizzo",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Condizioni di utilizzo"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " del nostro sito web."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Il vostro consenso"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Utilizzando il nostro sito web accettate l'Informativa sulla privacy qui menzionata."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Modifiche all'Informativa sulla privacy"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Nel caso in cui per qualsiasi motivo fossero cambiate le condizioni di questa Informativa, le suddette modifiche saranno rese note in questa Pagina."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Per qualsiasi domanda relativa a questa Informativa sulla privacy, potete contattarci per iscritto oppure oralmente a:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "link",
+            "href": "/",
+            "children": [
+              {
+                "kind": "text",
+                "text": "www.dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Krešimirova 60"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Fiume, 51000"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Croazia"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:info@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "info@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "tel:0038551371064",
+            "children": [
+              {
+                "kind": "text",
+                "text": "+38551371064"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Regolamento sul trattamento dei dati personali"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. (Srl) con sede a Rijeka (Fiume), Krešimirova 60,\n                                    Croazia, OIB (CF) 39977041464 (di seguito: Responsabile del trattamento), soggetta all'applicazione di:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio europeo del 27 aprile 2016 (di seguito: Regolamento generale), e"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "disposizioni di tutte le altre normative applicabili in materia di protezione dei dati personali"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    con il presente regolamento gestisce la protezione dei dati personali delle persone\n                                    (persone fisiche) cui fornisce informazioni e/o servizi nel corso della sua attività.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Disposizioni introduttive"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Il regolamento sul trattamento dei dati personali è un atto giuridico unilaterale e vincolante basato sui principi di base del Regolamento generale e su tutti gli altri regolamenti applicabili alla protezione dei dati personali delle persone fisiche."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "La persona interessata è la persona fisica i cui dati sono raccolti in conformità al presente Regolamento."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Il dato personale è qualsiasi dato riguardante un individuo la cui identità è identificata o identificabile."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Il trattamento di dati personali è qualsiasi processo o insieme di procedure in cui vengono utilizzati i dati personali."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Principi di raccolta, trattamento e archiviazione dei dati personali"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "I dati personali della persona interessata sono trattati in modo lecito, equo e trasparente. Sono raccolti e trattati solo i dati relativi alla fornitura di informazioni e servizi nell'ambito delle attività del Responsabile del trattamento."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Se la persona interessata è d’accordo, il responsabile del trattamento è disposto a raccogliere altri dati personali che potrebbero essere utilizzati esclusivamente ai fini di una migliore assistenza sanitaria futura della persona interessata."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "I dati personali sono raccolti e archiviati in modo tale da essere protetti da furti, uso non autorizzato, perdita, distruzione o danno."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        I dati personali sono raccolti, trattati e archiviati esclusivamente in conformità con:\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "regolamenti in materia di registri nel campo della salute e altre norme legali applicabili relative a tipi specifici di dati, e"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "esigenze giustificate dal punto di vista aziendale ovvero esigenze condizionate dal processo di fornitura dei servizi dalle attività del responsabile del trattamento."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "La persona interessata fornisce i dati personali esclusivamente su base volontaria. Nel fare ciò, il responsabile del trattamento si riserva il diritto di rifiutare il servizio alla persona interessata che non gli abbia fornito i dati personali necessari per la qualità e la sicurezza della prestazione del servizio."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Scopo della raccolta e trattamento dei dati personali"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "I dati personali della persona interessata sono raccolti e trattati solo se è soddisfatta una delle seguenti condizioni:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "se il trattamento dei dati personali è necessario per la fornitura di servizi nell'ambito delle attività del responsabile del trattamento,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "se esiste un obbligo legale di trattarli,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "se è necessario tutelare gli interessi chiave della persona interessata o di altra persona fisica,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "se il trattamento è necessario per l'esecuzione di un'attività di interesse pubblico,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "se il trattamento è necessario per la tutela degli interessi legittimi del responsabile del trattamento, eccetto che nei casi in cui la protezione della persona interessata o dei suoi diritti fondamentali dovrebbe avere la priorità (ad es. protezione degli interessi del minorenne)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Metodo di raccolta dei dati personali della persona interessata"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "I dati personali della persona interessata sono raccolti nei modi seguenti:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Direttamente dalla persona interessata cui il responsabile del trattamento fornisce servizi all'interno della propria attività. La persona interessata può fornire tali informazioni oralmente, per iscritto o tramite il sito Web del responsabile del trattamento."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Attraverso la documentazione medica e di altra natura di terzi, fornita dalla persona interessata al responsabile del trattamento."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Attraverso la documentazione medica e di altra natura della persona interessata che risulta nel processo di fornitura di servizi dalle attività del responsabile del trattamento (ad esempio materiale diagnostico, registri delle procedure mediche, farmaci, processi ecc.)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Attraverso la documentazione di terzi coinvolti nel processo di fornitura di servizi alla persona interessata (ad es. risultati dei test di laboratorio, impronte dentali dell'odontotecnico ecc.)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Trasferimento dei dati personali"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "I dati personali della persona interessata vengono trasmessi a terzi solo a scopo di:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "adempimento degli obblighi previsti dalla legge,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "esecuzione di determinati compiti per i quali il responsabile del trattamento ha assunto una terza parte (ad es. laboratorio odontotecnico, ufficio contabile ecc.)"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Durata e tempi di conservazione dei dati personali"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Il responsabile del trattamento conserverà i dati personali della persona interessata in conformità con i termini previsti dalla legge\n                                    e, in caso contrario, fino al momento in cui la loro conservazione è giustificata dal punto di vista commerciale. Eccezionalmente,\n                                    i dati personali saranno conservati per un periodo superiore a tale periodo se la loro conservazione è una condizione per la legittima\n                                    protezione degli interessi del responsabile del trattamento. I dati personali della persona interessata vengono eliminati dopo la scadenza\n                                    del periodo legale che obbliga il responsabile del trattamento a conservare determinati dati personali o alla cessazione della necessità di conservarli.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Diritti della persona interessata"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto di accesso ai dati personali"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Il responsabile del trattamento si impegna, sulla base di una richiesta scritta, a consentire alla persona interessata l'accesso ai dati personali,\n                                            di informarla sullo scopo del trattamento dei dati personali, sul tipo di dati personali trattati, sui destinatari o sulle categorie\n                                            di destinatari cui i dati personali sono stati divulgati o saranno divulgati, sui tempi previsti per la loro conservazione o i criteri\n                                            utilizzati per determinare tale periodo.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto di correggere dati personali inesatti"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Il responsabile del trattamento è tenuto a consentire alla persona interessata di correggere dati inesatti o completare i dati personali esistenti.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto di cancellare i dati personali"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Il responsabile del trattamento cancellerà i dati personali della persona interessata nei seguenti casi:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "quando i dati personali della persona interessata non sono più necessari per l'adempimento dello scopo del trattamento, vale a dire con la cessazione dello scopo del trattamento,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "quando la persona interessata revoca il consenso come base giuridica per il trattamento dei dati e non esiste un'altra base giuridica per l'ulteriore trattamento dei dati,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "quando la persona interessata presenta un'obiezione giustificata al trattamento dei dati,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "quando i dati personali devono essere cancellati per adempiere gli obblighi di legge."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto di limitare il trattamento dei dati"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Il responsabile del trattamento limiterà il trattamento dei dati personali se viene soddisfatta una delle seguenti condizioni:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "la persona interessata contesta l'accuratezza dei dati personali,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "il trattamento dei dati personali è illegale, ma la persona interessata non richiede la cancellazione, ma solo la limitazione del trattamento,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "il responsabile del trattamento non ha più bisogno di dati personali, ma la persona interessata richiede il loro trattamento parziale per proteggere i suoi interessi."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto di presentare un reclamo"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            La persona interessata ha il diritto di presentare un reclamo in merito al trattamento dei propri dati personali.\n                                            Il responsabile del trattamento si riserva il diritto di non soddisfare tale reclamo se sussiste un interesse legittimo\n                                            e giustificato al trattamento dei dati personali della persona interessata.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto alla portabilità dei dati personali"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "La persona interessata ha il diritto di richiedere il trasferimento di dati personali a un altro responsabile del trattamento nei seguenti casi:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "i dati sono stati ottenuti dal responsabile del trattamento sulla base di un consenso revocabile,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "se così concordato,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "se il trattamento dei dati viene effettuato automaticamente."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Diritto alla richiesta di stabilire una violazione dei diritti"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "La persona interessata ha il diritto di presentare una richiesta di determinazione della violazione dei diritti all'Agenzia per la protezione dei dati personali."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Revoca del consenso"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "La persona interessata può, in qualsiasi momento, revocare i propri consensi per la raccolta e il trattamento di dati personali non inclusi nel presente Regolamento."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Informazioni e reclami"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Per qualsiasi domanda o reclamo in merito alla protezione dei dati personali da parte del responsabile del trattamento,\n                                    la persona interessata può contattare il responsabile della protezione dei dati per iscritto:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Responsabile della protezione dei dati"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Krešimirova 60, Rijeka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:dpo@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "dpo@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Tutte le domande e le richieste devono essere trattate dal responsabile del trattamento senza inutile ritardo\n                                    e in conformità con le scadenze previste dalla legge.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Rettifica del regolamento sul trattamento dei dati personali"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Il responsabile del trattamento si riserva il diritto di modificare il presente Regolamento in qualsiasi momento e senza preavviso.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Lì, Rijeka (Fiume), 25.05.2018\n                                "
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-11/informativa-sulla-privacy.html",
+      "url": "https://www.dentvitalis.com/informativa-sulla-privacy",
+      "sha256": "424bdf10a54de0af873fd151057ccae7aecd5a4646051f5ffdab2e7f083c63ca",
+      "retrievedAt": "2026-09-11"
+    }
+  },
+  {
+    "route": "/hr/polica-privatnosti",
+    "title": "Polica privatnosti",
+    "blocks": [
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za što ćemo koristiti Vaše podatke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Po potrebi prikupljamo Vaše podatke koji su navedeni u formi upita (ime i prezime, e-mail, broj telefona itd. U suprotnom, naše stranice koristitite anonimno.\n"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Koje podatke prikupljamo?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaše osobne i neosobne podatke možemo koristiti na jedan od sljedećih načina:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za potrebe personalizirane komunikacije, odnosno pružanje informacija u skladu    s Vašim stvarnim potrebama"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "U svrhu poboljšanja ove web stranice "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "U svrhu boljeg razumijevanja potreba potencijalnih pacijenata i korisnika stranice"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za slanje povremenih e-mailova kojima vas obavještavamo o pogodnostima i novim uslugama"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Napomena: ako se u bilo kojem trenutku želite odjaviti od primanja budućih e-mailova to možete učiniti u skladu s uputama na dnu svakog e-maila. "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kako štitimo Vaše osobne informacije?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Provodimo niz sigurnosnih mjera za održavanje tajnosti Vaših osobnih podataka u svakom trenutku: kada pristupite stranicama, kada nam pošaljete upit korištenjem web forme ili prilikom slanja e-maila."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za što koristimo kolačiće?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kolačići su male datoteke koje transferamo na Vaš hard disk računala putem web preglednika (ako dopustite), a koji nam omogućavaju prepoznavanje korisnika i memoriranje određenih podataka u vezi s njime.\n"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Zahvaljujući tim podacima možemo u budućnosti ponuditi kvalitetnije i preciznije informacije o našim uslugama. U svrhu analize tih podataka možemo angažirati treću stranu koja nam u tome može pomoći. Pri tome niti u jednom trenutku treća strana ne stječe pravo raspolaganja podacima u bilo koju svrhu osim već prethodno navedene te nije ovlaštena iste ustupati trećim stranama.\n"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ako želite, na svom računalu možete odabrati opciju koja vas informira svaki put kada je kolačić poslan ili možete izabrati potpuno isključenje svih kolačića."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Tko sve može koristiti moje osobne podatke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaši osobni podaci nikada neće postati predmetom kupoprodaje niti će biti sa ili bez naknade biti ustupljeni trećoj strani u svrhu njihove komercijalne eksploatacije."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Neosobni podaci, prikupljeni tijekom anonimne posjete ovoj stranici možemo ustupiti trećoj strani u svrhu unapređenja promocije i marketinga. "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Neovisni linkovi (poveznice)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Povremeno, prema našoj procjeni, možemo na ove stranice postaviti poveznice na web stranice trećih. Napominjemo da te stranice imaju odvojene i samostalne politike privatnosti. Zato nemamo nikakvu odgovornost za sadržaj i vaše aktivnosti na tim stranicama. Kako nam je u interesu zaštiti integritet naše stranice dobrodošle su bilo kakve povratne informacije o tim web stranicama."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Dječje Online Privacy Protection Act Compliance"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Dokument Police privatnosti o zaštiti privatnosti na internetu se odnosi samo na podatke prikupljene putem naše web stranice, a ne i na podatke koji su prikupljeni na neki drugi način."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Uvjeti"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Molimo pogledajte "
+          },
+          {
+            "kind": "link",
+            "href": "/hr/uvjeti-koristenja",
+            "children": [
+              {
+                "kind": "text",
+                "text": "uvjete korištenja"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " naše web stranice."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaša suglasnost"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Korištenjem naše stranice pristajete na ovdje navedenu Policu privatnosti."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Promjene Police privatnosti"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "U slučaju da iz bilo kojeg razloga promijenimo uvjete ove Police, navedene izmjene će biti objavljene na ovoj stranici."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Imate li bilo kakva pitanja u vezi s ovom Policom privatnosti možete nas kontaktirati pismeno ili usmeno na: "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "link",
+            "href": "/hr",
+            "children": [
+              {
+                "kind": "text",
+                "text": "www.dentivitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Krešimirova 60"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Rijeka, 51000 "
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Hrvatska "
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:info@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "info@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "tel:0038550371064",
+            "children": [
+              {
+                "kind": "text",
+                "text": "+38551371064"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " \n                            "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Pravilnik o postupanju s osobnim podacima"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. sa sjedištem u Rijeci, Krešimirova 60,\n                                    OIB 39977041464 (u daljnjem tekstu: Voditelj obrade), kao obveznik primjene\n                                "
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Uredbe (EU) 2016/679 Europskog parlamenta i Europskog vijeća od 27. travnja 2016. godine (u daljnjem tekstu: Opća uredba), te"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "odredbi svih drugih mjerodavnih propisa kojima se regulira zaštita osobnih podataka"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    ovim Pravilnikom regulira zaštitu osobnih podataka pojedinaca (fizičkih osoba)\n                                    kojima pruža informacije i/ili usluge u okviru svoje djelatnosti.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Uvodne odredbe"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Pravilnik o postupanju s osobnim podacima je jednostrano obvezujući pravni akt zasnovan na temeljnim načelima Opće uredbe i svih drugih propisa mjerodavnih za zaštitu osobnih podataka fizičkih osoba."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik je fizička osoba čiji se podaci prikupljaju sukladno ovom Pravilniku."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobni podatak je svaki podatak koji se odnosi na pojedinca čiji je identitet utvrđen ili ga je moguće utvrditi."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Obrada osobnih podataka je svaki postupak ili skup postupaka u kojima se koriste osobni podaci."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Načela prikupljanja, obrade i pohrane osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobni podaci Ispitanika se obrađuju zakonito, pošteno i transparentno. Prikupljaju se i obrađuju samo podaci koji su relevantni za pružanje informacija i usluga u okviru djelatnosti Voditelja obrade."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ukoliko se Ispitanik složi, Voditelj obrade je voljan prikupiti i druge osobne podatke koji bi se koristili isključivo u svrhu buduće bolje zdravstvene zaštite Ispitanika."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobni podaci se prikupljaju i čuvaju na način da budu zaštićeni od krađe, neovlaštenog korištenja, gubitka, uništenja ili oštećenja."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        Osobni podaci se prikupljaju, obrađuju i čuvaju isključivo u skladu s:\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "propisima o evidencijama na području zdravstva i drugim važećim zakonskim propisima koji se odnose na posebne vrste podataka, te"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "poslovno opravdanim potrebama, odnosno potrebama uvjetovanim procesom pružanja usluga iz djelatnosti Voditelja obrade."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osobne podatke Ispitanik pruža isključivo dobrovoljno. Pri tome Voditelj obrade pridržava pravo uskratiti uslugu Ispitaniku koji mu nije pružio osobni podatak koji je neophodan za kvalitetno i sigurno pružanje usluge."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Svrha prikupljanja i obrade osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osobni podaci Ispitanika prikupljaju se i obrađuju samo ako je ispunjen jedan od sljedećih uvjeta:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako je obrada osobnih podataka nužna za pružanje usluga u okviru djelatnosti Voditelja obrade"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako postoji zakonska obveza njihove obrade"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako postoji nužnost zaštite ključnih interesa Ispitanika ili druge fizičke osobe"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako je obrada nužna za izvršavanje zadaće od javnog interesa"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ako je obrada nužna u svrhu zaštite legitimnih interesa Voditelja obrade, osim u slučajevima kada zaštita Ispitanika, odnosno njegovih temeljnih prava, treba imati prioritet (npr. zaštita interesa djeteta)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Način prikupljanja osobnih podataka Ispitanika"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osobni podaci Ispitanika prikupljaju se na sljedeće načine:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Izravno od strane Ispitanika kojem Voditelj obrade pruža usluge u okviru svoje djelatnosti. Ispitanik ove informacije može dati: usmeno, pismeno ili putem Web stranice Voditelja obrade."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Kroz medicinsku i drugu dokumentaciju trećih, a koju Ispitanik stavi na raspolaganje Voditelju obrade."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Kroz medicinsku i drugu dokumentaciju Ispitanika, a koja nastane u procesu pružanja usluga iz djelatnosti Voditelja obrade (npr. dijagnostički materijal, evidencija medicinskih postupaka, lijekova, procesa itd.)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Kroz dokumentaciju trećih koji su uključeni u proces pružanja usluga Ispitaniku (npr. rezultati laboratorijskih pretraga, dentalni otisci laboratorijskih tehničara itd.)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Prosljeđivanje osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osobni podaci Ispitanika se prosljeđuju trećima samo u svrhu:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "ispunjenja obveza predviđenih zakonom"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "izvršenja pojedinih poslova za koje je Voditelj obrade angažirao treću osobu (npr. dentalni laboratorij, knjigovodstveni ured i sl.)"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vremensko trajanje i čuvanje osobnih podataka"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Voditelj obrade će osobne podatke Ispitanika čuvati u skladu s vremenskim rokovima propisanim Zakonom,\n                                    a ako to nije slučaj, onda samo do roka kada je njihovo čuvanje poslovno opravdano. Iznimno,\n                                    osobni podaci će se čuvati duže od tog roka ako je njihovo čuvanje uvjet za legitimnu zaštitu\n                                    interesa Voditelja obrade. Osobni podaci ispitanika se brišu protekom zakonskog roka koji\n                                    obvezuje Voditelja obrade na čuvanje pojedinih osobnih podataka ili prestankom svrhe njihova čuvanja.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Prava Ispitanika"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na pristup osobnim podacima"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Voditelj obrade se obvezuje, na temelju podnesenog pisanog zahtjeva,\n                                            omogućiti Ispitaniku pristup osobnim podacima, informirati ga o svrsi obrade osobnih podataka,\n                                            o vrsti osobnih podataka koji se obrađuju, o primateljima ili kategorijama primatelja kojima su\n                                            osobni podaci otkriveni ili će im biti otkriveni, o predviđenom vremenskom razdoblju njihova\n                                            čuvanja ili o kriterijima koji se koriste za utvrđivanje tog razdoblja.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na ispravak netočnih osobnih podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Voditelj obrade je dužan omogućiti Ispitaniku ispravak netočnih ili nadopunu postojećih osobnih podataka.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na brisanje osobnih podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Voditelj obrade će izvršiti brisanje osobnih podataka Ispitanika u sljedećim slučajevima:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada osobni podaci Ispitanika više nisu nužni za ispunjenje svrhe obrade, odnosno prestankom svrhe obrade"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada Ispitanik povuče privolu kao pravni temelj za obradu podataka, a ne postoji druga zakonska osnova za daljnju obradu podataka"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada Ispitanik uloži opravdan prigovor na obradu podataka"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "kada se osobni podaci moraju brisati radi ispunjenja zakonskih obveza"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na ograničenje obrade podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Voditelj obrade će ograničiti obradu osobnih podatka ukoliko je zadovoljen jedan od sljedećih uvjeta:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Ispitanik osporava točnost osobnih podataka"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "obrada osobnih podataka je nezakonita, ali Ispitanik ne traži brisanje, već samo ograničavanje njihove obrade"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Voditelj obrade više ne treba osobne podatke, ali Ispitanik traži njihovu djelomičnu obradu u svrhu zaštite svojih interesa."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na ulaganje prigovora"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Ispitanik ima pravo na ulaganje prigovora na obradu svojih osobnih podataka.\n                                            Voditelj obrade pridržava pravo ne udovoljiti takvom prigovoru ako postoji opravdan\n                                            legitimni interes za obradu osobnih podataka ispitanika.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na prenosivost osobnih podataka"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik ima pravo tražiti prijenos osobnih podataka drugom Voditelju obrade u sljedećim slučajevima:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ako se radi o podacima koje je Voditelj obrade dobio na temelju privole koja se može opozvati,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ako je tako ugovoreno,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ako se obrada podataka provodi automatiziranim putem."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravo na Zahtjev za utvrđivanje povrede prava"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik ima pravo uložiti Zahtjev za utvrđivanje povrede prava Agenciji za zaštitu osobnih podataka."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Opoziv privole"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ispitanik u svakom trenutku može povući privole za prikupljanje i obradu osobnih podataka koji nisu obuhvaćeni ovim Pravilnikom."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Informacije i prigovori"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Za sva pitanja i prigovore u vezi sa zaštitom osobnih podataka od strane Voditelja obrade,\n                                    Ispitanik se može obratiti pismeno službeniku za zaštitu osobnih podataka:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Službenik za zaštitu osobnih podataka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Krešimirova 60, Rijeka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:dpo@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "dpo@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Sve upite i zahtjeve Voditelj obrade dužan je obraditi bez nepotrebnog odgađanja\n                                    i u skladu sa zakonom propisanim rokovima.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Izmjene i dopune Pravilnika o postupanju s osobnim podacima"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Voditelj obrade zadržava pravo izmijeniti i dopuniti ovaj Pravilnik u bilo kojem trenutku\n                                    i bez bilo kakve prethodne najave.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    U Rijeci, 25.5.2018. godine\n                                "
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-11/hr-polica-privatnosti.html",
+      "url": "https://www.dentvitalis.com/hr/polica-privatnosti",
+      "sha256": "89ec69b922b9cbd205a8e1dc7a8a5f56a4d2d39b6c110925b0ee6964f40da0ce",
+      "retrievedAt": "2026-09-11"
+    }
+  },
+  {
+    "route": "/condizioni-di-utilizzo",
+    "title": "Condizioni d’utilizzo",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Con il presente documento vengono definiti i termini e le condizioni di utilizzo del sito web www.dentvitalis.com (di seguito: Sito). Il titolare del contenuto del Sito è Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Rijeka, Croazia. Qualora non siate d’accordo con una o più disposizioni delle presenti Condizioni, vi invitiamo a lasciare il Sito e a non utilizzarlo ulteriormente."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "Tutte le prestazioni odontoiatriche pubblicate sul presente Sito fornisce, in nome e per conto proprio, Dentvitalis Fides d.o.o. (di seguito: DVF)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "1. Tutte le informazioni relative a prestazioni odontoiatriche indicate sul Sito, nonché i relativi prezzi e i termini di adempimento, hanno esclusivamente carattere informativo e non possono in alcun modo sostituire il programma terapeutico che viene consegnato a ciascun paziente dopo la visita effettuata dal medico presso gli ambulatori di DVF."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "2. Il programma terapeutico e il relativo preventivo finanziario inviati al paziente tramite e-mail o in altro modo hanno esclusivamente carattere informativo, in quanto vengono elaborati sulla base di dati incompleti e, soprattutto, senza la visita del paziente presso gli ambulatori di DVF."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "3. Il contenuto di questo Sito è soggetto a modifiche senza alcun preavviso, scritto o orale, agli utenti."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "4. Tutti i contenuti del Sito, compreso il design, sono proprietà intellettuale di Dentvitalis Fides d.o.o. e, in quanto tali, non possono essere utilizzati senza il suo previo consenso scritto."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "5. Tutti gli eventuali collegamenti (i cosiddetti link) ad altri siti web sono forniti esclusivamente al fine di migliorare l’informazione degli utenti e in buona fede. Ciò esclude qualsiasi responsabilità di DVF per il contenuto degli stessi."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "strong",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Limitazione di responsabilità"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF declina ogni responsabilità per eventuali danni materiali e/o immateriali che possano derivare all’utente dall’utilizzo del presente Sito. Tutti i dati, le informazioni e i collegamenti sono forniti in buona fede e al fine di garantire una migliore informazione agli utenti."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF non è responsabile per eventuali errori verificatisi durante la realizzazione del Sito e l’inserimento dei dati."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-11/condizioni-di-utilizzo.html",
+      "url": "https://www.dentvitalis.com/condizioni-di-utilizzo",
+      "sha256": "46488943df76fbcb99efd2855d9acb4ba3a0afda57ef5ad9530242f8b4877f41",
+      "retrievedAt": "2026-09-11"
+    }
+  },
+  {
+    "route": "/hr/uvjeti-koristenja",
+    "title": "Uvjeti korištenja",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ovime se definiraju uvjeti korištenja web stranice www.dentvitalis.com (u daljnjem tekstu: Stranica). Vlasnik sadržaja Stranice je Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Rijeka, Hrvatska. Ukoliko niste suglasni s jednom ili više odredbi ovih Uvjeta, molimo vas da Stranicu napustite i više je ne koristite."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "Sve stomatološke usluge objavljene na ovoj Stranici pruža, u svoje ime i za svoj račun, Dentvitalis Fides d.o.o. (u daljnjem tekstu: DVF)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "1. Sve informacije koje se odnose na stomatološke usluge navedene na Stranici, kao i pripadajuće cijene i rokovi njihova izvršenja, isključivo su informativnog karaktera i ne mogu biti zamjena za plan terapije koji se svakom pojedinom pacijentu predaje nakon obavljenog pregleda od strane liječnika u ordinacijama DVF-a."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "2. Plan terapije i pripadajuća financijska ponuda dostavljena pacijentu putem e-maila ili na neki drugi način su isključivo informativnog karaktera s obzirom na to da se iste formiraju na temelju nepotpunih podataka, a prije svega bez pregleda samog pacijenta u ordinacijama DVF-a."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "3. Sadržaj ove Stranice podložan je promjeni bez prethodne, pismene ili usmene, najave korisnicima."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "4. Sav sadržaj Stranice, uključujući i dizajn, intelektualno je vlasnostvo Dentvitalisa Fides d.o.o. i kao takvo ne može biti korišteno bez njegove prethodne pismene suglasnosti."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "5. Sve eventualne poveznice (tzv. linkove) na druge web stranice navedene su isključivo s ciljem boljeg informiraja korisnika i u dobroj namjeri. To isključuje bilo kakvu odgovornost DVF-a za sadržaj istih."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "strong",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Odricanje od odgovornosti"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF se odriče odgovornosti za bilo kakvu eventualnu materijalnu i/ili nematerijalnu štetu koja bi po korisnika mogla nastati korištenjem ove Stranice. Svi podaci, informacije i poveznice su pružene u najboljoj namjeri i s ciljem što boljeg informiranja korisnika."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF nije odgovoran za greške do kojih je došlo prilikom izrade Stranice i unosa podataka."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-11/hr-uvjeti-koristenja.html",
+      "url": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
+      "sha256": "512e1034ea15b158ffd5fe4cd09c498ab747e4f2cae4be93b748ada07044ba12",
+      "retrievedAt": "2026-09-11"
+    }
+  }
+]

@@ -159,6 +159,7 @@ const { items } = Astro.props;
   }
 </style>
 <script>
+  import { revealFAQStart } from '../scripts/faq-scroll';
   document.querySelectorAll<HTMLElement>('.faq-list').forEach((list) => {
     if (list.dataset.ready) return;
     list.dataset.ready = 'true';
@@ -194,6 +195,7 @@ const { items } = Astro.props;
             [{ height: `${start}px` }, { height: `${end}px` }],
             { duration: 400, easing: 'ease' },
           );
+          animation.id = 'faq-height';
           fade = answer.animate([{ opacity: 0 }, { opacity: target ? 1 : 0 }], {
             duration: target ? 700 : 0,
             fill: 'both',
@@ -212,6 +214,7 @@ const { items } = Astro.props;
             if (control.details !== details) control.setOpen(false);
           });
           setOpen(next);
+          if (next) void revealFAQStart(summary, () => target);
         });
         details.addEventListener('keydown', (event) => {
           if (event.key === 'Escape') {

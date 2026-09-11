@@ -1,28 +1,39 @@
 ---
 import type { InlineContent } from '../content/inner-pages';
+import { contactLinks, correctContactTarget } from '../content/contact-links';
 interface Props {
   content: InlineContent[];
+  linkContacts?: boolean;
 }
-const { content } = Astro.props;
+const { content, linkContacts = true } = Astro.props;
+const parts = content
+  .flatMap((part) =>
+    linkContacts && part.kind === 'text' ? contactLinks(part.text) : [part],
+  )
+  .map(correctContactTarget);
 ---
 
 {
-  content.map((part) =>
+  parts.map((part) =>
     part.kind === 'text' ? (
       part.text
     ) : part.kind === 'break' ? (
       <br />
     ) : part.kind === 'link' ? (
-      <a href={part.href} class={part.variant}>
-        <Astro.self content={part.children} />
+      <a
+        href={part.href}
+        class={part.variant}
+        data-contact-link={part.variant === 'contact' || undefined}
+      >
+        <Astro.self content={part.children} linkContacts={false} />
       </a>
     ) : part.kind === 'qualification' ? (
       <span class="qualification">
-        <Astro.self content={part.children} />
+        <Astro.self content={part.children} linkContacts={linkContacts} />
       </span>
     ) : (
       <part.kind>
-        <Astro.self content={part.children} />
+        <Astro.self content={part.children} linkContacts={linkContacts} />
       </part.kind>
     ),
   )
@@ -34,6 +45,16 @@ const { content } = Astro.props;
   }
   a:hover {
     color: var(--color-primary);
+  }
+  .contact {
+    color: inherit;
+    font: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    overflow-wrap: anywhere;
+  }
+  .contact:hover {
+    color: inherit;
   }
   .underlined {
     color: var(--color-primary);

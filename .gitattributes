@@ -1,6 +1,7 @@
 # Immutable reference snapshots must retain their exact bytes across platforms.
 reference/webflow-handoff/2026-09-07/extracted/** -text
 source-assets/webflow-export/2026-09-07/extracted/** -text
+reference/legal-public/2026-09-11/*.html -text
 
 # Identical source/public files share one content-addressed LFS object.
 reference/webflow-handoff/2026-09-07/extracted/assets/** filter=lfs diff=lfs merge=lfs -text
