@@ -8,6 +8,7 @@ import legal from './legal.json';
 import { t, text, bilingual, inline, row, ref, p, h, group } from './source';
 import { labels, legalNavigation } from './site';
 import { flatten, plain } from '../seo';
+import { referenceBusiness } from '../../../data/site';
 
 interface Special {
   id: string;
@@ -240,6 +241,42 @@ export const specialPages: Special[] = [
       group(row(27, 0, '0 1 2 3'), 'contact-address'),
       group([heading(bilingual('p379')), ...row(28, 0, '1 2')], 'contact-card'),
       group([heading(bilingual('p383')), ...row(29, 0, '0 1')], 'contact-card'),
+      group(
+        [
+          heading('Termini za liječenje i kontrole'),
+          ...[
+            [
+              'Telefon',
+              referenceBusiness.ongoingTreatmentPhone,
+              `tel:${referenceBusiness.ongoingTreatmentPhone.replaceAll(' ', '')}`,
+            ],
+            [
+              'E-mail',
+              referenceBusiness.ongoingTreatmentEmail,
+              `mailto:${referenceBusiness.ongoingTreatmentEmail}`,
+            ],
+            [
+              'WhatsApp',
+              referenceBusiness.ongoingTreatmentMobile,
+              `https://wa.me/${referenceBusiness.ongoingTreatmentMobile.replace(/\D/g, '')}`,
+            ],
+          ].map(([label, value, href]): ContentBlock => ({
+            type: 'contact-row',
+            border: false,
+            cells: [
+              inline(label!),
+              [
+                {
+                  kind: 'link',
+                  children: [{ kind: 'text', text: value! }],
+                  href: href!,
+                },
+              ],
+            ],
+          })),
+        ],
+        'contact-card',
+      ),
       group([heading(bilingual('p393')), ...row(31, 0, '1')], 'contact-card'),
     ],
   },
