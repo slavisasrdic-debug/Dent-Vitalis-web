@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+HR home intro: korisnik zatražio „Velike uštede” zeleno i bold poput IT „Grandi risparmi”. `homeCopy.intro` izdvaja prve dvije riječi istog DOCX odlomka `t1.r1.c1.p3` u postojeći `SectionHeading.accent`; ostatak ostaje title. Nema novog CSS-a niti promjene teksta.
+
 Welcome CTA „Fissa un appuntamento” i hrvatski par sada vode na `#contatti`, formu pri dnu iste naslovnice, na izričiti korisnikov zahtjev. Nema promjene teksta, dizajna ni popup/WhatsApp ponašanja. Regresija: `tests/welcome-contact.spec.ts`, IT/HR desktop/mobile klik, isti URL + hash, inline forma u viewportu.
 
 **WhatsApp — korisnikov naknadni dodatak ima prednost:** zaglavlje sada prikazuje Jelenu i njezinu izvornu fotografiju, ne logo. IT podnaslov „Chiedi a nostro staff” i predstavljanje „Sono Jelena...” preuzeti su iz javne Elfsight konfiguracije; HR zadržava potvrđeni pozdrav i oznaku Dentvitalis bez izmišljanja funkcije. Izvor, asseti i QA: [whatsapp-panel.md](whatsapp-panel.md). Stariji opis logotipa u sljedećem odlomku opisuje prvu, zamijenjenu iteraciju.

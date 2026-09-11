@@ -38,8 +38,8 @@ export const home = {
   benefits: [2, 3, 4, 5, 6, 7].map((p) => t(1, 0, p)),
   intro: {
     eyebrow: t(1, 1, 1),
-    title: t(1, 1, 3),
-    accent: '',
+    title: t(1, 1, 3).split(' ').slice(2).join(' '),
+    accent: t(1, 1, 3).split(' ').slice(0, 2).join(' '),
     description: t(1, 1, 4),
   },
   about: { eyebrow: t(1, 7, 0), title: t(1, 7, 2), description: t(1, 7, 3) },
