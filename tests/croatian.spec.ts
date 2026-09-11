@@ -162,6 +162,14 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     }
   }
   const missing: string[] = [];
+  // User-approved screenshot replaces only these two detail hero paragraphs.
+  const bridgeHeroSources: Record<string, string> = {
+    't3.r0.c1.p2': 't1.r3.c1.p3',
+    't3.r0.c1.p4': 't1.r3.c1.p5',
+  };
+  const sourceParagraphs = catalogue.blocks
+    .filter((b) => b.type === 'table')
+    .flatMap((b) => b.rows!.flatMap((r) => r[1] ?? []));
   for (const table of catalogue.blocks.filter((b) => b.type === 'table')) {
     const id = tableRoutes[Number(table.id.slice(1))];
     if (!id) continue;
@@ -169,7 +177,11 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
       const text = normalize(
         paragraph.id === corrections.croatianCrown.sourceId
           ? corrections.croatianCrown.to
-          : paragraph.text,
+          : bridgeHeroSources[paragraph.id]
+            ? sourceParagraphs.find(
+                (p) => p.id === bridgeHeroSources[paragraph.id],
+              )!.text
+            : paragraph.text,
       );
       if (!text || /^Hrvatskine$|^Nemaprijevoda/.test(text)) continue;
       if (paragraph.id === 't8.r2.c1.p3') {

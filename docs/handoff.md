@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+HR detalj fiksnog mosta: korisnik screenshotom odobrio naslov/opis identične kartici usluge. `fixed-implant-bridge` sada koristi `t1.r3.c1.p3` i `t1.r3.c1.p5` umjesto `t3.r0.c1.p2`/`p4` za hero i iz njih izvedene meta podatke. „Premium paket”, cijena, sidebar, tijelo članka, fotografija i IT ostaju nepromijenjeni. Stari DOCX nije mijenjan.
+
 HR home intro: korisnik zatražio „Velike uštede” zeleno i bold poput IT „Grandi risparmi”. `homeCopy.intro` izdvaja prve dvije riječi istog DOCX odlomka `t1.r1.c1.p3` u postojeći `SectionHeading.accent`; ostatak ostaje title. Nema novog CSS-a niti promjene teksta.
 
 Welcome CTA „Fissa un appuntamento” i hrvatski par sada vode na `#contatti`, formu pri dnu iste naslovnice, na izričiti korisnikov zahtjev. Nema promjene teksta, dizajna ni popup/WhatsApp ponašanja. Regresija: `tests/welcome-contact.spec.ts`, IT/HR desktop/mobile klik, isti URL + hash, inline forma u viewportu.

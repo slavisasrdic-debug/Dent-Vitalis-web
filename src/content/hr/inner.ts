@@ -139,7 +139,7 @@ const denture = add('four-implant-denture', t(2, 0, 2), t(2, 0, 4), [
 ]);
 denture.hero.eyebrow = t(2, 0, 1);
 denture.sidebar = packageSidebar(2, 6, 9, [11, 12, 13, 14, 15, 16, 17, 18]);
-const bridge = add('fixed-implant-bridge', t(3, 0, 2), t(3, 0, 4), [
+const bridge = add('fixed-implant-bridge', t(1, 3, 3), t(1, 3, 5), [
   ...row(3, 0, '19 21 h:23 b:25 b:26 b:27 b:28 b:29 31'),
   ...row(3, 1, 'h:0'),
   ...['h3:2 3', 'h3:5 6', 'h3:8 9', 'h3:11 12', 'h3:14 15', 'h3:17 18'].map(
