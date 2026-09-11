@@ -183,7 +183,10 @@ test('upload validates local type/size and WhatsApp never uses a placeholder', a
   ).toContain('8 MB');
   await page.locator('.chat-toggle').click();
   await expect(page.locator('.chat-panel')).toBeVisible();
-  await expect(page.locator('.chat-action button')).toBeDisabled();
+  await expect(page.locator('.chat-action a')).toHaveAttribute(
+    'href',
+    'https://wa.me/385911100523',
+  );
   expect(await page.content()).not.toContain('+ADDNUMBERHERE');
 });
 

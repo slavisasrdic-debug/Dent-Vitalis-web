@@ -10,7 +10,8 @@ export const clinic = {
   contact: {
     email: 'it@dentvitalis.com',
     phone: '+385 51 688 380',
-    whatsapp: null,
+    // Public IT Elfsight number verified; shared IT/HR use approved 2026-09-11.
+    whatsapp: '385911100523',
     address: 'Krešimirova 60, 51000 Rijeka',
     mapUrl:
       'https://www.google.com/maps/search/?api=1&query=Dentvitalis%20Fides%2C%20Kre%C5%A1imirova%2060%2C%20Rijeka',

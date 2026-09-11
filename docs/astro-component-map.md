@@ -1,5 +1,15 @@
 # Astro komponente — 28 talijanskih i 27 hrvatskih stranica
 
+## WhatsApp panel — naknadna dopuna 11. rujna
+
+Naknadni korisnikov dodatak zamjenjuje logo Jeleninom izvornom fotografijom i imenom. IT sada uključuje „Sono Jelena...” i „Chiedi a nostro staff”; HR podnaslov je Dentvitalis. Fotografija je lokalni lazy WebP, 128px iz originala 200px; vidi [whatsapp-panel.md](whatsapp-panel.md). Ova dopuna ima prednost nad opisom prve iteracije niže.
+
+`ContactWidgets` zadržava tipizirane propse i zajednički donji CTA. Potvrđeni IT Elfsight broj `385911100523` sada je centraliziran u `data/site.ts`; korisnik je zatražio implementaciju nakon pitanja o uporabi istog broja za HR. `chatCopy` IT koristi „Buongiorno!” / „posso esserti d'aiuto?” bez rečenice koja predstavlja Jelenu; HR koristi postojeći Zendesk „Kako vam možemo pomoći?” i korisnikov CTA „Razgovaraj putem WhatsAppa”. Ne mijenja se ostatak kontakata ni pravni sadržaj.
+
+Panel je vlastita native Astro/CSS komponenta: plavo zaglavlje s postojećim `BrandLogo`, bijela podloga, poruka i kontrastni zeleni gumb. Uklonjeni badge „1”, avatar i vrijeme odgovora. Širina najviše 360px; visina ograničena `dvh`, zajedničkim header/breadcrumb visinama i položajem widgeta. Na niskim/landscape ekranima panel ima unutarnji scroll, bez prekrivanja donjeg CTA-a. Nema trećih skripti, kolačića ni automatskog otvaranja.
+
+Otvaranje postavlja aria-expanded i fokus na zatvaranje; Escape/zatvaranje vraća fokus. Klik izvan zatvara bez krađe fokusa. `aria-controls` koristi jedinstven ID. Bez JS-a native noscript wa.me link zamjenjuje neaktivni toggle. Klik otvara WhatsApp, ne razgovor unutar weba; ne tvrditi da je provjerena stvarna isporuka poruke. `tests/whatsapp.spec.ts` pokriva oba jezika, home/FAQ, 320–1440px i landscape, tipkovnicu, vanjske zahtjeve, no-JS i presretnutu aktivaciju bez slanja poruke klinici.
+
 ## Dopune 11. rujna — pravni izvori, kontaktni linkovi i FAQ
 
 Ova dopuna ima prednost nad povijesnim privacy-only i FAQ zapisima niže. `legal-public.ts` mapira dva izričito odobrena IT public pravna članka iz novog inertnog AST snapshota; HR ostaje na prethodnom jednakom tekstu. `ContentBlock.listStyle` podržava izvorni `ol type="a"`. `EditorialPage.legal-copy` uvodi Montserrat i za uvjete, a legal sidebar/layout ostaju postojeći. Izvori, točan sadržaj i odobrenja: [legal-and-contact-audit.md](legal-and-contact-audit.md).

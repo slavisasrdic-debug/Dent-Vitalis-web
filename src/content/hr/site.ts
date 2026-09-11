@@ -171,10 +171,10 @@ export const contactCopy: typeof itContact = {
   invalidFile: 'Odaberite PDF, JPG ili PNG datoteku.',
 };
 export const chatCopy = {
-  team: 'DentVitalis',
-  responseTime: '',
+  team: 'Jelena',
+  responseTime: 'Dentvitalis',
   greeting: '',
-  message: t(1, 11, 1),
-  action: 'Otvori WhatsApp',
+  message: 'Kako vam možemo pomoći?',
+  action: 'Razgovaraj putem WhatsAppa',
   unavailable: 'WhatsApp nije aktivan u ovom pretpregledu.',
 };

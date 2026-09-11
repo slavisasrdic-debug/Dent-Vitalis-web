@@ -40,10 +40,10 @@ export const clinic = {
   maps: business.contact.mapUrl,
 } as const;
 export const chatCopy = {
-  team: 'Team DentVitalis',
-  responseTime: 'Di solito rispondiamo entro poche ore',
-  greeting: 'Ciao!',
-  message: 'Come possiamo aiutarti?',
+  team: 'Jelena',
+  responseTime: 'Chiedi a nostro staff',
+  greeting: 'Buongiorno! Sono Jelena...',
+  message: "posso esserti d'aiuto?",
   action: 'Avvia chat su WhatsApp',
   unavailable: 'Numero WhatsApp in attesa di conferma.',
 };

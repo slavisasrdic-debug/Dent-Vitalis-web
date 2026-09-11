@@ -10,25 +10,42 @@ interface Props {
 }
 const { consultation, whatsapp, content, lang = 'it' } = Astro.props;
 const copy = ui(lang);
+const panelId = `whatsapp-${crypto.randomUUID()}`;
 ---
 
 <div class="chat-widget" data-chat-widget>
-  <div class="chat-panel" hidden>
+  <section
+    class="chat-panel"
+    id={panelId}
+    aria-label={`${content.team} WhatsApp`}
+    hidden
+  >
     <div class="chat-header">
-      <span class="avatar"></span><div>
-        <p>{content.team}</p><small>{content.responseTime}</small>
-      </div><button type="button" data-chat-close aria-label={copy.closeChat}
-        ><img
-          src="/assets/images/close-live-chat.svg"
-          alt=""
-          width="16"
-          height="16"
-        /></button
+      <img
+        class="chat-portrait"
+        src="/assets/images/jelena-chat.webp"
+        alt={content.team}
+        width="64"
+        height="64"
+        loading="lazy"
+      />
+      <div class="chat-person">
+        <strong>{content.team}</strong><small>{content.responseTime}</small>
+      </div>
+      <button type="button" data-chat-close aria-label={copy.closeChat}
+        ><span aria-hidden="true">×</span></button
       >
     </div><div class="chat-body">
       <div class="chat-bubble">
-        <p>{content.team}</p><span
-          >{content.greeting}<br />{content.message}</span
+        <span
+          >{
+            content.greeting && (
+              <>
+                {content.greeting}
+                <br />
+              </>
+            )
+          }{content.message}</span
         >
       </div>
     </div><div class="chat-action">
@@ -51,11 +68,12 @@ const copy = ui(lang);
         )
       }
     </div>
-  </div><button
+  </section><button
     class="chat-toggle"
     type="button"
     aria-label={copy.openChat}
     aria-expanded="false"
+    aria-controls={panelId}
     ><img
       src="/assets/images/whatsapp.svg"
       alt=""
@@ -63,17 +81,35 @@ const copy = ui(lang);
       height="31"
     /></button
   >
-  <span class="badge" aria-hidden="true">1</span>
+  <noscript
+    >{
+      whatsapp && (
+        <a
+          class="chat-toggle"
+          aria-label={copy.openChat}
+          href={`https://wa.me/${whatsapp}`}
+        >
+          <img
+            src="/assets/images/whatsapp.svg"
+            alt=""
+            width="31"
+            height="31"
+          />
+        </a>
+      )
+    }</noscript
+  >
 </div>
 <div class="mobile-contact">
   <Button href="#contatti" label={consultation} variant="consultation" />
 </div>
 <style>
   .chat-widget {
+    --chat-bottom: 30px;
     position: fixed;
     z-index: 30;
     right: 30px;
-    bottom: 30px;
+    bottom: var(--chat-bottom);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -85,7 +121,7 @@ const copy = ui(lang);
     justify-content: center;
     width: 60px;
     height: 60px;
-    background: #00b94a;
+    background: var(--color-primary);
     border: 1px solid #ffffff4d;
     border-radius: 50%;
     transition:
@@ -93,66 +129,66 @@ const copy = ui(lang);
       transform 0.3s cubic-bezier(0.45, 0.182, 0.111, 0.989);
   }
   .chat-toggle:hover {
-    background: #383838;
+    background: var(--color-primary-hover);
     transform: scale(1.05);
   }
-  .badge {
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    pointer-events: none;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background: #bf1212;
-    color: white;
-    font-size: 14px;
-    line-height: 14px;
+  .chat-widget {
+    font-family: var(--font-body);
+  }
+  .chat-widget:not([data-ready]) > button {
+    display: none;
   }
   .chat-panel {
-    width: 300px;
-    height: 315px;
+    width: min(360px, calc(100vw - 32px));
+    max-height: calc(
+      100dvh - var(--chat-bottom) - var(--header-height) -
+        var(--breadcrumb-height, 0px) - 92px
+    );
     background: white;
     border: 1px solid #00000029;
     border-radius: 20px;
     margin-bottom: 16px;
-    overflow: hidden;
-    animation: chat-enter 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    overflow: auto;
+    overscroll-behavior: contain;
+    box-shadow: 0 12px 36px #002c3a33;
+    animation: chat-enter 0.2s ease-out;
   }
   .chat-header {
-    height: 25%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 20px;
+    gap: 12px;
+    background: var(--color-primary);
+    color: white;
   }
-  .avatar {
-    width: 40px;
-    height: 40px;
+  .chat-portrait {
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
-    background: var(--color-accent);
+    object-fit: cover;
+    flex: none;
   }
-  .chat-header p {
-    font-size: 12px;
-    font-weight: 500;
+  .chat-person {
+    flex: 1;
+    min-width: 0;
+    font-size: 18px;
   }
   .chat-header small {
-    font-size: 10px;
+    font-size: 13px;
     display: block;
     line-height: 20px;
-  }
-  .chat-header > div {
-    width: 193px;
   }
   .chat-header button {
     padding: 0;
     background: none;
     border: 0;
-    width: 10%;
-    height: 100%;
+    width: 44px;
+    height: 44px;
+    flex: none;
+    color: white;
+    font-size: 32px;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,45 +198,47 @@ const copy = ui(lang);
     height: 17px;
   }
   .chat-body {
-    height: 50%;
-    background: #e6ddd4;
-    padding: 16px 20px;
+    background: white;
+    padding: 24px 20px 12px;
   }
   .chat-bubble {
-    width: 80%;
-    padding: 15px;
+    width: 100%;
+    padding: 18px;
     border-radius: 8px;
-    background: white;
-    font-size: 12px;
+    background: #f3f5f6;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #25343b;
   }
   .chat-bubble p {
     margin-bottom: 10px;
-    color: #b0b0b0;
-    font-weight: 500;
+    color: var(--color-primary);
+    font-weight: 600;
   }
   .chat-bubble > span {
     display: block;
     margin-bottom: 5px;
   }
   .chat-action {
-    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 12px 20px 24px;
   }
   .chat-action button,
   .chat-action a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 42px;
+    min-height: 48px;
     border: 0;
     border-radius: 200px;
     padding: 0 20px;
-    background: black;
+    background: #087d36;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 600;
   }
   .chat-action > div {
     width: 80%;
@@ -209,11 +247,23 @@ const copy = ui(lang);
   .chat-action :is(a, button) {
     width: 100%;
     gap: 10px;
-    padding: 0;
+    padding: 10px 14px;
   }
   .chat-action img {
-    width: 16px;
-    height: 16px;
+    width: 22px;
+    height: 22px;
+    flex: none;
+  }
+  .chat-action a:hover {
+    background: #06652c;
+  }
+  .chat-header button:hover {
+    background: #ffffff20;
+  }
+  .chat-panel :focus-visible,
+  .chat-toggle:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
   }
   .chat-action small {
     font-size: 10px;
@@ -277,7 +327,7 @@ const copy = ui(lang);
       opacity: 1;
     }
     .chat-widget {
-      bottom: 100px;
+      --chat-bottom: 100px;
       right: 20px;
       z-index: 105;
     }
@@ -294,7 +344,7 @@ const copy = ui(lang);
   }
   @media screen and (max-width: 767px) {
     .chat-widget {
-      bottom: 80px;
+      --chat-bottom: 80px;
       right: 15px;
     }
   }
@@ -314,13 +364,6 @@ const copy = ui(lang);
     .chat-widget {
       right: 10px;
     }
-    .chat-toggle {
-      bottom: 10px;
-    }
-    .chat-panel {
-      width: calc(100vw - 20px);
-      height: 40vh;
-    }
   }
 </style>
 <script>
@@ -334,8 +377,13 @@ const copy = ui(lang);
       const setOpen = (open: boolean) => {
         panel.hidden = !open;
         button.setAttribute('aria-expanded', String(open));
+        if (open)
+          panel.querySelector<HTMLButtonElement>('[data-chat-close]')?.focus();
       };
       button.addEventListener('click', () => setOpen(Boolean(panel.hidden)));
+      document.addEventListener('click', (event) => {
+        if (!widget.contains(event.target as Node)) setOpen(false);
+      });
       widget
         .querySelector('[data-chat-close]')!
         .addEventListener('click', () => {

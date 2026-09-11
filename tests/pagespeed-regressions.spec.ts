@@ -143,10 +143,7 @@ for (const route of ['/', '/hr/']) {
       await expect(chat).toHaveAccessibleName(
         route === '/' ? 'Apri chat WhatsApp' : 'Otvori WhatsApp razgovor',
       );
-      await expect(page.locator('.badge')).toHaveAttribute(
-        'aria-hidden',
-        'true',
-      );
+      await expect(page.locator('.badge')).toHaveCount(0);
       await chat.click();
       await expect(page.locator('.chat-panel')).toBeVisible();
       await chat.click();
