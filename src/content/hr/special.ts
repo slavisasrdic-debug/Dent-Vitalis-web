@@ -282,6 +282,17 @@ export const specialPages: Special[] = [
   },
   ...legal.map((page, i) => {
     const blocks = structuredClone(page.blocks) as ContentBlock[];
+    // Explicit user-approved one-word deletion; immutable legal source retained.
+    if (i === 0) {
+      for (const block of flatten(blocks)) {
+        if (
+          (block.type === 'heading' || block.type === 'paragraph') &&
+          plain(block.content) ===
+            'Dječje Online Privacy Protection Act Compliance'
+        )
+          block.content = inline('Online Privacy Protection Act Compliance');
+      }
+    }
     function localLinks(value: unknown): void {
       if (!value || typeof value !== 'object') return;
       if (

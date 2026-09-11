@@ -30,7 +30,13 @@ for (const source of sources) {
       const original = heading.closest('.dent_mdl')!;
       heading.remove();
       const current = document.querySelector('.editorial-copy')!;
-      const text = (e: Element) => (e.textContent || '').replace(/\s+/g, '');
+      const text = (e: Element) =>
+        (e.textContent || '')
+          .replace(
+            'Dječje Online Privacy Protection Act Compliance',
+            'Online Privacy Protection Act Compliance',
+          )
+          .replace(/\s+/g, '');
       const lists = (e: Element) =>
         [...e.querySelectorAll('ol,ul')].map((l) => ({
           tag: l.tagName,

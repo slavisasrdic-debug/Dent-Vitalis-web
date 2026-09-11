@@ -208,7 +208,12 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     [],
   );
   for (const [i, source] of legal.entries()) {
-    const sourceText = normalize(source.sourceText);
+    const sourceText = normalize(
+      source.sourceText.replace(
+        'Dječje Online Privacy Protection Act Compliance',
+        'Online Privacy Protection Act Compliance',
+      ),
+    );
     const sourceTitle = normalize(source.title);
     expect(sourceText.startsWith(sourceTitle)).toBe(true);
     // DetailHero renders the source H1; the legal article itself is unchanged.

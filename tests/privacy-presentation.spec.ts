@@ -54,6 +54,15 @@ for (const [route, hash] of pages) {
         // Approved contact anchors may be added, but every original character,
         // existing link and structural node must still match the old checksum.
         const el = original.cloneNode(true) as HTMLElement;
+        // Assert the approved one-word deletion, then restore only in the clone
+        // so the immutable checksum still protects every other character/node.
+        const corrected = [...el.querySelectorAll('h2')].find(
+          (h) => h.textContent === 'Online Privacy Protection Act Compliance',
+        );
+        if (!corrected)
+          throw new Error('Missing approved Croatian privacy heading');
+        corrected.textContent =
+          'Dječje Online Privacy Protection Act Compliance';
         el.querySelectorAll('a[data-contact-link]').forEach((a) =>
           a.replaceWith(...a.childNodes),
         );
