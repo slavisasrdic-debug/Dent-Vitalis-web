@@ -45,7 +45,8 @@ export const referenceBusiness = {
   swift: 'ESBCHR22',
   openingHours: 'Mar-Sab 08:00-16:00',
   bookingHours: 'Prenotazioni telefoniche: 08:00-18:00',
-  copyright: 'Copyright © 2025 Dent Vitalis Fides',
+  // User-approved footer spelling, 2026-09-11; reference year unchanged.
+  copyright: 'Copyright © 2025 Dentvitalis Fides',
 } as const;
 
 // Explicit source differences are not silently reconciled across languages.
