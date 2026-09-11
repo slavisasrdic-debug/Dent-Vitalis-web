@@ -23,7 +23,7 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     if (block.type === 'list') {
       const List = block.ordered ? 'ol' : 'ul';
       return (
-        <List class="content-list">
+        <List id={block.id} class="content-list">
           {block.items.map((items) => (
             <li>
               <Astro.self
@@ -57,7 +57,7 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
         </p>
       );
     if (block.type === 'heading') {
-      const Heading = block.rank === 3 ? 'h3' : 'h2';
+      const Heading = block.rank === 4 ? 'h4' : block.rank === 3 ? 'h3' : 'h2';
       return (
         <Heading
           id={block.id}

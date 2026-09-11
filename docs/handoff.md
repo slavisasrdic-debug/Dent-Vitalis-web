@@ -1,4 +1,6 @@
-# Handoff — stanje projekta 10. rujna 2026.
+# Handoff — stanje projekta 11. rujna 2026.
+
+Najnovija korisnička uputa: HR/IT politika privatnosti mora ostati doslovna, bez uredničkih ili pravnih ispravaka, uz font weba i pravilnu hijerarhiju međunaslova. `EditorialPage` koristi Montserrat i prelamanje dugih poveznica samo u članku privatnosti. `privacy-presentation.ts` prenosi postojeće nazive bez izmjene inline sadržaja: H2 za glavne cjeline/pravilnik, H3 za odjeljke pravilnika, H4 za osam prava. HR izvorni `question`, `policy-title`, `policy-section-title` odlomci postaju naslovi; IT postojeći naslovi dobivaju odgovarajuće razine. HR popis prava zadržava izvorne slovne oznake. Tekst, redoslijed, liste i hrefovi ostaju isti; uvjeti korištenja nisu obuhvaćeni. Regresija čuva SHA-256 teksta i DOM strukture s hrefovima uz normalizaciju jedino P/H2/H3/H4 tagova; zasebno provjerava hijerarhiju. To nije potvrda pravne ispravnosti niti noviji dohvat izvora. Izvorni IT Webflow snapshot i HR public snapshot od 8. rujna ostaju netaknuti. Ne popravljati ni očite tipfelere bez izričitog odobrenja.
 
 Ovo je ulazna točka za drugog agenta, ne odobrenje novih sadržajnih ili produkcijskih promjena. GitHub i datirane odluke u povezanim dokumentima imaju prednost pred sjećanjem iz razgovora. Pri nastavku provjeriti noviji Git log i radno stablo; ovaj zapis nije automatski ažuriran.
 
@@ -49,6 +51,10 @@ Na zahtjev korisnika zajednički `DetailHero` do 991px mijenja razmak s 20 na 12
 - Potvrditi hosting i deploy/rollback, odobriti backend i sigurnost uploada, consent za vanjske servise, poslovne/pravne/medicinske podatke. Tek zasebnim odobrenjem uključiti produkcijsko indeksiranje. [Pre-launch lista](pre-launch-checklist.md) ostaje otvorena.
 
 ## QA evidencija i ograničenja
+
+- Završna provjera privatnosti nakon vraćanja izvornog slovnog HR popisa: ciljani skup 3/3 Chromium i 3/3 WebKit; početni Chromium pokušaj nakon rebuilda imao je prekid navigacijskog konteksta, stabilni ponovni prolaz je uspješan. Mobilne HR i desktop IT snimke vizualno pregledane; privremeni PNG-ovi u `/tmp/privacy-*` nisu trajna pohrana dokaza. Originalni sadržajni snapshotovi ostaju nepromijenjeni u Gitu.
+
+- Privatnost 11. rujna: 6/6 provjera sadržajnih izvora, check/lint/build prolaze. Novi checksum testovi potvrđuju nepromijenjen tekst, inline sadržaj, redoslijed i hrefove uz dopuštenu promjenu heading tagova; 11 HR / 12 IT H2, devet H3 i osam H4 bez preskakanja razina. Ciljani Chromium skup 8/9 u prvom prolazu (jedan prekid navigacijskog konteksta); ponovljeni pogođeni test prolazi. WebKit 9/9, uključujući pravni sidebar i tipkovničku/no-JS navigaciju. Nije rađen novi pravni audit ni slobodno uređivanje izvora.
 
 - Mobilni razmak: `check` (150 datoteka, bez grešaka/upozorenja), `lint` i build (56 stranica) prolaze. Sve 53 rute × sedam širina prolaze u Chromiumu i WebKitu. Chromium interakcijski test isprva je imao pogrešan očekivani parent URL `/su-di-noi`; usklađen je sa stvarnim, nepromijenjenim `/chi-siamo` i ponovljeni test prolazi. WebKit 3/3 u zajedničkom prolazu. Nije mijenjana navigacija radi testa. Git LFS fsck i izuzeća ZIP-ova provjereni su prije pusha.
 

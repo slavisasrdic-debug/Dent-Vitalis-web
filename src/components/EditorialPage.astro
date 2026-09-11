@@ -4,10 +4,13 @@ import PageSidebar from './PageSidebar.astro';
 import ContentBlocks from './ContentBlocks.astro';
 import TeaserCard from './TeaserCard.astro';
 import { ui } from '../content/ui';
+import { privacyPresentation } from '../content/privacy-presentation';
 interface Props {
   page: InnerPage;
 }
 const { page } = Astro.props;
+const isPrivacy =
+  (page.referenceRoute ?? page.route) === '/informativa-sulla-privacy';
 const variant =
   (page.referenceRoute ?? page.route) === '/testimonianze'
     ? 'testimonials'
@@ -41,9 +44,11 @@ const eagerImage =
           variant={variant}
         />
       )
-    }<article class="editorial-copy">
+    }<article class:list={['editorial-copy', { 'privacy-copy': isPrivacy }]}>
       <ContentBlocks
-        blocks={page.blocks}
+        blocks={isPrivacy
+          ? privacyPresentation(page.blocks, page.lang ?? 'it')
+          : page.blocks}
         lang={page.lang}
         eagerVideoId={eagerVideoId}
         eagerImage={eagerImage}
@@ -93,6 +98,21 @@ const eagerImage =
     grid-row: 1;
     min-width: 0;
     padding-right: 80px;
+  }
+  /* Presentation only: preserve every legal block, word and link verbatim. */
+  .privacy-copy {
+    font-family: var(--font-body);
+    overflow-wrap: anywhere;
+  }
+  .privacy-copy :global(h2:first-child) {
+    margin-top: 0;
+  }
+  .privacy-copy :global(h4.content-heading) {
+    font-size: 20px;
+    margin-block: 24px 12px;
+  }
+  .privacy-copy :global(#privacy-rights) {
+    list-style-type: lower-alpha;
   }
   .related-services {
     width: 100%;

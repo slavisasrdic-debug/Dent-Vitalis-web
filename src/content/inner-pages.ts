@@ -43,7 +43,7 @@ export type ContentBlock = { id?: string } & (
   | {
       type: 'heading';
       content: InlineContent[];
-      rank: 2 | 3;
+      rank: 2 | 3 | 4;
       variant: string;
       flush: boolean;
       compact?: boolean;
