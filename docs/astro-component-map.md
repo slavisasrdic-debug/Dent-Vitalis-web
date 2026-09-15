@@ -1,5 +1,9 @@
 # Astro komponente — 28 talijanskih i 27 hrvatskih stranica
 
+## Izjava Manuela Mingionea — 15. rujna
+
+`EditorialPage` primjenjuje `specialistEndorsement` samo na HR/IT specijaliste i postojeći `callout`. IT miješani odlomak razdvaja kod postojećeg imena; HR već odvojene odlomke označava kao citat/potpis. Izvorni tekst, atribucija i redoslijed ostaju nepromijenjeni. `ContentBlocks` daje citatu 22px/600 (20px mobile), imenu/titulama i svim trima stavkama 16px/400. Korisnik izričito odobrio i smanjenje stavki. Nema novog client JavaScripta. Regresija `tests/specialist-endorsement.spec.ts`: oba jezika, 390/1440px, stvarne veličine/težine, tri stavke, bez overflowa ili app grešaka. Četiri provjere prošle; HR izvorni tekst dodatno provjeren postojećim copy auditom.
+
 ## WhatsApp panel — naknadna dopuna 11. rujna
 
 Naknadni korisnikov dodatak zamjenjuje logo Jeleninom izvornom fotografijom i imenom. IT sada uključuje „Sono Jelena...” i „Chiedi a nostro staff”; HR podnaslov je Dentvitalis. Fotografija je lokalni lazy WebP, 128px iz originala 200px; vidi [whatsapp-panel.md](whatsapp-panel.md). Ova dopuna ima prednost nad opisom prve iteracije niže.

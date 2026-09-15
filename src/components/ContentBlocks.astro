@@ -257,6 +257,23 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     border-radius: var(--radius);
     padding: 20px;
   }
+  .endorsement :global(.endorsement-quote) {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+  .endorsement :global(.endorsement-credit),
+  .endorsement :global(.endorsement-credit > div) {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  @media (max-width: 767px) {
+    .endorsement :global(.endorsement-quote) {
+      font-size: 20px;
+    }
+  }
   .content-group.contact-card {
     display: flex;
     flex-direction: column;

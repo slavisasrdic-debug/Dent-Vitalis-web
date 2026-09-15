@@ -20,8 +20,8 @@ for (const width of [390, 1440]) {
       ['+385 91 912 2071', 'https://wa.me/385919122071'],
     ]) {
       await expect(
-        card.getByRole('link', { name: label, exact: true }),
-      ).toHaveAttribute('href', href);
+        card.getByRole('link', { name: label!, exact: true }),
+      ).toHaveAttribute('href', href!);
     }
     expect(
       await page.evaluate(

@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+15. rujna: korisnik odobrio naglašavanje izjave Manuela Mingionea na HR/IT specijalistima, uz manje nepodebljano ime, titule i tri stručne stavke. `specialistEndorsement` je SSR prezentacijska transformacija samo tog callouta; ne mijenja izvorni tekst ni schema podatke. Citat 22px/600 (mobile 20px), potpis i stavke 16px/400; zajednički stil oba jezika.
+
 15. rujna: FAQ odgovor o prvom pregledu sada povezuje samo IT „Qui” na `/informazioni/prima-visita-gratuita`, odnosno HR „ovdje” na `/hr/prvi-pregled`. HR poveznica više ne obuhvaća cijeli odgovor. Izvorni tekstovi i ostale FAQ poveznice nepromijenjeni; transformacija izvan izvornog JSON/DOCX-a.
 
 HR privacy: korisnik izričito potvrdio „Izbaci samo riječ Dječje”. Runtime mijenja samo naslov „Dječje Online Privacy Protection Act Compliance” u „Online Privacy Protection Act Compliance”. Odjeljak/odlomak ostaju, IT/COPPA ostaju netaknuti. Snapshoti i hashovi izvora nepromijenjeni; legal regresije dopuštaju samo ovu usku razliku.

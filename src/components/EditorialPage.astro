@@ -5,6 +5,7 @@ import ContentBlocks from './ContentBlocks.astro';
 import TeaserCard from './TeaserCard.astro';
 import { ui } from '../content/ui';
 import { privacyPresentation } from '../content/privacy-presentation';
+import { specialistEndorsement } from '../content/specialist-endorsement';
 interface Props {
   page: InnerPage;
 }
@@ -53,7 +54,10 @@ const eagerImage =
       <ContentBlocks
         blocks={isPrivacy
           ? privacyPresentation(page.blocks, page.lang ?? 'it')
-          : page.blocks}
+          : (page.referenceRoute ?? page.route) ===
+              '/su-di-noi/i-nostri-specialisti'
+            ? specialistEndorsement(page.blocks, page.lang)
+            : page.blocks}
         lang={page.lang}
         eagerVideoId={eagerVideoId}
         eagerImage={eagerImage}

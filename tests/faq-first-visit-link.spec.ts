@@ -18,7 +18,7 @@ for (const [path, question, word, destination] of [
     await page.setViewportSize({ width: 390, height: 900 });
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto(path!);
-    const answer = page.locator('details').filter({ hasText: question });
+    const answer = page.locator('details').filter({ hasText: question! });
     await answer.locator('summary').click();
     await expect(answer.locator('a')).toHaveText(word!);
     await expect(answer.locator('a')).toHaveAttribute('href', destination!);
