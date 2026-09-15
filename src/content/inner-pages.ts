@@ -5,6 +5,7 @@ import { labelParkingLinks } from './parking-link-labels';
 import { applyItalianCorrections } from './editorial-corrections';
 import { linkDoctorResearch } from './doctor-research';
 import { applyPublicLegal } from './legal-public';
+import { linkItalianFirstVisit } from './faq-first-visit-link';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -131,6 +132,7 @@ export const innerPages = completeRelatedServices(
     .map(applyItalianCorrections)
     .map(linkDoctorResearch)
     .map(applyPublicLegal)
+    .map(linkItalianFirstVisit)
     .map((page) =>
       ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
         page.route,

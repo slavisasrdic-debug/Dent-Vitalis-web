@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+15. rujna: FAQ odgovor o prvom pregledu sada povezuje samo IT „Qui” na `/informazioni/prima-visita-gratuita`, odnosno HR „ovdje” na `/hr/prvi-pregled`. HR poveznica više ne obuhvaća cijeli odgovor. Izvorni tekstovi i ostale FAQ poveznice nepromijenjeni; transformacija izvan izvornog JSON/DOCX-a.
+
 HR privacy: korisnik izričito potvrdio „Izbaci samo riječ Dječje”. Runtime mijenja samo naslov „Dječje Online Privacy Protection Act Compliance” u „Online Privacy Protection Act Compliance”. Odjeljak/odlomak ostaju, IT/COPPA ostaju netaknuti. Snapshoti i hashovi izvora nepromijenjeni; legal regresije dopuštaju samo ovu usku razliku.
 
 HR `/hr/kontakt/`: korisnik izričito dostavio i odobrio novi odjeljak „Termini za liječenje i kontrole”: +385 51 688 381, booking@dentvitalis.com, WhatsApp +385 91 912 2071. Koristi postojeće `referenceBusiness.ongoingTreatment*` vrijednosti, `contact-card`/`contact-row` i native tel/mailto/wa.me linkove. Ovo ukida ranije izuzeće prazne HR tablice t30 samo za ovaj sada odobreni sadržaj; DOCX nije dopunjavan. Globalni WhatsApp za opće upite nije promijenjen.
