@@ -2,6 +2,8 @@
 
 Ove upute vrijede za cijeli repozitorij.
 
+Za svaki zadatak obvezno pročitati i primjenjivati [pravila učinkovitog rada uz prioritet kvalitete](docs/rules/quality-and-efficiency.md). To su korisnikove trajne projektne upute, ne samo smjernice jedne sesije. Ne ukidaju postojeće sigurnosne, sadržajne i validacijske obveze.
+
 - GitHub repozitorij je jedini izvor istine. Sve izmjene moraju biti jasne, pregledive i commitane.
 - Binarne datoteke prema `.gitattributes` verzioniraju se kroz Git LFS. Prije rada u novom checkoutu izvršiti `git lfs pull`; prije pusha provjeriti LFS objekte i izuzeće izvornih ZIP-ova. Raspakirane reference ne ignorirati niti mijenjati njihove bajtove. Postupak obnove je u `docs/source-versioning-proposal.md`.
 - Codespaces je razvojno okruženje. Ne pretpostavljati produkcijske pristupe, zaporke, API ključeve, DNS, hosting ili deployment.
