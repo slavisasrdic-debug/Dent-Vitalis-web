@@ -55,9 +55,9 @@ const { items, lang = 'it' } = Astro.props;
     font-weight: 500;
   }
   li:last-child {
-    /* Keep ancestors readable. Move the current page to a new row when the
-       remaining space would squeeze its title into a narrow column. */
-    flex: 1 1 12rem;
+    /* Wrap by the title's intrinsic width, not an artificial minimum width.
+       Long titles still wrap within the available full-row width. */
+    flex: 1 1 auto;
   }
   li > a {
     min-width: 0;

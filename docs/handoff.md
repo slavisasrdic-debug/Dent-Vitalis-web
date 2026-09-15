@@ -1,5 +1,9 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+QA dopuna breadcrumb testa: očekivanje jednog retka vrijedi za IT plaćanje na 390px i dulju HR putanju na 767px; HR na 390px opravdano koristi dva retka. Ne smanjivati font radi prisilnog jednog retka.
+
+15. rujna — nepotreban prijelom breadcrumb putanje: `li:last-child` imao je `flex-basis: 12rem`, zbog čega kratki naslov prelazi u novi red i kada ima mjesta. Zajednički `Breadcrumb` sada koristi `flex: 1 1 auto`, odnosno stvarnu širinu teksta, uz postojeći wrap/max-width i sigurni prijelom dugih naslova. Oba jezika; bez promjene fonta, naziva, linkova, guttera ili scroll-offset logike. Regresija: svi potrošači u `breadcrumb-alignment.spec.ts`, dodatna provjera jednog retka na HR/IT plaćanju pri 390px.
+
 15. rujna — FAQ krunice: uklonjena samo druga točka nakon 220 € na IT naslovnici kroz `faq.ts`; izvorni `faq-it.json` nije mijenjan. Provjerena četiri prikaza (IT/HR home i FAQ): preostala tri odgovora već imaju jednu točku i ostaju nepromijenjena. Cijena i ostali tekstovi ostaju isti.
 
 15. rujna — cijene naslovnice HR/IT: korisnik traži font kao na cjeniku. Zadržan zajednički Montserrat, a težina home teaser cijena i cjenovnog dijela hero H1 usklađena je na 500 kao `.content-paragraph.price` na cjeniku. Postojeće responsive veličine, raspored, iznosi, oznake valute i directory/related kartice nisu mijenjani.

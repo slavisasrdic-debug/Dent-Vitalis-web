@@ -3,6 +3,26 @@ import { readFileSync } from 'node:fs';
 import italianPages from '../src/content/inner-pages-it.json' with { type: 'json' };
 
 test.use({ contextOptions: { reducedMotion: 'reduce' } });
+test('short payment breadcrumbs stay on one row on mobile in both languages', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 900 });
+  for (const route of ['/informazioni/pagamento-flessibile', '/hr/placanje']) {
+    // Croatian labels are longer; they legitimately need two rows at 390px.
+    await page.setViewportSize({
+      width: route.startsWith('/hr/') ? 767 : 390,
+      height: 900,
+    });
+    await page.goto(route);
+    await page.evaluate(() => document.fonts.ready);
+    const tops = await page
+      .locator('.breadcrumbs li')
+      .evaluateAll((items) =>
+        items.map((item) => item.getBoundingClientRect().top),
+      );
+    expect(Math.max(...tops) - Math.min(...tops)).toBeLessThan(1);
+  }
+});
 const routes = [
   ...italianPages.map((page) => page.route),
   ...readFileSync('data/hr-routes.proposed.csv', 'utf8')
