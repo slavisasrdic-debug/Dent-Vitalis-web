@@ -47,6 +47,9 @@ export function specialistEndorsement(
           ...child,
           variant: 'endorsement-credit',
           small: true,
+          icon: true,
+          labelSpan: 1,
+          smallLabelSpan: 1,
           content: regular(child.content),
         });
       } else paragraphs.push(child);

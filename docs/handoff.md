@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+15. rujna, dodatno usklađenje Mingione bloka: citat smanjen na 18px/500 u oba jezika i na svim širinama; atribucija i tri stavke ostaju 16px/400. Sve tri stavke imaju jednake crne točkice 5px, umjesto HR zelenih i IT izostavljenih oznaka. Tekst ostaje isti. Ovo zamjenjuje prethodne veličine citata 22/20px.
+
 15. rujna: korisnik zatražio jedinstven font na skupnim stranicama Usluge/O nama/Informacije, kao home/detail. Uklonjen naslijeđeni Arial iz `body.reference-default`; koristi zajednički `--font-body` (Montserrat + njegov Extended podskup). Klasa ostaje zbog postojećih boja/podloge/težine; kartice zadržavaju svoje veličine i težine. Vrijedi za oba jezika, uključujući pravne stranice koje su već imale lokalni Montserrat. Ovo ima prednost nad povijesnim pravilom o Arial directory/body referenci.
 
 15. rujna: korisnik odobrio naglašavanje izjave Manuela Mingionea na HR/IT specijalistima, uz manje nepodebljano ime, titule i tri stručne stavke. `specialistEndorsement` je SSR prezentacijska transformacija samo tog callouta; ne mijenja izvorni tekst ni schema podatke. Citat 22px/600 (mobile 20px), potpis i stavke 16px/400; zajednički stil oba jezika.

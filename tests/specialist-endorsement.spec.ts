@@ -17,17 +17,19 @@ for (const path of [
       await expect(callout).toContainText('Manuel Mingione');
       await expect(callout.locator('.content-bullet')).toHaveCount(3);
       for (const quote of await callout.locator('.endorsement-quote').all()) {
-        await expect(quote).toHaveCSS(
-          'font-size',
-          width === 390 ? '20px' : '22px',
-        );
-        await expect(quote).toHaveCSS('font-weight', '600');
+        await expect(quote).toHaveCSS('font-size', '18px');
+        await expect(quote).toHaveCSS('font-weight', '500');
       }
       for (const credit of await callout.locator('.endorsement-credit').all()) {
         await expect(credit).toHaveCSS('font-size', '16px');
         await expect(credit).toHaveCSS('font-weight', '400');
       }
       await expect(callout.locator('strong')).toHaveCount(0);
+      await expect(callout.locator('.bullet-icon')).toHaveCount(3);
+      for (const dot of await callout.locator('.bullet-icon').all()) {
+        await expect(dot).toHaveCSS('width', '5px');
+        await expect(dot).toHaveCSS('background-color', 'rgb(0, 0, 0)');
+      }
       expect(
         await page.evaluate(
           () => document.documentElement.scrollWidth <= innerWidth,

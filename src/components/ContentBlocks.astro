@@ -258,9 +258,9 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     padding: 20px;
   }
   .endorsement :global(.endorsement-quote) {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color-primary);
   }
   .endorsement :global(.endorsement-credit),
@@ -269,10 +269,16 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
     line-height: 1.5;
     font-weight: 400;
   }
-  @media (max-width: 767px) {
-    .endorsement :global(.endorsement-quote) {
-      font-size: 20px;
-    }
+  .endorsement :global(.content-bullet) {
+    gap: 10px;
+  }
+  .endorsement :global(.bullet-icon) {
+    width: 5px;
+    height: 5px;
+    margin-top: 9px;
+    padding: 0;
+    border: 0;
+    background: #000;
   }
   .content-group.contact-card {
     display: flex;
