@@ -54,7 +54,7 @@ export const referenceBusiness = {
 export const croatianBusinessReview = {
   source:
     'DOCX 7b9273a1338415f095ec43e367e051afaa30df24de9a91b31ec3d7dc4ecc648e',
-  swift: 'ZABAHR2X', // t15.r3.c1.p11; conflicts with the named bank and IT ESBCHR22.
+  swift: referenceBusiness.swift, // User-approved Erste alignment, 2026-09-15; DOCX remains unchanged.
   maxCardInstallments: '36',
   approval: 'review',
 } as const;
