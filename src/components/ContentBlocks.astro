@@ -9,6 +9,7 @@ import Icon from './Icon.astro';
 import MapPanel from './MapPanel.astro';
 import ContactRow from './ContactRow.astro';
 import ReviewSource from './ReviewSource.astro';
+import PaymentCode from './PaymentCode.astro';
 interface Props {
   blocks: ContentBlock[];
   lang?: string;
@@ -20,6 +21,7 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
 
 {
   blocks.map((block) => {
+    if (block.type === 'payment-code') return <PaymentCode lang={lang} />;
     if (block.type === 'list') {
       const List = block.ordered ? 'ol' : 'ul';
       return (

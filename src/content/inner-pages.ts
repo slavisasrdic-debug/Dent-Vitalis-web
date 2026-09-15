@@ -6,6 +6,7 @@ import { applyItalianCorrections } from './editorial-corrections';
 import { linkDoctorResearch } from './doctor-research';
 import { applyPublicLegal } from './legal-public';
 import { linkItalianFirstVisit } from './faq-first-visit-link';
+import { replaceItalianPaymentCode } from './payment-code';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -40,6 +41,7 @@ export interface DirectoryCard extends PageCard {
   actionLayout: 'standard' | 'wide-arrow';
 }
 export type ContentBlock = { id?: string } & (
+  | { type: 'payment-code' }
   | {
       type: 'list';
       ordered: boolean;
@@ -133,6 +135,7 @@ export const innerPages = completeRelatedServices(
     .map(linkDoctorResearch)
     .map(applyPublicLegal)
     .map(linkItalianFirstVisit)
+    .map(replaceItalianPaymentCode)
     .map((page) =>
       ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
         page.route,

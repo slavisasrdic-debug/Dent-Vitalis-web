@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+15. rujna — platni kod završen po novoj korisničkoj uputi: statični EPC/SEPA QR bez iznosa zamjenjuje IT PDF417 s 0,01 EUR i dodaje se na HR ispod bankovnih uputa. Isti kod, lokalizirane upute i vidljivi podaci, bez URL-a/posrednika/client skripti. Pojedinosti i sigurnosne granice: [payment-code.md](payment-code.md). Stvarne bankovne aplikacije treba zasebno provjeriti, bez uplate. Ova odluka ima prednost nad ranijim zapisima čekanja. IT hero cijena sada ima nerastavljivi razmak prije €, kao ostali prikazi; iznos nije mijenjan.
+
 QA dopuna breadcrumb testa: očekivanje jednog retka vrijedi za IT plaćanje na 390px i dulju HR putanju na 767px; HR na 390px opravdano koristi dva retka. Ne smanjivati font radi prisilnog jednog retka.
 
 15. rujna — nepotreban prijelom breadcrumb putanje: `li:last-child` imao je `flex-basis: 12rem`, zbog čega kratki naslov prelazi u novi red i kada ima mjesta. Zajednički `Breadcrumb` sada koristi `flex: 1 1 auto`, odnosno stvarnu širinu teksta, uz postojeći wrap/max-width i sigurni prijelom dugih naslova. Oba jezika; bez promjene fonta, naziva, linkova, guttera ili scroll-offset logike. Regresija: svi potrošači u `breadcrumb-alignment.spec.ts`, dodatna provjera jednog retka na HR/IT plaćanju pri 390px.

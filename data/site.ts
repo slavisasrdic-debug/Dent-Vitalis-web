@@ -43,6 +43,7 @@ export const referenceBusiness = {
   ongoingTreatmentMobile: '+385 91 912 2071',
   receptionPhone: '+385 51 37 1064',
   iban: 'HR1424020061100858111',
+  paymentRecipient: 'Dentvitalis Fides d.o.o.', // Verified existing barcode; user approved 2026-09-15.
   swift: 'ESBCHR22',
   openingHours: 'Mar-Sab 08:00-16:00',
   bookingHours: 'Prenotazioni telefoniche: 08:00-18:00',

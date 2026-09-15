@@ -27,7 +27,9 @@ const { href } = content;
             <strong>{content.eyebrowAccent}</strong>{' '}{content.eyebrow}
           </p><h1 id="home-title" data-reveal data-delay="400" data-offset="0">
             <strong
-              >{content.priceText ?? `${content.pricePrefix} ${price}€`}</strong
+              >{
+                content.priceText ?? `${content.pricePrefix} ${price}\u00a0€`
+              }</strong
             >, {content.title}
           </h1>
           <ul class="benefits">

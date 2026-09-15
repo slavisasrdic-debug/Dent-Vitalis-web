@@ -257,6 +257,7 @@ add('payment', labels.payment, t(15, 0, 1), [
     'h:0 2 4 h3:6 b:8 b:9 b:10 h3:12 b:14 b:15 b:16 b:17 h3:19 b:21 b:22 b:23 b:24',
   ),
   section(15, 3, 'h:1 3 5 7 9 11 13'),
+  { type: 'payment-code' },
 ]);
 add('guarantees', labels.guarantees, t(16, 0, 1), [
   section(16, 0, 'h:6 8 10 11 13'),

@@ -1,0 +1,70 @@
+---
+import QRCode from 'qrcode';
+import { referenceBusiness as business } from '../../data/site';
+import {
+  paymentPayload,
+  paymentCopy,
+  paymentDescription,
+} from '../content/payment-code';
+interface Props {
+  lang?: string;
+}
+const copy = paymentCopy[Astro.props.lang === 'hr' ? 'hr' : 'it'];
+// Generated locally at build time; the browser receives only an inert SVG image.
+const svg = await QRCode.toString(paymentPayload, {
+  type: 'svg',
+  errorCorrectionLevel: 'M',
+  margin: 4,
+  width: 256,
+});
+const src = `data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`;
+---
+
+<section class="payment-code">
+  <h2>{copy.title}</h2>
+  <p>{copy.instruction}</p>
+  <img src={src} width="256" height="256" alt={copy.title} />
+  <dl>
+    <dt>{copy.recipient}</dt><dd>{business.paymentRecipient}</dd>
+    <dt>IBAN</dt><dd>{business.iban}</dd>
+    <dt>SWIFT / BIC</dt><dd>{business.swift}</dd>
+    <dt>{copy.description}</dt><dd>{paymentDescription}</dd>
+  </dl>
+  <p>{copy.amount}</p>
+  <p>{copy.fallback}</p>
+</section>
+<style>
+  .payment-code {
+    margin-block: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  p,
+  dl {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-block: 20px;
+  }
+  img {
+    display: block;
+    width: 256px;
+    max-width: 100%;
+    height: auto;
+  }
+  dt {
+    font-weight: 600;
+  }
+  dd {
+    margin: 0 0 12px;
+    overflow-wrap: anywhere;
+  }
+  @media (max-width: 479px) {
+    h2 {
+      font-size: 26px;
+    }
+  }
+</style>
