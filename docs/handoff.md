@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+15. rujna: aktivni link u bijelom headeru (`.nav-link[aria-current]`) koristi Dentvitalis `--color-primary` plavu umjesto zelene. Zajednički HR/IT header; hoveri, gumbi i zelene oznake na plavoj podlozi nisu mijenjani.
+
 15. rujna, dodatno usklađenje Mingione bloka: citat smanjen na 18px/500 u oba jezika i na svim širinama; atribucija i tri stavke ostaju 16px/400. Sve tri stavke imaju jednake crne točkice 5px, umjesto HR zelenih i IT izostavljenih oznaka. Tekst ostaje isti. Ovo zamjenjuje prethodne veličine citata 22/20px.
 
 15. rujna: korisnik zatražio jedinstven font na skupnim stranicama Usluge/O nama/Informacije, kao home/detail. Uklonjen naslijeđeni Arial iz `body.reference-default`; koristi zajednički `--font-body` (Montserrat + njegov Extended podskup). Klasa ostaje zbog postojećih boja/podloge/težine; kartice zadržavaju svoje veličine i težine. Vrijedi za oba jezika, uključujući pravne stranice koje su već imale lokalni Montserrat. Ovo ima prednost nad povijesnim pravilom o Arial directory/body referenci.
