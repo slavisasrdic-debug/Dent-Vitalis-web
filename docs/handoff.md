@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+15. rujna: HR prvi pregled, odjeljak „Pregled i dijagnostika”: korisnik dostavio doslovnu zamjenu odlomka `t13.r2.c1.p2`. Pohranjena u `data/editorial-corrections.json:croatianFirstVisit`, primjenjuje se uz provjeru starog teksta. DOCX ostaje neizmijenjen, IT i ostali tekst nisu mijenjani. Zadatak koda za bankovne doznake i dalje čeka potvrdu uporabe IT slike na HR zbog zabilježene SWIFT razlike.
+
 15. rujna: aktivni link u bijelom headeru (`.nav-link[aria-current]`) koristi Dentvitalis `--color-primary` plavu umjesto zelene. Zajednički HR/IT header; hoveri, gumbi i zelene oznake na plavoj podlozi nisu mijenjani.
 
 15. rujna, dodatno usklađenje Mingione bloka: citat smanjen na 18px/500 u oba jezika i na svim širinama; atribucija i tri stavke ostaju 16px/400. Sve tri stavke imaju jednake crne točkice 5px, umjesto HR zelenih i IT izostavljenih oznaka. Tekst ostaje isti. Ovo zamjenjuje prethodne veličine citata 22/20px.

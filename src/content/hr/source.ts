@@ -34,11 +34,15 @@ export function text(id: string): string {
     throw new Error(`Excluded Croatian source: ${id}`);
   usedSourceIds.add(id);
   let value = paragraph.text.trim();
-  const correction = corrections.croatianCrown;
-  if (id === correction.sourceId) {
-    if (value !== correction.from)
-      throw new Error(`Croatian crown correction source changed: ${id}`);
-    value = correction.to;
+  for (const correction of [
+    corrections.croatianCrown,
+    corrections.croatianFirstVisit,
+  ]) {
+    if (id === correction.sourceId) {
+      if (value !== correction.from)
+        throw new Error(`Croatian crown correction source changed: ${id}`);
+      value = correction.to;
+    }
   }
   return bindReferenceBusiness(value)
     .replaceAll('ZABAHR2X', croatianBusinessReview.swift)

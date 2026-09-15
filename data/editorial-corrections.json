@@ -8,6 +8,14 @@
     "from": "Il Dr. XY",
     "to": "Il Dr. Domagoj Žalac"
   },
+  "croatianFirstVisit": {
+    "approvedOn": "2026-09-15",
+    "authority": "User supplied the exact replacement paragraph for Pregled i dijagnostika.",
+    "route": "/hr/prvi-pregled",
+    "sourceId": "t13.r2.c1.p2",
+    "from": "Sve počinje preciznom dijagnozom, zato je CT snimak uključen u prvi pregled bez dodatne naplate.",
+    "to": "Najmanje invazivno i kvalitetno liječenje temelji se na točno postavljenoj dijagnozi, a ona je moguća jedino uz kvalitetnu i pouzdanu dijagnostiku. Upravo zato smo u naš pregled uključili i besplatnu CT snimku čeljusti, kako bismo dobili što precizniji uvid u stanje i omogućili odabir optimalnog pristupa liječenju."
+  },
   "croatianCrown": {
     "route": "/hr/krunice-ljuskice-mostovi-i-proteze",
     "sourceId": "t5.r0.c1.p10",

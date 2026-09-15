@@ -177,11 +177,13 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
       const text = normalize(
         paragraph.id === corrections.croatianCrown.sourceId
           ? corrections.croatianCrown.to
-          : bridgeHeroSources[paragraph.id]
-            ? sourceParagraphs.find(
-                (p) => p.id === bridgeHeroSources[paragraph.id],
-              )!.text
-            : paragraph.text,
+          : paragraph.id === corrections.croatianFirstVisit.sourceId
+            ? corrections.croatianFirstVisit.to
+            : bridgeHeroSources[paragraph.id]
+              ? sourceParagraphs.find(
+                  (p) => p.id === bridgeHeroSources[paragraph.id],
+                )!.text
+              : paragraph.text,
       );
       if (!text || /^Hrvatskine$|^Nemaprijevoda/.test(text)) continue;
       if (paragraph.id === 't8.r2.c1.p3') {
