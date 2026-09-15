@@ -1,5 +1,9 @@
 # Astro komponente — 28 talijanskih i 27 hrvatskih stranica
 
+## Jedinstven font skupnih stranica — 15. rujna
+
+Korisnik ukinuo Arial razliku prema starom exportu. `body.reference-default` sada koristi `--font-body`, kao home/detail; ostali tokeni i lokalne veličine/težine nisu mijenjani. `TeaserCard` u svim kontekstima nasljeđuje Montserrat. Test `directory-fonts.spec.ts` pokriva svih šest HR/IT direktorija i sve njihove kartice na 390/820/1440px, uključujući širinu/overflow i font naslova/opisa. Nema novih font asseta, preloada niti izmjena loadera. Povijesne napomene o Arialu u ovoj mapi više nisu aktualne.
+
 ## Izjava Manuela Mingionea — 15. rujna
 
 `EditorialPage` primjenjuje `specialistEndorsement` samo na HR/IT specijaliste i postojeći `callout`. IT miješani odlomak razdvaja kod postojećeg imena; HR već odvojene odlomke označava kao citat/potpis. Izvorni tekst, atribucija i redoslijed ostaju nepromijenjeni. `ContentBlocks` daje citatu 22px/600 (20px mobile), imenu/titulama i svim trima stavkama 16px/400. Korisnik izričito odobrio i smanjenje stavki. Nema novog client JavaScripta. Regresija `tests/specialist-endorsement.spec.ts`: oba jezika, 390/1440px, stvarne veličine/težine, tri stavke, bez overflowa ili app grešaka. Četiri provjere prošle; HR izvorni tekst dodatno provjeren postojećim copy auditom.
