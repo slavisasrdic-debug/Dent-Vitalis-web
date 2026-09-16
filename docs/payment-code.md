@@ -1,4 +1,8 @@
-# Statični SEPA QR — 15. rujna 2026.
+# Platni kod — aktualno stanje 16. rujna 2026.
+
+Korisnik je odbio novi SEPA QR i zatražio stari kod kakav je bio. HR i IT sada prikazuju neizmijenjeni `codice-pagamento-bonifico-dentvitalis-512.webp`, izvornu PDF417 izvedenicu. Nema regeneriranja ni promjene payload-a; uključuje 0,01 EUR. Uklonjena je build-time QR ovisnost i tvrdnja o praznom iznosu. Bankovne upute/SWIFT i razmak prije € nisu vraćani. Slika ostaje lokalna, bez posrednika. Manja 320px datoteka nije u srcsetu zbog ranijeg neuspješnog očitavanja. Izvorni asseti nisu mijenjani ni brisani.
+
+## Povijesni zapis prethodne, povučene implementacije
 
 Korisnik odobrio zamjenu starog IT barkoda i dodavanje na HR, bez iznosa i bez posredničkog servisa. Ovo zamjenjuje prethodnu blokadu u handoffu. Stari originali i izvedenice nisu brisani niti mijenjani; više se ne prikazuju na platnim stranicama.
 

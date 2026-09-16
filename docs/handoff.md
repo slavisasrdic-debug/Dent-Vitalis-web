@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+16. rujna — na izričiti nalog korisnika vraćen izvorni PDF417 na HR i IT plaćanje, bez generiranja/promjene kodiranih podataka (uključujući izvornih 0,01 EUR). Prikazuje se neizmijenjena postojeća slika 512px, bez lošije 320px izvedenice. Uklonjen EPC QR generator i njegove upute; IT uvodni tekst vraćen iz izvornog članka. SWIFT ESBCHR22 i razmak prije € ostaju. Ova odluka zamjenjuje ranije odobrenje SEPA QR-a.
+
 15. rujna — platni kod završen po novoj korisničkoj uputi: statični EPC/SEPA QR bez iznosa zamjenjuje IT PDF417 s 0,01 EUR i dodaje se na HR ispod bankovnih uputa. Isti kod, lokalizirane upute i vidljivi podaci, bez URL-a/posrednika/client skripti. Pojedinosti i sigurnosne granice: [payment-code.md](payment-code.md). Stvarne bankovne aplikacije treba zasebno provjeriti, bez uplate. Ova odluka ima prednost nad ranijim zapisima čekanja. IT hero cijena sada ima nerastavljivi razmak prije €, kao ostali prikazi; iznos nije mijenjan.
 
 QA dopuna breadcrumb testa: očekivanje jednog retka vrijedi za IT plaćanje na 390px i dulju HR putanju na 767px; HR na 390px opravdano koristi dva retka. Ne smanjivati font radi prisilnog jednog retka.
