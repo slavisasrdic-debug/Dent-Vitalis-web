@@ -43,7 +43,8 @@ const id = `inquiry-${crypto.randomUUID()}`;
       name="phone"
       type="tel"
       autocomplete="tel"
-      placeholder={`${content.phone}:`}
+      placeholder={`*${content.phone}:`}
+      required
     />
     <label class="sr-only" for={`${id}-message`}>{content.message}</label
     ><textarea
