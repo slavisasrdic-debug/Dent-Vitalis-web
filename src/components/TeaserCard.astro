@@ -52,7 +52,10 @@ const hasBottomContent = Boolean(
           <p
             class:list={[
               'price',
-              { inset: card.priceInset && context !== 'related' },
+              {
+                inset: card.priceInset && context !== 'related',
+                'price-text': !/[0-9]/.test(card.price),
+              },
             ]}
           >
             {card.price}
@@ -129,6 +132,9 @@ const hasBottomContent = Boolean(
     font-size: 18px;
     font-weight: 700;
     margin: 4px;
+  }
+  .price.price-text {
+    font-weight: 400;
   }
   .price.inset {
     padding: 4px;
