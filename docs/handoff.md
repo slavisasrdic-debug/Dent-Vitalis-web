@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+17. rujna — standardiziran je prikaz bez rezanja riječi: zajednički linkovi, kontaktni redci/forma, breadcrumb i pravni tekst koriste `word-break: normal` i `overflow-wrap: normal`; prijelom se događa samo između cijelih riječi.
+
 17. rujna — FAQ poveznice HR/IT: uklonjen je `word-break: break-all` iz zajedničke `.underlined` varijante, koji je na uskim ekranima mogao lomiti riječ „ovdje” između slova. Sada se riječi ne lome usred riječi; dugi kontaktni podaci zadržavaju vlastiti `overflow-wrap`.
 
 16. rujna — na izričiti nalog korisnika vraćen izvorni PDF417 na HR i IT plaćanje, bez generiranja/promjene kodiranih podataka (uključujući izvornih 0,01 EUR). Prikazuje se neizmijenjena postojeća slika 512px, bez lošije 320px izvedenice. Uklonjen EPC QR generator i njegove upute; IT uvodni tekst vraćen iz izvornog članka. SWIFT ESBCHR22 i razmak prije € ostaju. Ova odluka zamjenjuje ranije odobrenje SEPA QR-a.

@@ -33,7 +33,8 @@ const { cells, border } = Astro.props;
   }
   .contact-row > div {
     min-width: 0;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
   }
   .contact-row > div:only-child {
     grid-column: 1 / -1;

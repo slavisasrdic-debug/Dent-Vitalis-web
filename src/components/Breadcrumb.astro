@@ -61,7 +61,8 @@ const { items, lang = 'it' } = Astro.props;
   }
   li > a {
     min-width: 0;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
   }
   li > [aria-hidden] {
     flex: none;
@@ -74,7 +75,8 @@ const { items, lang = 'it' } = Astro.props;
   }
   [aria-current] {
     min-width: 0;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
     font-weight: 600;
   }
   @media screen and (max-width: 991px) {
