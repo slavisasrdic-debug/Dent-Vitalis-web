@@ -45,6 +45,7 @@ const id = `inquiry-${crypto.randomUUID()}`;
       autocomplete="tel"
       placeholder={`*${content.phone}:`}
       required
+      aria-required="true"
     />
     <label class="sr-only" for={`${id}-message`}>{content.message}</label
     ><textarea
