@@ -75,3 +75,31 @@ test('home and directory prices use the larger cjenik typography in both languag
     }
   }
 });
+
+test('home and directory card typography stays identical in both languages', async ({
+  page,
+}) => {
+  for (const route of ['/', '/hr/', '/prestazioni-dentali/', '/hr/usluge/']) {
+    await page.goto(route);
+    const cards = page.locator('.teaser-card.service.home, .teaser-card.service.directory');
+    if (!(await cards.count())) continue;
+    const styles = await cards.first().evaluate((card) =>
+      ['h2, h3', '.description', '.price'].map((selector) => {
+        const el = card.querySelector(selector);
+        if (!(el instanceof Element)) return null;
+        const style = getComputedStyle(el);
+        return [
+          style.fontFamily,
+          style.fontSize,
+          style.fontWeight,
+          style.lineHeight,
+        ];
+      }),
+    );
+    expect(styles[0]?.[0]).toContain('Montserrat');
+    expect(styles[0]?.[1]).toBe('28px');
+    expect(styles[0]?.[2]).toBe('700');
+    expect(styles[1]?.slice(0, 3)).toEqual([styles[0]?.[0], '18px', '400']);
+    expect(styles[2]?.slice(0, 3)).toEqual([styles[0]?.[0], '22px', '500']);
+  }
+});

@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+17. rujna — kartice naslovnice i skupnih stranica sada dijele eksplicitne `TeaserCard` tipografske tokene: naslov 28px/700, opis 18px/400, cijena 22px/500, uz zajednički Montserrat. Mobilni naslov i postojeći layout breakpointi ostaju isti; sadržaj i iznosi nisu mijenjani. Regresija uspoređuje HR/IT home i directory kartice.
+
 17. rujna — cijene HR/IT: korisnik pojasnio da naslovnica treba veću cijenu kao cjenik, ne samo uklanjanje bolda, te da skupne stranice ne smiju zadržati staru veličinu. `TeaserCard` sada za `home` i `directory` koristi Montserrat 22px/500, kao cjenik; related kartice i iznosi ostaju nepromijenjeni.
 
 17. rujna — standardiziran je prikaz bez rezanja riječi: zajednički linkovi, kontaktni redci/forma, breadcrumb i pravni tekst koriste `word-break: normal` i `overflow-wrap: normal`; prijelom se događa samo između cijelih riječi.

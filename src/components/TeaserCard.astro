@@ -78,6 +78,12 @@ const hasBottomContent = Boolean(
 </article>
 <style>
   .teaser-card {
+    --card-title-size: 28px;
+    --card-title-weight: 700;
+    --card-copy-size: 18px;
+    --card-copy-weight: 400;
+    --card-price-size: 22px;
+    --card-price-weight: 500;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -102,14 +108,14 @@ const hasBottomContent = Boolean(
   h2,
   h3 {
     margin: 20px 0;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: var(--card-title-size);
+    font-weight: var(--card-title-weight);
     line-height: 120%;
     color: var(--color-primary);
   }
   .description {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: var(--card-copy-size);
+    font-weight: var(--card-copy-weight);
     line-height: 140%;
     margin: 10px 0 20px;
   }
@@ -129,8 +135,8 @@ const hasBottomContent = Boolean(
   }
   .home .price,
   .directory .price {
-    font-size: 22px;
-    font-weight: 500;
+    font-size: var(--card-price-size);
+    font-weight: var(--card-price-weight);
   }
   @media screen and (min-width: 992px) {
     .price {
