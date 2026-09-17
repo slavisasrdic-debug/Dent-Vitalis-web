@@ -57,3 +57,21 @@ test('hero prices separate the amount and euro sign in both languages', async ({
     await expect(page.locator('#home-title strong')).toContainText(/4\.990\s€/);
   }
 });
+
+test('home and directory prices use the larger cjenik typography in both languages', async ({
+  page,
+}) => {
+  for (const route of ['/', '/hr/', '/prestazioni-dentali/', '/hr/usluge/']) {
+    await page.goto(route);
+    for (const selector of [
+      '.teaser-card.home .price',
+      '.teaser-card.directory .price',
+    ]) {
+      const prices = page.locator(selector);
+      if (await prices.count()) {
+        await expect(prices.first()).toHaveCSS('font-size', '22px');
+        await expect(prices.first()).toHaveCSS('font-weight', '500');
+      }
+    }
+  }
+});

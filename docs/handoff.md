@@ -1,5 +1,7 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+17. rujna — cijene HR/IT: korisnik pojasnio da naslovnica treba veću cijenu kao cjenik, ne samo uklanjanje bolda, te da skupne stranice ne smiju zadržati staru veličinu. `TeaserCard` sada za `home` i `directory` koristi Montserrat 22px/500, kao cjenik; related kartice i iznosi ostaju nepromijenjeni.
+
 17. rujna — standardiziran je prikaz bez rezanja riječi: zajednički linkovi, kontaktni redci/forma, breadcrumb i pravni tekst koriste `word-break: normal` i `overflow-wrap: normal`; prijelom se događa samo između cijelih riječi.
 
 17. rujna — FAQ poveznice HR/IT: uklonjen je `word-break: break-all` iz zajedničke `.underlined` varijante, koji je na uskim ekranima mogao lomiti riječ „ovdje” između slova. Sada se riječi ne lome usred riječi; dugi kontaktni podaci zadržavaju vlastiti `overflow-wrap`.
