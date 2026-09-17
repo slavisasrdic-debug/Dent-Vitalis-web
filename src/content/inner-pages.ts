@@ -5,7 +5,6 @@ import { labelParkingLinks } from './parking-link-labels';
 import { applyItalianCorrections } from './editorial-corrections';
 import { linkDoctorResearch } from './doctor-research';
 import { applyPublicLegal } from './legal-public';
-import { linkItalianFirstVisit } from './faq-first-visit-link';
 import { replaceItalianPaymentCode } from './payment-code';
 export type InlineContent =
   | { kind: 'text'; text: string }
@@ -128,14 +127,45 @@ export interface InnerPage {
   source: { file: string; sha256: string; approval: 'review' };
   hiddenSourceSections: string[];
 }
+
+// Interlinking in editorial copy is intentionally deferred until the content
+// review is complete. Keep contact and external links (tel:, mailto:, http(s))
+// intact, but render internal editorial links as their original text.
+function stripEditorialInternalLinks(parts: InlineContent[]): InlineContent[] {
+  return parts.flatMap((part) => {
+    if (part.kind !== 'link') return [part];
+    if (!part.href.startsWith('/') && !part.href.startsWith('#')) return [part];
+    return stripEditorialInternalLinks(part.children);
+  });
+}
+
+function stripEditorialLinks(blocks: ContentBlock[]): ContentBlock[] {
+  return blocks.map((block) => {
+    if (block.type === 'group')
+      return { ...block, children: stripEditorialLinks(block.children) };
+    if (block.type === 'paragraph' || block.type === 'bullet')
+      return { ...block, content: stripEditorialInternalLinks(block.content) };
+    if (block.type === 'heading')
+      return { ...block, content: stripEditorialInternalLinks(block.content) };
+    if (block.type === 'faq')
+      return { ...block, answer: stripEditorialInternalLinks(block.answer) };
+    if (block.type === 'contact-row')
+      return {
+        ...block,
+        cells: block.cells.map((cell) => stripEditorialInternalLinks(cell)),
+      };
+    return block;
+  });
+}
+
 // A generated transcription, not an approved production content database.
 export const innerPages = completeRelatedServices(
   (data as InnerPage[])
     .map(applyItalianCorrections)
     .map(linkDoctorResearch)
     .map(applyPublicLegal)
-    .map(linkItalianFirstVisit)
     .map(replaceItalianPaymentCode)
+    .map((page) => ({ ...page, blocks: stripEditorialLinks(page.blocks) }))
     .map((page) =>
       ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
         page.route,

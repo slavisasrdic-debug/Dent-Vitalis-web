@@ -24,7 +24,6 @@ import { alt } from './assets';
 import { specialPages } from './special';
 import { labelParkingLinks } from '../parking-link-labels';
 import { linkDoctorResearch } from '../doctor-research';
-import { linkAnswerWord } from '../faq-first-visit-link';
 
 function base(id: string, title: string, description: string): InnerPage {
   const original = italianPages.find((p) => p.route === italianRoute(id))!;
@@ -330,15 +329,6 @@ const questions = [
   faq(23, 6, 0, [2]),
   faq(23, 7, 1, [3]),
 ];
-// "ovdje" links explicitly point at the translated topic; no Italian fallback.
-questions[8]!.answer = [
-  { kind: 'link', href: route('testimonials'), children: questions[8]!.answer },
-];
-questions[9]!.answer = linkAnswerWord(
-  questions[9]!.answer,
-  'ovdje',
-  route('first-visit'),
-);
 const faqPage = add('faq', labels.faq, text('p313'), [
   {
     type: 'heading',
