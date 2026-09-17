@@ -37,6 +37,8 @@ Work efficiently and minimize unnecessary model, tool, browser, and repository u
   f) perform a final visual verification.
 - Use additional browser iterations only when the result is uncertain or a real issue remains.
 - Do not repeat screenshots or inspections when nothing relevant has changed.
+- For style-only changes, use one representative mobile and one desktop viewport. Add breakpoint-edge or extra-resolution checks only when the changed rule affects that breakpoint, fluid geometry, wrapping, or an unresolved defect; never run a full resolution matrix by default.
+- Reuse an existing successful visual baseline when the changed selector or consumer is outside its geometry, and prefer DOM/computed-style assertions over redundant screenshots.
 
 ## 5. TESTING
 
