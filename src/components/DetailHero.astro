@@ -8,7 +8,13 @@ interface Props {
 const { content } = Astro.props;
 ---
 
-<section class:list={['detail-hero', content.variant]}>
+<section
+  class:list={[
+    'detail-hero',
+    content.variant,
+    { 'text-only': content.variant === 'plain' && !content.photo },
+  ]}
+>
   {
     content.photo && (
       <div class="hero-photo">
@@ -124,6 +130,16 @@ const { content } = Astro.props;
   .directory .hero-copy {
     padding-block: 56px;
   }
+  /* Imported text-only translations have no photograph to supply a backdrop. */
+  .text-only {
+    min-height: 0;
+    background: var(--color-primary);
+  }
+  .text-only .hero-copy {
+    width: 100%;
+    max-width: 1000px;
+    padding-block: 56px;
+  }
   @media screen and (max-width: 991px) {
     .detail-hero {
       min-height: 0;
@@ -175,6 +191,10 @@ const { content } = Astro.props;
   @media screen and (max-width: 479px) {
     h1 {
       font-size: 32px;
+    }
+    /* Keep German compound words intact without pushing past the viewport. */
+    :global(html[lang='de']) .text-only h1 {
+      font-size: clamp(20px, 6vw, 28px);
     }
     .description,
     .eyebrow {

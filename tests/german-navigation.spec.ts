@@ -136,6 +136,38 @@ test('all German pages have reciprocal IT/HR links, German navigation and real d
 });
 
 for (const width of [390, 1440]) {
+  test(`German detail headings are readable and fit at ${width}px`, async ({
+    page,
+  }) => {
+    test.setTimeout(90000);
+    await page.setViewportSize({ width, height: 900 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    for (const entry of localizedPageRegistry.de) {
+      await page.goto(`${origin}/de/${entry.route}/`);
+      const geometry = await page.locator('.detail-hero').evaluate((hero) => {
+        const h1 = hero.querySelector('h1')!;
+        const range = document.createRange();
+        range.selectNodeContents(h1);
+        return {
+          background: getComputedStyle(hero).backgroundColor,
+          foreground: getComputedStyle(h1).color,
+          right: range.getBoundingClientRect().right,
+          viewport: innerWidth,
+          overflow: document.documentElement.scrollWidth > innerWidth,
+        };
+      });
+      expect(geometry.background, entry.route).toBe('rgb(4, 90, 114)');
+      expect(geometry.foreground, entry.route).toBe('rgb(255, 255, 255)');
+      expect(geometry.right, entry.route).toBeLessThanOrEqual(
+        geometry.viewport,
+      );
+      expect(geometry.overflow, entry.route).toBe(false);
+      if (entry.route === 'payment')
+        await page.screenshot({
+          path: `/tmp/dentvitalis-de-payment-${width}.png`,
+        });
+    }
+  });
   test(`German menu and language switching by real clicks at ${width}px`, async ({
     page,
   }) => {
