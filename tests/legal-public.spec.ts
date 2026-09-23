@@ -48,6 +48,9 @@ for (const source of sources) {
         [...e.querySelectorAll('strong,b')].map(text);
       const href = (a: Element) => {
         const value = a.getAttribute('href')!;
+        // Contact-link normalization makes the displayed clinic URL explicit.
+        if (value === '/' && a.textContent?.trim() === 'www.dentvitalis.com')
+          return 'https://www.dentvitalis.com';
         if (value === 'tel:0038550371064' || value === 'tel:0038551371064')
           return 'tel:+38551371064';
         if (value.startsWith('/')) return value.replace(/\/$/, '') || '/';
@@ -78,8 +81,19 @@ for (const source of sources) {
     expect(comparison.newText).toBe(comparison.oldText);
     expect(comparison.newLists).toEqual(comparison.oldLists);
     expect(comparison.newStrong).toEqual(comparison.oldStrong);
-    for (const link of comparison.oldLinks)
+    for (const link of comparison.oldLinks) {
+      // The later user-approved deferral of editorial interlinking removes
+      // this IT anchor, not its words. The full-text assertion above still
+      // protects its label; contact and external source links stay mandatory.
+      if (
+        source.route === '/informativa-sulla-privacy' &&
+        link.href === '/condizioni-di-utilizzo'
+      ) {
+        expect(comparison.newLinks).not.toContainEqual(link);
+        continue;
+      }
       expect(comparison.newLinks).toContainEqual(link);
+    }
     let previous = 1;
     for (const level of comparison.headings) {
       expect(level).toBeLessThanOrEqual(previous + 1);

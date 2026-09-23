@@ -126,6 +126,11 @@ const eagerImage =
   .privacy-copy :global(#privacy-rights) {
     list-style-type: lower-alpha;
   }
+  /* Keep every unordered legal list solid, including lists nested inside ol.
+     Ordered/lettered source lists retain their original markers. */
+  .legal-copy :global(ul.content-list) {
+    list-style-type: disc;
+  }
   .related-services {
     width: 100%;
     padding-block: 80px 60px;
