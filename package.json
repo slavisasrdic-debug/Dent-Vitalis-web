@@ -20,6 +20,7 @@
     "audit:redirects": "node scripts/audit-redirect-targets.mjs",
     "test:redirects": "node --test scripts/redirect-proposal.test.mjs",
     "content:extract:hr": "python3 scripts/extract-translation-source.py",
+    "content:extract:locales": "python3 scripts/extract-locale-source.py",
     "content:check:hr": "python3 scripts/extract-translation-source.py --check",
     "content:extract:hr-legal": "node scripts/extract-hr-legal.mjs",
     "test:hr": "playwright test tests/croatian.spec.ts --workers 2",
