@@ -140,7 +140,7 @@ export const footerGroups = [
 ];
 export const clinic = {
   ...baseClinic,
-  tagline: 'Zahnärzte Kroatien',
+  tagline: 'Rijeka, Kroatien',
   consultation: 'Zahnarzt fragen',
   menuRequest: { label: row('t1', 11)[0]!, href: '#contatti' },
   tollFree: '',

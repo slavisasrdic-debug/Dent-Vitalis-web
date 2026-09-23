@@ -25,8 +25,10 @@ const copy = ui(lang);
     <div class="header-row">
       <a
         href={homeHref(lang)}
-        class:list={['brand', { 'brand-hr': lang === 'hr' }]}
-        ><BrandLogo label={copy.logo} /><span>{tagline}</span></a
+        class:list={[
+          'brand',
+          { 'brand-hr': lang === 'hr', 'brand-de': lang === 'de' },
+        ]}><BrandLogo label={copy.logo} /><span>{tagline}</span></a
       >
       <nav id={id} aria-label={copy.nav} class="site-nav">
         <div class="nav-items">
@@ -159,7 +161,8 @@ const copy = ui(lang);
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-  .brand-hr span {
+  .brand-hr span,
+  .brand-de span {
     font-family: var(--font-body);
     font-size: 13px;
     line-height: 1.4;
@@ -285,7 +288,8 @@ const copy = ui(lang);
     .brand span {
       letter-spacing: 0.375px;
     }
-    .brand-hr span {
+    .brand-hr span,
+    .brand-de span {
       font-size: 12px;
       letter-spacing: 0;
     }

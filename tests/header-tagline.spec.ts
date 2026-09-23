@@ -1,5 +1,44 @@
 import { test, expect } from '@playwright/test';
 
+test('German location descriptor fits the unchanged logo without wrapping', async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  for (const route of ['/de/', '/de/services/', '/de/datenschutzerklarung/']) {
+    const widths = route === '/de/' ? [390, 991, 992, 1440] : [390, 1440];
+    for (const width of widths) {
+      await page.setViewportSize({ width, height: 900 });
+      expect((await page.goto(route))?.status()).toBe(200);
+      await page.evaluate(() => document.fonts.ready);
+      await expect(page.locator('.brand span')).toHaveText('Rijeka, Kroatien');
+      await expect(page.locator('.brand')).toHaveClass('brand brand-de');
+      const geometry = await page.locator('.brand').evaluate((brand) => {
+        const span = brand.querySelector('span')!;
+        const logo = brand
+          .querySelector('[data-brand-logo]')!
+          .getBoundingClientRect();
+        const range = document.createRange();
+        range.selectNodeContents(span);
+        const text = range.getBoundingClientRect();
+        return {
+          width: logo.width,
+          leftDifference: Math.abs(text.left - logo.left),
+          rightDifference: Math.abs(text.right - logo.right),
+          lines: range.getClientRects().length,
+          overflow: span.scrollWidth - span.clientWidth,
+        };
+      });
+      expect(geometry.width).toBe(width < 992 ? 140 : 150);
+      expect(geometry.leftDifference).toBeLessThan(1);
+      expect(geometry.rightDifference).toBeLessThan(1);
+      expect(geometry.lines).toBe(1);
+      expect(geometry.overflow).toBe(0);
+    }
+  }
+  await page.locator('.brand').click();
+  await expect(page).toHaveURL(/\/de\/$/);
+});
+
 test('Croatian descriptor aligns to the logo at mobile and desktop breakpoints', async ({
   page,
 }) => {

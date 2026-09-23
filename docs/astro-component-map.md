@@ -55,6 +55,8 @@ HR navigacija koristi kratke izvorne fragmente „Informacije”, „Iskustva”
 
 Korisnički dodatak za HR logotip (8. rujna): aktualni odobreni natpis u `hr/site.ts` je **Stomatolog Rijeka**, umjesto prethodno zatraženog „ORDINACIJE DENTALNE MEDICINE”. `Header` ga preko postojeće `tagline` vrijednosti prikazuje u `brand-hr` varijanti: Montserrat 500, 13px desktop / 12px do 991px, tracking 0 i line-height 1.4, uz postojeći uppercase prikaz. Posljednji redak poravnat je na širinu nepromijenjenog logotipa (150/140px), bez JS mjerenja, skaliranja slike ili prijeloma u dva reda. Font je izričito vezan uz `--font-body` i na directory/legal stranicama. IT natpis i stil ostaju nepromijenjeni. Regresija: `tests/header-tagline.spec.ts` u Chromiumu/WebKitu.
 
+Korisnički dodatak za DE logotip (23. rujna): podnaslov je **Rijeka, Kroatien**, umjesto „Zahnärzte Kroatien”. Samo `brand-de` varijanta dijeli postojeće HR tipografsko poravnanje na širinu SVG logotipa (140px mobilno / 150px desktop), bez promjene SVG-a, širine headera ili podnaslova drugih jezika. Regresija u `tests/header-tagline.spec.ts` obuhvaća DE home/directory/legal i granicu 991/992px.
+
 ### Početno učitavanje logotipa i fotografija
 
 #### Fontovi i stabilan prvi prikaz (korisnička dopuna 8. rujna)
