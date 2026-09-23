@@ -1,0 +1,35 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Hero from '../../components/home/Hero.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import TeaserSequence from '../../components/home/TeaserSequence.astro';
+import ContactSection from '../../components/ContactSection.astro';
+import { clinic } from '../../content/site';
+import { equivalentLanguages } from '../../content/hr/routes';
+import type { TeaserCardData } from '../../content/home';
+
+const services: TeaserCardData[] = [
+  { eyebrow: 'Premium-Paket', title: 'Kleine Investition – langfristige Lösung: Definitiver implantatgetragener Zahnersatz auf 4 Implantaten', description: 'Der Preis umfasst die Diagnostik, die provisorische und definitive prothetische Versorgung sowie alle notwendigen Eingriffe.', price: 'Festpreis 2.990 €', href: '/de/four-implant-denture', desktopImage: 'Sedazione-cosciente-1.webp', mobileImage: 'Sedazione-cosciente-mobile.webp', alt: 'Patient während einer Behandlung mit bewusster Sedierung' },
+  { eyebrow: 'Premium-Paket', title: 'Festsitzende implantatgetragene Brücke – unabhängig von der Anzahl der Implantate', description: 'Der Preis bleibt unverändert, unabhängig von der Anzahl der Implantate und den erforderlichen Eingriffen.', price: 'Festpreis 4.990 €', href: '/de/fixed-implant-bridge', desktopImage: 'ponte-fisso-su-impianti-2.webp', mobileImage: 'Dv-3.webp', alt: 'Patient während einer zahnmedizinischen Behandlung' },
+  { eyebrow: 'Premium-Paket', title: 'So einfach wie nie: Zahnaufhellung zu Hause', description: 'Eine nichtinvasive, einfache und sichere Methode für ein strahlendes Lächeln.', price: 'Festpreis 250 €', href: '/de/whitening', desktopImage: 'Recenzija-detail-1.webp', mobileImage: 'Recenzija-mobile.jpg', alt: 'Zufriedene Patientin in der DentVitalis Klinik' },
+  { eyebrow: 'Perfekter Ersatz für natürliche Zähne', title: 'Kronen, Veneers, Brücken und Prothesen', description: 'Prothetische Versorgungen aus unserem Labor nach EU-Standards, mit zertifizierten Materialien und Qualität.', price: 'Bereits ab 220 €', href: '/de/crowns-veneers-bridges', desktopImage: 'Dv-4-2.webp', mobileImage: 'Dv-4-2.webp', alt: 'Patient während einer zahnmedizinischen Untersuchung' },
+];
+const about: TeaserCardData[] = [
+  { title: 'Unsere Spezialisten', description: 'Höchste fachliche Kompetenz, kontinuierliche Fortbildung und langjährige Erfahrung in unserer Klinik.', href: '/de/specialists', desktopImage: 'I-nostri-specialist-2i.webp', mobileImage: 'I-nostri-specialisti-mobile-2.webp', alt: 'DentVitalis Spezialisten in der Klinik' },
+  { title: 'Alles unter einem Dach', description: 'Erstklassige Behandlungsbedingungen, modernste digitale Technologien, ein zertifiziertes Dentallabor und eine exklusive Unterkunft.', href: '/de/all-in-one', desktopImage: 'Tutto-in-un-unico-luogo-1.webp', mobileImage: 'DV-44.webp', alt: 'DentVitalis Team und Klinik' },
+  { title: 'Wie Sie uns erreichen', description: 'Im Herzen von Rijeka – sowohl aus Kroatien als auch aus dem Ausland leicht zu erreichen.', href: '/de/directions', desktopImage: 'Come-raggiungerci.webp', mobileImage: 'Come-raggiungerci.webp', alt: 'Rijeka, Standort der DentVitalis Klinik' },
+  { title: 'Dentallabor', description: 'Höchste Qualität, Präzision und schnelle Fertigung durch hochwertige Materialien und digitale Technologien.', href: '/de/laboratory', desktopImage: 'Laboratorio-odontotecnico-1.webp', mobileImage: 'Laboratorio-odontotecnico-1.webp', alt: 'Dentallabor von DentVitalis' },
+];
+const contact = {
+  eyebrow: 'Kontakt', title: 'Vereinbaren Sie Ihre kostenlose Erstuntersuchung in Rijeka (Fiume), Kroatien!', description: 'Kontaktieren Sie uns für eine Beratung, die Organisation Ihrer Behandlung, den Transfer und die Unterkunft in unserer Klinik.', name: 'Name', email: 'E-Mail', phone: 'Telefon', message: 'Nachricht', upload: 'Datei auswählen', limit: 'Max. 8 MB', privacyPrefix: 'Ich habe die ', privacy: 'Datenschutzerklärung gelesen.', privacyHref: '/de/informativa-sulla-privacy', submit: 'Nachricht senden', unavailable: 'Der Versand ist in dieser Vorschau nicht aktiv.', fileTooLarge: 'Die Datei muss kleiner als 8 MB sein.', invalidFile: 'Bitte wählen Sie eine PDF-, JPG- oder PNG-Datei.',
+};
+const pageLanguages = equivalentLanguages('/de/');
+const metadata = { title: 'DentVitalis – Zahnärzte in Kroatien', description: 'Hochwertige Zahnmedizin und große Ersparnisse in der DentVitalis Klinik in Rijeka, Kroatien.' };
+---
+<SiteLayout {...metadata} lang="de" canonical="https://www.dentvitalis.com/de/" pageLanguages={pageLanguages} seo={{}}>
+  <Hero price={clinic.premiumPrice} benefits={['Festsitzende implantatgetragene Brücke', 'Keine zusätzlichen Kosten', 'Zinsfreie Kartenzahlung in bis zu 36 Raten', 'Unterkunft in der Klinik', 'Implantatpass der eingesetzten Implantate', 'Schriftliche Garantie']} maps={clinic.maps} content={{ eyebrowAccent: 'Premium-Paket', eyebrow: 'für eine festsitzende implantatgetragene Brücke', title: 'ein einzigartiges Angebot in Kroatien', pricePrefix: 'Festpreis von', priceText: '4.990 €', href: '/de/fixed-implant-bridge', cta: 'Mehr erfahren', ratingAlt: 'Google-Bewertung von DentVitalis' }} />
+  <section class="intro-section"><SectionHeading eyebrow="Große Ersparnisse und erstklassige Zahnmedizin an einem Ort" accent="Große Ersparnisse" title="und erstklassige Zahnmedizin an einem Ort" description="Ihre Untersuchung in unserer Klinik in Rijeka umfasst eine umfassende Diagnostik und ist vollständig kostenlos." variant="intro" /></section>
+  <TeaserSequence cards={services} variant="service" label="Dienstleistungen" />
+  <section><SectionHeading eyebrow="Über uns" title="Alles unter einem Dach" description="Erstklassige Behandlung, moderne Technologie und persönliche Betreuung." /><TeaserSequence cards={about} variant="about" label="Über uns" /></section>
+  <ContactSection content={contact} lang="de" />
+</SiteLayout>
