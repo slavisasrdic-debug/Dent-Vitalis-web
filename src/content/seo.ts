@@ -86,7 +86,7 @@ export function graph(
       url: origin + '/',
       name: referenceBusiness.name,
       publisher: { '@id': dentistId },
-      inLanguage: ['it', 'hr'],
+      inLanguage: ['it', 'hr', 'de', 'en', 'sl'],
     },
     {
       '@type': seo.type ?? 'WebPage',
