@@ -25,6 +25,7 @@
     "content:extract:hr-legal": "node scripts/extract-hr-legal.mjs",
     "test:hr": "playwright test tests/croatian.spec.ts --workers 2",
     "test:content": "node --test scripts/content-source.test.mjs",
+    "test:content:locales": "node --test scripts/content-locale.test.mjs",
     "check": "astro check",
     "lint": "eslint .",
     "format": "prettier . --write",
