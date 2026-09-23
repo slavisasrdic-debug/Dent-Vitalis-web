@@ -1,0 +1,1605 @@
+[
+  {
+    "route": "/de/datenschutzerklarung",
+    "title": "Datenschutzerklärung",
+    "blocks": [
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Wofür werden Ihre Daten genutzt?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Nach Bedarf sammeln wir Ihre im Abfrageformular (Name und Nachname, E-Mail, Telefonnummer usw.) angegebenen Daten. Andernfalls nutzen Sie unsere Internetseite anonym."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Welche Informationen sammeln wir?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ihre persönlichen und nicht-persönlichen Daten können wir in einer der folgenden Arten nutzen:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Für die Zwecke einer personalisierten Kommunikation bzw. Informationsdarbietung gemäß Ihrem tatsächlichen Bedarf."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Für die Verbesserung dieser Internetseite."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Für eine bessere Auffassung der Bedürfnisse von potentiellen Patienten und Nutzern der Internetseite."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Für eine gelegentliche Absendung von E-Mails, damit wir Sie über die Vorteile und neue Dienste informieren können."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Hinweis: Falls Sie zu irgendeinem Zeitpunkt zukünftigen Eingang von E-Mails absagen möchten, können Sie das gemäß den Anweisungen am Ende jeder E-Mail machen."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Wie schützen wir Ihre persönlichen Daten?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Wir führen eine Vielzahl von Sicherheitsmaßnahmen durch, um die Vertraulichkeit Ihrer persönlichen Daten jederzeit aufrecht zu erhalten: wenn Sie die Internetseite besuchen, wenn Sie eine Anfrage über das Web-Formular senden oder beim Senden einer E-Mail."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Warum benutzen wir Cookies?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Cookies sind kleine Dateien, die wir durch den Web-Browser auf Ihre Festplatte übertragen (wenn erlaubt) und die uns ermöglichen den Nutzer und die Speicherung bestimmter Daten zu erkennen."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Mit diesen Daten können wir in der Zukunft bessere und genauere Informationen über unsere Dienstleistungen anbieten. Um diese Daten zu analysieren, können wir eine dritte Partei engagieren, die uns weiter helfen kann. Dabei erlangt der Dritte niemals das Recht, die Daten zu irgendeinem Zweck, außer dem erwähnten, zu nutzen, wobei er unberechtigt bleibt, diese an Dritte weiter zu leiten."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Wenn Sie möchten, können Sie auf Ihrem Computer die Option wählen, die Sie immer informiert, wenn ein Cookie gesendet wurde oder Sie können das Ausschalten aller Cookies wählen."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Wer kann meine persönlichen Daten verwenden?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ihre persönlichen Daten werden weder Gegenstand eines Kaufs noch Dritten zur kommerziellen Verwertung mit oder ohne Abfindung vergeben."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Nicht-persönliche Daten, die während eines anonymen Besuches der Internetseite gesammelt wurden, können wir an Dritte, mit dem Ziel der Verbesserung von Promotion und Marketing, vergeben."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Links zu externen Internetseiten Dritter"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Nach unserem Ermessen, können wir gelegentlich an unseren Seiten Links zu externen Internetseiten Dritter stellen. Bitte beachten Sie, dass diese Seiten getrennte und unabhängige Datenschutzrichtlinien haben. Deshalb tragen wir keine Verantwortung für den Inhalt und Ihre Aktivitäten auf diesen Seiten. Da es unser Interesse ist die Integrität unserer Seite zu schützen, begrüßen wir alle Rückmeldungen über diese Internetseiten."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kinder-Online Privacy Protection Act Compliance"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "In Übereinstimmung mit den Anforderungen der COPPA (Kinder-Online Privacy Protection Act) sammeln wir keine persönlichen Daten von Personen unter 13 Jahren."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Online-Datenschutz"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Das Dokument über den Datenschutz im Internet gilt nur für Informationen, die über unsere Internetseite und nicht anders gesammelt wurden."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Bedingungen"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Bitte beachten Sie die "
+          },
+          {
+            "kind": "link",
+            "href": "/de/nutzungsbedingungen",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Nutzungsbedingungen"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " unserer Internetseite."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ihre Zustimmung"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Durch die Nutzung unserer Internetseite stimmen Sie der hier genannten Datenschutzerklärung zu."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Änderung der Datenschutzerklärung"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Falls wir aus irgendeinem Grund die Bedingungen dieser Bestimmung ändern sollten, werden diese Änderungen auf dieser Seite veröffentlicht."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte schriftlich oder mündlich unter:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "link",
+            "href": "/de",
+            "children": [
+              {
+                "kind": "text",
+                "text": "www.dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Krešimirova 60"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Rijeka, 51000"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Kroatien"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:info@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "info@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "tel:0038551371064",
+            "children": [
+              {
+                "kind": "text",
+                "text": "+38551371064"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Verordnung über den Umgang mit personenbezogenen Daten"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. mit Sitz in Rijeka, Krešimirova 60,\n                                    Kroatien, persönliche Identifikationsnummer 39977041464 (im weiteren Text: Bearbeitungsleiter),\n                                    als Verpflichteter zur Anwendung der\n                                "
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 (im weiteren Text: Allgemeine Verordnung), sowie"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Verordnungen aller anderen einschlägigen Verordnungen, mit welchen der Schutz personenbezogener Daten reguliert wird"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    reguliert mit dieser Verordnung den Schutz personenbezogener Daten Einzelner\n                                    (natürlicher Personen), welchen er Informationen und/oder Dienstleistungen im Rahmen seiner Tätigkeit anbietet.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Einleitende Verordnungen"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Die Verordnung über den Umgang mit personenbezogenen Daten ist ein einseitig verpflichtender gesetzlicher Akt, gegründet auf den Grundprinzipien der Allgemeinen Verordnung und allen anderen einschlägigen Verordnungen für den Schutz personenbezogener Daten natürlicher Personen."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Der Befragte ist eine natürliche Person, deren Daten gemäß dieser Verordnung gesammelt werden."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Personenbezogene Daten sind jegliche Daten, welche sich auf den Einzelnen beziehen, dessen Identität bestätigt wurde oder bestätigt werden kann."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Die Bearbeitung personenbezogener Daten ist jeder Vorgang oder eine Sammlung an Vorgängen, in welchen personenbezogene Daten genutzt werden."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Grundsätze der Sammlung, Bearbeitung und Speicherung personenbezogener Daten"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Personenbezogene Daten des Befragten werden legal, fair und transparent bearbeitet. Es werden nur Daten gesammelt und bearbeitet, welche relevant für das Anbieten von Informationen und Dienstleistungen im Rahmen der Tätigkeit des Bearbeitungsleiters sind."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Falls der Befragte zustimmt, ist der Bearbeitungsleiter willig auch andere personenbezogene Daten zu sammeln, welche ausschließlich zum Zweck eines besseren Gesundheitsschutzes des Befragten genutzt werden würden."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Personenbezogene Daten werden auf jene Weise gesammelt und gespeichert, dass sie vor Diebstahl, unberechtigter Nutzung, Verlust, Zerstörung oder Beschädigung geschützt sind."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        Personenbezogene Daten werden gesammelt, bearbeitet und aufbewahrt ausschließlich im Einklang mit:\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "den Vorschriften über die Aufzeichnung auf dem Gebiet der Gesundheit und anderen geltenden gesetzlichen Vorschriften, welche sich auf besondere Arten von Daten beziehen, sowie"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "geschäftlich gerechtfertigten Bedürfnissen, beziehungsweise Bedürfnissen bedingt durch den Prozess des Anbietens von Dienstleistungen aus der Tätigkeit des Bearbeitungsleiters."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Personenbezogene Daten reicht der Befragte ausschließlich freiwillig dar. Hierbei behält sich der Bearbeitungsleiter das Recht vor, dem Befragten die Dienstleistung zu verweigern, welcher ihm die personenbezogenen Daten nicht dargereicht hat, welche für ein qualitatives und sicheres Anbieten der Dienstleistung unumgänglich sind."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Zweck der Sammlung und Bearbeitung personenbezogener Daten"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Personenbezogene Daten des Befragten werden nur dann gesammelt und bearbeitet, wenn eine der folgenden Bedingungen erfüllt ist:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "wenn die Bearbeitung personenbezogener Daten für das Anbieten der Dienstleistung im Rahmen der Tätigkeit des Bearbeitungsleiters notwendig ist"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "wenn eine gesetzliche Verpflichtung deren Bearbeitung besteht"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "wenn die Notwendigkeit des Schutzes der Hauptinteressen des Befragten oder einer anderen natürlichen Person besteht"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "wenn die Bearbeitung für das Ausführen der Aufgabe von öffentlichem Interesse notwendig ist"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "wenn die Bearbeitung zum Zweck des Schutzes legitimer Interessen des Bearbeitungsleiters notwendig ist, außer in Fällen, wenn der Schutz des Befragten, beziehungsweise seiner Grundrechte Priorität haben muss (z.B. Schutz des Interesses eines Kindes)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Art der Sammlung personenbezogener Daten des Befragten"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Personenbezogene Daten des Befragten werden auf folgende Arten gesammelt:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Direkt seitens des Befragten, welchem der Bearbeitungsleiter Dienste im Rahmen seiner Tätigkeit darreicht. Der Befragte kann diese Informationen wie folgt geben: mündlich, schriftlich oder mittels Internetseite des Bearbeitungsleiters."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Durch medizinische oder andere Dokumentation Dritter, und welche der Befragte dem Bearbeitungsleiter zur Verfügung stellt."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Durch medizinische und andere Dokumentation des Befragten, und welche beim Prozess des Anbietens der Dienstleistung aus der Tätigkeit des Bearbeitungsleiters entsteht (z.B. diagnostisches Material, Aufzeichnungen medizinischer Verfahren, Medikamente, Prozesse usw.)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Durch Dokumentation Dritter, welche in den Prozess des Anbietens der Dienstleistung an den Befragten mit einbezogen sind (z.B. Ergebnisse von Labor-Untersuchungen, dentale Abdrücke von Labortechnikern usw.)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Weiterleiten personenbezogener Daten"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Personenbezogene Daten des Befragten werden an Dritte nur weitergeleitet zwecks:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Erfüllung der gesetzlich vorgesehenen Verpflichtungen"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Ausführung vereinzelter Arbeiten, für welche der Bearbeitungsleiter eine dritte Person engagiert hat (z.B. Dentallabor, Buchhaltungsbüro u.Ä.)"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Dauer und Aufbewahrung personenbezogener Daten"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Der Bearbeitungsleiter wird die personenbezogenen Daten des Befragten im Einklang mit den zeitlichen Fristen,\n                                    welche gesetzlich vorgeschrieben sind, aufbewahren. Und falls dies nicht der Fall ist, dann nur bis zur Frist,\n                                    wann deren Aufbewahrung geschäftlich gerechtfertigt ist. Im Ausnahmefall werden personenbezogene Daten länger\n                                    als die Frist ist aufbewahrt, falls deren Aufbewahrung Bedingung für einen legitimen Schutz der Interessen\n                                    des Bearbeitungsleiters ist. Personenbezogene Daten des Befragten werden nach Ablauf der gesetzlichen Frist gelöscht,\n                                    welche den Bearbeitungsleiter zum Aufbewahren vereinzelter personenbezogener Daten verpflichtet oder bei Beendigung\n                                    des Zwecks deren Aufbewahrung.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Rechte des Befragten"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf den Zugriff von personenbezogenen Daten"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Der Bearbeitungsleiter verpflichtet sich, aufgrund des eingebrachten schriftlichen Ansuchens,\n                                            dem Befragten den Zugriff auf personenbezogene Daten zu ermöglichen, ihn über den Zweck der Bearbeitung\n                                            von personenbezogenen Daten, die Art der personenbezogenen Daten welche bearbeitet werden, über die Empfänger\n                                            oder Kategorien der Empfänger an welche die personenbezogenen Daten weitergegeben wurden oder weitergegeben werden,\n                                            über die vorgesehene Zeitdauer deren Aufbewahrung oder über die Kriterien, welche für die Festlegung dieser Zeitdauer\n                                            genutzt werden, zu informieren.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf das Ausbessern falscher personenbezogener Daten"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Der Bearbeitungsleiter ist verpflichtet, dem Befragten das Ausbessern falscher oder die Vervollständigung bestehender personenbezogener Daten zu ermöglichen.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf das Löschen personenbezogener Daten"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Der Bearbeitungsleiter wird das Löschen personenbezogener Daten des Befragten in folgenden Fällen durchführen:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "wenn die personenbezogenen Daten des Befragten zum Erfüllen des Zwecks der Bearbeitung nicht mehr notwendig sind, beziehungsweise bei Einstellung des Zwecks der Bearbeitung"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "wenn der Befragte seine Einwilligung als Rechtsgrundlage für die Datenbearbeitung zurückzieht, und wenn keine weitere gesetzliche Grundlage für die weitere Datenbearbeitung besteht"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "wenn der Befragte eine berechtigte Beschwerde auf die Datenbearbeitung einwendet"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "wenn die personenbezogenen Daten zwecks Erfüllung von rechtlichen Verpflichtungen gelöscht werden müssen"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf Einschränkung der Datenbearbeitung"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Der Bearbeitungsleiter wird die Bearbeitung von personenbezogenen Daten einschränken, falls eine der folgenden Bedingungen erfüllt ist:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "der Befragte fechtet die Richtigkeit der personenbezogenen Daten an."
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "die Bearbeitung der personenbezogenen Daten ist rechtswidrig, aber der Befragte verlangt keine Löschung, sondern nur eine Einschränkung deren Bearbeitung."
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "der Bearbeitungsleiter benötigt die personenbezogenen Daten nicht mehr, aber der Befragte verlangt deren teilweise Bearbeitung zwecks Schutz seiner Interessen."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf das Einreichen einer Beschwerde"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Der Befragte hat das Recht auf das Einreichen einer Beschwerde auf die Bearbeitung seiner personenbezogenen Daten.\n                                            Der Bearbeitungsleiter behält sich das Recht vor, einer solchen Beschwerde nicht stattzugeben, falls ein gerechtfertigtes\n                                            legitimes Interesse an der Bearbeitung der personenbezogenen Daten des Befragten besteht.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf die Übertragung personenbezogener Daten"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Der Befragte hat das Recht eine Übertragung von personenbezogenen Daten an einen anderen Bearbeitungsleiter in folgenden Fällen zu verlangen:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "falls es sich um Daten handelt, welche der Bearbeitungsleiter aufgrund einer Zustimmung erhalten hat, welche zurückgezogen werden kann,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "falls dies so vereinbart ist,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "falls die Datenbearbeitung mittels automatisiertem Weg durchgeführt wird."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Recht auf Antrag zur Feststellung einer Rechtsverletzung"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Der Befragte hat das Recht einen Antrag zur Feststellung einer Rechtsverletzung bei der Agentur für den Schutz personenbezogener Daten zu stellen."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Entzug der Zustimmung"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Der Befragte kann zu jeglichem Zeitpunkt die Zustimmungen zum Sammeln und Bearbeiten von personenbezogenen Daten entziehen, welche nicht durch diese Verordnung erfasst sind."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Informationen und Beschwerden"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Für alle Fragen und Beschwerden in Bezug auf den Schutz personenbezogener Daten seitens des Bearbeitungsleiters\n                                    kann sich der Befragte schriftlich an den Angestellten für den Schutz personenbezogener Daten wenden:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Angestellter für den Schutz personenbezogener Daten"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Krešimirova 60, Rijeka, Kroatien"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:dpo@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "dpo@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Der Bearbeitungsleiter ist verpflichtet, alle Anfragen und Anträge ohne unnötige Aufschiebung\n                                    und im Einklang mit den gesetzlich vorgeschriebenen Fristen zu bearbeiten.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Änderungen und Ergänzungen der Verordnung über den Umgang mit personenbezogenen Daten"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Der Bearbeitungsleiter behält sich das Recht vor, diese Verordnung zu jeglichem Zeitpunkt\n                                    und ohne jegliche vorhergehende Anmeldung zu ändern und zu ergänzen.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    In Rijeka, 25.5.2018.\n                                "
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-23/de-datenschutzerklarung.html",
+      "url": "https://www.dentvitalis.com/de/datenschutzerklarung",
+      "sha256": "4e4a92010ddb912832768d691e274a63b41702490802787dd5300646f0947d91",
+      "retrievedAt": "2026-09-23"
+    }
+  },
+  {
+    "route": "/de/nutzungsbedingungen",
+    "title": "Nutzungsbedingungen",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Hiermit werden die Nutzungsbedingungen der Website www.dentvitalis.com (im Folgenden: „Website“) festgelegt. Inhaber der Inhalte der Website ist die Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Rijeka, Kroatien. Sollten Sie mit einer oder mehreren Bestimmungen dieser Nutzungsbedingungen nicht einverstanden sein, bitten wir Sie, die Website zu verlassen und sie nicht weiter zu nutzen."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "Alle auf dieser Website veröffentlichten zahnmedizinischen Leistungen werden im eigenen Namen und auf eigene Rechnung von der Dentvitalis Fides d.o.o. (im Folgenden: „DVF“) erbracht."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "1. Sämtliche Informationen zu den auf der Website aufgeführten zahnmedizinischen Leistungen sowie die dazugehörigen Preise und Ausführungsfristen dienen ausschließlich Informationszwecken und können keinen Ersatz für den Behandlungsplan darstellen, der jedem einzelnen Patienten nach der Untersuchung durch einen Arzt in den Praxisräumen von DVF ausgehändigt wird."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "2. Der dem Patienten per E-Mail oder auf andere Weise übermittelte Behandlungsplan sowie das dazugehörige Kostenangebot dienen ausschließlich Informationszwecken, da sie auf unvollständigen Angaben beruhen und insbesondere ohne vorherige Untersuchung des Patienten in den Praxisräumen von DVF erstellt werden."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "3. Der Inhalt dieser Website kann ohne vorherige schriftliche oder mündliche Ankündigung gegenüber den Nutzern geändert werden."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "4. Sämtliche Inhalte dieser Website, einschließlich ihres Designs, sind geistiges Eigentum der Dentvitalis Fides d.o.o. und dürfen als solche ohne deren vorherige schriftliche Zustimmung nicht verwendet werden."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "5. Etwaige auf dieser Website enthaltene Verlinkungen (sog. Links) zu anderen Websites dienen ausschließlich der besseren Information der Nutzer und werden nach bestem Wissen und Gewissen bereitgestellt. Dies schließt jegliche Haftung der DVF für die Inhalte dieser Websites aus."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "strong",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Haftungsausschluss"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF übernimmt keine Haftung für etwaige materielle und/oder immaterielle Schäden, die dem Nutzer durch die Nutzung dieser Website entstehen könnten. Alle Daten, Informationen und Verlinkungen werden nach bestem Wissen und Gewissen sowie zum Zweck einer möglichst umfassenden Information der Nutzer bereitgestellt."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF übernimmt keine Verantwortung für Fehler, die bei der Erstellung der Website oder bei der Dateneingabe entstanden sind."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-23/de-nutzungsbedingungen.html",
+      "url": "https://www.dentvitalis.com/de/nutzungsbedingungen",
+      "sha256": "e3115585c8b2a0f6660a31edcfcfa6f467bf0939a8baa714b8a6a6ce1f254561",
+      "retrievedAt": "2026-09-23"
+    }
+  }
+]

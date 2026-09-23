@@ -134,12 +134,23 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
           eager={block.videoId === eagerVideoId}
         />
       );
-    if (block.type === 'map') return <MapPanel src={block.src} />;
+    if (block.type === 'map') return <MapPanel src={block.src} lang={lang} />;
     if (block.type === 'review-source') return <ReviewSource {...block} />;
     return null;
   })
 }
 <style>
+  @media (max-width: 479px) {
+    :global(html[lang='de']) h2.content-heading {
+      font-size: clamp(22px, 6vw, 26px);
+    }
+    :global(html[lang='de']) h3.content-heading {
+      font-size: 22px;
+    }
+    :global(html[lang='de']) .contact-card :global(h2) {
+      font-size: clamp(20px, 6vw, 26px);
+    }
+  }
   .content-list {
     padding-left: 1.5em;
     margin-block: 16px;

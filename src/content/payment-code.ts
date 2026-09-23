@@ -28,6 +28,11 @@ export function replaceItalianPaymentCode(page: InnerPage): InnerPage {
 }
 
 export const paymentCopy = {
+  de: {
+    title: 'Zahlungscode für die Banküberweisung',
+    instruction:
+      'Verwenden Sie den folgenden Code für die Zahlung per Banküberweisung.',
+  },
   hr: {
     title: 'Kod za plaćanje bankovnom doznakom',
     instruction: 'Koristite sljedeći kod za plaćanje bankovnom doznakom.',

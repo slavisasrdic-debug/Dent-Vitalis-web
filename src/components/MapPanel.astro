@@ -1,20 +1,24 @@
 ---
 import { clinic } from '../content/site';
+import { clinic as germanClinic } from '../content/de/site';
 interface Props {
   src: string;
+  lang?: string;
 }
 const { src } = Astro.props;
+const address =
+  Astro.props.lang === 'de' ? germanClinic.address : clinic.address;
 ---
 
 <div class="map-panel">
   <iframe
     src={src}
-    title={`DentVitalis — ${clinic.address}`}
+    title={`DentVitalis — ${address}`}
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"></iframe><a
     href={clinic.maps}
     target="_blank"
-    rel="noopener noreferrer">{clinic.address}</a
+    rel="noopener noreferrer">{address}</a
   >
 </div>
 <style>

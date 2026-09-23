@@ -74,6 +74,16 @@ const { content } = Astro.props;
   </div>
 </section>
 <style>
+  @media (min-width: 992px) and (max-width: 1199px) {
+    :global(html[lang='de']) .document h3 {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 479px) {
+    :global(html[lang='de']) .document h3 {
+      font-size: 20px;
+    }
+  }
   .welcome {
     padding-bottom: 60px;
   }

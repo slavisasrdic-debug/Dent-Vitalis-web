@@ -3,18 +3,23 @@ import { createHash } from 'node:crypto';
 import { chromium } from 'playwright';
 
 // Read-only public-source intake. Existing snapshots are never overwritten.
-const directory = 'reference/legal-public/2026-09-11';
+const german = process.argv.includes('--de');
+const retrievedAt = german ? '2026-09-23' : '2026-09-11';
+const directory = `reference/legal-public/${retrievedAt}`;
+const routes = german
+  ? ['/de/datenschutzerklarung', '/de/nutzungsbedingungen']
+  : [
+      '/informativa-sulla-privacy',
+      '/hr/polica-privatnosti',
+      '/condizioni-di-utilizzo',
+      '/hr/uvjeti-koristenja',
+    ];
 mkdirSync(directory, { recursive: true });
 const browser = await chromium.launch();
 const page = await browser.newPage();
 const result = [];
 try {
-  for (const route of [
-    '/informativa-sulla-privacy',
-    '/hr/polica-privatnosti',
-    '/condizioni-di-utilizzo',
-    '/hr/uvjeti-koristenja',
-  ]) {
+  for (const route of routes) {
     const file = `${directory}/${route.slice(1).replaceAll('/', '-')}.html`;
     const url = `https://www.dentvitalis.com${route}`;
     if (!existsSync(file)) {
@@ -24,7 +29,7 @@ try {
     }
     const html = readFileSync(file, 'utf8');
     const data = await page.evaluate(
-      ({ html, route }) => {
+      ({ html, route, german }) => {
         const doc = new DOMParser().parseFromString(html, 'text/html');
         const heading = [...doc.querySelectorAll('h1,h2')].find((e) =>
           e.closest('.dent_mdl'),
@@ -128,6 +133,19 @@ try {
               flush();
               // Public rights labels are bold paragraphs within list items.
               if (
+                german &&
+                node.tagName === 'P' &&
+                node.textContent.trim() === 'Haftungsausschluss' &&
+                node.querySelector('strong')
+              )
+                blocks.push({
+                  type: 'heading',
+                  rank: 2,
+                  variant: 'section',
+                  flush: false,
+                  content: inline(node.childNodes),
+                });
+              else if (
                 parent.tagName === 'LI' &&
                 node.querySelector('strong,b') &&
                 node.textContent.trim() ===
@@ -152,7 +170,7 @@ try {
           blocks: blocksFrom(root),
         };
       },
-      { html, route },
+      { html, route, german },
     );
     result.push({
       ...data,
@@ -160,7 +178,7 @@ try {
         file,
         url,
         sha256: createHash('sha256').update(html).digest('hex'),
-        retrievedAt: '2026-09-11',
+        retrievedAt,
       },
     });
     console.log(
@@ -171,6 +189,6 @@ try {
   await browser.close();
 }
 writeFileSync(
-  'src/content/legal-public.json',
+  german ? 'src/content/de/legal-public.json' : 'src/content/legal-public.json',
   JSON.stringify(result, null, 2) + '\n',
 );

@@ -6,6 +6,7 @@ interface Props {
   id: string;
   content: PageSidebar;
   current: string;
+  lang?: string;
   variant?: 'standard' | 'testimonials' | 'legal';
 }
 const { content, current, variant = 'standard' } = Astro.props;
@@ -66,7 +67,11 @@ const { content, current, variant = 'standard' } = Astro.props;
       ),
     )
   }
-  {content.map && <MapPanel src={content.map} />}
+  {
+    content.map && (
+      <MapPanel src={content.map} lang={Astro.props.lang ?? 'it'} />
+    )
+  }
 </aside>
 <style>
   .page-sidebar {

@@ -4,7 +4,8 @@ import {
   type NavigationGroup,
   type contactCopy as ContactCopy,
 } from '../site';
-import { localizedPageRegistry } from '../localized-page-registry';
+import { legalLinks } from './legal-routes';
+import { route } from './routes';
 
 // Read the supplied translation by explicit source ID, never by table alignment.
 export function row(tableId: string, index: number): string[] {
@@ -20,11 +21,22 @@ function paragraph(id: string): string {
   const block = source.blocks.find((block) => block.id === id);
   if (!block || block.type !== 'paragraph' || !block.text)
     throw new Error(`Missing German source ${id}`);
-  return block.text.replace(/\u200b/g, '').trim();
+  return block.text.replace(/[\u200b\u200d]/g, '').trim();
 }
 export const labels: Record<string, string> = {
-  'four-implant-denture': row('t2', 0)[1]!,
-  'fixed-implant-bridge': row('t3', 0)[1]!,
+  home: 'DentVitalis',
+  services: paragraph('p4'),
+  about: paragraph('p16'),
+  information: paragraph('p64'),
+  sedation: paragraph('p54'),
+  prices: paragraph('p92'),
+  testimonials: paragraph('p98').split('\n')[0]!,
+  faq: paragraph('p197'),
+  gallery: paragraph('p212'),
+  contact: paragraph('p231'),
+  // Short UI labels; full supplied titles remain in the hero and content.
+  'four-implant-denture': 'Prothese auf 4 Implantaten',
+  'fixed-implant-bridge': 'Festsitzende implantatgetragene Brücke',
   whitening: row('t4', 0)[1]!,
   'crowns-veneers-bridges': row('t5', 0)[1]!,
   specialists: paragraph('p17'),
@@ -39,31 +51,46 @@ export const labels: Record<string, string> = {
   guarantees: paragraph('p81'),
   accommodation: paragraph('p87'),
 };
-export const navigation: NavigationGroup[] = [
-  { label: paragraph('p4'), href: '/de/#leistungen', family: 'service' },
-  { label: paragraph('p16'), href: '/de/#ueber-uns', family: 'about' },
-  {
-    label: paragraph('p64'),
-    href: '/de/#informationen',
-    family: 'information',
-  },
-].map(({ family, ...group }) => ({
-  ...group,
-  children: localizedPageRegistry.de
-    .filter((entry) => entry.family === family)
-    .map((entry) => ({
-      label: labels[entry.route]!,
-      href: `/de/${entry.route}`,
-    })),
-}));
-export const navigationLinks = [
-  { label: paragraph('p231'), href: '#contatti' },
+export function label(id: string): string {
+  const value = labels[id];
+  if (!value) throw new Error(`Missing German label: ${id}`);
+  return value;
+}
+const link = (id: string) => ({ label: label(id), href: route(id) });
+const group = (id: string, children: string[]): NavigationGroup => ({
+  ...link(id),
+  children: children.map(link),
+});
+export const navigation = [
+  group('services', [
+    'four-implant-denture',
+    'fixed-implant-bridge',
+    'whitening',
+    'crowns-veneers-bridges',
+    'sedation',
+  ]),
+  group('about', [
+    'specialists',
+    'all-in-one',
+    'directions',
+    'laboratory',
+    'materials',
+    'new-implants',
+  ]),
+  group('information', [
+    'first-visit',
+    'treatment-duration',
+    'payment',
+    'guarantees',
+    'accommodation',
+    'prices',
+  ]),
 ];
-// No German legal translation was supplied. Label the existing Croatian source
-// explicitly instead of inventing a German legal URL or legal text.
-export const legalLinks = [
-  { label: 'Datenschutzerklärung (Kroatisch)', href: '/hr/polica-privatnosti' },
-  { label: 'Nutzungsbedingungen (Kroatisch)', href: '/hr/uvjeti-koristenja' },
+export const navigationLinks = [
+  { ...link('testimonials'), label: 'Erfahrungen' },
+  { ...link('faq'), label: 'FAQ' },
+  link('gallery'),
+  link('contact'),
 ];
 export const footerGroups = [
   ...navigation.map((group) => ({
@@ -72,6 +99,38 @@ export const footerGroups = [
     links: group.children,
     legal: false,
   })),
+  {
+    title: labels.testimonials!,
+    href: route('testimonials'),
+    legal: false,
+    links: [
+      { label: paragraph('p105'), href: route('testimonials') + '#video' },
+      { label: 'Google-Bewertungen', href: route('testimonials') + '#google' },
+      { label: paragraph('p108'), href: route('testimonials') + '#post' },
+    ],
+  },
+  {
+    title: labels.faq!,
+    href: route('faq'),
+    legal: false,
+    links: [
+      { label: paragraph('p202'), href: route('faq') + '#zahnmedizin' },
+      { label: paragraph('p209'), href: route('faq') + '#dentvitalis' },
+    ],
+  },
+  {
+    title: labels.gallery!,
+    href: route('gallery'),
+    legal: false,
+    links: [
+      { label: paragraph('p215'), href: route('gallery') + '#aesthetik' },
+      {
+        label: paragraph('p220').split('/').at(-1)!.trim(),
+        href: route('gallery') + '#funktion',
+      },
+      { label: paragraph('p225'), href: route('gallery') + '#rehabilitation' },
+    ],
+  },
   {
     title: 'Rechtliche Informationen',
     href: '',
@@ -100,7 +159,7 @@ export const contactCopy: typeof ContactCopy = {
   upload: 'Datei auswählen',
   limit: 'Max. 8 MB',
   privacyPrefix: 'Ich habe die ',
-  privacy: 'Datenschutzerklärung gelesen (Kroatisch).',
+  privacy: 'Datenschutzerklärung gelesen.',
   privacyHref: legalLinks[0]!.href,
   submit: 'Nachricht senden',
   unavailable:

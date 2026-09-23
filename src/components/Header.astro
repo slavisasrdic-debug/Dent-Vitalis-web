@@ -362,6 +362,25 @@ const copy = ui(lang);
     button.addEventListener('click', () =>
       setOpen(button.getAttribute('aria-expanded') !== 'true'),
     );
+    nav.addEventListener('click', (event) => {
+      if (event.defaultPrevented || !(event.target instanceof Element)) return;
+      const link = event.target.closest<HTMLAnchorElement>('a[href]');
+      if (
+        !link ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey ||
+        event.altKey
+      )
+        return;
+      const target = new URL(link.href);
+      if (
+        target.origin === location.origin &&
+        target.pathname === location.pathname &&
+        target.hash
+      )
+        setOpen(false);
+    });
     header.addEventListener('keydown', (event) => {
       if (
         event.key === 'Tab' &&

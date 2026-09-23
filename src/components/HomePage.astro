@@ -5,6 +5,8 @@ import { clinic, contactCopy as itContactCopy } from '../content/site';
 import { contactCopy as hrContactCopy } from '../content/hr/site';
 import * as it from '../content/home';
 import * as hr from '../content/hr/home';
+import * as de from '../content/de/home';
+import { contactCopy as deContactCopy } from '../content/de/site';
 import { plain } from '../content/seo';
 
 import { homeQuestions as itQuestions } from '../content/faq';
@@ -18,16 +20,22 @@ import ContactSection from '../components/ContactSection.astro';
 import VideoPosterPreload from '../components/VideoPosterPreload.astro';
 import { heroVideos } from '../content/background-videos';
 interface Props {
-  lang?: 'it' | 'hr';
+  lang?: 'it' | 'hr' | 'de';
 }
 const { lang = 'it' } = Astro.props;
 const { home, services, aboutCards, welcome, testimonials, informationCards } =
-  lang === 'hr' ? hr : it;
-const questions = lang === 'hr' ? hr.homeQuestions : itQuestions;
-const contactCopy = lang === 'hr' ? hrContactCopy : itContactCopy;
-const seoQuestions =
+  lang === 'hr' ? hr : lang === 'de' ? de : it;
+const questions =
   lang === 'hr'
-    ? hr.homeQuestions.map((q) => ({
+    ? hr.homeQuestions
+    : lang === 'de'
+      ? de.homeQuestions
+      : itQuestions;
+const contactCopy =
+  lang === 'hr' ? hrContactCopy : lang === 'de' ? deContactCopy : itContactCopy;
+const seoQuestions =
+  lang !== 'it'
+    ? (lang === 'de' ? de : hr).homeQuestions.map((q) => ({
         question: q.question,
         answer: plain(q.richAnswer),
       }))
@@ -40,7 +48,7 @@ const seoQuestions =
 <SiteLayout
   {...home.metadata}
   lang={lang}
-  canonical={`https://www.dentvitalis.com${lang === 'hr' ? '/hr/' : '/'}`}
+  canonical={`https://www.dentvitalis.com${lang === 'it' ? '/' : `/${lang}/`}`}
   seo={{ questions: seoQuestions }}
 >
   <Fragment slot="head">
@@ -59,7 +67,11 @@ const seoQuestions =
   <TeaserSequence
     cards={services}
     variant="service"
-    label={lang === 'hr' ? 'Usluge' : 'Prestazioni'}
+    label={lang === 'hr'
+      ? 'Usluge'
+      : lang === 'de'
+        ? 'Dienstleistungen'
+        : 'Prestazioni'}
   />
   <Welcome content={welcome} />
   <section>

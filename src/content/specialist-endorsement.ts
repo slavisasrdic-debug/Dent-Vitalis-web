@@ -37,7 +37,7 @@ export function specialistEndorsement(
         paragraphs.push({
           ...child,
           variant:
-            lang === 'hr' && index < 2
+            (lang === 'hr' || lang === 'de') && index < 2
               ? 'endorsement-quote'
               : 'endorsement-credit',
           content: regular(child.content),

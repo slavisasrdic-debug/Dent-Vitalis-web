@@ -3,7 +3,10 @@ import { paymentCopy, paymentImage } from '../content/payment-code';
 interface Props {
   lang?: string;
 }
-const copy = paymentCopy[Astro.props.lang === 'hr' ? 'hr' : 'it'];
+const copy =
+  paymentCopy[
+    Astro.props.lang === 'hr' ? 'hr' : Astro.props.lang === 'de' ? 'de' : 'it'
+  ];
 ---
 
 <section class="payment-code">

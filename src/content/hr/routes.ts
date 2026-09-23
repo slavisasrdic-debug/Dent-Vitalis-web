@@ -1,6 +1,6 @@
 import proposal from '../../../data/hr-routes.proposed.csv?raw';
 import { languages, type LanguageLink } from '../site';
-import { localizedPageRegistry } from '../localized-page-registry';
+import { germanPageIds, route as deRoute } from '../de/routes';
 
 const [header, ...lines] = proposal.trim().split('\n');
 const keys = header!.split(',');
@@ -34,23 +34,21 @@ export function equivalentLanguages(path: string): LanguageLink[] {
   const currentPath = normalize(path);
   // Only registered, reviewed destinations may be offered as translations.
   // EN/SL adapters are still drafts; matching a suffix is not proof of readiness.
-  const germanPage = localizedPageRegistry.de.find(
-    (entry) => `/de/${entry.route}` === currentPath,
+  const germanId = germanPageIds.find(
+    (id) => normalize(deRoute(id)) === currentPath,
   );
   const pair = routeDecisions.find(
     (r) =>
       normalize(r.it_path) === currentPath ||
       (r.status === 'approved' &&
         normalize(r.proposed_hr_path) === currentPath) ||
-      r.page_id === germanPage?.route ||
+      r.page_id === germanId ||
       (currentPath === '/de' && r.page_id === 'home'),
   );
   const germanEquivalent =
-    pair?.page_id === 'home'
-      ? '/de/'
-      : localizedPageRegistry.de.some((entry) => entry.route === pair?.page_id)
-        ? `/de/${pair!.page_id}`
-        : '';
+    pair && germanPageIds.some((id) => id === pair.page_id)
+      ? deRoute(pair.page_id)
+      : '';
   return languages.map((language) => {
     const href =
       language.lang === 'it'

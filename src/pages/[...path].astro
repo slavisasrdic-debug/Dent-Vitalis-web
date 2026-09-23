@@ -15,9 +15,12 @@ import { equivalentLanguages } from '../content/hr/routes';
 import { flatten, plain, type PageSEO } from '../content/seo';
 import { referenceBusiness } from '../../data/site';
 import { localizedPages } from '../content/localized-pages';
+import { germanLegalPages } from '../content/de/legal';
+import { innerPagesDe } from '../content/de/inner';
 export async function getStaticPaths() {
   const translated = [
-    ...(await localizedPages('de')),
+    ...germanLegalPages,
+    ...innerPagesDe,
     ...(await localizedPages('en')),
     ...(await localizedPages('sl')),
   ];
