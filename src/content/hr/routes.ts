@@ -29,6 +29,18 @@ export function italianRoute(id: string) {
   return hrRoutes.find((r) => r.page_id === id)!.it_path;
 }
 export function equivalentLanguages(path: string): LanguageLink[] {
+  if (path === '/' || path === '/hr/' || path === '/hr') {
+    return languages.map((language) => {
+      const available = ['it', 'hr', 'de'].includes(language.lang);
+      const href =
+        language.lang === 'it'
+          ? '/'
+          : language.lang === 'hr'
+            ? '/hr/'
+            : language.lang === 'de' ? '/de/' : '';
+      return { ...language, href, available };
+    });
+  }
   const translated = path.match(/^\/(de|en|si)(\/.*)?\/?$/);
   if (translated) {
     const suffix = translated[2] ?? '/';
