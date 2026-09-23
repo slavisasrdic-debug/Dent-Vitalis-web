@@ -1,0 +1,1602 @@
+[
+  {
+    "route": "/si/politika-zasebnosti",
+    "title": "Politika zasebnosti",
+    "blocks": [
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za kaj bomo uporabili vaše podatke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaše podatke, ki so navedeni v obrazcu za povpraševanje (ime in priimek, e-naslov, telefonska številka itn.), bomo uporabili občasno. V drugih primerih naše strani uporabljate anonimno."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Katere podatke zbiramo?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaše osebne in neosebne podatke lahko uporabimo za enega izmed naslednjih načinov:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "-  Za potrebe komunikacije po meri oz. nudenja informacij v skladu z vašimi potrebami."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "-  Za izboljšanje te spletne strani. "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "-  Za boljše razumevanje potreb potencialnih pacientov in uporabnikov spletne strani."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "-  Za pošiljanje občasne e-pošte, s katero vas obveščamo o ugodnostih in novih storitvah."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Opomba: če se v katerem koli trenutku želite odjaviti od prejemanja prihodnje e-pošte, lahko to naredite v skladu z navodili na koncu vsake e-pošte."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kako varujemo vaše osebne informacije?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za ohranjanje zaščite vaših osebnih podatkov v vsakem trenutku, npr. ko pristopate spletnim stranem, ko nam pošljete povpraševanje z uporabo spletnega obrazca ali pri pošiljanju e-pošte, izvajamo številne varnostne korake."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Za kaj uporabljamo piškotke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Piškotki so majhne datoteke, ki jih s pomočjo spletne strani (če nam to dovolite) prenesemo na trdi disk vašega računalnika. Omogočajo nam, da prepoznamo uporabnika, prav tako pa omogočijo shranjevanje določenih podatkov o njem."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Zahvaljujoč tem podatkom lahko v prihodnosti ponudimo kakovostnejše in bolj točne informacije o naših storitvah. Za analizo teh podatkov lahko najamemo tretjo osebo, ki nam bo pri analizi pomagala. Pri tem tretja oseba v nobenem trenutku ne pridobi pravice do razpolaganja s podatki v katere koli namene, razen za prej navedene, prav tako pa teh podatkov ne sme posredovati tretjim osebam."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Če želite, lahko izberete možnost, ki vas bo o poslanem piškotku vsakič obvestila, lahko pa tudi izberete zavrnitev uporabe vseh piškotkov."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Kdo vse lahko uporablja moje osebne podatke?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaši osebni podatki ne bodo nikoli postali predmet kupoprodaje, prav tako pa ne bodo z ali brez nadomestila odstopljeni tretji osebi za reklamne namene."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Neosebne podatke, pridobljeni med anonimnim obiskom te strani, lahko tretji osebi posredujemo za izboljšanje promocije in trženja."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Neodvisne povezave"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Občasno, glede na našo oceno, lahko na te strani dodamo povezave na spletne strani tretjih oseb. Opozarjamo vas, da imajo te strani ločene in lastne politike zasebnosti. Za vsebino in vašo uporabo teh strani ne prevzemamo nobene odgovornosti. Ker nam je v interesu zaščititi integriteto naše strani, so dobrodošle kakršne koli informacije o prej omenjenih spletnih straneh."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Ameriški zakon COPPA za zaščito otrok"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "V skladu z zahtevami COPPA (Children Online Privacy Protection Art) ne pridobivamo nobenih osebnih informacij od oseb, mlajših od 13 let."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Zasebnost na spletu"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Dokument Politike zasebnosti o varovanju zasebnosti na spletu se nanaša samo na podatke, pridobljene preko naše spletne strani, in ne za podatke, ki so bili pridobljeni na drug način."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Pogoji"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Preberite  "
+          },
+          {
+            "kind": "link",
+            "href": "/si/pogoji-uporabe",
+            "children": [
+              {
+                "kind": "text",
+                "text": "pogoje"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " uporabe naše spletne strani."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vaše soglasje"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Z uporabo naše spletne strani soglašate s tukaj navedeno Politiko zasebnosti"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Spremembe Politike zasebnosti"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "V primeru da iz katerega koli razloga spremenimo pogoje te Politike, bodo te spremembe objavljene na tej strani."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Če imate kakršna koli vprašanja glede te Politike zasebnosti, nas lahko kontaktirate pisno ali preko telefona na:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "link",
+            "href": "/si",
+            "children": [
+              {
+                "kind": "text",
+                "text": "www.dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Krešimirova 60"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Reka, 51000 "
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Hrvaška  "
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:info@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "info@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "tel:0038550371064",
+            "children": [
+              {
+                "kind": "text",
+                "text": "+38551371064"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " \n                            "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Pravilnik o ravnanju z osebnimi podatki"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. s sedežem na Reki, Krešimirova 60,\n                                    Hrvaška, OIB 39977041464 (v nadaljnjem besedilu: Vodja obdelave), kot zavezanec implementacije\n                                "
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Uredbe (EU) 2016/679 Evropskega parlamenta in Evropskega sveta z dne 27. aprila 2016 (v nadaljnjem besedilu: Splošna uredba), in"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "uredb vseh drugih merodajnih predpisov, s katerimi se regulira zaščita osebnih podatkov"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    s tem Pravilnikom regulira zaščito osebnih podatkov posameznikov (fizičnih oseb),\n                                    katerim nudi informacije in/ali storitve v okviru svoje dejavnosti.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Uvodne določbe"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Pravilnik o ravnanju z osebnimi podatki je enostransko zavezujoč pravni dokument, ki temelji na temeljnih načelih Splošne uredbe in vseh drugih predpisov, ki se nanašajo na varstvo osebnih podatkov fizičnih oseb."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Vprašanec je fizična oseba, katere podatki se zbirajo na podlagi tega Pravilnika."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osebni podatek je vsak podatek, ki se nanaša na posameznika, katerega identiteta je bila določena ali jo je mogoče določiti."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Obdelava osebnih podatkov je vsak postopek ali skupek postopkov, v katerih se osebni podatki uporabljajo."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Načela zbiranja, obdelave in shranjevanja osebnih podatkov"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osebni podatki Vprašanca se obdelujejo zakonito, pošteno in transparentno. Zbirajo in obdelujejo se samo podatki, pomembni za zagotavljanje informacij in storitev v okviru dejavnosti Vodje obdelave."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Če se Vprašanec strinja, je Vodja obdelave voljan zbirati tudi druge osebne podatke, ki bi se uporabljali izključno za namen boljše bodoče zdravstvene zaščite Vprašanca."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osebni podatki se zbirajo in hranijo na način, da so zaščiteni pred krajo, nepooblaščeno uporabo, izgubo, uničenjem ali poškodovanjem."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        Osebni podatki se zbirajo, obdelujejo in hranijo izključno v skladu z:\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "predpisi o evidencah na področju zdravstva in drugimi veljavnimi zakonskimi predpisi, ki se nanašajo na posebne vrste podatkov, ter"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "poslovno upravičenimi potrebami, oziroma potrebami pogojenimi s procesom nudenja storitev iz dejavnosti Vodje obdelave."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Osebne podatke Vprašanec nudi izključno prostovoljno. Pri tem si Vodja obdelave pridržuje pravico odkloniti storitev Vprašancu, ki mu ni ponudil osebnega podatka, ki je nujno potreben za kvalitetno in varno nudenje storitve."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Namen zbiranja in obdelave osebnih podatkov"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osebni podatki Vprašanca se zbirajo in obdelujejo le takrat, ko je izpolnjen eden od naslednjih pogojev:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "če je obdelava osebnih podatkov nujna za nudenje storitev v okviru dejavnosti Vodje obdelave"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "če obstaja zakonska obveznost njihove obdelave"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "če obstaja nujnost zaščite ključnih interesov Vprašanca ali druge fizične osebe"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "če je obdelava nujna za izvajanje nalog, ki so v javnem interesu"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "če je obdelava nujna v namen zaščite legitimnih interesov Vodje obdelave, razen v primerih kadar mora imeti prednost zaščita Vprašanca, oziroma njegovih temeljnih pravic (npr. zaščita interesov otroka)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Način zbiranja osebnih podatkov Vprašanca"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osebni podatki Vprašanca se zbirajo na naslednje načine:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Neposredno s strani Vprašanca, ki mu Vodja obdelave nudi storitve v okviru svoje dejavnosti. Vprašanec lahko te informacije predloži: ustno, pisno ali preko spletne strani Vodje obdelave."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Z medicinsko in drugo dokumentacijo tretjih, ki jo Vprašanec predloži v uporabo Vodji obdelave."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Z medicinsko in drugo dokumentacijo Vprašanca, ki nastane v procesu nudenja storitev iz dejavnosti Vodje obdelave (npr. diagnostični material, evidenca medicinskih postopkov, zdravil, procesov itd.)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Z dokumentacijo tretjih, ki so vključeni v proces nudenja storitev Vprašancu (npr. rezultati laboratorijskih preiskav, dentalni odtisi laboratorijskih tehnikov itd.)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Posredovanje osebnih podatkov"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Osebni podatki Vprašanca se posredujejo tretjim osebam samo v namen:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "izpolnjevanja obvez predvidenih z zakonom"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "izvršitve posameznih poslov, za katere je Vodja obdelave angažiral tretjo osebo (npr. dentalni laboratorij, računovodska pisarna ipd.)"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Časovno trajanje in hranjenje osebnih podatkov"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Vodja obdelave bo osebne podatke Vprašanca hranil skladno s časovnimi roki predpisanimi z Zakonom,\n                                    če temu ni tako, pa samo do roka do katerega je njihova hramba poslovno upravičena. Izjemoma\n                                    se bodo osebni podatki hranili dlje od tega roka, če je njihova hramba pogoj za legitimno zaščito\n                                    interesov Vodje obdelave. Osebni podatki Vprašanca se brišejo z iztekom zakonskega roka,\n                                    ki obvezuje Vodjo obdelave za hranjenje posameznih osebnih podatkov ali s prenehanjem razloga za njihovo hrambo.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Pravice Vprašanca"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica dostopa do osebnih podatkov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Vodja obdelave se obvezuje, da bo na osnovi vložene pisne zahteve omogočil Vprašancu dostop do osebnih podatkov,\n                                            da ga bo informiral o namenu obdelave osebnih podatkov, o vrsti osebnih podatkov, ki se obdelujejo,\n                                            o prejemnikih ali kategorijah prejemnikov, katerim so osebni podatki odkriti ali jim bodo odkriti,\n                                            o predvidenem časovnem obdobju njihovega hranjenja ali o kriterijih, ki se koristijo za določitev tega obdobja.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica do popravka netočnih osebnih podatkov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Vodja obdelave je dolžan omogočiti Vprašancu popravek netočnih ali dopolnitev obstoječih osebnih podatkov.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica do brisanja osebnih podatkov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Vodja obdelave bo izvršil brisanje osebnih podatkov Vprašanca v naslednjih primerih:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ko osebni podatki Vprašanca niso več nujni za izpolnjevanje namena obdelave, oziroma s prenehanjem namena obdelave"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ko Vprašanec prekliče soglasje kot pravni temelj za obdelavo podatkov in ne obstaja druga zakonska podlaga za nadaljnjo obdelavo podatkov"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ko Vprašanec vloži upravičen ugovor na obdelavo podatkov"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "ko se morajo osebni podatki brisati zaradi izpolnitve zakonskih obvez"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica do omejitve obdelave podatkov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Vodja obdelave bo omejil obdelavo osebnih podatkov, v kolikor je izpolnjen eden od naslednjih pogojev:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Vprašanec izpodbija točnost osebnih podatkov"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "obdelava osebnih podatkov je nezakonita, toda Vprašanec ne želi izbrisa, temveč zgolj omejitev njihove obdelave"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Vodja obdelave več ne potrebuje osebnih podatkov, toda Vprašanec želi njihovo delno obdelavo v namen zaščite svojih interesov."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica do vložitve pritožbe"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            Vprašanec ima pravico do vložitve pritožbe na obdelavo svojih osebnih podatkov.\n                                            Vodja obdelave si pridržuje pravico, da takšni pritožbi ne ugodi, če obstaja upravičen,\n                                            legitimen interes za obdelavo osebnih podatkov Vprašanca.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica do prenosljivosti osebnih podatkov"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Vprašanec ima pravico zahtevati prenos osebnih podatkov drugemu Vodji obdelave v naslednjih primerih:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "če gre za podatke, ki jih je Vodja obdelave dobil na osnovi soglasja, ki se lahko prekliče,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "če je to pogodbeno urejeno,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "če se obdelava podatkov izvaja na avtomatiziran način."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Pravica do Zahteve za ugotovitev kršitve pravic"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Vprašanec ima pravico vložiti Zahtevo za ugotovitev kršitve pravic na Agencijo za zaščito osebnih podatkov."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Preklic soglasja"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Vprašanec lahko v vsakem trenutku prekliče soglasja za zbiranje in obdelavo osebnih podatkov, ki niso zajeta v tem Pravilniku."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Informacije in pritožbe"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Za vsa vprašanja in pritožbe povezane z zaščito osebnih podatkov s strani Vodje obdelave,\n                                    se lahko Vprašanec pisno obrne na Pooblaščenca za zaščito osebnih podatkov:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Pooblaščenec za zaščito osebnih podatkov"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Krešimirova 60, Rijeka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:dpo@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "dpo@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Vsa vprašanja in zahteve je Vodja obdelave dolžan obdelati brez nepotrebnega odlašanja\n                                    in skladno z zakonsko predpisanimi roki.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Spremembe in dopolnitve Pravilnika o ravnanju z osebnimi podatki"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Vodja obdelave si pridržuje pravico spremeniti in dopolniti ta Pravilnik v katerem koli trenutku\n                                    in brez kakršne koli predhodne najave.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Na Reki, 25.5.2018.\n                                "
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-23/si-politika-zasebnosti.html",
+      "url": "https://www.dentvitalis.com/si/politika-zasebnosti",
+      "sha256": "b99064dfca30c77ab7c31d0e79641496e2f1ee03a4ff74c0150ebe91c4ce9516",
+      "retrievedAt": "2026-09-23"
+    }
+  },
+  {
+    "route": "/si/pogoji-uporabe",
+    "title": "Pogoji uporabe",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "To besedilo določa pogoje uporabe spletnega mesta www.dentvitalis.com (v nadaljevanju: spletno mesto). Lastnik vsebine na spletnem mestu je Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Reka, Hrvaška. Če se ne strinjate z enim ali več določili v teh pogojih, prosimo, da spletno mesto zapustite in ga ne uporabljate več."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Vse zobozdravstvene storitve, objavljene na tem spletnem mestu v svojem imenu in za svoj račun nudi družba Dentvitalis Fides d.o.o. (v nadaljevanju: DVF)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "1. Vse informacije, ki se nanašajo na zobozdravstvene storitve, navedene na spletnem mestu, ter pripadajoče cene in roki njihove izvedbe, so izključno informativne narave in ne morejo nadomestiti načrta zdravljenja, ki se izroči vsakemu posameznemu pacientu po pregledu, ki ga opravi zdravnik v ordinacijah družbe DVF."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "2. Načrt zdravljenja in pripadajoča finančna ponudba, ki jo pacient prejme po e-pošti ali na drug način, sta izključno informativne narave ob upoštevanju, da sta pripravljena na podlagi nepopolnih podatkov, predvsem pa brez pregleda pacienta v ordinacijah DVF."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "3. Vsebina tega spletnega mesta je predmet spremembe brez predhodnega pisnega ali ustnega obvestila za uporabnike."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "4. Celotna vsebina spletnega mesta, vključno z oblikovanjem, je intelektualna lastnina družbe Dentvitalis Fides d.o.o., zato je kot takšne ne smete uporabljati brez predhodnega pisnega soglasja družbe."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "5. Vse morebitne povezave na druga spletna mesta so navedene izključno z namenom boljšega obveščanja uporabnikov in v dobri veri. Kakršna koli odgovornost družbe DVF za vsebino na teh spletnih mestih je izključena."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "strong",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Zavrnitev odgovornosti"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF zavrača vsako odgovornost za morebitno materialno in/ali nematerialno škodo, ki bi jo uporabniki lahko utrpeli zaradi uporabe tega spletnega mesta. Vsi podatki, informacije in povezave so posredovani v dobri veri in s ciljem boljšega informiranja uporabnikov."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF ne odgovarja za napake, ki so nastale pri izdelavi spletnega mesta in pri vnosu podatkov."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-23/si-pogoji-uporabe.html",
+      "url": "https://www.dentvitalis.com/si/pogoji-uporabe",
+      "sha256": "1f4e6619a9693a851e84a6e1b4c3d983cca1503cdd0adbd8b4efa29486692c37",
+      "retrievedAt": "2026-09-23"
+    }
+  }
+]

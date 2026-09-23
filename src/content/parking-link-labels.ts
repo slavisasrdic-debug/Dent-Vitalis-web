@@ -6,6 +6,7 @@ const parkingUrls = new Set([
   'https://share.google/TJtLAKAVtTdLcpCDF', // IT Webflow href
 ]);
 const labels = {
+  sl: 'Lokacija parkirišča',
   en: 'Parking location',
   de: 'Lage des Parkplatzes',
   hr: 'Lokacija parkirališta',

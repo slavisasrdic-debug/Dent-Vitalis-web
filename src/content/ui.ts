@@ -82,7 +82,15 @@ const de: typeof it = {
 export const homeHref = (lang: string) =>
   lang === 'it' ? '/' : `/${lang === 'sl' ? 'si' : lang}/`;
 export const ui = (lang: string) =>
-  lang === 'hr' ? hr : lang === 'de' ? de : lang === 'en' ? en : it;
+  lang === 'hr'
+    ? hr
+    : lang === 'de'
+      ? de
+      : lang === 'en'
+        ? en
+        : lang === 'sl'
+          ? sl
+          : it;
 const en: typeof it = {
   skip: 'Skip to content',
   nav: 'Main navigation',
@@ -108,5 +116,33 @@ const en: typeof it = {
   watchVideo: 'Watch video',
   rating: 'Google rating 4.9 out of 5 based on 152 reviews',
   stars: 'Five-star rating',
+  logo: 'DentVitalis',
+};
+
+const sl: typeof it = {
+  skip: 'Preskoči na vsebino',
+  nav: 'Glavna navigacija',
+  openMenu: 'Odpri meni',
+  closeMenu: 'Zapri meni',
+  language: 'Jezik',
+  missingTranslation: 'Prevod v tem predogledu ni na voljo',
+  closeRequest: 'Zapri povpraševanje',
+  closeChat: 'Zapri pogovor',
+  openChat: 'Odpri pogovor WhatsApp',
+  breadcrumb: 'Pot strani',
+  related: 'Druge storitve',
+  contact: 'Stiki',
+  hours: 'Delovni čas',
+  tollFree: 'Brezplačna številka',
+  socialUnavailable: 'Povezava ni navedena v viru',
+  carousel: 'vrtiljak',
+  slide: 'diapozitiv',
+  of: 'od',
+  previous: 'Prejšnja izkušnja pacienta',
+  next: 'Naslednja izkušnja pacienta',
+  showSlide: 'Prikaži izkušnjo pacienta',
+  watchVideo: 'Oglejte si video',
+  rating: 'Ocena Google 4,9 od 5 na podlagi 152 ocen',
+  stars: 'Ocena pet zvezdic',
   logo: 'DentVitalis',
 };

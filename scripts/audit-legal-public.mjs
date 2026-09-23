@@ -5,18 +5,22 @@ import { chromium } from 'playwright';
 // Read-only public-source intake. Existing snapshots are never overwritten.
 const german = process.argv.includes('--de');
 const english = process.argv.includes('--en');
-const retrievedAt = german || english ? '2026-09-23' : '2026-09-11';
+const slovenian = process.argv.includes('--sl');
+const retrievedAt =
+  german || english || slovenian ? '2026-09-23' : '2026-09-11';
 const directory = `reference/legal-public/${retrievedAt}`;
-const routes = english
-  ? ['/en/privacy-policy', '/en/terms-of-use']
-  : german
-    ? ['/de/datenschutzerklarung', '/de/nutzungsbedingungen']
-    : [
-        '/informativa-sulla-privacy',
-        '/hr/polica-privatnosti',
-        '/condizioni-di-utilizzo',
-        '/hr/uvjeti-koristenja',
-      ];
+const routes = slovenian
+  ? ['/si/politika-zasebnosti', '/si/pogoji-uporabe']
+  : english
+    ? ['/en/privacy-policy', '/en/terms-of-use']
+    : german
+      ? ['/de/datenschutzerklarung', '/de/nutzungsbedingungen']
+      : [
+          '/informativa-sulla-privacy',
+          '/hr/polica-privatnosti',
+          '/condizioni-di-utilizzo',
+          '/hr/uvjeti-koristenja',
+        ];
 mkdirSync(directory, { recursive: true });
 const browser = await chromium.launch();
 const page = await browser.newPage();
@@ -32,7 +36,7 @@ try {
     }
     const html = readFileSync(file, 'utf8');
     const data = await page.evaluate(
-      ({ html, route, german, english }) => {
+      ({ html, route, german, english, slovenian }) => {
         const doc = new DOMParser().parseFromString(html, 'text/html');
         const heading = [...doc.querySelectorAll('h1,h2')].find((e) =>
           e.closest('.dent_mdl'),
@@ -136,11 +140,13 @@ try {
               flush();
               // Public rights labels are bold paragraphs within list items.
               if (
-                (german || english) &&
+                (german || english || slovenian) &&
                 node.tagName === 'P' &&
-                ['Haftungsausschluss', 'Disclaimer'].includes(
-                  node.textContent.trim(),
-                ) &&
+                [
+                  'Haftungsausschluss',
+                  'Disclaimer',
+                  'Zavrnitev odgovornosti',
+                ].includes(node.textContent.trim()) &&
                 node.querySelector('strong')
               )
                 blocks.push({
@@ -175,7 +181,7 @@ try {
           blocks: blocksFrom(root),
         };
       },
-      { html, route, german, english },
+      { html, route, german, english, slovenian },
     );
     result.push({
       ...data,
@@ -194,10 +200,12 @@ try {
   await browser.close();
 }
 writeFileSync(
-  english
-    ? 'src/content/en/legal-public.json'
-    : german
-      ? 'src/content/de/legal-public.json'
-      : 'src/content/legal-public.json',
+  slovenian
+    ? 'src/content/sl/legal-public.json'
+    : english
+      ? 'src/content/en/legal-public.json'
+      : german
+        ? 'src/content/de/legal-public.json'
+        : 'src/content/legal-public.json',
   JSON.stringify(result, null, 2) + '\n',
 );

@@ -5,6 +5,8 @@ import { clinic, contactCopy as itContactCopy } from '../content/site';
 import { contactCopy as hrContactCopy } from '../content/hr/site';
 import * as it from '../content/home';
 import * as hr from '../content/hr/home';
+import * as sl from '../content/sl/home';
+import { contactCopy as slContactCopy } from '../content/sl/site';
 import * as en from '../content/en/home';
 import { contactCopy as enContactCopy } from '../content/en/site';
 import * as de from '../content/de/home';
@@ -22,11 +24,19 @@ import ContactSection from '../components/ContactSection.astro';
 import VideoPosterPreload from '../components/VideoPosterPreload.astro';
 import { heroVideos } from '../content/background-videos';
 interface Props {
-  lang?: 'it' | 'hr' | 'de' | 'en';
+  lang?: 'it' | 'hr' | 'de' | 'en' | 'sl';
 }
 const { lang = 'it' } = Astro.props;
 const { home, services, aboutCards, welcome, testimonials, informationCards } =
-  lang === 'hr' ? hr : lang === 'de' ? de : lang === 'en' ? en : it;
+  lang === 'hr'
+    ? hr
+    : lang === 'de'
+      ? de
+      : lang === 'en'
+        ? en
+        : lang === 'sl'
+          ? sl
+          : it;
 const questions =
   lang === 'hr'
     ? hr.homeQuestions
@@ -34,7 +44,9 @@ const questions =
       ? de.homeQuestions
       : lang === 'en'
         ? en.homeQuestions
-        : itQuestions;
+        : lang === 'sl'
+          ? sl.homeQuestions
+          : itQuestions;
 const contactCopy =
   lang === 'hr'
     ? hrContactCopy
@@ -42,10 +54,19 @@ const contactCopy =
       ? deContactCopy
       : lang === 'en'
         ? enContactCopy
-        : itContactCopy;
+        : lang === 'sl'
+          ? slContactCopy
+          : itContactCopy;
 const seoQuestions =
   lang !== 'it'
-    ? (lang === 'de' ? de : lang === 'en' ? en : hr).homeQuestions.map((q) => ({
+    ? (lang === 'de'
+        ? de
+        : lang === 'en'
+          ? en
+          : lang === 'sl'
+            ? sl
+            : hr
+      ).homeQuestions.map((q) => ({
         question: q.question,
         answer: plain(q.richAnswer),
       }))
@@ -58,7 +79,7 @@ const seoQuestions =
 <SiteLayout
   {...home.metadata}
   lang={lang}
-  canonical={`https://www.dentvitalis.com${lang === 'it' ? '/' : `/${lang}/`}`}
+  canonical={`https://www.dentvitalis.com${lang === 'it' ? '/' : `/${lang === 'sl' ? 'si' : lang}/`}`}
   seo={{ questions: seoQuestions }}
 >
   <Fragment slot="head">
@@ -83,7 +104,9 @@ const seoQuestions =
         ? 'Dienstleistungen'
         : lang === 'en'
           ? 'Services'
-          : 'Prestazioni'}
+          : lang === 'sl'
+            ? 'Storitve'
+            : 'Prestazioni'}
   />
   <Welcome content={welcome} />
   <section>

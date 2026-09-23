@@ -11,7 +11,9 @@ const copy =
         ? 'de'
         : Astro.props.lang === 'en'
           ? 'en'
-          : 'it'
+          : Astro.props.lang === 'sl'
+            ? 'sl'
+            : 'it'
   ];
 ---
 

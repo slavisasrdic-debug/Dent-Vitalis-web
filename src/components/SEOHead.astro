@@ -32,7 +32,9 @@ if (!image.alt)
         ? 'Lächelnde Frau — DentVitalis'
         : lang === 'en'
           ? 'Smiling woman — DentVitalis'
-          : 'Donna sorridente — DentVitalis';
+          : lang === 'sl'
+            ? 'Nasmejana ženska — DentVitalis'
+            : 'Donna sorridente — DentVitalis';
 const ogLocale = (language: string) =>
   ({ it: 'it_IT', hr: 'hr_HR', de: 'de_DE', en: 'en_GB', sl: 'sl_SI' })[
     language

@@ -28,6 +28,10 @@ export function replaceItalianPaymentCode(page: InnerPage): InnerPage {
 }
 
 export const paymentCopy = {
+  sl: {
+    title: 'Koda za plačilo z bančnim nakazilom',
+    instruction: 'Za plačilo z bančnim nakazilom uporabite naslednjo kodo.',
+  },
   en: {
     title: 'Payment code for bank transfer',
     instruction: 'Use the following code to pay by bank transfer.',

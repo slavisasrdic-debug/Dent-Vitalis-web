@@ -124,7 +124,7 @@ test('all 27 German pages retain source paragraphs, local destinations and HR co
     expect(data.h1, path).toBe(1);
     expect(data.phone, path).toBe(true);
     expect(data.privacy, path).toBe(route('privacy'));
-    expect(data.switches, path).toEqual(['it', 'hr', 'de', 'en']);
+    expect(data.switches, path).toEqual(['it', 'hr', 'de', 'en', 'sl']);
     expect(data.nav, path).toContain('Galerie');
     expect(data.nav, path).toContain('FAQ');
     expect(data.nav, path).not.toMatch(

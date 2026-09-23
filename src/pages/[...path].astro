@@ -14,7 +14,9 @@ import { contactCopy as deContactCopy } from '../content/de/site';
 import { equivalentLanguages } from '../content/hr/routes';
 import { flatten, plain, type PageSEO } from '../content/seo';
 import { referenceBusiness } from '../../data/site';
-import { localizedPages } from '../content/localized-pages';
+import { slovenianLegalPages } from '../content/sl/legal';
+import { innerPagesSl } from '../content/sl/inner';
+import { contactCopy as slContactCopy } from '../content/sl/site';
 import { englishLegalPages } from '../content/en/legal';
 import { innerPagesEn } from '../content/en/inner';
 import { contactCopy as enContactCopy } from '../content/en/site';
@@ -26,7 +28,8 @@ export async function getStaticPaths() {
     ...innerPagesDe,
     ...englishLegalPages,
     ...innerPagesEn,
-    ...(await localizedPages('sl')),
+    ...slovenianLegalPages,
+    ...innerPagesSl,
   ];
   return [...innerPages, ...innerPagesHr, ...translated].map((page) => ({
     params: { path: page.route.slice(1) },
@@ -147,7 +150,9 @@ if (referenceRoute.startsWith('/prestazioni/')) {
         ? deContactCopy
         : page.lang === 'en'
           ? enContactCopy
-          : contactCopy}
+          : page.lang === 'sl'
+            ? slContactCopy
+            : contactCopy}
     lang={page.lang}
   />
 </SiteLayout>

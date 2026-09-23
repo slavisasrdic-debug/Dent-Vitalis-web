@@ -132,7 +132,7 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
       'en',
       canonicalUrl(enRoute(route.id)),
     ]);
-    expect(data.alternates).toHaveLength(germanRoute ? 5 : 4);
+    expect(data.alternates).toHaveLength(germanRoute ? 6 : 5);
     expect(data.ogTitle).toBe(data.title);
     expect(data.ogDescription).toBe(data.description);
     expect(data.description!.length).toBeGreaterThan(15);

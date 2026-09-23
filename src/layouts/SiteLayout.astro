@@ -9,6 +9,7 @@ import Favicon from '../components/Favicon.astro';
 import FontStyles from '../components/FontStyles.astro';
 import type { PageSEO } from '../content/seo';
 import * as hr from '../content/hr/site';
+import * as sl from '../content/sl/site';
 import * as en from '../content/en/site';
 import * as de from '../content/de/site';
 import { equivalentLanguages } from '../content/hr/routes';
@@ -46,7 +47,9 @@ const localized =
       ? de
       : lang === 'en'
         ? en
-        : { clinic, chatCopy, navigation, navigationLinks, footerGroups };
+        : lang === 'sl'
+          ? sl
+          : { clinic, chatCopy, navigation, navigationLinks, footerGroups };
 const copy = ui(lang);
 ---
 

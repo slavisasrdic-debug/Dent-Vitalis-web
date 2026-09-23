@@ -25,7 +25,9 @@ const contactHref =
       ? '#contatti'
       : lang === 'en'
         ? '/en/contact'
-        : '/contatti';
+        : lang === 'sl'
+          ? '/si/contact'
+          : '/contatti';
 const socials = [
   ['twitter', '62434fa732124ac15112aad5_twitter small.svg'],
   ['linkedin', '62434fa732124a389912aad8_linkedin small.svg'],

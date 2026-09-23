@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
-import { englishPageIds, route } from '../src/content/en/routes';
-import { route as slRoute } from '../src/content/sl/routes';
+import { slovenianPageIds, route } from '../src/content/sl/routes';
+import { route as enRoute } from '../src/content/en/routes';
 import { route as deRoute } from '../src/content/de/routes';
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const pairs = readFileSync('data/hr-routes.proposed.csv', 'utf8')
@@ -9,14 +9,14 @@ const pairs = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .split('\n')
   .slice(1)
   .map((l) => l.split(','));
-test('English destinations and all five reciprocal language pairs', async ({
+test('Slovenian destinations and all five reciprocal language pairs', async ({
   page,
   request,
 }) => {
   test.setTimeout(120000);
-  for (const id of englishPageIds) {
+  for (const id of slovenianPageIds) {
     const pair = pairs.find((p) => p[0] === id)!;
-    const paths = [pair[1]!, pair[2]!, deRoute(id), route(id), slRoute(id)];
+    const paths = [pair[1]!, pair[2]!, deRoute(id), enRoute(id), route(id)];
     for (const [i, path] of paths.entries()) {
       const response = await request.get(origin + path);
       expect(response.status()).toBe(200);
@@ -40,20 +40,20 @@ test('English destinations and all five reciprocal language pairs', async ({
       expect(links.switches).toEqual(
         ['it', 'hr', 'de', 'en', 'sl'].map((lang, i) => [lang, paths[i]]),
       );
-      if (i === 3) {
-        expect(links.nav.every((h) => h?.startsWith('/en/'))).toBe(true);
-        expect(links.locale).toBe('en_GB');
+      if (i === 4) {
+        expect(links.nav.every((h) => h?.startsWith('/si/'))).toBe(true);
+        expect(links.locale).toBe('sl_SI');
       }
     }
   }
 });
 for (const width of [390, 1440])
-  test(`English actual language switching and modal labels ${width}`, async ({
+  test(`Slovenian actual language switching and modal labels ${width}`, async ({
     page,
   }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.emulateMedia({ reducedMotion: 'reduce' });
-    await page.goto(origin + '/en/first-visit/');
+    await page.goto(origin + '/si/first-visit/');
     await page.evaluate(() => document.fonts.ready);
     const brand = await page.locator('.brand').evaluate((e) => {
       const span = e.querySelector('span')!;
@@ -73,8 +73,8 @@ for (const width of [390, 1440])
       ['hr', pair[2]],
       ['it', pair[1]],
       ['de', deRoute('first-visit')],
-      ['sl', slRoute('first-visit')],
-      ['en', route('first-visit')],
+      ['en', enRoute('first-visit')],
+      ['sl', route('first-visit')],
     ]) {
       const chooser = page.locator(
         `[data-language].${width < 1200 ? 'mobile' : 'desktop'}`,
@@ -97,7 +97,7 @@ for (const width of [390, 1440])
     await expect(dialog).toBeVisible();
     await expect(dialog.locator('input[type=tel]')).toHaveAttribute(
       'placeholder',
-      '*Phone:',
+      '*Telefon:',
     );
     await expect(dialog.locator('input[type=tel]')).toHaveAttribute(
       'required',
@@ -105,13 +105,15 @@ for (const width of [390, 1440])
     );
     await expect(dialog.locator('.consent a')).toHaveAttribute(
       'href',
-      '/en/privacy-policy',
+      '/si/politika-zasebnosti',
     );
     await page.keyboard.press('Escape');
     await expect(dialog).toHaveCount(0);
     await page.locator('.chat-toggle').click();
     await expect(page.locator('.chat-panel')).toContainText(
-      'How can we help you?',
+      'Kako vam lahko pomagamo?',
     );
-    await page.getByRole('button', { name: 'Close chat', exact: true }).click();
+    await page
+      .getByRole('button', { name: 'Zapri pogovor', exact: true })
+      .click();
   });
