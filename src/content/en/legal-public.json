@@ -1,0 +1,1583 @@
+[
+  {
+    "route": "/en/privacy-policy",
+    "title": "Privacy Policy",
+    "blocks": [
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "What will we use your information for?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "If necessary, we collect the information specified in the inquiry form (name and surname, e-mail, phone number, etc.). Otherwise, you may use our website anonymously."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "What information do we collect?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "We may use your personal and non-personal information in one of the following ways:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "For the purpose of personalised communication, i.e. providing information in accordance with your actual needs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "For the purpose of improving this website."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "For the purpose of better understanding the needs of potential patients and website users."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "For sending occasional e-mails informing you about benefits and new services."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Note: if at any time you wish to unsubscribe from receiving future e-mails, you may do so in accordance with the instructions at the bottom of each e-mail."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "How do we protect your personal information?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "We implement a range of security measures to maintain the confidentiality of your personal data at all times: when you access the website, when you send us an inquiry using the web form or when sending an e-mail."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "What do we use cookies for?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Cookies are small files that we transfer to your computer's hard drive through your web browser (if you allow this), which enable us to recognise users and remember certain information related to them."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Thanks to this information, we may in the future offer higher-quality and more precise information about our services. For the purpose of analysing this data, we may engage a third party to assist us. In doing so, at no time does the third party acquire the right to use the data for any purpose other than the one previously stated, nor is it authorised to disclose such data to third parties."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "If you wish, you may choose an option on your computer that informs you each time a cookie is sent, or you may choose to completely disable all cookies."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Who can use my personal data?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Your personal data will never become the subject of sale and will not be transferred, with or without compensation, to a third party for the purpose of commercial exploitation."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Non-personal data collected during an anonymous visit to this website may be provided to a third party for the purpose of improving promotion and marketing."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Independent links"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Occasionally, at our discretion, we may place links to third-party websites on this website. Please note that those websites have separate and independent privacy policies. Therefore, we have no responsibility for the content and your activities on those websites. Since it is in our interest to protect the integrity of our website, any feedback regarding those websites is welcome."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Children's Online Privacy Protection Act Compliance"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "This Privacy Policy document on online privacy protection applies only to data collected through our website, and not to data collected in any other way."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Terms"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "Please see the "
+          },
+          {
+            "kind": "link",
+            "href": "/en/terms-of-use",
+            "children": [
+              {
+                "kind": "text",
+                "text": "terms of use"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": " of our website."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Your consent"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "By using our website, you agree to this Privacy Policy."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Changes to the Privacy Policy"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "If, for any reason, we change the terms of this Policy, the changes will be published on this page."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "If you have any questions regarding this Privacy Policy, you may contact us in writing or orally at:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "link",
+            "href": "/en",
+            "children": [
+              {
+                "kind": "text",
+                "text": "www.dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Krešimirova 60"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Rijeka, 51000"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            Croatia"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:info@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "info@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          },
+          {
+            "kind": "link",
+            "href": "tel:0038550371064",
+            "children": [
+              {
+                "kind": "text",
+                "text": "+38551371064"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                            "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Rules on the handling of personal data"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. (Ltd) with headquarters in Rijeka, Krešimirova 60,\n                                    Croatia, OIB (PIN) 39977041464 (hereinafter: Processor), subject to application of\n                                "
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Regulation (EU) 2016/679 of the European Parliament and of the European Council as of 27th April 2016 (hereinafter: General Regulation) and"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "the provisions of all other applicable regulations governing the protection of personal data"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    under these Rules regulates the protection of the personal data of individuals\n                                    (natural persons) to whom it provides information and/or services in the frame of its activity.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Introductory regulations"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The Rules on the handling of personal data is a unilaterally binding legal act based on the basic principles of the General Regulation and all other regulations applicable to the protection of the personal data of natural persons."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "A Data subject is a natural person whose data is collected in accordance with these Rules."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Personal data is any information relating to an individual whose identity is identified or identifiable."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The Processing of personal data is any procedure or set of procedures in which personal data is used."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Principles of collection, processing and storage of personal data"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The data subject's personal data is processed lawfully, fairly and transparently. Only data relevant to the provision of information and services within the activities of the Processor is collected and processed."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "If the Data subject agrees, the Processor is willing to collect other personal data that would be used solely for the purpose of the better future healthcare of the Data subject."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Personal data is collected and stored in such a way as to protect it from theft, unauthorised use, loss, destruction or damage."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        Personal data is collected, processed and stored exclusively in accordance with:\n                                        "
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "regulations on records in the field of health and other applicable legal regulations relating to specific type of data, and"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "business-justified needs, that is, needs conditioned by the process of providing services from the activities of the Processor."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The data subject provides personal data solely on a voluntary basis. In doing so, the Processor reserves the right to refuse service to any Data subject who does not provide personal data that is necessary for the quality and safe provision of the service."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "The purpose of collection and processing of personal data"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "The Data subject's personal data is only collected and processed if at least one of the following conditions is met:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "if the processing of personal data is necessary for the provision of services within the activities of the Processor,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "if there is a legal obligation to process it,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "if there is a need to protect the key interests of the Data subject or other natural person,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "if processing is necessary for the performance of a public interest task,"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "if processing is necessary for the protection of the legitimate interests of the Processor, except in cases where the protection of the Data subject, or his fundamental rights, should be given priority (eg. protection of the interests of the child)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Method of collecting Data subject's personal data"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "The Data subject's personal data is collected in the following ways:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Directly by the Data subject to whom the Processor provides services within his business activity. The Data subject may provide this information either orally, in writing, or through the Processor's website."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Through medical and other documentation of third parties made available by the Data subject to the Processor."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Through the medical and other documentation of the Data subject, which arises in the process of providing services from the activities of the Processor (e.g. diagnostic material, records of medical procedures, medications, processes, etc.)."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "Through the documentation from third parties involved in the process of providing services to the Data subject (e.g. laboratory test results, dental technician's dental scans, etc.)."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Transfer of personal data"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "The Data subject's personal data is only transferred to third parties for the purpose of:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "fulfilment of obligations provided by law"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "execution of certain tasks for which the Processor has hired a third party (e.g. dental laboratory, accounting office, etc.)"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "The duration and storage of personal data"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    The Processor will keep the Data subject's personal data in accordance with the time limits prescribed by the Law,\n                                    and if this is not the case, then only until such time when their storage is commercially justified. Exceptionally,\n                                    personal data will be retained for longer than the said period if its storage is a condition for the legitimate\n                                    protection of the interests of the Processor. The personal data of the Data subject will be deleted after the expiry\n                                    of the legal period obliging the Processor to keep certain personal data or cease the purpose of keeping them.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "The rights of the Data subject"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "listStyle": "lower-alpha",
+        "items": [
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Right to access personal data"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            The Processor is obliged, on the basis of a written request, to allow the Data subject access to any personal data,\n                                            to inform him/her about the purpose of processing personal data, about the type of personal data being processed,\n                                            about the recipients or categories of recipients to whom the personal data has been disclosed or will be disclosed,\n                                            about the estimated timeframe for its storage, or about the criteria used to determine that period.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The right to correct inaccurate personal data"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            The Processor is obliged to allow the Data subject to correct inaccurate or to supplement existing personal data.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The right to delete personal data"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The Processor will delete the Data subject's personal data in the following cases:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "when the Data subject's personal data is no longer necessary for the fulfilment of the purpose of processing, that is, with the termination of the purpose of processing,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "when the Data subject withdraws his/her consent as the legal basis for data processing, and there is no other legal basis for further processing of such data,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "when the Data subject files a justified objection to data processing,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "when personal data must be deleted in order to fulfil legal obligations."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The right to restrict data processing"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The Processor will restrict the processing of personal data if one of the following conditions is met:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "Data subject disputes the accuracy of personal data,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "the processing of personal data is illegal, but the Data subject does not seek deletion, only restriction of its processing,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "The Processor no longer needs personal data, but the Data subject requests its partial processing to protect his/her interests."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The right to lodge a complaint"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                            The data subject has the right to lodge a complaint about the processing of his/her personal data.\n                                            The Processor reserves the right to disregard such a complaint if there is a justified legitimate\n                                            interest in processing the personal data of the Data subject.\n                                        "
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The right to data portability"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The data subject has the right to request the transfer of personal data to another Processor in the following cases:"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "in the case of data obtained by the Processor on the basis of a revocable consent,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "if so agreed,"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "paragraph",
+                    "variant": "body",
+                    "content": [
+                      {
+                        "kind": "text",
+                        "text": "if the data processing is carried out automatically."
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "The right to Request the determination of violation of rights"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The data subject has the right to file a Request for determination of violation of rights to the Personal Data Protection Agency."
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "heading",
+              "variant": "subsection",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                },
+                {
+                  "kind": "strong",
+                  "children": [
+                    {
+                      "kind": "text",
+                      "text": "Revocation of consent"
+                    }
+                  ]
+                },
+                {
+                  "kind": "text",
+                  "text": "\n                                        "
+                }
+              ],
+              "rank": 4,
+              "flush": false
+            },
+            {
+              "type": "paragraph",
+              "variant": "body",
+              "content": [
+                {
+                  "kind": "text",
+                  "text": "The Data subject may, at any time, withdraw his consent for the collection and processing of personal data not covered by this Rules."
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Information and objections"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    For any questions or complaints with regard to the protection of personal data by the Processor,\n                                    the Data subject may contact the Data Protection Officer in writing:\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Data Protection Officer"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o. (Ltd)"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Krešimirova 60, Rijeka"
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    "
+          },
+          {
+            "kind": "link",
+            "href": "mailto:dpo@dentvitalis.com",
+            "children": [
+              {
+                "kind": "text",
+                "text": "dpo@dentvitalis.com"
+              }
+            ]
+          },
+          {
+            "kind": "text",
+            "text": "\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    All inquiries and requests will be processed by the Processor without undue delay\n                                    and in accordance with the statutory deadlines.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 3,
+        "variant": "subsection",
+        "flush": false,
+        "content": [
+          {
+            "kind": "text",
+            "text": "Amendments to the Rules on handling personal data"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    The Processor retains the right to amend these Rules at any time and without any prior notice.\n                                "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "\n                                    Dentvitalis Fides d.o.o."
+          },
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "\n                                    Rijeka, 25.05.2018.\n                                "
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-23/en-privacy-policy.html",
+      "url": "https://www.dentvitalis.com/en/privacy-policy",
+      "sha256": "af6ed857f1b978f2356f696d14188689cabc7dabe6bc673e6da7f93f256ad9cb",
+      "retrievedAt": "2026-09-23"
+    }
+  },
+  {
+    "route": "/en/terms-of-use",
+    "title": "Terms of Use",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "These Terms of Use define the terms governing the use of the website www.dentvitalis.com (hereinafter: the “Website”). The owner of the content on the Website is Dentvitalis Fides d.o.o. Krešimirova 60, 51000 Rijeka, Croatia. If you do not agree with one or more provisions of these Terms, please leave the Website and refrain from using it further."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "break"
+          },
+          {
+            "kind": "text",
+            "text": "All dental services published on this Website are provided by Dentvitalis Fides d.o.o. (hereinafter: “DVF”) in its own name and for its own account."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "1. All information relating to the dental services listed on the Website, including the relevant prices and treatment timeframes, is provided for informational purposes only and may not replace the treatment plan that is issued to each individual patient following an examination by a dentist at the DVF clinic."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "2. Any treatment plan and corresponding financial offer sent to a patient by email or by any other means are provided for information purposes only, as they are prepared on the basis of incomplete information, and, in particular, without an examination of the patient at the DVF clinic."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "3. The content of this Website is subject to change without prior written or oral notice to users."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "4. All content on the Website, including its design, is the intellectual property of Dentvitalis Fides d.o.o. and may not be used without its prior written consent."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "5. Any links to other websites are provided in good faith and solely for the purpose of offering users additional information. DVF accepts no responsibility for the content of such websites."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "rank": 2,
+        "variant": "section",
+        "flush": false,
+        "content": [
+          {
+            "kind": "strong",
+            "children": [
+              {
+                "kind": "text",
+                "text": "Disclaimer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF disclaims liability for any material and/or non-material loss or damage that users may incur through the use of this Website. All data, information and links are provided in good faith and with the aim of informing users as clearly as possible."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "variant": "body",
+        "content": [
+          {
+            "kind": "text",
+            "text": "DVF is not liable for any errors that may have occurred during the creation of the Website or the entry of data."
+          }
+        ]
+      }
+    ],
+    "source": {
+      "file": "reference/legal-public/2026-09-23/en-terms-of-use.html",
+      "url": "https://www.dentvitalis.com/en/terms-of-use",
+      "sha256": "5b4cba6f28aea49c6163be9ae89afb3e68dcb749177fcea0b918060c588aefbf",
+      "retrievedAt": "2026-09-23"
+    }
+  }
+]

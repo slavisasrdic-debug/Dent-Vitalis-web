@@ -19,7 +19,13 @@ interface Props {
 const { business, groups: sections, lang = 'it' } = Astro.props;
 const copy = ui(lang);
 const contactHref =
-  lang === 'hr' ? '/hr/kontakt' : lang === 'de' ? '#contatti' : '/contatti';
+  lang === 'hr'
+    ? '/hr/kontakt'
+    : lang === 'de'
+      ? '#contatti'
+      : lang === 'en'
+        ? '/en/contact'
+        : '/contatti';
 const socials = [
   ['twitter', '62434fa732124ac15112aad5_twitter small.svg'],
   ['linkedin', '62434fa732124a389912aad8_linkedin small.svg'],

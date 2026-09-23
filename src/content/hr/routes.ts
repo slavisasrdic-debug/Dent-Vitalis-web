@@ -1,5 +1,6 @@
 import proposal from '../../../data/hr-routes.proposed.csv?raw';
 import { languages, type LanguageLink } from '../site';
+import { englishPageIds, route as enRoute } from '../en/routes';
 import { germanPageIds, route as deRoute } from '../de/routes';
 
 const [header, ...lines] = proposal.trim().split('\n');
@@ -33,9 +34,12 @@ export function equivalentLanguages(path: string): LanguageLink[] {
   const normalize = (value: string) => value.replace(/\/$/, '') || '/';
   const currentPath = normalize(path);
   // Only registered, reviewed destinations may be offered as translations.
-  // EN/SL adapters are still drafts; matching a suffix is not proof of readiness.
+  // SL remains a draft; matching a suffix is not proof of readiness.
   const germanId = germanPageIds.find(
     (id) => normalize(deRoute(id)) === currentPath,
+  );
+  const englishId = englishPageIds.find(
+    (id) => normalize(enRoute(id)) === currentPath,
   );
   const pair = routeDecisions.find(
     (r) =>
@@ -43,6 +47,7 @@ export function equivalentLanguages(path: string): LanguageLink[] {
       (r.status === 'approved' &&
         normalize(r.proposed_hr_path) === currentPath) ||
       r.page_id === germanId ||
+      r.page_id === englishId ||
       (currentPath === '/de' && r.page_id === 'home'),
   );
   const germanEquivalent =
@@ -57,7 +62,11 @@ export function equivalentLanguages(path: string): LanguageLink[] {
           ? (pair?.proposed_hr_path ?? '')
           : language.lang === 'de'
             ? germanEquivalent
-            : '';
+            : language.lang === 'en' &&
+                pair &&
+                englishPageIds.some((id) => id === pair.page_id)
+              ? enRoute(pair.page_id)
+              : '';
     return { ...language, href, available: !!href };
   });
 }

@@ -1,5 +1,6 @@
 ---
 import { clinic } from '../content/site';
+import { clinic as englishClinic } from '../content/en/site';
 import { clinic as germanClinic } from '../content/de/site';
 interface Props {
   src: string;
@@ -7,7 +8,11 @@ interface Props {
 }
 const { src } = Astro.props;
 const address =
-  Astro.props.lang === 'de' ? germanClinic.address : clinic.address;
+  Astro.props.lang === 'de'
+    ? germanClinic.address
+    : Astro.props.lang === 'en'
+      ? englishClinic.address
+      : clinic.address;
 ---
 
 <div class="map-panel">

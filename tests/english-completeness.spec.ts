@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
-import { germanPageIds, route } from '../src/content/de/routes';
+import { englishPageIds, route } from '../src/content/en/routes';
 
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const source = JSON.parse(
-  readFileSync('data/translations/de-source.json', 'utf8'),
-) as typeof import('../data/translations/de-source.json');
+  readFileSync('data/translations/en-source.json', 'utf8'),
+) as typeof import('../data/translations/en-source.json');
 const tables: Record<string, string[]> = {
   home: ['t1'],
   'four-implant-denture': ['t2'],
@@ -34,13 +34,13 @@ const normalize = (text: string) =>
   text.replace(/\u200d/g, '').replace(/[\s\u200b•–—-]/g, '');
 const overrides: Record<string, string> = {
   't3.r0.c0.p2':
-    'Festsitzende implantatgetragene Brücke – unabhängig von der Anzahl der Implantate',
-  't5.r0.c0.p10': 'Zahnkronen bereits ab 220 €',
-  't15.r3.c0.p11': 'SWIFT: ESBCHR22',
+    'Implant-supported fixed bridge – regardless of the number of implants required',
+  't5.r0.c0.p10': 'Dental crowns – from €220',
+  't15.r3.c0.p12': 'SWIFT: ESBCHR22',
 };
 const htmlCache = new Map<string, string>();
 
-test('German compound headings stay within their text columns', async ({
+test('English compound headings stay within their text columns', async ({
   page,
 }) => {
   test.setTimeout(90000);
@@ -81,14 +81,14 @@ test('German compound headings stay within their text columns', async ({
   }
 });
 
-test('all 27 German pages retain source paragraphs, local destinations and HR component inventory', async ({
+test('all 27 English pages retain source paragraphs, local destinations and HR component inventory', async ({
   page,
   request,
 }) => {
   test.setTimeout(180000);
   const missing: string[] = [];
   const paths = new Set<string>();
-  for (const id of germanPageIds) {
+  for (const id of englishPageIds) {
     const path = route(id);
     const response = await request.get(origin + path);
     expect(response.status(), path).toBe(200);
@@ -120,12 +120,12 @@ test('all 27 German pages retain source paragraphs, local destinations and HR co
         privacy: d.querySelector('.consent a')?.getAttribute('href'),
       };
     }, html);
-    expect(data.lang, path).toBe('de');
+    expect(data.lang, path).toBe('en');
     expect(data.h1, path).toBe(1);
     expect(data.phone, path).toBe(true);
     expect(data.privacy, path).toBe(route('privacy'));
     expect(data.switches, path).toEqual(['it', 'hr', 'de', 'en']);
-    expect(data.nav, path).toContain('Galerie');
+    expect(data.nav, path).toContain('Gallery');
     expect(data.nav, path).toContain('FAQ');
     expect(data.nav, path).not.toMatch(
       /Prestazioni|Informazioni|Contatti|Su di noi/,
@@ -155,6 +155,19 @@ test('all 27 German pages retain source paragraphs, local destinations and HR co
     }
     if (id === 'gallery') expect(data.comparisons).toBe(15);
     if (id === 'testimonials') expect(data.videos).toBe(13);
+    if (id === 'testimonials') {
+      // The 21 post-treatment reviews are standalone DOCX paragraphs, not t19.
+      for (const paragraph of source.blocks.filter(
+        (b) =>
+          b.type === 'paragraph' &&
+          Number(b.id.slice(1)) >= 117 &&
+          Number(b.id.slice(1)) <= 210,
+      ))
+        if (paragraph.text?.trim())
+          expect(normalize(data.text), paragraph.id).toContain(
+            normalize(paragraph.text),
+          );
+    }
     for (const href of data.links) {
       if (href.startsWith('/') || href.startsWith('#'))
         paths.add(new URL(href, origin + path).href);
@@ -172,10 +185,10 @@ test('all 27 German pages retain source paragraphs, local destinations and HR co
         }
         if (p.id === 't1.r0.c0.p2') {
           expect(normalize(data.text)).toContain(
-            normalize('Festpreis von 4.990 €'),
+            normalize('Fixed price: €4,990'),
           );
           expect(data.text).toContain(
-            'unabhängig von der Anzahl der Implantate',
+            'regardless of the number of implants required',
           );
           continue;
         }
@@ -205,7 +218,7 @@ test('all 27 German pages retain source paragraphs, local destinations and HR co
 });
 
 for (const width of [390, 1440])
-  test(`German rendered completeness and interactions ${width}`, async ({
+  test(`English rendered completeness and interactions ${width}`, async ({
     page,
   }) => {
     test.setTimeout(240000);
@@ -213,7 +226,7 @@ for (const width of [390, 1440])
     await page.emulateMedia({ reducedMotion: 'reduce' });
     const errors: string[] = [];
     page.on('pageerror', (e) => errors.push(e.message));
-    for (const id of germanPageIds) {
+    for (const id of englishPageIds) {
       const response = await page.goto(origin + route(id));
       expect(response?.status(), id).toBe(200);
       await page.evaluate(() => document.fonts.ready);
@@ -246,11 +259,13 @@ for (const width of [390, 1440])
           'gallery',
           'payment',
           'contact',
-          'datenschutzerklarung',
+          'privacy-policy',
           'privacy',
         ].includes(id)
       )
-        await page.screenshot({ path: `/tmp/dv-complete-${id}-${width}.png` });
+        await page.screenshot({
+          path: `/tmp/dv-en-complete-${id}-${width}.png`,
+        });
       const broken = await page
         .locator('main img[loading=eager]')
         .evaluateAll(async (imgs) => {
@@ -265,7 +280,7 @@ for (const width of [390, 1440])
         });
       expect(broken, id).toEqual([]);
     }
-    await page.goto(origin + '/de/');
+    await page.goto(origin + '/en/');
     if (width < 1200) await page.locator('.menu-toggle').click();
     const group = page.locator('[data-nav-dropdown]').first();
     if (width >= 1200) {
@@ -276,7 +291,7 @@ for (const width of [390, 1440])
       await expect(group).toHaveAttribute('open', '');
     }
     await group.locator('summary > a').click();
-    await expect(page).toHaveURL(/\/de\/services\/?$/);
+    await expect(page).toHaveURL(/\/en\/services\/?$/);
     await expect(page.locator('.menu-toggle')).toHaveAttribute(
       'aria-expanded',
       'false',
@@ -284,18 +299,18 @@ for (const width of [390, 1440])
     expect(
       await page.evaluate(() => getComputedStyle(document.body).overflow),
     ).not.toBe('hidden');
-    await page.goto(origin + '/de/faq');
+    await page.goto(origin + '/en/faq');
     const faq = page.locator('main details').first();
     await faq.locator('summary').click();
     await expect(faq).toHaveAttribute('open', '');
-    await page.goto(origin + '/de/gallery');
+    await page.goto(origin + '/en/gallery');
     const comparison = page.locator('[data-comparison]').first();
     await expect(comparison).toBeVisible();
     const slider = comparison.locator('input[type=range]');
     await slider.focus();
     await slider.press('End');
     await expect(slider).toHaveValue('100');
-    await page.goto(origin + '/de/contact');
+    await page.goto(origin + '/en/contact');
     await page
       .locator(
         width < 992
@@ -306,6 +321,6 @@ for (const width of [390, 1440])
     await expect(page.locator('dialog[open]')).toBeVisible();
     const phone = page.locator('dialog input[type=tel]');
     await expect(phone).toHaveAttribute('required', '');
-    await expect(phone).toHaveAttribute('placeholder', '*Telefon:');
+    await expect(phone).toHaveAttribute('placeholder', '*Phone:');
     expect(errors).toEqual([]);
   });

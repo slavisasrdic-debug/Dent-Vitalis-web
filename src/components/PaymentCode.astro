@@ -5,7 +5,13 @@ interface Props {
 }
 const copy =
   paymentCopy[
-    Astro.props.lang === 'hr' ? 'hr' : Astro.props.lang === 'de' ? 'de' : 'it'
+    Astro.props.lang === 'hr'
+      ? 'hr'
+      : Astro.props.lang === 'de'
+        ? 'de'
+        : Astro.props.lang === 'en'
+          ? 'en'
+          : 'it'
   ];
 ---
 

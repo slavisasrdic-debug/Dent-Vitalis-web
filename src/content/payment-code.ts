@@ -28,6 +28,10 @@ export function replaceItalianPaymentCode(page: InnerPage): InnerPage {
 }
 
 export const paymentCopy = {
+  en: {
+    title: 'Payment code for bank transfer',
+    instruction: 'Use the following code to pay by bank transfer.',
+  },
   de: {
     title: 'Zahlungscode für die Banküberweisung',
     instruction:

@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { canonicalUrl } from '../src/content/seo-urls';
 import { route as deRoute } from '../src/content/de/routes';
+import { route as enRoute } from '../src/content/en/routes';
 const corrections = JSON.parse(
   readFileSync('data/editorial-corrections.json', 'utf8'),
 ) as typeof import('../data/editorial-corrections.json');
@@ -127,7 +128,11 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     const germanRoute = deRoute(route.id);
     if (germanRoute)
       expect(data.alternates).toContainEqual(['de', canonicalUrl(germanRoute)]);
-    expect(data.alternates).toHaveLength(germanRoute ? 4 : 3);
+    expect(data.alternates).toContainEqual([
+      'en',
+      canonicalUrl(enRoute(route.id)),
+    ]);
+    expect(data.alternates).toHaveLength(germanRoute ? 5 : 4);
     expect(data.ogTitle).toBe(data.title);
     expect(data.ogDescription).toBe(data.description);
     expect(data.description!.length).toBeGreaterThan(15);

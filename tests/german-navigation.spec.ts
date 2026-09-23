@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { localizedPageRegistry } from '../src/content/localized-page-registry';
+import { route as englishRoute } from '../src/content/en/routes';
 import { germanPageIds, route as germanRoute } from '../src/content/de/routes';
 const source = JSON.parse(
   readFileSync('data/translations/de-source.json', 'utf8'),
@@ -86,6 +87,7 @@ test('all German pages have reciprocal IT/HR links, German navigation and real d
       ['it', pair[1]],
       ['hr', pair[2]],
       ['de', route],
+      ['en', englishRoute(entry.route)],
     ]);
     for (const [language, path] of doc.switches) {
       expect(doc.alternates).toContainEqual([
@@ -93,9 +95,7 @@ test('all German pages have reciprocal IT/HR links, German navigation and real d
         `https://www.dentvitalis.com${path!.endsWith('/') ? path : path + '/'}`,
       ]);
     }
-    expect(
-      doc.alternates.some(([lang]) => lang === 'en' || lang === 'sl'),
-    ).toBe(false);
+    expect(doc.alternates.some(([lang]) => lang === 'sl')).toBe(false);
     for (const localePath of [pair[1]!, pair[2]!]) {
       const counterpart = await request.get(origin + localePath);
       expect(counterpart.status(), localePath).toBe(200);

@@ -27,7 +27,11 @@ const copy = ui(lang);
         href={homeHref(lang)}
         class:list={[
           'brand',
-          { 'brand-hr': lang === 'hr', 'brand-de': lang === 'de' },
+          {
+            'brand-hr': lang === 'hr',
+            'brand-de': lang === 'de',
+            'brand-en': lang === 'en',
+          },
         ]}><BrandLogo label={copy.logo} /><span>{tagline}</span></a
       >
       <nav id={id} aria-label={copy.nav} class="site-nav">
@@ -173,6 +177,9 @@ const copy = ui(lang);
     /* Match the 150px logo with letter spacing, not a stretched word gap. */
     letter-spacing: 1.19px;
   }
+  .brand-en span {
+    letter-spacing: 1.933px;
+  }
   .site-nav {
     flex: 1;
     display: flex;
@@ -298,6 +305,9 @@ const copy = ui(lang);
     .brand-de span {
       /* Same 14px font; the mobile logo is 140px wide. */
       letter-spacing: 0.56px;
+    }
+    .brand-en span {
+      letter-spacing: 1.267px;
     }
     .header-consultation {
       display: none;

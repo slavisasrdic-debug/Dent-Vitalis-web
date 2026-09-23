@@ -82,4 +82,31 @@ const de: typeof it = {
 export const homeHref = (lang: string) =>
   lang === 'it' ? '/' : `/${lang === 'sl' ? 'si' : lang}/`;
 export const ui = (lang: string) =>
-  lang === 'hr' ? hr : lang === 'de' ? de : it;
+  lang === 'hr' ? hr : lang === 'de' ? de : lang === 'en' ? en : it;
+const en: typeof it = {
+  skip: 'Skip to content',
+  nav: 'Main navigation',
+  openMenu: 'Open menu',
+  closeMenu: 'Close menu',
+  language: 'Language',
+  missingTranslation: 'Translation is not available in this preview',
+  closeRequest: 'Close enquiry',
+  closeChat: 'Close chat',
+  openChat: 'Open WhatsApp chat',
+  breadcrumb: 'Breadcrumb',
+  related: 'Other services',
+  contact: 'Contact',
+  hours: 'Opening hours',
+  tollFree: 'Freephone',
+  socialUnavailable: 'Link not provided in the source',
+  carousel: 'carousel',
+  slide: 'slide',
+  of: 'of',
+  previous: 'Previous testimonial',
+  next: 'Next testimonial',
+  showSlide: 'Show testimonial',
+  watchVideo: 'Watch video',
+  rating: 'Google rating 4.9 out of 5 based on 152 reviews',
+  stars: 'Five-star rating',
+  logo: 'DentVitalis',
+};

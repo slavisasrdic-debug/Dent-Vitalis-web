@@ -2,6 +2,8 @@ import { expect, test } from '@playwright/test';
 
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const routes = [
+  ['/en/privacy-policy', 'en', true],
+  ['/en/terms-of-use', 'en', false],
   ['/informativa-sulla-privacy', 'it', true],
   ['/condizioni-di-utilizzo', 'it', false],
   ['/hr/polica-privatnosti', 'hr', true],
