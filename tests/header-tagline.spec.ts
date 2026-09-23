@@ -20,12 +20,21 @@ test('German location descriptor fits the unchanged logo without wrapping', asyn
         const range = document.createRange();
         range.selectNodeContents(span);
         const text = range.getBoundingClientRect();
+        const lines = range.getClientRects().length;
+        const node = span.firstChild!;
+        range.setStart(node, 0);
+        range.setEnd(node, 7);
+        const firstWord = range.getBoundingClientRect();
+        range.setStart(node, 8);
+        range.setEnd(node, 16);
+        const secondWord = range.getBoundingClientRect();
         return {
           width: logo.width,
           leftDifference: Math.abs(text.left - logo.left),
           rightDifference: Math.abs(text.right - logo.right),
-          lines: range.getClientRects().length,
+          lines,
           overflow: span.scrollWidth - span.clientWidth,
+          wordGap: secondWord.left - firstWord.right,
         };
       });
       expect(geometry.width).toBe(width < 992 ? 140 : 150);
@@ -33,6 +42,8 @@ test('German location descriptor fits the unchanged logo without wrapping', asyn
       expect(geometry.rightDifference).toBeLessThan(1);
       expect(geometry.lines).toBe(1);
       expect(geometry.overflow).toBe(0);
+      expect(geometry.wordGap).toBeGreaterThan(0);
+      expect(geometry.wordGap).toBeLessThan(8);
     }
   }
   await page.locator('.brand').click();

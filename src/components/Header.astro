@@ -161,14 +161,17 @@ const copy = ui(lang);
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-  .brand-hr span,
-  .brand-de span {
+  .brand-hr span {
     font-family: var(--font-body);
     font-size: 13px;
     line-height: 1.4;
     letter-spacing: 0;
     text-align: justify;
     text-align-last: justify;
+  }
+  .brand-de span {
+    /* Match the 150px logo with letter spacing, not a stretched word gap. */
+    letter-spacing: 1.19px;
   }
   .site-nav {
     flex: 1;
@@ -288,10 +291,13 @@ const copy = ui(lang);
     .brand span {
       letter-spacing: 0.375px;
     }
-    .brand-hr span,
-    .brand-de span {
+    .brand-hr span {
       font-size: 12px;
       letter-spacing: 0;
+    }
+    .brand-de span {
+      /* Same 14px font; the mobile logo is 140px wide. */
+      letter-spacing: 0.56px;
     }
     .header-consultation {
       display: none;
