@@ -1,6 +1,6 @@
 ---
 import type groups from '../content/footer-it.json';
-import { ui } from '../content/ui';
+import { ui, homeHref } from '../content/ui';
 import BrandLogo from './BrandLogo.astro';
 interface Props {
   business: {
@@ -18,7 +18,8 @@ interface Props {
 }
 const { business, groups: sections, lang = 'it' } = Astro.props;
 const copy = ui(lang);
-const contactHref = lang === 'hr' ? '/hr/kontakt' : '/contatti';
+const contactHref =
+  lang === 'hr' ? '/hr/kontakt' : lang === 'de' ? '#contatti' : '/contatti';
 const socials = [
   ['twitter', '62434fa732124ac15112aad5_twitter small.svg'],
   ['linkedin', '62434fa732124a389912aad8_linkedin small.svg'],
@@ -29,7 +30,7 @@ const socials = [
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-container">
-      <a class="footer-brand" href={lang === 'hr' ? '/hr/' : '/'}
+      <a class="footer-brand" href={homeHref(lang)}
         ><BrandLogo label={copy.logo} variant="footer" /></a
       ><div class="footer-grid">
         {

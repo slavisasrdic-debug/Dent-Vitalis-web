@@ -1,5 +1,6 @@
 import proposal from '../../../data/hr-routes.proposed.csv?raw';
 import { languages, type LanguageLink } from '../site';
+import { localizedPageRegistry } from '../localized-page-registry';
 
 const [header, ...lines] = proposal.trim().split('\n');
 const keys = header!.split(',');
@@ -29,41 +30,36 @@ export function italianRoute(id: string) {
   return hrRoutes.find((r) => r.page_id === id)!.it_path;
 }
 export function equivalentLanguages(path: string): LanguageLink[] {
-  if (path === '/' || path === '/hr/' || path === '/hr') {
-    return languages.map((language) => {
-      const available = ['it', 'hr', 'de'].includes(language.lang);
-      const href =
-        language.lang === 'it'
-          ? '/'
-          : language.lang === 'hr'
-            ? '/hr/'
-            : language.lang === 'de' ? '/de/' : '';
-      return { ...language, href, available };
-    });
-  }
-  const translated = path.match(/^\/(de|en|si)(\/.*)?\/?$/);
-  if (translated) {
-    const suffix = translated[2] ?? '/';
-    return languages.map((language) => {
-      const prefix = language.lang === 'de' ? '/de' : language.lang === 'en' ? '/en' : language.lang === 'sl' ? '/si' : '';
-      const available = language.lang === 'de' || language.lang === 'en' || language.lang === 'sl';
-      return {
-        ...language,
-        href: available ? `${prefix}${suffix}`.replace(/\/{2,}/g, '/') : '',
-        available,
-      };
-    });
-  }
-  const pair = hrRoutes.find(
-    (r) => r.it_path === path || r.proposed_hr_path === path,
+  const normalize = (value: string) => value.replace(/\/$/, '') || '/';
+  const currentPath = normalize(path);
+  // Only registered, reviewed destinations may be offered as translations.
+  // EN/SL adapters are still drafts; matching a suffix is not proof of readiness.
+  const germanPage = localizedPageRegistry.de.find(
+    (entry) => `/de/${entry.route}` === currentPath,
   );
+  const pair = routeDecisions.find(
+    (r) =>
+      normalize(r.it_path) === currentPath ||
+      (r.status === 'approved' &&
+        normalize(r.proposed_hr_path) === currentPath) ||
+      r.page_id === germanPage?.route ||
+      (currentPath === '/de' && r.page_id === 'home'),
+  );
+  const germanEquivalent =
+    pair?.page_id === 'home'
+      ? '/de/'
+      : localizedPageRegistry.de.some((entry) => entry.route === pair?.page_id)
+        ? `/de/${pair!.page_id}`
+        : '';
   return languages.map((language) => {
     const href =
       language.lang === 'it'
-        ? (pair?.it_path ?? (path.startsWith('/hr/') ? '' : path))
+        ? (pair?.it_path ?? '')
         : language.lang === 'hr'
           ? (pair?.proposed_hr_path ?? '')
-          : '';
+          : language.lang === 'de'
+            ? germanEquivalent
+            : '';
     return { ...language, href, available: !!href };
   });
 }

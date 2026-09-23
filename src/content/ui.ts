@@ -52,4 +52,34 @@ const hr: typeof it = {
   stars: 'Ocjena pet zvjezdica',
   logo: 'DentVitalis',
 };
-export const ui = (lang: string) => (lang === 'hr' ? hr : it);
+const de: typeof it = {
+  skip: 'Zum Inhalt springen',
+  nav: 'Hauptnavigation',
+  openMenu: 'Menü öffnen',
+  closeMenu: 'Menü schließen',
+  language: 'Sprache',
+  missingTranslation: 'Übersetzung in dieser Vorschau noch nicht verfügbar',
+  closeRequest: 'Anfrage schließen',
+  closeChat: 'Chat schließen',
+  openChat: 'WhatsApp-Chat öffnen',
+  breadcrumb: 'Seitenpfad',
+  related: 'Weitere Leistungen',
+  contact: 'Kontakt',
+  hours: 'Öffnungszeiten',
+  tollFree: 'Kostenlose Rufnummer',
+  socialUnavailable: 'Kein Link in der Quelle angegeben',
+  carousel: 'Karussell',
+  slide: 'Folie',
+  of: 'von',
+  previous: 'Vorheriger Erfahrungsbericht',
+  next: 'Nächster Erfahrungsbericht',
+  showSlide: 'Erfahrungsbericht anzeigen',
+  watchVideo: 'Video ansehen',
+  rating: 'Google-Bewertung 4,9 von 5, basierend auf 152 Bewertungen',
+  stars: 'Fünf-Sterne-Bewertung',
+  logo: 'DentVitalis – Zahnärzte Kroatien',
+};
+export const homeHref = (lang: string) =>
+  lang === 'it' ? '/' : `/${lang === 'sl' ? 'si' : lang}/`;
+export const ui = (lang: string) =>
+  lang === 'hr' ? hr : lang === 'de' ? de : it;

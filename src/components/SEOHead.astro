@@ -28,7 +28,13 @@ if (!image.alt)
   image.alt =
     lang === 'hr'
       ? 'Žena s osmijehom — DentVitalis'
-      : 'Donna sorridente — DentVitalis';
+      : lang === 'de'
+        ? 'Lächelnde Frau — DentVitalis'
+        : 'Donna sorridente — DentVitalis';
+const ogLocale = (language: string) =>
+  ({ it: 'it_IT', hr: 'hr_HR', de: 'de_DE', en: 'en_GB', sl: 'sl_SI' })[
+    language
+  ] ?? language;
 // A literal '<' inside JSON-LD may otherwise terminate an HTML script element.
 const structured = JSON.stringify(
   graph(title, description, lang, canonical, seo, assetOrigin),
@@ -57,16 +63,13 @@ const structured = JSON.stringify(
 />
 <meta property="og:site_name" content="DentVitalis" /><meta
   property="og:locale"
-  content={lang === 'hr' ? 'hr_HR' : 'it_IT'}
+  content={ogLocale(lang)}
 />
 {
   languages
     .filter((l) => l.available !== false && l.lang !== lang)
     .map((l) => (
-      <meta
-        property="og:locale:alternate"
-        content={l.lang === 'hr' ? 'hr_HR' : 'it_IT'}
-      />
+      <meta property="og:locale:alternate" content={ogLocale(l.lang)} />
     ))
 }
 <meta property="og:image" content={image.url} /><meta

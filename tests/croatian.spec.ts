@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { canonicalUrl } from '../src/content/seo-urls';
+import { localizedPageRegistry } from '../src/content/localized-page-registry';
 const corrections = JSON.parse(
   readFileSync('data/editorial-corrections.json', 'utf8'),
 ) as typeof import('../data/editorial-corrections.json');
@@ -123,7 +124,15 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
         ['x-default', 'https://www.dentvitalis.com/'],
       ]),
     );
-    expect(data.alternates).toHaveLength(3);
+    const germanRoute =
+      route.id === 'home'
+        ? '/de/'
+        : localizedPageRegistry.de.some((entry) => entry.route === route.id)
+          ? `/de/${route.id}`
+          : undefined;
+    if (germanRoute)
+      expect(data.alternates).toContainEqual(['de', canonicalUrl(germanRoute)]);
+    expect(data.alternates).toHaveLength(germanRoute ? 4 : 3);
     expect(data.ogTitle).toBe(data.title);
     expect(data.ogDescription).toBe(data.description);
     expect(data.description!.length).toBeGreaterThan(15);

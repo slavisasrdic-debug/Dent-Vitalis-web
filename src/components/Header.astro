@@ -3,7 +3,7 @@ import Button from './Button.astro';
 import BrandLogo from './BrandLogo.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import NavDropdown from './NavDropdown.astro';
-import { ui } from '../content/ui';
+import { ui, homeHref } from '../content/ui';
 import type { NavigationGroup, LinkData, LanguageLink } from '../content/site';
 interface Props {
   groups: NavigationGroup[];
@@ -24,7 +24,7 @@ const copy = ui(lang);
   <div class="header-container">
     <div class="header-row">
       <a
-        href={lang === 'hr' ? '/hr/' : '/'}
+        href={homeHref(lang)}
         class:list={['brand', { 'brand-hr': lang === 'hr' }]}
         ><BrandLogo label={copy.logo} /><span>{tagline}</span></a
       >

@@ -10,6 +10,7 @@ import { innerPages, type InnerPage } from '../content/inner-pages';
 import { contactCopy } from '../content/site';
 import { innerPagesHr } from '../content/hr/inner';
 import { contactCopy as hrContactCopy } from '../content/hr/site';
+import { contactCopy as deContactCopy } from '../content/de/site';
 import { equivalentLanguages } from '../content/hr/routes';
 import { flatten, plain, type PageSEO } from '../content/seo';
 import { referenceBusiness } from '../../data/site';
@@ -133,7 +134,11 @@ if (referenceRoute.startsWith('/prestazioni/')) {
     )
   }
   <ContactSection
-    content={page.lang === 'hr' ? hrContactCopy : contactCopy}
+    content={page.lang === 'hr'
+      ? hrContactCopy
+      : page.lang === 'de'
+        ? deContactCopy
+        : contactCopy}
     lang={page.lang}
   />
 </SiteLayout>
