@@ -13,8 +13,14 @@ import { contactCopy as hrContactCopy } from '../content/hr/site';
 import { equivalentLanguages } from '../content/hr/routes';
 import { flatten, plain, type PageSEO } from '../content/seo';
 import { referenceBusiness } from '../../data/site';
-export function getStaticPaths() {
-  return [...innerPages, ...innerPagesHr].map((page) => ({
+import { localizedPages } from '../content/localized-pages';
+export async function getStaticPaths() {
+  const translated = [
+    ...(await localizedPages('de')),
+    ...(await localizedPages('en')),
+    ...(await localizedPages('sl')),
+  ];
+  return [...innerPages, ...innerPagesHr, ...translated].map((page) => ({
     params: { path: page.route.slice(1) },
     props: { page },
   }));
