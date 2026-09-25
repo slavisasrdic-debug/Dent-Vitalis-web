@@ -291,6 +291,70 @@
     "source": "source-assets/webflow-export/2026-09-07/extracted/images/DV-cjenik.webp",
     "sha256": "8d066600c2887bce650d435b52ec22d2a3345fe1d869751bbfb2db1ea1cf4eba"
   },
+  "DV-cjenik-hr.webp": {
+    "src": "/assets/images/DV-cjenik-hr-2600.webp",
+    "width": 2600,
+    "height": 1464,
+    "variants": [
+      { "src": "/assets/images/DV-cjenik-hr-320.webp", "width": 320 },
+      { "src": "/assets/images/DV-cjenik-hr-500.webp", "width": 500 },
+      { "src": "/assets/images/DV-cjenik-hr-800.webp", "width": 800 },
+      { "src": "/assets/images/DV-cjenik-hr-1080.webp", "width": 1080 },
+      { "src": "/assets/images/DV-cjenik-hr-1400.webp", "width": 1400 },
+      { "src": "/assets/images/DV-cjenik-hr-2000.webp", "width": 2000 },
+      { "src": "/assets/images/DV-cjenik-hr-2600.webp", "width": 2600 }
+    ],
+    "source": "scripts/generate-localized-price-list-images.mjs",
+    "sha256": "3d0a5fef17b3f5b0973291d74af522355c5b1ead2887fe24f19b28690bf32668"
+  },
+  "DV-cjenik-de.webp": {
+    "src": "/assets/images/DV-cjenik-de-2600.webp",
+    "width": 2600,
+    "height": 1464,
+    "variants": [
+      { "src": "/assets/images/DV-cjenik-de-320.webp", "width": 320 },
+      { "src": "/assets/images/DV-cjenik-de-500.webp", "width": 500 },
+      { "src": "/assets/images/DV-cjenik-de-800.webp", "width": 800 },
+      { "src": "/assets/images/DV-cjenik-de-1080.webp", "width": 1080 },
+      { "src": "/assets/images/DV-cjenik-de-1400.webp", "width": 1400 },
+      { "src": "/assets/images/DV-cjenik-de-2000.webp", "width": 2000 },
+      { "src": "/assets/images/DV-cjenik-de-2600.webp", "width": 2600 }
+    ],
+    "source": "scripts/generate-localized-price-list-images.mjs",
+    "sha256": "def7a973668c3125aa11a40bfa1bf5abb334e401b9a85e8f9e5aa5f02618fc16"
+  },
+  "DV-cjenik-en.webp": {
+    "src": "/assets/images/DV-cjenik-en-2600.webp",
+    "width": 2600,
+    "height": 1464,
+    "variants": [
+      { "src": "/assets/images/DV-cjenik-en-320.webp", "width": 320 },
+      { "src": "/assets/images/DV-cjenik-en-500.webp", "width": 500 },
+      { "src": "/assets/images/DV-cjenik-en-800.webp", "width": 800 },
+      { "src": "/assets/images/DV-cjenik-en-1080.webp", "width": 1080 },
+      { "src": "/assets/images/DV-cjenik-en-1400.webp", "width": 1400 },
+      { "src": "/assets/images/DV-cjenik-en-2000.webp", "width": 2000 },
+      { "src": "/assets/images/DV-cjenik-en-2600.webp", "width": 2600 }
+    ],
+    "source": "scripts/generate-localized-price-list-images.mjs",
+    "sha256": "8ad4449f4cbdcf778b0877b11c17d1aa74fc1690fe79effb6a72b85150d6138e"
+  },
+  "DV-cjenik-sl.webp": {
+    "src": "/assets/images/DV-cjenik-sl-2600.webp",
+    "width": 2600,
+    "height": 1464,
+    "variants": [
+      { "src": "/assets/images/DV-cjenik-sl-320.webp", "width": 320 },
+      { "src": "/assets/images/DV-cjenik-sl-500.webp", "width": 500 },
+      { "src": "/assets/images/DV-cjenik-sl-800.webp", "width": 800 },
+      { "src": "/assets/images/DV-cjenik-sl-1080.webp", "width": 1080 },
+      { "src": "/assets/images/DV-cjenik-sl-1400.webp", "width": 1400 },
+      { "src": "/assets/images/DV-cjenik-sl-2000.webp", "width": 2000 },
+      { "src": "/assets/images/DV-cjenik-sl-2600.webp", "width": 2600 }
+    ],
+    "source": "scripts/generate-localized-price-list-images.mjs",
+    "sha256": "a3730a233b5f9ddd8cf5a95d221345cf4aef0b5caf67d99651284f527782a4b8"
+  },
   "Laboratorio-odontotecnico.webp": {
     "src": "/assets/images/Laboratorio-odontotecnico-2600.webp",
     "width": 2600,

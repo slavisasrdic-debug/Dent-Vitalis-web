@@ -12,6 +12,8 @@ const descriptions: Record<string, string> = {
   'Garanzie.webp': 'Stomatolog i pacijent pregledavaju plan liječenja',
   'Alloggio-hero-2600.webp': 'Spavaća soba u smještaju klinike DentVitalis',
   'DV-cjenik.webp': 'Cjenik na recepciji klinike DentVitalis u Rijeci',
+  'DV-cjenik-hr.webp':
+    'Cjenik na recepciji klinike DentVitalis u Rijeci na hrvatskom jeziku',
   'I-nostri-specialist-2i.webp':
     'Dva stomatologa pregledavaju zubnu protezu u klinici DentVitalis',
   'I-nostri-specialisti-mobile-2.webp':

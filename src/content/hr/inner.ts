@@ -308,7 +308,7 @@ function priceCard(
     'price-card',
   );
 }
-add('prices', labels.prices, t(19, 0, 0), [
+const prices = add('prices', labels.prices, t(19, 0, 0), [
   priceCard(2, 0, [2, 3, 4, 5, 6, 7, 8], 10),
   priceCard(3, 0, [2, 3, 4, 5, 6, 7, 8, 9], 11),
   priceCard(4, 1, [3, 4, 5, 6, 7, 8, 9], 11),
@@ -318,6 +318,10 @@ add('prices', labels.prices, t(19, 0, 0), [
   priceCard(8, 0, [], 2),
   priceCard(9, 0, [], 2),
 ]);
+prices.hero.photo = {
+  image: 'DV-cjenik-hr.webp',
+  alt: alt('DV-cjenik-hr.webp'),
+};
 
 const questions = [
   faq(22, 0, 1, [3, 5]),

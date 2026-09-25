@@ -17,6 +17,10 @@ const groups: [string[], string][] = [
   ],
   [['DV-cjenik.webp'], 'Preisliste an der Rezeption der DentVitalis Klinik'],
   [
+    ['DV-cjenik-de.webp'],
+    'Deutsche Preisliste an der Rezeption der DentVitalis Klinik',
+  ],
+  [
     ['I-nostri-specialist-2i.webp', 'I-nostri-specialisti-mobile-2.webp'],
     'Zwei Zahnärzte begutachten einen Zahnersatz bei DentVitalis',
   ],

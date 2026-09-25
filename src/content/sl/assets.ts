@@ -16,6 +16,7 @@ const groups: [string[], string][] = [
   ],
   [['Alloggio-hero-2600.webp'], 'Spalnica v nastanitvi klinike DentVitalis'],
   [['DV-cjenik.webp'], 'Cenik na recepciji klinike DentVitalis'],
+  [['DV-cjenik-sl.webp'], 'Slovenski cenik na recepciji klinike DentVitalis'],
   [
     ['I-nostri-specialist-2i.webp', 'I-nostri-specialisti-mobile-2.webp'],
     'Dva zobozdravnika pregledujeta protetični izdelek v DentVitalisu',

@@ -17,6 +17,10 @@ const groups: [string[], string][] = [
   ],
   [['DV-cjenik.webp'], 'Price list at the DentVitalis clinic reception'],
   [
+    ['DV-cjenik-en.webp'],
+    'English price list at the DentVitalis clinic reception',
+  ],
+  [
     ['I-nostri-specialist-2i.webp', 'I-nostri-specialisti-mobile-2.webp'],
     'Two dentists examining a dental restoration at DentVitalis',
   ],
