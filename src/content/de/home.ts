@@ -7,6 +7,7 @@ import { t, faq } from './source';
 import { route } from './routes';
 import { alt } from './assets';
 import { ui } from '../ui';
+import { withAccentedPhrase } from '../home-heading-accent';
 
 export const home = {
   ...itHome,
@@ -42,10 +43,14 @@ export const home = {
     accent: t(1, 1, 3).split(' ').slice(0, 2).join(' '),
     description: t(1, 1, 4),
   },
-  about: { eyebrow: t(1, 7, 0), title: t(1, 7, 2), description: t(1, 7, 3) },
+  about: {
+    eyebrow: t(1, 7, 0),
+    ...withAccentedPhrase(t(1, 7, 2), 'Fachkompetenz'),
+    description: t(1, 7, 3),
+  },
   testimonials: {
     eyebrow: t(1, 8, 0),
-    title: t(1, 8, 2),
+    ...withAccentedPhrase(t(1, 8, 2), 'Vertrauen'),
     description: t(1, 8, 4),
   },
   testimonialPhoto: {
@@ -58,7 +63,7 @@ export const home = {
   ],
   information: {
     eyebrow: t(1, 9, 0),
-    title: t(1, 9, 2),
+    ...withAccentedPhrase(t(1, 9, 2), 'interessieren'),
     description: t(1, 9, 4),
   },
   informationAction: { href: '#contatti', label: t(1, 9, 27) },

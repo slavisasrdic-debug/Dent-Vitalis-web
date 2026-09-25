@@ -44,6 +44,14 @@ export function text(id: string): string {
       value = correction.to;
     }
   }
+  const floraCorrection = corrections.croatianFloraDusi.replacements.find(
+    (correction) => correction.sourceId === id,
+  );
+  if (floraCorrection) {
+    if (value !== floraCorrection.from)
+      throw new Error(`Croatian Flora Dusi correction source changed: ${id}`);
+    value = floraCorrection.to;
+  }
   return bindReferenceBusiness(value)
     .replaceAll('ZABAHR2X', croatianBusinessReview.swift)
     .replaceAll(

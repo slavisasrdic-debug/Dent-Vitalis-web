@@ -6,6 +6,7 @@ import { applyItalianCorrections } from './editorial-corrections';
 import { linkDoctorResearch } from './doctor-research';
 import { applyPublicLegal } from './legal-public';
 import { replaceItalianPaymentCode } from './payment-code';
+import { linkFirstVisitFaq } from './faq-first-visit-link';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -166,6 +167,14 @@ export const innerPages = completeRelatedServices(
     .map(applyPublicLegal)
     .map(replaceItalianPaymentCode)
     .map((page) => ({ ...page, blocks: stripEditorialLinks(page.blocks) }))
+    .map((page) =>
+      linkFirstVisitFaq(page, {
+        route: '/faq',
+        question: 'Cosa devo portare alla prima visita?',
+        word: 'Qui',
+        href: '/informazioni/prima-visita-gratuita',
+      }),
+    )
     .map((page) =>
       ['/condizioni-di-utilizzo', '/informativa-sulla-privacy'].includes(
         page.route,

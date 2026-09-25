@@ -13,6 +13,19 @@ for (const [path, question, word, destination] of [
     'ovdje',
     '/hr/prvi-pregled',
   ],
+  [
+    '/de/faq/',
+    'Was soll ich zur Erstuntersuchung mitbringen?',
+    'hier',
+    '/de/first-visit',
+  ],
+  [
+    '/en/faq/',
+    'What should I bring to my first consultation?',
+    'here',
+    '/en/first-visit',
+  ],
+  ['/si/faq/', 'Kaj naj prinesem na prvi pregled?', 'tukaj', '/si/first-visit'],
 ]) {
   test(`First visit FAQ word link ${path}`, async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 900 });

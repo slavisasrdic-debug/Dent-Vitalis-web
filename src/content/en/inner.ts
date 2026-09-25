@@ -17,6 +17,8 @@ import { alt } from './assets';
 import { specialPages } from './special';
 import { labelParkingLinks } from '../parking-link-labels';
 import { anaResearchUrl } from '../doctor-research';
+import { linkFirstVisitFaq } from '../faq-first-visit-link';
+import { emphasizePaymentCardEligibility } from '../payment-card-highlight';
 
 function base(id: string, title: string, description: string): InnerPage {
   const original = italianPages.find((p) => p.route === italianRoute(id))!;
@@ -431,4 +433,18 @@ function linkResearch(blocks: ContentBlock[]): ContentBlock[] {
   });
 }
 specialists.blocks = linkResearch(specialists.blocks);
-export const innerPagesEn = pages;
+export const innerPagesEn = pages
+  .map((page) =>
+    linkFirstVisitFaq(page, {
+      route: route('faq'),
+      question: 'What should I bring to my first consultation?',
+      word: 'here',
+      href: route('first-visit'),
+    }),
+  )
+  .map((page) =>
+    emphasizePaymentCardEligibility(page, {
+      route: route('payment'),
+      phrase: 'issued by Croatian banks',
+    }),
+  );

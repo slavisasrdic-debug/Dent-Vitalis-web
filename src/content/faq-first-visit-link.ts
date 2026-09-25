@@ -22,22 +22,35 @@ export function linkAnswerWord(
   });
 }
 
-export function linkItalianFirstVisit(page: InnerPage): InnerPage {
-  if (page.route !== '/faq') return page;
+interface FirstVisitFaqLink {
+  route: string;
+  question: string;
+  word: string;
+  href: string;
+}
+
+/**
+ * The final FAQ answer intentionally keeps its first-visit link. It is an
+ * explicit navigation cue, unlike the editorial links that remain deferred.
+ */
+export function linkFirstVisitFaq(
+  page: InnerPage,
+  { route, question, word, href }: FirstVisitFaqLink,
+): InnerPage {
+  if (page.route !== route) return page;
+  let matches = 0;
+  const blocks = page.blocks.map((block) => {
+    if (block.type !== 'faq' || block.question !== question) return block;
+    matches++;
+    return {
+      ...block,
+      answer: linkAnswerWord(block.answer, word, href),
+    };
+  });
+  if (matches !== 1)
+    throw new Error(`Expected one first-visit FAQ answer on ${route}`);
   return {
     ...page,
-    blocks: page.blocks.map((block) =>
-      block.type === 'faq' &&
-      block.question === 'Cosa devo portare alla prima visita?'
-        ? {
-            ...block,
-            answer: linkAnswerWord(
-              block.answer,
-              'Qui',
-              '/informazioni/prima-visita-gratuita',
-            ),
-          }
-        : block,
-    ),
+    blocks,
   };
 }

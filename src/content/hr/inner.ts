@@ -24,6 +24,8 @@ import { alt } from './assets';
 import { specialPages } from './special';
 import { labelParkingLinks } from '../parking-link-labels';
 import { linkDoctorResearch } from '../doctor-research';
+import { linkFirstVisitFaq } from '../faq-first-visit-link';
+import { emphasizePaymentCardEligibility } from '../payment-card-highlight';
 
 function base(id: string, title: string, description: string): InnerPage {
   const original = italianPages.find((p) => p.route === italianRoute(id))!;
@@ -428,4 +430,19 @@ for (const page of pages) {
       : [];
   });
 }
-export const innerPagesHr = pages.map(linkDoctorResearch);
+export const innerPagesHr = pages
+  .map(linkDoctorResearch)
+  .map((page) =>
+    linkFirstVisitFaq(page, {
+      route: route('faq'),
+      question: 'Što trebam ponijeti na prvi pregled?',
+      word: 'ovdje',
+      href: route('first-visit'),
+    }),
+  )
+  .map((page) =>
+    emphasizePaymentCardEligibility(page, {
+      route: route('payment'),
+      phrase: 'izdanih od strane hrvatskih banaka',
+    }),
+  );

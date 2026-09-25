@@ -1,5 +1,6 @@
 import { clinic } from './site';
 import type { ImageKey } from '../components/ResponsiveImage.astro';
+import { withAccentedPhrase } from './home-heading-accent';
 
 export interface TeaserCardData {
   title: string;
@@ -69,18 +70,18 @@ export const home = {
   },
   about: {
     eyebrow: 'Su di noi',
-    title: 'Tradizione e competenza',
+    ...withAccentedPhrase('Tradizione e competenza', 'competenza'),
     description: 'Da 30 anni, oltre 30.000 impianti inseriti con successo.',
   },
   testimonials: {
     eyebrow: 'Testimonianze',
-    title: 'Rapporto di fiducia',
+    ...withAccentedPhrase('Rapporto di fiducia', 'fiducia'),
     description:
       'L’80% dei nostri pazienti ci sceglie su consiglio di amici e familiari. Scopri perché.',
   },
   information: {
     eyebrow: 'Informazioni',
-    title: 'Questo potrebbe interessarti',
+    ...withAccentedPhrase('Questo potrebbe interessarti', 'interessarti'),
     description: `Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde:\u00a0${clinic.tollFree}`,
   },
   faq: { eyebrow: 'FAQ', title: 'Domande e risposte' },

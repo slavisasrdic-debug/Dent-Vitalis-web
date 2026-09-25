@@ -22,5 +22,32 @@
     "italianSourceId": "t5.r0.c0.p9",
     "from": "Zubne krunice 330 €",
     "to": "Zubne krunice već od 220 €"
+  },
+  "croatianFloraDusi": {
+    "approvedOn": "2026-09-25",
+    "authority": "User supplied the exact feminine Croatian replacement text for Flora Dusi's testimonial.",
+    "route": "/hr/iskustva-pacijenata",
+    "replacements": [
+      {
+        "sourceId": "p261",
+        "from": "Imao sam problema sa zubima. U Italiji sam potrošio mnogo novca, stalno sam morao skidati mostove i uvijek su se pojavljivali novi problemi – svaki sam tjedan bio kod stomatologa.",
+        "to": "Imala sam problema sa zubima. U Italiji sam potrošila mnogo novca, stalno sam morala skidati mostove i uvijek su se pojavljivali novi problemi – svaki sam tjedan bila kod stomatologa."
+      },
+      {
+        "sourceId": "p262",
+        "from": "Preko brata sam saznao za vašu kliniku. Dvoumio sam se jer je put do vas dug, ali ipak sam odlučio započeti liječenje.",
+        "to": "Preko brata sam saznala za vašu kliniku. Dvoumila sam se jer je put do vas dug, ali ipak sam odlučila započeti liječenje."
+      },
+      {
+        "sourceId": "p263",
+        "from": "Prvi zahvat imao sam 24. veljače 2013., a danas, 25. listopada 2013., završio sam cijelu terapiju i jako sam zadovoljan.",
+        "to": "Prvi zahvat imala sam 24. veljače 2013., a danas, 25. listopada 2013., završila sam cijelu terapiju i jako sam zadovoljna."
+      },
+      {
+        "sourceId": "p264",
+        "from": "Zahvaljujem svima na ljubaznosti koju sam susreo kod cijelog osoblja klinike, posebno liječnicima i medicinskim sestrama, a veliki poljubac šaljem Dariji.",
+        "to": "Zahvaljujem svima na ljubaznosti koju sam susrela kod cijelog osoblja klinike, posebno liječnicima i medicinskim sestrama, a veliki poljubac šaljem Dariji."
+      }
+    ]
   }
 }

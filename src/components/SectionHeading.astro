@@ -6,6 +6,8 @@ interface Props {
   title: string;
   description?: string;
   accent?: string;
+  accentPosition?: 'prefix' | 'suffix';
+  titleAfter?: string;
   variant?: 'intro' | 'spacious' | 'compact';
 }
 const {
@@ -13,6 +15,8 @@ const {
   title,
   description,
   accent,
+  accentPosition = 'prefix',
+  titleAfter,
   variant = 'spacious',
 } = Astro.props;
 ---
@@ -25,12 +29,19 @@ const {
           {eyebrow}
         </p><Reveal as="h2"
           >{
-            accent && (
+            accent && accentPosition === 'prefix' && (
               <>
                 <strong>{accent}</strong>{' '}
               </>
             )
-          }{title}</Reveal
+          }{title}{
+            accent && accentPosition === 'suffix' && (
+              <>
+                {' '}
+                <strong>{accent}</strong>
+              </>
+            )
+          }{titleAfter && <> {' ' + titleAfter}</>}</Reveal
         >{
           variant !== 'intro' && description && (
             <Reveal as="p" class="description">
@@ -96,6 +107,7 @@ const {
   }
   strong {
     color: var(--color-accent);
+    font-weight: 700;
   }
   .section-heading :global(.description) {
     font-size: 22px;
