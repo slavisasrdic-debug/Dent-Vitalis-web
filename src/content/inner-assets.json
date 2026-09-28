@@ -305,7 +305,7 @@
       { "src": "/assets/images/DV-cjenik-hr-2600.webp", "width": 2600 }
     ],
     "source": "scripts/generate-localized-price-list-images.mjs",
-    "sha256": "947492314c166c391987de6cfc4e8156a02c9c46988996a66368aaef2e92113f"
+    "sha256": "d54429a7cdef4da04db4da2c52601504e1aa5d4101155273e1f735bc5e25eea7"
   },
   "DV-cjenik-de.webp": {
     "src": "/assets/images/DV-cjenik-de-2600.webp",
@@ -321,7 +321,7 @@
       { "src": "/assets/images/DV-cjenik-de-2600.webp", "width": 2600 }
     ],
     "source": "scripts/generate-localized-price-list-images.mjs",
-    "sha256": "ad631a4c8c786aed616f9f4b1b71bfe4ad4b685c8bc78dbd12cdc4bfed712bc2"
+    "sha256": "fc9f735ba958aafca6619df96bcdc0df3c4198f3c747a9bf44f0ed4b40613a1c"
   },
   "DV-cjenik-en.webp": {
     "src": "/assets/images/DV-cjenik-en-2600.webp",
@@ -337,7 +337,7 @@
       { "src": "/assets/images/DV-cjenik-en-2600.webp", "width": 2600 }
     ],
     "source": "scripts/generate-localized-price-list-images.mjs",
-    "sha256": "46ac4579d923a6032075d8f7970815bf3f9daa289e6d9a3e730696992a519302"
+    "sha256": "3aeb662db1f1f0bd56f188e803e5a25a35f50d178b6c697e80b1bff375d371e1"
   },
   "DV-cjenik-sl.webp": {
     "src": "/assets/images/DV-cjenik-sl-2600.webp",
@@ -353,7 +353,7 @@
       { "src": "/assets/images/DV-cjenik-sl-2600.webp", "width": 2600 }
     ],
     "source": "scripts/generate-localized-price-list-images.mjs",
-    "sha256": "d55e4052ff820246c527ad406c461d5cd74696c98c763ac1f0561e9aa3340e67"
+    "sha256": "2e5773dc76a9d90172dd12a89e9764040a7042474d407346a8277f91cb426977"
   },
   "Laboratorio-odontotecnico.webp": {
     "src": "/assets/images/Laboratorio-odontotecnico-2600.webp",
