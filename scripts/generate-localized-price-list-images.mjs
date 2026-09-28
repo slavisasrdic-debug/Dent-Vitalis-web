@@ -12,6 +12,24 @@ const sourceImage = join(
 const outputDirectory = join(root, 'public/assets/images');
 const imageWidth = 2600;
 const imageHeight = 1464;
+const fontRegular = readFileSync(
+  join(
+    root,
+    'public/assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf',
+  ),
+).toString('base64');
+const fontSemiBold = readFileSync(
+  join(
+    root,
+    'public/assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf',
+  ),
+).toString('base64');
+const fontBold = readFileSync(
+  join(
+    root,
+    'public/assets/fonts/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf',
+  ),
+).toString('base64');
 
 const locales = {
   hr: {
@@ -19,7 +37,7 @@ const locales = {
     column: 1,
     source: 'hr-source.json',
     boardTitle: 'CJENIK',
-    priceLabel: 'Cijena',
+    otherServicesLabel: 'Ostale usluge',
     country: 'Hrvatska',
   },
   de: {
@@ -27,7 +45,7 @@ const locales = {
     column: 0,
     source: 'de-source.json',
     boardTitle: 'PREISLISTE',
-    priceLabel: 'Preis',
+    otherServicesLabel: 'Weitere Leistungen',
     country: 'Kroatien',
   },
   en: {
@@ -35,7 +53,7 @@ const locales = {
     column: 0,
     source: 'en-source.json',
     boardTitle: 'PRICE LIST',
-    priceLabel: 'Price',
+    otherServicesLabel: 'Other services',
     country: 'Croatia',
   },
   sl: {
@@ -43,12 +61,12 @@ const locales = {
     column: 0,
     source: 'sl-source.json',
     boardTitle: 'CENIK',
-    priceLabel: 'Cena',
+    otherServicesLabel: 'Druge storitve',
     country: 'Hrvaška',
   },
 };
 
-function escapeXml(value) {
+function escapeHtml(value) {
   return value
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -81,52 +99,15 @@ function lookup(locale) {
   };
 }
 
-function wrap(value, characters) {
-  const words = value.replace(/\s+/g, ' ').split(' ');
-  const lines = [];
-  let line = '';
-  for (const word of words) {
-    if (`${line} ${word}`.trim().length > characters && line) {
-      lines.push(line);
-      line = word;
-    } else line = `${line} ${word}`.trim();
-  }
-  if (line) lines.push(line);
-  return lines;
+function priceList(items) {
+  return `<ul>${items
+    .filter(Boolean)
+    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .join('')}</ul>`;
 }
 
-function text(value, x, y, size, weight = 400, anchor = 'start') {
-  return `<text x="${x}" y="${y}" fill="#005f73" font-family="Arial, sans-serif" font-size="${size}" font-weight="${weight}" text-anchor="${anchor}">${escapeXml(value)}</text>`;
-}
-
-function lines(value, x, y, options = {}) {
-  const {
-    size = 5.5,
-    lineHeight = 7.4,
-    weight = 400,
-    characters = 35,
-    bullet = false,
-  } = options;
-  return wrap(value, characters)
-    .map(
-      (line, index) =>
-        `${bullet && index === 0 ? text('•', x, y + index * lineHeight, size + 1, 700) : ''}${text(line, x + (bullet ? 7 : 0), y + index * lineHeight, size, weight)}`,
-    )
-    .join('');
-}
-
-function card(title, items, amount, priceLabel, x, y, width, height) {
-  const headingLines = wrap(title, 29);
-  const heading = headingLines
-    .map((line, index) => text(line, x + 10, y + 19 + index * 10, 8.5, 700))
-    .join('');
-  const start = y + 19 + headingLines.length * 10 + 8;
-  const details = items
-    .map((item, index) =>
-      lines(item, x + 10, start + index * 14, { bullet: true }),
-    )
-    .join('');
-  return `<g><rect x="${x}" y="${y}" width="${width}" height="${height}" fill="#ffffff"/><path d="M ${x} ${y + 2} H ${x + width}" stroke="#00677a" stroke-width="3"/>${heading}${details}${text(priceLabel, x + 10, y + height - 16, 5.5)}${text(amount, x + width - 10, y + height - 12, 13, 700, 'end')}</g>`;
+function priceCard(title, items, amount, className = '') {
+  return `<section class="price-card ${className}"><h2>${escapeHtml(title)}</h2>${priceList(items)}<p class="amount">${escapeHtml(amount)}</p></section>`;
 }
 
 function priceBoard(locale) {
@@ -156,25 +137,30 @@ function priceBoard(locale) {
     amount: get(row, row === 6 ? 1 : 2),
   }));
   const subtitle = get(0, 0);
-  const { boardTitle, priceLabel, country } = locales[locale];
-  return `<svg width="630" height="1020" xmlns="http://www.w3.org/2000/svg">
-      <rect width="630" height="1020" rx="5" fill="#fbfbfb" stroke="#d9e0e2" stroke-width="4"/>
-      <text x="42" y="72" fill="#00677a" font-family="Arial, sans-serif" font-size="29" font-weight="700">DENT<tspan fill="#b2c327">VITALIS</tspan></text>
-      ${text(boardTitle, 590, 54, 21, 700, 'end')}
-      ${text(subtitle, 590, 75, 8, 400, 'end')}
-      <path d="M 34 92 H 596" stroke="#00677a" stroke-width="3"/>
-      ${card(firstVisit.title, firstVisit.items, firstVisit.amount, priceLabel, 28, 112, 276, 258)}
-      ${card(fourImplants.title, fourImplants.items, fourImplants.amount, priceLabel, 28, 390, 276, 260)}
-      ${card(premium.title, premium.items, premium.amount, priceLabel, 28, 670, 276, 270)}
-      ${card(whitening.title, whitening.items, whitening.amount, priceLabel, 326, 112, 276, 258)}
-      <g><rect x="326" y="390" width="276" height="550" fill="#ffffff"/><path d="M 326 392 H 602" stroke="#00677a" stroke-width="3"/>${text(other[0].title, 336, 420, 12, 700)}${other
-        .map(
-          (item, index) =>
-            `<g>${index ? '<path d="M 336 ' + (490 + index * 105) + ' H 592" stroke="#d9e0e2" stroke-width="1"/>' : ''}${text(item.title, 336, 450 + index * 105, 8, 700)}${text(item.amount, 590, 477 + index * 105, 13, 700, 'end')}</g>`,
-        )
-        .join('')}</g>
-      ${text(`DentVitalis Fides d.o.o.  •  Krešimirova 60, 51000 Rijeka, ${country}`, 34, 990, 5.5)}
-  </svg>`;
+  const { boardTitle, country, otherServicesLabel } = locales[locale];
+  return `<article id="board">
+      <header class="paper-header">
+        <p class="brand">DENT<span>VITALIS</span></p>
+        <div><h1>${escapeHtml(boardTitle)}</h1><p>${escapeHtml(subtitle)}</p></div>
+      </header>
+      <div class="price-grid">
+        <div class="price-column left-column">
+          ${priceCard(firstVisit.title, firstVisit.items, firstVisit.amount, 'first-visit')}
+          ${priceCard(fourImplants.title, fourImplants.items, fourImplants.amount, 'four-implants')}
+          ${priceCard(premium.title, premium.items, premium.amount, 'premium')}
+        </div>
+        <div class="price-column right-column">
+          ${priceCard(whitening.title, whitening.items, whitening.amount, 'whitening')}
+          <section class="other-services"><h2>${escapeHtml(otherServicesLabel)}</h2>${other
+            .map(
+              (item) =>
+                `<div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.amount)}</p></div>`,
+            )
+            .join('')}</section>
+        </div>
+      </div>
+      <footer>DentVitalis Fides d.o.o. &nbsp;•&nbsp; Krešimirova 60, 51000 Rijeka, ${escapeHtml(country)}</footer>
+    </article>`;
 }
 
 function homography(source, target) {
@@ -223,22 +209,28 @@ const transform = matrix3d(
       [0, 1020],
     ],
     [
-      [1570, 310],
-      [2250, 245],
-      [2140, 1464],
-      [1180, 1464],
+      [1646, 419],
+      [2240, 364],
+      [2120, 1464],
+      [1420, 1464],
     ],
   ),
 );
 for (const locale of Object.keys(locales)) {
   const full = join(outputDirectory, `DV-cjenik-${locale}-2600.webp`);
-  const boardData = (
-    await sharp(Buffer.from(priceBoard(locale)))
-      .png()
-      .toBuffer()
-  ).toString('base64');
   await page.setContent(
-    `<!doctype html><style>html,body{margin:0;width:2600px;height:1464px;overflow:hidden}#scene{position:relative;width:2600px;height:1464px;background:url(data:image/webp;base64,${sourceData}) center/cover}#board{position:absolute;left:0;top:0;width:630px;height:1020px;transform-origin:0 0;transform:${transform}}</style><div id="scene"><img id="board" src="data:image/png;base64,${boardData}" alt=""></div>`,
+    `<!doctype html><style>
+      @font-face{font-family:DVMontserrat;src:url(data:font/ttf;base64,${fontRegular}) format('truetype');font-weight:400}
+      @font-face{font-family:DVMontserrat;src:url(data:font/ttf;base64,${fontSemiBold}) format('truetype');font-weight:600}
+      @font-face{font-family:DVMontserrat;src:url(data:font/ttf;base64,${fontBold}) format('truetype');font-weight:700}
+      *{box-sizing:border-box}html,body{margin:0;width:2600px;height:1464px;overflow:hidden}
+      #scene{position:relative;width:2600px;height:1464px;background:url(data:image/webp;base64,${sourceData}) center/cover}
+      #board{position:absolute;left:0;top:0;width:630px;height:1020px;overflow:hidden;padding:39px 34px 25px;background:#fafafa;color:#005d70;font-family:DVMontserrat,Arial,sans-serif;transform-origin:0 0;transform:${transform}}
+      .paper-header{height:72px;border-bottom:3px solid #006477;display:flex;align-items:flex-start;justify-content:space-between}
+      .brand{margin:10px 0 0;font-size:29px;font-weight:700;font-style:italic;letter-spacing:-1.7px}.brand span{color:#b2c827}
+      .paper-header div{text-align:right}.paper-header h1{margin:1px 0 6px;font-size:20px;line-height:1;font-weight:700;font-style:italic}.paper-header div p{margin:0;font-size:7.2px;color:#506b73}
+      .price-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-top:20px}.price-column{display:flex;flex-direction:column;gap:18px}.price-card,.other-services{position:relative;border-top:4px solid #006477;padding:14px 8px 10px}.price-card h2,.other-services>h2{margin:0;color:#005d70;font-size:9px;line-height:1.18;font-weight:700}.price-card ul{margin:10px 0 0;padding:0;list-style:none;font-size:6.1px;line-height:1.38}.price-card li{position:relative;padding-left:10px}.price-card li::before{position:absolute;left:0;color:#b2c827;content:'•';font-size:10px;line-height:.8}.price-card .amount{position:absolute;right:8px;bottom:11px;margin:0;font-size:12.4px;font-weight:700;white-space:nowrap}.first-visit{height:246px}.four-implants{height:250px}.premium{height:254px}.whitening{height:272px}.whitening ul{font-size:6px;line-height:1.34}.other-services{height:510px;padding-top:15px}.other-services>h2{font-size:11px;margin-bottom:17px}.other-services div{min-height:99px;border-bottom:1px solid #d6dfe1;padding:0 0 14px}.other-services div+div{padding-top:16px}.other-services h3{margin:0;font-size:8px;line-height:1.22;font-weight:700}.other-services p{margin:14px 0 0;text-align:right;font-size:12.4px;font-weight:700;white-space:nowrap}footer{position:absolute;right:34px;bottom:20px;left:34px;color:#506b73;font-size:5.8px;line-height:1;text-align:left}
+    </style><div id="scene">${priceBoard(locale)}</div>`,
   );
   await sharp(await page.screenshot({ type: 'png' }))
     .webp({ quality: 90 })
