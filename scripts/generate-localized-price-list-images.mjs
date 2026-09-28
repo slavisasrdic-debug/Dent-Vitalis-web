@@ -10,6 +10,7 @@ const sourceImage = join(
   'source-assets/webflow-export/2026-09-07/extracted/images/DV-cjenik.webp',
 );
 const outputDirectory = join(root, 'public/assets/images');
+const diagnosticDirectory = join(root, '.astro/audits');
 const imageWidth = 2600;
 const imageHeight = 1464;
 const boardWidth = 630;
@@ -255,7 +256,14 @@ const boardTransform = homography(
   ],
 );
 const transform = matrix3d(boardTransform);
-const boardTemplate = (await rectifiedBoard(boardTransform)).toString('base64');
+const rectifiedSource = await rectifiedBoard(boardTransform);
+const boardTemplate = rectifiedSource.toString('base64');
+if (process.env.DV_PRICE_LIST_DEBUG === 'flat') {
+  await mkdir(diagnosticDirectory, { recursive: true });
+  await sharp(rectifiedSource)
+    .png()
+    .toFile(join(diagnosticDirectory, 'price-list-flat-it.png'));
+}
 for (const locale of Object.keys(locales)) {
   const full = join(outputDirectory, `DV-cjenik-${locale}-2600.webp`);
   await page.setContent(
@@ -269,9 +277,21 @@ for (const locale of Object.keys(locales)) {
       #board{position:absolute;left:0;top:0;width:${boardWidth}px;height:${boardHeight}px;overflow:hidden;background:url(data:image/png;base64,${boardTemplate}) center/100% 100%;color:#005d70;font-family:DVMontserrat,Arial,sans-serif;transform-origin:0 0;transform:${transform}}
       .erase{position:absolute;display:block;background:rgb(241,236,238)}.header-copy{left:390px;top:43px;width:230px;height:79px}.first-body{left:66px;top:170px;width:252px;height:282px}.first-price{display:none}.whitening-body{left:344px;top:170px;width:266px;height:354px}.whitening-price{display:none}.four-body{left:82px;top:470px;width:246px;height:248px}.four-price{display:none}.other-heading{left:344px;top:542px;width:266px;height:338px}.other-row-one,.other-row-two,.other-row-three,.other-row-four{display:none}.premium-body{left:92px;top:733px;width:255px;height:246px}.premium-price{display:none}.footer-copy{left:88px;top:978px;width:440px;height:20px}
       .localized-header{position:absolute;top:51px;left:402px;width:214px;text-align:right}.localized-header h1{margin:0;font-size:20px;line-height:1;font-weight:700;font-style:italic}.localized-header p{margin:8px 0 0;font-size:7px;line-height:1.1;color:#506b73}
-      .localized-card{position:absolute;color:#172126}.localized-card h2,.other-services h2,.other-services h3{margin:0;color:#172126;font-size:13px;line-height:1.16;font-weight:600}.localized-card ul{margin:13px 0 0;padding:0;list-style:none;font-size:8.4px;line-height:1.26;font-weight:500}.localized-card li{position:relative;min-height:18px;margin:0;padding-left:12px}.localized-card li::before{position:absolute;left:0;color:#b2c827;content:'•';font-size:11px;line-height:.75}.localized-card .price-label{position:absolute;bottom:10px;left:0;margin:0;font-size:7.2px;line-height:1;color:#172126;font-weight:400}.localized-card .amount{position:absolute;right:0;bottom:1px;margin:0;color:#005d70;font-size:17px;line-height:1;font-weight:600;white-space:nowrap}.first-visit{left:74px;top:177px;width:233px;height:265px}.whitening{left:353px;top:177px;width:244px;height:335px}.whitening ul{font-size:8px;line-height:1.28}.whitening li{min-height:25px}.four-implants{left:88px;top:480px;width:226px;height:225px}.premium{left:99px;top:744px;width:232px;height:223px}.premium ul{font-size:7.8px;line-height:1.26}.premium li{min-height:17px}.other-services{position:absolute;top:551px;left:353px;width:242px;color:#172126}.other-services>h2{font-size:14px;margin-bottom:15px}.other-services div{position:relative;height:80px}.other-services h3{font-size:10.5px;line-height:1.18;font-weight:600}.other-services p{position:absolute;bottom:18px;left:0;margin:0;font-size:7.2px;font-weight:400}.other-services strong{position:absolute;right:0;bottom:8px;color:#005d70;font-size:17px;line-height:1;font-weight:600;white-space:nowrap}footer{position:absolute;top:982px;left:94px;right:34px;margin:0;color:#506b73;font-size:5.8px;line-height:1;text-align:left}
+      .localized-card{position:absolute;color:#172126}.localized-card h2,.other-services h2,.other-services h3{margin:0;color:#172126;font-size:13px;line-height:1.16;font-weight:600}.localized-card ul{margin:13px 0 0;padding:0;list-style:none;font-size:8.4px;line-height:1.26;font-weight:500}.localized-card li{position:relative;min-height:18px;margin:0;padding-left:12px}.localized-card li::before{position:absolute;left:0;color:#b2c827;content:'•';font-size:11px;line-height:.75}.localized-card .price-label{position:absolute;bottom:10px;left:0;margin:0;font-size:7.2px;line-height:1;color:#172126;font-weight:400}.localized-card .amount{position:absolute;right:0;bottom:1px;margin:0;color:#005d70;font-size:17px;line-height:1;font-weight:600;white-space:nowrap}.first-visit{left:74px;top:177px;width:233px;height:265px}.first-visit li{min-height:24px}.whitening{left:353px;top:177px;width:244px;height:335px}.whitening ul{font-size:8px;line-height:1.28}.whitening li{min-height:35px}.four-implants{left:88px;top:480px;width:226px;height:225px}.premium{left:99px;top:744px;width:232px;height:223px}.premium ul{font-size:7.8px;line-height:1.26}.premium li{min-height:17px}.other-services{position:absolute;top:551px;left:353px;width:242px;color:#172126}.other-services>h2{font-size:14px;margin-bottom:15px}.other-services div{position:relative;height:80px}.other-services h3{font-size:10.5px;line-height:1.18;font-weight:600}.other-services p{position:absolute;bottom:18px;left:0;margin:0;font-size:7.2px;font-weight:400}.other-services strong{position:absolute;right:0;bottom:8px;color:#005d70;font-size:17px;line-height:1;font-weight:600;white-space:nowrap}footer{position:absolute;top:982px;left:94px;right:34px;margin:0;color:#506b73;font-size:5.8px;line-height:1;text-align:left}
     </style><div id="scene">${priceBoard(locale)}</div>`,
   );
+  if (process.env.DV_PRICE_LIST_DEBUG === 'flat' && locale === 'hr') {
+    const board = page.locator('#board');
+    await board.evaluate((element) => {
+      element.style.transform = 'none';
+    });
+    await board.screenshot({
+      path: join(diagnosticDirectory, 'price-list-flat-hr.png'),
+    });
+    await board.evaluate((element) => {
+      element.style.transform = '';
+    });
+  }
   await sharp(await page.screenshot({ type: 'png' }))
     .webp({ quality: 90 })
     .toFile(full);
