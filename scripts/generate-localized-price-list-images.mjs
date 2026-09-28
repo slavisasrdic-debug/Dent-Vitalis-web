@@ -12,6 +12,8 @@ const sourceImage = join(
 const outputDirectory = join(root, 'public/assets/images');
 const imageWidth = 2600;
 const imageHeight = 1464;
+const boardWidth = 630;
+const boardHeight = 1020;
 const fontRegular = readFileSync(
   join(
     root,
@@ -106,8 +108,17 @@ function priceList(items) {
     .join('')}</ul>`;
 }
 
-function priceCard(title, items, amount, className = '') {
-  return `<section class="price-card ${className}"><h2>${escapeHtml(title)}</h2>${priceList(items)}<p class="amount">${escapeHtml(amount)}</p></section>`;
+function priceParts(value, fallbackLabel = '') {
+  const match = value.match(/(?:€\s*)?[\d.,]+\s*€?$/);
+  if (!match) return { label: fallbackLabel, amount: value };
+  return {
+    label: value.slice(0, match.index).trim() || fallbackLabel,
+    amount: match[0].trim(),
+  };
+}
+
+function priceCard(title, items, price, className) {
+  return `<section class="localized-card ${className}"><h2>${escapeHtml(title)}</h2>${priceList(items)}<p class="price-label">${escapeHtml(price.label)}</p><p class="amount">${escapeHtml(price.amount)}</p></section>`;
 }
 
 function priceBoard(locale) {
@@ -134,31 +145,25 @@ function priceBoard(locale) {
   };
   const other = [6, 7, 8, 9].map((row) => ({
     title: get(row, 0),
-    amount: get(row, row === 6 ? 1 : 2),
+    price: priceParts(get(row, row === 6 ? 1 : 2)),
   }));
   const subtitle = get(0, 0);
   const { boardTitle, country, otherServicesLabel } = locales[locale];
+  const fixedLabel = priceParts(fourImplants.amount).label;
+  const firstPrice = priceParts(firstVisit.amount, fixedLabel);
   return `<article id="board">
-      <header class="paper-header">
-        <p class="brand">DENT<span>VITALIS</span></p>
-        <div><h1>${escapeHtml(boardTitle)}</h1><p>${escapeHtml(subtitle)}</p></div>
-      </header>
-      <div class="price-grid">
-        <div class="price-column left-column">
-          ${priceCard(firstVisit.title, firstVisit.items, firstVisit.amount, 'first-visit')}
-          ${priceCard(fourImplants.title, fourImplants.items, fourImplants.amount, 'four-implants')}
-          ${priceCard(premium.title, premium.items, premium.amount, 'premium')}
-        </div>
-        <div class="price-column right-column">
-          ${priceCard(whitening.title, whitening.items, whitening.amount, 'whitening')}
-          <section class="other-services"><h2>${escapeHtml(otherServicesLabel)}</h2>${other
-            .map(
-              (item) =>
-                `<div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.amount)}</p></div>`,
-            )
-            .join('')}</section>
-        </div>
-      </div>
+      <i class="erase header-copy"></i><i class="erase first-body"></i><i class="erase first-price"></i><i class="erase whitening-body"></i><i class="erase whitening-price"></i><i class="erase four-body"></i><i class="erase four-price"></i><i class="erase other-heading"></i><i class="erase other-row-one"></i><i class="erase other-row-two"></i><i class="erase other-row-three"></i><i class="erase other-row-four"></i><i class="erase premium-body"></i><i class="erase premium-price"></i><i class="erase footer-copy"></i>
+      <header class="localized-header"><h1>${escapeHtml(boardTitle)}</h1><p>${escapeHtml(subtitle)}</p></header>
+      ${priceCard(firstVisit.title, firstVisit.items, firstPrice, 'first-visit')}
+      ${priceCard(whitening.title, whitening.items, priceParts(whitening.amount), 'whitening')}
+      ${priceCard(fourImplants.title, fourImplants.items, priceParts(fourImplants.amount), 'four-implants')}
+      ${priceCard(premium.title, premium.items, priceParts(premium.amount), 'premium')}
+      <section class="other-services"><h2>${escapeHtml(otherServicesLabel)}</h2>${other
+        .map(
+          (item) =>
+            `<div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.price.label)}</p><strong>${escapeHtml(item.price.amount)}</strong></div>`,
+        )
+        .join('')}</section>
       <footer>DentVitalis Fides d.o.o. &nbsp;•&nbsp; Krešimirova 60, 51000 Rijeka, ${escapeHtml(country)}</footer>
     </article>`;
 }
@@ -193,6 +198,35 @@ function matrix3d([a, b, c, d, e, f, g, h]) {
   return `matrix3d(${a},${d},0,${g},${b},${e},0,${h},0,0,1,0,${c},${f},0,1)`;
 }
 
+async function rectifiedBoard(transform) {
+  const { data, info } = await sharp(sourceImage)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+  const pixels = Buffer.alloc(boardWidth * boardHeight * 4);
+  for (let y = 0; y < boardHeight; y++) {
+    for (let x = 0; x < boardWidth; x++) {
+      const denominator = transform[6] * x + transform[7] * y + 1;
+      const imageX = Math.round(
+        (transform[0] * x + transform[1] * y + transform[2]) / denominator,
+      );
+      const imageY = Math.round(
+        (transform[3] * x + transform[4] * y + transform[5]) / denominator,
+      );
+      const clampedX = Math.min(Math.max(imageX, 0), info.width - 1);
+      const clampedY = Math.min(Math.max(imageY, 0), info.height - 1);
+      const sourceOffset = (clampedY * info.width + clampedX) * 4;
+      const targetOffset = (y * boardWidth + x) * 4;
+      data.copy(pixels, targetOffset, sourceOffset, sourceOffset + 4);
+    }
+  }
+  return sharp(pixels, {
+    raw: { width: boardWidth, height: boardHeight, channels: 4 },
+  })
+    .png()
+    .toBuffer();
+}
+
 await mkdir(outputDirectory, { recursive: true });
 const sourceData = readFileSync(sourceImage).toString('base64');
 const browser = await chromium.launch({ headless: true });
@@ -200,22 +234,22 @@ const page = await browser.newPage({
   viewport: { width: imageWidth, height: imageHeight },
   deviceScaleFactor: 1,
 });
-const transform = matrix3d(
-  homography(
-    [
-      [0, 0],
-      [630, 0],
-      [630, 1020],
-      [0, 1020],
-    ],
-    [
-      [1646, 419],
-      [2240, 364],
-      [2120, 1464],
-      [1420, 1464],
-    ],
-  ),
+const boardTransform = homography(
+  [
+    [0, 0],
+    [boardWidth, 0],
+    [boardWidth, boardHeight],
+    [0, boardHeight],
+  ],
+  [
+    [1646, 419],
+    [2240, 364],
+    [2120, 1464],
+    [1420, 1464],
+  ],
 );
+const transform = matrix3d(boardTransform);
+const boardTemplate = (await rectifiedBoard(boardTransform)).toString('base64');
 for (const locale of Object.keys(locales)) {
   const full = join(outputDirectory, `DV-cjenik-${locale}-2600.webp`);
   await page.setContent(
@@ -225,11 +259,10 @@ for (const locale of Object.keys(locales)) {
       @font-face{font-family:DVMontserrat;src:url(data:font/ttf;base64,${fontBold}) format('truetype');font-weight:700}
       *{box-sizing:border-box}html,body{margin:0;width:2600px;height:1464px;overflow:hidden}
       #scene{position:relative;width:2600px;height:1464px;background:url(data:image/webp;base64,${sourceData}) center/cover}
-      #board{position:absolute;left:0;top:0;width:630px;height:1020px;overflow:hidden;padding:39px 34px 25px;background:#fafafa;color:#005d70;font-family:DVMontserrat,Arial,sans-serif;transform-origin:0 0;transform:${transform}}
-      .paper-header{height:72px;border-bottom:3px solid #006477;display:flex;align-items:flex-start;justify-content:space-between}
-      .brand{margin:10px 0 0;font-size:29px;font-weight:700;font-style:italic;letter-spacing:-1.7px}.brand span{color:#b2c827}
-      .paper-header div{text-align:right}.paper-header h1{margin:1px 0 6px;font-size:20px;line-height:1;font-weight:700;font-style:italic}.paper-header div p{margin:0;font-size:7.2px;color:#506b73}
-      .price-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-top:20px}.price-column{display:flex;flex-direction:column;gap:18px}.price-card,.other-services{position:relative;border-top:4px solid #006477;padding:14px 8px 10px}.price-card h2,.other-services>h2{margin:0;color:#005d70;font-size:9px;line-height:1.18;font-weight:700}.price-card ul{margin:10px 0 0;padding:0;list-style:none;font-size:6.1px;line-height:1.38}.price-card li{position:relative;padding-left:10px}.price-card li::before{position:absolute;left:0;color:#b2c827;content:'•';font-size:10px;line-height:.8}.price-card .amount{position:absolute;right:8px;bottom:11px;margin:0;font-size:12.4px;font-weight:700;white-space:nowrap}.first-visit{height:246px}.four-implants{height:250px}.premium{height:254px}.whitening{height:272px}.whitening ul{font-size:6px;line-height:1.34}.other-services{height:510px;padding-top:15px}.other-services>h2{font-size:11px;margin-bottom:17px}.other-services div{min-height:99px;border-bottom:1px solid #d6dfe1;padding:0 0 14px}.other-services div+div{padding-top:16px}.other-services h3{margin:0;font-size:8px;line-height:1.22;font-weight:700}.other-services p{margin:14px 0 0;text-align:right;font-size:12.4px;font-weight:700;white-space:nowrap}footer{position:absolute;right:34px;bottom:20px;left:34px;color:#506b73;font-size:5.8px;line-height:1;text-align:left}
+      #board{position:absolute;left:0;top:0;width:${boardWidth}px;height:${boardHeight}px;overflow:hidden;background:url(data:image/png;base64,${boardTemplate}) center/100% 100%;color:#005d70;font-family:DVMontserrat,Arial,sans-serif;transform-origin:0 0;transform:${transform}}
+      .erase{position:absolute;display:block;background:rgb(241,236,238)}.header-copy{left:390px;top:43px;width:230px;height:79px}.first-body{left:66px;top:170px;width:252px;height:282px}.first-price{display:none}.whitening-body{left:344px;top:170px;width:266px;height:354px}.whitening-price{display:none}.four-body{left:82px;top:470px;width:246px;height:248px}.four-price{display:none}.other-heading{left:344px;top:542px;width:266px;height:338px}.other-row-one,.other-row-two,.other-row-three,.other-row-four{display:none}.premium-body{left:92px;top:733px;width:255px;height:246px}.premium-price{display:none}.footer-copy{left:88px;top:978px;width:440px;height:20px}
+      .localized-header{position:absolute;top:51px;left:402px;width:214px;text-align:right}.localized-header h1{margin:0;font-size:20px;line-height:1;font-weight:700;font-style:italic}.localized-header p{margin:8px 0 0;font-size:7px;line-height:1.1;color:#506b73}
+      .localized-card{position:absolute;color:#1a2225}.localized-card h2,.other-services h2,.other-services h3{margin:0;color:#172126;font-size:10px;line-height:1.17;font-weight:700}.localized-card ul{margin:12px 0 0;padding:0;list-style:none;font-size:6.8px;line-height:1.42}.localized-card li{position:relative;padding-left:11px}.localized-card li::before{position:absolute;left:0;color:#b2c827;content:'•';font-size:10px;line-height:.75}.localized-card .price-label{position:absolute;bottom:10px;left:0;margin:0;font-size:6.5px;line-height:1;color:#172126}.localized-card .amount{position:absolute;right:0;bottom:1px;margin:0;color:#005d70;font-size:17px;line-height:1;font-weight:700;white-space:nowrap}.first-visit{left:74px;top:177px;width:233px;height:265px}.whitening{left:353px;top:177px;width:244px;height:335px}.whitening ul{font-size:6.5px;line-height:1.36}.four-implants{left:88px;top:480px;width:226px;height:225px}.premium{left:99px;top:744px;width:232px;height:223px}.premium ul{font-size:6.3px;line-height:1.36}.other-services{position:absolute;top:551px;left:353px;width:242px;color:#172126}.other-services>h2{font-size:11px;margin-bottom:15px}.other-services div{position:relative;height:80px}.other-services h3{font-size:8.5px;line-height:1.18}.other-services p{position:absolute;bottom:18px;left:0;margin:0;font-size:6.5px}.other-services strong{position:absolute;right:0;bottom:8px;color:#005d70;font-size:17px;line-height:1;font-weight:700;white-space:nowrap}footer{position:absolute;top:982px;left:94px;right:34px;margin:0;color:#506b73;font-size:5.8px;line-height:1;text-align:left}
     </style><div id="scene">${priceBoard(locale)}</div>`,
   );
   await sharp(await page.screenshot({ type: 'png' }))
