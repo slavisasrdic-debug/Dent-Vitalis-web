@@ -4,6 +4,9 @@ Ovaj runbook priprema prelazak statičkog Astro releasea na postojeći
 `dentvitalis.com` cPanel. Nije nalog za objavu. GitHub ostaje izvor koda;
 Cloudflare preview nije dio produkcijskog toka.
 
+Za jednokratno povezivanje GitHuba i cPanela, bez ikakve objave javnog weba,
+slijediti [cPanel-github-stage-setup.md](cPanel-github-stage-setup.md).
+
 ## Potvrđeni postojeći raspored
 
 - Web-korijen: `/home2/dentvita/public_html`.
