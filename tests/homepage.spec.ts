@@ -161,6 +161,8 @@ test('modal reuses one form and never sends an inquiry', async ({ page }) => {
     'http://127.0.0.1:4321/',
   );
   await expect(dialog.locator('[name=company]')).toHaveValue('');
+  await expect(dialog.locator('[name=csrf]')).toHaveValue('');
+  await expect(dialog.locator('[name=gct]')).toHaveValue('');
   await page.keyboard.press('Escape');
   await expect(dialog).toBeHidden();
   await expect(trigger).toBeFocused();
