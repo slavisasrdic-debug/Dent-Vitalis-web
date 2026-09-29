@@ -84,7 +84,10 @@ export const home = {
     ...withAccentedPhrase('Questo potrebbe interessarti', 'interessarti'),
     description: `Per maggiori informazioni, inviaci un messaggio o contattaci al numero verde:\u00a0${clinic.tollFree}`,
   },
-  faq: { eyebrow: 'FAQ', title: 'Domande e risposte' },
+  faq: {
+    eyebrow: 'FAQ',
+    ...withAccentedPhrase('Domande e risposte', 'risposte'),
+  },
 };
 export const services: TeaserCardData[] = [
   {

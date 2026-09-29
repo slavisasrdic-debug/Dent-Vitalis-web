@@ -67,7 +67,10 @@ export const home = {
     description: t(1, 9, 4),
   },
   informationAction: { href: '#contatti', label: t(1, 9, 27) },
-  faq: { eyebrow: t(1, 10, 0), title: t(1, 10, 2) },
+  faq: {
+    eyebrow: t(1, 10, 0),
+    ...withAccentedPhrase(t(1, 10, 2), 'Antworten'),
+  },
   faqAction: { href: route('faq'), label: t(1, 10, 2) },
 };
 export const services = itServices.map((card, i) => ({
