@@ -171,6 +171,20 @@ test('modal reuses one form and never sends an inquiry', async ({ page }) => {
   );
 });
 
+test('tracking is prepared without loading production tags in preview', async ({
+  page,
+}) => {
+  const thirdPartyRequests: string[] = [];
+  page.on('request', (request) => {
+    if (/googletagmanager|google-analytics|cookieyes/i.test(request.url())) {
+      thirdPartyRequests.push(request.url());
+    }
+  });
+  await page.reload();
+  await expect(page.locator('script[data-tracking-bootstrap]')).toHaveCount(1);
+  expect(thirdPartyRequests).toEqual([]);
+});
+
 test('upload validates local type/size and WhatsApp never uses a placeholder', async ({
   page,
 }) => {

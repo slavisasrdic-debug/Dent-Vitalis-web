@@ -1,0 +1,30 @@
+---
+const liveHosts = ['dentvitalis.com', 'www.dentvitalis.com'];
+const gtmContainer = 'GTM-K3QGWS';
+const cookieYesScript =
+  'https://cdn-cookieyes.com/client_data/d7e1f5db5a6fc013962bcb2d/script.js';
+---
+
+<script
+  is:inline
+  data-tracking-bootstrap
+  define:vars={{ liveHosts, gtmContainer, cookieYesScript }}
+>
+  (() => {
+    if (!liveHosts.includes(window.location.hostname.toLowerCase())) return;
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+
+    const firstScript = document.getElementsByTagName('script')[0];
+    const gtm = document.createElement('script');
+    gtm.async = true;
+    gtm.src = `https://www.googletagmanager.com/gtm.js?id=${gtmContainer}`;
+    firstScript.parentNode?.insertBefore(gtm, firstScript);
+
+    const cookieYes = document.createElement('script');
+    cookieYes.async = true;
+    cookieYes.src = cookieYesScript;
+    document.head.append(cookieYes);
+  })();
+</script>

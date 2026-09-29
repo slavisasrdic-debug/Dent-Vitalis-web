@@ -7,6 +7,7 @@ import RevealSetup from '../components/RevealSetup.astro';
 import SEOHead from '../components/SEOHead.astro';
 import Favicon from '../components/Favicon.astro';
 import FontStyles from '../components/FontStyles.astro';
+import TrackingBootstrap from '../components/TrackingBootstrap.astro';
 import type { PageSEO } from '../content/seo';
 import * as hr from '../content/hr/site';
 import * as sl from '../content/sl/site';
@@ -59,7 +60,8 @@ const copy = ui(lang);
     ><meta charset="UTF-8" /><meta
       name="viewport"
       content="width=device-width, initial-scale=1"
-    /><Favicon /><slot name="head" /><FontStyles /><RevealSetup /><SEOHead
+    /><Favicon /><slot name="head" /><FontStyles /><RevealSetup
+    /><TrackingBootstrap /><SEOHead
       title={title}
       description={description}
       lang={lang}
