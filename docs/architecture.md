@@ -6,7 +6,10 @@ Repozitorij sadrži samo temelj projekta. Nema implementiranog dizajna, sadržaj
 
 ## Odluke
 
-- Astro generira potpuno statički output (`output: 'static'`).
+- Astro generira potpuno statički output (`output: 'static'`). GitHub je izvor
+  koda. Cloudflare služi samo razvojnom prikazu i nije dio produkcijske
+  migracije; produkcija se objavljuje iz GitHuba na postojeći cPanel server i
+  `dentvitalis.com`.
 - TypeScript koristi Astro `strictest` postavke.
 - UI će koristiti native Astro komponente i običan CSS s centralnim tokenima.
 - JavaScript se dodaje progresivno samo tamo gdje je potreban za interakciju.
@@ -14,6 +17,10 @@ Repozitorij sadrži samo temelj projekta. Nema implementiranog dizajna, sadržaj
 - Strukturirani sadržaj i statusi prijevoda žive u `/data`; komponente ih ne dupliciraju.
 - Izvorni asseti ostaju izvan `/public`, a samo optimizirane izvedenice ulaze u `/public/assets`.
 - Redirect inventar ostaje hosting-neutralan CSV dok produkcijski hosting nije potvrđen.
+- Pri cPanel migraciji statični build ne smije pregaziti postojeći server-side
+  `/send`. Prije objave treba pronaći, sigurnosno kopirati i potvrditi njegovu
+  dostavu, upload obradu, zaštitu od spama i eventualni CRM. Ugovor i release
+  gate su u [form-delivery-migration.md](form-delivery-migration.md).
 
 ## Predviđene granice
 

@@ -1,5 +1,16 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+**2026-09-29 — objava i forme.** GitHub je radni izvor. Cloudflare ostaje samo
+razvojni prikaz i ukida se pri migraciji; produkcijska objava ide iz GitHuba na
+cPanel server za `dentvitalis.com`. Prije svake objave na serveru se izrađuju i
+provjeravaju najmanje dvije prethodne verzije izvan `public_html`. Statični build
+ne smije pregaziti server-side `/send`: prije prijelaza treba ga pronaći,
+sigurnosno kopirati i potvrditi primatelje, eventualni CRM, upload, `csrf` i
+`gct` tok. Novi frontend već čuva determinističke parametre `url`, dupli
+`form_agreement` (`0`/`1`), tracking polja i honeypot `company`; stvarna dostava
+ostaje isključena do provjere legacy handlera. Detalji:
+[form-delivery-migration.md](form-delivery-migration.md).
+
 23. rujna — zaprimljeni su DE/EN/SL prijevodni DOCX izvori. Dodani su u Git LFS i iz njih su izrađeni lossless katalozi `data/translations/{de,en,sl}-source.json`; struktura i razlike dokumentirane su u [locale-translation-intake.md](locale-translation-intake.md). Jezici još nisu uključeni u javne rute, navigaciju ili hreflang; slijedi semantičko mapiranje prema HR modelu.
 
 17. rujna — kartice naslovnice i skupnih stranica sada dijele eksplicitne `TeaserCard` tipografske tokene: naslov 28px/700, opis 18px/400, cijena 22px/500, uz zajednički Montserrat. Mobilni naslov i postojeći layout breakpointi ostaju isti; sadržaj i iznosi nisu mijenjani. Regresija uspoređuje HR/IT home i directory kartice.

@@ -144,7 +144,8 @@ test('modal reuses one form and never sends an inquiry', async ({ page }) => {
   await expect(page.locator('[data-contact-form]')).toHaveCount(1);
   await dialog.locator('[name=name]').fill('Local QA');
   await dialog.locator('[name=email]').fill('qa@example.invalid');
-  await dialog.locator('[name=form_agreement]').check();
+  await dialog.locator('[name=phone]').fill('+385 91 000 0000');
+  await dialog.locator('input[type=checkbox][name=form_agreement]').check();
   await dialog.locator('[data-submit]').click();
   await expect(dialog.locator('[role=status]')).toContainText(
     'Nessun messaggio è stato inviato',
@@ -153,6 +154,13 @@ test('modal reuses one form and never sends an inquiry', async ({ page }) => {
   await expect(dialog.locator('[name=form_placement]')).toHaveValue(
     'home_popup',
   );
+  await expect(
+    dialog.locator('input[type=hidden][name=form_agreement]'),
+  ).toHaveValue('0');
+  await expect(dialog.locator('[name=url]')).toHaveValue(
+    'http://127.0.0.1:4321/',
+  );
+  await expect(dialog.locator('[name=company]')).toHaveValue('');
   await page.keyboard.press('Escape');
   await expect(dialog).toBeHidden();
   await expect(trigger).toBeFocused();

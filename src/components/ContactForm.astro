@@ -78,19 +78,35 @@ const id = `inquiry-${crypto.randomUUID()}`;
     </div>
     <p id={`${id}-file-error`} class="file-error" aria-live="polite" hidden></p>
   </div>
+  <input type="hidden" name="form_agreement" value="0" />
   <label class="consent"
     ><input type="checkbox" name="form_agreement" value="1" required /><span
       >{content.privacyPrefix}<a href={content.privacyHref}>{content.privacy}</a
       ></span
     ></label
   >
-  <input type="hidden" name="lang" value={lang} /><input
+  <input type="hidden" name="url" /><input
     type="hidden"
-    name="source_page_url"
-  /><input type="hidden" name="source_page_path" /><input
+    name="lang"
+    value={lang}
+  /><input type="hidden" name="source_page_url" /><input
     type="hidden"
-    name="source_page_title"
-  /><input type="hidden" name="form_placement" value={placement} />
+    name="source_page_path"
+  /><input type="hidden" name="source_page_title" /><input
+    type="hidden"
+    name="form_placement"
+    value={placement}
+  />
+  <div class="honeypot" aria-hidden="true">
+    <label
+      >Company<input
+        name="company"
+        type="text"
+        tabindex="-1"
+        autocomplete="off"
+      /></label
+    >
+  </div>
   <div class="submit-row">
     <button class="submit" type="button" data-submit disabled
       ><span>{content.submit}</span><span class="submit-arrow"
@@ -289,6 +305,15 @@ const id = `inquiry-${crypto.randomUUID()}`;
     font-size: 14px;
     line-height: 1.45;
   }
+  .honeypot {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
   .upload-button:focus-within {
     outline: 3px solid var(--color-accent);
     outline-offset: 3px;
@@ -457,6 +482,7 @@ const id = `inquiry-${crypto.randomUUID()}`;
         const source = new URL(location.href);
         source.hash = '';
         const fields = {
+          url: location.href,
           source_page_url: source.href,
           source_page_path: source.pathname,
           source_page_title: document.title,
