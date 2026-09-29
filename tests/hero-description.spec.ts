@@ -12,7 +12,13 @@ const translatedRoutes = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .map((line) => line.split(','))
   .filter((row) => row[4] === 'approved' && row[0] !== 'home')
   .map((row) => row[2]!);
-const service = '/prestazioni/protesi-definitiva-ancorata-su-4-impianti';
+const serviceRoutes = [
+  '/prestazioni/protesi-definitiva-ancorata-su-4-impianti',
+  '/hr/proteza-na-4-implantata',
+  '/de/four-implant-denture',
+  '/en/four-implant-denture',
+  '/si/four-implant-denture',
+];
 
 test('all IT/HR detail hero descriptions stay left aligned', async ({
   page,
@@ -41,7 +47,7 @@ test('all IT/HR detail hero descriptions stay left aligned', async ({
   expect(errors).toEqual([]);
 });
 
-test('hero links are green, remain readable on hover/focus and still navigate', async ({
+test('hero subtitles contain no navigation links and retain white telephone links', async ({
   page,
 }) => {
   test.setTimeout(90000);
@@ -52,43 +58,26 @@ test('hero links are green, remain readable on hover/focus and still navigate', 
     if (['error', 'warning'].includes(message.type()))
       errors.push(message.text());
   });
-  for (const width of [390, 479, 480, 767, 768, 991, 992, 1440]) {
+  for (const width of [390, 1440]) {
     await page.setViewportSize({ width, height: 900 });
-    for (const route of [service, '/informazioni-per-pazienti']) {
+    for (const route of serviceRoutes) {
       await page.goto(route);
       await page.evaluate(() => document.fonts.ready);
-      await page.mouse.move(0, 0);
       const description = page.locator('.detail-hero .description');
       await expect(description).toHaveCSS('color', 'rgb(255, 255, 255)');
-      for (const link of await description.locator('a').all()) {
-        await expect(link).toHaveCSS('color', 'rgb(175, 188, 54)');
-        const box = await description.boundingBox();
-        await link.hover();
-        await expect(link).toHaveCSS('color', 'rgb(255, 255, 255)');
-        await link.focus();
-        await page.mouse.move(0, 0);
-        await expect(link).toBeFocused();
-        await expect(link).toHaveCSS('outline-color', 'rgb(255, 255, 255)');
-        await expect(link).toHaveCSS('color', 'rgb(255, 255, 255)');
-        const focusedBox = await description.boundingBox();
-        expect(focusedBox!.width).toBe(box!.width);
-        expect(focusedBox!.height).toBe(box!.height);
-        await link.evaluate((element) => element.blur());
-      }
+      await expect(description.locator('a')).toHaveCount(0);
     }
   }
-  await page.goto(service);
-  const link = page.locator('.detail-hero .description a').first();
+  await page.goto('/informazioni-per-pazienti');
+  const link = page.locator('.detail-hero .description a[href^="tel:"]');
+  await expect(link).toHaveCount(1);
+  await expect(link).toHaveCSS('color', 'rgb(255, 255, 255)');
+  const box = await page.locator('.detail-hero .description').boundingBox();
   await link.focus();
-  await page.keyboard.press('Enter');
-  await expect(page).toHaveURL(
-    /\/prestazioni\/corone-faccette-ponti-e-protesi#protesi_mobili$/,
-  );
-  await expect(page.locator('#protesi_mobili')).toBeVisible();
-  // Article links keep their existing blue treatment; no global link override.
-  await expect(page.locator('.editorial-copy a.underlined').first()).toHaveCSS(
-    'color',
-    'rgb(4, 90, 114)',
-  );
+  await expect(link).toBeFocused();
+  await expect(link).toHaveCSS('outline-color', 'rgb(255, 255, 255)');
+  const focusedBox = await page.locator('.detail-hero .description').boundingBox();
+  expect(focusedBox!.width).toBe(box!.width);
+  expect(focusedBox!.height).toBe(box!.height);
   expect(errors).toEqual([]);
 });

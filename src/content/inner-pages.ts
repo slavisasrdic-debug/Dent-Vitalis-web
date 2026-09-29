@@ -140,6 +140,27 @@ function stripEditorialInternalLinks(parts: InlineContent[]): InlineContent[] {
   });
 }
 
+// Hero subtitles are explanatory copy, not a navigation surface. Preserve an
+// explicitly supplied telephone link, but render every other source link as
+// its original text.
+function stripHeroSubtitleLinks(parts: InlineContent[]): InlineContent[] {
+  return parts.flatMap((part) => {
+    if (part.kind === 'link') {
+      const children = stripHeroSubtitleLinks(part.children);
+      return part.href.startsWith('tel:') ? [{ ...part, children }] : children;
+    }
+    if (
+      part.kind === 'strong' ||
+      part.kind === 'em' ||
+      part.kind === 'sup' ||
+      part.kind === 'sub' ||
+      part.kind === 'qualification'
+    )
+      return [{ ...part, children: stripHeroSubtitleLinks(part.children) }];
+    return [part];
+  });
+}
+
 function stripEditorialLinks(blocks: ContentBlock[]): ContentBlock[] {
   return blocks.map((block) => {
     if (block.type === 'group')
@@ -166,7 +187,14 @@ export const innerPages = completeRelatedServices(
     .map(linkDoctorResearch)
     .map(applyPublicLegal)
     .map(replaceItalianPaymentCode)
-    .map((page) => ({ ...page, blocks: stripEditorialLinks(page.blocks) }))
+    .map((page) => ({
+      ...page,
+      hero: {
+        ...page.hero,
+        description: stripHeroSubtitleLinks(page.hero.description),
+      },
+      blocks: stripEditorialLinks(page.blocks),
+    }))
     .map((page) =>
       linkFirstVisitFaq(page, {
         route: '/faq',

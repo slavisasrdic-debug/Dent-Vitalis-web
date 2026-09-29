@@ -99,9 +99,9 @@ const { content } = Astro.props;
     font-weight: 400;
     line-height: 1.4;
   }
-  /* Rich-text links need their own foreground on the blue hero surface. */
+  /* Hero subtitles are white; only telephone links remain interactive. */
   .description :global(a) {
-    color: var(--color-accent);
+    color: var(--color-white);
     text-decoration: underline;
     text-underline-offset: 0.15em;
   }
