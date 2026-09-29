@@ -63,12 +63,16 @@ test('two one-second pulses, five-second rest and fade-in first frame', async ({
   });
 });
 
-test('the floating WhatsApp button uses the DentVitalis accent green', async ({
+test('WhatsApp controls use the DentVitalis accent green', async ({
   page,
 }) => {
   await page.goto('/hr/');
   const chat = page.locator('.chat-toggle').first();
   await expect(chat).toHaveCSS('background-color', 'rgb(175, 188, 54)');
+  await chat.click();
+  const action = page.locator('.chat-action a');
+  await expect(action).toHaveCSS('background-color', 'rgb(175, 188, 54)');
+  await expect(action).toHaveCSS('color', 'rgb(23, 60, 70)');
 });
 
 test('real playback progresses smoothly and holds fully visible for five seconds', async ({
