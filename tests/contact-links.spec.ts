@@ -38,6 +38,38 @@ test('contact tokenization is literal and excludes dates and identifiers', () =>
     expect(contactLinks(text).some((p) => p.kind === 'link')).toBe(false);
 });
 
+test('phone links stay bold and unbroken on mobile in every locale', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+
+  for (const route of ['/', '/hr/', '/de/', '/en/', '/si/']) {
+    await page.goto(route, { waitUntil: 'networkidle' });
+    const phones = await page.locator('a[href^="tel:"]').evaluateAll((links) =>
+      links
+        .filter((link) => link.getClientRects().length > 0)
+        .map((link) => {
+          const style = getComputedStyle(link);
+          return {
+            href: link.getAttribute('href'),
+            rects: link.getClientRects().length,
+            fontWeight: style.fontWeight,
+            whiteSpace: style.whiteSpace,
+          };
+        }),
+    );
+
+    expect(phones, route).not.toEqual([]);
+    for (const phone of phones) {
+      expect(phone.whiteSpace, `${route} ${phone.href}`).toBe('nowrap');
+      expect(Number(phone.fontWeight), `${route} ${phone.href}`).toBeGreaterThanOrEqual(
+        700,
+      );
+      expect(phone.rects, `${route} ${phone.href}`).toBe(1);
+    }
+  }
+});
+
 test('all IT/HR routes have no unlinked contact literals or nested anchors', async ({
   page,
   request,

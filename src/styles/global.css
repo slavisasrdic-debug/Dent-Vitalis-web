@@ -48,6 +48,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
+a[href^='tel:'] {
+  font-weight: 700;
+  white-space: nowrap;
+}
 h1,
 h2,
 h3,
