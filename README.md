@@ -1,6 +1,9 @@
 # DentVitalis web
 
-Statički Astro projekt s **28 talijanskih i 27 hrvatskih stranica**, rekonstruiranih prema prihvaćenoj Webflow referenci i potvrđenim hrvatskim izvorima. Native Astro komponente, centralizirani sadržaj i lokalni asseti; bez Webflow runtimea. Ovo je `noindex` klijentski preview, ne zamjena produkcijskog weba. IT/HR preview putanje su odobrene; DE/EN/SI prijevodi i konačna SEO migracija nisu dovršeni.
+Statički Astro projekt DentVitalisa na pet jezika (IT, HR, DE, EN i SI), s
+native Astro komponentama, centraliziranim sadržajem i lokalnim assetima — bez
+Webflow runtimea. Javni Pages prikaz služi samo razvoju i ostaje `noindex`;
+produkcijska migracija cilja postojeći cPanel za `dentvitalis.com`.
 
 ## Klijentski preview — Cloudflare Pages
 
@@ -19,7 +22,7 @@ git lfs pull --include="public/assets/**" --exclude="" && npm run build
 
 LFS korak dohvaća potrebne javne slike, video i fontove prije builda; asseti se ne regeneriraju iz Webflow exporta. Objavljuje se samo `dist/`, ne repozitorij, ZIP-ovi, izvorni dokumenti ni QA reference. Cloudflareov raniji clone korak može zasebno preuzeti LFS objekte; ova naredba ne jamči da je cijeli checkout ograničen samo na `public/assets/`.
 
-Korisnik je 9. rujna 2026. odobrio ovaj javni klijentski preview. Sadržajne stranice zadržavaju `noindex, nofollow`; to nije zaštita pristupa — svatko s linkom može ih otvoriti. Obrasci i dalje ne šalju upite. `dentvitalis.com`, DNS, produkcijski canonicali i postojeći javni web nisu promijenjeni. Naziv **Production branch** u Pages postavkama označava granu ovog preview projekta, ne odobrenje produkcijske migracije.
+Korisnik je 9. rujna 2026. odobrio ovaj javni klijentski preview. Sadržajne stranice zadržavaju `noindex, nofollow`; to nije zaštita pristupa — svatko s linkom može ih otvoriti. Na Pages/local hostu obrasci ne šalju upite. `dentvitalis.com`, DNS, produkcijski canonicali i postojeći javni web nisu promijenjeni. Naziv **Production branch** u Pages postavkama označava granu ovog preview projekta, ne odobrenje produkcijske migracije.
 
 `public/_headers` pojačava preview zabranu indeksiranja HTTP zaglavljem, uključujući deployment poddomene. Hashirani CSS/JS/fontovi i verzionirani videozapisi imaju jednogodišnji browser cache; HTML ostaje na zadanoj revalidaciji. `videoUrl()` tijekom builda računa SHA-256 stvarnih video bajtova i dodaje `?v=`, pa novi video dobiva novi cache ključ. Ne uklanjati taj parametar niti postavljati `immutable` globalno. [Cloudflare pravila za statička zaglavlja](https://developers.cloudflare.com/pages/configuration/headers/).
 
@@ -83,6 +86,8 @@ npm run preview
 | `npm run format:check`         | Provjera formatiranja bez izmjena                   |
 | `npm test`                     | Playwright testovi projektnih temelja               |
 | `npm run test:preview`         | Izolirane provjere pokretanja, locka i public porta |
+| `npm run form:preflight`       | Ugovor obrazaca i lokalizirane thank-you rute       |
+| `npm run release:prepare`      | Build i SHA-256 manifest za cPanel release          |
 | `npm run validate`             | Sve provjere i production build                     |
 
 ## Struktura

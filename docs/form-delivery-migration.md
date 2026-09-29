@@ -57,11 +57,13 @@ Telefon ostaje obvezan prema izričitoj aktualnoj odluci za novi web, iako ga
 stari javni HTML tehnički ne označava obveznim. Upload klijentski dopušta PDF,
 JPG i PNG do 8 MB; server mora ponovno provesti istu ili strožu provjeru.
 
-`csrf` i `gct` se ne smiju unaprijed ugraditi ili izmišljati. Prije aktivacije
-klijent ih mora dobiti iz istog cPanel session konteksta kao `/send`, ili novi
-handler mora izdati potvrđenu ekvivalentnu zaštitu. `npm run form:preflight`
-provjerava statični form payload na svih pet jezičnih rootova, dok je slanje u
-previewu i dalje isključeno.
+`csrf` i `gct` se ne smiju unaprijed ugraditi ili izmišljati. Klijent na
+`dentvitalis.com` i `www.dentvitalis.com` ih dohvaća iz istog cPanel session
+konteksta kao `/send`, zatim šalje postojeći `multipart/form-data` ugovor i
+jednom ponavlja CSRF handshake ako ga legacy handler zatraži. Na svakom drugom
+hostu (lokalni i Pages preview) slanje je i dalje isključeno. `npm run
+form:preflight` provjerava statični payload i lokaliziranu success rutu na svih
+pet jezičnih rootova.
 
 ## Obvezni koraci prije aktivacije
 
@@ -72,8 +74,8 @@ previewu i dalje isključeno.
    `config/local.php`; tajne ne ulaze u Git, build artefakt ni klijentski kod.
 3. Statični release ne smije pregaziti `/send` i `/gct`: cPanel rewrite mora
    te rute proslijediti potvrđenom legacy bootstrapu ili provjerenoj zamjeni.
-4. Frontend se prebacuje na stvarni `multipart/form-data` tek kada je token tok
-   dostupan na istoj domeni.
+4. Prije switcha potvrditi da je token tok dostupan na istoj domeni; klijent je
+   već pripremljen, ali se aktivira samo pod stvarnim produkcijskim hostnameom.
 5. Test s `test@example.com` provjerava legacy testni e-mail put bez CRM leada.
    CRM se provjerava samo kroz potvrđeni testni endpoint ili odobreni testni
    zapis bez podataka pacijenta.

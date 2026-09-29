@@ -3,9 +3,14 @@ import type { TeaserCardData } from './home';
 import de from '../../data/translations/de-source.json';
 import en from '../../data/translations/en-source.json';
 import sl from '../../data/translations/sl-source.json';
+import {
+  isTranslationTable,
+  type TranslationParagraph,
+  type TranslationSource,
+} from './translation-source';
 
 type Locale = 'de' | 'en' | 'sl';
-type Source = { blocks: any[] };
+type Source = TranslationSource;
 
 const sources: Record<Locale, Source> = { de, en, sl };
 const routeByService = [
@@ -21,11 +26,11 @@ const serviceImages: [ImageKey, ImageKey][] = [
   ['Dv-4-2.webp', 'Dv-4-2.webp'],
 ];
 
-function table(source: Source, id: string) {
+function table(source: Source, id: string): TranslationParagraph[][][] {
   const block = source.blocks.find((candidate) => candidate.id === id);
-  if (!block || block.type !== 'table')
+  if (!isTranslationTable(block))
     throw new Error(`Missing translation table ${id}`);
-  return block.rows as any[][][];
+  return block.rows;
 }
 
 export function localizedHome(locale: Locale) {
@@ -34,8 +39,11 @@ export function localizedHome(locale: Locale) {
   const intro = table(source, 't1')[1]!.flatMap((cell) => cell);
   const serviceRows = table(source, 't1').slice(2, 6);
   const cards: TeaserCardData[] = serviceRows.map((row, index) => {
-    const values = row.flatMap((cell) => cell).filter((item) => item.text.trim()).map((item) => item.text.trim());
-    const [eyebrow, title, description, price] = values;
+    const values = row
+      .flatMap((cell) => cell)
+      .filter((item) => item.text.trim())
+      .map((item) => item.text.trim());
+    const [eyebrow = '', title = '', description = '', price = ''] = values;
     const [desktopImage, mobileImage] = serviceImages[index]!;
     return {
       eyebrow,

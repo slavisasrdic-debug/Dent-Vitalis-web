@@ -17,11 +17,11 @@ const requiredNames = [
   'gct',
 ];
 const expectedLanguageByRoot = new Map([
-  ['index.html', 'it'],
-  ['hr/index.html', 'hr'],
-  ['de/index.html', 'de'],
-  ['en/index.html', 'en'],
-  ['si/index.html', 'sl'],
+  ['index.html', { lang: 'it', success: '/grazie' }],
+  ['hr/index.html', { lang: 'hr', success: '/hr/hvala' }],
+  ['de/index.html', { lang: 'de', success: '/de/dank' }],
+  ['en/index.html', { lang: 'en', success: '/en/thanks' }],
+  ['si/index.html', { lang: 'sl', success: '/si/hvala' }],
 ]);
 
 async function htmlFiles(directory) {
@@ -80,7 +80,7 @@ for (const file of files) {
   }
 }
 
-for (const [outputPath, language] of expectedLanguageByRoot) {
+for (const [outputPath, expected] of expectedLanguageByRoot) {
   const html = await readFile(new URL(outputPath, dist), 'utf8');
   const form = contactForms(html)[0];
   if (!form) {
@@ -90,9 +90,13 @@ for (const [outputPath, language] of expectedLanguageByRoot) {
   const langField = form.match(
     /<input\b[^>]*\bname=["']lang["'][^>]*\bvalue=["']([^"']+)["'][^>]*>/i,
   );
-  if (langField?.[1] !== language)
+  if (langField?.[1] !== expected.lang)
     failures.push(
-      `${outputPath}: expected lang=${language}, found ${langField?.[1] ?? 'none'}`,
+      `${outputPath}: expected lang=${expected.lang}, found ${langField?.[1] ?? 'none'}`,
+    );
+  if (attribute(form, 'data-success') !== expected.success)
+    failures.push(
+      `${outputPath}: expected data-success=${expected.success}, found ${attribute(form, 'data-success') ?? 'none'}`,
     );
 }
 

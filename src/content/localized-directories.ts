@@ -1,30 +1,32 @@
 import type { ImageKey } from '../components/ResponsiveImage.astro';
 import type { TeaserCardData } from './home';
 import { localizedHome } from './localized-home';
+import {
+  isTranslationTable,
+  type TranslationSource,
+} from './translation-source';
 
 type Locale = 'de' | 'en' | 'sl';
 
-const directoryImages: Record<
-  'about' | 'information',
-  [ImageKey, ImageKey][]
-> = {
-  about: [
-    ['I-nostri-specialist-2i.webp', 'I-nostri-specialisti-mobile-2.webp'],
-    ['Tutto-in-un-unico-luogo-1.webp', 'DV-44.webp'],
-    ['Come-raggiungerci.webp', 'Come-raggiungerci.webp'],
-    ['Laboratorio-odontotecnico-1.webp', 'Laboratorio-odontotecnico-1.webp'],
-  ],
-  information: [
-    ['Prima-visita-gratuita.webp', 'Prima-visita-gratuita.webp'],
-    ['Alloggio-hero-2600.webp', 'Alloggio-hero-2600.webp'],
-    ['Come-raggiungerci.webp', 'Come-raggiungerci.webp'],
-    ['Pagamento-flessibile.webp', 'Pagamento-flessibile.webp'],
-    ['Garanzie.webp', 'Garanzie.webp'],
-    ['Tempi-del-trattamento.webp', 'Tempi-del-trattamento.webp'],
-    ['Sedazione-cosciente-1.webp', 'Sedazione-cosciente-mobile.webp'],
-    ['Tempi-del-trattamento-3.webp', 'Tempi-del-trattamento-3.webp'],
-  ],
-};
+const directoryImages: Record<'about' | 'information', [ImageKey, ImageKey][]> =
+  {
+    about: [
+      ['I-nostri-specialist-2i.webp', 'I-nostri-specialisti-mobile-2.webp'],
+      ['Tutto-in-un-unico-luogo-1.webp', 'DV-44.webp'],
+      ['Come-raggiungerci.webp', 'Come-raggiungerci.webp'],
+      ['Laboratorio-odontotecnico-1.webp', 'Laboratorio-odontotecnico-1.webp'],
+    ],
+    information: [
+      ['Prima-visita-gratuita.webp', 'Prima-visita-gratuita.webp'],
+      ['Alloggio-hero-2600.webp', 'Alloggio-hero-2600.webp'],
+      ['Come-raggiungerci.webp', 'Come-raggiungerci.webp'],
+      ['Pagamento-flessibile.webp', 'Pagamento-flessibile.webp'],
+      ['Garanzie.webp', 'Garanzie.webp'],
+      ['Tempi-del-trattamento.webp', 'Tempi-del-trattamento.webp'],
+      ['Sedazione-cosciente-1.webp', 'Sedazione-cosciente-mobile.webp'],
+      ['Tempi-del-trattamento-3.webp', 'Tempi-del-trattamento-3.webp'],
+    ],
+  };
 
 const directoryRoutes = {
   about: ['specialists', 'all-in-one', 'directions', 'laboratory'],
@@ -55,12 +57,12 @@ export async function localizedDirectory(
   locale: Locale,
   kind: 'about' | 'information',
 ) {
-  const source = (await sourceByLocale[locale]()).default as any;
+  const source = (await sourceByLocale[locale]()).default as TranslationSource;
   const tableId = kind === 'about' ? 't7' : 't9';
-  const table = source.blocks.find((block: any) => block.id === tableId);
-  if (!table || table.type !== 'table')
+  const table = source.blocks.find((block) => block.id === tableId);
+  if (!isTranslationTable(table))
     throw new Error(`Missing ${locale} ${tableId} translation table`);
-  const rows = table.rows as any[][][];
+  const rows = table.rows;
   const images = directoryImages[kind];
   const routes = directoryRoutes[kind];
   const fallback = localizedHome(locale).services[0]!;

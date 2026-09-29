@@ -20,15 +20,19 @@ stagingu.
 
 Prije promjene servera treba postojati:
 
-1. Točan commit na `main`, uspješan `npm run build` i
-   `npm run form:preflight`.
+1. Točan commit na `main` i uspješan `npm run release:prepare`. Naredba gradi
+   `dist/`, provjerava ugovor obrazaca i dodaje `dist/release-manifest.json`
+   (SHA-256 i veličina svake objavljive datoteke). Manifest je zapis releasea,
+   ne tajni i ne commitira se.
 2. Dvije provjerene, vremenski označene verzije izvan `public_html`:
    kompletan trenutačni `public_html` i kompletan `application` direktorij.
 3. SHA-256 manifest backupa i provjeren postupak vraćanja posljednje verzije.
 4. Potvrđen PHP runtime, `curl`, `mbstring`, session, `upload_max_filesize` i
    `post_max_size` za produkcijski handler.
-5. Potvrđena odluka o form bridgeu: postojeći application bootstrap ili nova
-   samostalna implementacija. Ne miješati oba bez specifikacije.
+5. Potvrđena odluka o form bridgeu: za ovaj release zadržava se postojeći
+   application bootstrap. Statični klijent na stvarnoj domeni uzima `/gct`,
+   šalje `/send` i vodi na postojeće thank-you rute. Ne uvoditi drugu
+   implementaciju bez zasebne specifikacije.
 
 ## Form bridge acceptance
 
@@ -42,6 +46,10 @@ Bridge mora omogućiti isti-origin tok bez izlaganja tajni klijentu:
    polju.
 4. Uspjeh ide na IT `/grazie`, HR `/hr/hvala`, DE `/de/dank`, EN `/en/thanks`
    ili SI `/si/hvala`.
+
+Klijent je namjerno aktivan samo pod `dentvitalis.com` ili
+`www.dentvitalis.com`; razvojni/Pages preview ne dohvaća tokene niti može
+poslati upit.
 
 Za statični release nije dovoljno kopirati `send.phtml`: treba legacy
 bootstrap, session, mail konfiguracija, PHPMailer, e-mail predložak, vendor i

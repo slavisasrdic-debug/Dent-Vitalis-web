@@ -1,5 +1,12 @@
 # Handoff — stanje projekta 11. rujna 2026.
 
+**2026-09-29 — aktualizacija pripreme.** Novi web ima IT, HR, DE, EN i SI
+putanje. Statični obrazac na stvarnoj domeni sada uzima legacy `/gct` token,
+šalje `/send` i koristi postojeće thank-you rute; na Pages/local previewu ne
+šalje upite. `npm run release:prepare` radi build, provjeru ugovora obrazaca i
+stvara ignorirani `dist/release-manifest.json` sa SHA-256 popisom releasea.
+Detalji/rollback: [cPanel-migration-runbook.md](cPanel-migration-runbook.md).
+
 **2026-09-29 — objava i forme.** GitHub je radni izvor. Cloudflare ostaje samo
 razvojni prikaz i ukida se pri migraciji; produkcijska objava ide iz GitHuba na
 cPanel server za `dentvitalis.com`. Prije svake objave na serveru se izrađuju i

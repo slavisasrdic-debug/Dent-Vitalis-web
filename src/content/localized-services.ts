@@ -1,4 +1,11 @@
-import { localizedPageRegistry, type NewLocale } from './localized-page-registry';
+import {
+  localizedPageRegistry,
+  type NewLocale,
+} from './localized-page-registry';
+import {
+  isTranslationTable,
+  type TranslationSource,
+} from './translation-source';
 
 export interface LocalizedServiceDraft {
   locale: NewLocale;
@@ -17,19 +24,22 @@ const sources = {
   sl: () => import('../../data/translations/sl-source.json'),
 } as const;
 
-function tableRows(source: any, id: string): string[][] {
-  const table = source.blocks.find((block: any) => block.id === id);
-  if (!table || table.type !== 'table') throw new Error(`Missing source table ${id}`);
-  return table.rows.map((row: any[]) =>
-    row.flatMap((cell) => cell)
-      .map((paragraph: any) => paragraph.text.trim())
+function tableRows(source: TranslationSource, id: string): string[][] {
+  const table = source.blocks.find((block) => block.id === id);
+  if (!isTranslationTable(table)) throw new Error(`Missing source table ${id}`);
+  return table.rows.map((row) =>
+    row
+      .flatMap((cell) => cell)
+      .map((paragraph) => paragraph.text.trim())
       .filter(Boolean),
   );
 }
 
 /** Converts the supplied service tables into renderer-neutral content. */
-export async function localizedServices(locale: NewLocale): Promise<LocalizedServiceDraft[]> {
-  const source = (await sources[locale]()).default as any;
+export async function localizedServices(
+  locale: NewLocale,
+): Promise<LocalizedServiceDraft[]> {
+  const source = (await sources[locale]()).default as TranslationSource;
   return localizedPageRegistry[locale]
     .filter((page) => page.family === 'service')
     .map((page) => {
