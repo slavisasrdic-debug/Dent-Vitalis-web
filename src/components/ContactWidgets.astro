@@ -313,9 +313,16 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
       background: white;
     }
     .mobile-contact :global(.button) {
+      background: var(--color-accent);
+      color: var(--color-on-accent);
       text-transform: uppercase;
       font-size: 17px;
       height: 48px;
+    }
+    .mobile-contact :global(.button:hover),
+    .mobile-contact :global(.button:focus-visible) {
+      background: var(--color-accent-hover);
+      color: var(--color-on-accent);
     }
     .mobile-contact :global(.button > :is(svg, .label)) {
       animation: sticky-cta-attention var(--sticky-cta-cycle-duration)

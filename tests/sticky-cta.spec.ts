@@ -59,7 +59,7 @@ test('two one-second pulses, five-second rest and fade-in first frame', async ({
     for (const opacity of sample.opacity)
       expect(opacity).toBeCloseTo(expected[index]!, 2);
     expect(sample.box).toEqual(result.samples[0]!.box);
-    expect(sample.background).toBe('rgb(4, 90, 114)');
+    expect(sample.background).toBe('rgb(175, 188, 54)');
   });
 });
 
