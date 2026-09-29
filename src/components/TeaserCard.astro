@@ -129,8 +129,8 @@ const hasBottomContent = Boolean(
     align-items: center;
   }
   .price {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: var(--card-price-size);
+    font-weight: var(--card-price-weight);
     margin: 4px;
   }
   .teaser-card .price.price-text {
@@ -138,11 +138,6 @@ const hasBottomContent = Boolean(
   }
   .price.inset {
     padding: 4px;
-  }
-  .home .price,
-  .directory .price {
-    font-size: var(--card-price-size);
-    font-weight: var(--card-price-weight);
   }
   @media screen and (min-width: 992px) {
     .price {

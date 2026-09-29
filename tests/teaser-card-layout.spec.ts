@@ -2,6 +2,37 @@ import { expect, test } from '@playwright/test';
 
 test.use({ contextOptions: { reducedMotion: 'reduce' } });
 
+test('service-card prices use the same home typography in every card context', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  const priceStyle = async (route: string, selector: string) => {
+    await page.goto(route, { waitUntil: 'networkidle' });
+    return page.locator(selector).evaluateAll((prices) =>
+      prices.map((price) => {
+        const style = getComputedStyle(price);
+        return { fontSize: style.fontSize, fontWeight: style.fontWeight };
+      }),
+    );
+  };
+
+  const home = await priceStyle('/hr/', '.teaser-card.home .price');
+  expect(home.length).toBeGreaterThan(0);
+  for (const styles of [
+    await priceStyle('/hr/usluge', '.teaser-card.directory .price'),
+    await priceStyle(
+      '/hr/fiksni-most-na-implantatima',
+      '.teaser-card.related .price',
+    ),
+  ]) {
+    expect(styles.length).toBeGreaterThan(0);
+    expect(styles.every((style) => style.fontSize === '22px')).toBe(true);
+    expect(styles.every((style) => style.fontWeight === '500')).toBe(true);
+  }
+  expect(home.every((style) => style.fontSize === '22px')).toBe(true);
+  expect(home.every((style) => style.fontWeight === '500')).toBe(true);
+});
+
 for (const javaScriptEnabled of [true, false]) {
   test(`empty action row does not inflate the sedation card (JS ${javaScriptEnabled})`, async ({
     browser,
