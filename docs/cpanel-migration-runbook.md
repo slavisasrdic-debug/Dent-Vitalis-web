@@ -78,6 +78,16 @@ URL migracije iz `data/redirects.csv` ostaju zasebne, neodobrene odluke.
 
 ## Form bridge acceptance
 
+### CookieYes kroz postojeći GTM — odobreno 1. listopada 2026.
+
+`TrackingBootstrap` učitava samo postojeći `GTM-K3QGWS`, i to samo na
+`dentvitalis.com` / `www.dentvitalis.com`. Objavljeni GTM već sadrži CookieYes
+za račun `d7e1f5db5a6fc013962bcb2d` i Consent Mode postavke. Po izričitoj
+odluci vlasnika uklonjen je dodatni CookieYes loader iz novog weba. Ne dodavati
+zasebne CookieYes, GA4 ili Ads skripte. Preview ne učitava ove integracije.
+Mockirani browser test provjerava loader, ne potvrđuje stvarne privole ni
+konverzije; to ostaje dio produkcijskog prihvata prije migracije.
+
 ### Thank-you adrese — provjera 1. listopada 2026.
 
 Read-only pregled obuhvatio je 205 javnih odgovora: sitemap, linkane unutarnje
