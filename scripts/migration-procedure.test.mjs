@@ -245,6 +245,20 @@ test('latest read-only form audit holds new upload and cannot close delivery or 
   assert.match(report.procedure.nextCheck, /before-new-upload/);
 });
 
+test('private backend candidate is not a replacement handler or evidence of live delivery', () => {
+  const candidate = report.preparedPrivateBackendCandidate;
+  assert.equal(candidate.totalFilesIncludingManifest, 5);
+  assert.equal(candidate.allExtractedHashesVerifiedLocally, true);
+  assert.equal(candidate.allLocalExtractedFilesMode, '0644');
+  assert.equal(candidate.fullHandlerIncluded, false);
+  assert.equal(candidate.configurationIncluded, false);
+  assert.equal(candidate.privateDataIncluded, false);
+  assert.equal(candidate.serverUploadedOrInstalled, false);
+  assert.equal(candidate.realDeliveryTestPerformed, false);
+  assert.equal(candidate.crmBusinessResponseContractVerified, false);
+  assert.equal(candidate.manualReviewedDiffRequired, true);
+});
+
 test('paused SSH workflow exits before checkout/build/server connection', async () => {
   const workflow = await readFile(
     new URL('.github/workflows/stage-cpanel-release.yml', root),

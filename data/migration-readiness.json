@@ -252,6 +252,7 @@
     "runtimeIndependentlyVerified": false,
     "allServerReleaseHashesVerified": false,
     "newUploadHeldUntilBackendPlanResolved": true,
+    "uploadHoldScope": "public-release-replacement-upload-private-runtime-preparation-requires-separate-approval",
     "tokenTemplateInstalledAsReported": false,
     "uploadGuardInstalledAsReported": false,
     "preparedLocalPhpFilesMatchPublicManifestAndPrivateArchive": true,
@@ -305,6 +306,24 @@
       "database",
       "CRM"
     ]
+  },
+  "preparedPrivateBackendCandidate": {
+    "archiveName": "dentvitalis-private-backend-candidate-20261001-delivery-v1.zip",
+    "compressedZipBytes": 4977,
+    "sha256": "4140276484fb4c19ea758b4d1e436c74e192efde0ec605f3ea9c5b2b53ff1d9b",
+    "sourceCodeCommit": "25e0570b74ece78c85704179aef33802e62158f2",
+    "totalFilesIncludingManifest": 5,
+    "logicalUnpackedBytesIncludingManifest": 9503,
+    "allExtractedHashesVerifiedLocally": true,
+    "allLocalExtractedFilesMode": "0644",
+    "crcPassed": true,
+    "fullHandlerIncluded": false,
+    "configurationIncluded": false,
+    "privateDataIncluded": false,
+    "serverUploadedOrInstalled": false,
+    "realDeliveryTestPerformed": false,
+    "crmBusinessResponseContractVerified": false,
+    "manualReviewedDiffRequired": true
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",

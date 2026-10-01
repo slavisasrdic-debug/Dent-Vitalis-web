@@ -21,6 +21,11 @@ dostava još nisu potvrđeni. Nije instalirano na serveru. Stari privatni ZIP im
 `0666` metadata i nije završni instalacijski paket. Prikaz prostora sada je
 `978 MB / 1,46 GB`; server hash/inode/runtime/dostava i dalje otvoreni.
 Detalji i aktualni sljedeći korak u runbooku i `preActivationReadOnlyReview`.
+Mali privatni candidate `dentvitalis-private-backend-candidate-20261001-delivery-v1.zip`
+je pripremljen: 4.977 B, 5 datoteka, CRC/hash/Extract 0644 potvrđeni lokalno,
+bez handlera/konfiguracije/tajni. Kodni commit `25e0570`; veličina/hash u JSON-u.
+Nije uploadan niti je poslan stvarni upit. Runtime prihvat privatne dopune
+prethodi javnom uploadu/switchu uz zasebno odobrenje; ne ponavljati javni build.
 
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git
 repozitorija. Vlasnik je odobrio token, pohranu, test i nastavak migracije.

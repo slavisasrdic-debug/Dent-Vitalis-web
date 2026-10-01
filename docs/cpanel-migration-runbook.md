@@ -79,7 +79,9 @@ Nije proveo sve serverske hashove, runtime, POST ili dostavu. To ne zatvara gate
 Prikaz potrošnje sada je `978 MB / 1,46 GB`, približno `0,5 GB` rezerve,
 bez dokaza inodeova/slobodnog filesystema. Stare procjene nisu aktualna garancija.
 
-**Novi upload zadržati dok se ne dovrši plan backend izmjena.** Nedostajući
+**Novi javni upload zadržati dok se ne dovrši backend prihvat.** Mali privatni
+paket za kontroliranu instalaciju/runtime test dolazi prije javnog switcha,
+ali zahtijeva zasebno odobrenje i verificirani backup. Nedostajući
 `form-tokens.phtml` i `form-request-guard.php` već su lokalno pripremljeni i
 njihovi bajtovi/hashi odgovaraju manifestu; nisu instalirani na serveru.
 Guard rješava zasebnu validaciju privitka, ne SMTP/CRM rezultat. Izvorni mali
@@ -136,6 +138,15 @@ postavlja dodatke privatno i ručno primjenjuje diff na stvarni handler.
 Ako kod ne odgovara anchorima, stati za novi pregled. Ne prepisivati handler
 redaktiranim sourceom, ne mijenjati ključ/primatelje ili `_send.phtml`.
 Do izričitog odobrenja instalacije/testa nema cPanel zapisa, POST-a ili switcha.
+
+**Mali privatni paket je pripremljen i lokalno verificiran:**
+`dentvitalis-private-backend-candidate-20261001-delivery-v1.zip`, `4.977 B`,
+SHA-256 `4140276484fb4c19ea758b4d1e436c74e192efde0ec605f3ea9c5b2b53ff1d9b`.
+Kodna verzija `25e0570b74ece78c85704179aef33802e62158f2`. Ima 5 datoteka
+(2 PHP dodatka, diff, README, manifest), `9.503 B` raspakirano. CRC, svi
+hashovi i stvarni lokalni Extract `0644` potvrđeni. Nema cijelog handlera,
+konfiguracije, tajni ili privatnih podataka. Nije uploadan/instaliran na server.
+Javni `-perms.zip` nije regeneriran: frontend već podržava ovaj error tok.
 
 Nakon pregleda: pripremiti jedan kontrolirani skup PHP izmjena i finalne
 pakete; vlasnički odobrena instalacija uz verificirani backup prethodi
