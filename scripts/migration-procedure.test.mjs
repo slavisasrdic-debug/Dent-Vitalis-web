@@ -116,6 +116,38 @@ test('credential-free TCP failure does not establish runner cause or justify a t
   );
 });
 
+test('approved private stage does not bypass pending full backup or authorize live overwrites', () => {
+  const progress = report.fileManagerProgress;
+  assert.equal(
+    report.ownerAuthorization.isolatedStageWhileBackupVerificationPending,
+    true,
+  );
+  assert.match(progress.isolatedStage.target, /^\/home2\/dentvita\/releases\//);
+  assert.equal(progress.isolatedStage.uploadedAsReported, false);
+  assert.equal(progress.isolatedStage.extractedAsReported, false);
+  assert.equal(progress.isolatedStage.mayOverwriteExistingTarget, false);
+  assert.equal(progress.isolatedStage.mayModifyPublicHtmlOrApplication, false);
+  assert.equal(
+    progress.isolatedStage.mayActivateWithoutBackupAndFormAcceptance,
+    false,
+  );
+  assert.equal(
+    progress.backupVerification.completedFullOffServerCopyVerified,
+    false,
+  );
+  assert.equal(progress.backupVerification.activationGateClosed, false);
+  assert.equal(
+    progress.backupVerification.policyBypassAttemptedAsReported,
+    false,
+  );
+  assert.ok(
+    progress.serverArchive.includesAsReported.includes(
+      'application-including-data',
+    ),
+  );
+  assert.match(report.procedure.nextCheck, /without-public-activation/);
+});
+
 test('paused SSH workflow exits before checkout/build/server connection', async () => {
   const workflow = await readFile(
     new URL('.github/workflows/stage-cpanel-release.yml', root),

@@ -77,11 +77,29 @@ migraciju, ali **ne aktivira novi web**.
 Ako browser alat zahtijeva neposrednu potvrdu prije zapisa, navesti točnu
 radnju i privatnu ciljnu putanju. Ne zaobilaziti njegovu sigurnosnu potvrdu.
 
+**Aktualno:** agent je napravio privatni
+`backups/pre-migration-20261001/dentvitalis-full-files-20261001.zip` (224,79 MB
+prema cPanelu), s cijelim `application/data` prema nalazu, bez prijavljene
+greške kompresije. Ne ponavljati kompresiju. Agentov download bio je nedovršen;
+vlasnik je naknadno screenshotom pokazao lokalni `dentvitalis-full-files-20261001.zip`.
+To identificira traženi naziv, ne potvrđuje bajtove ili integritet. CRC i lokalna
+obnova novog backupa ostaju otvoreni; agent prvo koristi tu postojeću datoteku.
+Agent ne zaobilazi blokadu `chrome://downloads`; vlasnik provjerava preuzimanje
+osobno. Privatni backup ne slati u chat, GitHub ili javnu mapu.
+
+Vlasnik je naknadno izričito zatražio upload novog weba. **Dopušten je samo
+izolirani stage u novoj privatnoj mapi**, bez prepisivanja postojećih datoteka,
+javnog weba ili PHP-a. Taj stage može prethoditi dovršetku lokalne provjere
+backupa jer ne zamjenjuje postojeći web. To ne zatvara backup gate: javna
+aktivacija i backend izmjene i dalje čekaju sve niže navedene preduvjete.
+Novi javni ZIP agentu je lokalno prošao veličinu/hash/CRC i 692 datoteke/
+65.436.532 B; upload i raspakiravanje na serveru još nisu izvršeni.
+
 1. Ne stvarati token niti pokretati GitHub API/SSH testove. Prije kompresije i
    uploada provjeriti aktualni prostor, kvotu i dostupni inode prikaz; zadnja
    procjena nije aktualna garancija. Ako podatak nije dostupan, prijaviti to.
    Ne oslobađati prostor brisanjem bloga, poruka, logova, koša ili backupa.
-2. U privatnom `/home2/dentvita/backups/pre-migration-20261001/` napraviti
+2. **Završeno prema agentu — ne ponavljati.** U privatnom `/home2/dentvita/backups/pre-migration-20261001/` napraviti
    arhivu trenutačnih `public_html`, cijelog `application` **uključujući `data`**,
    i roditeljskog `.htaccess`. Postojeću arhivu ne prepisivati. Ne otvarati
    poruke pacijenata ili prikazivati konfiguraciju/tajne. ZIP bez `data` nije
@@ -93,7 +111,7 @@ radnju i privatnu ciljnu putanju. Ne zaobilaziti njegovu sigurnosnu potvrdu.
    ili konfiguracije. Ne slati privatni backup u chat, GitHub ili javni artifact.
    To je backup weba/backenda, ne dokaz kompletnog cPanel računa ili baze bloga;
    baze i druge servise ne mijenjati.
-4. Tek nakon verificiranog backupa prenijeti **javni statički ZIP**
+4. Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
    `dentvitalis-web-production-candidate-20261001-af6dc28.zip` u novi privatni
    `/home2/dentvita/releases/20261001-af6dc28/`, pa raspakirati tamo. Arhiva:
    `57.946.023 B`, SHA-256
@@ -174,7 +192,9 @@ i `docs/form-delivery-migration.md`. Statički paket nije samodostatan za forme:
 Release manifest čuva njihove očekivane SHA-256 i jasno označuje da ih nije
 instalirao. Ti PHP izvori nikada ne idu u `public_html` ili Pages build.
 
-Prije promjene servera treba postojati:
+Prije zamjene javnog weba ili promjene privatnog PHP backenda treba postojati
+sljedeće. Izričito odobren privatni stage novih datoteka bez prepisivanja nije
+aktivacija i ne zatvara ove gates:
 
 1. Točan commit na `main` i provjeren paket. `npm run release:prepare` zadano
    izrađuje preview paket; za aktivaciju na domeni koristiti zasebnu

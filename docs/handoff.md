@@ -17,6 +17,14 @@ Codespaces TCP test na 2083 timeouta prije TLS-a, ali točan uzrok na GitHub
 runneru nije utvrđen. API automatizacija je pauzirana, bez ponavljanja testa
 ili tokena. Sljedeći zadatak u runbooku: puni privatni backup i File Manager
 stage izvan javnog weba, **bez aktivacije**. Odobrenje ne zatvara release gates.
+Privatni backup `dentvitalis-full-files-20261001.zip` (224,79 MB prema cPanelu)
+stvoren je prema agentu, uključujući `application/data`. Vlasnik je pokazao
+lokalni ZIP istog naziva; CRC/obnova još nisu potvrđeni. Ne tražiti ponovno
+preuzimanje bez razloga iz provjere. Vlasnik je naknadno odobrio upload/raspakiravanje samo u novi
+privatni `/home2/dentvita/releases/20261001-af6dc28/`, bez prepisivanja datoteka
+ili aktivacije. Taj stage može napredovati odvojeno od lokalne provjere backupa;
+izmjene javnog weba/PHP-a i dalje čekaju zatvorene gates. Ne ponovno komprimirati
+backup, ponavljati API/SSH ili zaobilaziti blokadu `chrome://downloads`.
 Raniji environment PUT ove integracije bio je 403; ne ponavljati ga.
 Ovdje nema cPanel browser sesije/tokena. SSH stage je zaustavljen prije
 povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallback,

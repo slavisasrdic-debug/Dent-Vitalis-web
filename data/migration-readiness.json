@@ -13,6 +13,7 @@
     "readOnlyApiProbe": true,
     "proceedWithMigration": true,
     "fileManagerMigration": true,
+    "isolatedStageWhileBackupVerificationPending": true,
     "releaseGatesMayBeBypassed": false,
     "dnsChangesAuthorized": false,
     "privateDataOverwriteAuthorized": false
@@ -24,7 +25,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "browser-agent-private-backup-and-isolated-File-Manager-stage",
+    "nextCheck": "owner-approved-isolated-File-Manager-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -66,7 +67,7 @@
         "retryOnlyAfter": "new-transport-diagnosis-or-connectivity-change-not-token-recreation"
       },
       "fileManager": {
-        "status": "read-only-UI-observed-write-operations-not-tested",
+        "status": "server-backup-created-as-reported-release-upload-not-tested",
         "role": "owner-selected-manual-migration-with-same-backup-and-form-gates",
         "selectedByOwnerOn": "2026-10-01",
         "retryOnlyAfter": "approved-isolated-upload-and-extraction-test"
@@ -98,6 +99,8 @@
       "GitHub-environment-creation-through-current-integration-after-HTTP-403",
       "authenticated-API-probe-without-new-transport-evidence-after-run-36861772566",
       "token-creation-or-replacement-after-network-failure",
+      "backup-regeneration-because-client-download-is-incomplete",
+      "browser-tool-opening-chrome-downloads-after-policy-block",
       "symlink-switch",
       "API-menu-inspection",
       "local-full-rebuild-or-screenshot-matrix-for-documentation-changes",
@@ -158,6 +161,50 @@
     },
     "productionUploadAttempted": false,
     "productionActivationAttempted": false
+  },
+  "fileManagerProgress": {
+    "reportedOn": "2026-10-01",
+    "source": "owner-pasted-browser-agent-report-and-File-Manager-screenshot",
+    "serverArchive": {
+      "path": "/home2/dentvita/backups/pre-migration-20261001/dentvitalis-full-files-20261001.zip",
+      "displayedSize": "224.79 MB",
+      "includesAsReported": [
+        "public_html",
+        "application-including-data",
+        "parent-.htaccess"
+      ],
+      "compressionErrorsReported": false,
+      "contentsIndependentlyInspected": false,
+      "exactBytesAndSha256Verified": false
+    },
+    "backupVerification": {
+      "status": "owner-shows-full-files-ZIP-local-CRC-and-extraction-not-yet-verified",
+      "localArchiveNameShownByOwner": "dentvitalis-full-files-20261001.zip",
+      "localArchiveSizeAndIntegrityIndependentlyVerified": false,
+      "completedFullOffServerCopyVerified": false,
+      "localCrcVerified": false,
+      "localExtractionVerified": false,
+      "browserToolChromeDownloadsPolicyBlockReported": true,
+      "policyBypassAttemptedAsReported": false,
+      "activationGateClosed": false
+    },
+    "newPublicPackageLocalChecksAsReportedByAgent": {
+      "matchesPreparedCandidate": "af6dc28",
+      "sizeAndSha256Match": true,
+      "crcPassed": true,
+      "fileCount": 692,
+      "logicalUnpackedBytes": 65436532
+    },
+    "isolatedStage": {
+      "ownerApprovedOn": "2026-10-01",
+      "target": "/home2/dentvita/releases/20261001-af6dc28/",
+      "uploadedAsReported": false,
+      "extractedAsReported": false,
+      "mayOverwriteExistingTarget": false,
+      "mayModifyPublicHtmlOrApplication": false,
+      "mayActivateWithoutBackupAndFormAcceptance": false
+    },
+    "liveWebPhpDnsAndVersionUnchangedAsReported": true
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",
