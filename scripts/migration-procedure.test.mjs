@@ -68,7 +68,11 @@ test('owner approval is recorded without inferring access, completed gates or re
   );
   assert.equal(installation.privateDataRestoreAuthorizedByThisApproval, false);
   assert.equal(report.procedure.routes.cpanelApi.nextAuthorityNeeded, null);
-  assert.equal(report.serverChangesApplied, false);
+  assert.equal(report.serverChangesApplied, true);
+  assert.equal(
+    report.privateBackendInstallationProgress.appliedBy,
+    'owner-authorized-browser-agent-not-this-workspace',
+  );
   assert.equal(report.realTestMessagesSent, false);
   assert.deepEqual(
     report.deploymentAutomation.automaticRollbackMustNotRestore,
@@ -194,7 +198,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(report.procedure.nextCheck, /private-backend-installation/);
+  assert.match(report.procedure.nextCheck, /ordinary-browser-session-review/);
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',
@@ -292,11 +296,42 @@ test('private backend candidate is not a replacement handler or evidence of live
   assert.equal(candidate.serverExtractedFileModeAsReported, '0644');
   assert.equal(candidate.serverStageDirectoryModeAsReported, '0755');
   assert.equal(candidate.serverAllHashesIndependentlyVerified, false);
-  assert.equal(candidate.serverInstalled, false);
-  assert.equal(candidate.legacySendPatchApplied, false);
+  assert.equal(candidate.serverInstalled, true);
+  assert.equal(candidate.legacySendPatchApplied, true);
   assert.equal(candidate.realDeliveryTestPerformed, false);
   assert.equal(candidate.crmBusinessResponseContractVerified, false);
   assert.equal(candidate.manualReviewedDiffRequired, true);
+});
+
+test('installed backend and independent GET acceptance do not imply browser, POST or CRM acceptance', () => {
+  const installed = report.privateBackendInstallationProgress;
+  assert.equal(installed.helpersInstalledAsReported, true);
+  assert.equal(installed.patchReadBackMatchesAsReported, true);
+  assert.equal(installed.helperAndHandlerModeAsReported, '0644');
+  assert.equal(installed.rollbackDirectoryModeAsReported, '0700');
+  assert.equal(installed.rollbackHandlerModeAsReported, '0600');
+  assert.equal(installed.agentTokenGetOutcome, 'ERR_BLOCKED_BY_CLIENT');
+  assert.equal(installed.browserBlockCauseEstablished, false);
+  assert.equal(installed.ordinaryBrowserFlowVerified, false);
+  const get = report.productionGetTokenAcceptance;
+  assert.equal(get.method, 'GET-only');
+  assert.equal(get.formTokensStatus, 200);
+  assert.equal(get.gctStatus, 200);
+  assert.equal(get.csrfAndGctNonEmpty, true);
+  assert.equal(get.gctMatchesJsonInSameSession, true);
+  assert.equal(get.repeatedCsrfAndGctUnchanged, true);
+  assert.equal(get.sessionCookieObservedAndUnchanged, true);
+  assert.equal(get.formTokensCacheControl, 'private, no-store, max-age=0');
+  assert.equal(get.corsAllowOriginPresent, false);
+  assert.equal(get.tokenOrCookieValuesRecorded, false);
+  assert.equal(get.effectivePhpVersionAndExtensionsVerified, false);
+  assert.equal(get.realPostOrDeliveryTestRun, false);
+  assert.equal(get.ordinaryBrowserFlowVerified, false);
+  assert.equal(get.sessionCookieAttributes.secure, true);
+  assert.equal(get.sessionCookieAttributes.httpOnly, false);
+  assert.equal(get.sessionCookieAttributes.sameSite, null);
+  assert.equal(installed.publicSiteActivated, false);
+  assert.equal(report.realTestMessagesSent, false);
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

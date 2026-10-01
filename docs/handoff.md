@@ -7,21 +7,25 @@ uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
 nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
-**Najnovije:** browser agent je uploadao i raspakirao mali privatni PHP paket
-u `/home2/dentvita/releases/20261001-private-backend-delivery-v1/`.
-Vlasnikov izvještaj/screenshot potvrđuju pet datoteka `0644`, mapu `0755` prema
-agentu i bez prijavljenih grešaka raspakiravanja. README je pročitan.
-Serverski hashovi nisu neovisno potvrđeni. Stao je prije kopiranja u
-`application`/`public_html`, izmjene `/send` i slanja upita. Ne ponavljati stage;
-vlasnik je naknadno potvrdio integritet lokalnog backupa i dodatnu kopiju.
-Vlasnik je zatim zasebno odobrio instalaciju dva privatna PHP dodatka,
-minimalni `/send` diff i GET provjeru tokena. Izvedba još nije potvrđena.
-Prvo kopija starog handlera za kodni povratak; postupak i privatna putanja
-u runbooku. Odobrenje ne uključuje POST/stvarnu dostavu ili javnu aktivaciju.
-Patch utječe i na postojeće forme jer mijenja zajednički handler.
+**Najnovije:** vlasnički odobrenu instalaciju dva privatna PHP dodatka i
+minimalnog `/send` diffa agent je završio, read-back/`0644` potvrđeni prema
+izvještaju. Kopija za povratak je
+`/home2/dentvita/backups/php-before-delivery-v1-20261001/send.phtml`
+(`0700` mapa / `0600` kopija; handler izvorno `0644`). Agentov Chrome blokirao
+je token GET-ove `ERR_BLOCKED_BY_CLIENT`; uzrok nije utvrđen.
+Neovisni Codespaces GET prihvat u 15:19:39 UTC prošao je: pet GET-ova 200,
+neprazni JSON tokeni, `no-store`, isti GCT između endpointa, stabilan CSRF/GCT
+i ista sesija, bez zapisivanja tokena/cookieja. Cookie ima Secure true,
+HttpOnly false i SameSite nije eksplicitno naveden; sigurnost/kompatibilnost
+cookieja i obični browser tok ostaju otvoreni. Nema POST-a/stvarne dostave
+ili javne aktivacije. PHP ekstenzije i CRM poslovni ugovor nisu time provjereni.
+Privatni stage ostaje sačuvan; ne ponavljati instalaciju ili backup (vlasnik
+je potvrdio lokalni integritet i dodatnu kopiju). Serverski source hashovi
+nisu neovisno potvrđeni. Aktualni sljedeći korak je browser/session pregled
+i zasebno odobren inbox/CRM prihvat prije javnog uploada i switcha.
 
 Prethodno je drugi browser agent završio read-only pregled stagea i formi.
-Nema instaliranih PHP token/upload dodataka, runtime/dostava nisu testirani,
+Tada nije bilo instaliranih PHP token/upload dodataka; runtime/dostava nisu bili testirani,
 legacy `ok` može prikriti neuspjelu dostavu. Lokalni dodaci odgovaraju javnom
 manifestu; ne prepakirati javni web samo zbog njihove odsutnosti na serveru.
 Vlasnik je zatražio objedinjavanje prije novih uploada: `-perms.zip` upload je
@@ -30,14 +34,14 @@ nema jezičnih overrideova, `_send.phtml` ostaje netaknut. Pripremljen i lokalno
 testiran je kirurgijski transport patch (SMTP bool/exception, cURL/HTTP/timeout,
 503 + delivery_unconfirmed), bez promjene polja, ključeva ili primatelja.
 SMTP true/CRM 2xx nisu dokaz inboxa/leada: poslovni CRM odgovor i stvarna
-dostava još nisu potvrđeni. Nije instalirano na serveru. Stari privatni ZIP ima
+dostava još nisu potvrđeni. Naknadna instalacija je zabilježena iznad. Stari privatni ZIP ima
 `0666` metadata i nije završni instalacijski paket. Prikaz prostora sada je
 `978 MB / 1,46 GB`; server hash/inode/runtime/dostava i dalje otvoreni.
 Detalji i aktualni sljedeći korak u runbooku i `preActivationReadOnlyReview`.
 Mali privatni candidate `dentvitalis-private-backend-candidate-20261001-delivery-v1.zip`
 je pripremljen: 4.977 B, 5 datoteka, CRC/hash/Extract 0644 potvrđeni lokalno,
 bez handlera/konfiguracije/tajni. Kodni commit `25e0570`; veličina/hash u JSON-u.
-Privatni stage je završen prema agentu; nije instaliran niti je poslan stvarni upit. Runtime prihvat privatne dopune
+Privatni stage i instalacija završeni su prema agentu; nije poslan stvarni upit. Runtime prihvat privatne dopune
 prethodi javnom uploadu/switchu uz zasebno odobrenje; ne ponavljati javni build.
 
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git
@@ -81,8 +85,8 @@ povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallb
 upload i raspakiravanje su potvrđeni, ali korekcija dozvola nije. Symlink aktivacija nije potvrđena.
 
 Novi frontend koristi `/form-tokens` za CSRF/GCT iste PHP sesije i `/send` za
-postojeći e-mail/CRM backend; novi privatni PHP dodatak još nije instaliran na
-serveru. Preview ne šalje upite. Lokalni kandidat `af6dc28` nije dokaz stvarne
+postojeći e-mail/CRM backend; privatni dodaci su instalirani prema agentu,
+GET token prihvat prošao neovisno. Preview ne šalje upite. Lokalni kandidat `af6dc28` nije dokaz stvarne
 dostave. Lokalni ZIP starog weba bez `application/data` nije potpuni backup.
 Puni privatni backup/povratak i odobrena stvarna provjera e-maila i CRM-a
 ostaju preduvjeti aktivacije. Rutinske kodne objave čuvaju dvije prethodne

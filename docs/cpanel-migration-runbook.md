@@ -14,6 +14,30 @@ ručnim File Managerom; API automatizacija je pauzirana. Ni jedan put još nije 
 potvrđen za objavu. SSH nije opći preduvjet migracije. Jedna GitHub akcija za
 produkcijsku objavu još nije implementirana; backup i forme ostaju release gates.
 
+**Najnovije — privatni PHP instaliran, neovisni GET prihvat prošao:** agent
+potvrđuje oba helpera i patch zajedničkog `send.phtml`, sve `0644`, read-back
+prema diffu. Kopija handlera za povratak je
+`/home2/dentvita/backups/php-before-delivery-v1-20261001/send.phtml`
+(`0700` mapa / `0600` kopija, izvorni handler `0644`). Agentovi GET-ovi
+naslovnice i `/send` su 200; `/form-tokens` i `/gct` njegov Chrome blokira
+`ERR_BLOCKED_BY_CLIENT`. Uzrok te klijentske blokade nije utvrđen.
+
+Neovisna provjera iz Codespacesa 2026-10-01 u 15:19:39 UTC koristi samo pet
+GET-ova (`/`, `/send`, `/form-tokens`, `/gct`, opet `/form-tokens`), provjeren
+TLS i cookie jar samo u memoriji. Svi vraćaju 200. `/form-tokens` vraća JSON
+s nepraznim CSRF/GCT i `private, no-store, max-age=0`, bez CORS allow-origin.
+GCT se poklapa između endpointa, oba tokena ostaju ista pri ponovnom dohvatu
+u nepromijenjenoj sesiji. Vrijednosti tokena/cookieja nisu zapisane.
+Cookie: Secure true, HttpOnly false, SameSite nije eksplicitno naveden, path `/`,
+host-only. To nije prihvat sigurnosti cookieja niti običnog browser toka.
+Bez pregleda kompatibilnosti ne mijenjati session postavke.
+
+Nije izveden POST, privitak/SMTP/CRM test ili javna aktivacija. GET `/send`
+potvrđuje odsutnost vidljive parse greške, ne izvršenje POST grane. Efektivna
+PHP verzija/ekstenzije, obični browser, session hardening, CRM poslovni odgovor
+i stvarna inbox/lead potvrda ostaju otvoreni. Ne ponavljati instalaciju ili
+GET audit bez promjene; ne zaobilaziti browser alatnu sigurnosnu politiku.
+
 ### Evidencija — što ne ponavljamo bez novog razloga
 
 | Stavka                                                     | Dokaz/status                                                                                    | Kada ponoviti                                                                                  |
@@ -83,7 +107,8 @@ bez dokaza inodeova/slobodnog filesystema. Stare procjene nisu aktualna garancij
 paket za kontroliranu instalaciju/runtime test dolazi prije javnog switcha,
 ali zahtijeva zasebno odobrenje i verificirani backup. Nedostajući
 `form-tokens.phtml` i `form-request-guard.php` već su lokalno pripremljeni i
-njihovi bajtovi/hashi odgovaraju manifestu; nisu instalirani na serveru.
+njihovi bajtovi/hashi odgovaraju manifestu; u tom ranijem auditu nisu bili
+instalirani. Naknadna instalacija i GET prihvat opisani su na vrhu runbooka.
 Guard rješava zasebnu validaciju privitka, ne SMTP/CRM rezultat. Izvorni mali
 privatni ZIP također nosi `0666` metadata; ne koristiti ga kao završni paket.
 Pripremiti završnu privatnu dopunu s sigurnim dozvolama nakon pregleda slanja.
@@ -153,16 +178,17 @@ paket je uploadan i raspakiran bez prijavljenih grešaka u
 `/home2/dentvita/releases/20261001-private-backend-delivery-v1/`.
 Svih pet payload datoteka postoji i ima `0644`; mapa ima `0755` prema agentu.
 README je pročitan. Potpuni serverski hashovi nisu neovisno potvrđeni.
-Ništa nije kopirano u `application` ili `public_html`, patch nije primijenjen,
-runtime/POST/dostava nisu testirani. Ne ponavljati upload/Extract ovog paketa.
+U toj stage fazi ništa nije bilo kopirano u `application` ili `public_html`;
+patch nije bio primijenjen. Naknadna instalacija opisana je iznad.
+POST/dostava i dalje nisu testirani. Ne ponavljati upload/Extract ovog paketa.
 Vlasnik je naknadno potvrdio provjeru lokalnog backupa i dodatnu kopiju.
 Vlasnik je zatim odgovorio **„Potvrđujem”** na zasebni zahtjev za instalaciju
 dva PHP dodatka, minimalnu izmjenu `/send` i provjeru tokena. To odobrenje ne
-uključuje POST/stvarno slanje ni aktivaciju novog izgleda. Instalacija još nije
+uključuje POST/stvarno slanje ni aktivaciju novog izgleda. Instalacija je zatim
 prijavljena kao izvršena. Ne ponavljati provjeru backupa bez novog razloga.
 Instalacija patcha mijenja zajednički `/send`, dakle utječe i na stare forme.
 
-### Odobrena privatna instalacija i GET provjera — još nije izvršeno
+### Odobrena privatna instalacija — provedeno prema agentu, ne ponavljati
 
 1. File Manager: koristiti već raspakirani
    `/home2/dentvita/releases/20261001-private-backend-delivery-v1/`.

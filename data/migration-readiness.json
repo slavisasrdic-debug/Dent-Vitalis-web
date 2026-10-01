@@ -36,7 +36,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "private-backend-installation-and-token-GET-checks-before-new-upload-without-public-activation",
+    "nextCheck": "ordinary-browser-session-review-and-approved-email-CRM-acceptance-before-new-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -122,7 +122,8 @@
     "unresolvedAcceptance": [
       "restore-test-preserving-live-data",
       "selected-transport-integrity-and-activation-test",
-      "effective-PHP-FPM-and-session",
+      "effective-PHP-FPM-extensions-and-session-cookie-hardening-review",
+      "ordinary-browser-token-flow-after-agent-ERR_BLOCKED_BY_CLIENT",
       "approved-email-and-CRM-receipt-test",
       "legacy-URL-decisions",
       "production-consent-and-conversions"
@@ -345,11 +346,63 @@
     "serverExtractedFileModeAsReported": "0644",
     "serverStageDirectoryModeAsReported": "0755",
     "serverAllHashesIndependentlyVerified": false,
-    "serverInstalled": false,
-    "legacySendPatchApplied": false,
+    "serverInstalled": true,
+    "legacySendPatchApplied": true,
     "realDeliveryTestPerformed": false,
     "crmBusinessResponseContractVerified": false,
     "manualReviewedDiffRequired": true
+  },
+  "privateBackendInstallationProgress": {
+    "reportedOn": "2026-10-01",
+    "source": "owner-pasted-browser-agent-installation-report-and-template-directory-screenshot",
+    "appliedBy": "owner-authorized-browser-agent-not-this-workspace",
+    "helpersInstalledAsReported": true,
+    "helperAndHandlerModeAsReported": "0644",
+    "patchReadBackMatchesAsReported": true,
+    "handlerSourceAndHashesIndependentlyVerified": false,
+    "rollbackHandler": "/home2/dentvita/backups/php-before-delivery-v1-20261001/send.phtml",
+    "rollbackDirectoryModeAsReported": "0700",
+    "rollbackHandlerModeAsReported": "0600",
+    "originalHandlerModeAsReported": "0644",
+    "agentHomepageGetStatus": 200,
+    "agentSendGetStatus": 200,
+    "agentTokenGetOutcome": "ERR_BLOCKED_BY_CLIENT",
+    "agentGctGetOutcome": "ERR_BLOCKED_BY_CLIENT",
+    "browserBlockCauseEstablished": false,
+    "ordinaryBrowserFlowVerified": false,
+    "realPostOrDeliveryTestRun": false,
+    "rollbackPerformed": false,
+    "publicSiteActivated": false
+  },
+  "productionGetTokenAcceptance": {
+    "checkedAtUtc": "2026-10-01T15:19:39.783Z",
+    "source": "Codespaces-independent-HTTP-GET-with-in-memory-session-cookie-and-TLS-verification",
+    "origin": "https://www.dentvitalis.com",
+    "method": "GET-only",
+    "homepageStatus": 200,
+    "sendGetStatus": 200,
+    "formTokensStatus": 200,
+    "gctStatus": 200,
+    "repeatedFormTokensStatus": 200,
+    "formTokensContentType": "application/json; charset=utf-8",
+    "formTokensCacheControl": "private, no-store, max-age=0",
+    "corsAllowOriginPresent": false,
+    "csrfAndGctNonEmpty": true,
+    "gctMatchesJsonInSameSession": true,
+    "repeatedCsrfAndGctUnchanged": true,
+    "sessionCookieObservedAndUnchanged": true,
+    "sessionCookieAttributes": {
+      "secure": true,
+      "httpOnly": false,
+      "sameSite": null,
+      "path": "/",
+      "domain": null
+    },
+    "tokenOrCookieValuesRecorded": false,
+    "phpErrorVisible": false,
+    "effectivePhpVersionAndExtensionsVerified": false,
+    "realPostOrDeliveryTestRun": false,
+    "ordinaryBrowserFlowVerified": false
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",
@@ -601,6 +654,6 @@
     "production-cookie-consent-and-conversions-verified",
     "rollback-tested-before-switch"
   ],
-  "serverChangesApplied": false,
+  "serverChangesApplied": true,
   "realTestMessagesSent": false
 }

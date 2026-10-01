@@ -13,14 +13,17 @@
 
 ### Najnoviji objedinjeni pregled prije aktivacije — 1. listopada 2026.
 
-Browser agent potvrđuje da pripremljeni PHP dodaci još nisu instalirani.
-Njihovi lokalni hashovi odgovaraju manifestu javnog releasea; to ne znači da
-`/form-tokens` već radi na serveru. Upload guard neće ispraviti legacy lažni
-uspjeh SMTP/CRM-a. Redaktirani aktualni handler i Mail bool ugovor sada su
-pregledani; lokalno je pripremljen transport patch za SMTP/cURL/HTTP greške.
-Vraća 503 i delivery_unconfirmed, ne prepisuje konfiguraciju ili ključeve.
-Nije instaliran; CRM poslovni odgovor i stvarna dostava ostaju neprovjereni.
-Novi upload je zadržan do objedinjene pripreme;
+Browser agent potvrđuje instalaciju oba PHP dodatka i minimalnog transport
+patcha zajedničkog `/send`, bez izmjene konfiguracije ili ključeva, `0644`.
+Handler je sačuvan za kodni povratak. Chromeovi token GET-ovi blokirani su
+`ERR_BLOCKED_BY_CLIENT`; uzrok blokade nije utvrđen. Neovisni HTTP GET prihvat
+iz Codespacesa u 15:19:39 UTC potvrđuje 200, JSON s oba tokena, `no-store`,
+poklapanje GCT-a i stabilan CSRF/GCT unutar iste sesije. Tokeni nisu zapisani.
+Cookie: Secure true, HttpOnly false, SameSite nije eksplicitno naveden.
+Obični browser, cookie hardening, stvarni POST/privitak, efektivne ekstenzije,
+CRM poslovni odgovor i stvarna dostava ostaju neprovjereni. Transport patch
+za SMTP/cURL/HTTP greške nije dokaz CRM poslovne potvrde.
+Novi javni upload je zadržan do backend prihvata;
 operativni slijed je isključivo u cPanel runbooku.
 
 Nalaz navodi validacijske provjere e-maila/URL-a i primatelje po jeziku.
