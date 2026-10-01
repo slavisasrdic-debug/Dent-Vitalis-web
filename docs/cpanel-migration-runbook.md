@@ -14,6 +14,19 @@ ručnim File Managerom; API automatizacija je pauzirana. Ni jedan put još nije 
 potvrđen za objavu. SSH nije opći preduvjet migracije. Jedna GitHub akcija za
 produkcijsku objavu još nije implementirana; backup i forme ostaju release gates.
 
+**Najnovije — prvi odobreni stvarni sintetički POST:** vlasnik je odobrio
+pet TEST upita (po jeziku), jedan bezopasni PDF i dostavio kontakt testnog
+pošiljatelja. Kontakt vrijednosti nisu zapisane u repozitorij. Prvi HR upit
+`DV-MIG-20261001-HR-152910Z` poslan je jednom u 15:29:10 UTC kroz postojeći
+`/send`, multipart, svježi tokeni iste sesije, bez promjene primatelja/CRM-a.
+Ime/poruka/privitak jasno označavaju TEST MIGRACIJE, nije upit pacijenta.
+Odgovor u 15:29:11 UTC: HTTP 200, JSON `status:ok`, `no-store`, bez vidljive
+PHP greške. PDF ima 640 B; naziv/hash u readiness JSON-u. To je izravni
+backend test, ne end-to-end submit novog frontend izgleda ili dokaz dostave.
+Inbox, CRM lead i oba privitka još nisu potvrđeni. Preostala četiri jezika
+čekaju vlasnikovu potvrdu prvog inboxa/leada, bez auto-retryja. Ne slati isti
+upit ponovno samo zato što vlasnik još nije pronašao poruku.
+
 **Najnovije — privatni PHP instaliran, neovisni GET prihvat prošao:** agent
 potvrđuje oba helpera i patch zajedničkog `send.phtml`, sve `0644`, read-back
 prema diffu. Kopija handlera za povratak je
@@ -36,7 +49,8 @@ ne potvrđuje HTTP headere, sesijsko poklapanje ili end-to-end submit nove forme
 To nije prihvat sigurnosti cookieja niti punog browser submit toka.
 Bez pregleda kompatibilnosti ne mijenjati session postavke.
 
-Nije izveden POST, privitak/SMTP/CRM test ili javna aktivacija. GET `/send`
+Tijekom tog GET prihvata nije izveden POST ili javna aktivacija; naknadni
+odobreni sintetički POST opisan je iznad. GET `/send`
 potvrđuje odsutnost vidljive parse greške, ne izvršenje POST grane. Efektivna
 PHP verzija/ekstenzije, browser submit nove forme, session hardening, CRM poslovni odgovor
 i stvarna inbox/lead potvrda ostaju otvoreni. Ne ponavljati instalaciju ili
@@ -617,7 +631,10 @@ lokalizacije. Točan `.htaccess` merge radi se tek uz kopiju postojećeg
 
 ## Kontrolirani test
 
-- Ne koristiti podatke pacijenta niti slati poruku klinici.
+- Ne koristiti podatke pacijenta. Stvarni upiti prema postojećim primateljima
+  dopušteni su samo u izričito odobrenom, označenom sintetičkom testu.
+- Vlasnik je sada odobrio najviše pet upita po jeziku s jednim testnim PDF-om.
+  HR POST je izvršen jednom; bez potvrđenog inboxa/CRM-a ne nastavljati ostale.
 - Legacy `test@example.com` aktivira testni e-mail primatelj i ne šalje CRM
   lead; time se provjerava frontend, tokeni i SMTP test.
 - CRM zahtijeva potvrđeni testni endpoint ili eksplicitno odobren testni lead.

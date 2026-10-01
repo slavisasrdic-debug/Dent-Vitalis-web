@@ -25,6 +25,19 @@
       "publicSiteActivationAuthorizedByThisApproval": false,
       "privateDataRestoreAuthorizedByThisApproval": false
     },
+    "syntheticDeliveryTests": {
+      "approvedOn": "2026-10-01",
+      "source": "owner-approved-five-language-TEST-submissions-and-supplied-test-sender-contact-details",
+      "maximumSingleLanguageSubmissions": 5,
+      "languages": ["hr", "it", "de", "en", "sl"],
+      "oneHarmlessPdfAttachmentApproved": true,
+      "testSenderContactProvided": true,
+      "testSenderPersonalContactValuesStoredInRepository": false,
+      "markAsNonPatientMigrationTest": true,
+      "existingRecipientsAndCrmRemainUnchanged": true,
+      "automaticRepeatAuthorized": false,
+      "publicSiteActivationAuthorizedByThisApproval": false
+    },
     "releaseGatesMayBeBypassed": false,
     "dnsChangesAuthorized": false,
     "privateDataOverwriteAuthorized": false
@@ -36,7 +49,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "session-review-and-approved-email-CRM-acceptance-before-new-upload-without-public-activation",
+    "nextCheck": "awaiting-owner-inbox-and-CRM-receipt-after-first-HR-test-before-new-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -348,7 +361,7 @@
     "serverAllHashesIndependentlyVerified": false,
     "serverInstalled": true,
     "legacySendPatchApplied": true,
-    "realDeliveryTestPerformed": false,
+    "realDeliveryTestPerformed": true,
     "crmBusinessResponseContractVerified": false,
     "manualReviewedDiffRequired": true
   },
@@ -415,6 +428,43 @@
     "tokenValuesOrScreenshotCopiedIntoRepository": false,
     "postOrDeliveryTestPerformed": false,
     "endToEndNewFrontendSubmissionVerified": false
+  },
+  "syntheticDeliveryTestProgress": {
+    "maximumApprovedSubmissions": 5,
+    "submissionsAttempted": 1,
+    "automaticRetriesPerformed": 0,
+    "pendingLanguages": ["it", "de", "en", "sl"],
+    "pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed": true,
+    "firstTest": {
+      "marker": "DV-MIG-20261001-HR-152910Z",
+      "language": "hr",
+      "startedAtUtc": "2026-10-01T15:29:10.286Z",
+      "finishedAtUtc": "2026-10-01T15:29:11.725Z",
+      "transport": "Codespaces-single-same-session-multipart-POST-to-existing-send-after-fresh-form-tokens-GET",
+      "httpStatus": 200,
+      "responseContentType": "application/json; charset=utf-8",
+      "responseCacheControl": "private, no-store, max-age=0",
+      "responseStatus": "ok",
+      "responseBodySha256": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+      "validationErrorFields": [],
+      "visiblePhpError": false,
+      "attachment": {
+        "name": "TEST-MIGRACIJE-DV-MIG-20261001-HR-152910Z.pdf",
+        "type": "application/pdf",
+        "bytes": 640,
+        "sha256": "8ee9ddbe3ada2f6c77599820f9ca197150717f79de818e4b0f0858bc2dd8ba6d",
+        "containsPatientData": false
+      },
+      "existingMailRecipientsAndCrmNotChanged": true,
+      "campaignActionEmpty": true,
+      "personalContactOrTokenValuesRecorded": false,
+      "inboxReceiptConfirmed": false,
+      "crmLeadConfirmed": false,
+      "crmAttachmentConfirmed": false,
+      "mailAttachmentConfirmed": false,
+      "newFrontendEndToEndTest": false
+    },
+    "publicSiteActivated": false
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",
@@ -667,5 +717,6 @@
     "rollback-tested-before-switch"
   ],
   "serverChangesApplied": true,
-  "realTestMessagesSent": false
+  "realTestMessagesSent": true,
+  "realTestMessagesSentMeaning": "synthetic-POST-submitted-not-proof-of-inbox-or-CRM-receipt"
 }

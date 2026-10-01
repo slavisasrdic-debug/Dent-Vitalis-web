@@ -73,7 +73,17 @@ test('owner approval is recorded without inferring access, completed gates or re
     report.privateBackendInstallationProgress.appliedBy,
     'owner-authorized-browser-agent-not-this-workspace',
   );
-  assert.equal(report.realTestMessagesSent, false);
+  assert.equal(report.realTestMessagesSent, true);
+  assert.equal(
+    report.ownerAuthorization.syntheticDeliveryTests
+      .maximumSingleLanguageSubmissions,
+    5,
+  );
+  assert.equal(
+    report.ownerAuthorization.syntheticDeliveryTests
+      .testSenderPersonalContactValuesStoredInRepository,
+    false,
+  );
   assert.deepEqual(
     report.deploymentAutomation.automaticRollbackMustNotRestore,
     ['application/data'],
@@ -198,7 +208,10 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(report.procedure.nextCheck, /session-review/);
+  assert.match(
+    report.procedure.nextCheck,
+    /awaiting-owner-inbox-and-CRM-receipt/,
+  );
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',
@@ -298,7 +311,7 @@ test('private backend candidate is not a replacement handler or evidence of live
   assert.equal(candidate.serverAllHashesIndependentlyVerified, false);
   assert.equal(candidate.serverInstalled, true);
   assert.equal(candidate.legacySendPatchApplied, true);
-  assert.equal(candidate.realDeliveryTestPerformed, false);
+  assert.equal(candidate.realDeliveryTestPerformed, true);
   assert.equal(candidate.crmBusinessResponseContractVerified, false);
   assert.equal(candidate.manualReviewedDiffRequired, true);
 });
@@ -338,7 +351,32 @@ test('installed backend and independent GET acceptance do not imply browser, POS
   assert.equal(ownerGet.postOrDeliveryTestPerformed, false);
   assert.equal(ownerGet.endToEndNewFrontendSubmissionVerified, false);
   assert.equal(installed.publicSiteActivated, false);
-  assert.equal(report.realTestMessagesSent, false);
+  assert.equal(report.realTestMessagesSent, true);
+});
+
+test('one approved synthetic POST is not mistaken for confirmed receipt or all five languages', () => {
+  const progress = report.syntheticDeliveryTestProgress;
+  const first = progress.firstTest;
+  assert.equal(progress.maximumApprovedSubmissions, 5);
+  assert.equal(progress.submissionsAttempted, 1);
+  assert.equal(progress.automaticRetriesPerformed, 0);
+  assert.deepEqual(progress.pendingLanguages, ['it', 'de', 'en', 'sl']);
+  assert.equal(
+    progress.pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed,
+    true,
+  );
+  assert.equal(first.language, 'hr');
+  assert.equal(first.httpStatus, 200);
+  assert.equal(first.responseStatus, 'ok');
+  assert.equal(first.attachment.type, 'application/pdf');
+  assert.equal(first.attachment.containsPatientData, false);
+  assert.equal(first.personalContactOrTokenValuesRecorded, false);
+  assert.equal(first.inboxReceiptConfirmed, false);
+  assert.equal(first.crmLeadConfirmed, false);
+  assert.equal(first.crmAttachmentConfirmed, false);
+  assert.equal(first.mailAttachmentConfirmed, false);
+  assert.equal(first.newFrontendEndToEndTest, false);
+  assert.equal(progress.publicSiteActivated, false);
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

@@ -7,7 +7,18 @@ uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
 nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
-**Najnovije:** vlasnički odobrenu instalaciju dva privatna PHP dodatka i
+**Najnovije:** vlasnik je odobrio pet označenih TEST upita (po jeziku) i jedan
+bezopasni PDF; kontakt pošiljatelja nije pohranjen u repozitorij. Prvi HR POST
+`DV-MIG-20261001-HR-152910Z` poslan je jednom, 15:29:10 UTC, kroz postojeći
+backend sa svježim tokenima iste sesije, bez promjene primatelja/CRM-a.
+640 B PDF je sintetički bez podataka pacijenta. Odgovor: 200 JSON `status:ok`,
+`no-store`, bez vidljive PHP greške. Inbox, CRM lead i oba privitka još nisu
+potvrđeni. Ostali IT/DE/EN/SL čekaju prvu potvrdu, bez auto-retryja ili switcha.
+To nije end-to-end test novog frontend izgleda. Oznaka/metadata u JSON-u,
+nikad kontakt ili vrijednosti tokena. Sljedeće: vlasnik provjerava samo ovaj
+test u primateljskom inboxu i CRM-u prije daljnjih upita.
+
+Prethodno je vlasnički odobrenu instalaciju dva privatna PHP dodatka i
 minimalnog `/send` diffa agent je završio, read-back/`0644` potvrđeni prema
 izvještaju. Kopija za povratak je
 `/home2/dentvita/backups/php-before-delivery-v1-20261001/send.phtml`
@@ -19,8 +30,9 @@ i ista sesija, bez zapisivanja tokena/cookieja. Cookie ima Secure true,
 HttpOnly false i SameSite nije eksplicitno naveden. Vlasnik je naknadno ručno
 potvrdio obični Chrome GET `/form-tokens` (JSON s oba neprazna polja, bez blokade).
 Zapisati samo rezultat, nikad token vrijednosti ili screenshot. Sigurnost/kompatibilnost
-cookieja i end-to-end submit nove forme ostaju otvoreni. Nema POST-a/stvarne dostave
-ili javne aktivacije. PHP ekstenzije i CRM poslovni ugovor nisu time provjereni.
+cookieja i end-to-end submit nove forme ostaju otvoreni. Tijekom tog GET
+prihvata nije bilo POST-a; naknadni sintetički test je opisan iznad.
+Javne aktivacije nema. PHP ekstenzije i CRM poslovni ugovor nisu time provjereni.
 Privatni stage ostaje sačuvan; ne ponavljati instalaciju ili backup (vlasnik
 je potvrdio lokalni integritet i dodatnu kopiju). Serverski source hashovi
 nisu neovisno potvrđeni. Aktualni sljedeći korak je session pregled
@@ -43,7 +55,8 @@ Detalji i aktualni sljedeći korak u runbooku i `preActivationReadOnlyReview`.
 Mali privatni candidate `dentvitalis-private-backend-candidate-20261001-delivery-v1.zip`
 je pripremljen: 4.977 B, 5 datoteka, CRC/hash/Extract 0644 potvrđeni lokalno,
 bez handlera/konfiguracije/tajni. Kodni commit `25e0570`; veličina/hash u JSON-u.
-Privatni stage i instalacija završeni su prema agentu; nije poslan stvarni upit. Runtime prihvat privatne dopune
+Privatni stage i instalacija završeni su prema agentu; prvi odobreni sintetički
+POST izvršen je naknadno kako je opisano iznad. Runtime prihvat privatne dopune
 prethodi javnom uploadu/switchu uz zasebno odobrenje; ne ponavljati javni build.
 
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git

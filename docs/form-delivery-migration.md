@@ -13,6 +13,15 @@
 
 ### Najnoviji objedinjeni pregled prije aktivacije — 1. listopada 2026.
 
+Vlasnik je naknadno odobrio pet označenih TEST upita (po jeziku), jedan
+bezopasni PDF i dostavio kontakt testnog pošiljatelja. Ti kontakti nisu u Gitu.
+Prvi HR POST `DV-MIG-20261001-HR-152910Z` poslan je jednom u 15:29:10 UTC
+na postojeći `/send`, sa svježim tokenima iste sesije, bez izmjene primatelja
+ili CRM-a. HTTP 200 JSON `status:ok`, `no-store`; 640 B sintetički PDF.
+Stvarni inbox, CRM lead i oba privitka još nisu potvrđeni. Preostala četiri
+jezika čekaju tu potvrdu. Nema auto-retryja ili javne aktivacije. Izravni
+backend POST nije potvrda end-to-end novog frontend/thank-you/GTM toka.
+
 Browser agent potvrđuje instalaciju oba PHP dodatka i minimalnog transport
 patcha zajedničkog `/send`, bez izmjene konfiguracije ili ključeva, `0644`.
 Handler je sačuvan za kodni povratak. Chromeovi token GET-ovi blokirani su
@@ -34,7 +43,8 @@ raniji opis ograničenja treba usporediti s redaktiranim aktualnim kodom prije
 promjene. Dodatne frontend oznake izvora/honeypot legacy ne obrađuje prema
 nalazu; ne predstavljati ih kao CRM tracking ili serversku zaštitu od spama.
 `test@example.com` preskače CRM, pa puni prihvat zahtijeva odobreni sintetički
-test s zasebnom potvrdom e-maila i leada. Ništa nije poslano ovim pregledom.
+test s zasebnom potvrdom e-maila i leada. Sam read-only pregled nije poslao
+upite; naknadni odobreni HR test opisan je iznad.
 
 ### Dopuna prema detaljnom read-only nalazu 1. listopada 2026.
 
