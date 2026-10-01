@@ -39,7 +39,12 @@ for (const source of sources) {
   for (let folder = dirname(source); folder !== dist; folder = dirname(folder))
     folders.add(folder);
   routes[route] = document;
-  lines.push(`${route} ${document} 200`, `${route}/ ${route} 308`);
+  // Pages canonicalizes .html requests, even during an internal proxy rewrite.
+  // Proxy to its extensionless lookup; Apache still uses the physical document.
+  lines.push(
+    `${route} ${document.replace(/\.html$/, '')} 200`,
+    `${route}/ ${route} 308`,
+  );
 }
 // Remove only empty generated page directories, deepest first; never asset trees.
 for (const folder of [...folders].sort((a, b) => b.length - a.length)) {

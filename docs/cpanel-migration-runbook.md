@@ -99,6 +99,9 @@ directory outputa u `dist/_pages/`,
 bez promjene bajtova. cPanel ih poslužuje internim rewriteom bez promjene browser
 URL-a i bez DirectorySlash redirekcije. Build generira ista Pages proxy pravila
 u `dist/_redirects`. Varijante sa završnim `/` vode na izvorni slashless URL.
+Pages proxy odredište mora biti extensionless (`/_pages/hr/hvala`), dok Apache
+koristi fizički dokument (`_pages/hr/hvala.html`). Inače Pages vraća dodatni
+308 na internu adresu; ovaj rubni slučaj utvrđen je javnim HTTP auditom.
 To ne dodaje zasebne conversion evente, GA4 ni Ads skripte.
 
 `dist/page-routes.json` nastaje iz stvarnih build dokumenata i služi pripremi

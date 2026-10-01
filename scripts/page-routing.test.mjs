@@ -39,7 +39,10 @@ test('every built page has matching rewrites, canonical metadata and slashless i
   })) {
     assert.equal(document, pageDocument(route));
     if (route !== '/') {
-      assert.ok(rewrites.includes(`${route} ${document} 200\n`), route);
+      assert.ok(
+        rewrites.includes(`${route} ${document.replace(/\.html$/, '')} 200\n`),
+        route,
+      );
       assert.ok(rewrites.includes(`${route}/ ${route} 308\n`), route);
       await assert.rejects(access(new URL(`.${route}/index.html`, dist)));
     }
