@@ -13,8 +13,9 @@ Vlasnikov izvještaj/screenshot potvrđuju pet datoteka `0644`, mapu `0755` prem
 agentu i bez prijavljenih grešaka raspakiravanja. README je pročitan.
 Serverski hashovi nisu neovisno potvrđeni. Stao je prije kopiranja u
 `application`/`public_html`, izmjene `/send` i slanja upita. Ne ponavljati stage;
-sljedeća instalacija čeka verificirani postojeći backup/kodni povratak i zasebno
-odobrenje. Patch utječe i na postojeće forme jer mijenja zajednički handler.
+vlasnik je naknadno potvrdio integritet lokalnog backupa i dodatnu kopiju.
+Sljedeća instalacija čeka zasebno odobrenje i kopiju starog handlera za kodni
+povratak. Patch utječe i na postojeće forme jer mijenja zajednički handler.
 
 Prethodno je drugi browser agent završio read-only pregled stagea i formi.
 Nema instaliranih PHP token/upload dodataka, runtime/dostava nisu testirani,
@@ -48,8 +49,10 @@ ili tokena. Sljedeći zadatak u runbooku: puni privatni backup i File Manager
 stage izvan javnog weba, **bez aktivacije**. Odobrenje ne zatvara release gates.
 Privatni backup `dentvitalis-full-files-20261001.zip` (224,79 MB prema cPanelu)
 stvoren je prema agentu, uključujući `application/data`. Vlasnik je pokazao
-lokalni ZIP istog naziva; CRC/obnova još nisu potvrđeni. Ne tražiti ponovno
-preuzimanje bez razloga iz provjere. Vlasnik je naknadno odobrio upload/raspakiravanje samo u novi
+lokalni ZIP istog naziva; naknadno je izričito potvrdio prolaz provjere integriteta
+i dodatni backup. Prihvaćeno na temelju vlasnikove potvrde, ne neovisne lokalne
+inspekcije. Restore nije izvedbeno potvrđen. Ne ponavljati CRC, download ili
+backup bez konkretnog novog razloga. Vlasnik je naknadno odobrio upload/raspakiravanje samo u novi
 privatni `/home2/dentvita/releases/20261001-af6dc28/`, bez prepisivanja datoteka
 ili aktivacije. Taj stage može napredovati odvojeno od lokalne provjere backupa;
 izmjene javnog weba/PHP-a i dalje čekaju zatvorene gates. Ne ponovno komprimirati
@@ -67,8 +70,8 @@ CRC i lokalni Extract potvrđuju datoteke `0644` i 13 mapa `0755`. Nema rebuilda
 Nakon dovršetka gornjeg backend plana browser agent nastavlja uploadom/Extractom u novoj privatnoj
 `/home2/dentvita/releases/20261001-af6dc28-perms/`, bez prepisivanja stare mape;
 serverske dozvole još nisu potvrđene. Hash/veličina i postupak u runbooku/JSON-u.
-Chrome-only agent ne može lokalno provjeravati arhive: backup CRC/obnovu
-provodi vlasnik ili zaseban ovlašteni lokalni alat prije aktivacije.
+Chrome-only agent ne može lokalno provjeravati arhive. Lokalni integritet vlasnik
+je potvrdio; ne ponavljati provjeru. Izvedbeni kodni povratak još nije potvrđen.
 Raniji environment PUT ove integracije bio je 403; ne ponavljati ga.
 Ovdje nema cPanel browser sesije/tokena. SSH stage je zaustavljen prije
 povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallback,

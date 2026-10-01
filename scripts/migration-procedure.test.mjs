@@ -116,7 +116,7 @@ test('credential-free TCP failure does not establish runner cause or justify a t
   );
 });
 
-test('approved private stage does not bypass pending full backup or authorize live overwrites', () => {
+test('private staging and owner backup confirmation do not authorize live overwrites or prove restoration', () => {
   const progress = report.fileManagerProgress;
   assert.equal(
     report.ownerAuthorization.isolatedStageWhileBackupVerificationPending,
@@ -131,9 +131,23 @@ test('approved private stage does not bypass pending full backup or authorize li
     progress.isolatedStage.mayActivateWithoutBackupAndFormAcceptance,
     false,
   );
+  assert.match(
+    progress.backupVerification.verificationBasis,
+    /owner-confirmation/,
+  );
+  assert.equal(
+    progress.backupVerification
+      .localArchiveSizeAndIntegrityIndependentlyVerified,
+    false,
+  );
+  assert.equal(
+    progress.backupVerification.additionalBackupAsReportedByOwner,
+    true,
+  );
+  assert.equal(progress.backupVerification.restoreTestPerformed, false);
   assert.equal(
     progress.backupVerification.completedFullOffServerCopyVerified,
-    false,
+    true,
   );
   assert.equal(progress.backupVerification.activationGateClosed, false);
   assert.equal(

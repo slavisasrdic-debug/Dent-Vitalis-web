@@ -155,8 +155,9 @@ Svih pet payload datoteka postoji i ima `0644`; mapa ima `0755` prema agentu.
 README je pročitan. Potpuni serverski hashovi nisu neovisno potvrđeni.
 Ništa nije kopirano u `application` ili `public_html`, patch nije primijenjen,
 runtime/POST/dostava nisu testirani. Ne ponavljati upload/Extract ovog paketa.
-Sljedeće: potvrditi postojeći puni privatni backup/kopiju izvan servera i
-postupak kodnog povratka, zatim zasebno odobrena instalacija i runtime prihvat.
+Vlasnik je naknadno potvrdio provjeru lokalnog backupa i dodatnu kopiju.
+Sljedeće: zasebno odobrena instalacija uz kopiju starog handlera za kodni
+povratak, zatim runtime prihvat. Ne ponavljati provjeru backupa bez novog razloga.
 Instalacija patcha mijenja zajednički `/send`, dakle utječe i na stare forme.
 
 Nakon pregleda: pripremiti jedan kontrolirani skup PHP izmjena i finalne
@@ -179,9 +180,12 @@ radnju i privatnu ciljnu putanju. Ne zaobilaziti njegovu sigurnosnu potvrdu.
 prema cPanelu), s cijelim `application/data` prema nalazu, bez prijavljene
 greške kompresije. Ne ponavljati kompresiju. Agentov download bio je nedovršen;
 vlasnik je naknadno screenshotom pokazao lokalni `dentvitalis-full-files-20261001.zip`.
-To identificira traženi naziv, ne potvrđuje bajtove ili integritet. CRC i lokalna
-obnova novog backupa ostaju otvoreni; vlasnik ili ovlašteni lokalni alat koristi
-tu postojeću datoteku. Chrome-only browser agent nema pristup lokalnim naredbama;
+Vlasnik je zatim izričito potvrdio da je ta lokalna arhiva prošla provjeru
+integriteta i da postoji dodatni backup. To prihvatiti kao vlasnikov dokaz;
+točna metoda, veličina/hash i lokacija dodatne kopije nisu neovisno provjereni.
+Ne ponavljati CRC, download ili izradu backupa bez novog konkretnog razloga.
+Izvedbeni restore nije time potvrđen; kodni povratak čuva zasebni stari handler
+i ne vraća privatne podatke. Chrome-only browser agent nema pristup lokalnim naredbama;
 ne zadavati mu CRC, hash ili lokalno raspakiravanje koje ne može izvršiti.
 Agent ne zaobilazi blokadu `chrome://downloads`; vlasnik provjerava preuzimanje
 osobno. Privatni backup ne slati u chat, GitHub ili javnu mapu.
