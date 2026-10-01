@@ -7,7 +7,16 @@ uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
 nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
-**Najnovije:** drugi browser agent završio je read-only pregled stagea i formi.
+**Najnovije:** browser agent je uploadao i raspakirao mali privatni PHP paket
+u `/home2/dentvita/releases/20261001-private-backend-delivery-v1/`.
+Vlasnikov izvještaj/screenshot potvrđuju pet datoteka `0644`, mapu `0755` prema
+agentu i bez prijavljenih grešaka raspakiravanja. README je pročitan.
+Serverski hashovi nisu neovisno potvrđeni. Stao je prije kopiranja u
+`application`/`public_html`, izmjene `/send` i slanja upita. Ne ponavljati stage;
+sljedeća instalacija čeka verificirani postojeći backup/kodni povratak i zasebno
+odobrenje. Patch utječe i na postojeće forme jer mijenja zajednički handler.
+
+Prethodno je drugi browser agent završio read-only pregled stagea i formi.
 Nema instaliranih PHP token/upload dodataka, runtime/dostava nisu testirani,
 legacy `ok` može prikriti neuspjelu dostavu. Lokalni dodaci odgovaraju javnom
 manifestu; ne prepakirati javni web samo zbog njihove odsutnosti na serveru.
@@ -24,7 +33,7 @@ Detalji i aktualni sljedeći korak u runbooku i `preActivationReadOnlyReview`.
 Mali privatni candidate `dentvitalis-private-backend-candidate-20261001-delivery-v1.zip`
 je pripremljen: 4.977 B, 5 datoteka, CRC/hash/Extract 0644 potvrđeni lokalno,
 bez handlera/konfiguracije/tajni. Kodni commit `25e0570`; veličina/hash u JSON-u.
-Nije uploadan niti je poslan stvarni upit. Runtime prihvat privatne dopune
+Privatni stage je završen prema agentu; nije instaliran niti je poslan stvarni upit. Runtime prihvat privatne dopune
 prethodi javnom uploadu/switchu uz zasebno odobrenje; ne ponavljati javni build.
 
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git

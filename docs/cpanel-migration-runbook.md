@@ -145,8 +145,19 @@ SHA-256 `4140276484fb4c19ea758b4d1e436c74e192efde0ec605f3ea9c5b2b53ff1d9b`.
 Kodna verzija `25e0570b74ece78c85704179aef33802e62158f2`. Ima 5 datoteka
 (2 PHP dodatka, diff, README, manifest), `9.503 B` raspakirano. CRC, svi
 hashovi i stvarni lokalni Extract `0644` potvrđeni. Nema cijelog handlera,
-konfiguracije, tajni ili privatnih podataka. Nije uploadan/instaliran na server.
+konfiguracije, tajni ili privatnih podataka.
 Javni `-perms.zip` nije regeneriran: frontend već podržava ovaj error tok.
+
+**Privatni stage je sada završen prema agentu i screenshotima vlasnika:**
+paket je uploadan i raspakiran bez prijavljenih grešaka u
+`/home2/dentvita/releases/20261001-private-backend-delivery-v1/`.
+Svih pet payload datoteka postoji i ima `0644`; mapa ima `0755` prema agentu.
+README je pročitan. Potpuni serverski hashovi nisu neovisno potvrđeni.
+Ništa nije kopirano u `application` ili `public_html`, patch nije primijenjen,
+runtime/POST/dostava nisu testirani. Ne ponavljati upload/Extract ovog paketa.
+Sljedeće: potvrditi postojeći puni privatni backup/kopiju izvan servera i
+postupak kodnog povratka, zatim zasebno odobrena instalacija i runtime prihvat.
+Instalacija patcha mijenja zajednički `/send`, dakle utječe i na stare forme.
 
 Nakon pregleda: pripremiti jedan kontrolirani skup PHP izmjena i finalne
 pakete; vlasnički odobrena instalacija uz verificirani backup prethodi

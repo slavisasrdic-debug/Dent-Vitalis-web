@@ -253,7 +253,19 @@ test('private backend candidate is not a replacement handler or evidence of live
   assert.equal(candidate.fullHandlerIncluded, false);
   assert.equal(candidate.configurationIncluded, false);
   assert.equal(candidate.privateDataIncluded, false);
-  assert.equal(candidate.serverUploadedOrInstalled, false);
+  assert.equal(candidate.serverUploadedAsReported, true);
+  assert.equal(candidate.serverExtractedAsReported, true);
+  assert.equal(
+    candidate.serverStage,
+    '/home2/dentvita/releases/20261001-private-backend-delivery-v1/',
+  );
+  assert.equal(candidate.serverExtractionErrorsReported, false);
+  assert.equal(candidate.serverAllFivePayloadFilesPresentAsReported, true);
+  assert.equal(candidate.serverExtractedFileModeAsReported, '0644');
+  assert.equal(candidate.serverStageDirectoryModeAsReported, '0755');
+  assert.equal(candidate.serverAllHashesIndependentlyVerified, false);
+  assert.equal(candidate.serverInstalled, false);
+  assert.equal(candidate.legacySendPatchApplied, false);
   assert.equal(candidate.realDeliveryTestPerformed, false);
   assert.equal(candidate.crmBusinessResponseContractVerified, false);
   assert.equal(candidate.manualReviewedDiffRequired, true);
