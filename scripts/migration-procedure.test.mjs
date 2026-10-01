@@ -39,8 +39,15 @@ test('confirmed API menu is not confused with authenticated or successful deploy
   );
 });
 
-test('no production approval, private data rollback or real mail submission is inferred', () => {
-  assert.equal(report.productionDeploymentAuthorized, false);
+test('owner approval is recorded without inferring access, completed gates or real delivery', () => {
+  assert.equal(report.productionDeploymentAuthorized, true);
+  assert.equal(report.ownerAuthorization.dedicatedExpiringApiToken, true);
+  assert.equal(report.ownerAuthorization.protectedGitHubSecretStorage, true);
+  assert.equal(report.ownerAuthorization.readOnlyApiProbe, true);
+  assert.equal(report.ownerAuthorization.releaseGatesMayBeBypassed, false);
+  assert.equal(report.ownerAuthorization.dnsChangesAuthorized, false);
+  assert.equal(report.ownerAuthorization.privateDataOverwriteAuthorized, false);
+  assert.equal(report.procedure.routes.cpanelApi.nextAuthorityNeeded, null);
   assert.equal(report.serverChangesApplied, false);
   assert.equal(report.realTestMessagesSent, false);
   assert.deepEqual(
@@ -48,6 +55,25 @@ test('no production approval, private data rollback or real mail submission is i
     ['application/data'],
   );
   assert.equal(new Set(report.serverGates).size, report.serverGates.length);
+});
+
+test('failed GitHub settings attempt is recorded and not retried without changed access', () => {
+  const access = report.accessPreparation;
+  assert.equal(access.githubEnvironment.creationHttpStatus, 403);
+  assert.equal(access.githubEnvironment.configuredByThisSession, false);
+  assert.equal(access.githubEnvironment.tokenStoredByThisSession, false);
+  assert.equal(access.probeWorkflowDispatched, false);
+  assert.equal(access.productionUploadAttempted, false);
+  assert.equal(access.productionActivationAttempted, false);
+  assert.match(
+    access.githubEnvironment.retryOnlyAfter,
+    /permission-change-or-authorized-browser/,
+  );
+  assert.ok(
+    report.procedure.doNotRepeatWithoutNewEvidence.includes(
+      'GitHub-environment-creation-through-current-integration-after-HTTP-403',
+    ),
+  );
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

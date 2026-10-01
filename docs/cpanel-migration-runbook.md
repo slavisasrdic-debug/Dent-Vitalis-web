@@ -42,8 +42,17 @@ dokaz izvršavanja na GitHubu ili dostupnosti serverskih operacija.
 
 Pregled menija je završen prema agentovom nalazu. Ne tražiti ga ponovno.
 Pripremljen je `.github/workflows/probe-cpanel-api.yml`, ali nije pokrenut niti
-su konfigurirani pristupni podaci. Najprije vlasnik zasebno odobrava stvaranje
-posebnog vremenski ograničenog API tokena i njegovu sigurnu pohranu.
+su konfigurirani pristupni podaci. Vlasnik je **1. listopada odobrio** poseban
+vremenski ograničen API token, sigurnu GitHub pohranu, read-only test i nastavak
+migracije. Ne tražiti isto odobrenje ponovno. Odobrenje ne zatvara release gates,
+ne mijenja DNS niti dopušta prepisivanje privatnih podataka.
+
+U ovoj sesiji nema autentificiranog cPanel browsera ili lokalnog API tokena.
+GitHub environment/secret metadata dohvat vratio je 404; odobren pokušaj
+stvaranja environmenta vratio je **403: Resource not accessible by integration**.
+Environment i secret nisu postavljeni ovom sesijom, workflow nije pokrenut.
+Ne ponavljati taj PUT dok se pristup ne promijeni; repo `admin: true` nije
+dokaz potrebnih API ovlasti integracije. Nastaviti agentom u browseru.
 
 Za GitHub test pripremiti environment `cpanel-api-readonly`: varijablu
 `CPANEL_API_ORIGIN=https://dentvitalis.com:2083` i secret `CPANEL_API_TOKEN`.
@@ -59,6 +68,35 @@ Ne čita njihov sadržaj, konfiguraciju ni poruke; ne radi upload, form submit
 ili izmjenu. Provjerava TLS, ne prati redirekcije i ne ispisuje sirovi odgovor.
 Lokalni ekvivalent, uz prethodno sigurno postavljene environment vrijednosti:
 `npm run cpanel:probe:read-only -- --approved-read-only`.
+
+#### Odobreni zadatak agentu u browseru
+
+1. Ne ponavljati pregled menija, shella, izvora ili kvote. U GitHub repozitoriju
+   `slavisasrdic-debug/Dent-Vitalis-web`, **Settings → Environments**, pripremiti
+   `cpanel-api-readonly`, uz obveznog reviewer-a `slavisasrdic-debug` i dopuštenu
+   branch `main` (bez tagova). Vlasnik mora moći potvrditi vlastiti ručni test.
+   Postaviti environment variable `CPANEL_API_ORIGIN=https://dentvitalis.com:2083`.
+   Ne mijenjati globalna prava, vidljivost repozitorija ili druge environmente.
+   Ako su postavke nedostupne, stati prije stvaranja tokena i prijaviti razlog.
+2. U već otvorenom cPanelu za `dentvita`, **Security → Manage API Tokens**,
+   stvoriti token `dentvitalis-migration-20261001`, s rokom od 7 dana prema
+   prikazanoj serverskoj vremenskoj zoni. Ako isto ime već postoji, ne brisati
+   niti zamjenjivati postojeći token; prijaviti stanje. Vrijednost prenijeti
+   izravno u **environment secret** `CPANEL_API_TOKEN` navedenog environmenta.
+   Ne koristiti repository-wide secret, chat, datoteku, artifact ili screenshot
+   s tokenom. Ako izravna sigurna pohrana nije moguća, stati; ne improvizirati.
+3. U **Actions → Check cPanel API (read only)**, ručno pokrenuti workflow na
+   `main` s `approve_read_only=true`, proći vlasnički environment review i
+   pratiti samo taj run. Ne pokretati Stage cPanel release ili SSH. Ne ponavljati
+   neuspjeli test bez dijagnoze i novog razloga.
+4. Vratiti naziv/rok tokena (bez vrijednosti), stanje zaštita/pohrane,
+   URL i commit workflow runa, rezultat i javne metapodatke ako je test prošao.
+   Ako se pojavila blokada, navesti gdje i što je stvarno napravljeno; ne tvrditi
+   da je deploy spreman. U ovoj fazi nema uploada, promjene `public_html`, PHP
+   dodataka, testne poruke, DNS-a, brisanja bloga ili aktivacije novog weba.
+
+Nakon ovog testa slijedi izolirani prihvat prijenosa i povratka, puni privatni
+backup i prihvat PHP/formi iz ostatka runbooka. Pristupni test nije zamjena za njih.
 
 Rezultat zapisati kao autentificiran metadata test, ne kao dokaz UAPI-ja ili
 deploya. Bez ispravnog odgovora stati i zabilježiti kontroliranu grešku;
@@ -76,6 +114,8 @@ bez navedenog ekvivalentnog UAPI-ja. Zato puni deploy/rollback ne proglašavati
 spremnim samo na temelju dostupnosti tokena. Ne slijediti primjere koji
 isključuju TLS provjeru. Ne spremati account lozinku ili token u kod, artifact
 ili chat. Ne stvarati javni PHP “deploy” endpoint kao zaobilazno rješenje.
+Za GitHub zaštite koristiti [environment postavke](https://docs.github.com/en/rest/deployments/environments)
+i [branch policy](https://docs.github.com/en/rest/deployments/branch-policies).
 
 ### Postupak prve objave i redovnih izmjena
 

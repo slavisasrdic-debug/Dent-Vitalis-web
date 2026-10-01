@@ -9,8 +9,12 @@ GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git
 repozitorija. Token nije stvoren ni API test pokrenut. Pripremljen je jedan
-metadata-only read-only workflow; sljedeće treba posebno odobriti token i sigurnu
-pohranu, pa test. Ne ponavljati pregled menija. SSH stage je zaustavljen prije
+metadata-only read-only workflow. Vlasnik je odobrio token, sigurnu pohranu,
+test i nastavak migracije. Odobrenje ne zatvara sigurnosne gates. GitHub
+environment PUT iz ove sesije vratio je 403 (integracija nema pristup), bez
+konfiguriranog environmenta/sekreta. Ne ponavljati poziv bez novog pristupa.
+Ovdje nema cPanel browser sesije/tokena; sljedeći odobreni zadatak browser
+agentu nalazi se u runbooku. Ne ponavljati pregled menija. SSH stage je zaustavljen prije
 povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallback,
 ali upload/raspakiranje još nisu testirani. Symlink aktivacija nije potvrđena.
 

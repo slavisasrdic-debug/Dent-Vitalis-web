@@ -33,7 +33,11 @@ Git Version Control prikazuje 0 repozitorija; prethodni način objave nije utvr�
 
 Pripremljen je zaseban ručni `.github/workflows/probe-cpanel-api.yml`:
 jedan API 2 metadata GET, bez čitanja sadržaja i serverskih izmjena.
-Potrebni su posebno odobren token i zaštićena pohrana; workflow još nije pokrenut.
+Vlasnik je odobrio token, zaštićenu pohranu, read-only test i nastavak migracije.
+Workflow još nije pokrenut. Pokušaj stvaranja GitHub environmenta iz ove sesije
+vratio je **403: Resource not accessible by integration**; ne ponavljati isti
+poziv bez promjene pristupa. Agent u browseru treba dovršiti postavke i token
+prema odobrenom zadatku u runbooku. Ovdje nema cPanel browser sesije ni tokena.
 To nije produkcijski deploy niti dokaz upload/backup/activation/rollback uspjeha.
 Konfiguracija, odobrenje i sljedeći test opisani su samo u runbooku.
 Ako API operacije ne prođu prihvat, nastaviti File Managerom uz iste gates;
