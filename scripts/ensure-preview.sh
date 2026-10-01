@@ -35,7 +35,7 @@ dentvitalis_ready() {
     --output "$preview_state/health.html" --write-out '%{http_code}' \
     "$1" 2>"$preview_state/health-error.log")" || return 1
   [[ "$preview_status" == 200 ]] \
-    && grep -qi '<title>DentVitalis' "$preview_state/health.html" \
+    && grep -qiE '<title>[^<]*DentVitalis[^<]*</title>' "$preview_state/health.html" \
     && grep -q 'noindex, nofollow' "$preview_state/health.html"
 }
 

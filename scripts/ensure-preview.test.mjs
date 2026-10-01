@@ -39,7 +39,7 @@ switch (command) {
     const external = args.at(-1).startsWith('https:');
     const ready = state.listening && !state.wrongLocal && !(external && state.wrongExternal);
     writeFileSync(args[args.indexOf('--output') + 1], ready
-      ? '<title>DentVitalis - migliori dentisti in Croazia</title><meta name="robots" content="noindex, nofollow">'
+      ? '<title>I migliori dentisti Croazia per denti perfetti - DentVitalis</title><meta name="robots" content="noindex, nofollow">'
       : '<title>Another application</title>');
     process.stdout.write(ready ? '200' : '503');
     break;

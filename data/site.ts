@@ -1,5 +1,10 @@
 import type { ClinicData } from './models';
 
+// Exact Dentvitalis Google profile supplied and approved by the owner, 2026-10-01.
+// Separate from the address search: the review badge must select this listing.
+export const googleReviewsUrl =
+  'https://www.google.com/maps/place/Dentvitalis/@45.3331401,14.4189131,886m/data=!3m1!1e3!4m10!1m2!2m1!1sDentvitalis+Fides,+Kre%C5%A1imirova+60,+Rijeka!3m6!1s0x4764a128f2aa4cd5:0xbe8e3fecfb0c2d31!8m2!3d45.3331401!4d14.4236767!15sCipEZW50dml0YWxpcyBGaWRlcywgS3JlxaFpbWlyb3ZhIDYwLCBSaWpla2GSAQ1kZW50YWxfY2xpbmlj4AEA!16s%2Fg%2F11bbrls6lt?entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D';
+
 /**
  * Kontakt prepisan iz prihvaćene reference 2026-09-07 za noindex preview.
  * Nije zamjena za poslovno/medicinsko odobrenje prije produkcije.

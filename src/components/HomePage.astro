@@ -2,6 +2,7 @@
 import SiteLayout from '../layouts/SiteLayout.astro';
 import Hero from '../components/home/Hero.astro';
 import { clinic, contactCopy as itContactCopy } from '../content/site';
+import { googleReviewsUrl } from '../../data/site';
 import { contactCopy as hrContactCopy } from '../content/hr/site';
 import * as it from '../content/home';
 import * as hr from '../content/hr/home';
@@ -89,7 +90,7 @@ const seoQuestions =
   <Hero
     price={clinic.premiumPrice}
     benefits={home.benefits}
-    maps={clinic.maps}
+    maps={googleReviewsUrl}
     content={home.hero}
   />
   <section class="intro-section">
