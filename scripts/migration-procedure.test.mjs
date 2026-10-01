@@ -166,7 +166,10 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(report.procedure.nextCheck, /permission-correction/);
+  assert.match(
+    report.procedure.nextCheck,
+    /redacted-legacy-delivery-source-review/,
+  );
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',
@@ -215,6 +218,30 @@ test('limited File Manager is recorded; local repack does not imply server corre
   assert.equal(replacement.mayOverwriteExistingTarget, false);
   assert.equal(replacement.mayModifyPublicHtmlOrApplication, false);
   assert.equal(replacement.oldStageMustRemainUntouched, true);
+});
+
+test('latest read-only form audit holds new upload and cannot close delivery or runtime gates', () => {
+  const audit = report.preActivationReadOnlyReview;
+  assert.equal(audit.newUploadHeldUntilBackendPlanResolved, true);
+  assert.equal(audit.tokenTemplateInstalledAsReported, false);
+  assert.equal(audit.uploadGuardInstalledAsReported, false);
+  assert.equal(audit.runtimeIndependentlyVerified, false);
+  assert.equal(
+    audit.preparedLocalPhpFilesMatchPublicManifestAndPrivateArchive,
+    true,
+  );
+  assert.equal(audit.legacyOkMayFollowDeliveryFailureAsReported, true);
+  assert.equal(audit.legacyDeliveryResponseSafelyPatched, false);
+  assert.equal(audit.reviewedRedactedCurrentDeliverySourceAvailable, false);
+  assert.equal(audit.crmTestSkippedForTestExampleComAsReported, true);
+  assert.equal(audit.realEmailOrCrmTestRun, false);
+  assert.equal(audit.oldPrivatePatchZipMustNotBeInstalledAsFinalPackage, true);
+  assert.equal(
+    audit.storageDisplay.exactServerFilesystemFreeSpaceAndInodesVerified,
+    false,
+  );
+  assert.ok(audit.rollbackMustNotRestore.includes('application/data'));
+  assert.match(report.procedure.nextCheck, /before-new-upload/);
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

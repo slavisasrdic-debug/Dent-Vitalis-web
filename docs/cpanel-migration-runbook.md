@@ -70,7 +70,41 @@ naknadno dovršio postavke. Razlikovati ta dva nalaza i ne ponavljati PUT.
 Token ostaje osjetljiv račun-wide pristup, ne read-only ključ. Opoziv ili
 produljenje nakon odluke o API putu zasebno evidentirati; ne raditi ih prešutno.
 
-### Sljedeći zadatak agentu — File Manager, backup i privatni stage
+### Aktualna pauza novog uploada — preostali PHP posao
+
+Vlasnik je zatražio cjelovit pregled prije novog uploada. Novi browser agent
+potvrdio je sadržaj stagea i `.htaccess`/PHP routing iz koda, svih pet zahvalnih
+datoteka/noindex/sitemapa i postojeći GTM bez zasebnog CookieYes loadera.
+Nije proveo sve serverske hashove, runtime, POST ili dostavu. To ne zatvara gates.
+Prikaz potrošnje sada je `978 MB / 1,46 GB`, približno `0,5 GB` rezerve,
+bez dokaza inodeova/slobodnog filesystema. Stare procjene nisu aktualna garancija.
+
+**Novi upload zadržati dok se ne dovrši plan backend izmjena.** Nedostajući
+`form-tokens.phtml` i `form-request-guard.php` već su lokalno pripremljeni i
+njihovi bajtovi/hashi odgovaraju manifestu; nisu instalirani na serveru.
+Guard rješava zasebnu validaciju privitka, ne SMTP/CRM rezultat. Izvorni mali
+privatni ZIP također nosi `0666` metadata; ne koristiti ga kao završni paket.
+Pripremiti završnu privatnu dopunu s sigurnim dozvolama nakon pregleda slanja.
+Nije potreban novi javni build samo zato što PHP dodatak nije instaliran.
+
+Legacy `/send` može vratiti `ok` nakon neuspjele dostave. Za siguran konkretan
+patch treba **redaktirani aktualni** `application/view/template/send.phtml` i
+relevantni kod `application/src/Application/Mail/Mail.php` (return/exception
+ugovor). Izlaz ne smije sadržavati API/SMTP ključeve, vrijednosti primatelja,
+`local.php`, postojeće logove ni podatke pacijenata. Ne nagađati strukturu CRM
+potvrde ili prepisivati privatni handler generičkim kodom. Sljedeći zadatak
+agentu je samo dohvat redaktiranog koda, bez instalacije/POST-a/aktivacije.
+`test@example.com` preskače CRM prema nalazu; nije valjan puni delivery test.
+
+Nakon pregleda: pripremiti jedan kontrolirani skup PHP izmjena i finalne
+pakete; vlasnički odobrena instalacija uz verificirani backup prethodi
+token/runtime i zasebno odobrenom sintetičkom testu inboxa + CRM-a. Tek potom
+javna aktivacija. Sadržaj `_pages` u privatnoj mapi sam po sebi nije javni test.
+Rutinski rollback vraća samo javni kod; ako se mijenja PHP, vratiti samo
+njegove izmijenjene kodne datoteke iz posebne kopije. Nikad ne vraćati novije
+`application/data`, log/mail podatke, bazu ili CRM starim punim backupom.
+
+### File Manager, backup i privatni stage — provedeno i pripremljeno
 
 Vlasnik je izričito odabrao File Manager. Ovaj zadatak nastavlja odobrenu
 migraciju, ali **ne aktivira novi web**.
@@ -121,7 +155,7 @@ starom ZIP-u (`65.436.532 B`). CRC i stvarno lokalno raspakiravanje potvrđuju
 sve datoteke `0644` i svih 13 mapa `0755`. Stara arhiva nije promijenjena.
 To ne dokazuje serverske dozvole prije novog cPanel Extract testa.
 
-Sljedeći korak browser agentu:
+Pripremljeni korak browser agentu **nakon gornje pauze i završnog backend plana**:
 
 1. Provjeriti aktualni prostor za približno 123,4 MB dodatnih logičnih bajtova
    (novi ZIP + ekstrakcija), uz rezervu za stvarnu alokaciju/inodeove.

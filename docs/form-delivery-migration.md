@@ -11,6 +11,23 @@
 
 ## Potvrđeni legacy tok
 
+### Najnoviji objedinjeni pregled prije aktivacije — 1. listopada 2026.
+
+Browser agent potvrđuje da pripremljeni PHP dodaci još nisu instalirani.
+Njihovi lokalni hashovi odgovaraju manifestu javnog releasea; to ne znači da
+`/form-tokens` već radi na serveru. Upload guard neće ispraviti legacy lažni
+uspjeh SMTP/CRM-a. Za taj patch treba redaktirani aktualni handler i ugovor
+Mail klase, ne samo ovaj sažetak. Novi upload je zadržan do objedinjene pripreme;
+operativni slijed je isključivo u cPanel runbooku.
+
+Nalaz navodi validacijske provjere e-maila/URL-a i primatelje po jeziku.
+To nije dokaz potpunosti uvjeta niti efektivnih vrijednosti konfiguracije;
+raniji opis ograničenja treba usporediti s redaktiranim aktualnim kodom prije
+promjene. Dodatne frontend oznake izvora/honeypot legacy ne obrađuje prema
+nalazu; ne predstavljati ih kao CRM tracking ili serversku zaštitu od spama.
+`test@example.com` preskače CRM, pa puni prihvat zahtijeva odobreni sintetički
+test s zasebnom potvrdom e-maila i leada. Ništa nije poslano ovim pregledom.
+
 ### Dopuna prema detaljnom read-only nalazu 1. listopada 2026.
 
 Mjerodavni sažetak i izričite vlasničke odluke su u
@@ -111,8 +128,10 @@ pet jezičnih rootova.
 
 ## Obvezni koraci prije aktivacije
 
-Novi read-only nalaz agenta od 1. listopada potvrđuje privatni
-`application/data`. Lokalni ZIP ga ne sadrži, iako prema agentu prolazi CRC;
+Raniji read-only nalaz od 1. listopada potvrđuje privatni `application/data`;
+prvotni lokalni ZIP ga ne sadrži. Naknadno je stvoren puni privatni
+`dentvitalis-full-files-20261001.zip` s `data` prema agentu, a vlasnik je pokazao
+lokalnu kopiju. Integritet/obnova te kopije još nisu potvrđeni.
 JetBackupov prikaz nije test obnovljivosti. Prije promjene potreban je
 zaštićeni backup tih podataka i potvrđena kopija izvan servera. Pri rutinskoj
 objavi ili automatskom rollbacku ne vraćati `application/data` starom kopijom

@@ -25,7 +25,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "isolated-permission-correction-by-normalized-ZIP-upload-without-public-activation",
+    "nextCheck": "redacted-legacy-delivery-source-review-before-new-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -244,6 +244,59 @@
       "oldStageMustRemainUntouched": true
     },
     "liveWebPhpDnsAndVersionUnchangedAsReported": true
+  },
+  "preActivationReadOnlyReview": {
+    "reportedOn": "2026-10-01",
+    "source": "owner-pasted-browser-agent-staged-release-and-backend-audit",
+    "scope": "code-and-cPanel-displays-only-no-server-changes-or-POST",
+    "runtimeIndependentlyVerified": false,
+    "allServerReleaseHashesVerified": false,
+    "newUploadHeldUntilBackendPlanResolved": true,
+    "tokenTemplateInstalledAsReported": false,
+    "uploadGuardInstalledAsReported": false,
+    "preparedLocalPhpFilesMatchPublicManifestAndPrivateArchive": true,
+    "existingSendFieldsAsReported": [
+      "name",
+      "email",
+      "phone",
+      "message",
+      "action",
+      "url",
+      "pos",
+      "lang",
+      "csrf",
+      "gct",
+      "form_agreement",
+      "conference_call",
+      "file"
+    ],
+    "additionalSourceFieldsAndCompanyIgnoredAsReported": true,
+    "smtpAsReported": "PHPMailer-authenticated-SMTP-587-with-TLS-and-language-recipients-not-runtime-tested",
+    "crmAsReported": "cURL-multipart-HTTPS-leads-POST-response-logged-without-HTTP-status-or-lead-creation-check",
+    "legacyOkMayFollowDeliveryFailureAsReported": true,
+    "legacyDeliveryResponseSafelyPatched": false,
+    "reviewedRedactedCurrentDeliverySourceAvailable": false,
+    "crmTestSkippedForTestExampleComAsReported": true,
+    "realEmailOrCrmTestRun": false,
+    "oldPrivatePatchZipAlsoHas0666Metadata": true,
+    "oldPrivatePatchZipMustNotBeInstalledAsFinalPackage": true,
+    "storageDisplay": {
+      "usage": "978 MB",
+      "quota": "1.46 GB",
+      "approximatelyAvailable": "0.5 GB",
+      "exactServerFilesystemFreeSpaceAndInodesVerified": false
+    },
+    "nextReadOnlyCodeNeeded": [
+      "/home2/dentvita/application/view/template/send.phtml",
+      "/home2/dentvita/application/src/Application/Mail/Mail.php"
+    ],
+    "redactionRequired": "all-credentials-keys-recipient-values-and-patient-data-no-local.php-or-message-logs",
+    "rollbackMustNotRestore": [
+      "application/data",
+      "mail-or-log-data",
+      "database",
+      "CRM"
+    ]
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",

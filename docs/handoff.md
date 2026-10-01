@@ -7,6 +7,17 @@ uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
 nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
+**Najnovije:** drugi browser agent završio je read-only pregled stagea i formi.
+Nema instaliranih PHP token/upload dodataka, runtime/dostava nisu testirani,
+legacy `ok` može prikriti neuspjelu dostavu. Lokalni dodaci odgovaraju javnom
+manifestu; ne prepakirati javni web samo zbog njihove odsutnosti na serveru.
+Vlasnik je zatražio objedinjavanje prije novih uploada: `-perms.zip` upload je
+zasad zadržan. Treba redaktirani aktualni `send.phtml` + Mail return/exception
+ugovor za konkretan delivery patch, bez tajni/poruka. Stari privatni ZIP ima
+`0666` metadata i nije završni instalacijski paket. Prikaz prostora sada je
+`978 MB / 1,46 GB`; server hash/inode/runtime/dostava i dalje otvoreni.
+Detalji i aktualni sljedeći korak u runbooku i `preActivationReadOnlyReview`.
+
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git
 repozitorija. Vlasnik je odobrio token, pohranu, test i nastavak migracije.
 Browser agent je dovršio environment i token `dentvitalis-migration-20261001`,
@@ -35,7 +46,7 @@ Agent je potvrdio da File Manager nema rekurziju po vrsti; zatvorio je dijalog
 bez promjena. Korijen je `0755`, sadržaj nije ispravljen. Ne ponavljati dijalog.
 Pripremljen je novi `af6dc28-perms.zip`: svih 692 datoteke/manifest ostaju isti,
 CRC i lokalni Extract potvrđuju datoteke `0644` i 13 mapa `0755`. Nema rebuilda.
-Browser agent nastavlja samo uploadom/Extractom u novoj privatnoj
+Nakon dovršetka gornjeg backend plana browser agent nastavlja uploadom/Extractom u novoj privatnoj
 `/home2/dentvita/releases/20261001-af6dc28-perms/`, bez prepisivanja stare mape;
 serverske dozvole još nisu potvrđene. Hash/veličina i postupak u runbooku/JSON-u.
 Chrome-only agent ne može lokalno provjeravati arhive: backup CRC/obnovu
