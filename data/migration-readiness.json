@@ -12,6 +12,7 @@
     "protectedGitHubSecretStorage": true,
     "readOnlyApiProbe": true,
     "proceedWithMigration": true,
+    "fileManagerMigration": true,
     "releaseGatesMayBeBypassed": false,
     "dnsChangesAuthorized": false,
     "privateDataOverwriteAuthorized": false
@@ -19,11 +20,11 @@
   "procedure": {
     "updatedOn": "2026-10-01",
     "authoritativeRunbook": "docs/cpanel-migration-runbook.md",
-    "currentDirection": "investigate-cPanel-HTTPS-API-without-hosting-changes",
+    "currentDirection": "manual-File-Manager-migration-with-API-automation-paused",
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "browser-agent-protected-environment-and-token-storage-then-approved-read-only-probe",
+    "nextCheck": "browser-agent-private-backup-and-isolated-File-Manager-stage",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -35,22 +36,39 @@
     ],
     "routes": {
       "cpanelApi": {
-        "status": "menu-confirmed-operations-not-tested",
+        "status": "paused-after-first-probe-network-timeout-or-TLS-failure",
         "reportedOn": "2026-10-01",
         "source": "owner-pasted-agent-read-only-API-menu-report",
         "independentlyVerifiedInThisWorkspace": false,
         "menuOpensAsReportedByAgent": true,
         "menuAdvertises": ["cPanel-API-2", "UAPI"],
-        "tokenCreated": false,
-        "authenticatedProbeRun": false,
+        "tokenCreated": true,
+        "tokenCreationEvidence": "owner-pasted-browser-agent-report-not-token-value",
+        "tokenName": "dentvitalis-migration-20261001",
+        "tokenExpiresAsDisplayed": "2026-10-08 23:59:59",
+        "tokenExpiryTimezone": "cPanel-server-timezone-not-confirmed",
+        "tokenStoredInEnvironmentAsReportedByAgent": "cpanel-api-readonly/CPANEL_API_TOKEN",
+        "authenticatedProbeRun": true,
+        "authenticationConfirmed": false,
+        "metadataReadConfirmed": false,
+        "probeRun": {
+          "id": 36861772566,
+          "url": "https://github.com/slavisasrdic-debug/Dent-Vitalis-web/actions/runs/36861772566",
+          "gitCommit": "44c2c9b07444310149848c3c8c8f28b8ec10d8b9",
+          "conclusion": "failure",
+          "failureClass": "network-timeout-or-TLS-not-further-distinguished-in-run",
+          "independentlyVerifiedWithGitHub": true,
+          "retried": false
+        },
         "uploadBackupActivationAndRollbackTested": false,
         "nextAuthorityNeeded": null,
-        "nextAccessNeeded": "authenticated-cpanel-browser-and-GitHub-settings-access",
-        "retryOnlyAfter": "token-and-approved-read-only-probe-result-available"
+        "nextAccessNeeded": "verified-runner-to-cpanel-connectivity-before-any-authenticated-retry",
+        "retryOnlyAfter": "new-transport-diagnosis-or-connectivity-change-not-token-recreation"
       },
       "fileManager": {
         "status": "read-only-UI-observed-write-operations-not-tested",
-        "role": "manual-fallback-with-same-backup-and-form-gates",
+        "role": "owner-selected-manual-migration-with-same-backup-and-form-gates",
+        "selectedByOwnerOn": "2026-10-01",
         "retryOnlyAfter": "approved-isolated-upload-and-extraction-test"
       },
       "sshStage": {
@@ -78,6 +96,8 @@
       "SSH-login-or-stage",
       "hosting-SSH-request",
       "GitHub-environment-creation-through-current-integration-after-HTTP-403",
+      "authenticated-API-probe-without-new-transport-evidence-after-run-36861772566",
+      "token-creation-or-replacement-after-network-failure",
       "symlink-switch",
       "API-menu-inspection",
       "local-full-rebuild-or-screenshot-matrix-for-documentation-changes",
@@ -107,9 +127,35 @@
       "failure": "Resource not accessible by integration",
       "configuredByThisSession": false,
       "tokenStoredByThisSession": false,
+      "configuredByBrowserAgentAsReported": true,
+      "protectionRulesIndependentlyVerified": true,
+      "currentProtection": {
+        "requiredReviewer": "slavisasrdic-debug",
+        "preventSelfReview": false,
+        "canAdminsBypass": false,
+        "allowedBranches": ["main"],
+        "allowedTags": []
+      },
+      "tokenStoredByBrowserAgentAsReported": true,
+      "latestSecretMetadataLookupHttpStatus": 403,
       "retryOnlyAfter": "integration-administration-write-permission-change-or-authorized-browser-settings-access"
     },
-    "probeWorkflowDispatched": false,
+    "probeWorkflowDispatched": true,
+    "probeWorkflowDispatchedBy": "owner-authorized-browser-agent",
+    "credentialFreeConnectivity": {
+      "checkedFrom": "Codespaces-not-GitHub-Actions-runner",
+      "dnsLookupSucceeded": true,
+      "dentvitalisComIPv4": "89.201.174.71",
+      "cpanelPort": 2083,
+      "curlExitCode": 28,
+      "connectTimeoutSeconds": 5,
+      "tcpConnectionEstablished": false,
+      "tlsHandshakeStarted": false,
+      "publicWebsiteHttpStatus": 200,
+      "exactGithubRunnerFailureOrFirewallPolicyEstablished": false,
+      "tokenUsed": false,
+      "authenticatedApiRequestRetried": false
+    },
     "productionUploadAttempted": false,
     "productionActivationAttempted": false
   },

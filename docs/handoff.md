@@ -8,13 +8,17 @@ nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
 Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git
-repozitorija. Token nije stvoren ni API test pokrenut. Pripremljen je jedan
-metadata-only read-only workflow. Vlasnik je odobrio token, sigurnu pohranu,
-test i nastavak migracije. Odobrenje ne zatvara sigurnosne gates. GitHub
-environment PUT iz ove sesije vratio je 403 (integracija nema pristup), bez
-konfiguriranog environmenta/sekreta. Ne ponavljati poziv bez novog pristupa.
-Ovdje nema cPanel browser sesije/tokena; sljedeći odobreni zadatak browser
-agentu nalazi se u runbooku. Ne ponavljati pregled menija. SSH stage je zaustavljen prije
+repozitorija. Vlasnik je odobrio token, pohranu, test i nastavak migracije.
+Browser agent je dovršio environment i token `dentvitalis-migration-20261001`,
+s istekom 8. listopada u 23:59:59 prema cPanelu. GitHub zaštite neovisno su
+potvrđene; vrijednost tokena nije dostupna ovoj sesiji. Run `36861772566` na
+`44c2c9b` nije prošao transport, bez potvrđene autentifikacije/metapodataka.
+Codespaces TCP test na 2083 timeouta prije TLS-a, ali točan uzrok na GitHub
+runneru nije utvrđen. API automatizacija je pauzirana, bez ponavljanja testa
+ili tokena. Sljedeći zadatak u runbooku: puni privatni backup i File Manager
+stage izvan javnog weba, **bez aktivacije**. Odobrenje ne zatvara release gates.
+Raniji environment PUT ove integracije bio je 403; ne ponavljati ga.
+Ovdje nema cPanel browser sesije/tokena. SSH stage je zaustavljen prije
 povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallback,
 ali upload/raspakiranje još nisu testirani. Symlink aktivacija nije potvrđena.
 

@@ -34,10 +34,14 @@ Git Version Control prikazuje 0 repozitorija; prethodni način objave nije utvr�
 Pripremljen je zaseban ručni `.github/workflows/probe-cpanel-api.yml`:
 jedan API 2 metadata GET, bez čitanja sadržaja i serverskih izmjena.
 Vlasnik je odobrio token, zaštićenu pohranu, read-only test i nastavak migracije.
-Workflow još nije pokrenut. Pokušaj stvaranja GitHub environmenta iz ove sesije
-vratio je **403: Resource not accessible by integration**; ne ponavljati isti
-poziv bez promjene pristupa. Agent u browseru treba dovršiti postavke i token
-prema odobrenom zadatku u runbooku. Ovdje nema cPanel browser sesije ni tokena.
+Browser agent je dovršio environment i pohranu tokena. GitHub zaštite neovisno
+su potvrđene; secret vrijednost nije dostupna ovoj sesiji.
+[Prvi run](https://github.com/slavisasrdic-debug/Dent-Vitalis-web/actions/runs/36861772566)
+na `44c2c9b` završio je transportnom greškom, bez potvrđene autentifikacije.
+Credential-free TCP test iz Codespacea timeouta na 2083 prije TLS-a; nije dokaz
+točnog uzroka na GitHub runneru. API put je pauziran; ne ponavljati run ili token
+bez novog dokaza. Nastaviti privatnim backupom i File Manager stageom iz runbooka.
+Raniji environment PUT ove integracije bio je 403; ne ponavljati taj poziv.
 To nije produkcijski deploy niti dokaz upload/backup/activation/rollback uspjeha.
 Konfiguracija, odobrenje i sljedeći test opisani su samo u runbooku.
 Ako API operacije ne prođu prihvat, nastaviti File Managerom uz iste gates;

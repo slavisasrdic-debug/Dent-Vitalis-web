@@ -9,24 +9,24 @@ GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS
 Cloudflare služi samo razvojnom pregledu.
 
 **Aktualni smjer:** bez zahtjeva hosting podršci i bez pretpostavljenog SSH-a.
-API meni je potvrđen; provjeriti autorizirani API pristup za moguću HTTPS automatizaciju. File Manager
-je ručni put ako automatizacija nije dostupna. Ni jedan put još nije izvedbeno
+API priprema je završena, ali prvi test veze nije prošao. Nastaviti pripremu
+ručnim File Managerom; API automatizacija je pauzirana. Ni jedan put još nije izvedbeno
 potvrđen za objavu. SSH nije opći preduvjet migracije. Jedna GitHub akcija za
 produkcijsku objavu još nije implementirana; backup i forme ostaju release gates.
 
 ### Evidencija — što ne ponavljamo bez novog razloga
 
-| Stavka                                                     | Dokaz/status                                                                                             | Kada ponoviti                                                                                  |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Lokalni produkcijski paket, manifest, CRC, routing i forme | Lokalno prošlo za kandidat `af6dc28`; nije dokaz dostave                                                 | Promjena koda, paketa ili stvarnih serverskih pravila                                          |
-| Lokalni ZIP starog weba                                    | CRC prošao prema agentu; nema `application/data` ni baze bloga                                           | Promjena arhive ili prihvat novog kompletnog backupa                                           |
-| File Manager / Extract                                     | Read-only pregled UI-ja; upload i raspakiravanje nisu izvršeni                                           | Zasebno odobren kontrolirani test izvan javnog direktorija                                     |
-| SSH/shell i SSH stage                                      | Panel traži administratorsko omogućavanje; bez prijave i ključeva                                        | Samo nova izričita odluka i dokaz da je pristup omogućen                                       |
-| Symlink switch                                             | Postojeći `www → public_html` nije dokaz; switch nije testiran                                           | Samo ako odabrani postupak stvarno zahtijeva link i postoji novi dokaz                         |
-| cPanel API tokeni                                          | Agent je otvorio Manage API Tokens; UI navodi API 2 i UAPI. Token nije stvoren, operacije nisu testirane | Odobreno stvaranje/pohrana posebnog tokena pa read-only API test; ne ponavljati pregled menija |
-| Git Version Control                                        | Agentov prikaz: 0 repozitorija; raniji “Upload pa Deploy” nije identificiran                             | Samo novi dokaz ili odluka o odabranom postupku                                                |
-| JetBackup restore, PHP/FPM, cookieji, e-mail i CRM         | Prikaz/izvor postoji; stvarni prihvat još nije proveden                                                  | Odobreni test s dokazom, ne ponovno čitanje istih statistika                                   |
-| Dvije dodatne pune kopije                                  | Procjena `813,96 MB` gotovo troši prijavljenih `866 MB`                                                  | Nova izmjera ili promjena politike/prostora; ne pokušavati isti raspored                       |
+| Stavka                                                     | Dokaz/status                                                                                    | Kada ponoviti                                                                                  |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Lokalni produkcijski paket, manifest, CRC, routing i forme | Lokalno prošlo za kandidat `af6dc28`; nije dokaz dostave                                        | Promjena koda, paketa ili stvarnih serverskih pravila                                          |
+| Lokalni ZIP starog weba                                    | CRC prošao prema agentu; nema `application/data` ni baze bloga                                  | Promjena arhive ili prihvat novog kompletnog backupa                                           |
+| File Manager / Extract                                     | Read-only pregled UI-ja; upload i raspakiravanje nisu izvršeni                                  | Zasebno odobren kontrolirani test izvan javnog direktorija                                     |
+| SSH/shell i SSH stage                                      | Panel traži administratorsko omogućavanje; bez prijave i ključeva                               | Samo nova izričita odluka i dokaz da je pristup omogućen                                       |
+| Symlink switch                                             | Postojeći `www → public_html` nije dokaz; switch nije testiran                                  | Samo ako odabrani postupak stvarno zahtijeva link i postoji novi dokaz                         |
+| cPanel API tokeni                                          | Token stvoren/pohranjen prema agentu; prvi run nije prošao vezu. Autentifikacija nije potvrđena | Novi dokaz o transportu prije novog pokušaja; ne stvarati novi token i ne ponavljati isti test |
+| Git Version Control                                        | Agentov prikaz: 0 repozitorija; raniji “Upload pa Deploy” nije identificiran                    | Samo novi dokaz ili odluka o odabranom postupku                                                |
+| JetBackup restore, PHP/FPM, cookieji, e-mail i CRM         | Prikaz/izvor postoji; stvarni prihvat još nije proveden                                         | Odobreni test s dokazom, ne ponovno čitanje istih statistika                                   |
+| Dvije dodatne pune kopije                                  | Procjena `813,96 MB` gotovo troši prijavljenih `866 MB`                                         | Nova izmjera ili promjena politike/prostora; ne pokušavati isti raspored                       |
 
 Ne označavati `nije provjereno` kao `ne radi`, niti UI/prikaz kao uspješnu
 operaciju. Nakon svakog koraka zapisati datum, točan release/input hash,
@@ -38,73 +38,77 @@ ograničenja i zaustavljanje SSH puta na testnim odgovorima, bez pristupa cPanel
 Workflow datoteke provjeriti kao YAML; njihov prolazak lokalnih provjera nije
 dokaz izvršavanja na GitHubu ili dostupnosti serverskih operacija.
 
-### Sljedeći korak — odobren token i read-only API test
+### API — priprema završena, prvi test veze nije prošao
 
-Pregled menija je završen prema agentovom nalazu. Ne tražiti ga ponovno.
-Pripremljen je `.github/workflows/probe-cpanel-api.yml`, ali nije pokrenut niti
-su konfigurirani pristupni podaci. Vlasnik je **1. listopada odobrio** poseban
-vremenski ograničen API token, sigurnu GitHub pohranu, read-only test i nastavak
-migracije. Ne tražiti isto odobrenje ponovno. Odobrenje ne zatvara release gates,
-ne mijenja DNS niti dopušta prepisivanje privatnih podataka.
+Vlasnik je odobrio token, sigurnu pohranu, read-only test i nastavak migracije.
+Odobrenje ne zatvara release gates, ne mijenja DNS niti dopušta prepisivanje
+privatnih podataka. Ne ponavljati potvrđene korake pripreme.
 
-U ovoj sesiji nema autentificiranog cPanel browsera ili lokalnog API tokena.
-GitHub environment/secret metadata dohvat vratio je 404; odobren pokušaj
-stvaranja environmenta vratio je **403: Resource not accessible by integration**.
-Environment i secret nisu postavljeni ovom sesijom, workflow nije pokrenut.
-Ne ponavljati taj PUT dok se pristup ne promijeni; repo `admin: true` nije
-dokaz potrebnih API ovlasti integracije. Nastaviti agentom u browseru.
+- Agent: `dentvitalis-migration-20261001` stvoren i spremljen samo u environment
+  secret `cpanel-api-readonly/CPANEL_API_TOKEN`; istek `8. 10. 2026. 23:59:59`
+  prema cPanelu, vremenska zona nepotvrđena. Vrijednost tokena nije dostavljena
+  ovom agentu. Secret metadata API i dalje vraća 403; pohrana je agentov nalaz.
+- Neovisni GitHub GET potvrđuje reviewer-a `slavisasrdic-debug`, dopušten
+  vlastiti review, `can_admins_bypass=false`, samo branch `main`, bez tagova.
+- [Run #1](https://github.com/slavisasrdic-debug/Dent-Vitalis-web/actions/runs/36861772566)
+  na commitu `44c2c9b` neovisno je potvrđen kao `failure` u metadata koraku:
+  `Read-only cPanel request failed: network, timeout or TLS.` Nije ponovljen.
+  **Autentifikacija i metapodaci nisu potvrđeni.** Deprecation upozorenje Node
+  action runtimea samo po sebi nije dokaz uzroka ove greške.
+- Jedan credential-free Codespaces test: DNS radi; `dentvitalis.com` i `www`
+  imaju IPv4 `89.201.174.71`; HTTPS javnog weba vraća 200. TCP na port 2083
+  završava curl greškom 28 nakon 5 sekundi, bez uspostavljene veze/TLS-a.
+  To nije test s GitHub runnera i ne utvrđuje njegov točan uzrok ili firewall
+  politiku. Ne tvrditi da je token neispravan ili da je potvrđena TLS greška.
 
-Za GitHub test pripremiti environment `cpanel-api-readonly`: varijablu
-`CPANEL_API_ORIGIN=https://dentvitalis.com:2083` i secret `CPANEL_API_TOKEN`.
-Gdje je dostupno, postaviti obvezno vlasničko odobrenje environmenta.
-Token nije ograničen ovom skriptom na razini računa: sam token je osjetljiv
-pristup računu, a skripta ograničava samo svoje pozive. Ne slati ga u chat,
-Git, artifact ili screenshot. Ako nije dostupan siguran način pohrane, stati.
+API automatizacija je pauzirana. Ne ponavljati isti autentificirani run,
+stvarati/zamjenjivati token, isključivati TLS ili slati token alternativnom
+hostu. Novi pokušaj traži novi dokaz o transportu ili promjenu dostupnosti.
+Ne pokretati SSH niti tražiti promjene hostinga kao automatski preduvjet.
+Raniji GitHub environment PUT s ovom integracijom bio je 403; browser agent je
+naknadno dovršio postavke. Razlikovati ta dva nalaza i ne ponavljati PUT.
+Token ostaje osjetljiv račun-wide pristup, ne read-only ključ. Opoziv ili
+produljenje nakon odluke o API putu zasebno evidentirati; ne raditi ih prešutno.
 
-Tek nakon odobrenja ručno pokrenuti workflow na `main` s
-`approve_read_only=true`. Skripta radi jedan HTTPS GET za **API 2 Fileman::statfiles**:
-samo veličine/tipovi `public_html/index.php` i `public_html/.htaccess`.
-Ne čita njihov sadržaj, konfiguraciju ni poruke; ne radi upload, form submit
-ili izmjenu. Provjerava TLS, ne prati redirekcije i ne ispisuje sirovi odgovor.
-Lokalni ekvivalent, uz prethodno sigurno postavljene environment vrijednosti:
-`npm run cpanel:probe:read-only -- --approved-read-only`.
+### Sljedeći zadatak agentu — File Manager, backup i privatni stage
 
-#### Odobreni zadatak agentu u browseru
+Vlasnik je izričito odabrao File Manager. Ovaj zadatak nastavlja odobrenu
+migraciju, ali **ne aktivira novi web**.
+Ako browser alat zahtijeva neposrednu potvrdu prije zapisa, navesti točnu
+radnju i privatnu ciljnu putanju. Ne zaobilaziti njegovu sigurnosnu potvrdu.
 
-1. Ne ponavljati pregled menija, shella, izvora ili kvote. U GitHub repozitoriju
-   `slavisasrdic-debug/Dent-Vitalis-web`, **Settings → Environments**, pripremiti
-   `cpanel-api-readonly`, uz obveznog reviewer-a `slavisasrdic-debug` i dopuštenu
-   branch `main` (bez tagova). Vlasnik mora moći potvrditi vlastiti ručni test.
-   Postaviti environment variable `CPANEL_API_ORIGIN=https://dentvitalis.com:2083`.
-   Ne mijenjati globalna prava, vidljivost repozitorija ili druge environmente.
-   Ako su postavke nedostupne, stati prije stvaranja tokena i prijaviti razlog.
-2. U već otvorenom cPanelu za `dentvita`, **Security → Manage API Tokens**,
-   stvoriti token `dentvitalis-migration-20261001`, s rokom od 7 dana prema
-   prikazanoj serverskoj vremenskoj zoni. Ako isto ime već postoji, ne brisati
-   niti zamjenjivati postojeći token; prijaviti stanje. Vrijednost prenijeti
-   izravno u **environment secret** `CPANEL_API_TOKEN` navedenog environmenta.
-   Ne koristiti repository-wide secret, chat, datoteku, artifact ili screenshot
-   s tokenom. Ako izravna sigurna pohrana nije moguća, stati; ne improvizirati.
-3. U **Actions → Check cPanel API (read only)**, ručno pokrenuti workflow na
-   `main` s `approve_read_only=true`, proći vlasnički environment review i
-   pratiti samo taj run. Ne pokretati Stage cPanel release ili SSH. Ne ponavljati
-   neuspjeli test bez dijagnoze i novog razloga.
-4. Vratiti naziv/rok tokena (bez vrijednosti), stanje zaštita/pohrane,
-   URL i commit workflow runa, rezultat i javne metapodatke ako je test prošao.
-   Ako se pojavila blokada, navesti gdje i što je stvarno napravljeno; ne tvrditi
-   da je deploy spreman. U ovoj fazi nema uploada, promjene `public_html`, PHP
-   dodataka, testne poruke, DNS-a, brisanja bloga ili aktivacije novog weba.
-
-Nakon ovog testa slijedi izolirani prihvat prijenosa i povratka, puni privatni
-backup i prihvat PHP/formi iz ostatka runbooka. Pristupni test nije zamjena za njih.
-
-Rezultat zapisati kao autentificiran metadata test, ne kao dokaz UAPI-ja ili
-deploya. Bez ispravnog odgovora stati i zabilježiti kontroliranu grešku;
-ne ponavljati pokušaj bez novog razloga niti isključivati TLS provjeru.
-Upload/raspakiranje, provjera integriteta,
-backup, aktivacija i povratak zatim zahtijevaju kontroliran test izvan živog weba.
-Ako je opcija nedostupna, evidentirati to i nastaviti ručnim File Managerom;
-ne vraćati SSH/hosting zahtjeve kao automatski preduvjet.
+1. Ne stvarati token niti pokretati GitHub API/SSH testove. Prije kompresije i
+   uploada provjeriti aktualni prostor, kvotu i dostupni inode prikaz; zadnja
+   procjena nije aktualna garancija. Ako podatak nije dostupan, prijaviti to.
+   Ne oslobađati prostor brisanjem bloga, poruka, logova, koša ili backupa.
+2. U privatnom `/home2/dentvita/backups/pre-migration-20261001/` napraviti
+   arhivu trenutačnih `public_html`, cijelog `application` **uključujući `data`**,
+   i roditeljskog `.htaccess`. Postojeću arhivu ne prepisivati. Ne otvarati
+   poruke pacijenata ili prikazivati konfiguraciju/tajne. ZIP bez `data` nije
+   dovoljan; JetBackup prikaz nije zamjena za provjeren privatni backup.
+3. Preuzeti backup na vlasnikovo privatno računalo, provjeriti CRC i obnovljivost
+   lokalnim raspakiravanjem u odvojenu privatnu mapu, uz ključne datoteke i
+   direktorije. Ne raspakiravati dodatnu punu kopiju na ograničeni hosting.
+   Vratiti putanje, veličine i SHA-256 gdje je alat dostupan, ne sadržaj poruka
+   ili konfiguracije. Ne slati privatni backup u chat, GitHub ili javni artifact.
+   To je backup weba/backenda, ne dokaz kompletnog cPanel računa ili baze bloga;
+   baze i druge servise ne mijenjati.
+4. Tek nakon verificiranog backupa prenijeti **javni statički ZIP**
+   `dentvitalis-web-production-candidate-20261001-af6dc28.zip` u novi privatni
+   `/home2/dentvita/releases/20261001-af6dc28/`, pa raspakirati tamo. Arhiva:
+   `57.946.023 B`, SHA-256
+   `33096bf3b41bae18a408f4e0ada7ccd2ba3563098111dd289bc4b04fc7f1c7a9`.
+   Ne prenijeti preview artifact ili privatni PHP ZIP kao javni web. Ako cilj
+   postoji, ne prepisivati ga. Ne premještati/prepisivati `public_html`.
+5. Potvrditi ispravan korijen s `index.html`, `.htaccess`,
+   `release-manifest.json`, 691 payload datotekom + manifestom, ukupno
+   `65.436.532 B` logičnih bajtova. Ne pribrajati uploadani ZIP ekstrakciji.
+   Provjeriti integritet dostupnim sigurnim alatom; ako server hash provjera
+   nije moguća, to ostaje otvoreno — UI popis nije SHA-256 potvrda.
+6. Vratiti rezultat backupa i stagea, što je zaista provjereno, otvorene
+   stavke i potvrdu da javni web/backend nisu mijenjani. **Stati prije aktivacije**,
+   instalacije PHP dodataka i testnih upita. Slijedi zaseban prihvat PHP/sesije,
+   stvarne dostave e-maila/CRM-a i procedure povratka iz ostatka runbooka.
 
 Dokumentacija cPanela potvrđuje [API tokene](https://docs.cpanel.net/cpanel/security/manage-api-tokens-in-cpanel/)
 i [UAPI upload](https://api.docs.cpanel.net/guides/quickstart-development-guide/tutorial-use-uapis-fileman-upload-files-function-in-custom-code).

@@ -20,14 +20,20 @@ test('current migration procedure does not require SSH or a hosting request', ()
     /new-owner-decision/,
   );
   assert.match(report.procedure.routes.fileManager.status, /not-tested/);
+  assert.equal(report.ownerAuthorization.fileManagerMigration, true);
+  assert.match(report.procedure.routes.fileManager.role, /owner-selected/);
 });
 
-test('confirmed API menu is not confused with authenticated or successful deploy operations', () => {
+test('created token and failed probe are not confused with confirmed authentication or deploy', () => {
   const api = report.procedure.routes.cpanelApi;
   assert.equal(api.menuOpensAsReportedByAgent, true);
-  assert.equal(api.authenticatedProbeRun, false);
+  assert.equal(api.authenticatedProbeRun, true);
+  assert.equal(api.authenticationConfirmed, false);
+  assert.equal(api.metadataReadConfirmed, false);
+  assert.equal(api.probeRun.conclusion, 'failure');
+  assert.equal(api.probeRun.retried, false);
   assert.equal(api.uploadBackupActivationAndRollbackTested, false);
-  assert.equal(api.tokenCreated, false);
+  assert.equal(api.tokenCreated, true);
   assert.equal(
     report.procedure.routes.cpanelGit.previousUploadDeployMethod,
     'not-established',
@@ -62,7 +68,23 @@ test('failed GitHub settings attempt is recorded and not retried without changed
   assert.equal(access.githubEnvironment.creationHttpStatus, 403);
   assert.equal(access.githubEnvironment.configuredByThisSession, false);
   assert.equal(access.githubEnvironment.tokenStoredByThisSession, false);
-  assert.equal(access.probeWorkflowDispatched, false);
+  assert.equal(
+    access.githubEnvironment.configuredByBrowserAgentAsReported,
+    true,
+  );
+  assert.equal(
+    access.githubEnvironment.protectionRulesIndependentlyVerified,
+    true,
+  );
+  assert.equal(
+    access.githubEnvironment.currentProtection.canAdminsBypass,
+    false,
+  );
+  assert.deepEqual(access.githubEnvironment.currentProtection.allowedBranches, [
+    'main',
+  ]);
+  assert.deepEqual(access.githubEnvironment.currentProtection.allowedTags, []);
+  assert.equal(access.probeWorkflowDispatched, true);
   assert.equal(access.productionUploadAttempted, false);
   assert.equal(access.productionActivationAttempted, false);
   assert.match(
@@ -73,6 +95,24 @@ test('failed GitHub settings attempt is recorded and not retried without changed
     report.procedure.doNotRepeatWithoutNewEvidence.includes(
       'GitHub-environment-creation-through-current-integration-after-HTTP-403',
     ),
+  );
+});
+
+test('credential-free TCP failure does not establish runner cause or justify a token retry', () => {
+  const network = report.accessPreparation.credentialFreeConnectivity;
+  assert.equal(network.tokenUsed, false);
+  assert.equal(network.authenticatedApiRequestRetried, false);
+  assert.equal(network.tcpConnectionEstablished, false);
+  assert.equal(network.tlsHandshakeStarted, false);
+  assert.equal(
+    network.exactGithubRunnerFailureOrFirewallPolicyEstablished,
+    false,
+  );
+  assert.equal(network.publicWebsiteHttpStatus, 200);
+  assert.match(report.procedure.currentDirection, /File-Manager/);
+  assert.match(
+    report.procedure.routes.cpanelApi.retryOnlyAfter,
+    /not-token-recreation/,
   );
 });
 
