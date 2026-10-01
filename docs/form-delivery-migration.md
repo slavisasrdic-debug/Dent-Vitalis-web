@@ -121,9 +121,11 @@ Povratak PHP koda i povratak privatnih podataka zasebni su kontrolirani postupci
 Kapacitet kvote, inodeovi, PHP/FPM ekstenzije i cookie postavke još nisu
 efektivno provjereni. Detalji su u cPanel runbooku i readiness podacima.
 
-1. Prije promjene sačuvati dvije vremenski označene verzije `public_html` i
-   cijelog `application` direktorija izvan web-korijena, uz checksum i postupak
-   povrata.
+1. Prije prve migracije sačuvati kompletan `public_html` i `application`,
+   uključujući privatne podatke, izvan web-korijena i potvrditi zasebnu
+   zaštićenu kopiju izvan servera, checksum i postupak povrata. Za redovne
+   objave zadržavati dvije prethodne provjerene kodne verzije, uz zaseban
+   backup privatnog sustava i podataka; statički rollback ne vraća stare upite.
 2. Sačuvati postojeći bootstrap, vendor, jezične datoteke i privatni
    `config/local.php`; tajne ne ulaze u Git, build artefakt ni klijentski kod.
 3. Statični release ne smije pregaziti `/send` i `/gct`: cPanel rewrite mora

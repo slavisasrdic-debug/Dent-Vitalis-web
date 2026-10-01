@@ -17,6 +17,58 @@
     "automaticRollbackMustNotRestore": ["application/data"],
     "existingStageWorkflowProducesPreviewOnly": true
   },
+  "automationFollowUp": {
+    "reportedOn": "2026-10-01",
+    "source": "owner-pasted-agent-read-only-shell-and-storage-follow-up",
+    "independentlyVerifiedInThisWorkspace": false,
+    "ssh": {
+      "accountAccess": "not-confirmed-panel-explicitly-requires-administrator-to-enable-shell",
+      "serverService": "sshd-up-not-evidence-of-account-access",
+      "installedPublicKeysAsDisplayed": 0,
+      "installedPrivateKeysAsDisplayed": 0,
+      "terminalToolDisplayed": false,
+      "hostnamePortShellAndSftpConfirmed": false,
+      "serverLabelShopIsNotVerifiedHostname": true,
+      "loginAttempted": false
+    },
+    "symlinks": {
+      "existingLink": "/home2/dentvita/www -> public_html",
+      "releaseDocumentRootSupportConfirmed": false,
+      "testPerformed": false,
+      "bootstrapRelativeApplicationPathRequiresAcceptanceTest": true
+    },
+    "diskUsage": {
+      "unit": "MB-as-displayed-by-cPanel-not-normalized-to-bytes",
+      "valuesMayBeDelayed": true,
+      "publicHtml": 167.63,
+      "blog": 155.19,
+      "publicHtmlWithoutBlogCalculated": 12.44,
+      "application": 239.35,
+      "applicationData": 234.61,
+      "applicationDataLog": 82.78,
+      "applicationDataMail": 151.83,
+      "applicationWithoutDataCalculated": 4.74,
+      "twoAdditionalFullCopiesCalculated": 813.96,
+      "twoAdditionalCopiesWithoutApplicationDataCalculated": 344.74,
+      "inodeLimitAndUsageConfirmed": false,
+      "serverToolsConfirmed": false
+    },
+    "nextDependency": "hosting-support-confirmation-of-account-shell-and-release-switch-capabilities",
+    "externalSupportContactMade": false
+  },
+  "preparedStaticCandidate": {
+    "gitCommit": "af6dc2881c2f0ec09672764a2a52b83b675a61a3",
+    "archiveName": "dentvitalis-web-production-candidate-20261001-af6dc28.zip",
+    "compressedZipBytes": 57946023,
+    "manifestFileCount": 691,
+    "payloadBytesExcludingManifest": 65311606,
+    "manifestBytes": 124926,
+    "logicalUnpackedBytesIncludingManifest": 65436532,
+    "totalFilesIncludingManifest": 692,
+    "measurement": "local-existing-artifact-and-release-manifest-no-rebuild",
+    "serverDiskAllocationAndInodesVerified": false,
+    "currentCodeCommitAutomaticallyRepackaged": false
+  },
   "cpanelFollowUp": {
     "reportedOn": "2026-10-01",
     "source": "owner-pasted-agent-read-only-report",
@@ -171,7 +223,8 @@
   "serverGates": [
     "SSH-shell-and-verified-deploy-key-access-configured",
     "account-quota-filesystem-and-inode-capacity-for-upload-backups-and-rollback-verified",
-    "verified-public_html-and-application-backups-with-two-previous-versions",
+    "verified-full-pre-migration-public_html-and-application-backup-including-private-data",
+    "two-previous-verified-code-release-versions-with-separate-private-data-backup",
     "private-off-server-backup-verified-and-live-data-preserving-rollback-tested",
     "actual-legacy-htaccess-in-production-release",
     "private-form-tokens-template-installed-and-tested-in-existing-session",

@@ -25,6 +25,12 @@ backupe te način sigurnog switcha na tom hostingu. Dopunjeni nalaz je u
 Zaštita rollbacka mora sačuvati novije podatke u `application/data` i vanjski
 CRM; privatni backupovi nikada nisu GitHub artifacti.
 
+Završna read-only dopuna potvrđuje da cPanel traži administratorsko omogućavanje
+shell pristupa i da nema prikazanih instaliranih SSH ključeva. `sshd: up` i
+postojeći `www → public_html` ne potvrđuju pristup računu ni dopušteni release
+switch. Sljedeći korak je zahtjev hosting podršci iz runbooka; ovaj workflow
+ne pokretati s `stage_to_cpanel` dok pristup i ovlasti nisu potvrđeni.
+
 ## Jednokratna priprema pristupa
 
 1. U cPanelu potvrditi da je SSH/SFTP pristup uključen za račun `dentvita`.

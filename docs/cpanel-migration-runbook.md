@@ -77,6 +77,60 @@ i `application/data`, dostupne alate te hosting podršku za odabrani switch.
 Zatim testirati upload, obnovljivost i rollback na sigurnom testnom rasporedu.
 Ne obećavati neprekinuti/atomski switch dok ga mogućnosti hostinga i test ne potvrde.
 
+### Završna read-only dopuna: shell i veličine
+
+Naknadni nalaz izričito potvrđuje upozorenje da administrator mora omogućiti
+shell za račun `dentvita`. `sshd: up` ne potvrđuje pristup računu; nema prikazanih
+instaliranih SSH ključeva ni Terminal alata. Hostname, port, shell, SFTP,
+inodeovi i alati nisu potvrđeni. Postojeći `www → public_html` ne dokazuje
+da Apache dopušta document root ili poddirektorij prema `releases/`.
+Zbog bootstrapova relativnog `../application`, svaki odabrani switch mora
+posebno dokazati da i dalje učitava postojeći privatni application, bez kopiranja
+njegovih podataka u svaki release. Ne izvoditi taj zaključak samo iz www linka.
+
+Novi Disk Usage nalaz prikazuje `public_html 167,63 MB` (blog `155,19 MB`)
+i `application 239,35 MB` (`data 234,61 MB`: log `82,78 MB`, mail `151,83 MB`).
+To su moguće odgođene cPanel vrijednosti, ne trenutni byte/inode inventar.
+Prema tim brojkama dvije dodatne pune kopije zauzimaju oko `813,96 MB`, a
+dvije kopije bez `application/data` oko `344,74 MB`. Raniji Home Directory
+snapshot od `504,17 MB` nije veličina samo ova dva živa direktorija.
+
+Postojeći lokalni produkcijski kandidat `af6dc28` nije regeneriran:
+ZIP je `57.946.023 B`, 691 payload datoteka ima `65.311.606 B`, a manifest
+`124.926 B`: ukupno 692 datoteke i `65.436.532 B` logičkog raspakiranog sadržaja.
+To su oko 58 MB ZIP-a i 65 MB sadržaja u decimalnim jedinicama, a ne potvrda
+Apacheova obračuna kvote ili fizičke potrošnje/inodeova. Ostale `.astro` QA i
+source datoteke nisu dio tog releasea. Dokumentacijski commit nakon `af6dc28`
+ne pretvara postojeći ZIP u novu verziju; sljedeći paket mora imati vlastiti manifest.
+
+Za prvi prijelaz potreban je kompletan, provjerljiv privatni backup starog
+`public_html` i `application`, uključujući `application/data`, uz zaštićenu
+kopiju izvan servera. Nakon prijelaza dvije prethodne verzije javnog Astro
+builda mogu se čuvati kao statički releaseovi, dok nepromijenjeni PHP i privatni
+podaci ostaju zajednički. Backup privatnih podataka i konfiguracije ostaje
+zasebna obveza; dva statička releasea nisu puni backup računa. Prije PHP
+izmjena posebno backupirati odgovarajuću verziju koda i konfiguracije.
+Prije svake objave provjeriti rezervu za upload, raspakiravanje i povratak te
+da se dva prethodna potvrđena rollback odredišta ne uklanjaju prerano.
+Ne brisati `application/data`, logove, poruke, blog, koš ili backupove radi
+prostora bez zasebnog odobrenja i točno potvrđenog obuhvata.
+
+### Upit hosting podršci prije povezivanja automatizacije
+
+Ne slati upit automatski niti pretpostavljati da je pristup već omogućen.
+Vlasnik može poslati sljedeći zahtjev:
+
+> Za `dentvitalis.com`, cPanel račun `dentvita`, pripremamo GitHub Actions
+> objavu statičkog weba uz očuvanje postojećeg PHP backenda. Molimo omogućavanje
+> SSH pristupa s ključem (jailed shell ako podržava potrebne naredbe) i SFTP-a,
+> uz potvrdu hostnamea, porta, vrste shella i otiska SSH host ključa.
+> Molimo potvrdu dostupnosti `tar`/`unzip`, `sha256sum`, `rsync`, `curl` i
+> `flock`, inode limita i potrošnje te načina obračuna kvote.
+> Dopušta li Apache document root ili njegov poddirektorij kao simboličku
+> poveznicu prema `/home2/dentvita/releases/`, pod istim vlasništvom? Navedite
+> eventualna ograničenja; nemojte sami prebacivati document root.
+> Ne mijenjajte DNS, PHP verziju, javni web, e-mail, CRM ni postojeće podatke.
+
 ## Release gates
 
 Detaljna dopuna od 1. listopada nalazi se u `data/migration-readiness.json`
@@ -93,8 +147,11 @@ Prije promjene servera treba postojati:
    provjeravaju ugovor obrazaca i dodaju `dist/release-manifest.json`
    (SHA-256 i veličina svake objavljive datoteke). Manifest je zapis releasea,
    ne tajni i ne commitira se.
-2. Dvije provjerene, vremenski označene verzije izvan `public_html`:
-   kompletan trenutačni `public_html` i kompletan `application` direktorij.
+2. Prije prve migracije verificiran kompletan backup trenutačnog `public_html`
+   i `application`, uključujući privatne podatke, izvan javnog direktorija.
+   Za kasnije rutinske objave dvije prethodne provjerene kodne verzije izvan
+   javnog direktorija, uz zaseban zaštićeni backup privatnog backenda i podataka.
+   Statički rollback ne prepisuje `application/data`.
 3. SHA-256 manifest backupa i provjeren postupak vraćanja posljednje verzije.
 4. Potvrđen PHP runtime, `curl`, `mbstring`, session, `upload_max_filesize` i
    `post_max_size` za produkcijski handler.
