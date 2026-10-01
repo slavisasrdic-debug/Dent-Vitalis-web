@@ -8,11 +8,12 @@ import { route } from './routes';
 import { alt } from './assets';
 import { ui } from '../ui';
 import { withAccentedPhrase } from '../home-heading-accent';
+import titles from '../../../data/homepage-title-reference.json';
 
 export const home = {
   ...itHome,
   metadata: {
-    title: 'DentVitalis – Zobozdravniki na Hrvaškem',
+    title: titles.pages.sl.title,
     description: t(1, 6, 4)
       .split(/(?<=[.!?])\s+/)
       .slice(0, 2)

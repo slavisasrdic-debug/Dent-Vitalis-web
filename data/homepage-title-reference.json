@@ -1,0 +1,31 @@
+{
+  "auditedAt": "2026-10-01",
+  "authority": "Owner requested identical homepage SEO titles to the existing public site. Read-only HTTP GET; exact title text, no editorial changes.",
+  "pages": {
+    "it": {
+      "sourceUrl": "https://www.dentvitalis.com/",
+      "title": "I migliori dentisti Croazia per denti perfetti - DentVitalis",
+      "sourceSha256": "c20ec75686930f137ead5bad74b046b8f37bdb033adbcff645600a227e586e5c"
+    },
+    "hr": {
+      "sourceUrl": "https://www.dentvitalis.com/hr",
+      "title": "Stomatološka Klinika Dentvitalis - Stomatolog Rijeka",
+      "sourceSha256": "18da58e524074c98a3c66ea51d384471836ae74a8a802246defac284fc015e4d"
+    },
+    "de": {
+      "sourceUrl": "https://www.dentvitalis.com/de",
+      "title": "Zahnärzte Kroatien - Dentvitalis Kroatien, Rijeka",
+      "sourceSha256": "ceb5b035871c6e66ec194f2c6844b7badd039c79a769d3626d64407dc222c6de"
+    },
+    "en": {
+      "sourceUrl": "https://www.dentvitalis.com/en",
+      "title": "Your Dentist Abroad - Dental Treatment Abroad",
+      "sourceSha256": "64d4371dcb82c0509b481b524ec4adaf4c7cb38c1a3cb425a2d5843e71a71b7a"
+    },
+    "sl": {
+      "sourceUrl": "https://www.dentvitalis.com/si",
+      "title": "Zobozdravnik Hrvaška - Najboljši Hrvaški zobozdravniki",
+      "sourceSha256": "8c485a775c8ed34d3f8ca3ee18e44c5ecdc2db552147b505e1f881e3b47f0fdb"
+    }
+  }
+}

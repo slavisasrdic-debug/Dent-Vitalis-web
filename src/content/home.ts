@@ -1,6 +1,7 @@
 import { clinic } from './site';
 import type { ImageKey } from '../components/ResponsiveImage.astro';
 import { withAccentedPhrase } from './home-heading-accent';
+import titles from '../../data/homepage-title-reference.json';
 
 export interface TeaserCardData {
   title: string;
@@ -19,7 +20,7 @@ export interface TeaserCardData {
 }
 export const home = {
   metadata: {
-    title: 'DentVitalis - migliori dentisti in Croazia',
+    title: titles.pages.it.title,
     description:
       'Grandi risparmi senza rinunciare alla massima qualità. Siamo una clinica dentale a Rijeka (Fiume), in Croazia, dove puoi provare in anteprima i tuoi nuovi denti',
   },
