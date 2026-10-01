@@ -1,5 +1,6 @@
 import { productionOrigin } from '../src/content/seo-urls.ts';
 import { pageDocument } from '../src/content/page-paths.ts';
+import readiness from '../data/migration-readiness.json' with { type: 'json' };
 import {
   thankYouDocuments,
   retiredThankYouRoutes,
@@ -58,6 +59,9 @@ export function canonicalHostRules(documents = thankYouDocuments) {
     // REQUEST_URI becomes /index.php after the internal rewrite; use the
     // original request line so the dynamic response remains uncacheable.
     '<If "%{THE_REQUEST} =~ m#\\s/(?:send|gct|send-sconto|form-tokens)/?(?:[?\\s])#">\n' +
+    '  <IfModule mod_expires.c>\n' +
+    '    ExpiresActive Off\n' +
+    '  </IfModule>\n' +
     '  <IfModule mod_headers.c>\n' +
     '    Header always set Cache-Control "private, no-store, max-age=0"\n' +
     '    Header always set X-Robots-Tag "noindex, nofollow"\n' +
@@ -79,7 +83,59 @@ export function canonicalHostRules(documents = thankYouDocuments) {
   );
 }
 
-/** Prefix our owned block without changing any bytes of the legacy rules. */
+/** Only explicit owner-approved, exact Redirect rules may be removed. */
+function prepareLegacyRules(original, documents) {
+  const kept = [];
+  const removalCounts = new Map();
+  const protectedRoutes = [
+    ...Object.keys(documents),
+    '/send',
+    '/gct',
+    '/send-sconto',
+    '/form-tokens',
+  ];
+  for (let start = 0; start < original.length;) {
+    const newline = original.indexOf(10, start);
+    const stop = newline === -1 ? original.length : newline + 1;
+    const line = original.subarray(start, stop);
+    start = stop;
+    const rule =
+      /^\s*Redirect\s+(301|302|303|307|308|permanent|temp|seeother)\s+(\/\S*)\s+(\S+)\s*$/i.exec(
+        line.toString(),
+      );
+    if (rule) {
+      const [, status, from, to] = rule;
+      const approved = readiness.legacyHtaccess.approvedRedirectRemovals.find(
+        (decision) =>
+          String(decision.status) === status &&
+          decision.from === from &&
+          decision.to === to,
+      );
+      if (approved && Object.hasOwn(documents, from)) {
+        const count = (removalCounts.get(approved) ?? 0) + 1;
+        if (count > approved.sourceOccurrences)
+          throw new Error(
+            'Legacy Redirect removal count exceeds owner approval; review required.',
+          );
+        removalCounts.set(approved, count);
+        continue;
+      }
+      const conflict = protectedRoutes.find(
+        (route) =>
+          route === from ||
+          route.startsWith(from.endsWith('/') ? from : from + '/'),
+      );
+      if (conflict)
+        throw new Error(
+          `Legacy Redirect intercepts protected route ${conflict}; owner review required.`,
+        );
+    }
+    kept.push(line);
+  }
+  return Buffer.concat(kept);
+}
+
+/** Preserve legacy bytes except the separately recorded approved removals. */
 export function mergeLegacyHtaccess(legacy, documents = thankYouDocuments) {
   if (!Buffer.isBuffer(legacy) || !legacy.length)
     throw new Error(
@@ -103,5 +159,8 @@ export function mergeLegacyHtaccess(legacy, documents = thankYouDocuments) {
     base = legacy.subarray(stop + endMarker.length);
   }
   if (!base.length) throw new Error('Legacy rules are missing.');
-  return Buffer.concat([Buffer.from(canonicalHostRules(documents)), base]);
+  return Buffer.concat([
+    Buffer.from(canonicalHostRules(documents)),
+    prepareLegacyRules(base, documents),
+  ]);
 }

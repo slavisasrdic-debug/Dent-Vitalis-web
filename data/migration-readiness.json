@@ -5,6 +5,36 @@
     "sha256": "86ded1396f09d2a32bc9bd2fcc1a7c0aa4b93b563bd037a86b2b9b01f7d0cb23"
   },
   "productionDeploymentAuthorized": false,
+  "legacyHtaccess": {
+    "source": "owner-supplied-text-2026-10-01",
+    "sha256": "ffe96dfc4c95363b3eb8a155e4b1da71b0aba5c4e92a2fd0e5e378b726d6fbd5",
+    "bytes": 5129,
+    "redirectRuleCount": 67,
+    "approvedRedirectRemovals": [
+      {
+        "status": 301,
+        "from": "/hr/iskustva-pacijenata",
+        "to": "/hr/testimonials",
+        "sourceOccurrences": 2,
+        "approvedOn": "2026-10-01",
+        "reason": "Preserve the existing approved new Croatian testimonials URL instead of redirecting it to the legacy backend."
+      }
+    ],
+    "targetsWithoutNewStaticPage": [
+      "/en/about-us",
+      "/alloggio",
+      "/hr/testimonials-edita-karadole-glumica",
+      "/hr/desinfekcija",
+      "/hr/testimonials-zoran-roje-sportski-direktor",
+      "/hr/technologija",
+      "/hr/klinicko-produzenje-krune-prirodnog-zuba",
+      "/hr/keramicki-most-na-prirodnim-zubima",
+      "/hr/testimonials",
+      "/hr/keramicki-most-na-svim-implantatima"
+    ],
+    "remainingLegacyUrlReviewRequired": true,
+    "serverSourceComparisonRequired": true
+  },
   "newsletter": { "decision": "remove", "status": "absent-from-new-site" },
   "blog": {
     "decision": "remove-from-new-site",

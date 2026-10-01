@@ -93,6 +93,43 @@ test('missing or ambiguous server routing fails closed', () => {
   );
 });
 
+test('only the two approved redirects are removed; other bytes and original remain intact', () => {
+  const documents = {
+    '/hr/iskustva-pacijenata': '/_pages/hr/iskustva-pacijenata.html',
+  };
+  const approved = Buffer.from(
+    'Redirect 301 /hr/iskustva-pacijenata /hr/testimonials\r\n',
+  );
+  const unrelated = Buffer.from('Redirect 301 /old-contact /hr/kontakt\r\n');
+  const original = Buffer.concat([legacy, approved, unrelated, approved]);
+  const copy = Buffer.from(original);
+  const merged = mergeLegacyHtaccess(original, documents);
+  assert.deepEqual(
+    merged.subarray(Buffer.byteLength(canonicalHostRules(documents))),
+    Buffer.concat([legacy, unrelated]),
+  );
+  assert.deepEqual(original, copy);
+  assert.deepEqual(mergeLegacyHtaccess(merged, documents), merged);
+  assert.throws(
+    () => mergeLegacyHtaccess(Buffer.concat([original, approved]), documents),
+    /exceeds owner approval/,
+  );
+  for (const rule of [
+    'Redirect 301 /hr/iskustva-pacijenata /different-target\n',
+    'Redirect 302 /hr/iskustva-pacijenata /hr/testimonials\n',
+    'Redirect 301 /hr /elsewhere\n',
+    'Redirect 301 /form-tokens /somewhere\n',
+  ])
+    assert.throws(
+      () =>
+        mergeLegacyHtaccess(
+          Buffer.concat([legacy, Buffer.from(rule)]),
+          documents,
+        ),
+      /owner review required/,
+    );
+});
+
 test('production package requires a backup and cannot run as a Pages build', async () => {
   const command = ['scripts/prepare-cpanel-production-release.mjs'];
   const options = { cwd: root, env: { ...process.env, CF_PAGES: '' } };
@@ -129,6 +166,10 @@ test(
       Object.keys(documents).length >= 140,
       'Build the full site before Apache acceptance',
     );
+    const suppliedLegacy = process.env.DENTVITALIS_LEGACY_HTACCESS;
+    const sourceLegacy = suppliedLegacy
+      ? await readFile(suppliedLegacy)
+      : legacy;
     const directory = await mkdtemp(
       join(tmpdir(), 'dentvitalis-apache-routing-'),
     );
@@ -165,7 +206,18 @@ test(
     );
     await writeFile(
       join(directory, 'htdocs/.htaccess'),
-      mergeLegacyHtaccess(legacy, documents),
+      suppliedLegacy
+        ? Buffer.from(
+            mergeLegacyHtaccess(sourceLegacy, documents)
+              .toString()
+              .replace(
+                /^ModPagespeed\s+off\s*$/gm,
+                '# Fixture only: stock httpd has no mod_pagespeed.',
+              ) +
+              '\n# Fixture only: serve the dummy PHP bootstrap as text, not actual PHP.\n' +
+              '<Files "index.php">\nSetHandler default-handler\n</Files>\n',
+          )
+        : mergeLegacyHtaccess(sourceLegacy, documents),
     );
     await chmod(join(directory, 'htdocs'), 0o755);
     for (const name of [
@@ -224,6 +276,7 @@ test(
       .replace('#LoadModule rewrite_module', 'LoadModule rewrite_module')
       .replace('#LoadModule ssl_module', 'LoadModule ssl_module')
       .replace('#LoadModule headers_module', 'LoadModule headers_module')
+      .replace('#LoadModule expires_module', 'LoadModule expires_module')
       .replace(
         '#LoadModule socache_shmcb_module',
         'LoadModule socache_shmcb_module',
@@ -333,15 +386,37 @@ test(
       assert.equal(result.status, 308);
       assert.equal(result.location, 'https://www.dentvitalis.com' + path);
     }
-    for (const host of [
-      'www.dentvitalis.com',
-      'dent-vitalis-web.pages.dev',
-      'localhost',
-      'evil.example',
-    ]) {
+    // The original server rules also redirect unrelated hosts; only our owned
+    // block promises not to match preview hosts. Pages never receives this file.
+    for (const host of suppliedLegacy
+      ? ['www.dentvitalis.com']
+      : [
+          'www.dentvitalis.com',
+          'dent-vitalis-web.pages.dev',
+          'localhost',
+          'evil.example',
+        ]) {
       const result = await request(true, host);
       assert.equal(result.status, 200, JSON.stringify({ host, result }));
       assert.equal(result.location, undefined);
+    }
+    for (const path of [
+      '/send?campaign=test',
+      '/gct',
+      '/form-tokens',
+      '/send-sconto',
+    ]) {
+      const result = await request(
+        true,
+        'www.dentvitalis.com',
+        path,
+        path.startsWith('/send') ? 'POST' : 'GET',
+        path.startsWith('/send') ? 'fixture-only' : undefined,
+      );
+      assert.equal(result.status, 200);
+      assert.equal(result.location, undefined);
+      assert.match(result.text, /Legacy route retained/);
+      assert.equal(result.cacheControl, 'private, no-store, max-age=0');
     }
     for (const route of Object.keys(documents)) {
       const result = await request(
@@ -405,24 +480,6 @@ test(
       post.location,
       'https://www.dentvitalis.com/send?campaign=test',
     );
-    for (const path of [
-      '/send?campaign=test',
-      '/gct',
-      '/form-tokens',
-      '/send-sconto',
-    ]) {
-      const result = await request(
-        true,
-        'www.dentvitalis.com',
-        path,
-        path.startsWith('/send') ? 'POST' : 'GET',
-        path.startsWith('/send') ? 'fixture-only' : undefined,
-      );
-      assert.equal(result.status, 200);
-      assert.equal(result.location, undefined);
-      assert.match(result.text, /Legacy route retained/);
-      assert.equal(result.cacheControl, 'private, no-store, max-age=0');
-    }
     verified = true;
   },
 );

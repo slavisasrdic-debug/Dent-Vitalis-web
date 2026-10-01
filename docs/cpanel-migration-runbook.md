@@ -71,7 +71,8 @@ povratka na HTTP. Putanja i query parametri ostaju isti. Trajni status **308**
 čuva i HTTP metodu/tijelo POST zahtjeva. Testni i nepoznati hostovi nisu zahvaćeni;
 već ispravna HTTPS/www adresa nema novu redirekciju.
 
-Izvorni legacy bajtovi ostaju iza našeg označenog bloka. To nije dokaz da je
+Legacy bajtovi ostaju iza našeg označenog bloka, osim izričito odobrenih
+uklanjanja opisanih ispod. To nije dokaz da je
 cjelokupni static/PHP bridge spreman: prije aktivacije treba pregledati stvarni
 bootstrap, redoslijed ostalih pravila i postojeće Force HTTPS postavke na hostingu.
 Testirati stvarni HTTPS status u Apacheu; ne vjerovati klijentskom
@@ -81,6 +82,35 @@ sigurno prenosi HTTPS status, inače postoji rizik redirect petlje.
 Provjere: `npm run test:deployment`; stvarni Apache HTTP/TLS testovi u izoliranom
 Dockeru: `npm run test:deployment:apache`. Ne šalju ništa klinici ni CRM-u.
 URL migracije iz `data/redirects.csv` ostaju zasebne, neodobrene odluke.
+
+### Dostavljena konfiguracija — 1. listopada 2026.
+
+Vlasnik je dostavio tekst postojećeg `.htaccess`: 5.129 B, 67 redirekcija,
+SHA-256 `ffe96dfc4c95363b3eb8a155e4b1da71b0aba5c4e92a2fd0e5e378b726d6fbd5`.
+Prije instalacije usporediti dostavljenu kopiju sa stvarnom server datotekom.
+Izvor ostaje izvan Gita i ne mijenja se. Vlasnik je zasebno odobrio uklanjanje
+dviju istih redirekcija `/hr/iskustva-pacijenata` → `/hr/testimonials` samo iz
+novog paketa, jer presreću novu odobrenu stranicu. Ostali bajtovi ostaju isti.
+Odluka i broj dopuštenih uklanjanja nalaze se u `data/migration-readiness.json`.
+Novi neodobreni `Redirect` koji presreće poznatu stranicu ili form handler
+prekida pripremu paketa, umjesto da se tiho briše.
+
+Stari `ExpiresDefault` dodavao je `max-age=604800` i odgovorima formi.
+Naše pravilo zato isključuje `mod_expires` samo za četiri dinamičke form rute,
+uz `no-store`; cache slika, fontova i ostalih datoteka nije ovom dopunom mijenjan.
+
+Regression s dostavljenom konfiguracijom:
+
+```bash
+DENTVITALIS_LEGACY_HTACCESS=/absolute/path/to/server-backup/.htaccess npm run test:deployment:apache
+```
+
+Izolirani standardni Apache nema cPanel PHP handler ni mod_pagespeed: samo u
+testnoj kopiji `ModPagespeed off` zamjenjuje se komentarom, a lažni `index.php`
+poslužuje se kao tekst. Produkcijski paket zadržava oba serverska direktiva.
+Ovaj test potvrđuje routing/cache, ne stvarni PHP runtime ili SMTP/CRM dostavu.
+Deset starih odredišta nema novu statičku stranicu; njihov popis ostaje u
+readiness podacima za pregled, bez automatskih novih 301/410 odluka.
 
 ## Form bridge acceptance
 
@@ -144,8 +174,8 @@ To ne dodaje zasebne conversion evente, GA4 ni Ads skripte.
 
 `dist/page-routes.json` nastaje iz stvarnih build dokumenata i služi pripremi
 istih cPanel pravila; ne smije se ručno održavati paralelan popis. Početni
-`index.html`, `404.html` i asseti ostaju na svojim mjestima. Izvorni legacy
-`.htaccess` dodaje se byte-for-byte nakon našeg bloka. PHP rute `/send` i
+`index.html`, `404.html` i asseti ostaju na svojim mjestima. Legacy `.htaccess`
+dodaje se nakon našeg bloka uz samo zabilježena odobrena uklanjanja. PHP rute `/send` i
 `/gct` nisu dio statičkog popisa i ostaju pod postojećim backend routerom.
 Astro dev prihvaća obje varijante radi kompatibilnosti QA-a; stvarne 308
 redirekcije provjeravaju se na Apache fixtureu i javnom Pages previewu.
