@@ -14,8 +14,11 @@ agentu i bez prijavljenih grešaka raspakiravanja. README je pročitan.
 Serverski hashovi nisu neovisno potvrđeni. Stao je prije kopiranja u
 `application`/`public_html`, izmjene `/send` i slanja upita. Ne ponavljati stage;
 vlasnik je naknadno potvrdio integritet lokalnog backupa i dodatnu kopiju.
-Sljedeća instalacija čeka zasebno odobrenje i kopiju starog handlera za kodni
-povratak. Patch utječe i na postojeće forme jer mijenja zajednički handler.
+Vlasnik je zatim zasebno odobrio instalaciju dva privatna PHP dodatka,
+minimalni `/send` diff i GET provjeru tokena. Izvedba još nije potvrđena.
+Prvo kopija starog handlera za kodni povratak; postupak i privatna putanja
+u runbooku. Odobrenje ne uključuje POST/stvarnu dostavu ili javnu aktivaciju.
+Patch utječe i na postojeće forme jer mijenja zajednički handler.
 
 Prethodno je drugi browser agent završio read-only pregled stagea i formi.
 Nema instaliranih PHP token/upload dodataka, runtime/dostava nisu testirani,

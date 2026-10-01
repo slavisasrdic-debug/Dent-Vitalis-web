@@ -53,6 +53,20 @@ test('owner approval is recorded without inferring access, completed gates or re
   assert.equal(report.ownerAuthorization.releaseGatesMayBeBypassed, false);
   assert.equal(report.ownerAuthorization.dnsChangesAuthorized, false);
   assert.equal(report.ownerAuthorization.privateDataOverwriteAuthorized, false);
+  const installation = report.ownerAuthorization.privateBackendInstallation;
+  assert.equal(installation.installTwoPrivatePhpHelpers, true);
+  assert.equal(installation.applyReviewedLegacySendDiff, true);
+  assert.equal(installation.saveOriginalHandlerForCodeOnlyRollback, true);
+  assert.equal(installation.tokenGetChecks, true);
+  assert.equal(
+    installation.realPostOrDeliveryTestAuthorizedByThisApproval,
+    false,
+  );
+  assert.equal(
+    installation.publicSiteActivationAuthorizedByThisApproval,
+    false,
+  );
+  assert.equal(installation.privateDataRestoreAuthorizedByThisApproval, false);
   assert.equal(report.procedure.routes.cpanelApi.nextAuthorityNeeded, null);
   assert.equal(report.serverChangesApplied, false);
   assert.equal(report.realTestMessagesSent, false);
@@ -180,7 +194,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(report.procedure.nextCheck, /private-backend-candidate-review/);
+  assert.match(report.procedure.nextCheck, /private-backend-installation/);
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',

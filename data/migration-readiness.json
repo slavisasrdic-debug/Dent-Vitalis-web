@@ -14,6 +14,17 @@
     "proceedWithMigration": true,
     "fileManagerMigration": true,
     "isolatedStageWhileBackupVerificationPending": true,
+    "privateBackendInstallation": {
+      "approvedOn": "2026-10-01",
+      "source": "owner-message-Potvrdujem-in-reply-to-private-PHP-installation-and-token-check-request",
+      "installTwoPrivatePhpHelpers": true,
+      "applyReviewedLegacySendDiff": true,
+      "saveOriginalHandlerForCodeOnlyRollback": true,
+      "tokenGetChecks": true,
+      "realPostOrDeliveryTestAuthorizedByThisApproval": false,
+      "publicSiteActivationAuthorizedByThisApproval": false,
+      "privateDataRestoreAuthorizedByThisApproval": false
+    },
     "releaseGatesMayBeBypassed": false,
     "dnsChangesAuthorized": false,
     "privateDataOverwriteAuthorized": false
@@ -25,7 +36,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "private-backend-candidate-review-backup-gate-before-installation-and-CRM-response-acceptance-before-new-upload-without-public-activation",
+    "nextCheck": "private-backend-installation-and-token-GET-checks-before-new-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -109,7 +120,6 @@
       "two-additional-uncompressed-full-account-copies-with-current-quota"
     ],
     "unresolvedAcceptance": [
-      "full-private-backup-and-off-server-copy",
       "restore-test-preserving-live-data",
       "selected-transport-integrity-and-activation-test",
       "effective-PHP-FPM-and-session",

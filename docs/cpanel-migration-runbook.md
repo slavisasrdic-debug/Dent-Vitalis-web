@@ -156,9 +156,43 @@ README je pročitan. Potpuni serverski hashovi nisu neovisno potvrđeni.
 Ništa nije kopirano u `application` ili `public_html`, patch nije primijenjen,
 runtime/POST/dostava nisu testirani. Ne ponavljati upload/Extract ovog paketa.
 Vlasnik je naknadno potvrdio provjeru lokalnog backupa i dodatnu kopiju.
-Sljedeće: zasebno odobrena instalacija uz kopiju starog handlera za kodni
-povratak, zatim runtime prihvat. Ne ponavljati provjeru backupa bez novog razloga.
+Vlasnik je zatim odgovorio **„Potvrđujem”** na zasebni zahtjev za instalaciju
+dva PHP dodatka, minimalnu izmjenu `/send` i provjeru tokena. To odobrenje ne
+uključuje POST/stvarno slanje ni aktivaciju novog izgleda. Instalacija još nije
+prijavljena kao izvršena. Ne ponavljati provjeru backupa bez novog razloga.
 Instalacija patcha mijenja zajednički `/send`, dakle utječe i na stare forme.
+
+### Odobrena privatna instalacija i GET provjera — još nije izvršeno
+
+1. File Manager: koristiti već raspakirani
+   `/home2/dentvita/releases/20261001-private-backend-delivery-v1/`.
+   Ne ponavljati upload/Extract. Provjeriti da stvarni `send.phtml` odgovara
+   originalnim dijelovima diffa; ako je već izmijenjen ili ne odgovara, stati.
+2. Sačuvati samo aktualni `application/view/template/send.phtml` u novoj
+   privatnoj `/home2/dentvita/backups/php-before-delivery-v1-20261001/`,
+   mapu postaviti `0700`, kopiju `0600`, ne prepisivati postojeći backup.
+   Kopija handlera sadrži ključ: ne prikazivati ga u izvještaju/screenshotu.
+3. Ako dva helpera već postoje u odredištu, stati i usporediti/prijaviti prije
+   prepisivanja. Inače kopirati samo `form-tokens.phtml` i
+   `form-request-guard.php` u `/home2/dentvita/application/view/template/`,
+   zadržati `0644`. Diff/README/manifest ne kopirati u taj direktorij.
+4. Ručno kroz File Manager Editor primijeniti samo hunkove
+   `legacy-send-delivery.patch` na postojeći `send.phtml`. Ne zamijeniti
+   handler redaktiranom datotekom, ne upisivati diff markere, ne mijenjati
+   ključeve, primatelje, mapiranje, `Mail.php`, `_send.phtml` ili konfiguraciju.
+   Ponovno pročitati spremljeni kod; postojeća dozvola handlera ne širi se.
+5. Bez submit/POST-a: otvoriti postojeću naslovnicu i `GET /send` radi PHP
+   parse-error provjere; to nije provjera obrade POST-a ili dostave. Na
+   `https://www.dentvitalis.com` provjeriti `GET /form-tokens` (200, JSON s
+   nepraznim `csrf`/`gct`, `no-store`, bez CORS dozvole) i postojeći `GET /gct`
+   u istoj sesiji. Zabilježiti cookie atribute i kontinuitet sesije, bez
+   vrijednosti tokena/cookieja. Ne dodavati javni `phpinfo` ili debug endpoint.
+6. Na grešku stati i prijaviti redaktirani nalaz. Ako je izmjena handlera
+   izazvala regresiju, vratiti samo njegovu upravo sačuvanu kodnu kopiju;
+   ne raspakirati puni backup preko podataka. Na uspjeh stati prije POST-a i
+   switcha. Report: instalirane datoteke/dozvole, scope diffa, GET statusi,
+   JSON oblik i cache/cookie atributi, rollback kopija i otvoreni runtime/CRM
+   prihvat. Ne izvještavati tokenima, tajnama ili privatnim porukama.
 
 Nakon pregleda: pripremiti jedan kontrolirani skup PHP izmjena i finalne
 pakete; vlasnički odobrena instalacija uz verificirani backup prethodi
