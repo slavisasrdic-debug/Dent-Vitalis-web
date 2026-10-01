@@ -26,14 +26,17 @@ ili aktivacije. Taj stage može napredovati odvojeno od lokalne provjere backupa
 izmjene javnog weba/PHP-a i dalje čekaju zatvorene gates. Ne ponovno komprimirati
 backup, ponavljati API/SSH ili zaobilaziti blokadu `chrome://downloads`.
 Screenshot sada potvrđuje dovršen upload javnog ZIP-a `af6dc28` u tu privatnu
-release mapu (zelenih 100 %, `55.26 MB complete`); raspakiravanje i serverski
-hash još nisu potvrđeni. Ne ponavljati upload. Nastaviti Extract u istoj mapi.
+release mapu (zelenih 100 %, `55.26 MB complete`). Naknadni screenshot potvrđuje
+Extract, vlasnik potvrđuje tri ključne datoteke u korijenu. Serverski hash nije
+potvrđen. Ne ponavljati upload/Extract. Datoteke `0666` i mape `0777` potvrđene
+su nalazom i lokalnim ZIP metadata; ispraviti na `0644`/`0755` samo unutar ovog
+releasea prije aktivacije, bez symlinkova i promjena drugih direktorija.
 Chrome-only agent ne može lokalno provjeravati arhive: backup CRC/obnovu
 provodi vlasnik ili zaseban ovlašteni lokalni alat prije aktivacije.
 Raniji environment PUT ove integracije bio je 403; ne ponavljati ga.
 Ovdje nema cPanel browser sesije/tokena. SSH stage je zaustavljen prije
 povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallback,
-upload je potvrđen screenshotom, ali raspakiravanje nije. Symlink aktivacija nije potvrđena.
+upload i raspakiravanje su potvrđeni, ali korekcija dozvola nije. Symlink aktivacija nije potvrđena.
 
 Novi frontend koristi `/form-tokens` za CSRF/GCT iste PHP sesije i `/send` za
 postojeći e-mail/CRM backend; novi privatni PHP dodatak još nije instaliran na

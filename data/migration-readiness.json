@@ -25,7 +25,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "isolated-File-Manager-extraction-and-inspection-without-public-activation",
+    "nextCheck": "isolated-File-Manager-permission-correction-and-inspection-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -67,7 +67,7 @@
         "retryOnlyAfter": "new-transport-diagnosis-or-connectivity-change-not-token-recreation"
       },
       "fileManager": {
-        "status": "private-release-upload-complete-in-owner-screenshot-extraction-not-tested",
+        "status": "private-upload-and-extraction-confirmed-permission-correction-not-tested",
         "role": "owner-selected-manual-migration-with-same-backup-and-form-gates",
         "selectedByOwnerOn": "2026-10-01",
         "retryOnlyAfter": "approved-isolated-upload-and-extraction-test"
@@ -207,7 +207,22 @@
         "displayedCompletedSize": "55.26 MB",
         "serverExactBytesAndSha256Verified": false
       },
-      "extractedAsReported": false,
+      "extractedAsReported": true,
+      "extractionEvidence": "owner-supplied-Extraction-Results-screenshot-and-root-files-confirmation",
+      "rootFilesPresentAsReported": [
+        "index.html",
+        ".htaccess",
+        "release-manifest.json"
+      ],
+      "permissions": {
+        "filesAsReported": "0666",
+        "directoriesAsReported": "0777",
+        "localArchiveMetadataConfirmsUnsafeModes": true,
+        "requiredFiles": "0644",
+        "requiredDirectories": "0755",
+        "correctedAndVerifiedOnServer": false,
+        "scope": "only-this-private-static-release-no-symlinks-or-parent-directories"
+      },
       "mayOverwriteExistingTarget": false,
       "mayModifyPublicHtmlOrApplication": false,
       "mayActivateWithoutBackupAndFormAcceptance": false
@@ -431,6 +446,7 @@
   },
   "serverGates": [
     "selected-cPanel-transport-authorized-and-verified-without-assuming-SSH",
+    "static-release-files-0644-and-directories-0755-verified-before-activation",
     "account-quota-filesystem-and-inode-capacity-for-upload-backups-and-rollback-verified",
     "verified-full-pre-migration-public_html-and-application-backup-including-private-data",
     "two-previous-verified-code-release-versions-with-separate-private-data-backup",

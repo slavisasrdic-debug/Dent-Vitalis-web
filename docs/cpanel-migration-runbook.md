@@ -20,7 +20,7 @@ produkcijsku objavu još nije implementirana; backup i forme ostaju release gate
 | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Lokalni produkcijski paket, manifest, CRC, routing i forme | Lokalno prošlo za kandidat `af6dc28`; nije dokaz dostave                                        | Promjena koda, paketa ili stvarnih serverskih pravila                                          |
 | Lokalni ZIP starog weba                                    | CRC prošao prema agentu; nema `application/data` ni baze bloga                                  | Promjena arhive ili prihvat novog kompletnog backupa                                           |
-| File Manager / Extract                                     | Screenshot potvrđuje upload 100 % u privatnu release mapu; raspakiravanje nije potvrđeno        | Nastaviti Extract u istoj mapi; ne ponavljati dovršeni upload bez konkretnog razloga           |
+| File Manager / Extract                                     | Screenshot potvrđuje upload 100 % i Extract; vlasnik potvrđuje tri ključne datoteke             | Ne ponavljati; ispraviti dozvole samo u toj privatnoj release mapi                             |
 | SSH/shell i SSH stage                                      | Panel traži administratorsko omogućavanje; bez prijave i ključeva                               | Samo nova izričita odluka i dokaz da je pristup omogućen                                       |
 | Symlink switch                                             | Postojeći `www → public_html` nije dokaz; switch nije testiran                                  | Samo ako odabrani postupak stvarno zahtijeva link i postoji novi dokaz                         |
 | cPanel API tokeni                                          | Token stvoren/pohranjen prema agentu; prvi run nije prošao vezu. Autentifikacija nije potvrđena | Novi dokaz o transportu prije novog pokušaja; ne stvarati novi token i ne ponavljati isti test |
@@ -98,8 +98,15 @@ Novi javni ZIP agentu je lokalno prošao veličinu/hash/CRC i 692 datoteke/
 65.436.532 B prema ranijem nalazu, ne kao nova provjera Chrome-only agenta.
 Vlasnikov screenshot potvrđuje upload točnog javnog ZIP-a u
 `/home2/dentvita/releases/20261001-af6dc28/`: zelenih 100 % i `55.26 MB complete`.
-To nije serverski SHA-256 ili potvrda raspakiravanja. Sljedeći korak je Extract
-u istoj privatnoj mapi, bez promjene javnog weba.
+Naknadni screenshot potvrđuje Extract, a vlasnik potvrđuje `index.html`,
+`.htaccess` i `release-manifest.json` u korijenu. Serverski SHA-256 nije potvrđen.
+Uočene su dozvole datoteka `0666` i mapa `0777`; lokalni ZIP metadata potvrđuje
+te načine. Prije aktivacije sve obične datoteke tog statičkog releasea trebaju
+biti `0644`, sve njegove mape `0755`. Provjeriti mogućnosti File Managera;
+ne pretpostavljati odvojene rekurzivne opcije za datoteke i direktorije.
+Ne postaviti sve stavke na isti mode, ne slijediti symlinkove i ne mijenjati
+`public_html`, `application`, backupove ili roditeljske direktorije. Ako UI ne
+omogućuje pouzdanu korekciju cijelog opsega, stati i prijaviti ograničenje.
 
 1. Ne stvarati token niti pokretati GitHub API/SSH testove. Prije kompresije i
    uploada provjeriti aktualni prostor, kvotu i dostupni inode prikaz; zadnja
@@ -117,7 +124,7 @@ u istoj privatnoj mapi, bez promjene javnog weba.
    ili konfiguracije. Ne slati privatni backup u chat, GitHub ili javni artifact.
    To je backup weba/backenda, ne dokaz kompletnog cPanel računa ili baze bloga;
    baze i druge servise ne mijenjati.
-4. **Upload završen prema vlasnikovu screenshotu — ne ponavljati.** Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
+4. **Upload i Extract završeni prema screenshotu/nalazu — ne ponavljati.** Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
    `dentvitalis-web-production-candidate-20261001-af6dc28.zip` u novi privatni
    `/home2/dentvita/releases/20261001-af6dc28/`, pa raspakirati tamo. Arhiva:
    `57.946.023 B`, SHA-256
@@ -129,6 +136,8 @@ u istoj privatnoj mapi, bez promjene javnog weba.
    `65.436.532 B` logičnih bajtova. Ne pribrajati uploadani ZIP ekstrakciji.
    Provjeriti integritet dostupnim sigurnim alatom; ako server hash provjera
    nije moguća, to ostaje otvoreno — UI popis nije SHA-256 potvrda.
+   Potvrditi korekciju `0666/0777` na datoteke `0644` i mape `0755` u cijelom
+   privatnom statičkom releaseu, uključujući skrivene datoteke i podmape.
 6. Vratiti rezultat backupa i stagea, što je zaista provjereno, otvorene
    stavke i potvrdu da javni web/backend nisu mijenjani. **Stati prije aktivacije**,
    instalacije PHP dodataka i testnih upita. Slijedi zaseban prihvat PHP/sesije,

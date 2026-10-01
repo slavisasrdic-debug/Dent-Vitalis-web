@@ -124,7 +124,7 @@ test('approved private stage does not bypass pending full backup or authorize li
   );
   assert.match(progress.isolatedStage.target, /^\/home2\/dentvita\/releases\//);
   assert.equal(progress.isolatedStage.uploadedAsReported, true);
-  assert.equal(progress.isolatedStage.extractedAsReported, false);
+  assert.equal(progress.isolatedStage.extractedAsReported, true);
   assert.equal(progress.isolatedStage.mayOverwriteExistingTarget, false);
   assert.equal(progress.isolatedStage.mayModifyPublicHtmlOrApplication, false);
   assert.equal(
@@ -148,7 +148,7 @@ test('approved private stage does not bypass pending full backup or authorize li
   assert.match(report.procedure.nextCheck, /without-public-activation/);
 });
 
-test('completed private upload screenshot is not extraction or server integrity proof', () => {
+test('private upload and extraction evidence do not prove server integrity or safe permissions', () => {
   const stage = report.fileManagerProgress.isolatedStage;
   assert.equal(stage.uploadEvidence.displayedProgressPercent, 100);
   assert.equal(
@@ -156,8 +156,22 @@ test('completed private upload screenshot is not extraction or server integrity 
     report.preparedStaticCandidate.archiveName,
   );
   assert.equal(stage.uploadEvidence.serverExactBytesAndSha256Verified, false);
-  assert.equal(stage.extractedAsReported, false);
-  assert.match(report.procedure.nextCheck, /extraction/);
+  assert.equal(stage.extractedAsReported, true);
+  assert.deepEqual(stage.rootFilesPresentAsReported, [
+    'index.html',
+    '.htaccess',
+    'release-manifest.json',
+  ]);
+  assert.equal(stage.permissions.correctedAndVerifiedOnServer, false);
+  assert.equal(stage.permissions.requiredFiles, '0644');
+  assert.equal(stage.permissions.requiredDirectories, '0755');
+  assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
+  assert.match(report.procedure.nextCheck, /permission-correction/);
+  assert.ok(
+    report.serverGates.includes(
+      'static-release-files-0644-and-directories-0755-verified-before-activation',
+    ),
+  );
   assert.match(
     report.fileManagerProgress.backupVerification
       .localVerificationResponsibility,
