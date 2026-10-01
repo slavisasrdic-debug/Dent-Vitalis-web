@@ -1,11 +1,35 @@
-# Handoff — stanje projekta 11. rujna 2026.
+# Handoff — aktualni status i povijest
+
+## Aktualno za migraciju — 1. listopada 2026.
+
+Jedina operativna procedura je [cPanel runbook](cpanel-migration-runbook.md),
+uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
+nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
+GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
+
+Agent je potvrdio otvoreni **Manage API Tokens** (UI: API 2/UAPI) i 0 Git
+repozitorija. Token nije stvoren ni API test pokrenut. Pripremljen je jedan
+metadata-only read-only workflow; sljedeće treba posebno odobriti token i sigurnu
+pohranu, pa test. Ne ponavljati pregled menija. SSH stage je zaustavljen prije
+povezivanja; ne tražiti SSH od hostinga kao uvjet. File Manager je ručni fallback,
+ali upload/raspakiranje još nisu testirani. Symlink aktivacija nije potvrđena.
+
+Novi frontend koristi `/form-tokens` za CSRF/GCT iste PHP sesije i `/send` za
+postojeći e-mail/CRM backend; novi privatni PHP dodatak još nije instaliran na
+serveru. Preview ne šalje upite. Lokalni kandidat `af6dc28` nije dokaz stvarne
+dostave. Lokalni ZIP starog weba bez `application/data` nije potpuni backup.
+Puni privatni backup/povratak i odobrena stvarna provjera e-maila i CRM-a
+ostaju preduvjeti aktivacije. Rutinske kodne objave čuvaju dvije prethodne
+verzije, bez vraćanja privatnih podataka starom kopijom.
+
+## Povijesni zapisi — novije datirane odluke imaju prednost
 
 **2026-09-29 — aktualizacija pripreme.** Novi web ima IT, HR, DE, EN i SI
 putanje. Statični obrazac na stvarnoj domeni sada uzima legacy `/gct` token,
 šalje `/send` i koristi postojeće thank-you rute; na Pages/local previewu ne
 šalje upite. `npm run release:prepare` radi build, provjeru ugovora obrazaca i
 stvara ignorirani `dist/release-manifest.json` sa SHA-256 popisom releasea.
-Detalji/rollback: [cPanel-migration-runbook.md](cPanel-migration-runbook.md).
+Detalji/rollback: [cpanel-migration-runbook.md](cpanel-migration-runbook.md).
 
 **2026-09-29 — objava i forme.** GitHub je radni izvor. Cloudflare ostaje samo
 razvojni prikaz i ukida se pri migraciji; produkcijska objava ide iz GitHuba na

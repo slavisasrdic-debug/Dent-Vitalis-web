@@ -72,23 +72,33 @@ npm run preview
 
 ## Naredbe
 
-| Naredba                        | Namjena                                             |
-| ------------------------------ | --------------------------------------------------- |
-| `npm run dev`                  | Astro razvojni server                               |
-| `npm run build`                | Statički production build u `dist/`                 |
-| `npm run preview`              | Lokalni pregled prethodno izrađenog builda          |
-| `npm run preview:ensure`       | Pokretanje/provjera javnog Codespaces previewa      |
-| `npm run reference:audit`      | Webflow render, breakpointi i screenshotovi         |
-| `npm run reference:audit-live` | Crawl postojećih višejezičnih live URL-ova          |
-| `npm run check`                | Astro i TypeScript provjera                         |
-| `npm run lint`                 | ESLint provjera projekta                            |
-| `npm run format`               | Prettier formatiranje                               |
-| `npm run format:check`         | Provjera formatiranja bez izmjena                   |
-| `npm test`                     | Playwright testovi projektnih temelja               |
-| `npm run test:preview`         | Izolirane provjere pokretanja, locka i public porta |
-| `npm run form:preflight`       | Ugovor obrazaca i lokalizirane thank-you rute       |
-| `npm run release:prepare`      | Build i SHA-256 manifest za cPanel release          |
-| `npm run validate`             | Sve provjere i production build                     |
+| Naredba                            | Namjena                                              |
+| ---------------------------------- | ---------------------------------------------------- |
+| `npm run dev`                      | Astro razvojni server                                |
+| `npm run build`                    | Statički build u `dist/`; zadano preview režim       |
+| `npm run preview`                  | Lokalni pregled prethodno izrađenog builda           |
+| `npm run preview:ensure`           | Pokretanje/provjera javnog Codespaces previewa       |
+| `npm run reference:audit`          | Webflow render, breakpointi i screenshotovi          |
+| `npm run reference:audit-live`     | Crawl postojećih višejezičnih live URL-ova           |
+| `npm run check`                    | Astro i TypeScript provjera                          |
+| `npm run lint`                     | ESLint provjera projekta                             |
+| `npm run format`                   | Prettier formatiranje                                |
+| `npm run format:check`             | Provjera formatiranja bez izmjena                    |
+| `npm test`                         | Playwright testovi projektnih temelja                |
+| `npm run test:preview`             | Izolirane provjere pokretanja, locka i public porta  |
+| `npm run form:preflight`           | Ugovor obrazaca i lokalizirane thank-you rute        |
+| `npm run release:prepare`          | Preview paket i SHA-256 manifest; nije za aktivaciju |
+| `npm run test:migration-procedure` | Lokalne zaštite procedure i read-only API testa      |
+| `npm run validate`                 | Sve provjere i build; nije produkcijska objava       |
+
+## Objava na cPanel
+
+Za objavu na postojećem hostingu koristiti samo aktualni
+[cPanel runbook](docs/cpanel-migration-runbook.md) i
+[evidenciju provjera](data/migration-readiness.json). SSH nije uvjet migracije;
+SSH stage je pauziran. Potvrđen API meni nije dokaz deploya. Produkcijski paket
+koristi `npm run release:prepare:production -- --legacy-htaccess /apsolutna/putanja/.htaccess`.
+`npm run test:migration-procedure` provjerava ove zaštite bez pristupa serveru.
 
 ## Struktura
 

@@ -1,0 +1,42 @@
+name: Check cPanel API (read only)
+
+on:
+  workflow_dispatch:
+    inputs:
+      approve_read_only:
+        description: 'Authorize one metadata-only API check; no upload, backup, deploy, form submission or rollback.'
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cpanel-api-read-only
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    environment: cpanel-api-readonly
+    timeout-minutes: 3
+    steps:
+      - name: Require main and explicit read-only approval
+        env:
+          APPROVE_READ_ONLY: ${{ inputs.approve_read_only }}
+        run: |
+          test "$GITHUB_REF" = 'refs/heads/main'
+          test "$APPROVE_READ_ONLY" = 'true'
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check two public file metadata records only
+        env:
+          CPANEL_API_ORIGIN: ${{ vars.CPANEL_API_ORIGIN }}
+          CPANEL_API_TOKEN: ${{ secrets.CPANEL_API_TOKEN }}
+        run: node scripts/cpanel-api-probe.mjs --approved-read-only

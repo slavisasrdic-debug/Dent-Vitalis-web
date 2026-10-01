@@ -5,6 +5,81 @@
     "sha256": "86ded1396f09d2a32bc9bd2fcc1a7c0aa4b93b563bd037a86b2b9b01f7d0cb23"
   },
   "productionDeploymentAuthorized": false,
+  "procedure": {
+    "updatedOn": "2026-10-01",
+    "authoritativeRunbook": "docs/cpanel-migration-runbook.md",
+    "currentDirection": "investigate-cPanel-HTTPS-API-without-hosting-changes",
+    "hostingSupportRequestRequired": false,
+    "sshIsMigrationPrerequisite": false,
+    "automaticProductionDeploymentReady": false,
+    "nextCheck": "approved-token-storage-then-read-only-Fileman-statfiles-probe",
+    "recordAfterEachStep": [
+      "date",
+      "input-or-release-hash",
+      "action",
+      "evidence-scope",
+      "result",
+      "remaining-checks",
+      "retry-condition"
+    ],
+    "routes": {
+      "cpanelApi": {
+        "status": "menu-confirmed-operations-not-tested",
+        "reportedOn": "2026-10-01",
+        "source": "owner-pasted-agent-read-only-API-menu-report",
+        "independentlyVerifiedInThisWorkspace": false,
+        "menuOpensAsReportedByAgent": true,
+        "menuAdvertises": ["cPanel-API-2", "UAPI"],
+        "tokenCreated": false,
+        "authenticatedProbeRun": false,
+        "uploadBackupActivationAndRollbackTested": false,
+        "nextAuthorityNeeded": "owner-approval-to-create-dedicated-token-and-store-it-as-protected-secret",
+        "retryOnlyAfter": "token-and-approved-read-only-probe-result-available"
+      },
+      "fileManager": {
+        "status": "read-only-UI-observed-write-operations-not-tested",
+        "role": "manual-fallback-with-same-backup-and-form-gates",
+        "retryOnlyAfter": "approved-isolated-upload-and-extraction-test"
+      },
+      "sshStage": {
+        "status": "paused-unavailable-as-configured-not-login-tested",
+        "guard": "stage-request-rejected-before-build-or-server-connection",
+        "retryOnlyAfter": "new-owner-decision-and-confirmed-account-shell-access"
+      },
+      "symlinkSwitch": {
+        "status": "not-tested-not-selected",
+        "retryOnlyAfter": "selected-transport-requires-it-and-serving-bootstrap-compatibility-is-confirmed"
+      },
+      "cpanelGit": {
+        "status": "zero-repositories-as-reported-by-agent",
+        "previousUploadDeployMethod": "not-established",
+        "retryOnlyAfter": "new-evidence-of-configured-repository-or-explicit-owner-decision"
+      }
+    },
+    "acceptedEvidence": {
+      "productionCandidate": "local-checks-passed-for-af6dc28-not-server-deployment-proof",
+      "oldLocalZip": "agent-reported-CRC-pass-without-application-data-not-full-account-backup",
+      "privatePhpRouting": "agent-read-only-code-inspection-not-runtime-acceptance",
+      "jetBackup": "agent-read-only-snapshot-inspection-not-restore-test"
+    },
+    "doNotRepeatWithoutNewEvidence": [
+      "SSH-login-or-stage",
+      "hosting-SSH-request",
+      "symlink-switch",
+      "API-menu-inspection",
+      "local-full-rebuild-or-screenshot-matrix-for-documentation-changes",
+      "two-additional-uncompressed-full-account-copies-with-current-quota"
+    ],
+    "unresolvedAcceptance": [
+      "full-private-backup-and-off-server-copy",
+      "restore-test-preserving-live-data",
+      "selected-transport-integrity-and-activation-test",
+      "effective-PHP-FPM-and-session",
+      "approved-email-and-CRM-receipt-test",
+      "legacy-URL-decisions",
+      "production-consent-and-conversions"
+    ]
+  },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",
     "trigger": "manually-dispatched-GitHub-production-workflow",
@@ -53,7 +128,7 @@
       "inodeLimitAndUsageConfirmed": false,
       "serverToolsConfirmed": false
     },
-    "nextDependency": "hosting-support-confirmation-of-account-shell-and-release-switch-capabilities",
+    "nextDependency": "superseded-by-procedure-nextCheck-no-hosting-request-required",
     "externalSupportContactMade": false
   },
   "preparedStaticCandidate": {
@@ -221,7 +296,7 @@
     "sl": "Pošiljanje ni bilo potrjeno. Prosimo, kontaktirajte nas po telefonu."
   },
   "serverGates": [
-    "SSH-shell-and-verified-deploy-key-access-configured",
+    "selected-cPanel-transport-authorized-and-verified-without-assuming-SSH",
     "account-quota-filesystem-and-inode-capacity-for-upload-backups-and-rollback-verified",
     "verified-full-pre-migration-public_html-and-application-backup-including-private-data",
     "two-previous-verified-code-release-versions-with-separate-private-data-backup",

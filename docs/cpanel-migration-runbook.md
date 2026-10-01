@@ -1,135 +1,126 @@
 # cPanel release runbook
 
-Ovaj runbook priprema prelazak statičkog Astro releasea na postojeći
-`dentvitalis.com` cPanel. Nije nalog za objavu. GitHub ostaje izvor koda;
-Cloudflare preview nije dio produkcijskog toka.
+## Važeća procedura — 1. listopada 2026.
 
-Za jednokratno povezivanje GitHuba i cPanela, bez ikakve objave javnog weba,
-slijediti [cPanel-github-stage-setup.md](cPanel-github-stage-setup.md).
+Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
+[data/migration-readiness.json](../data/migration-readiness.json), posebno
+`procedure`. Prijašnji prijedlozi u Git povijesti nisu nalog za ponavljanje.
+GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
+Cloudflare služi samo razvojnom pregledu.
 
-## Potvrđeni postojeći raspored
+**Aktualni smjer:** bez zahtjeva hosting podršci i bez pretpostavljenog SSH-a.
+API meni je potvrđen; provjeriti autorizirani API pristup za moguću HTTPS automatizaciju. File Manager
+je ručni put ako automatizacija nije dostupna. Ni jedan put još nije izvedbeno
+potvrđen za objavu. SSH nije opći preduvjet migracije. Jedna GitHub akcija za
+produkcijsku objavu još nije implementirana; backup i forme ostaju release gates.
 
-- Web-korijen: `/home2/dentvita/public_html`.
-- Aplikacija za postojeće forme: `/home2/dentvita/application`.
-- Dinamičke rute `/send` i `/gct` sada ulaze kroz `public_html/index.php` i
-  postojeći application bootstrap.
-- Mail i CRM tajne su u privatnoj cPanel konfiguraciji, ne u repozitoriju.
+### Evidencija — što ne ponavljamo bez novog razloga
 
-Statički build ne smije zamijeniti application direktorij, vendor, mail
-konfiguraciju, PHP handler niti postojeći bootstrap dok se forme ne potvrde na
-stagingu.
+| Stavka                                                     | Dokaz/status                                                                                             | Kada ponoviti                                                                                  |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Lokalni produkcijski paket, manifest, CRC, routing i forme | Lokalno prošlo za kandidat `af6dc28`; nije dokaz dostave                                                 | Promjena koda, paketa ili stvarnih serverskih pravila                                          |
+| Lokalni ZIP starog weba                                    | CRC prošao prema agentu; nema `application/data` ni baze bloga                                           | Promjena arhive ili prihvat novog kompletnog backupa                                           |
+| File Manager / Extract                                     | Read-only pregled UI-ja; upload i raspakiravanje nisu izvršeni                                           | Zasebno odobren kontrolirani test izvan javnog direktorija                                     |
+| SSH/shell i SSH stage                                      | Panel traži administratorsko omogućavanje; bez prijave i ključeva                                        | Samo nova izričita odluka i dokaz da je pristup omogućen                                       |
+| Symlink switch                                             | Postojeći `www → public_html` nije dokaz; switch nije testiran                                           | Samo ako odabrani postupak stvarno zahtijeva link i postoji novi dokaz                         |
+| cPanel API tokeni                                          | Agent je otvorio Manage API Tokens; UI navodi API 2 i UAPI. Token nije stvoren, operacije nisu testirane | Odobreno stvaranje/pohrana posebnog tokena pa read-only API test; ne ponavljati pregled menija |
+| Git Version Control                                        | Agentov prikaz: 0 repozitorija; raniji “Upload pa Deploy” nije identificiran                             | Samo novi dokaz ili odluka o odabranom postupku                                                |
+| JetBackup restore, PHP/FPM, cookieji, e-mail i CRM         | Prikaz/izvor postoji; stvarni prihvat još nije proveden                                                  | Odobreni test s dokazom, ne ponovno čitanje istih statistika                                   |
+| Dvije dodatne pune kopije                                  | Procjena `813,96 MB` gotovo troši prijavljenih `866 MB`                                                  | Nova izmjera ili promjena politike/prostora; ne pokušavati isti raspored                       |
 
-## Dopunjeni serverski nalaz i odobrena automatizacija — 1. listopada 2026.
+Ne označavati `nije provjereno` kao `ne radi`, niti UI/prikaz kao uspješnu
+operaciju. Nakon svakog koraka zapisati datum, točan release/input hash,
+izvedenu radnju, vrstu dokaza, rezultat, otvorene stavke i uvjet ponavljanja.
+Ne prepisivati ranije read-only nalaze novim tvrdnjama o produkcijskom testu.
 
-Vlasnik je dostavio novi read-only nalaz agenta i odobrio cilj: ručno pokrenuta
-GitHub objava s prijenosom, backupom, aktivacijom, provjerama i povratkom.
-To je odobrenje pripreme postupka, ne trenutačne produkcijske aktivacije.
-Produkcijski workflow još nije implementiran niti povezan sa serverom;
-postojeći `Stage cPanel release` i dalje izrađuje samo preview paket.
+Lokalna provjera procedure: `npm run test:migration-procedure` provjerava API
+ograničenja i zaustavljanje SSH puta na testnim odgovorima, bez pristupa cPanelu.
+Workflow datoteke provjeriti kao YAML; njihov prolazak lokalnih provjera nije
+dokaz izvršavanja na GitHubu ili dostupnosti serverskih operacija.
 
-Nalaz je evidentiran u `data/migration-readiness.json` kao **nalaz dostavljen
-od agenta**, a ne neovisna runtime provjera iz ovog Codespacea:
+### Sljedeći korak — odobren token i read-only API test
 
-- Potvrđeni su document root, bootstrap koji prelazi u `../application`,
-  privatni backend s `data/` te template fallback u `Html.php`.
-  Kompatibilnost novog `/form-tokens` proizlazi iz pročitanog koda, ali
-  predložak nije instaliran ni izvedbeno testiran.
-- Za domenu je postavljen PHP 7.4/FPM; sustavni PHP 8.1 nije dokaz verzije
-  koja izvršava forme. Prikazani INI limiti `512M` nisu efektivna runtime
-  provjera. PHP 7.4 je zastario; nadogradnju planirati zasebno nakon audita,
-  ne mijenjati runtime tijekom ove migracije bez zasebnog odobrenja.
-- JetBackup prikazuje 12 kopija i najnoviju dnevnu inkrementalnu kopiju
-  `1. 10. 2026. 02:35`, s oznakom `Local backup SATA`. Vremenska zona tog
-  prikaza nije potvrđena. Snapshot pregled sadrži `public_html`, `application`
-  i roditeljski `.htaccess`, ali restore nije testiran; fizička putanja i
-  kopija izvan servera nisu potvrđene.
-- Lokalni objedinjeni ZIP prema agentu prolazi CRC i sadrži ključne datoteke,
-  ali nema `application/data` ni bazu bloga. Ne predstavlja puni account
-  backup. Tri arhive u `.trash/` nisu trajni rollback backupovi.
-- Kvota je `1.500 MB`, obračunata potrošnja `632,57 MB`, a dashboard prikazuje
-  `634,06 MB`: konzervativno oko `866 MB` dostupne kvote. Odvojeni prikaz
-  fizičke potrošnje `837,99 MB` nije slobodan prostor filesystema. Home Directory
-  snapshot prikazuje `504,17 MB`; dva takva puna seta bez kompresije/dedupliciranja
-  već premašuju prijavljenu slobodnu kvotu, i prije uploada. Kompresiju,
-  dedupliciranje ili smještaj izvan kvote ne pretpostavljati: izmjeriti stvarne
-  direktorije, konačne arhive, slobodne inodeove i rezervu za povratak.
-- File Managerov Extract dijalog dopušta cilj izvan `public_html`, ali to
-  nije test prava pisanja. SSH/shell, serverski alati i podrška za simboličke
-  linkove još nisu potvrđeni. Ne izabrati symlink switch samo na temelju dijaloga.
+Pregled menija je završen prema agentovom nalazu. Ne tražiti ga ponovno.
+Pripremljen je `.github/workflows/probe-cpanel-api.yml`, ali nije pokrenut niti
+su konfigurirani pristupni podaci. Najprije vlasnik zasebno odobrava stvaranje
+posebnog vremenski ograničenog API tokena i njegovu sigurnu pohranu.
 
-### Obvezna zaštita novih upita pri povratku
+Za GitHub test pripremiti environment `cpanel-api-readonly`: varijablu
+`CPANEL_API_ORIGIN=https://dentvitalis.com:2083` i secret `CPANEL_API_TOKEN`.
+Gdje je dostupno, postaviti obvezno vlasničko odobrenje environmenta.
+Token nije ograničen ovom skriptom na razini računa: sam token je osjetljiv
+pristup računu, a skripta ograničava samo svoje pozive. Ne slati ga u chat,
+Git, artifact ili screenshot. Ako nije dostupan siguran način pohrane, stati.
 
-Kompletan privatni backup treba obuhvatiti `application/data`, uz ograničen
-pristup i odvojenu kopiju izvan servera; te podatke nikada ne slati u GitHub
-artifact, javni release ili chat. Backup i rollback nisu ista operacija:
+Tek nakon odobrenja ručno pokrenuti workflow na `main` s
+`approve_read_only=true`. Skripta radi jedan HTTPS GET za **API 2 Fileman::statfiles**:
+samo veličine/tipovi `public_html/index.php` i `public_html/.htaccess`.
+Ne čita njihov sadržaj, konfiguraciju ni poruke; ne radi upload, form submit
+ili izmjenu. Provjerava TLS, ne prati redirekcije i ne ispisuje sirovi odgovor.
+Lokalni ekvivalent, uz prethodno sigurno postavljene environment vrijednosti:
+`npm run cpanel:probe:read-only -- --approved-read-only`.
 
-- Rutinski deploy javnih stranica i automatski povratak ne mijenjaju
-  `application/data`, SMTP/CRM konfiguraciju niti vanjski CRM.
-- Ne vraćati cijeli `application` preko živog backend direktorija kao dio
-  automatskog rollbacka: time bi se mogli izgubiti noviji upiti ili privitci.
-- Ako je potreban povratak PHP koda, izraditi zaseban pregled kompatibilnosti,
-  vratiti samo odobrene kodne datoteke i sačuvati novije podatke. Obnova
-  privatnih podataka iz backupa zahtijeva zasebnu kontroliranu odluku.
+Rezultat zapisati kao autentificiran metadata test, ne kao dokaz UAPI-ja ili
+deploya. Bez ispravnog odgovora stati i zabilježiti kontroliranu grešku;
+ne ponavljati pokušaj bez novog razloga niti isključivati TLS provjeru.
+Upload/raspakiranje, provjera integriteta,
+backup, aktivacija i povratak zatim zahtijevaju kontroliran test izvan živog weba.
+Ako je opcija nedostupna, evidentirati to i nastaviti ručnim File Managerom;
+ne vraćati SSH/hosting zahtjeve kao automatski preduvjet.
 
-Prije implementacije produkcijskog switcha agent treba read-only potvrditi
-SSH/shell mogućnosti, slobodne inodeove, veličine `public_html`, `application`
-i `application/data`, dostupne alate te hosting podršku za odabrani switch.
-Zatim testirati upload, obnovljivost i rollback na sigurnom testnom rasporedu.
-Ne obećavati neprekinuti/atomski switch dok ga mogućnosti hostinga i test ne potvrde.
+Dokumentacija cPanela potvrđuje [API tokene](https://docs.cpanel.net/cpanel/security/manage-api-tokens-in-cpanel/)
+i [UAPI upload](https://api.docs.cpanel.net/guides/quickstart-development-guide/tutorial-use-uapis-fileman-upload-files-function-in-custom-code).
+Za [Fileman fileop](https://api.docs.cpanel.net/cpanel-api-2/cpanel-api-2-modules-fileman/cpanel-api-2-functions-fileman-fileop)
+kopiranje/premještanje/raspakiranje dokumentirano je u zastarjelom API 2,
+bez navedenog ekvivalentnog UAPI-ja. Zato puni deploy/rollback ne proglašavati
+spremnim samo na temelju dostupnosti tokena. Ne slijediti primjere koji
+isključuju TLS provjeru. Ne spremati account lozinku ili token u kod, artifact
+ili chat. Ne stvarati javni PHP “deploy” endpoint kao zaobilazno rješenje.
 
-### Završna read-only dopuna: shell i veličine
+### Postupak prve objave i redovnih izmjena
 
-Naknadni nalaz izričito potvrđuje upozorenje da administrator mora omogućiti
-shell za račun `dentvita`. `sshd: up` ne potvrđuje pristup računu; nema prikazanih
-instaliranih SSH ključeva ni Terminal alata. Hostname, port, shell, SFTP,
-inodeovi i alati nisu potvrđeni. Postojeći `www → public_html` ne dokazuje
-da Apache dopušta document root ili poddirektorij prema `releases/`.
-Zbog bootstrapova relativnog `../application`, svaki odabrani switch mora
-posebno dokazati da i dalje učitava postojeći privatni application, bez kopiranja
-njegovih podataka u svaki release. Ne izvoditi taj zaključak samo iz www linka.
+1. Odabrati provjereni GitHub commit i produkcijski paket, ne preview artifact.
+2. Verificirati puni privatni backup starog javnog weba i backenda, uključujući
+   podatke, te zaštićenu kopiju izvan servera. Potvrditi povratak i rezervu kvote/inodeova.
+3. Kontrolirano pripremiti privatne PHP dodatke i testirati tokene/sesiju,
+   runtime, e-mail i CRM prema niže navedenom prihvatu. Stvarno slanje traži
+   zasebno odobrenje; JSON `ok` nije dokaz dostave.
+4. Prenijeti paket u `/home2/dentvita/releases/<release-id>`, izvan javnog weba,
+   potvrditi integritet i instalacijsku listu. Ako nema API-ja, to radi agent
+   kroz File Manager uz odobreni opseg. Postojeći web ostaje aktivan tijekom prijenosa.
+5. Nakon zatvorenih gates i vlasničkog odobrenja aktivirati odabranim,
+   testiranim postupkom. Sačuvati bootstrap, privatni backend, konfiguraciju
+   i potrebne verifikacijske datoteke. Ne prepisivati cijeli `public_html` naslijepo.
+6. Provjeriti sve jezike, forme, potvrde, redirekcije, sitemap, consent i tracking.
+   Za automatske provjere koristiti potvrđena očekivanja; predvidjeti ručni
+   prihvat stvari koje HTTP status ne dokazuje. Na grešku vratiti kodnu verziju
+   i provjeriti da je povratak stvarno uspio.
+7. Za kasnije javne izmjene čuvati dvije prethodne verificirane statičke
+   verzije. Nepromijenjeni PHP ostaje zajednički uz zaseban privatni backup.
+   Ne brisati povratne verzije prije prihvata nove niti automatski vraćati podatke.
 
-Novi Disk Usage nalaz prikazuje `public_html 167,63 MB` (blog `155,19 MB`)
-i `application 239,35 MB` (`data 234,61 MB`: log `82,78 MB`, mail `151,83 MB`).
-To su moguće odgođene cPanel vrijednosti, ne trenutni byte/inode inventar.
-Prema tim brojkama dvije dodatne pune kopije zauzimaju oko `813,96 MB`, a
-dvije kopije bez `application/data` oko `344,74 MB`. Raniji Home Directory
-snapshot od `504,17 MB` nije veličina samo ova dva živa direktorija.
+### Potvrđeni raspored, veličine i zaštita podataka
 
-Postojeći lokalni produkcijski kandidat `af6dc28` nije regeneriran:
-ZIP je `57.946.023 B`, 691 payload datoteka ima `65.311.606 B`, a manifest
-`124.926 B`: ukupno 692 datoteke i `65.436.532 B` logičkog raspakiranog sadržaja.
-To su oko 58 MB ZIP-a i 65 MB sadržaja u decimalnim jedinicama, a ne potvrda
-Apacheova obračuna kvote ili fizičke potrošnje/inodeova. Ostale `.astro` QA i
-source datoteke nisu dio tog releasea. Dokumentacijski commit nakon `af6dc28`
-ne pretvara postojeći ZIP u novu verziju; sljedeći paket mora imati vlastiti manifest.
-
-Za prvi prijelaz potreban je kompletan, provjerljiv privatni backup starog
-`public_html` i `application`, uključujući `application/data`, uz zaštićenu
-kopiju izvan servera. Nakon prijelaza dvije prethodne verzije javnog Astro
-builda mogu se čuvati kao statički releaseovi, dok nepromijenjeni PHP i privatni
-podaci ostaju zajednički. Backup privatnih podataka i konfiguracije ostaje
-zasebna obveza; dva statička releasea nisu puni backup računa. Prije PHP
-izmjena posebno backupirati odgovarajuću verziju koda i konfiguracije.
-Prije svake objave provjeriti rezervu za upload, raspakiravanje i povratak te
-da se dva prethodna potvrđena rollback odredišta ne uklanjaju prerano.
-Ne brisati `application/data`, logove, poruke, blog, koš ili backupove radi
-prostora bez zasebnog odobrenja i točno potvrđenog obuhvata.
-
-### Upit hosting podršci prije povezivanja automatizacije
-
-Ne slati upit automatski niti pretpostavljati da je pristup već omogućen.
-Vlasnik može poslati sljedeći zahtjev:
-
-> Za `dentvitalis.com`, cPanel račun `dentvita`, pripremamo GitHub Actions
-> objavu statičkog weba uz očuvanje postojećeg PHP backenda. Molimo omogućavanje
-> SSH pristupa s ključem (jailed shell ako podržava potrebne naredbe) i SFTP-a,
-> uz potvrdu hostnamea, porta, vrste shella i otiska SSH host ključa.
-> Molimo potvrdu dostupnosti `tar`/`unzip`, `sha256sum`, `rsync`, `curl` i
-> `flock`, inode limita i potrošnje te načina obračuna kvote.
-> Dopušta li Apache document root ili njegov poddirektorij kao simboličku
-> poveznicu prema `/home2/dentvita/releases/`, pod istim vlasništvom? Navedite
-> eventualna ograničenja; nemojte sami prebacivati document root.
-> Ne mijenjajte DNS, PHP verziju, javni web, e-mail, CRM ni postojeće podatke.
+- `/home2/dentvita/public_html`: javni web; `index.php` učitava privatni
+  `../application`. Odabrani način aktivacije mora sačuvati tu vezu.
+- `/home2/dentvita/application`: PHP, vendor, konfiguracija i `data/`.
+  `/send`, `/gct` i novi `/form-tokens` moraju ostati pod PHP bootstrapom.
+- Kandidat `af6dc28`: ZIP `57.946.023 B`; 691 payload datoteka
+  `65.311.606 B` + manifest `124.926 B` = 692 datoteke/`65.436.532 B`.
+  Dokumentacijski commit ne regenerira taj ZIP niti mijenja njegov commit.
+- Agentov Disk Usage: `public_html 167,63 MB` (blog `155,19 MB`),
+  `application 239,35 MB` (`data 234,61 MB`: log `82,78 MB`, mail
+  `151,83 MB`). Vrijednosti mogu kasniti i nisu byte/inode inventar.
+- JetBackup: 12 prikazanih kopija, najnovija `1. 10. 2026. 02:35`, vremenska
+  zona nepotvrđena, “Local backup SATA”. Snapshot sadrži javni i privatni
+  direktorij, ali restore i off-server kopija nisu potvrđeni.
+- PHP za domenu je 7.4/FPM; sustavni default 8.1 i prikaz INI limita nisu
+  dokaz efektivnog runtimea. Ne nadograđivati PHP usput.
+- Backup privatnih podataka nije isto što i rollback koda. Automatski povratak
+  ne prepisuje `application/data`, SMTP/CRM konfiguraciju ni vanjski CRM.
+  Povratak PHP koda zahtijeva zaseban kompatibilan postupak.
+- Ne brisati blog, logove, poruke, koš ili backupove radi prostora bez
+  zasebnog odobrenja. Arhive u `.trash/` nisu pouzdani trajni backupovi.
 
 ## Release gates
 

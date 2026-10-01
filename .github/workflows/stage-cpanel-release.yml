@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       stage_to_cpanel:
-        description: 'Stage the verified build in cPanel releases/ (does not change public_html)'
+        description: 'PAUSED: SSH stage is unavailable. Leave false to prepare a preview artifact only.'
         required: true
         type: boolean
         default: false
@@ -17,6 +17,11 @@ jobs:
     name: Build verified release
     runs-on: ubuntu-latest
     steps:
+      - name: Stop paused SSH stage before any connection
+        if: ${{ inputs.stage_to_cpanel }}
+        run: |
+          echo 'SSH stage is paused: account shell access is not confirmed. Follow the current cPanel API procedure; no server connection attempted.'
+          exit 1
       - uses: actions/checkout@v4
         with:
           lfs: true

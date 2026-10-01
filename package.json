@@ -20,6 +20,8 @@
     "audit:redirects": "node scripts/audit-redirect-targets.mjs",
     "test:redirects": "node --test scripts/redirect-proposal.test.mjs",
     "test:deployment": "node --test scripts/cpanel-routing.test.mjs",
+    "test:migration-procedure": "node --test scripts/migration-procedure.test.mjs scripts/cpanel-api-probe.test.mjs",
+    "cpanel:probe:read-only": "node scripts/cpanel-api-probe.mjs",
     "test:page-routing": "node --test scripts/page-routing.test.mjs",
     "test:deployment:apache": "DENTVITALIS_TEST_APACHE=1 node --test scripts/cpanel-routing.test.mjs",
     "content:extract:hr": "python3 scripts/extract-translation-source.py",
