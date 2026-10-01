@@ -42,6 +42,7 @@
     "release:prepare:production": "node scripts/prepare-cpanel-production-release.mjs",
     "release:zip": "node scripts/package-cpanel-release.mjs",
     "test:release-zip": "node --test scripts/package-cpanel-release.test.mjs",
+    "test:legacy-delivery-patch": "node --test scripts/legacy-send-delivery-patch.test.mjs",
     "validate": "npm run check && npm run lint && npm run format:check && npm run test:content && npm run test:redirects && npm run test:preview && npm test && npm run build"
   },
   "dependencies": {

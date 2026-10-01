@@ -25,7 +25,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "redacted-legacy-delivery-source-review-before-new-upload-without-public-activation",
+    "nextCheck": "private-backend-candidate-review-and-CRM-response-acceptance-before-new-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -275,7 +275,18 @@
     "crmAsReported": "cURL-multipart-HTTPS-leads-POST-response-logged-without-HTTP-status-or-lead-creation-check",
     "legacyOkMayFollowDeliveryFailureAsReported": true,
     "legacyDeliveryResponseSafelyPatched": false,
-    "reviewedRedactedCurrentDeliverySourceAvailable": false,
+    "reviewedRedactedCurrentDeliverySourceAvailable": true,
+    "redactedSourceAttachmentSha256": "3d54153f7e3597d11227658428bb5ff7b829508a2619f655056b647a9ae3ddad",
+    "languageSpecificSendOverridesFoundAsReported": false,
+    "unusedUnderscoreSendTemplateExistsAsReported": true,
+    "localDeliveryTransportPatchPrepared": true,
+    "localPatchSha256": "f7061a935d943a8f09c6eb6f9dbfc2485f0e513b33699438ddd1532ab7c266ea",
+    "localMockedDeliveryTestsPassed": true,
+    "realCrmBusinessResponseContractVerified": false,
+    "smtpSuccessIsAcceptanceNotInboxProof": true,
+    "crm2xxIsTransportAcceptanceNotLeadCreationProof": true,
+    "preservesIntentionalTestAndSpamCrmBypass": true,
+    "smtpDebugAndPrivateDataPermissionsUnchangedByPatch": true,
     "crmTestSkippedForTestExampleComAsReported": true,
     "realEmailOrCrmTestRun": false,
     "oldPrivatePatchZipAlsoHas0666Metadata": true,
@@ -286,10 +297,7 @@
       "approximatelyAvailable": "0.5 GB",
       "exactServerFilesystemFreeSpaceAndInodesVerified": false
     },
-    "nextReadOnlyCodeNeeded": [
-      "/home2/dentvita/application/view/template/send.phtml",
-      "/home2/dentvita/application/src/Application/Mail/Mail.php"
-    ],
+    "nextReadOnlyCodeNeeded": [],
     "redactionRequired": "all-credentials-keys-recipient-values-and-patient-data-no-local.php-or-message-logs",
     "rollbackMustNotRestore": [
       "application/data",

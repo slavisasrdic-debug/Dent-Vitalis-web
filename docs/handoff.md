@@ -12,8 +12,12 @@ Nema instaliranih PHP token/upload dodataka, runtime/dostava nisu testirani,
 legacy `ok` može prikriti neuspjelu dostavu. Lokalni dodaci odgovaraju javnom
 manifestu; ne prepakirati javni web samo zbog njihove odsutnosti na serveru.
 Vlasnik je zatražio objedinjavanje prije novih uploada: `-perms.zip` upload je
-zasad zadržan. Treba redaktirani aktualni `send.phtml` + Mail return/exception
-ugovor za konkretan delivery patch, bez tajni/poruka. Stari privatni ZIP ima
+zasad zadržan. Redaktirani aktualni handler i Mail bool ugovor su pregledani;
+nema jezičnih overrideova, `_send.phtml` ostaje netaknut. Pripremljen i lokalno
+testiran je kirurgijski transport patch (SMTP bool/exception, cURL/HTTP/timeout,
+503 + delivery_unconfirmed), bez promjene polja, ključeva ili primatelja.
+SMTP true/CRM 2xx nisu dokaz inboxa/leada: poslovni CRM odgovor i stvarna
+dostava još nisu potvrđeni. Nije instalirano na serveru. Stari privatni ZIP ima
 `0666` metadata i nije završni instalacijski paket. Prikaz prostora sada je
 `978 MB / 1,46 GB`; server hash/inode/runtime/dostava i dalje otvoreni.
 Detalji i aktualni sljedeći korak u runbooku i `preActivationReadOnlyReview`.

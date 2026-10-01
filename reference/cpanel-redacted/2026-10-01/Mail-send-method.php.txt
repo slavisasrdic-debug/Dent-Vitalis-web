@@ -1,0 +1,88 @@
+public function send()
+{
+    $mail = new PHPMailer;
+
+    foreach ($this->from as $address => $name) {
+        $mail->setFrom($address, $name);
+        break;
+    }
+
+    foreach ($this->sender as $address => $name) {
+        $mail->Sender = $address;
+        break;
+    }
+
+    foreach ($this->to as $address => $name) {
+        $mail->addAddress($address, $name);
+    }
+
+    foreach ($this->cc as $address => $name) {
+        $mail->addCC($address, $name);
+    }
+
+    foreach ($this->bcc as $address => $name) {
+        $mail->addBCC($address, $name);
+    }
+
+    foreach ($this->replyTo as $address => $name) {
+        $mail->addReplyTo($address, $name);
+    }
+
+    foreach ($this->attachment as $file) {
+        $mail->addAttachment($file['tmp_name'], $file['name']);
+    }
+
+    $mail->Subject = $this->getSubject();
+    $mail->Body    = $this->getBody();
+    $mail->isHTML($this->isHTML);
+    $mail->CharSet = 'UTF-8';
+
+    if ($this->transport && $this->transport['type'] === 'smtp') {
+        $mail->isSMTP();
+        $mail->Host = $this->transport['options']['host'];
+        $mail->Port = $this->transport['options']['port'];
+        // $mail->Port = 23;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = $this->transport['options']['connection_config']['ssl'];
+        $mail->Username = $this->transport['options']['connection_config']['username'];
+        $mail->Password = $this->transport['options']['connection_config']['password'];
+
+        /**
+         * SMTP::DEBUG_OFF (`0`) No debug output, default
+         * SMTP::DEBUG_CLIENT (`1`) Client commands
+         * SMTP::DEBUG_SERVER (`2`) Client commands and server responses
+         * SMTP::DEBUG_CONNECTION (`3`) As DEBUG_SERVER plus connection status
+         * SMTP::DEBUG_LOWLEVEL (`4`) Low-level data output, all messages.
+         */
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+        $mail->Debugoutput = function($str, $level) {
+            @file_put_contents(
+                'data/log/phpmailer.log',
+                '[' . date('Y-m-d H:i:s') . '] ' . $str,
+                FILE_APPEND | LOCK_EX
+            );
+        };
+    }
+
+    try {
+        $result = $mail->send();
+    } catch (Exception $e) {
+        $result = false;
+    }
+
+    $content = $mail->getSentMIMEMessage();
+
+    $logFile = sprintf('msg%s', date('YmdHis'));
+    if ($result === true) {
+        $path = 'data/mail/sent';
+    } else {
+        $this->error = $mail->ErrorInfo;
+        $path = 'data/mail/error';
+    }
+    if (!file_exists($path)) {
+        @mkdir($path, 0777, true);
+    }
+    @file_put_contents($path . '/' . $logFile, $content);
+
+    return $result;
+}

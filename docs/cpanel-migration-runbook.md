@@ -70,7 +70,7 @@ naknadno dovršio postavke. Razlikovati ta dva nalaza i ne ponavljati PUT.
 Token ostaje osjetljiv račun-wide pristup, ne read-only ključ. Opoziv ili
 produljenje nakon odluke o API putu zasebno evidentirati; ne raditi ih prešutno.
 
-### Aktualna pauza novog uploada — preostali PHP posao
+### Aktualna pauza novog uploada — pripremljena PHP dopuna
 
 Vlasnik je zatražio cjelovit pregled prije novog uploada. Novi browser agent
 potvrdio je sadržaj stagea i `.htaccess`/PHP routing iz koda, svih pet zahvalnih
@@ -93,8 +93,49 @@ relevantni kod `application/src/Application/Mail/Mail.php` (return/exception
 ugovor). Izlaz ne smije sadržavati API/SMTP ključeve, vrijednosti primatelja,
 `local.php`, postojeće logove ni podatke pacijenata. Ne nagađati strukturu CRM
 potvrde ili prepisivati privatni handler generičkim kodom. Sljedeći zadatak
-agentu je samo dohvat redaktiranog koda, bez instalacije/POST-a/aktivacije.
+agentu bio je samo dohvat redaktiranog koda, bez instalacije/POST-a/aktivacije.
 `test@example.com` preskače CRM prema nalazu; nije valjan puni delivery test.
+
+**Redaktirani kod sada je pregledan i spremljen** u
+`reference/cpanel-redacted/2026-10-01/`; nema jezičnih `send.phtml` overrideova
+prema agentu. Zasebni `_send.phtml` nije predmet izmjene. Source attachment
+SHA-256: `3d54153f7e3597d11227658428bb5ff7b829508a2619f655056b647a9ae3ddad`.
+`Mail::send()` vraća bool; SMTP neuspjeh nije ulazio u `$errors`, a CRM
+rezultat je prepisivao istu `$result` varijablu bez provjere HTTP statusa.
+
+`scripts/legacy-send-delivery-patch.mjs` priprema **samo kirurgijski diff**,
+ne cijeli redaktirani handler za instalaciju. Dodaje require postojećeg
+upload guarda prije obrade, zasebno čuva SMTP rezultat, provjerava cURL
+grešku/HTTP status, ne slijedi redirecte, uključuje TLS provjeru i rokove
+10/30 s. CRM se i dalje pokušava nakon SMTP neuspjeha. Tehnički nepotvrđena
+dostava vraća 503 + `status:error/code:delivery_unconfirmed`, što postojeći
+frontend prikazuje odobrenom porukom bez auto-retryja. Namjerni test/spam
+CRM bypass, konfiguracija, ključevi i postojeće mapiranje ostaju sačuvani.
+Ne mijenja `Mail.php`, SMTP debug ili privatne poruke/dozvole data direktorija.
+
+Lokalni PHP 8.4.15 fixture test pokreće stvarni redaktirani handler s
+isključivo lokalnim SMTP mockom i lokalnim CRM-om: bool/exception SMTP,
+302/400/500 CRM, timeout, privitak, polja, CSRF i test/spam bypass.
+`npm run test:legacy-delivery-patch` prolazi; to nije PHP 7.4/FPM runtime
+ni stvarna dostava. Diff SHA-256:
+`f7061a935d943a8f09c6eb6f9dbfc2485f0e513b33699438ddd1532ab7c266ea`.
+
+**Preostalo ograničenje:** SMTP `true` znači prihvat transporta, ne inbox;
+CRM 2xx znači HTTP prihvat, ne potvrđen lead. Poslovni sadržaj stvarnog CRM
+odgovora nije dostavljen. Ne izmišljati njegovu shemu niti označiti ovaj
+patch kao potpuno rješenje svih CRM lažnih uspjeha. Prije aktivacije mora se
+potvrditi API ugovor i odobreni sintetički lead (uključujući obradu eventualne
+poslovne greške uz HTTP 2xx), uz zasebnu inbox provjeru.
+
+Pripremiti mali privatni candidate ZIP s dva neizmijenjena PHP dodatka,
+diffom, uputom i vlastitim manifestom, sve datoteke `0644` / mape `0755`.
+Ni redaktirani `send.phtml` ni konfiguracija/ključevi ne smiju u taj ZIP.
+Agent pri odobrenoj instalaciji prvo verificira privatni backup i čuva
+zasebnu kopiju **samo starog `send.phtml` koda** izvan web root-a, zatim
+postavlja dodatke privatno i ručno primjenjuje diff na stvarni handler.
+Ako kod ne odgovara anchorima, stati za novi pregled. Ne prepisivati handler
+redaktiranim sourceom, ne mijenjati ključ/primatelje ili `_send.phtml`.
+Do izričitog odobrenja instalacije/testa nema cPanel zapisa, POST-a ili switcha.
 
 Nakon pregleda: pripremiti jedan kontrolirani skup PHP izmjena i finalne
 pakete; vlasnički odobrena instalacija uz verificirani backup prethodi

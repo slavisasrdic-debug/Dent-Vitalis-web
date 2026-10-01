@@ -1,0 +1,265 @@
+<?php
+
+use Application\Mail\Mail;
+
+define('MAX_FILE_SIZE', 8 * 1024 * 1024);
+
+$this->setTerminal(true);
+
+if ($this->isPost()) {
+
+    $this->log('raw.log', json_encode($_POST));
+
+    $args = array(
+        'name'    => FILTER_SANITIZE_STRING,
+        'email'   => FILTER_VALIDATE_EMAIL,
+        'phone'   => FILTER_SANITIZE_STRING,
+        'message' => FILTER_SANITIZE_STRING,
+        'action'  => FILTER_SANITIZE_STRING,
+        'url'     => FILTER_SANITIZE_STRING,
+        'pos'     => FILTER_SANITIZE_STRING,
+        'lang'    => FILTER_SANITIZE_STRING,
+        'csrf'    => FILTER_SANITIZE_ENCODED,
+        'gct'     => FILTER_SANITIZE_ENCODED,
+        'conference_call' => FILTER_VALIDATE_BOOLEAN,
+        'form_agreement'  => FILTER_VALIDATE_BOOLEAN,
+    );
+
+    $data = filter_input_array(INPUT_POST, $args);
+    $errors = [];
+
+    $lang = $data['lang'] ?: 'it';
+
+    $testMode = false;
+    $spamMode = false;
+
+    $this->getApplication()->setLocale($lang);
+
+    if (empty($data['name'])) {
+        $errors['name'] = $this->translate('Name empty');
+    } elseif (isGibberish($data['name'])) {
+        $spamMode = true;
+    }
+
+    if (empty($data['phone'])) {
+        $errors['phone'] = $this->translate('Phone empty');
+    }
+
+    if ($data['email'] === false) {
+        $errors['email'] = $this->translate('Email not valid');
+        $data['email'] = (isset($_POST['email'])) ? $_POST['email'] : '';
+    }
+
+    // if (empty($data['message'])) {
+    //     $errors['message'] = $this->translate('Message empty');
+    // }
+
+    if (empty($data['url'])) {
+        $errors['url'] = $this->translate('Referer empty');
+    }
+
+    if (isset($data['lang'])) {
+        $lang = $data['lang'];
+        $this->setLang($lang);
+    }
+
+    if (!empty($data['pos'])) {
+        $data['url'] .= '#' . $data['pos'];
+    }
+
+    $origin = (isset($_SERVER['HTTP_ORIGIN'])) ? trim($_SERVER['HTTP_ORIGIN'], '/') : false;
+    $referer = (isset($_SERVER['HTTP_REFERER'])) ? trim($_SERVER['HTTP_REFERER'], '/') : false;
+    if ($origin === false && $referer !== false) {
+        $origin = sprintf("%s://%s", parse_url($referer, PHP_URL_SCHEME), parse_url($referer, PHP_URL_HOST));
+    }
+
+    if (empty($data['csrf']) || $data['csrf'] !== $this->getCsrf()) {
+        $errors['validation'] = $this->translate('Validation error');
+        $errors['csrf'] = $this->getCsrf();
+    }/* elseif ($origin !== $this->serverUrl()) {
+        $errors['validation'] = $this->translate('Validation error');
+    }*/
+
+    if (empty($data['gct']) || $data['gct'] !== $this->getGct()) {
+        $errors['validation'] = $this->translate('Validation error');
+    }
+
+    if ($data['form_agreement'] !== true) {
+        $errors['form_agreement'] = $this->translate('Form agreement error');
+    }
+
+    if ($lang === 'it' && !empty($data['conference_call'])) {
+        $data['message'] .= "\r\n\r\n*Vorrei una video prima visita";
+    }
+
+    $this->log('form.log', json_encode($data));
+
+    $this->form = [
+        'name' => $data['name'],
+        'email' => $data['email'],
+        'phone' => $data['phone'],
+        'message' => $data['message'],
+        'action' => $data['action'],
+        'url' => $data['url'],
+        'pos' => $data['pos'],
+    ];
+
+    if (empty($errors)) {
+
+        $config = $this->config('mail') ?: [];
+
+        $address = $_SERVER['REMOTE_ADDR'];
+        $this->form['submitted'] = date('D, d.m.Y H:i:s') . ' | ' . $address;
+
+        $template = $this->resolve('email/contact-inlined');
+        $html = $this->renderFile($template);
+
+        $subject = (isset($config['subject'])) ? $config['subject'] : 'Contact Form';
+
+        if (isset($config['to'][$lang]) && !empty($config['to'][$lang])) {
+            $config['to'] = $config['to'][$lang];
+        }
+
+        if ($spamMode === true) {
+            $subject = '[PSPA] ' . $subject;
+        }
+
+        if (preg_match('/^test@example\.com$/', $data['email'])) {
+            $testMode = true;
+        }
+
+        $mail = new Mail($config);
+
+        if ($testMode === true) {
+            $subject = '[TEST] ' . $subject;
+            $mail->clearAllRecipients();
+            $mail->setTo($config['test']);
+        }
+
+        $mail->setSubject($this->translate($subject));
+        $mail->setFrom($config['from'], $data['name']);
+        $mail->setReplyTo($data['email'], $data['name']);
+        $mail->setBody($html);
+        $mail->isHtml(true);
+
+        $file = null;
+
+        if (isset($_FILES['file'])) {
+            $file = $_FILES['file'];
+            if ($file['error'] !== 0) {
+                // $errors['file'] = $this->translate('File error');
+            } elseif ($file['size'] > MAX_FILE_SIZE) {
+                // $errors['file'] = $this->translate('Max file size of 8MB exceeded');
+            } else {
+                $mail->addAttachment($file);
+            }
+        }
+
+        if (empty($errors)) {
+
+            $result = $mail->send();
+
+            if ($result !== true) {
+                // $errors['validation'] = $this->translate('Error sending message');
+            }
+
+            if ($spamMode === false) {
+
+                $post = array(
+                    'name' => $data['name'],
+                    'email' => $data['email'],
+                    'phone' => $data['phone'],
+                    'message' => $data['message'],
+                    'action' => $data['action'],
+                    'lang' => $data['lang'],
+                    'form_agreement' => $data['form_agreement'],
+                );
+
+                $this->log('api.log', 'Debug: ' . serialize($post));
+
+                if (isset($file['name'])) {
+                    $this->log('api.log', 'Debug: ' . serialize($_FILES));
+
+                    if ($file['size'] <= MAX_FILE_SIZE) {
+                        $fileTmpName = $file['tmp_name'];
+                        $fileName = $file['name'];
+                        $fileMimeType = $file['type'];
+
+                        if (file_exists($fileTmpName)) {
+                            if (function_exists('curl_file_create')) {
+                                // php 5.5+
+                                $cFile = curl_file_create($fileTmpName, $fileMimeType, $fileName);
+                            } else {
+                                $cFile = '@' . realpath($fileTmpName) . ";filename=$fileName;type=$fileMimeType";
+                            }
+
+                            $post['file'] = $cFile;
+                        }
+                    }
+                }
+
+                if ($this->config('environment') === 'development') {
+                    $url = 'http://test.crm.dentvitalis.com/pub/v1/crm/leads?key=[REDACTED_CRM_KEY]';
+                } else {
+                    $url = 'https://crm.dentvitalis.com/pub/v1/crm/leads?key=[REDACTED_CRM_KEY]';
+                }
+
+                if (empty($errors) && $testMode === false) {
+                    try {
+                        $ch = curl_init();
+                        curl_setopt($ch, CURLOPT_URL, $url);
+                        if ($this->config('environment') === 'development') {
+                            curl_setopt($ch, CURLOPT_USERPWD, "[REDACTED_USERNAME]:[REDACTED_PASSWORD]");
+                        }
+                        curl_setopt($ch, CURLOPT_POST, true);
+                        curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                        if (!$result = curl_exec($ch)) {
+                            $result = 'Curl error: ' . curl_error($ch);
+                        }
+                        curl_close ($ch);
+
+                    } catch (\Exception $e) {
+                        $result = 'PHP error: ' . $e->getMessage();
+                    }
+                }
+
+                try {
+                    $this->log('api.log', $result);
+                } catch (\Exception $e) {}
+            }
+        }
+    }
+
+    $status = (isset($errors) && !empty($errors)) ? 'error' : 'ok';
+
+    $response = ['status' => $status];
+    if ($status === 'error') {
+        $response['message'] = $errors;
+    }
+
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($response);
+    exit;
+}
+
+function isGibberish($text)
+{
+    // Word count
+    preg_match_all('/\p{L}+/u', $text, $matches);
+    $wordCount = count($matches[0]);
+
+    // Is all uppercase?
+    $upperCase = mb_strtoupper($text);
+    $allUppercase = ($upperCase === $text);
+
+    // Uppercase characters count
+    $lowerCase = mb_strtolower($text);
+    $uppercaseCount = strlen($lowerCase) - similar_text($text, $lowerCase);
+
+    if ($wordCount == 1 && $allUppercase == false && $uppercaseCount >= 4) {
+        return true;
+    }
+
+    return false;
+}

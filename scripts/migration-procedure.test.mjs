@@ -166,10 +166,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(
-    report.procedure.nextCheck,
-    /redacted-legacy-delivery-source-review/,
-  );
+  assert.match(report.procedure.nextCheck, /private-backend-candidate-review/);
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',
@@ -232,7 +229,11 @@ test('latest read-only form audit holds new upload and cannot close delivery or 
   );
   assert.equal(audit.legacyOkMayFollowDeliveryFailureAsReported, true);
   assert.equal(audit.legacyDeliveryResponseSafelyPatched, false);
-  assert.equal(audit.reviewedRedactedCurrentDeliverySourceAvailable, false);
+  assert.equal(audit.reviewedRedactedCurrentDeliverySourceAvailable, true);
+  assert.equal(audit.localDeliveryTransportPatchPrepared, true);
+  assert.equal(audit.localMockedDeliveryTestsPassed, true);
+  assert.equal(audit.realCrmBusinessResponseContractVerified, false);
+  assert.equal(audit.crm2xxIsTransportAcceptanceNotLeadCreationProof, true);
   assert.equal(audit.crmTestSkippedForTestExampleComAsReported, true);
   assert.equal(audit.realEmailOrCrmTestRun, false);
   assert.equal(audit.oldPrivatePatchZipMustNotBeInstalledAsFinalPackage, true);
