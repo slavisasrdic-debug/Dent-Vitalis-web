@@ -38,6 +38,12 @@ Ova lista ne odobrava objavu. Svaki korak zahtijeva zaseban nalog i provjeru.
 - [ ] Sačuvana postojeća Meta potvrda domene; CookieYes učitava samo GTM.
 - [ ] Popis uklonjenih kampanja pregledan je prije dodatnih 410 pravila.
 - [x] Newsletter nije dio novog weba po izričitoj odluci vlasnika 1. listopada.
+- [x] Blog nije dio novog weba po izričitoj odluci vlasnika 1. listopada;
+      migracija njegove baze nije preduvjet rada novog weba. ZIP bez baze ne
+      omogućuje samostalno vraćanje starog bloga. Ova odluka ne odobrava
+      trenutno brisanje datoteka ili baze na serveru.
+- [ ] Pregledane stare blog adrese i odobreno njihovo postupanje pri migraciji;
+      nema automatskog preusmjeravanja svih članaka na početnu stranicu.
 - [ ] Redirect inventar je potpun i automatizirano testiran.
 - [ ] Canonical, hreflang, sitemap, robots i 404 su provjereni.
 - [ ] Napravljen je visual regression prema Webflow referenci.

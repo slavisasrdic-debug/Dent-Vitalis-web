@@ -6,6 +6,14 @@
   },
   "productionDeploymentAuthorized": false,
   "newsletter": { "decision": "remove", "status": "absent-from-new-site" },
+  "blog": {
+    "decision": "remove-from-new-site",
+    "approvedOn": "2026-10-01",
+    "databaseRequiredByNewSite": false,
+    "legacyUrlDisposition": "review-required-before-applying-redirects-or-410",
+    "serverDeletionAuthorized": false,
+    "backupNote": "The described ZIP omits the blog database and cannot restore the old blog by itself. Blog database migration is not required for the new site."
+  },
   "expiredCampaigns": {
     "decision": "remove-expired-campaigns-after-final-list-review",
     "status": "owner-list-review-required-before-installing-additional-410-rules",
