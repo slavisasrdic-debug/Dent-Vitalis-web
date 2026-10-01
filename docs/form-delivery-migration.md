@@ -111,6 +111,16 @@ pet jezičnih rootova.
 
 ## Obvezni koraci prije aktivacije
 
+Novi read-only nalaz agenta od 1. listopada potvrđuje privatni
+`application/data`. Lokalni ZIP ga ne sadrži, iako prema agentu prolazi CRC;
+JetBackupov prikaz nije test obnovljivosti. Prije promjene potreban je
+zaštićeni backup tih podataka i potvrđena kopija izvan servera. Pri rutinskoj
+objavi ili automatskom rollbacku ne vraćati `application/data` starom kopijom
+niti mijenjati vanjski CRM: noviji upiti i privitci moraju ostati sačuvani.
+Povratak PHP koda i povratak privatnih podataka zasebni su kontrolirani postupci.
+Kapacitet kvote, inodeovi, PHP/FPM ekstenzije i cookie postavke još nisu
+efektivno provjereni. Detalji su u cPanel runbooku i readiness podacima.
+
 1. Prije promjene sačuvati dvije vremenski označene verzije `public_html` i
    cijelog `application` direktorija izvan web-korijena, uz checksum i postupak
    povrata.

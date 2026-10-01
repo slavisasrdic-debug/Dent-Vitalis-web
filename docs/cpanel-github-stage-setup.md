@@ -14,6 +14,17 @@ zahtijeva stvarni backup `.htaccess` i zaseban postupak iz runbooka.
 Privatni backend dodaci preuzimaju se kao odvojeni artifact i nikada se ne
 raspakiravaju u `public_html`.
 
+## Odobrena buduća produkcijska objava — 1. listopada 2026.
+
+Vlasnik je odabrao ručno pokrenutu GitHub objavu bez ručnog ZIP uploada.
+Ovaj postojeći stage workflow time nije postao produkcijski deploy.
+Prije izrade i povezivanja produkcijske automatizacije treba potvrditi
+SSH/shell pristup, alate, prostor i inodeove za dva prethodna releasea i
+backupe te način sigurnog switcha na tom hostingu. Dopunjeni nalaz je u
+`data/migration-readiness.json` i runbooku. Ne uključivati objavu na svaki push.
+Zaštita rollbacka mora sačuvati novije podatke u `application/data` i vanjski
+CRM; privatni backupovi nikada nisu GitHub artifacti.
+
 ## Jednokratna priprema pristupa
 
 1. U cPanelu potvrditi da je SSH/SFTP pristup uključen za račun `dentvita`.

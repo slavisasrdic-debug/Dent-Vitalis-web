@@ -19,6 +19,64 @@ Statički build ne smije zamijeniti application direktorij, vendor, mail
 konfiguraciju, PHP handler niti postojeći bootstrap dok se forme ne potvrde na
 stagingu.
 
+## Dopunjeni serverski nalaz i odobrena automatizacija — 1. listopada 2026.
+
+Vlasnik je dostavio novi read-only nalaz agenta i odobrio cilj: ručno pokrenuta
+GitHub objava s prijenosom, backupom, aktivacijom, provjerama i povratkom.
+To je odobrenje pripreme postupka, ne trenutačne produkcijske aktivacije.
+Produkcijski workflow još nije implementiran niti povezan sa serverom;
+postojeći `Stage cPanel release` i dalje izrađuje samo preview paket.
+
+Nalaz je evidentiran u `data/migration-readiness.json` kao **nalaz dostavljen
+od agenta**, a ne neovisna runtime provjera iz ovog Codespacea:
+
+- Potvrđeni su document root, bootstrap koji prelazi u `../application`,
+  privatni backend s `data/` te template fallback u `Html.php`.
+  Kompatibilnost novog `/form-tokens` proizlazi iz pročitanog koda, ali
+  predložak nije instaliran ni izvedbeno testiran.
+- Za domenu je postavljen PHP 7.4/FPM; sustavni PHP 8.1 nije dokaz verzije
+  koja izvršava forme. Prikazani INI limiti `512M` nisu efektivna runtime
+  provjera. PHP 7.4 je zastario; nadogradnju planirati zasebno nakon audita,
+  ne mijenjati runtime tijekom ove migracije bez zasebnog odobrenja.
+- JetBackup prikazuje 12 kopija i najnoviju dnevnu inkrementalnu kopiju
+  `1. 10. 2026. 02:35`, s oznakom `Local backup SATA`. Vremenska zona tog
+  prikaza nije potvrđena. Snapshot pregled sadrži `public_html`, `application`
+  i roditeljski `.htaccess`, ali restore nije testiran; fizička putanja i
+  kopija izvan servera nisu potvrđene.
+- Lokalni objedinjeni ZIP prema agentu prolazi CRC i sadrži ključne datoteke,
+  ali nema `application/data` ni bazu bloga. Ne predstavlja puni account
+  backup. Tri arhive u `.trash/` nisu trajni rollback backupovi.
+- Kvota je `1.500 MB`, obračunata potrošnja `632,57 MB`, a dashboard prikazuje
+  `634,06 MB`: konzervativno oko `866 MB` dostupne kvote. Odvojeni prikaz
+  fizičke potrošnje `837,99 MB` nije slobodan prostor filesystema. Home Directory
+  snapshot prikazuje `504,17 MB`; dva takva puna seta bez kompresije/dedupliciranja
+  već premašuju prijavljenu slobodnu kvotu, i prije uploada. Kompresiju,
+  dedupliciranje ili smještaj izvan kvote ne pretpostavljati: izmjeriti stvarne
+  direktorije, konačne arhive, slobodne inodeove i rezervu za povratak.
+- File Managerov Extract dijalog dopušta cilj izvan `public_html`, ali to
+  nije test prava pisanja. SSH/shell, serverski alati i podrška za simboličke
+  linkove još nisu potvrđeni. Ne izabrati symlink switch samo na temelju dijaloga.
+
+### Obvezna zaštita novih upita pri povratku
+
+Kompletan privatni backup treba obuhvatiti `application/data`, uz ograničen
+pristup i odvojenu kopiju izvan servera; te podatke nikada ne slati u GitHub
+artifact, javni release ili chat. Backup i rollback nisu ista operacija:
+
+- Rutinski deploy javnih stranica i automatski povratak ne mijenjaju
+  `application/data`, SMTP/CRM konfiguraciju niti vanjski CRM.
+- Ne vraćati cijeli `application` preko živog backend direktorija kao dio
+  automatskog rollbacka: time bi se mogli izgubiti noviji upiti ili privitci.
+- Ako je potreban povratak PHP koda, izraditi zaseban pregled kompatibilnosti,
+  vratiti samo odobrene kodne datoteke i sačuvati novije podatke. Obnova
+  privatnih podataka iz backupa zahtijeva zasebnu kontroliranu odluku.
+
+Prije implementacije produkcijskog switcha agent treba read-only potvrditi
+SSH/shell mogućnosti, slobodne inodeove, veličine `public_html`, `application`
+i `application/data`, dostupne alate te hosting podršku za odabrani switch.
+Zatim testirati upload, obnovljivost i rollback na sigurnom testnom rasporedu.
+Ne obećavati neprekinuti/atomski switch dok ga mogućnosti hostinga i test ne potvrde.
+
 ## Release gates
 
 Detaljna dopuna od 1. listopada nalazi se u `data/migration-readiness.json`

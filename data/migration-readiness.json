@@ -5,6 +5,107 @@
     "sha256": "86ded1396f09d2a32bc9bd2fcc1a7c0aa4b93b563bd037a86b2b9b01f7d0cb23"
   },
   "productionDeploymentAuthorized": false,
+  "deploymentAutomation": {
+    "ownerApprovedDesignOn": "2026-10-01",
+    "trigger": "manually-dispatched-GitHub-production-workflow",
+    "target": "existing-cPanel-hosting-without-DNS-changes",
+    "scope": "prepare-automation-not-activate-production",
+    "productionWorkflowImplemented": false,
+    "serverConnectionConfigured": false,
+    "activationStrategy": "pending-confirmed-server-capabilities",
+    "retainPreviousVerifiedVersions": 2,
+    "automaticRollbackMustNotRestore": ["application/data"],
+    "existingStageWorkflowProducesPreviewOnly": true
+  },
+  "cpanelFollowUp": {
+    "reportedOn": "2026-10-01",
+    "source": "owner-pasted-agent-read-only-report",
+    "independentlyVerifiedInThisWorkspace": false,
+    "documentRoot": "/home2/dentvita/public_html",
+    "applicationRoot": "/home2/dentvita/application",
+    "bootstrap": {
+      "exists": true,
+      "applicationRelativePath": "../application",
+      "loads": [
+        "vendor/autoload.php",
+        "config/global.php",
+        "config/local.php-if-present"
+      ]
+    },
+    "routing": {
+      "explicitDirectoryIndexInLegacyHtaccess": false,
+      "formTokensCommonTemplatePresent": false,
+      "formTokensCompatibility": "inferred-from-Html.php-template-fallback-not-runtime-tested",
+      "templateFallback": ["view/template/<language>", "view/template"]
+    },
+    "php": {
+      "domainHandler": "ea-php74",
+      "domainPhpFpmEnabled": true,
+      "systemDefaultVersion": "8.1",
+      "iniValuesArePanelDisplayNotEffectiveRuntime": true,
+      "panelIni": {
+        "upload_max_filesize": "512M",
+        "post_max_size": "512M",
+        "memory_limit": "512M",
+        "session.gc_maxlifetime": "1440",
+        "session.save_path": "/var/cpanel/php/sessions/ea-php74"
+      },
+      "runtimeExtensionsVerified": false,
+      "effectiveSessionCookiesVerified": false,
+      "upgradeDuringMigrationAuthorized": false
+    },
+    "backups": {
+      "jetBackup": {
+        "displayedCopyCount": 12,
+        "latestDisplayedTimestamp": "2026-10-01 02:35",
+        "timestampTimezoneVerified": false,
+        "type": "daily-incremental",
+        "destinationLabel": "Local backup SATA",
+        "fullAccountDisplayedSize": "677.59 MB",
+        "homeDirectoryDisplayedSize": "504.17 MB",
+        "snapshotBrowserContains": [
+          "public_html",
+          "application",
+          "parent-.htaccess"
+        ],
+        "restoreOptionExists": true,
+        "restoreTestPerformed": false,
+        "physicalStoragePathVerified": false,
+        "offServerCopyVerified": false
+      },
+      "localZip": {
+        "name": "dentvitalis-web-i-backend-20261001.zip",
+        "crcCheck": "passed-as-reported-by-agent-not-inspected-in-this-workspace",
+        "keyFilesPresentAsReported": true,
+        "omits": ["blog-database", "application/data"],
+        "fullAccountBackup": false
+      },
+      "trashArchives": {
+        "displayedCount": 3,
+        "contentsVerifiedInFollowUp": false,
+        "acceptableAsDurableBackup": false
+      },
+      "twoVerifiedServerRollbackVersionsConfirmed": false
+    },
+    "storage": {
+      "unit": "MB-as-displayed-by-cPanel",
+      "accountQuota": "1500 MB",
+      "accountedUsage": "632.57 MB",
+      "dashboardUsage": "634.06 MB",
+      "reportedConservativeAvailableQuota": "approximately 866 MB",
+      "separatePhysicalUsage": "837.99 MB",
+      "serverFilesystemFreeSpaceVerified": false,
+      "inodeLimitVerified": false,
+      "twoBackupCapacityVerified": false,
+      "releaseWritesOrExtractionTested": false
+    },
+    "automationCapabilities": {
+      "sshShellConfirmed": false,
+      "serverUtilitiesConfirmed": false,
+      "symlinkHostingSupportConfirmed": false,
+      "releaseDirectoryCreated": false
+    }
+  },
   "legacyHtaccess": {
     "source": "owner-supplied-text-2026-10-01",
     "sha256": "ffe96dfc4c95363b3eb8a155e4b1da71b0aba5c4e92a2fd0e5e378b726d6fbd5",
@@ -68,7 +169,10 @@
     "sl": "Pošiljanje ni bilo potrjeno. Prosimo, kontaktirajte nas po telefonu."
   },
   "serverGates": [
+    "SSH-shell-and-verified-deploy-key-access-configured",
+    "account-quota-filesystem-and-inode-capacity-for-upload-backups-and-rollback-verified",
     "verified-public_html-and-application-backups-with-two-previous-versions",
+    "private-off-server-backup-verified-and-live-data-preserving-rollback-tested",
     "actual-legacy-htaccess-in-production-release",
     "private-form-tokens-template-installed-and-tested-in-existing-session",
     "private-upload-guard-reviewed-and-required-before-legacy-send-processing",
