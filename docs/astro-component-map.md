@@ -201,6 +201,15 @@ Dodatne potvrđene razlike varijanti:
 | `home/Information`    | `heading`, `cards`, `action`                                                               | Osam informativnih kartica i CTA                                                                        |
 | `home/HomeFAQ`        | `heading`, `questions`, `action`                                                           | Šest izdvojenih FAQ pitanja i CTA                                                                       |
 
+### Form bridge — priprema migracije 1. listopada 2026.
+
+Aktualni form bridge (1. listopada 2026.): `/form-tokens` izdaje oba tokena
+iz legacy sessiona prije POST-a; po CSRF grešci jednom se obnavljaju oba.
+`pos` prati premještanje inline/popup instance; `action` je prazan.
+Lokalizirani `deliveryUnconfirmed` odobren je za svih pet jezika i ne tvrdi
+da mrežna greška znači da upit sigurno nije dostavljen. Privatni PHP dodaci
+izvan `dist/` zahtijevaju zasebnu instalaciju i provjeru na serveru.
+
 ### Donji sticky CTA — korisnički dodatak 8. rujna 2026.
 
 `ContactWidgets` zadržava postojeće propse `consultation`, `whatsapp`, `content`; njegov donji `Button` koristi postojeću varijantu `consultation`. Samo unutar `.mobile-contact` do **991px** tekst i SVG ikona zajedno mijenjaju opacity. Plava podloga, fokusni obrub, hitbox i geometrija ne animiraju se. `Header` i ostali CTA-i nisu potrošači ovog efekta. Primjena: svih 28 ruta kroz `SiteLayout`, potvrđeno prema handoff `components.json` i svih 28 sastava stranica.

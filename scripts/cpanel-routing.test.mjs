@@ -72,6 +72,8 @@ test('existing PHP/server directives retain their exact bytes', () => {
 test('missing or ambiguous server routing fails closed', () => {
   for (const documents of [
     { '/send': '/_pages/send.html' },
+    { '/form-tokens': '/_pages/form-tokens.html' },
+    { '/send-sconto': '/_pages/send-sconto.html' },
     { '/hr': '/other.html' },
     { '/hr/': '/_pages/hr.html' },
   ])
@@ -152,6 +154,11 @@ test(
     ]);
     await mkdir(join(directory, 'htdocs'));
     await writeFile(join(directory, 'htdocs/index.html'), 'Test page only');
+    // Plain HTTP fixture, not a production PHP application or a real submission.
+    await writeFile(
+      join(directory, 'htdocs/index.php'),
+      'Legacy route retained',
+    );
     await writeFile(
       join(directory, 'htdocs/legacy-fixture.txt'),
       'Legacy route retained',
@@ -161,7 +168,12 @@ test(
       mergeLegacyHtaccess(legacy, documents),
     );
     await chmod(join(directory, 'htdocs'), 0o755);
-    for (const name of ['index.html', 'legacy-fixture.txt', '.htaccess'])
+    for (const name of [
+      'index.html',
+      'index.php',
+      'legacy-fixture.txt',
+      '.htaccess',
+    ])
       await chmod(join(directory, 'htdocs', name), 0o644);
     for (const document of Object.values(documents)) {
       const file = join(directory, 'htdocs', document);
@@ -211,6 +223,7 @@ test(
     const config = originalConfig
       .replace('#LoadModule rewrite_module', 'LoadModule rewrite_module')
       .replace('#LoadModule ssl_module', 'LoadModule ssl_module')
+      .replace('#LoadModule headers_module', 'LoadModule headers_module')
       .replace(
         '#LoadModule socache_shmcb_module',
         'LoadModule socache_shmcb_module',
@@ -259,7 +272,13 @@ test(
             port: Number(ports[tls ? '443/tcp' : '80/tcp'][0].HostPort),
             path,
             method,
-            headers: { Host: host, ...extraHeaders },
+            headers: {
+              Host: host,
+              ...(body === undefined
+                ? {}
+                : { 'Content-Length': Buffer.byteLength(body) }),
+              ...extraHeaders,
+            },
             rejectUnauthorized: false, // One-day self-signed local fixture only.
           },
           (res) => {
@@ -272,6 +291,7 @@ test(
               accept({
                 status: res.statusCode,
                 location: res.headers.location,
+                cacheControl: res.headers['cache-control'],
                 text,
               }),
             );
@@ -385,17 +405,23 @@ test(
       post.location,
       'https://www.dentvitalis.com/send?campaign=test',
     );
-    for (const path of ['/send?campaign=test', '/gct']) {
+    for (const path of [
+      '/send?campaign=test',
+      '/gct',
+      '/form-tokens',
+      '/send-sconto',
+    ]) {
       const result = await request(
         true,
         'www.dentvitalis.com',
         path,
         path.startsWith('/send') ? 'POST' : 'GET',
-        'fixture-only',
+        path.startsWith('/send') ? 'fixture-only' : undefined,
       );
       assert.equal(result.status, 200);
       assert.equal(result.location, undefined);
       assert.match(result.text, /Legacy route retained/);
+      assert.equal(result.cacheControl, 'private, no-store, max-age=0');
     }
     verified = true;
   },

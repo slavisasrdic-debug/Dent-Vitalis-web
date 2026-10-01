@@ -1,0 +1,37 @@
+<?php
+// Install in /home2/dentvita/application/view/template, NOT public_html.
+// Runs through the existing index.php bootstrap and its existing PHP session.
+$this->setTerminal(true);
+header('Content-Type: application/json; charset=utf-8');
+header('Cache-Control: private, no-store, max-age=0');
+header('Pragma: no-cache');
+header('X-Content-Type-Options: nosniff');
+header('X-Robots-Tag: noindex, nofollow');
+header('Vary: Cookie, Origin');
+
+if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'GET') {
+    http_response_code(405);
+    header('Allow: GET');
+    echo json_encode(['error' => 'method_not_allowed']);
+    return;
+}
+
+// No CORS: only the site's own frontend may read session tokens.
+$fetchSite = $_SERVER['HTTP_SEC_FETCH_SITE'] ?? '';
+$origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+$allowedOrigins = ['https://www.dentvitalis.com', 'https://dentvitalis.com'];
+if (($fetchSite !== '' && !in_array($fetchSite, ['same-origin', 'none'], true)) ||
+    ($origin !== '' && !in_array($origin, $allowedOrigins, true))) {
+    http_response_code(403);
+    echo json_encode(['error' => 'origin_not_allowed']);
+    return;
+}
+
+$csrf = $this->getCsrf();
+$gct = $this->getGct();
+if (!is_string($csrf) || $csrf === '' || !is_string($gct) || $gct === '') {
+    http_response_code(503);
+    echo json_encode(['error' => 'tokens_unavailable']);
+    return;
+}
+echo json_encode(['csrf' => $csrf, 'gct' => $gct]);

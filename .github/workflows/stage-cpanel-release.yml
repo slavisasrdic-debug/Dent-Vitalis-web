@@ -34,6 +34,12 @@ jobs:
           path: ${{ runner.temp }}/dentvitalis-${{ github.sha }}.tar.gz
           if-no-files-found: error
           retention-days: 14
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dentvitalis-private-backend-patches-${{ github.sha }}
+          path: server/application/view/template/
+          if-no-files-found: error
+          retention-days: 14
 
   stage:
     name: Stage release outside public_html
@@ -72,7 +78,8 @@ jobs:
           printf '%s  %s\n' "$checksum" "$archive_name" > "$RUNNER_TEMP/$checksum_name"
           target="$DEPLOY_USER@$DEPLOY_HOST"
           ssh "$target" "mkdir -p '$DEPLOY_ROOT/releases' '$DEPLOY_ROOT/backups'"
-          scp "$archive" "$RUNNER_TEMP/$checksum_name" "$target:$DEPLOY_ROOT/releases/"
+          scp "$archive" "$target:$DEPLOY_ROOT/releases/$archive_name"
+          scp "$RUNNER_TEMP/$checksum_name" "$target:$DEPLOY_ROOT/releases/$checksum_name"
           ssh "$target" "set -eu
             cd '$DEPLOY_ROOT/releases'
             sha256sum -c '$checksum_name'

@@ -2,6 +2,7 @@
 import { graph, socialImage, type PageSEO, origin } from '../content/seo';
 import type { LanguageLink } from '../content/site';
 import { canonicalUrl, publicationSettings } from '../content/seo-urls';
+import { metaDomainVerification } from '../../data/site';
 interface Props {
   title: string;
   description: string;
@@ -47,6 +48,7 @@ const structured = JSON.stringify(
 
 <title>{title}</title>
 <meta name="description" content={description} />
+<meta name="facebook-domain-verification" content={metaDomainVerification} />
 <meta
   name="robots"
   content={seo.noindex && publication.indexable

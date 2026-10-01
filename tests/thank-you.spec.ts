@@ -144,19 +144,45 @@ for (const [lang, root] of Object.entries(roots)) {
     // Every request is intercepted: no live SMTP, CRM, GTM or CookieYes requests.
     const dist = resolve('dist');
     let sent = 0;
+    let tokenLoads = 0;
+    let failure: 'tokens' | 'delivery' | null = null;
+    const pageErrors: string[] = [];
+    page.on('pageerror', (error) => pageErrors.push(error.message));
+    page.on('console', (message) => {
+      if (
+        ['error', 'warning'].includes(message.type()) &&
+        !/Failed to load resource:.*\b(?:502|503)\b/.test(message.text())
+      )
+        pageErrors.push(message.text());
+    });
     await context.route('**/*', async (route) => {
       const request = route.request();
       const url = new URL(request.url());
-      if (url.hostname !== 'www.dentvitalis.com') return route.abort();
-      if (url.pathname === '/gct')
+      if (url.hostname !== 'www.dentvitalis.com')
+        return route.fulfill({ contentType: 'text/javascript', body: '' });
+      if (url.pathname === '/form-tokens') {
+        tokenLoads++;
+        if (failure === 'tokens')
+          return route.fulfill({ status: 503, json: {} });
         return route.fulfill({
-          contentType: 'text/plain',
-          body: 'fixture-gct',
+          json: {
+            csrf: tokenLoads === 1 ? 'fixture-initial-csrf' : 'fixture-csrf',
+            gct: 'fixture-gct',
+          },
         });
+      }
       if (url.pathname === '/send') {
         sent++;
         expect(request.method()).toBe('POST');
         expect(request.postData()).toContain('fixture-gct');
+        expect(request.postData()).toContain('name="pos"');
+        expect(request.postData()).toContain('home_popup');
+        expect(request.postData()).toContain('name="action"');
+        if (failure === 'delivery')
+          return route.fulfill({ status: 502, json: {} });
+        expect(request.postData()).toContain(
+          sent === 1 ? 'fixture-initial-csrf' : 'fixture-csrf',
+        );
         return route.fulfill({
           json:
             sent === 1
@@ -205,9 +231,59 @@ for (const [lang, root] of Object.entries(roots)) {
     await expect(page).toHaveURL(
       'https://www.dentvitalis.com' + formSuccessRoute(lang),
     );
+    expect(tokenLoads).toBe(2);
+    expect(sent).toBe(2);
     await expect(page.locator('h1')).toHaveText(
       data.pages[lang as keyof typeof roots].heading,
     );
-    expect(sent).toBe(2);
+    const approved = {
+      it: 'L’invio non è stato confermato. Contattaci telefonicamente.',
+      hr: 'Slanje nije potvrđeno. Molimo kontaktirajte nas telefonom.',
+      de: 'Der Versand wurde nicht bestätigt. Bitte kontaktieren Sie uns telefonisch.',
+      en: 'Submission could not be confirmed. Please contact us by phone.',
+      sl: 'Pošiljanje ni bilo potrjeno. Prosimo, kontaktirajte nas po telefonu.',
+    };
+    for (const mode of ['tokens', 'delivery'] as const) {
+      failure = mode;
+      await page.goto('https://www.dentvitalis.com' + root);
+      await page.locator('.header-consultation [data-contact-trigger]').click();
+      await form.locator('[name=name]').fill('QA Fixture');
+      await form.locator('[name=email]').fill('qa@example.invalid');
+      await form.locator('[name=phone]').fill('000000000');
+      await form.locator('input[type=checkbox][name=form_agreement]').check();
+      const before = sent;
+      await form.locator('[data-submit]').click();
+      await expect(form.locator('[role=status]')).toHaveText(
+        approved[lang as keyof typeof approved],
+      );
+      await expect(form.locator('[role=status]')).toBeVisible();
+      expect(sent - before).toBe(mode === 'tokens' ? 0 : 1);
+      await expect(form.locator('[name=email]')).toHaveValue(
+        'qa@example.invalid',
+      );
+      await expect(form.locator('[data-submit]')).toBeEnabled();
+      expect(new URL(page.url()).pathname).toBe(root);
+      await expect(page.locator('h1')).toBeVisible();
+      await expect(
+        page.locator('astro-error-overlay,vite-error-overlay'),
+      ).toHaveCount(0);
+      if (lang === 'hr' && mode === 'delivery') {
+        await form.locator('[role=status]').scrollIntoViewIfNeeded();
+        await page.screenshot({
+          path: '/tmp/dentvitalis-form-error-desktop.png',
+        });
+        await page.setViewportSize({ width: 390, height: 900 });
+        await form.locator('[role=status]').scrollIntoViewIfNeeded();
+        await page.screenshot({
+          path: '/tmp/dentvitalis-form-error-mobile.png',
+        });
+        expect(
+          await page.evaluate(
+            () => document.documentElement.scrollWidth <= innerWidth,
+          ),
+        ).toBe(true);
+      }
+    }
+    expect(pageErrors).toEqual([]);
   });
 }

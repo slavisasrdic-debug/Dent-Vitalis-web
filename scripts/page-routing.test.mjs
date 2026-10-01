@@ -28,6 +28,9 @@ test('every built page has matching rewrites, canonical metadata and slashless i
   );
   const rewrites = await readFile(new URL('_redirects', dist), 'utf8');
   const sitemap = await readFile(new URL('sitemap-0.xml', dist), 'utf8');
+  const legacySitemap = await readFile(new URL('sitemap.xml', dist), 'utf8');
+  const index = await readFile(new URL('sitemap-index.xml', dist), 'utf8');
+  assert.equal(legacySitemap, index);
   for (const route of retiredThankYouRoutes) assert.ok(!routes[route]);
   for (const route of Object.values(thankYouRoutes)) {
     assert.ok(routes[route]);

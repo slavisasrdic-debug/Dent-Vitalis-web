@@ -55,6 +55,39 @@ const manifest = {
   purpose: 'cPanel static release integrity record',
   generatedAt: new Date().toISOString(),
   gitCommit: await git(['rev-parse', 'HEAD']),
+  backendPrerequisites: {
+    existingBootstrap: '/home2/dentvita/public_html/index.php',
+    tokenEndpoint: '/form-tokens',
+    tokenTemplate:
+      '/home2/dentvita/application/view/template/form-tokens.phtml',
+    tokenTemplateSha256: createHash('sha256')
+      .update(
+        await readFile(
+          resolve(root, 'server/application/view/template/form-tokens.phtml'),
+        ),
+      )
+      .digest('hex'),
+    uploadGuard:
+      '/home2/dentvita/application/view/template/form-request-guard.php',
+    uploadGuardSha256: createHash('sha256')
+      .update(
+        await readFile(
+          resolve(
+            root,
+            'server/application/view/template/form-request-guard.php',
+          ),
+        ),
+      )
+      .digest('hex'),
+    installedByThisPackage: false,
+    acceptanceRequired: [
+      'session-tokens',
+      'safe-upload',
+      'email-receipt',
+      'crm-lead',
+      'backup-and-rollback',
+    ],
+  },
   fileCount: files.length,
   totalBytes,
   files,

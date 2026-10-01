@@ -2,6 +2,7 @@
 
 ## Aktualna odobrenja (imaju prednost nad arhiviranim prijedlogom ispod)
 
+- Dopuna 1. listopada: izričito odobrena tehnička UI poruka forme „Slanje nije potvrđeno. Molimo kontaktirajte nas telefonom.” Ostali DOCX odlomci, medicinski i poslovni sadržaj nisu mijenjani. Svi odobreni UI prijevodi su u `data/migration-readiness.json`.
 - Dopuna 1. listopada: korisnik je zatražio doslovno iste SEO naslove početnih stranica kao na postojećem javnom webu za svih pet jezika. `data/homepage-title-reference.json` čuva tekst, URL i SHA-256 read-only izvora. To mijenja samo homepage metadata title i njegove postojeće OG/Twitter/schema potrošače; HR vidljivi naslovi, DOCX tekst i SEO opis ostaju nepromijenjeni.
 - Dopuna 9. rujna: korisnik je odobrio usklađivanje HR sidebar krunice s talijanskim „a partire da 220 €”: sada „Zubne krunice već od 220 €”, umjesto preostalih 330 € iz `t5.r0.c1.p10`. Odobren je i prijenos imena „Il Dr. Domagoj Žalac” iz talijanskog Word odlomka `t6.r5.c0.p2` umjesto Webflow placeholdera. `data/editorial-corrections.json` čuva uske iznimke; Word, katalog i izvorni export nisu mijenjani. Ovo ima prednost nad ranijom zabranom ponovnog provođenja IT korekcija samo za taj odlomak.
 - Korisnik je 2026-09-08 potvrdio predložene hrvatske URL-ove i zatražio izradu. CSV zadržava naziv radi kontinuiteta, ali status `approved` sada odobrava runtime putanje.

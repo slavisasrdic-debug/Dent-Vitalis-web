@@ -163,6 +163,8 @@ export const contactCopy: typeof ContactCopy = {
   privacyHref: legalLinks[0]!.href,
   submit: 'Send message',
   unavailable: 'Sending is disabled in this preview. No message has been sent.',
+  deliveryUnconfirmed:
+    'Submission could not be confirmed. Please contact us by phone.',
   fileTooLarge: 'The file must be smaller than 8 MB.',
   invalidFile: 'Please choose a PDF, JPG or PNG file.',
 };

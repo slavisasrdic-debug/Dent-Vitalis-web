@@ -1,5 +1,8 @@
 import type { ClinicData } from './models';
 
+// Existing public Meta domain verification retained for the same domain.
+export const metaDomainVerification = 'cc73uluajxjj85z6o0iat4gfuo51yi';
+
 // Exact Dentvitalis Google profile supplied and approved by the owner, 2026-10-01.
 // Separate from the address search: the review badge must select this listing.
 export const googleReviewsUrl =

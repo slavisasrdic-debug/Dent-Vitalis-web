@@ -21,6 +21,12 @@ stagingu.
 
 ## Release gates
 
+Detaljna dopuna od 1. listopada nalazi se u `data/migration-readiness.json`
+i `docs/form-delivery-migration.md`. Statički paket nije samodostatan za forme:
+`/form-tokens` i upload guard posebno se instaliraju u privatni `application`.
+Release manifest čuva njihove očekivane SHA-256 i jasno označuje da ih nije
+instalirao. Ti PHP izvori nikada ne idu u `public_html` ili Pages build.
+
 Prije promjene servera treba postojati:
 
 1. Točan commit na `main` i provjeren paket. `npm run release:prepare` zadano
@@ -35,7 +41,7 @@ Prije promjene servera treba postojati:
 4. Potvrđen PHP runtime, `curl`, `mbstring`, session, `upload_max_filesize` i
    `post_max_size` za produkcijski handler.
 5. Potvrđena odluka o form bridgeu: za ovaj release zadržava se postojeći
-   application bootstrap. Statični klijent na stvarnoj domeni uzima `/gct`,
+   application bootstrap. Statični klijent na stvarnoj domeni uzima `/form-tokens`,
    šalje `/send` i vodi na postojeće thank-you rute. Ne uvoditi drugu
    implementaciju bez zasebne specifikacije.
 
@@ -77,6 +83,28 @@ Dockeru: `npm run test:deployment:apache`. Ne šalju ništa klinici ni CRM-u.
 URL migracije iz `data/redirects.csv` ostaju zasebne, neodobrene odluke.
 
 ## Form bridge acceptance
+
+### Serverska dopuna prije aktivacije
+
+1. Sačuvati i verificirati cijeli `public_html` i `application` izvan javnog
+   direktorija. Ne arhivirati poruke u javni release niti slati tajne u GitHub.
+2. Privatne dodatke iz `server/application/view/template/` postaviti u isti
+   `application/view/template/` direktorij. U stvarni `/send` uključiti guard
+   tek nakon usporedbe izvora i backupa; ne prepisivati cijeli handler.
+3. Provjeriti `GET /form-tokens` bez slanja upita: JSON, postojeći session,
+   ne-prazni CSRF/GCT, `no-store`, zabrana cross-site čitanja. Provjeriti
+   instalirani hash i efektivne cookie postavke, bez zapisivanja tokena.
+4. Potvrditi PHP 7.4/FPM i `curl`, `mbstring`, `session`, `openssl`, `fileinfo`.
+   Lokalni PHP testovi nisu dokaz tog produkcijskog runtimea. Ne nadograđivati
+   PHP usput bez zasebnog audita kompatibilnosti starog koda.
+5. Provedba naših Apache pravila eksplicitno bira `index.html` prije očuvanog
+   `index.php`, te `/send`, `/gct`, `/send-sconto` i `/form-tokens` šalje na PHP
+   bootstrap bez static shadowinga i s `no-store` zaglavljem. `/send-sconto`
+   privremeno ostaje sačuvan dok se ne potvrdi popis kampanja.
+6. Tek uz zasebno odobrenje izvršiti stvarne testove dostave i rollback.
+   `mail.test` i razvojni CRM hostovi nisu sami po sebi dokaz sigurnog testnog
+   okruženja; prvo potvrditi vlasništvo i primatelje. Nikakav upit nije poslan
+   ovom pripremom.
 
 ### CookieYes kroz postojeći GTM — odobreno 1. listopada 2026.
 
@@ -152,7 +180,8 @@ produkcijske objave, na način opisan niže.
 
 Bridge mora omogućiti isti-origin tok bez izlaganja tajni klijentu:
 
-1. `GET /gct` vraća token vezan uz server-side session.
+1. `GET /form-tokens` vraća CSRF i GCT vezane uz isti postojeći server-side
+   session. Legacy `/gct` ostaje radi starih potrošača.
 2. Obrazac šalje `multipart/form-data` na `POST /send` s imenima polja:
    `name`, `email`, `phone`, `message`, `file`, `form_agreement`, `url`,
    `lang`, `csrf`, `gct`.

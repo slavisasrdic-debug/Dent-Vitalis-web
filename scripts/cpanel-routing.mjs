@@ -12,7 +12,7 @@ const end = '# END DentVitalis canonical host\n';
 export function canonicalHostRules(documents = thankYouDocuments) {
   for (const [route, document] of Object.entries(documents)) {
     if (
-      ['/', '/send', '/gct'].includes(route) ||
+      ['/', '/send', '/gct', '/send-sconto', '/form-tokens'].includes(route) ||
       pageDocument(route) !== document ||
       route.endsWith('/')
     )
@@ -39,6 +39,8 @@ export function canonicalHostRules(documents = thankYouDocuments) {
     '# Permanent redirect; 308 also preserves POST bodies and HTTP methods.\n' +
     '# Preserve the original path and query. Do not trust X-Forwarded-Proto.\n' +
     'RewriteEngine On\n' +
+    '# The new root must win over the preserved PHP bootstrap.\n' +
+    'DirectoryIndex index.html index.php\n' +
     '# Apply known-page rewrites even when a legacy directory remains on disk.\n' +
     'RewriteOptions AllowNoSlash\n' +
     // Restrict directory behavior changes to our explicit static page inventory.
@@ -51,6 +53,16 @@ export function canonicalHostRules(documents = thankYouDocuments) {
     // THE_REQUEST retains percent encoding; REQUEST_URI is decoded by Apache.
     'RewriteCond %{THE_REQUEST} \\s(/[^?\\s]*)\n' +
     `RewriteRule ^ ${origin.origin}%1 [R=308,L,NE]\n` +
+    '# Keep dynamic handlers ahead of files/directories and static rewrites.\n' +
+    'RewriteRule ^(?:send|gct|send-sconto|form-tokens)/?$ index.php [END]\n' +
+    // REQUEST_URI becomes /index.php after the internal rewrite; use the
+    // original request line so the dynamic response remains uncacheable.
+    '<If "%{THE_REQUEST} =~ m#\\s/(?:send|gct|send-sconto|form-tokens)/?(?:[?\\s])#">\n' +
+    '  <IfModule mod_headers.c>\n' +
+    '    Header always set Cache-Control "private, no-store, max-age=0"\n' +
+    '    Header always set X-Robots-Tag "noindex, nofollow"\n' +
+    '  </IfModule>\n' +
+    '</If>\n' +
     '# Expired campaign confirmations removed by the owner, not redirected.\n' +
     `RewriteRule ^(?:${retiredThankYouRoutes.map((route) => route.slice(1)).join('|')})/?$ - [G,L]\n` +
     '# Canonical page paths omit the final slash; legacy endpoints are untouched.\n' +

@@ -164,6 +164,8 @@ export const contactCopy: typeof ContactCopy = {
   submit: 'Nachricht senden',
   unavailable:
     'Der Versand ist in dieser Vorschau nicht aktiv. Es wurde keine Nachricht gesendet.',
+  deliveryUnconfirmed:
+    'Der Versand wurde nicht bestätigt. Bitte kontaktieren Sie uns telefonisch.',
   fileTooLarge: 'Die Datei muss kleiner als 8 MB sein.',
   invalidFile: 'Bitte wählen Sie eine PDF-, JPG- oder PNG-Datei.',
 };

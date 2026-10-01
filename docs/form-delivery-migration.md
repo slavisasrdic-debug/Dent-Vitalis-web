@@ -11,6 +11,48 @@
 
 ## Potvrđeni legacy tok
 
+### Dopuna prema detaljnom read-only nalazu 1. listopada 2026.
+
+Mjerodavni sažetak i izričite vlasničke odluke su u
+`data/migration-readiness.json`. Novi nalaz potvrđuje `/send-sconto` i zasebni
+Mailchimp newsletter. Vlasnik je ukinuo newsletter; popis isteklih kampanja
+još mora pregledati prije dodatnih 410 pravila. Obične registracijske stranice
+ne uklanjaju se automatski.
+
+`GET /gct` vraća **samo GCT**, a stari PHP HTML ispisuje CSRF u input.
+Novi statički frontend zato prije slanja koristi novi **`GET /form-tokens`**,
+koji vraća oba tokena iz istog postojećeg PHP sessiona. Privatni predložak je
+u `server/application/view/template/form-tokens.phtml`; mora se posebno
+instalirati u application direktorij i provjeriti na serveru. Nije u `dist/`.
+Ne ugrađivati tokene u build i ne koristiti nevaljani prvi POST za njihov dohvat.
+
+`pos` se šalje kao stvarna pozicija (`home_inline` / `home_popup`) i legacy
+handler ga dodaje uz izvorni URL. `action` ostaje prazan za obični upit;
+`conference_call` nije ponuđen. Slovenščina koristi `lang=sl`, putanje `/si`.
+CRM ne prima URL ni poziciju: ti podaci ostaju u e-mailu. Novo bilježenje URL-a
+u CRM zahtijevalo bi zasebnu promjenu ugovora i nije pretpostavljeno.
+
+Nalaz ispravlja raniji opis validacije: legacy kod nema pouzdanu provjeru
+obveznog e-maila, whiteliste jezika, izvornog URL-a ni stvarnog MIME-a privitka.
+Greška uploada može biti prešućena. Privatni dodatak
+`server/application/view/template/form-request-guard.php` priprema provjeru
+e-maila, jezika, HTTPS izvora i stvarnog PDF/JPEG/PNG MIME-a do 8 MiB,
+prije e-mail/CRM obrade. Nakon backupa i pregleda stvarnog `send.phtml`, dodati
+`require __DIR__ . '/form-request-guard.php';` prije njegove obrade ulaza.
+To nije zamjena za legacy CSRF/GCT provjere ni dokaz da je dodatak instaliran.
+`fileinfo` mora stvarno biti uključen; bez njega upload se odbija.
+
+Sigurnosni i dostavni problemi starog handlera nisu riješeni frontend testom:
+JSON `ok` još nije dokaz SMTP/CRM primitka. Taj gate ostaje otvoren.
+
+Lokalna provjera ove dopune: 47 Playwright testova (cijeli hrvatski skup,
+zahvalne rute, uspjeh/obnova tokena i greške svih pet jezika, GTM izolacija),
+2 PHP fixture testa tokena i stvarnog multipart uploada na PHP 8.4.15 CLI,
+5 deployment testova uključujući izolirani Apache HTTP/TLS, te 2 testa
+statičkih ruta i sitemapa. Form preflight potvrđuje 141 zaštićenu formu.
+Desktop 1280×720 i mobile 390×900 popup vizualno su pregledani.
+Nije provjerena stvarna PHP 7.4/FPM sesija niti poslano išta SMTP-u ili CRM-u.
+
 Read-only pregled cPanela 29. rujna 2026. potvrdio je da se obrazac ne izvršava
 izravno iz `public_html`, nego kroz postojeći PHP application bootstrap.
 
@@ -33,7 +75,8 @@ Stari javni obrazac koristi klijentski tok:
 4. Poslužitelj vraća JSON; uspjeh vodi na jezičnu zahvalnu rutu, a greške se
    prikazuju uz polja.
 
-`/send` validira ime, telefon, e-mail, URL izvora, privolu, CSRF i GCT.
+`/send` provjerava ime, telefon, privolu, CSRF i GCT; nedostatke ostalih
+provjera opisuje aktualna dopuna iznad.
 Prihvaća opcionalni `file` do 8 MiB. E-mail dobiva URL, poziciju obrasca i
 vrijeme/IP; CRM dobiva `name`, `email`, `phone`, `message`, `action`, `lang`,
 `form_agreement` i, kada postoji, `file`. Trenutačni `mail.to` je jedna lista
@@ -51,6 +94,7 @@ bez servera:
 - `form_agreement=0` i checkbox `form_agreement=1`;
 - `url`, `lang`, prazni `csrf` i `gct`, `source_page_url`, `source_page_path`,
   `source_page_title`, `form_placement`;
+- `pos` i prazni `action`;
 - prazni honeypot `company`.
 
 Telefon ostaje obvezan prema izričitoj aktualnoj odluci za novi web, iako ga
@@ -60,7 +104,7 @@ JPG i PNG do 8 MB; server mora ponovno provesti istu ili strožu provjeru.
 `csrf` i `gct` se ne smiju unaprijed ugraditi ili izmišljati. Klijent na
 `dentvitalis.com` i `www.dentvitalis.com` ih dohvaća iz istog cPanel session
 konteksta kao `/send`, zatim šalje postojeći `multipart/form-data` ugovor i
-jednom ponavlja CSRF handshake ako ga legacy handler zatraži. Na svakom drugom
+jednom ponavlja dohvat oba tokena ako legacy handler zatraži novi CSRF. Na svakom drugom
 hostu (lokalni i Pages preview) slanje je i dalje isključeno. `npm run
 form:preflight` provjerava statični payload i lokaliziranu success rutu na svih
 pet jezičnih rootova.

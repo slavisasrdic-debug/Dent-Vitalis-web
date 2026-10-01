@@ -64,6 +64,8 @@ export const contactCopy = {
   submit: 'Invia il messaggio',
   unavailable:
     'Invio non attivo in questa anteprima. Nessun messaggio è stato inviato.',
+  deliveryUnconfirmed:
+    'L’invio non è stato confermato. Contattaci telefonicamente.',
   fileTooLarge: 'Il file allegato deve essere inferiore a 8 MB.',
   invalidFile: 'Seleziona un file PDF, JPG o PNG.',
 };

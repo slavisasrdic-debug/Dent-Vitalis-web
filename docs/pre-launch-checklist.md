@@ -11,6 +11,10 @@ Ova lista ne odobrava objavu. Svaki korak zahtijeva zaseban nalog i provjeru.
 
 ## Tehnička provjera
 
+- [ ] Instalirani privatni `/form-tokens` i upload guard odgovaraju hashovima
+      release manifesta; postojeća sesija, CSRF/GCT i MIME limit su provjereni.
+- [ ] Legacy JSON `ok` nije jedini dokaz dostave: stvarni inbox i CRM lead
+      provjereni su zasebno, uz dogovorenu obradu neuspjele dostave.
 - [ ] `npm run validate` prolazi.
 - [ ] Sve stranice rade bez JavaScripta i tipkovnicom.
 - [ ] Provjereni su responsive prikazi i `prefers-reduced-motion`.
@@ -30,6 +34,10 @@ Ova lista ne odobrava objavu. Svaki korak zahtijeva zaseban nalog i provjeru.
 
 ## SEO migracija
 
+- [ ] Sačuvan `/sitemap.xml` uz novi sitemap index i produkcijski robots.
+- [ ] Sačuvana postojeća Meta potvrda domene; CookieYes učitava samo GTM.
+- [ ] Popis uklonjenih kampanja pregledan je prije dodatnih 410 pravila.
+- [x] Newsletter nije dio novog weba po izričitoj odluci vlasnika 1. listopada.
 - [ ] Redirect inventar je potpun i automatizirano testiran.
 - [ ] Canonical, hreflang, sitemap, robots i 404 su provjereni.
 - [ ] Napravljen je visual regression prema Webflow referenci.

@@ -1,0 +1,46 @@
+{
+  "reviewedOn": "2026-10-01",
+  "source": {
+    "kind": "owner-supplied-redacted-cpanel-read-only-audit",
+    "sha256": "86ded1396f09d2a32bc9bd2fcc1a7c0aa4b93b563bd037a86b2b9b01f7d0cb23"
+  },
+  "productionDeploymentAuthorized": false,
+  "newsletter": { "decision": "remove", "status": "absent-from-new-site" },
+  "expiredCampaigns": {
+    "decision": "remove-expired-campaigns-after-final-list-review",
+    "status": "owner-list-review-required-before-installing-additional-410-rules",
+    "reviewCandidates": [
+      "/action",
+      "/action-2",
+      "/campagna",
+      "/action-sconto",
+      "/grazie-sconto",
+      "/hr/registration-fb",
+      "/si/registracija-fb",
+      "/si/action"
+    ],
+    "previouslyApprovedRemovals": ["/hr/hvala-akcija", "/si/hvala-akcija"],
+    "ordinaryRegistrationPagesAreNotAutomaticallyCampaigns": true
+  },
+  "approvedUiErrorCopy": {
+    "it": "L’invio non è stato confermato. Contattaci telefonicamente.",
+    "hr": "Slanje nije potvrđeno. Molimo kontaktirajte nas telefonom.",
+    "de": "Der Versand wurde nicht bestätigt. Bitte kontaktieren Sie uns telefonisch.",
+    "en": "Submission could not be confirmed. Please contact us by phone.",
+    "sl": "Pošiljanje ni bilo potrjeno. Prosimo, kontaktirajte nas po telefonu."
+  },
+  "serverGates": [
+    "verified-public_html-and-application-backups-with-two-previous-versions",
+    "actual-legacy-htaccess-in-production-release",
+    "private-form-tokens-template-installed-and-tested-in-existing-session",
+    "private-upload-guard-reviewed-and-required-before-legacy-send-processing",
+    "PHP-runtime-extensions-and-effective-session-cookie-settings-verified",
+    "email-and-CRM-receipt-confirmed-separately-in-approved-test-destinations",
+    "legacy-handler-false-success-risk-resolved-or-explicitly-accepted-with-monitoring",
+    "all-legacy-URL-decisions-approved-and-tested",
+    "production-cookie-consent-and-conversions-verified",
+    "rollback-tested-before-switch"
+  ],
+  "serverChangesApplied": false,
+  "realTestMessagesSent": false
+}

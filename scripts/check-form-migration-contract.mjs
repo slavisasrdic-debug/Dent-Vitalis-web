@@ -17,6 +17,8 @@ const requiredNames = [
   'file',
   'form_agreement',
   'url',
+  'pos',
+  'action',
   'lang',
   'csrf',
   'gct',

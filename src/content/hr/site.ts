@@ -167,6 +167,8 @@ export const contactCopy: typeof itContact = {
   submit: 'Pošalji',
   unavailable:
     'Slanje nije aktivno u ovom pretpregledu. Nijedna poruka nije poslana.',
+  deliveryUnconfirmed:
+    'Slanje nije potvrđeno. Molimo kontaktirajte nas telefonom.',
   fileTooLarge: 'Priložena datoteka mora biti manja od 8 MB.',
   invalidFile: 'Odaberite PDF, JPG ili PNG datoteku.',
 };

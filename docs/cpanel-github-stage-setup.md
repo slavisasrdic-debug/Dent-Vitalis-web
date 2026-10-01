@@ -8,6 +8,12 @@ Workflow `.github/workflows/stage-cpanel-release.yml` radi isključivo ručno.
 Ako se ne odabere `stage_to_cpanel`, izradi se samo GitHub artifact za ručni
 download; nema mrežnog pristupa cPanelu.
 
+Ovo je **preview stage**, ne produkcijski deploy. Artifact ostaje `noindex` i
+bez produkcijskog `.htaccess`; ne aktivirati ga na domeni. Produkcijski paket
+zahtijeva stvarni backup `.htaccess` i zaseban postupak iz runbooka.
+Privatni backend dodaci preuzimaju se kao odvojeni artifact i nikada se ne
+raspakiravaju u `public_html`.
+
 ## Jednokratna priprema pristupa
 
 1. U cPanelu potvrditi da je SSH/SFTP pristup uključen za račun `dentvita`.

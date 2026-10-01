@@ -16,6 +16,7 @@ const id = `inquiry-${crypto.randomUUID()}`;
   data-contact-form
   data-placement={placement}
   data-unavailable={content.unavailable}
+  data-delivery-unconfirmed={content.deliveryUnconfirmed}
   data-file-too-large={content.fileTooLarge}
   data-invalid-file={content.invalidFile}
   data-file-limit={content.limit}
@@ -88,6 +89,10 @@ const id = `inquiry-${crypto.randomUUID()}`;
     ></label
   >
   <input type="hidden" name="url" /><input
+    type="hidden"
+    name="pos"
+    value={placement}
+  /><input type="hidden" name="action" value="" /><input
     type="hidden"
     name="lang"
     value={lang}
@@ -488,7 +493,8 @@ const id = `inquiry-${crypto.randomUUID()}`;
         const source = new URL(location.href);
         source.hash = '';
         const fields = {
-          url: location.href,
+          url: source.href,
+          pos: form.dataset.placement || 'home_inline',
           source_page_url: source.href,
           source_page_path: source.pathname,
           source_page_title: document.title,
@@ -509,13 +515,26 @@ const id = `inquiry-${crypto.randomUUID()}`;
         submit.disabled = busy;
         form.setAttribute('aria-busy', String(busy));
       };
-      const loadGct = async () => {
-        const response = await fetch('/gct', {
+      const loadTokens = async () => {
+        const response = await fetch('/form-tokens', {
           cache: 'no-store',
           credentials: 'same-origin',
+          headers: { Accept: 'application/json' },
         });
-        if (!response.ok) throw new Error('GCT unavailable');
-        gct.value = (await response.text()).trim();
+        if (!response.ok) throw new Error('Form tokens unavailable');
+        const tokens = (await response.json()) as {
+          csrf?: unknown;
+          gct?: unknown;
+        };
+        if (
+          typeof tokens.csrf !== 'string' ||
+          !tokens.csrf.trim() ||
+          typeof tokens.gct !== 'string' ||
+          !tokens.gct.trim()
+        )
+          throw new Error('Invalid form tokens');
+        csrf.value = tokens.csrf;
+        gct.value = tokens.gct;
       };
       const firstError = (messages: Record<string, unknown>) =>
         Object.values(messages).find(
@@ -525,31 +544,54 @@ const id = `inquiry-${crypto.randomUUID()}`;
         setBusy(true);
         status.hidden = true;
         try {
-          if (!gct.value) await loadGct();
+          // Fetch both tokens in the legacy PHP session before the first POST.
+          // Never submit an empty CSRF merely to discover it in a validation error.
+          if (!retriedCsrf) await loadTokens();
+          if (!csrf.value || !gct.value) throw new Error('Missing form tokens');
           const response = await fetch('/send', {
             method: 'POST',
             body: new FormData(form),
             credentials: 'same-origin',
+            cache: 'no-store',
             headers: { Accept: 'application/json' },
           });
           const payload = (await response.json()) as {
             status?: string;
+            code?: string;
             message?: Record<string, unknown>;
           };
+          if (
+            payload.code === 'file_too_large' ||
+            payload.code === 'invalid_file'
+          ) {
+            show(
+              payload.code === 'file_too_large'
+                ? form.dataset.fileTooLarge!
+                : form.dataset.invalidFile!,
+            );
+            return;
+          }
+          if (!response.ok) throw new Error('Form server unavailable');
           if (payload.status === 'ok') {
             const success = form.dataset.success;
             if (success) location.assign(success);
             return;
           }
-          if (payload.message?.csrf && !retriedCsrf) {
-            csrf.value = String(payload.message.csrf);
+          if (
+            typeof payload.message?.csrf === 'string' &&
+            payload.message.csrf &&
+            !retriedCsrf
+          ) {
+            // Session may have expired: refresh GCT as well, not just echoed CSRF.
+            await loadTokens();
             await send(true);
             return;
           }
           const message = payload.message && firstError(payload.message);
-          if (message) show(message);
+          show(message || form.dataset.deliveryUnconfirmed!);
         } catch {
-          // The legacy endpoint provides no client fallback for a network error.
+          // A network failure cannot establish whether the server delivered a lead.
+          show(form.dataset.deliveryUnconfirmed!);
         } finally {
           setBusy(false);
         }
@@ -571,7 +613,6 @@ const id = `inquiry-${crypto.randomUUID()}`;
       });
       if (isLiveHost) {
         submit.type = 'submit';
-        void loadGct().catch(() => undefined);
         form.addEventListener('submit', (event) => {
           event.preventDefault();
           updateSource();
