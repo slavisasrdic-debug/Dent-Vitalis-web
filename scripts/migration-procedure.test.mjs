@@ -123,7 +123,7 @@ test('approved private stage does not bypass pending full backup or authorize li
     true,
   );
   assert.match(progress.isolatedStage.target, /^\/home2\/dentvita\/releases\//);
-  assert.equal(progress.isolatedStage.uploadedAsReported, false);
+  assert.equal(progress.isolatedStage.uploadedAsReported, true);
   assert.equal(progress.isolatedStage.extractedAsReported, false);
   assert.equal(progress.isolatedStage.mayOverwriteExistingTarget, false);
   assert.equal(progress.isolatedStage.mayModifyPublicHtmlOrApplication, false);
@@ -146,6 +146,23 @@ test('approved private stage does not bypass pending full backup or authorize li
     ),
   );
   assert.match(report.procedure.nextCheck, /without-public-activation/);
+});
+
+test('completed private upload screenshot is not extraction or server integrity proof', () => {
+  const stage = report.fileManagerProgress.isolatedStage;
+  assert.equal(stage.uploadEvidence.displayedProgressPercent, 100);
+  assert.equal(
+    stage.uploadEvidence.archiveName,
+    report.preparedStaticCandidate.archiveName,
+  );
+  assert.equal(stage.uploadEvidence.serverExactBytesAndSha256Verified, false);
+  assert.equal(stage.extractedAsReported, false);
+  assert.match(report.procedure.nextCheck, /extraction/);
+  assert.match(
+    report.fileManagerProgress.backupVerification
+      .localVerificationResponsibility,
+    /not-Chrome-only-browser-agent/,
+  );
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

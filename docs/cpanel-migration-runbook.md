@@ -20,7 +20,7 @@ produkcijsku objavu još nije implementirana; backup i forme ostaju release gate
 | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Lokalni produkcijski paket, manifest, CRC, routing i forme | Lokalno prošlo za kandidat `af6dc28`; nije dokaz dostave                                        | Promjena koda, paketa ili stvarnih serverskih pravila                                          |
 | Lokalni ZIP starog weba                                    | CRC prošao prema agentu; nema `application/data` ni baze bloga                                  | Promjena arhive ili prihvat novog kompletnog backupa                                           |
-| File Manager / Extract                                     | Read-only pregled UI-ja; upload i raspakiravanje nisu izvršeni                                  | Zasebno odobren kontrolirani test izvan javnog direktorija                                     |
+| File Manager / Extract                                     | Screenshot potvrđuje upload 100 % u privatnu release mapu; raspakiravanje nije potvrđeno        | Nastaviti Extract u istoj mapi; ne ponavljati dovršeni upload bez konkretnog razloga           |
 | SSH/shell i SSH stage                                      | Panel traži administratorsko omogućavanje; bez prijave i ključeva                               | Samo nova izričita odluka i dokaz da je pristup omogućen                                       |
 | Symlink switch                                             | Postojeći `www → public_html` nije dokaz; switch nije testiran                                  | Samo ako odabrani postupak stvarno zahtijeva link i postoji novi dokaz                         |
 | cPanel API tokeni                                          | Token stvoren/pohranjen prema agentu; prvi run nije prošao vezu. Autentifikacija nije potvrđena | Novi dokaz o transportu prije novog pokušaja; ne stvarati novi token i ne ponavljati isti test |
@@ -83,7 +83,9 @@ prema cPanelu), s cijelim `application/data` prema nalazu, bez prijavljene
 greške kompresije. Ne ponavljati kompresiju. Agentov download bio je nedovršen;
 vlasnik je naknadno screenshotom pokazao lokalni `dentvitalis-full-files-20261001.zip`.
 To identificira traženi naziv, ne potvrđuje bajtove ili integritet. CRC i lokalna
-obnova novog backupa ostaju otvoreni; agent prvo koristi tu postojeću datoteku.
+obnova novog backupa ostaju otvoreni; vlasnik ili ovlašteni lokalni alat koristi
+tu postojeću datoteku. Chrome-only browser agent nema pristup lokalnim naredbama;
+ne zadavati mu CRC, hash ili lokalno raspakiravanje koje ne može izvršiti.
 Agent ne zaobilazi blokadu `chrome://downloads`; vlasnik provjerava preuzimanje
 osobno. Privatni backup ne slati u chat, GitHub ili javnu mapu.
 
@@ -93,7 +95,11 @@ javnog weba ili PHP-a. Taj stage može prethoditi dovršetku lokalne provjere
 backupa jer ne zamjenjuje postojeći web. To ne zatvara backup gate: javna
 aktivacija i backend izmjene i dalje čekaju sve niže navedene preduvjete.
 Novi javni ZIP agentu je lokalno prošao veličinu/hash/CRC i 692 datoteke/
-65.436.532 B; upload i raspakiravanje na serveru još nisu izvršeni.
+65.436.532 B prema ranijem nalazu, ne kao nova provjera Chrome-only agenta.
+Vlasnikov screenshot potvrđuje upload točnog javnog ZIP-a u
+`/home2/dentvita/releases/20261001-af6dc28/`: zelenih 100 % i `55.26 MB complete`.
+To nije serverski SHA-256 ili potvrda raspakiravanja. Sljedeći korak je Extract
+u istoj privatnoj mapi, bez promjene javnog weba.
 
 1. Ne stvarati token niti pokretati GitHub API/SSH testove. Prije kompresije i
    uploada provjeriti aktualni prostor, kvotu i dostupni inode prikaz; zadnja
@@ -104,14 +110,14 @@ Novi javni ZIP agentu je lokalno prošao veličinu/hash/CRC i 692 datoteke/
    i roditeljskog `.htaccess`. Postojeću arhivu ne prepisivati. Ne otvarati
    poruke pacijenata ili prikazivati konfiguraciju/tajne. ZIP bez `data` nije
    dovoljan; JetBackup prikaz nije zamjena za provjeren privatni backup.
-3. Preuzeti backup na vlasnikovo privatno računalo, provjeriti CRC i obnovljivost
+3. Vlasnik ili ovlašteni lokalni alat: koristiti postojeći lokalni backup, provjeriti CRC i obnovljivost
    lokalnim raspakiravanjem u odvojenu privatnu mapu, uz ključne datoteke i
    direktorije. Ne raspakiravati dodatnu punu kopiju na ograničeni hosting.
    Vratiti putanje, veličine i SHA-256 gdje je alat dostupan, ne sadržaj poruka
    ili konfiguracije. Ne slati privatni backup u chat, GitHub ili javni artifact.
    To je backup weba/backenda, ne dokaz kompletnog cPanel računa ili baze bloga;
    baze i druge servise ne mijenjati.
-4. Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
+4. **Upload završen prema vlasnikovu screenshotu — ne ponavljati.** Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
    `dentvitalis-web-production-candidate-20261001-af6dc28.zip` u novi privatni
    `/home2/dentvita/releases/20261001-af6dc28/`, pa raspakirati tamo. Arhiva:
    `57.946.023 B`, SHA-256

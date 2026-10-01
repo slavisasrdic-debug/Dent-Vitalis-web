@@ -25,7 +25,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "owner-approved-isolated-File-Manager-upload-without-public-activation",
+    "nextCheck": "isolated-File-Manager-extraction-and-inspection-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -67,7 +67,7 @@
         "retryOnlyAfter": "new-transport-diagnosis-or-connectivity-change-not-token-recreation"
       },
       "fileManager": {
-        "status": "server-backup-created-as-reported-release-upload-not-tested",
+        "status": "private-release-upload-complete-in-owner-screenshot-extraction-not-tested",
         "role": "owner-selected-manual-migration-with-same-backup-and-form-gates",
         "selectedByOwnerOn": "2026-10-01",
         "retryOnlyAfter": "approved-isolated-upload-and-extraction-test"
@@ -184,6 +184,7 @@
       "completedFullOffServerCopyVerified": false,
       "localCrcVerified": false,
       "localExtractionVerified": false,
+      "localVerificationResponsibility": "owner-or-authorized-local-tool-not-Chrome-only-browser-agent",
       "browserToolChromeDownloadsPolicyBlockReported": true,
       "policyBypassAttemptedAsReported": false,
       "activationGateClosed": false
@@ -198,7 +199,14 @@
     "isolatedStage": {
       "ownerApprovedOn": "2026-10-01",
       "target": "/home2/dentvita/releases/20261001-af6dc28/",
-      "uploadedAsReported": false,
+      "uploadedAsReported": true,
+      "uploadEvidence": {
+        "source": "owner-supplied-cPanel-upload-completion-screenshot",
+        "archiveName": "dentvitalis-web-production-candidate-20261001-af6dc28.zip",
+        "displayedProgressPercent": 100,
+        "displayedCompletedSize": "55.26 MB",
+        "serverExactBytesAndSha256Verified": false
+      },
       "extractedAsReported": false,
       "mayOverwriteExistingTarget": false,
       "mayModifyPublicHtmlOrApplication": false,
