@@ -16,12 +16,14 @@ je token GET-ove `ERR_BLOCKED_BY_CLIENT`; uzrok nije utvrđen.
 Neovisni Codespaces GET prihvat u 15:19:39 UTC prošao je: pet GET-ova 200,
 neprazni JSON tokeni, `no-store`, isti GCT između endpointa, stabilan CSRF/GCT
 i ista sesija, bez zapisivanja tokena/cookieja. Cookie ima Secure true,
-HttpOnly false i SameSite nije eksplicitno naveden; sigurnost/kompatibilnost
-cookieja i obični browser tok ostaju otvoreni. Nema POST-a/stvarne dostave
+HttpOnly false i SameSite nije eksplicitno naveden. Vlasnik je naknadno ručno
+potvrdio obični Chrome GET `/form-tokens` (JSON s oba neprazna polja, bez blokade).
+Zapisati samo rezultat, nikad token vrijednosti ili screenshot. Sigurnost/kompatibilnost
+cookieja i end-to-end submit nove forme ostaju otvoreni. Nema POST-a/stvarne dostave
 ili javne aktivacije. PHP ekstenzije i CRM poslovni ugovor nisu time provjereni.
 Privatni stage ostaje sačuvan; ne ponavljati instalaciju ili backup (vlasnik
 je potvrdio lokalni integritet i dodatnu kopiju). Serverski source hashovi
-nisu neovisno potvrđeni. Aktualni sljedeći korak je browser/session pregled
+nisu neovisno potvrđeni. Aktualni sljedeći korak je session pregled
 i zasebno odobren inbox/CRM prihvat prije javnog uploada i switcha.
 
 Prethodno je drugi browser agent završio read-only pregled stagea i formi.

@@ -20,7 +20,9 @@ Handler je sačuvan za kodni povratak. Chromeovi token GET-ovi blokirani su
 iz Codespacesa u 15:19:39 UTC potvrđuje 200, JSON s oba tokena, `no-store`,
 poklapanje GCT-a i stabilan CSRF/GCT unutar iste sesije. Tokeni nisu zapisani.
 Cookie: Secure true, HttpOnly false, SameSite nije eksplicitno naveden.
-Obični browser, cookie hardening, stvarni POST/privitak, efektivne ekstenzije,
+Vlasnikov obični Chrome GET `/form-tokens` naknadno je potvrđen screenshotom
+JSON-a s oba neprazna polja; u repozitorij se ne spremaju tokeni/screenshot.
+End-to-end browser submit, cookie hardening, stvarni POST/privitak, efektivne ekstenzije,
 CRM poslovni odgovor i stvarna dostava ostaju neprovjereni. Transport patch
 za SMTP/cURL/HTTP greške nije dokaz CRM poslovne potvrde.
 Novi javni upload je zadržan do backend prihvata;

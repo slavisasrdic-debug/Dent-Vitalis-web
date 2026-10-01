@@ -36,7 +36,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "ordinary-browser-session-review-and-approved-email-CRM-acceptance-before-new-upload-without-public-activation",
+    "nextCheck": "session-review-and-approved-email-CRM-acceptance-before-new-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -123,7 +123,7 @@
       "restore-test-preserving-live-data",
       "selected-transport-integrity-and-activation-test",
       "effective-PHP-FPM-extensions-and-session-cookie-hardening-review",
-      "ordinary-browser-token-flow-after-agent-ERR_BLOCKED_BY_CLIENT",
+      "ordinary-browser-end-to-end-form-submit-not-yet-tested",
       "approved-email-and-CRM-receipt-test",
       "legacy-URL-decisions",
       "production-consent-and-conversions"
@@ -403,6 +403,18 @@
     "effectivePhpVersionAndExtensionsVerified": false,
     "realPostOrDeliveryTestRun": false,
     "ordinaryBrowserFlowVerified": false
+  },
+  "ownerBrowserTokenGetAcceptance": {
+    "reportedOn": "2026-10-01",
+    "source": "owner-supplied-ordinary-Chrome-form-tokens-screenshot-result-only",
+    "displayedPath": "/form-tokens",
+    "csrfAndGctFieldsVisibleAndNonEmpty": true,
+    "clientBlockVisible": false,
+    "httpStatusAndHeadersVerifiedFromScreenshot": false,
+    "sameSessionGctComparisonVerifiedFromScreenshot": false,
+    "tokenValuesOrScreenshotCopiedIntoRepository": false,
+    "postOrDeliveryTestPerformed": false,
+    "endToEndNewFrontendSubmissionVerified": false
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",

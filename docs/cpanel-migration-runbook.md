@@ -29,12 +29,16 @@ s nepraznim CSRF/GCT i `private, no-store, max-age=0`, bez CORS allow-origin.
 GCT se poklapa između endpointa, oba tokena ostaju ista pri ponovnom dohvatu
 u nepromijenjenoj sesiji. Vrijednosti tokena/cookieja nisu zapisane.
 Cookie: Secure true, HttpOnly false, SameSite nije eksplicitno naveden, path `/`,
-host-only. To nije prihvat sigurnosti cookieja niti običnog browser toka.
+host-only. Vlasnik je naknadno ručno otvorio `/form-tokens` u običnom Chromeu
+i screenshotom potvrdio JSON s obje neprazne oznake, bez klijentske blokade.
+U repozitorij je zapisan samo rezultat, ne tokeni ili screenshot. Screenshot
+ne potvrđuje HTTP headere, sesijsko poklapanje ili end-to-end submit nove forme.
+To nije prihvat sigurnosti cookieja niti punog browser submit toka.
 Bez pregleda kompatibilnosti ne mijenjati session postavke.
 
 Nije izveden POST, privitak/SMTP/CRM test ili javna aktivacija. GET `/send`
 potvrđuje odsutnost vidljive parse greške, ne izvršenje POST grane. Efektivna
-PHP verzija/ekstenzije, obični browser, session hardening, CRM poslovni odgovor
+PHP verzija/ekstenzije, browser submit nove forme, session hardening, CRM poslovni odgovor
 i stvarna inbox/lead potvrda ostaju otvoreni. Ne ponavljati instalaciju ili
 GET audit bez promjene; ne zaobilaziti browser alatnu sigurnosnu politiku.
 

@@ -198,7 +198,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(report.procedure.nextCheck, /ordinary-browser-session-review/);
+  assert.match(report.procedure.nextCheck, /session-review/);
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',
@@ -330,6 +330,13 @@ test('installed backend and independent GET acceptance do not imply browser, POS
   assert.equal(get.sessionCookieAttributes.secure, true);
   assert.equal(get.sessionCookieAttributes.httpOnly, false);
   assert.equal(get.sessionCookieAttributes.sameSite, null);
+  const ownerGet = report.ownerBrowserTokenGetAcceptance;
+  assert.equal(ownerGet.csrfAndGctFieldsVisibleAndNonEmpty, true);
+  assert.equal(ownerGet.clientBlockVisible, false);
+  assert.equal(ownerGet.httpStatusAndHeadersVerifiedFromScreenshot, false);
+  assert.equal(ownerGet.tokenValuesOrScreenshotCopiedIntoRepository, false);
+  assert.equal(ownerGet.postOrDeliveryTestPerformed, false);
+  assert.equal(ownerGet.endToEndNewFrontendSubmissionVerified, false);
   assert.equal(installed.publicSiteActivated, false);
   assert.equal(report.realTestMessagesSent, false);
 });
