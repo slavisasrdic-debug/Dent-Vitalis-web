@@ -25,7 +25,7 @@ export const germanLegalPages: InnerPage[] = publicLegal.map((source) => {
     description,
     typography: 'reference-default',
     breadcrumb: [
-      { label: 'DentVitalis', href: '/de/' },
+      { label: 'DentVitalis', href: '/de' },
       { label: source.title, href: source.route },
     ],
     hero: {

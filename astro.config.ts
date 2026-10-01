@@ -1,6 +1,7 @@
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import { canonicalUrl, productionOrigin } from './src/content/seo-urls';
+import { isThankYouPath } from './src/content/thank-you-routes';
 
 export default defineConfig({
   site: productionOrigin,
@@ -11,7 +12,9 @@ export default defineConfig({
   devToolbar: { enabled: false },
   integrations: [
     sitemap({
-      filter: (page) => !new URL(page).pathname.startsWith('/404'),
+      filter: (page) =>
+        !new URL(page).pathname.startsWith('/404') &&
+        !isThankYouPath(new URL(page).pathname),
       serialize: (item) => ({ ...item, url: canonicalUrl(item.url) }),
     }),
   ],

@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/prepare-page-routes.mjs",
     "preview": "astro preview",
     "preview:ensure": "bash scripts/ensure-preview.sh",
     "reference:audit": "node scripts/audit-webflow.mjs",
@@ -20,6 +20,7 @@
     "audit:redirects": "node scripts/audit-redirect-targets.mjs",
     "test:redirects": "node --test scripts/redirect-proposal.test.mjs",
     "test:deployment": "node --test scripts/cpanel-routing.test.mjs",
+    "test:page-routing": "node --test scripts/page-routing.test.mjs",
     "test:deployment:apache": "DENTVITALIS_TEST_APACHE=1 node --test scripts/cpanel-routing.test.mjs",
     "content:extract:hr": "python3 scripts/extract-translation-source.py",
     "content:extract:locales": "python3 scripts/extract-locale-source.py",

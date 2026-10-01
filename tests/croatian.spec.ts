@@ -22,7 +22,7 @@ const decisions = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .map((l) => l.split(','));
 const routes = decisions
   .filter((r) => r[4] === 'approved')
-  .map((r) => ({ id: r[0]!, it: r[1]!, hr: r[2]! }));
+  .map((r) => ({ id: r[0]!, it: r[1]!, hr: r[2]!.replace(/\/+$/, '') || '/' }));
 const normalize = (text: string) =>
   text.normalize('NFC').replace(/\s|\u200b|\u200c|\u200d|\ufeff/g, '');
 const tableRoutes: Record<number, string> = {
@@ -211,9 +211,13 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     (b) =>
       b.type === 'paragraph' && +b.id.slice(1) >= 217 && +b.id.slice(1) <= 309,
   )) {
+    const approved = corrections.croatianFloraDusi.replacements.find(
+      (item) => item.sourceId === paragraph.id,
+    );
+    const text = approved?.to ?? paragraph.text!;
     if (
-      normalize(paragraph.text!) &&
-      !bodies.get('testimonials')?.includes(normalize(paragraph.text!))
+      normalize(text) &&
+      !bodies.get('testimonials')?.includes(normalize(text))
     )
       missing.push(paragraph.id);
   }
@@ -470,7 +474,7 @@ test('unknown routes return a real 404 and Italian-only transport has no Croatia
   ).toBeVisible();
   await expect(
     page.getByRole('link', { name: 'Povratak na naslovnicu' }),
-  ).toHaveAttribute('href', '/hr/');
+  ).toHaveAttribute('href', '/hr');
   const transport = await request.get('/informazioni/trasporto');
   expect(await transport.text()).not.toContain('hreflang="hr"');
 });

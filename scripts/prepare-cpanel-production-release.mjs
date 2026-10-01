@@ -28,7 +28,8 @@ if (
   );
 
 // Fail before building if the actual legacy routing has not been supplied.
-const htaccess = mergeLegacyHtaccess(await readFile(legacyPath));
+const legacy = await readFile(legacyPath);
+mergeLegacyHtaccess(legacy);
 const env = { ...process.env, DENTVITALIS_SITE_MODE: 'production' };
 for (const script of ['build', 'form:preflight']) {
   const { stdout, stderr } = await run('npm', ['run', script], {
@@ -40,6 +41,10 @@ for (const script of ['build', 'form:preflight']) {
   process.stderr.write(stderr);
 }
 
+const documents = JSON.parse(
+  await readFile(resolve(root, 'dist/page-routes.json'), 'utf8'),
+);
+const htaccess = mergeLegacyHtaccess(legacy, documents);
 await writeFile(resolve(root, 'dist/.htaccess'), htaccess, { flag: 'wx' });
 const { stdout, stderr } = await run(
   'node',

@@ -28,6 +28,7 @@ export function flatten(blocks: ContentBlock[]): ContentBlock[] {
   ]);
 }
 export interface PageSEO {
+  noindex?: boolean;
   type?:
     'WebPage' | 'ContactPage' | 'AboutPage' | 'ImageGallery' | 'CollectionPage';
   breadcrumb?: { label: string; href: string }[];

@@ -301,8 +301,7 @@ export const specialPages: Special[] = [
         'href' in value &&
         typeof value.href === 'string'
       ) {
-        if (value.href === 'https://www.dentvitalis.com/hr')
-          value.href = '/hr/';
+        if (value.href === 'https://www.dentvitalis.com/hr') value.href = '/hr';
         else if (value.href.startsWith('https://www.dentvitalis.com/hr/'))
           value.href = value.href.replace('https://www.dentvitalis.com', '');
       }

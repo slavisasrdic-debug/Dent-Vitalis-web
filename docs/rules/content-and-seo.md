@@ -7,10 +7,16 @@ Izdvojeno iz AGENTS.md 2026-09-08 bez ukidanja pravila. Učitati prema usmjerava
 Postojeća javna struktura jezika je obvezna i ne smije se mijenjati:
 
 - Talijanski: `/`
-- Hrvatski: `/hr/`
-- Njemački: `/de/`
-- Engleski: `/en/`
-- Slovenski: `/si/`
+- Hrvatski: `/hr`
+- Njemački: `/de`
+- Engleski: `/en`
+- Slovenski: `/si`
+
+Vlasnik je 2026-10-01 izričito odobrio uklanjanje završnog slasha sa svih
+stranica. Jedina iznimka je korijen `/`; jezični prefiksi i slugovi ostaju
+isti. Canonical, hreflang, sitemap i interni linkovi prate to pravilo, a
+prethodne varijante sa slashom koriste 308 uz očuvanje query parametara.
+308 ovdje služi normalizaciji iste stranice, ne promjeni sadržajnog odredišta.
 
 Talijanski je glavni jezik i mora ostati u rootu.
 

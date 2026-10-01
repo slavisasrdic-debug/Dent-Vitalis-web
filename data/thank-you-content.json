@@ -1,0 +1,86 @@
+{
+  "auditedAt": "2026-10-01",
+  "scope": "Read-only GET audit of 205 public responses: sitemap, linked pages, known campaigns and their confirmations. No submissions or analytics execution.",
+  "gtm": {
+    "container": "GTM-K3QGWS",
+    "publishedVersion": "94",
+    "evidence": "Published resource contains exact Page Path comparisons for the five primary success routes. Keep slashless paths; do not add separate conversion tags."
+  },
+  "pages": {
+    "it": {
+      "sourceUrl": "https://www.dentvitalis.com/grazie",
+      "sourceSha256": "b9e7cca8b50e700e33ef0f4ff2719971da0a755b85909098d520f77e23545863",
+      "formSources": 40,
+      "title": "Grazie",
+      "heading": "Grazie",
+      "lines": [
+        "La sua richiesta è stata inviata correttamente.",
+        "La contatteremo nel tempo piu' breve possibile!"
+      ],
+      "signature": "DentVitalis Team"
+    },
+    "hr": {
+      "sourceUrl": "https://www.dentvitalis.com/hr/hvala",
+      "sourceSha256": "b8269297e3155495ca7c9893dedd41e07e3ac18ad5d87cd46f9d4e348b2922f7",
+      "formSources": 32,
+      "title": "Hvala",
+      "heading": "Hvala",
+      "lines": [
+        "Zaprimili smo Vaš upit.",
+        "Kontaktirati ćemo Vas u najkraćem mogućem roku."
+      ],
+      "signature": "DentVitalis Team"
+    },
+    "de": {
+      "sourceUrl": "https://www.dentvitalis.com/de/dank",
+      "sourceSha256": "e8ff73dda74aa66956de02e59f39ba324b15956a2720234b070458b0adec6957",
+      "formSources": 33,
+      "title": "Danke - DentVitalis",
+      "heading": "Vielen Dank",
+      "lines": [
+        "Ihre Anfrage ist bei uns eingegangen.",
+        "Wir werden uns so bald wie möglich bei Ihnen melden."
+      ],
+      "signature": "DentVitalis Team",
+      "approvedCorrection": "User explicitly approved this German translation on 2026-10-01; the existing public body was incorrectly English."
+    },
+    "en": {
+      "sourceUrl": "https://www.dentvitalis.com/en/thanks",
+      "sourceSha256": "ebd18c091604067d29c81201bd070337f92441a8062dfb9404701514b14b756a",
+      "formSources": 33,
+      "title": "Thank You - DentVitalis",
+      "heading": "Thank you",
+      "lines": [
+        "Your request has been received.",
+        "Our representative will contact you shortly."
+      ],
+      "signature": "DentVitalis Team"
+    },
+    "sl": {
+      "sourceUrl": "https://www.dentvitalis.com/si/hvala",
+      "sourceSha256": "ed3d28967635bb63535c04703d2eac42d6e4a6441058e22e76eb8d3c8cfaa9bd",
+      "formSources": 32,
+      "title": "Hvala - DentVitalis",
+      "heading": "Hvala",
+      "lines": [
+        "Vaša zahteva je uspešno poslana.",
+        "Oglasili se vam bomo v najkrajšem možnem roku!"
+      ],
+      "signature": "DentVitalis Team"
+    }
+  },
+  "retiredPages": {
+    "hrCampaign": {
+      "sourceUrl": "https://www.dentvitalis.com/hr/hvala-akcija",
+      "sourceSha256": "4cb68adc4af5680980dfc26953460a191fba435e574b472a8b9c21e832c798c5",
+      "sourceForm": "/hr/registration-fb",
+      "decision": "Owner explicitly requested complete removal on 2026-10-01. No replacement confirmation; production must return 410 Gone."
+    },
+    "slCampaign": {
+      "sourceUrl": "https://www.dentvitalis.com/si/hvala-akcija",
+      "sourceSha256": "e5c14caff6e206578c1ffc1b06ca42db115d200a4ac89ef0ee8b8c576288cd3e",
+      "sourceForm": "/si/registracija-fb",
+      "decision": "Owner explicitly requested complete removal on 2026-10-01. No replacement confirmation; production must return 410 Gone."
+    }
+  }
+}

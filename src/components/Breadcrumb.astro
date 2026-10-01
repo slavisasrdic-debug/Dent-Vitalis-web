@@ -1,5 +1,6 @@
 ---
 import { ui } from '../content/ui';
+import { pagePath } from '../content/page-paths';
 interface Props {
   items: { label: string; href: string }[];
   lang?: string;
@@ -14,7 +15,7 @@ const { items, lang = 'it' } = Astro.props;
         <li>
           {i > 0 && <span aria-hidden="true">/</span>}
           {item.href ? (
-            <a href={item.href}>{item.label}</a>
+            <a href={pagePath(item.href)}>{item.label}</a>
           ) : (
             <span aria-current="page">{item.label}</span>
           )}

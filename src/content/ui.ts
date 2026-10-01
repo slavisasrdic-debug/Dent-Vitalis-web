@@ -80,7 +80,7 @@ const de: typeof it = {
   logo: 'DentVitalis – Zahnärzte Kroatien',
 };
 export const homeHref = (lang: string) =>
-  lang === 'it' ? '/' : `/${lang === 'sl' ? 'si' : lang}/`;
+  lang === 'it' ? '/' : `/${lang === 'sl' ? 'si' : lang}`;
 export const ui = (lang: string) =>
   lang === 'hr'
     ? hr

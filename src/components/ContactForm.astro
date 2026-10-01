@@ -1,6 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import type { contactCopy } from '../content/site';
+import { formSuccessRoute } from '../content/thank-you-routes';
 interface Props {
   content: typeof contactCopy;
   lang: string;
@@ -8,13 +9,6 @@ interface Props {
 }
 const { content, lang, placement = 'home_inline' } = Astro.props;
 const id = `inquiry-${crypto.randomUUID()}`;
-const successRoutes: Record<string, string> = {
-  it: '/grazie',
-  hr: '/hr/hvala',
-  de: '/de/dank',
-  en: '/en/thanks',
-  sl: '/si/hvala',
-};
 ---
 
 <form
@@ -25,7 +19,7 @@ const successRoutes: Record<string, string> = {
   data-file-too-large={content.fileTooLarge}
   data-invalid-file={content.invalidFile}
   data-file-limit={content.limit}
-  data-success={successRoutes[lang]}
+  data-success={formSuccessRoute(lang)}
   method="dialog"
 >
   <div class="fields">

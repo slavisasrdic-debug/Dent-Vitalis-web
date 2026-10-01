@@ -1,5 +1,23 @@
 # Astro komponente — 28 talijanskih i 27 hrvatskih stranica
 
+## Thank-you utility stranice — 1. listopada 2026.
+
+`ThankYouPage` zajednički prikazuje pet postojećih potvrda na točnim, slashless
+putanjama iz `thank-you-routes.ts`. Pet malih Astro entry datoteka ne duplicira
+sadržaj ni stilove. `data/thank-you-content.json` čuva live tekstove, hashove i
+izričito odobreni njemački prijevod. Dvije istekle kampanjske potvrde uklonjene
+su na zahtjev vlasnika, bez zamjenskih success stranica.
+
+Komponenta koristi `SiteLayout`, header/footer i produkcijski tracking guard.
+`PageSEO.noindex` čuva noindex i u produkciji; sitemap izuzima potvrde.
+Vlasnik je naknadno odobrio slashless putanje za sve stranice; `page-paths.ts`
+centralizira identitet i odvojenu pohranu HTML-a, bez DirectorySlash povratka.
+Canonical, hreflang, sitemap i interni linkovi slijede isto pravilo.
+`ContactSection.popupOnly` skriva inline dio native `hidden` atributom;
+postojeći dialog i jedna premještana forma ostaju aktivni. Zadano `false`
+čuva sve postojeće potrošače. Desktop/mobile i mockirani submit tokovi su u
+`tests/thank-you.spec.ts`; cPanel internal rewrite/410 u Apache regresiji.
+
 ## Jedinstven font skupnih stranica — 15. rujna
 
 Korisnik ukinuo Arial razliku prema starom exportu. `body.reference-default` sada koristi `--font-body`, kao home/detail; ostali tokeni i lokalne veličine/težine nisu mijenjani. `TeaserCard` u svim kontekstima nasljeđuje Montserrat. Test `directory-fonts.spec.ts` pokriva svih šest HR/IT direktorija i sve njihove kartice na 390/820/1440px, uključujući širinu/overflow i font naslova/opisa. Nema novih font asseta, preloada niti izmjena loadera. Povijesne napomene o Arialu u ovoj mapi više nisu aktualne.

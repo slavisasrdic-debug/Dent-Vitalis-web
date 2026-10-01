@@ -35,7 +35,7 @@ export function route(id: string): string {
   if (!englishPageIds.some((value) => value === id))
     throw new Error(`Unknown English page: ${id}`);
   return id === 'home'
-    ? '/en/'
+    ? '/en'
     : (englishLegalRoutes[id as keyof typeof englishLegalRoutes] ??
         `/en/${id}`);
 }

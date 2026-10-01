@@ -47,7 +47,12 @@ const structured = JSON.stringify(
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<meta name="robots" content={publication.robots} />
+<meta
+  name="robots"
+  content={seo.noindex && publication.indexable
+    ? 'noindex, follow'
+    : publication.robots}
+/>
 <link rel="canonical" href={canonical} />
 {
   languages

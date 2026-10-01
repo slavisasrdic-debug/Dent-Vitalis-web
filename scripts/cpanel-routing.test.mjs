@@ -1,13 +1,21 @@
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
-import { chmod, mkdtemp, mkdir, rm, writeFile } from 'node:fs/promises';
+import {
+  chmod,
+  mkdtemp,
+  mkdir,
+  readFile,
+  rm,
+  writeFile,
+} from 'node:fs/promises';
 import http from 'node:http';
 import https from 'node:https';
 import { tmpdir } from 'node:os';
-import { join, resolve } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import test from 'node:test';
 import { promisify } from 'node:util';
 import { canonicalHostRules, mergeLegacyHtaccess } from './cpanel-routing.mjs';
+import { retiredThankYouRoutes } from '../src/content/thank-you-routes.ts';
 
 const run = promisify(execFile);
 const root = resolve(import.meta.dirname, '..');
@@ -62,6 +70,12 @@ test('existing PHP/server directives retain their exact bytes', () => {
 });
 
 test('missing or ambiguous server routing fails closed', () => {
+  for (const documents of [
+    { '/send': '/_pages/send.html' },
+    { '/hr': '/other.html' },
+    { '/hr/': '/_pages/hr.html' },
+  ])
+    assert.throws(() => canonicalHostRules(documents), /Invalid static/);
   for (const input of [undefined, '', Buffer.alloc(0)])
     assert.throws(() => mergeLegacyHtaccess(input), /existing cPanel/);
   for (const input of [
@@ -106,6 +120,13 @@ test(
   'real Apache: HTTP/TLS, five languages, query/encoding, POST, legacy routing and preview',
   { skip: process.env.DENTVITALIS_TEST_APACHE !== '1', timeout: 180_000 },
   async (t) => {
+    const documents = JSON.parse(
+      await readFile(join(root, 'dist/page-routes.json'), 'utf8'),
+    );
+    assert.ok(
+      Object.keys(documents).length >= 140,
+      'Build the full site before Apache acceptance',
+    );
     const directory = await mkdtemp(
       join(tmpdir(), 'dentvitalis-apache-routing-'),
     );
@@ -115,7 +136,7 @@ test(
       if (container) {
         if (!verified) {
           const logs = await run('docker', ['logs', container]);
-          t.diagnostic(logs.stderr);
+          t.diagnostic((logs.stdout + logs.stderr).slice(-9000));
         }
         await run('docker', ['rm', '-f', container]);
       }
@@ -137,11 +158,41 @@ test(
     );
     await writeFile(
       join(directory, 'htdocs/.htaccess'),
-      mergeLegacyHtaccess(legacy),
+      mergeLegacyHtaccess(legacy, documents),
     );
     await chmod(join(directory, 'htdocs'), 0o755);
     for (const name of ['index.html', 'legacy-fixture.txt', '.htaccess'])
       await chmod(join(directory, 'htdocs', name), 0o644);
+    for (const document of Object.values(documents)) {
+      const file = join(directory, 'htdocs', document);
+      await mkdir(dirname(file), { recursive: true });
+      for (
+        let folder = dirname(file);
+        folder !== join(directory, 'htdocs');
+        folder = dirname(folder)
+      )
+        await chmod(folder, 0o755);
+      await writeFile(file, 'Confirmation fixture');
+      await chmod(file, 0o644);
+    }
+    // Migration can leave legacy directories behind; they must not force '/'.
+    for (const route of [
+      '/hr/hvala',
+      ...retiredThankYouRoutes,
+      '/legacy-admin',
+    ]) {
+      const folder = join(directory, 'htdocs', route);
+      await mkdir(folder, { recursive: true });
+      for (
+        let parent = folder;
+        parent !== join(directory, 'htdocs');
+        parent = dirname(parent)
+      )
+        await chmod(parent, 0o755);
+      const file = join(folder, 'index.html');
+      await writeFile(file, 'Legacy HTML must not win');
+      await chmod(file, 0o644);
+    }
     await run('openssl', [
       'req',
       '-x509',
@@ -269,9 +320,48 @@ test(
       'evil.example',
     ]) {
       const result = await request(true, host);
-      assert.equal(result.status, 200);
+      assert.equal(result.status, 200, JSON.stringify({ host, result }));
       assert.equal(result.location, undefined);
     }
+    for (const route of Object.keys(documents)) {
+      const result = await request(
+        true,
+        'www.dentvitalis.com',
+        route + '?utm_source=fixture',
+      );
+      assert.equal(result.status, 200, JSON.stringify({ route, result }));
+      assert.equal(result.location, undefined);
+      assert.match(result.text, /Confirmation fixture/);
+      const alias = await request(
+        true,
+        'www.dentvitalis.com',
+        route + '/?utm_source=a%2Bb&item=1&item=2',
+      );
+      assert.equal(alias.status, 308, route);
+      assert.equal(new URL(alias.location).pathname, route);
+      assert.equal(
+        new URL(alias.location).search,
+        '?utm_source=a%2Bb&item=1&item=2',
+      );
+    }
+    for (const route of retiredThankYouRoutes) {
+      const result = await request(
+        true,
+        'www.dentvitalis.com',
+        route + '?utm_source=fixture',
+      );
+      assert.equal(result.status, 410);
+      assert.equal(result.location, undefined);
+      const alias = await request(true, 'www.dentvitalis.com', route + '/');
+      assert.equal(alias.status, 410);
+    }
+    const legacyDirectory = await request(
+      true,
+      'www.dentvitalis.com',
+      '/legacy-admin',
+    );
+    assert.equal(legacyDirectory.status, 301);
+    assert.equal(new URL(legacyDirectory.location).pathname, '/legacy-admin/');
     const spoof = await request(
       false,
       'www.dentvitalis.com',

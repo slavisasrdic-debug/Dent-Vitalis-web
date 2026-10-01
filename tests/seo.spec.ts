@@ -32,11 +32,11 @@ const routes = [
 test('canonical page URLs are stable, without query/hash or asset side effects', () => {
   for (const path of routes) {
     const result = canonicalUrl(path);
-    expect(result).toBe(productionOrigin + path.replace(/\/+$/, '') + '/');
+    expect(result).toBe(productionOrigin + (path.replace(/\/+$/, '') || '/'));
     expect(canonicalUrl(result)).toBe(result);
   }
   expect(canonicalUrl('/hr/faq?utm_source=test#dentvitalis')).toBe(
-    productionOrigin + '/hr/faq/',
+    productionOrigin + '/hr/faq',
   );
   expect(() => canonicalUrl('https://example.org/hr/')).toThrow();
 });
@@ -237,6 +237,38 @@ test('all 55 pages have consistent metadata, content-backed schema and real medi
   for (const [url, doc] of documents) {
     for (const [lang, alternate] of Object.entries(doc.alternates)) {
       if (lang !== 'x-default') {
+        // IT/HR can now refer to approved DE/EN/SI pages outside this copy audit.
+        // Read and verify their reciprocal metadata instead of assuming 55 pages.
+        if (!documents.has(alternate)) {
+          const response = await request.get(new URL(alternate).pathname);
+          expect(response.status(), alternate).toBe(200);
+          const metadata = await page.evaluate(
+            (html) => {
+              const document = new DOMParser().parseFromString(
+                html,
+                'text/html',
+              );
+              return {
+                canonical: document
+                  .querySelector('link[rel=canonical]')!
+                  .getAttribute('href')!,
+                alternates: Object.fromEntries(
+                  [
+                    ...document.querySelectorAll(
+                      'link[rel=alternate][hreflang]',
+                    ),
+                  ].map((link) => [
+                    link.getAttribute('hreflang')!,
+                    link.getAttribute('href')!,
+                  ]),
+                ),
+              };
+            },
+            await response.text(),
+          );
+          expect(metadata.canonical).toBe(alternate);
+          documents.set(alternate, metadata);
+        }
         expect(documents.has(alternate), alternate).toBe(true);
         expect(Object.values(documents.get(alternate)!.alternates)).toContain(
           url,

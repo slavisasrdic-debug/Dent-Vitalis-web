@@ -35,7 +35,7 @@ export function route(id: string): string {
   if (!slovenianPageIds.some((value) => value === id))
     throw new Error(`Unknown Slovenian page: ${id}`);
   return id === 'home'
-    ? '/si/'
+    ? '/si'
     : (slovenianLegalRoutes[id as keyof typeof slovenianLegalRoutes] ??
         `/si/${id}`);
 }

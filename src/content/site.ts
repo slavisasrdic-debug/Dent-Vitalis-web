@@ -74,28 +74,28 @@ export const languages: LanguageLink[] = [
     lang: 'hr',
     label: 'Hrvatski',
     flag: 'hr',
-    href: 'https://www.dentvitalis.com/hr/',
+    href: 'https://www.dentvitalis.com/hr',
   },
   {
     code: 'DE',
     lang: 'de',
     label: 'Deutsch',
     flag: 'de',
-    href: 'https://www.dentvitalis.com/de/',
+    href: 'https://www.dentvitalis.com/de',
   },
   {
     code: 'EN',
     lang: 'en',
     label: 'English',
     flag: 'gb',
-    href: 'https://www.dentvitalis.com/en/',
+    href: 'https://www.dentvitalis.com/en',
   },
   {
     code: 'SI',
     lang: 'sl',
     label: 'Slovenščina',
     flag: 'si',
-    href: 'https://www.dentvitalis.com/si/',
+    href: 'https://www.dentvitalis.com/si',
   },
 ];
 export const navigation: NavigationGroup[] = [

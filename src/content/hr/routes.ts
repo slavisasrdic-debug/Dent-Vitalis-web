@@ -3,6 +3,7 @@ import { languages, type LanguageLink } from '../site';
 import { slovenianPageIds, route as slRoute } from '../sl/routes';
 import { englishPageIds, route as enRoute } from '../en/routes';
 import { germanPageIds, route as deRoute } from '../de/routes';
+import { pagePath } from '../page-paths';
 
 const [header, ...lines] = proposal.trim().split('\n');
 const keys = header!.split(',');
@@ -26,13 +27,13 @@ export const hrRoutes = routeDecisions.filter(
 export function route(id: string) {
   const value = hrRoutes.find((r) => r.page_id === id)?.proposed_hr_path;
   if (!value) throw new Error(`Unapproved Croatian route: ${id}`);
-  return value;
+  return pagePath(value);
 }
 export function italianRoute(id: string) {
-  return hrRoutes.find((r) => r.page_id === id)!.it_path;
+  return pagePath(hrRoutes.find((r) => r.page_id === id)!.it_path);
 }
 export function equivalentLanguages(path: string): LanguageLink[] {
-  const normalize = (value: string) => value.replace(/\/$/, '') || '/';
+  const normalize = pagePath;
   const currentPath = normalize(path);
   // Only registered, reviewed destinations may be offered as translations.
   // Match explicit page IDs, never suffixes from unreviewed drafts.
@@ -76,6 +77,10 @@ export function equivalentLanguages(path: string): LanguageLink[] {
                   slovenianPageIds.some((id) => id === pair.page_id)
                 ? slRoute(pair.page_id)
                 : '';
-    return { ...language, href, available: !!href };
+    return {
+      ...language,
+      href: href ? normalize(href) : '',
+      available: !!href,
+    };
   });
 }

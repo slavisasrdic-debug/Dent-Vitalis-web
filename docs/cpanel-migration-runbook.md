@@ -78,6 +78,65 @@ URL migracije iz `data/redirects.csv` ostaju zasebne, neodobrene odluke.
 
 ## Form bridge acceptance
 
+### Thank-you adrese — provjera 1. listopada 2026.
+
+Read-only pregled obuhvatio je 205 javnih odgovora: sitemap, linkane unutarnje
+stranice i poznate kampanje. Potvrđeno je pet glavnih odredišta obrazaca:
+
+| Jezik | Isti produkcijski URL                   | Izvorni obrasci                            |
+| ----- | --------------------------------------- | ------------------------------------------ |
+| IT    | `https://www.dentvitalis.com/grazie`    | Talijanske stranice; 40 pregledanih izvora |
+| HR    | `https://www.dentvitalis.com/hr/hvala`  | Hrvatske stranice; 32 izvora               |
+| DE    | `https://www.dentvitalis.com/de/dank`   | Njemačke stranice; 33 izvora               |
+| EN    | `https://www.dentvitalis.com/en/thanks` | Engleske stranice; 33 izvora               |
+| SI    | `https://www.dentvitalis.com/si/hvala`  | Slovenske stranice; 32 izvora              |
+
+Javni GTM `GTM-K3QGWS`, objavljena verzija 94, sadrži **točne** Page Path
+usporedbe tih pet adresa bez završnog `/`. Zato `thank-you-routes.ts` zajednički
+definira odredišta formi. Vlasnik je zatim odobrio slashless URL-ove za sve
+stranice. Postbuild prenosi sve generirane unutarnje HTML dokumente iz
+directory outputa u `dist/_pages/`,
+bez promjene bajtova. cPanel ih poslužuje internim rewriteom bez promjene browser
+URL-a i bez DirectorySlash redirekcije. Build generira ista Pages proxy pravila
+u `dist/_redirects`. Varijante sa završnim `/` vode na izvorni slashless URL.
+To ne dodaje zasebne conversion evente, GA4 ni Ads skripte.
+
+`dist/page-routes.json` nastaje iz stvarnih build dokumenata i služi pripremi
+istih cPanel pravila; ne smije se ručno održavati paralelan popis. Početni
+`index.html`, `404.html` i asseti ostaju na svojim mjestima. Izvorni legacy
+`.htaccess` dodaje se byte-for-byte nakon našeg bloka. PHP rute `/send` i
+`/gct` nisu dio statičkog popisa i ostaju pod postojećim backend routerom.
+Astro dev prihvaća obje varijante radi kompatibilnosti QA-a; stvarne 308
+redirekcije provjeravaju se na Apache fixtureu i javnom Pages previewu.
+Na Apacheu `RewriteOptions AllowNoSlash` i URI-ograničeni `DirectorySlash Off`
+štite poznate statičke/uklonjene adrese čak i kada postoji stara fizička mapa.
+Ostale direktorije i backend rute taj izuzetak ne zahvaća. Regresija uključuje
+zaostale mape i potvrđuje da nepovezani legacy direktorij zadržava svoj 301.
+Stariji `proposal-only` redirect izvještaji nisu aktivna konfiguracija; prije
+migracije njihove sadržajne odluke i slashless odredišta treba ponovno potvrditi.
+
+Pet Astro entry datoteka koristi jednu komponentu `ThankYouPage`, naše postojeće
+stilove, layout i produkcijski tracking bootstrap. Potvrde su noindex i izvan
+sitemapa; popup kontakt ostaje dostupan, bez drugog vidljivog inline obrasca.
+Izvorni tekstovi, SHA-256 i odluke nalaze se u `data/thank-you-content.json`.
+Vlasnik je odobrio njemački prijevod umjesto pogrešnog engleskog izvornog bodyja.
+
+Pronađene su i dvije potvrde stare akcije, povezane iz
+`/hr/registration-fb` i `/si/registracija-fb`. Vlasnik je izričito zatražio
+**uklanjanje**, ne zamjenu: `/hr/hvala-akcija` i `/si/hvala-akcija` nemaju nove
+HTML stranice niti preusmjeravanje na običnu potvrdu. Pages preview vraća 404,
+a produkcijski cPanel blok vraća 410 Gone prije legacy fallbacka.
+Ovaj rad ne briše ništa na sadašnjoj produkciji.
+
+`form:preflight` odbija release bez svih pet potvrda i provjerava njihove
+točne canonical putanje te noindex i success odredište svake forme.
+Regresija `tests/thank-you.spec.ts` provjerava desktop/mobile, popup i pet
+potpuno mockiranih submit → CSRF retry → success tokova. To nije dokaz stvarne
+SMTP/CRM dostave ili Ads konverzije: prihvat stvarnih integracija ostaje prije
+produkcijske objave, na način opisan niže.
+
+### Legacy backend ugovor
+
 Bridge mora omogućiti isti-origin tok bez izlaganja tajni klijentu:
 
 1. `GET /gct` vraća token vezan uz server-side session.

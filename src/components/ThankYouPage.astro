@@ -1,0 +1,84 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ContactSection from './ContactSection.astro';
+import { thankYouRoutes, type ThankYouKey } from '../content/thank-you-routes';
+import { languages, contactCopy } from '../content/site';
+import { contactCopy as hrContact } from '../content/hr/site';
+import { contactCopy as deContact } from '../content/de/site';
+import { contactCopy as enContact } from '../content/en/site';
+import { contactCopy as slContact } from '../content/sl/site';
+import { productionOrigin } from '../content/seo-urls';
+import data from '../../data/thank-you-content.json';
+
+interface Props {
+  kind: ThankYouKey;
+}
+const { kind } = Astro.props;
+const lang = kind;
+const copy = data.pages[lang];
+const content = {
+  it: contactCopy,
+  hr: hrContact,
+  de: deContact,
+  en: enContact,
+  sl: slContact,
+}[lang];
+const pageLanguages = languages.map((language) => {
+  const href = thankYouRoutes[language.lang as typeof lang];
+  return { ...language, href, available: !!href };
+});
+const description = copy.lines.join(' ');
+---
+
+<SiteLayout
+  lang={lang}
+  title={copy.title}
+  description={description}
+  canonical={productionOrigin + thankYouRoutes[kind]}
+  pageLanguages={pageLanguages}
+  seo={{ noindex: true }}
+>
+  <section
+    class="confirmation"
+    aria-labelledby="confirmation-title"
+    data-thank-you
+  >
+    <div class="confirmation-content">
+      <h1 id="confirmation-title">{copy.heading}</h1>
+      <p class="confirmation-message">
+        {copy.lines.map((line) => <span>{line}</span>)}
+      </p>
+      <p class="confirmation-signature"><i>{copy.signature}</i></p>
+    </div>
+  </section>
+  <ContactSection content={content} lang={lang} popupOnly />
+</SiteLayout>
+
+<style>
+  .confirmation {
+    padding: clamp(64px, 9vw, 120px) var(--page-gutter);
+    background: var(--color-surface);
+  }
+  .confirmation-content {
+    max-width: 900px;
+    margin-inline: auto;
+  }
+  h1 {
+    margin: 0 0 28px;
+    color: var(--color-primary);
+    font-size: clamp(36px, 4vw, 56px);
+    line-height: 1.15;
+    font-weight: 700;
+  }
+  .confirmation-message {
+    font-size: clamp(18px, 2vw, 22px);
+    line-height: 1.5;
+  }
+  .confirmation-message span {
+    display: block;
+  }
+  .confirmation-signature {
+    margin-top: 28px;
+    font-size: 18px;
+  }
+</style>

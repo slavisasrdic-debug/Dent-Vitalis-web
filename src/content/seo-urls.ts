@@ -1,3 +1,5 @@
+import { pagePath } from './page-paths.ts';
+
 export const productionOrigin = 'https://www.dentvitalis.com';
 export const previewOrigin = 'https://dent-vitalis-web.pages.dev';
 
@@ -6,7 +8,7 @@ export function canonicalUrl(path: string): string {
   const url = new URL(path, productionOrigin);
   if (url.origin !== productionOrigin)
     throw new Error(`Unexpected canonical origin: ${url.origin}`);
-  url.pathname = url.pathname.replace(/\/+$/, '') + '/';
+  url.pathname = pagePath(url.pathname);
   url.search = '';
   url.hash = '';
   return url.href;

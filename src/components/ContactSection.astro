@@ -6,12 +6,13 @@ interface Props {
   content: typeof contactCopy;
   lang: string;
   id?: string;
+  popupOnly?: boolean;
 }
-const { content, lang, id = 'contatti' } = Astro.props;
+const { content, lang, id = 'contatti', popupOnly = false } = Astro.props;
 const headingId = `inquiry-heading-${crypto.randomUUID()}`;
 ---
 
-<section class="contact" id={id}>
+<section class="contact" id={id} hidden={popupOnly}>
   <div class="contact-container">
     <div class="contact-content">
       <p class="eyebrow" data-reveal="grow" data-offset="0">
