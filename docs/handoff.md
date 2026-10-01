@@ -31,6 +31,13 @@ Extract, vlasnik potvrđuje tri ključne datoteke u korijenu. Serverski hash nij
 potvrđen. Ne ponavljati upload/Extract. Datoteke `0666` i mape `0777` potvrđene
 su nalazom i lokalnim ZIP metadata; ispraviti na `0644`/`0755` samo unutar ovog
 releasea prije aktivacije, bez symlinkova i promjena drugih direktorija.
+Agent je potvrdio da File Manager nema rekurziju po vrsti; zatvorio je dijalog
+bez promjena. Korijen je `0755`, sadržaj nije ispravljen. Ne ponavljati dijalog.
+Pripremljen je novi `af6dc28-perms.zip`: svih 692 datoteke/manifest ostaju isti,
+CRC i lokalni Extract potvrđuju datoteke `0644` i 13 mapa `0755`. Nema rebuilda.
+Browser agent nastavlja samo uploadom/Extractom u novoj privatnoj
+`/home2/dentvita/releases/20261001-af6dc28-perms/`, bez prepisivanja stare mape;
+serverske dozvole još nisu potvrđene. Hash/veličina i postupak u runbooku/JSON-u.
 Chrome-only agent ne može lokalno provjeravati arhive: backup CRC/obnovu
 provodi vlasnik ili zaseban ovlašteni lokalni alat prije aktivacije.
 Raniji environment PUT ove integracije bio je 403; ne ponavljati ga.

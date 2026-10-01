@@ -25,7 +25,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "isolated-File-Manager-permission-correction-and-inspection-without-public-activation",
+    "nextCheck": "isolated-permission-correction-by-normalized-ZIP-upload-without-public-activation",
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -67,7 +67,7 @@
         "retryOnlyAfter": "new-transport-diagnosis-or-connectivity-change-not-token-recreation"
       },
       "fileManager": {
-        "status": "private-upload-and-extraction-confirmed-permission-correction-not-tested",
+        "status": "old-release-staged-File-Manager-permission-dialog-limited-new-archive-not-tested-on-server",
         "role": "owner-selected-manual-migration-with-same-backup-and-form-gates",
         "selectedByOwnerOn": "2026-10-01",
         "retryOnlyAfter": "approved-isolated-upload-and-extraction-test"
@@ -101,6 +101,8 @@
       "token-creation-or-replacement-after-network-failure",
       "backup-regeneration-because-client-download-is-incomplete",
       "browser-tool-opening-chrome-downloads-after-policy-block",
+      "File-Manager-recursive-permission-dialog-after-owner-confirmed-no-type-aware-recursion",
+      "old-af6dc28-ZIP-extraction-to-fix-permissions-without-changing-archive-metadata",
       "symlink-switch",
       "API-menu-inspection",
       "local-full-rebuild-or-screenshot-matrix-for-documentation-changes",
@@ -221,11 +223,25 @@
         "requiredFiles": "0644",
         "requiredDirectories": "0755",
         "correctedAndVerifiedOnServer": false,
+        "rootDirectoryAsReported": "0755",
+        "fileManagerTypeAwareRecursionAvailableAsReported": false,
+        "permissionDialogClosedWithoutChangesAsReported": true,
+        "correctionStrategy": "new-permission-normalized-ZIP-in-new-private-directory",
         "scope": "only-this-private-static-release-no-symlinks-or-parent-directories"
       },
       "mayOverwriteExistingTarget": false,
       "mayModifyPublicHtmlOrApplication": false,
       "mayActivateWithoutBackupAndFormAcceptance": false
+    },
+    "replacementStage": {
+      "target": "/home2/dentvita/releases/20261001-af6dc28-perms/",
+      "archiveName": "dentvitalis-web-production-candidate-20261001-af6dc28-perms.zip",
+      "uploadedAsReported": false,
+      "extractedAsReported": false,
+      "serverPermissionsVerified": false,
+      "mayOverwriteExistingTarget": false,
+      "mayModifyPublicHtmlOrApplication": false,
+      "oldStageMustRemainUntouched": true
     },
     "liveWebPhpDnsAndVersionUnchangedAsReported": true
   },
@@ -292,6 +308,24 @@
     "measurement": "local-existing-artifact-and-release-manifest-no-rebuild",
     "serverDiskAllocationAndInodesVerified": false,
     "currentCodeCommitAutomaticallyRepackaged": false
+  },
+  "preparedPermissionNormalizedCandidate": {
+    "archiveName": "dentvitalis-web-production-candidate-20261001-af6dc28-perms.zip",
+    "compressedZipBytes": 57909363,
+    "sha256": "bee2a78a94ff223a1e8c008f97886632b43d7de2fc6853a230d5de9432c19a1b",
+    "contentGitCommit": "af6dc2881c2f0ec09672764a2a52b83b675a61a3",
+    "sourceArchiveSha256": "33096bf3b41bae18a408f4e0ada7ccd2ba3563098111dd289bc4b04fc7f1c7a9",
+    "totalFilesIncludingManifest": 692,
+    "directories": 13,
+    "logicalUnpackedBytesIncludingManifest": 65436532,
+    "manifestSha256": "c1bf87f512ea5b9dd1a585d046faa3315ae8f0fa0fd6071c515395f913024326",
+    "allExtractedFilesAndManifestByteIdenticalToSource": true,
+    "allLocalExtractedFilesMode": "0644",
+    "allLocalExtractedDirectoriesMode": "0755",
+    "crcPassed": true,
+    "newBuildPerformed": false,
+    "serverUploadOrExtractionPerformed": false,
+    "packagingScript": "scripts/package-cpanel-release.mjs"
   },
   "cpanelFollowUp": {
     "reportedOn": "2026-10-01",

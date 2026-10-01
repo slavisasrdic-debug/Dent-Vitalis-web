@@ -179,6 +179,44 @@ test('private upload and extraction evidence do not prove server integrity or sa
   );
 });
 
+test('limited File Manager is recorded; local repack does not imply server correction', () => {
+  const permissions = report.fileManagerProgress.isolatedStage.permissions;
+  const candidate = report.preparedPermissionNormalizedCandidate;
+  const replacement = report.fileManagerProgress.replacementStage;
+  assert.equal(
+    permissions.fileManagerTypeAwareRecursionAvailableAsReported,
+    false,
+  );
+  assert.equal(
+    permissions.permissionDialogClosedWithoutChangesAsReported,
+    true,
+  );
+  assert.equal(permissions.rootDirectoryAsReported, '0755');
+  assert.equal(
+    candidate.contentGitCommit,
+    report.preparedStaticCandidate.gitCommit,
+  );
+  assert.equal(
+    candidate.allExtractedFilesAndManifestByteIdenticalToSource,
+    true,
+  );
+  assert.equal(candidate.totalFilesIncludingManifest, 692);
+  assert.equal(candidate.allLocalExtractedFilesMode, '0644');
+  assert.equal(candidate.allLocalExtractedDirectoriesMode, '0755');
+  assert.equal(candidate.newBuildPerformed, false);
+  assert.equal(candidate.serverUploadOrExtractionPerformed, false);
+  assert.notEqual(
+    replacement.target,
+    report.fileManagerProgress.isolatedStage.target,
+  );
+  assert.equal(replacement.uploadedAsReported, false);
+  assert.equal(replacement.extractedAsReported, false);
+  assert.equal(replacement.serverPermissionsVerified, false);
+  assert.equal(replacement.mayOverwriteExistingTarget, false);
+  assert.equal(replacement.mayModifyPublicHtmlOrApplication, false);
+  assert.equal(replacement.oldStageMustRemainUntouched, true);
+});
+
 test('paused SSH workflow exits before checkout/build/server connection', async () => {
   const workflow = await readFile(
     new URL('.github/workflows/stage-cpanel-release.yml', root),

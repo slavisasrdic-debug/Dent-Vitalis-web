@@ -20,7 +20,7 @@ produkcijsku objavu još nije implementirana; backup i forme ostaju release gate
 | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Lokalni produkcijski paket, manifest, CRC, routing i forme | Lokalno prošlo za kandidat `af6dc28`; nije dokaz dostave                                        | Promjena koda, paketa ili stvarnih serverskih pravila                                          |
 | Lokalni ZIP starog weba                                    | CRC prošao prema agentu; nema `application/data` ni baze bloga                                  | Promjena arhive ili prihvat novog kompletnog backupa                                           |
-| File Manager / Extract                                     | Screenshot potvrđuje upload 100 % i Extract; vlasnik potvrđuje tri ključne datoteke             | Ne ponavljati; ispraviti dozvole samo u toj privatnoj release mapi                             |
+| File Manager / Extract                                     | Stari paket uploadan/raspakiran; UI nema rekurziju po vrsti; dozvole sadržaja nisu ispravljene  | Ne ponavljati dijalog ili stari ZIP; novi `-perms.zip` testirati u novoj privatnoj mapi        |
 | SSH/shell i SSH stage                                      | Panel traži administratorsko omogućavanje; bez prijave i ključeva                               | Samo nova izričita odluka i dokaz da je pristup omogućen                                       |
 | Symlink switch                                             | Postojeći `www → public_html` nije dokaz; switch nije testiran                                  | Samo ako odabrani postupak stvarno zahtijeva link i postoji novi dokaz                         |
 | cPanel API tokeni                                          | Token stvoren/pohranjen prema agentu; prvi run nije prošao vezu. Autentifikacija nije potvrđena | Novi dokaz o transportu prije novog pokušaja; ne stvarati novi token i ne ponavljati isti test |
@@ -108,6 +108,40 @@ Ne postaviti sve stavke na isti mode, ne slijediti symlinkove i ne mijenjati
 `public_html`, `application`, backupove ili roditeljske direktorije. Ako UI ne
 omogućuje pouzdanu korekciju cijelog opsega, stati i prijaviti ograničenje.
 
+**Novo potvrđeno ograničenje:** agent je pregledao dijalog; nema rekurzivne
+primjene uz razlikovanje datoteka i mapa. Zatvoren je bez promjena. Korijenska
+release mapa već je `0755`, sadržaj ostaje neispravljen. Ne ponavljati taj put.
+
+**Rješenje pripremljeno lokalno:** novi
+`dentvitalis-web-production-candidate-20261001-af6dc28-perms.zip`,
+`57.909.363 B`, SHA-256
+`bee2a78a94ff223a1e8c008f97886632b43d7de2fc6853a230d5de9432c19a1b`.
+Bez rebuilda: svih 692 datoteke, uključujući manifest, bajtno su iste kao u
+starom ZIP-u (`65.436.532 B`). CRC i stvarno lokalno raspakiravanje potvrđuju
+sve datoteke `0644` i svih 13 mapa `0755`. Stara arhiva nije promijenjena.
+To ne dokazuje serverske dozvole prije novog cPanel Extract testa.
+
+Sljedeći korak browser agentu:
+
+1. Provjeriti aktualni prostor za približno 123,4 MB dodatnih logičnih bajtova
+   (novi ZIP + ekstrakcija), uz rezervu za stvarnu alokaciju/inodeove.
+   Ne brisati staru mapu, ZIP ili backupove radi prostora.
+2. Napraviti **novu** `/home2/dentvita/releases/20261001-af6dc28-perms/`.
+   Ako postoji, stati bez prepisivanja. Korijenska mapa `0755`.
+3. Uploadati samo novi `-perms.zip`, pa Extract u tu istu novu mapu.
+   Vlasnik odabire lokalnu datoteku ako Chrome plugin nema pristup odabiru.
+4. Prije daljnjeg rada provjeriti korijen i podmape: obične datoteke `0644`,
+   direktoriji `0755`, uključujući skrivenu `.htaccess`, `_pages/hr` i assete.
+   Prijaviti opseg pregleda; uzorci nisu dokaz svih 692 dozvola. Ako cPanel
+   opet pokaže `0666/0777`, stati: serverski Extract još nije prihvaćen.
+5. Stara `/releases/20261001-af6dc28/`, `public_html`, `application` i backupovi
+   ostaju netaknuti. **Ne aktivirati** i ne instalirati privatne PHP dodatke.
+
+Za buduće ZIP-ove koristiti `npm run release:zip -- --source /apsolutni/build
+--output /apsolutni/novi.zip`. Skripta provjerava payload prema manifestu,
+odbija symlinkove/nepoznate datoteke i postojeći output, pakira izoliranu
+kopiju s `0644/0755`, bez promjene izvornog builda. Test: `npm run test:release-zip`.
+
 1. Ne stvarati token niti pokretati GitHub API/SSH testove. Prije kompresije i
    uploada provjeriti aktualni prostor, kvotu i dostupni inode prikaz; zadnja
    procjena nije aktualna garancija. Ako podatak nije dostupan, prijaviti to.
@@ -124,13 +158,15 @@ omogućuje pouzdanu korekciju cijelog opsega, stati i prijaviti ograničenje.
    ili konfiguracije. Ne slati privatni backup u chat, GitHub ili javni artifact.
    To je backup weba/backenda, ne dokaz kompletnog cPanel računa ili baze bloga;
    baze i druge servise ne mijenjati.
-4. **Upload i Extract završeni prema screenshotu/nalazu — ne ponavljati.** Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
+4. **Stari upload i Extract završeni prema screenshotu/nalazu — ne ponavljati isti ZIP.** Prema naknadnom odobrenju izoliranog stagea prenijeti **javni statički ZIP**
    `dentvitalis-web-production-candidate-20261001-af6dc28.zip` u novi privatni
    `/home2/dentvita/releases/20261001-af6dc28/`, pa raspakirati tamo. Arhiva:
    `57.946.023 B`, SHA-256
    `33096bf3b41bae18a408f4e0ada7ccd2ba3563098111dd289bc4b04fc7f1c7a9`.
    Ne prenijeti preview artifact ili privatni PHP ZIP kao javni web. Ako cilj
    postoji, ne prepisivati ga. Ne premještati/prepisivati `public_html`.
+   Ovaj stari paket zadržati kao dokaz; zbog dozvola slijediti novi `-perms`
+   postupak iznad, u novoj mapi, ne prepisivati ovu ekstrakciju.
 5. Potvrditi ispravan korijen s `index.html`, `.htaccess`,
    `release-manifest.json`, 691 payload datotekom + manifestom, ukupno
    `65.436.532 B` logičnih bajtova. Ne pribrajati uploadani ZIP ekstrakciji.

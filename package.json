@@ -40,6 +40,8 @@
     "form:preflight": "node scripts/check-form-migration-contract.mjs",
     "release:prepare": "npm run build && npm run form:preflight && node scripts/create-cpanel-release-manifest.mjs",
     "release:prepare:production": "node scripts/prepare-cpanel-production-release.mjs",
+    "release:zip": "node scripts/package-cpanel-release.mjs",
+    "test:release-zip": "node --test scripts/package-cpanel-release.test.mjs",
     "validate": "npm run check && npm run lint && npm run format:check && npm run test:content && npm run test:redirects && npm run test:preview && npm test && npm run build"
   },
   "dependencies": {
