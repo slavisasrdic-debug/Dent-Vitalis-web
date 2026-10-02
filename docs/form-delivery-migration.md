@@ -19,14 +19,15 @@ Prvi HR POST `DV-MIG-20261001-HR-152910Z` poslan je jednom u 15:29:10 UTC
 na postojeći `/send`, sa svježim tokenima iste sesije, bez izmjene primatelja
 ili CRM-a. HTTP 200 JSON `status:ok`, `no-store`; 640 B sintetički PDF.
 Vlasnikov CRM screenshot od 2. listopada potvrđuje ovaj lead/oznaku, HR, izvor
-Web, kontakte i TEST poruku. CRM PDF link je vidljiv, ali njegova kopija još
-nije otvorena/sadržajno potvrđena. Vlasnik je 2. listopada potvrdio dolazak
+Web, kontakte i TEST poruku. CRM PDF link je vidljiv, a vlasnik je naknadno
+potvrdio njegovo otvaranje. Nije neovisno provjeren CRM sadržaj/hash.
+Vlasnik je 2. listopada potvrdio dolazak
 e-maila i prikazao proslijeđenu poruku s otvorenim PDF-om: točna oznaka,
 odgovarajuće izvorno vrijeme i neutralni TEST tekst. HR inbox i e-mail PDF
 potvrđeni su vlasničkim dokazom; nema neovisnog mailbox pristupa ni hasha
 preuzetog privitka. Ne pohranjuju se screenshot, kontakti ili mailbox adrese.
-Preostala četiri jezika još nisu poslani; prije njih zatvoriti otvaranje CRM
-kopije PDF-a. Nema auto-retryja ili javne aktivacije. Izravni
+HR dostava i čitljivi privici su prihvaćeni; nastaviti preostala četiri već
+odobrena jezika, koji još nisu poslani. Nema auto-retryja ili javne aktivacije. Izravni
 backend POST nije potvrda end-to-end novog frontend/thank-you/GTM toka.
 
 Browser agent potvrđuje instalaciju oba PHP dodatka i minimalnog transport

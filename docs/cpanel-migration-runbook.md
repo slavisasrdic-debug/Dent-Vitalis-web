@@ -25,14 +25,15 @@ PHP greške. PDF ima 640 B; naziv/hash u readiness JSON-u. To je izravni
 backend test, ne end-to-end submit novog frontend izgleda ili dokaz dostave.
 Vlasnikov CRM screenshot od 2. listopada potvrđuje upravo ovu oznaku, hrvatski
 jezik, izvor Web, odgovarajuće kontaktne podatke i poruku označenu kao TEST.
-CRM lead je potvrđen; link na privitak je vidljiv, ali CRM kopija PDF-a još
-nije sadržajno potvrđena. Vlasnik je 2. listopada potvrdio primitak e-maila
+CRM lead je potvrđen; vlasnik je naknadno potvrdio da se njegova PDF kopija
+otvara. To je potvrda čitljivog privitka, ne neovisna provjera sadržaja/hasheva.
+Vlasnik je 2. listopada potvrdio primitak e-maila
 i dostavio screenshot proslijeđene poruke s otvorenim PDF-om: oznaka i
 izvorno vrijeme odgovaraju HR testu, PDF prikazuje samo neutralni TEST tekst.
 HR inbox i e-mail privitak potvrđeni su vlasničkim dokazom, bez neovisnog
 pristupa mailboxu ili provjere preuzetog hasha. Screenshot/kontakti/adrese
-primatelja ne pohranjuju se u repozitorij. Preostali IT/DE/EN/SL nisu poslani;
-prije njih zatvoriti još otvaranje CRM kopije PDF-a, bez auto-retryja. HR ne
+primatelja ne pohranjuju se u repozitorij. HR dostava i čitljivi privici sada
+su prihvaćeni. Slijede već odobreni IT/DE/EN/SL, još nisu poslani. HR ne
 ponavljati. Cloudflare brisanje blokirano je brojem objava; vlasnik je zatražio
 da ga zasad ostavimo. Projekt nije potvrđen kao obrisan, ne ponavljati brisanje.
 
@@ -643,9 +644,11 @@ lokalizacije. Točan `.htaccess` merge radi se tek uz kopiju postojećeg
 
 - Ne koristiti podatke pacijenta. Stvarni upiti prema postojećim primateljima
   dopušteni su samo u izričito odobrenom, označenom sintetičkom testu.
-- Vlasnik je sada odobrio najviše pet upita po jeziku s jednim testnim PDF-om.
+- Vlasnik je odobrio najviše pet upita ukupno, po jedan za svaki jezik,
+  uz bezopasni testni PDF.
   HR POST je izvršen jednom; inbox/CRM su potvrđeni, e-mail PDF otvoren.
-  Prije ostalih zatvoriti još potvrdu sadržaja CRM kopije privitka.
+  Vlasnik je potvrdio otvaranje CRM PDF-a; nastaviti ostale već odobrene
+  jezike bez ponavljanja HR-a. Ne poistovjećivati otvaranje s provjerom hasha.
 - Legacy `test@example.com` aktivira testni e-mail primatelj i ne šalje CRM
   lead; time se provjerava frontend, tokeni i SMTP test.
 - CRM zahtijeva potvrđeni testni endpoint ili eksplicitno odobren testni lead.
@@ -664,8 +667,8 @@ lokalizacije. Točan `.htaccess` merge radi se tek uz kopiju postojećeg
 
 Ovo je aktualni sažetak za vlasnika i SEO kolegu, ne odobrenje aktivacije.
 Javni web nije mijenjan ovom provjerom i nije poslan novi POST. HR test je
-potvrđen u CRM-u i e-mailu, uz otvoreni e-mail PDF; CRM kopija PDF-a još čeka
-potvrdu. Raniji redirect
+potvrđen u CRM-u i e-mailu, uz otvoreni e-mail PDF i vlasničku potvrdu
+otvaranja CRM PDF-a. Raniji redirect
 prijedlozi nisu aktivna konfiguracija niti potvrda migracije svih URL-ova.
 
 ### Dosad provjereno

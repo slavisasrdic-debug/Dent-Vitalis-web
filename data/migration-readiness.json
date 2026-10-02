@@ -49,7 +49,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "awaiting-owner-CRM-open-PDF-confirmation-after-HR-inbox-and-mail-PDF-receipt-before-new-upload-without-public-activation",
+    "nextCheck": "proceed-approved-IT-DE-EN-SL-delivery-checks-before-new-upload-without-public-activation",
     "cloudflarePreviewRetirement": {
       "reportedOn": "2026-10-02",
       "source": "owner-dashboard-screenshots-and-owner-request-to-leave-this-for-now",
@@ -445,7 +445,7 @@
     "automaticRetriesPerformed": 0,
     "pendingLanguages": ["it", "de", "en", "sl"],
     "pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed": false,
-    "pendingLanguagesHeldUntilFirstCrmAttachmentContentsConfirmed": true,
+    "pendingLanguagesHeldUntilFirstCrmAttachmentReadableConfirmed": false,
     "firstTest": {
       "marker": "DV-MIG-20261001-HR-152910Z",
       "language": "hr",
@@ -493,11 +493,15 @@
         "senderFieldsMatchApprovedTestContact": true,
         "messageClearlyMarkedAsNonPatientTest": true,
         "attachmentLinkVisible": true,
+        "pdfOpenedAndReadableConfirmed": true,
+        "pdfOpeningEvidence": "owner-reply-Otvara-se-pdf-to-request-to-open-same-attachment-from-CRM",
         "pdfOpenedAndContentsConfirmed": false,
         "downloadedAttachmentHashVerified": false,
         "screenshotOrPersonalContactCopiedIntoRepository": false
       },
-      "crmAttachmentConfirmed": false,
+      "crmAttachmentConfirmed": true,
+      "attachmentAcceptanceBasis": "owner-confirmed-readable-CRM-PDF-and-visible-neutral-mail-PDF-not-downloaded-file-hash-verification",
+      "deliveryReceiptAndReadableAttachmentsAccepted": true,
       "mailAttachmentConfirmed": true,
       "newFrontendEndToEndTest": false
     },

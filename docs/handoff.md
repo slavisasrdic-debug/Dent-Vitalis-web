@@ -14,15 +14,17 @@ backend sa svježim tokenima iste sesije, bez promjene primatelja/CRM-a.
 640 B PDF je sintetički bez podataka pacijenta. Odgovor: 200 JSON `status:ok`,
 `no-store`, bez vidljive PHP greške. Vlasnikov CRM screenshot od 2. listopada
 potvrđuje ovaj lead/oznaku, HR, izvor Web, kontakte i TEST poruku. PDF link je
-vidljiv, ali otvaranje/sadržaj CRM kopije još nisu potvrđeni. Vlasnik je 2. listopada potvrdio primitak e-maila i prikazao proslijeđenu poruku s
+vidljiv, a vlasnik je zatim potvrdio da se CRM PDF otvara. Nije neovisno
+provjeren njegov sadržaj/hash. Vlasnik je 2. listopada potvrdio primitak
+e-maila i prikazao proslijeđenu poruku s
 otvorenim PDF-om: točna TEST oznaka, odgovarajuće vrijeme i neutralni tekst.
 HR inbox i e-mail PDF potvrđeni su vlasničkim dokazom, ne neovisnim mailbox
 pristupom ili hashom preuzetog privitka. Screenshot/kontakti/mailbox adrese
-nisu u repozitoriju. Ostali IT/DE/EN/SL nisu poslani; još čekaju otvaranje
-CRM kopije PDF-a, bez auto-retryja ili switcha.
+nisu u repozitoriju. HR dostava i čitljivi privici sada su prihvaćeni.
+Ostali IT/DE/EN/SL još nisu poslani, bez auto-retryja ili switcha.
 To nije end-to-end test novog frontend izgleda. Oznaka/metadata u JSON-u,
-nikad kontakt ili vrijednosti tokena. Sljedeće: potvrditi sadržaj CRM kopije
-istog PDF-a i nastaviti odobrene preostale testove, bez ponavljanja HR-a.
+nikad kontakt ili vrijednosti tokena. Sljedeće: nastaviti odobrene preostale
+testove, bez ponavljanja HR-a i bez nove javne aktivacije.
 Cloudflare Pages projekt nema custom domene prema vlasnikovu prikazu;
 brisanje je blokirano brojem objava i nije završeno. Vlasnik je zatražio da
 ga zasad ostavimo; ne ponavljati brisanje ili uvoditi novi pristup radi toga.

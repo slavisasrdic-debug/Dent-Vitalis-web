@@ -210,7 +210,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
   assert.match(
     report.procedure.nextCheck,
-    /awaiting-owner-CRM-open-PDF-confirmation/,
+    /proceed-approved-IT-DE-EN-SL-delivery-checks/,
   );
   assert.ok(
     report.serverGates.includes(
@@ -354,7 +354,7 @@ test('installed backend and independent GET acceptance do not imply browser, POS
   assert.equal(report.realTestMessagesSent, true);
 });
 
-test('owner-evidenced HR inbox and CRM receipt do not prove CRM PDF contents or all five languages', () => {
+test('owner-accepted HR delivery and readable PDFs do not prove file hashes or all five languages', () => {
   const progress = report.syntheticDeliveryTestProgress;
   const first = progress.firstTest;
   assert.equal(progress.maximumApprovedSubmissions, 5);
@@ -366,8 +366,8 @@ test('owner-evidenced HR inbox and CRM receipt do not prove CRM PDF contents or 
     false,
   );
   assert.equal(
-    progress.pendingLanguagesHeldUntilFirstCrmAttachmentContentsConfirmed,
-    true,
+    progress.pendingLanguagesHeldUntilFirstCrmAttachmentReadableConfirmed,
+    false,
   );
   assert.equal(first.language, 'hr');
   assert.equal(first.httpStatus, 200);
@@ -399,12 +399,18 @@ test('owner-evidenced HR inbox and CRM receipt do not prove CRM PDF contents or 
   assert.equal(first.crmReceiptEvidence.languageIsCroatian, true);
   assert.equal(first.crmReceiptEvidence.sourceIsWeb, true);
   assert.equal(first.crmReceiptEvidence.attachmentLinkVisible, true);
+  assert.equal(first.crmReceiptEvidence.pdfOpenedAndReadableConfirmed, true);
   assert.equal(first.crmReceiptEvidence.pdfOpenedAndContentsConfirmed, false);
+  assert.equal(
+    first.crmReceiptEvidence.downloadedAttachmentHashVerified,
+    false,
+  );
   assert.equal(
     first.crmReceiptEvidence.screenshotOrPersonalContactCopiedIntoRepository,
     false,
   );
-  assert.equal(first.crmAttachmentConfirmed, false);
+  assert.equal(first.crmAttachmentConfirmed, true);
+  assert.equal(first.deliveryReceiptAndReadableAttachmentsAccepted, true);
   assert.equal(first.mailAttachmentConfirmed, true);
   assert.equal(first.newFrontendEndToEndTest, false);
   assert.equal(progress.publicSiteActivated, false);
