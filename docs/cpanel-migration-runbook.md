@@ -652,3 +652,87 @@ lokalizacije. Točan `.htaccess` merge radi se tek uz kopiju postojećeg
 - Ne commitati `local.php`, SMTP vjerodajnice, CRM ključ, logove ili mail spool.
 - Ne objavljivati prije uspješnog rollback testa.
 - Ne uklanjati postojeći form backend prije potvrđenog ekvivalenta.
+
+## Kratki SEO/tracking prihvat — 2. listopada 2026.
+
+Ovo je aktualni sažetak za vlasnika i SEO kolegu, ne odobrenje aktivacije.
+Javni web nije mijenjan ovom provjerom i nije poslan novi POST. HR test je
+potvrđen u CRM-u; inbox i otvoreni PDF još čekaju potvrdu. Raniji redirect
+prijedlozi nisu aktivna konfiguracija niti potvrda migracije svih URL-ova.
+
+### Dosad provjereno
+
+| Predmet                                                 | Dokaz i rezultat                                                                                                                                     | Granica dokaza                                                                                   |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Produkcijski host/PHP routing i očuvanje starih pravila | `npm run test:deployment`: 5/5 prolazi; test stvarnog Apachea preskočen u ovom prolazu.                                                              | Nije runtime potvrda sadašnjeg cPanela ili buduće aktivacije.                                    |
+| Putanje, canonical, slashless linkovi i sitemap         | `node --test scripts/page-routing.test.mjs`: 2/2 prolazi na postojećem lokalnom buildu, bez rebuilda.                                                | Ne provjerava HTTP odgovore produkcijskog servera ni sadržajnu ekvivalenciju starih URL-ova.     |
+| Identitet paketa                                        | SHA-256 `bee2a78a94ff223a1e8c008f97886632b43d7de2fc6853a230d5de9432c19a1b`; 140 unutarnjih statičkih ruta, uz početni `index.html`.                  | Ispravljeni `-perms.zip` još nije potvrđen kao uploadan/raspakiran na serveru.                   |
+| Tracking u stvarnom ZIP-u                               | Naslovnica sadrži `GTM-K3QGWS`, bez zasebne CookieYes ili GA/gtag script-src integracije; zajednički loader aktivan samo na produkcijskim hostovima. | Pregled koda, ne potvrda stvarnih consent događaja, kolačića ili mjerenja.                       |
+| Naslijeđena redirect odredišta                          | Svih deset ranije zabilježenih odredišta i dalje nedostaje u statičkoj mapi ovog ZIP-a.                                                              | PHP fallback može odgovoriti; izostanak HTML-a nije sam po sebi dokaz 404 niti ispravne zamjene. |
+
+Odredišta za ciljanu provjeru i sadržajnu odluku:
+
+```text
+/en/about-us
+/alloggio
+/hr/testimonials-edita-karadole-glumica
+/hr/desinfekcija
+/hr/testimonials-zoran-roje-sportski-direktor
+/hr/technologija
+/hr/klinicko-produzenje-krune-prirodnog-zuba
+/hr/keramicki-most-na-prirodnim-zubima
+/hr/testimonials
+/hr/keramicki-most-na-svim-implantatima
+```
+
+### Sljedeći read-only zadatak za cPanel/browser agenta
+
+1. Ne instalirati, preimenovati, brisati, aktivirati release ili mijenjati
+   `.htaccess`, PHP, DNS, GTM ni CookieYes. Ne stvarati nove API/SSH pristupe.
+   Ne slati forme, ne ponavljati HR upit i ne otvarati privatne poruke/tajne.
+2. U File Manageru usporediti sadašnji `public_html/.htaccess` s prihvaćenom
+   izvornom kopijom i pripremljenom release konfiguracijom. Zabilježiti
+   eventualne nove/izmijenjene redirekcije, prioritete i konflikt s novim
+   rutama. Dopuštena uklanjanja ostaju samo prethodno odobrena dva pravila.
+   Stari nesigurni stage `20261001-af6dc28` nije paket za aktivaciju.
+3. Običnim GET-om provjeriti deset navedenih odredišta na sadašnjem javnom
+   webu: ulazni URL, status, lanac/konačni URL, title, canonical i jezik.
+   Odvojiti postojeće ponašanje od očekivanog ponašanja novog releasea.
+   Ako alat blokira pristup ili ne prikazuje statuse, označiti neprovjereno;
+   ne zaobilaziti sigurnosnu blokadu niti zaključivati status iz izgleda.
+4. Provjeriti HTTP/HTTPS i www/non-www te primjer sa slashom i bez slasha,
+   uz neutralni query `?dv_migration_check=1` (ne reklamni UTM). Potvrditi
+   očuvanje queryja i odsutnost petlje. To je baseline starog servera.
+5. Izvještaj vratiti kao kratku tablicu: `provjera | očekivano | opaženo |
+dokaz/datum | prolazi/ne prolazi/neprovjereno | sljedeći korak`. Bez
+   cookie/token vrijednosti, tajni ili podataka pacijenata. Stani nakon
+   jednog prolaza; ne popravljaj sadržajne odluke samostalno.
+
+### Jedan zajednički prihvat novog weba, bez ponavljanja migracije
+
+- Prije aktivacije: mapirati sve poznate stare URL-ove, ne samo deset gore.
+  SEO kolega dopunjuje postojeći inventar važnim Search Console/backlink
+  URL-ovima ako ima pristup. Svaki red dobiva odluku: ostaje, ekvivalentni
+  301, prethodno odobreni 410 ili odluka vlasnika. Ne slati sve na naslovnicu.
+- Na dostupnom, zasebno odobrenom stagingu s istim Apache pravilima ili u
+  kontroliranom aktivacijskom prozoru: jedan GET prolaz kroz cijelu mapu,
+  uz statuse, završne ciljeve, petlje/lance, query, canonical/hreflang,
+  sitemap/robots, pravi 404 i odobrene 410. Privatna release mapa nije javni
+  staging; njezin pregled ne dokazuje HTTP ponašanje budućeg weba.
+- GTM/CookieYes: na novom produkcijskom webu provjeriti samo jedan loader
+  istog kontejnera, početno consent stanje, odbijanje, prihvaćanje i promjenu
+  izbora. U Tag Assistantu pratiti `analytics_storage`, `ad_storage`,
+  `ad_user_data` i `ad_personalization`; provjeriti stvarne kolačiće i događaje
+  prema postojećem basic/advanced režimu. Sama mrežna aktivnost prije privole
+  nije dovoljna za zaključak: advanced mode može slati cookieless pingove.
+- Pet thank-you adresa ostaje nepromijenjeno. Konverziju provjeriti tijekom
+  već odobrenog sintetičkog toka nakon zatvaranja prethodnog inbox/PDF koraka,
+  bez dodatnog HR ponavljanja ili ručnog stvaranja konverzija. GTM postavke
+  ne objavljivati niti dodavati GA/Ads/CookieYes skripte radi testa.
+- Završni izvještaj odvojeno označava lokalne provjere, server/browser
+  dokaze i neprovjereno. Aktivaciju ne proglasiti uspješnom samo zbog 200
+  naslovnice. Ako obvezne provjere ne prođu, upotrijebiti odobren postupak
+  povratka javnog koda, bez vraćanja novih podataka/CRM-a starim backupom.
+
+Metoda prati [Googleov migracijski postupak](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes)
+i [provjeru Consent Modea kroz Tag Assistant](https://developers.google.com/tag-platform/security/guides/consent-debugging).
