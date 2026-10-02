@@ -1,5 +1,5 @@
 {
-  "reviewedOn": "2026-10-01",
+  "reviewedOn": "2026-10-02",
   "source": {
     "kind": "owner-supplied-redacted-cpanel-read-only-audit",
     "sha256": "86ded1396f09d2a32bc9bd2fcc1a7c0aa4b93b563bd037a86b2b9b01f7d0cb23"
@@ -49,7 +49,17 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "awaiting-owner-inbox-and-open-PDF-confirmation-after-HR-CRM-receipt-before-new-upload-without-public-activation",
+    "nextCheck": "awaiting-owner-CRM-open-PDF-confirmation-after-HR-inbox-and-mail-PDF-receipt-before-new-upload-without-public-activation",
+    "cloudflarePreviewRetirement": {
+      "reportedOn": "2026-10-02",
+      "source": "owner-dashboard-screenshots-and-owner-request-to-leave-this-for-now",
+      "projectName": "dent-vitalis-web",
+      "customDomainsEmptyAsShownByOwner": true,
+      "deletionAttemptBlockedByTooManyDeployments": true,
+      "projectDeletionConfirmed": false,
+      "status": "paused-at-owner-request-do-not-retry-during-migration",
+      "productionDnsOrCpanelChanged": false
+    },
     "recordAfterEachStep": [
       "date",
       "input-or-release-hash",
@@ -434,7 +444,8 @@
     "submissionsAttempted": 1,
     "automaticRetriesPerformed": 0,
     "pendingLanguages": ["it", "de", "en", "sl"],
-    "pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed": true,
+    "pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed": false,
+    "pendingLanguagesHeldUntilFirstCrmAttachmentContentsConfirmed": true,
     "firstTest": {
       "marker": "DV-MIG-20261001-HR-152910Z",
       "language": "hr",
@@ -458,7 +469,20 @@
       "existingMailRecipientsAndCrmNotChanged": true,
       "campaignActionEmpty": true,
       "personalContactOrTokenValuesRecorded": false,
-      "inboxReceiptConfirmed": false,
+      "inboxReceiptConfirmed": true,
+      "mailReceiptEvidence": {
+        "reportedOn": "2026-10-02",
+        "source": "owner-confirmation-and-screenshot-of-forwarded-test-email-with-open-PDF",
+        "testMarkerMatches": true,
+        "originalMessageTimestampMatchesTest": true,
+        "senderFieldsMatchApprovedTestContact": true,
+        "messageClearlyMarkedAsNonPatientTest": true,
+        "originalRecipientVisibleInForwardedHeaders": true,
+        "attachmentOpenedAndNeutralTestTextVisible": true,
+        "downloadedAttachmentHashVerified": false,
+        "independentRecipientMailboxAccessPerformed": false,
+        "screenshotPersonalContactOrMailboxValuesCopiedIntoRepository": false
+      },
       "crmLeadConfirmed": true,
       "crmReceiptEvidence": {
         "reportedOn": "2026-10-02",
@@ -474,7 +498,7 @@
         "screenshotOrPersonalContactCopiedIntoRepository": false
       },
       "crmAttachmentConfirmed": false,
-      "mailAttachmentConfirmed": false,
+      "mailAttachmentConfirmed": true,
       "newFrontendEndToEndTest": false
     },
     "publicSiteActivated": false

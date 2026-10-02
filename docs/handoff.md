@@ -14,12 +14,18 @@ backend sa svježim tokenima iste sesije, bez promjene primatelja/CRM-a.
 640 B PDF je sintetički bez podataka pacijenta. Odgovor: 200 JSON `status:ok`,
 `no-store`, bez vidljive PHP greške. Vlasnikov CRM screenshot od 2. listopada
 potvrđuje ovaj lead/oznaku, HR, izvor Web, kontakte i TEST poruku. PDF link je
-vidljiv, ali otvaranje/sadržaj još nisu potvrđeni. Screenshot/kontakti nisu u
-repozitoriju. Inbox i privici još nisu potvrđeni. Ostali IT/DE/EN/SL čekaju
-prvu inbox/PDF potvrdu, bez auto-retryja ili switcha.
+vidljiv, ali otvaranje/sadržaj CRM kopije još nisu potvrđeni. Vlasnik je 2. listopada potvrdio primitak e-maila i prikazao proslijeđenu poruku s
+otvorenim PDF-om: točna TEST oznaka, odgovarajuće vrijeme i neutralni tekst.
+HR inbox i e-mail PDF potvrđeni su vlasničkim dokazom, ne neovisnim mailbox
+pristupom ili hashom preuzetog privitka. Screenshot/kontakti/mailbox adrese
+nisu u repozitoriju. Ostali IT/DE/EN/SL nisu poslani; još čekaju otvaranje
+CRM kopije PDF-a, bez auto-retryja ili switcha.
 To nije end-to-end test novog frontend izgleda. Oznaka/metadata u JSON-u,
-nikad kontakt ili vrijednosti tokena. Sljedeće: vlasnik provjerava samo ovaj
-test u primateljskom inboxu i otvaranje PDF-a prije daljnjih upita.
+nikad kontakt ili vrijednosti tokena. Sljedeće: potvrditi sadržaj CRM kopije
+istog PDF-a i nastaviti odobrene preostale testove, bez ponavljanja HR-a.
+Cloudflare Pages projekt nema custom domene prema vlasnikovu prikazu;
+brisanje je blokirano brojem objava i nije završeno. Vlasnik je zatražio da
+ga zasad ostavimo; ne ponavljati brisanje ili uvoditi novi pristup radi toga.
 
 Prethodno je vlasnički odobrenu instalaciju dva privatna PHP dodatka i
 minimalnog `/send` diffa agent je završio, read-back/`0644` potvrđeni prema
@@ -39,7 +45,7 @@ Javne aktivacije nema. PHP ekstenzije i CRM poslovni ugovor nisu time provjereni
 Privatni stage ostaje sačuvan; ne ponavljati instalaciju ili backup (vlasnik
 je potvrdio lokalni integritet i dodatnu kopiju). Serverski source hashovi
 nisu neovisno potvrđeni. Aktualni sljedeći korak je session pregled
-i zasebno odobren inbox/CRM prihvat prije javnog uploada i switcha.
+i dovršetak već odobrenog prihvata ostalih jezika prije javnog uploada i switcha.
 
 Prethodno je drugi browser agent završio read-only pregled stagea i formi.
 Tada nije bilo instaliranih PHP token/upload dodataka; runtime/dostava nisu bili testirani,

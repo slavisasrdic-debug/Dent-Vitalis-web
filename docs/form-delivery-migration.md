@@ -19,10 +19,14 @@ Prvi HR POST `DV-MIG-20261001-HR-152910Z` poslan je jednom u 15:29:10 UTC
 na postojeći `/send`, sa svježim tokenima iste sesije, bez izmjene primatelja
 ili CRM-a. HTTP 200 JSON `status:ok`, `no-store`; 640 B sintetički PDF.
 Vlasnikov CRM screenshot od 2. listopada potvrđuje ovaj lead/oznaku, HR, izvor
-Web, kontakte i TEST poruku. PDF link je vidljiv, ali otvaranje/sadržaj nije
-potvrđeno. Ne pohranjuju se screenshot ili kontaktne vrijednosti. Stvarni
-inbox i privici još nisu potvrđeni. Preostala četiri jezika čekaju inbox/PDF
-potvrdu. Nema auto-retryja ili javne aktivacije. Izravni
+Web, kontakte i TEST poruku. CRM PDF link je vidljiv, ali njegova kopija još
+nije otvorena/sadržajno potvrđena. Vlasnik je 2. listopada potvrdio dolazak
+e-maila i prikazao proslijeđenu poruku s otvorenim PDF-om: točna oznaka,
+odgovarajuće izvorno vrijeme i neutralni TEST tekst. HR inbox i e-mail PDF
+potvrđeni su vlasničkim dokazom; nema neovisnog mailbox pristupa ni hasha
+preuzetog privitka. Ne pohranjuju se screenshot, kontakti ili mailbox adrese.
+Preostala četiri jezika još nisu poslani; prije njih zatvoriti otvaranje CRM
+kopije PDF-a. Nema auto-retryja ili javne aktivacije. Izravni
 backend POST nije potvrda end-to-end novog frontend/thank-you/GTM toka.
 
 Browser agent potvrđuje instalaciju oba PHP dodatka i minimalnog transport
@@ -34,8 +38,9 @@ poklapanje GCT-a i stabilan CSRF/GCT unutar iste sesije. Tokeni nisu zapisani.
 Cookie: Secure true, HttpOnly false, SameSite nije eksplicitno naveden.
 Vlasnikov obični Chrome GET `/form-tokens` naknadno je potvrđen screenshotom
 JSON-a s oba neprazna polja; u repozitorij se ne spremaju tokeni/screenshot.
-End-to-end browser submit, cookie hardening, stvarni POST/privitak, efektivne ekstenzije,
-CRM poslovni odgovor i stvarna dostava ostaju neprovjereni. Transport patch
+End-to-end browser submit, cookie hardening, efektivne ekstenzije, CRM
+poslovni odgovor i prihvat ostalih jezika ostaju neprovjereni. Naknadni HR
+POST, inbox/lead i e-mail privitak imaju dokaze opisane iznad. Transport patch
 za SMTP/cURL/HTTP greške nije dokaz CRM poslovne potvrde.
 Novi javni upload je zadržan do backend prihvata;
 operativni slijed je isključivo u cPanel runbooku.

@@ -210,7 +210,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
   assert.match(
     report.procedure.nextCheck,
-    /awaiting-owner-inbox-and-open-PDF-confirmation/,
+    /awaiting-owner-CRM-open-PDF-confirmation/,
   );
   assert.ok(
     report.serverGates.includes(
@@ -354,7 +354,7 @@ test('installed backend and independent GET acceptance do not imply browser, POS
   assert.equal(report.realTestMessagesSent, true);
 });
 
-test('one approved synthetic POST is not mistaken for confirmed receipt or all five languages', () => {
+test('owner-evidenced HR inbox and CRM receipt do not prove CRM PDF contents or all five languages', () => {
   const progress = report.syntheticDeliveryTestProgress;
   const first = progress.firstTest;
   assert.equal(progress.maximumApprovedSubmissions, 5);
@@ -363,6 +363,10 @@ test('one approved synthetic POST is not mistaken for confirmed receipt or all f
   assert.deepEqual(progress.pendingLanguages, ['it', 'de', 'en', 'sl']);
   assert.equal(
     progress.pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed,
+    false,
+  );
+  assert.equal(
+    progress.pendingLanguagesHeldUntilFirstCrmAttachmentContentsConfirmed,
     true,
   );
   assert.equal(first.language, 'hr');
@@ -371,7 +375,25 @@ test('one approved synthetic POST is not mistaken for confirmed receipt or all f
   assert.equal(first.attachment.type, 'application/pdf');
   assert.equal(first.attachment.containsPatientData, false);
   assert.equal(first.personalContactOrTokenValuesRecorded, false);
-  assert.equal(first.inboxReceiptConfirmed, false);
+  assert.equal(first.inboxReceiptConfirmed, true);
+  assert.equal(first.mailReceiptEvidence.testMarkerMatches, true);
+  assert.equal(
+    first.mailReceiptEvidence.attachmentOpenedAndNeutralTestTextVisible,
+    true,
+  );
+  assert.equal(
+    first.mailReceiptEvidence.downloadedAttachmentHashVerified,
+    false,
+  );
+  assert.equal(
+    first.mailReceiptEvidence.independentRecipientMailboxAccessPerformed,
+    false,
+  );
+  assert.equal(
+    first.mailReceiptEvidence
+      .screenshotPersonalContactOrMailboxValuesCopiedIntoRepository,
+    false,
+  );
   assert.equal(first.crmLeadConfirmed, true);
   assert.equal(first.crmReceiptEvidence.testMarkerMatches, true);
   assert.equal(first.crmReceiptEvidence.languageIsCroatian, true);
@@ -383,9 +405,16 @@ test('one approved synthetic POST is not mistaken for confirmed receipt or all f
     false,
   );
   assert.equal(first.crmAttachmentConfirmed, false);
-  assert.equal(first.mailAttachmentConfirmed, false);
+  assert.equal(first.mailAttachmentConfirmed, true);
   assert.equal(first.newFrontendEndToEndTest, false);
   assert.equal(progress.publicSiteActivated, false);
+  const cloudflare = report.procedure.cloudflarePreviewRetirement;
+  assert.equal(cloudflare.projectDeletionConfirmed, false);
+  assert.equal(cloudflare.deletionAttemptBlockedByTooManyDeployments, true);
+  assert.equal(
+    cloudflare.status,
+    'paused-at-owner-request-do-not-retry-during-migration',
+  );
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {
