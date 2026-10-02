@@ -210,7 +210,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
   assert.match(
     report.procedure.nextCheck,
-    /awaiting-owner-inbox-and-CRM-receipt/,
+    /awaiting-owner-inbox-and-open-PDF-confirmation/,
   );
   assert.ok(
     report.serverGates.includes(
@@ -372,7 +372,16 @@ test('one approved synthetic POST is not mistaken for confirmed receipt or all f
   assert.equal(first.attachment.containsPatientData, false);
   assert.equal(first.personalContactOrTokenValuesRecorded, false);
   assert.equal(first.inboxReceiptConfirmed, false);
-  assert.equal(first.crmLeadConfirmed, false);
+  assert.equal(first.crmLeadConfirmed, true);
+  assert.equal(first.crmReceiptEvidence.testMarkerMatches, true);
+  assert.equal(first.crmReceiptEvidence.languageIsCroatian, true);
+  assert.equal(first.crmReceiptEvidence.sourceIsWeb, true);
+  assert.equal(first.crmReceiptEvidence.attachmentLinkVisible, true);
+  assert.equal(first.crmReceiptEvidence.pdfOpenedAndContentsConfirmed, false);
+  assert.equal(
+    first.crmReceiptEvidence.screenshotOrPersonalContactCopiedIntoRepository,
+    false,
+  );
   assert.equal(first.crmAttachmentConfirmed, false);
   assert.equal(first.mailAttachmentConfirmed, false);
   assert.equal(first.newFrontendEndToEndTest, false);

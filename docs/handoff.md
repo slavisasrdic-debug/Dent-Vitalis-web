@@ -12,11 +12,14 @@ bezopasni PDF; kontakt pošiljatelja nije pohranjen u repozitorij. Prvi HR POST
 `DV-MIG-20261001-HR-152910Z` poslan je jednom, 15:29:10 UTC, kroz postojeći
 backend sa svježim tokenima iste sesije, bez promjene primatelja/CRM-a.
 640 B PDF je sintetički bez podataka pacijenta. Odgovor: 200 JSON `status:ok`,
-`no-store`, bez vidljive PHP greške. Inbox, CRM lead i oba privitka još nisu
-potvrđeni. Ostali IT/DE/EN/SL čekaju prvu potvrdu, bez auto-retryja ili switcha.
+`no-store`, bez vidljive PHP greške. Vlasnikov CRM screenshot od 2. listopada
+potvrđuje ovaj lead/oznaku, HR, izvor Web, kontakte i TEST poruku. PDF link je
+vidljiv, ali otvaranje/sadržaj još nisu potvrđeni. Screenshot/kontakti nisu u
+repozitoriju. Inbox i privici još nisu potvrđeni. Ostali IT/DE/EN/SL čekaju
+prvu inbox/PDF potvrdu, bez auto-retryja ili switcha.
 To nije end-to-end test novog frontend izgleda. Oznaka/metadata u JSON-u,
 nikad kontakt ili vrijednosti tokena. Sljedeće: vlasnik provjerava samo ovaj
-test u primateljskom inboxu i CRM-u prije daljnjih upita.
+test u primateljskom inboxu i otvaranje PDF-a prije daljnjih upita.
 
 Prethodno je vlasnički odobrenu instalaciju dva privatna PHP dodatka i
 minimalnog `/send` diffa agent je završio, read-back/`0644` potvrđeni prema

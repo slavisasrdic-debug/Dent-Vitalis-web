@@ -23,8 +23,12 @@ Ime/poruka/privitak jasno označavaju TEST MIGRACIJE, nije upit pacijenta.
 Odgovor u 15:29:11 UTC: HTTP 200, JSON `status:ok`, `no-store`, bez vidljive
 PHP greške. PDF ima 640 B; naziv/hash u readiness JSON-u. To je izravni
 backend test, ne end-to-end submit novog frontend izgleda ili dokaz dostave.
-Inbox, CRM lead i oba privitka još nisu potvrđeni. Preostala četiri jezika
-čekaju vlasnikovu potvrdu prvog inboxa/leada, bez auto-retryja. Ne slati isti
+Vlasnikov CRM screenshot od 2. listopada potvrđuje upravo ovu oznaku, hrvatski
+jezik, izvor Web, odgovarajuće kontaktne podatke i poruku označenu kao TEST.
+CRM lead je potvrđen; link na privitak je vidljiv, ali PDF još nije otvoren
+ili sadržajno potvrđen. Screenshot/kontakti ne pohranjuju se u repozitorij.
+Inbox i privici još nisu potvrđeni. Preostala četiri jezika
+čekaju vlasnikovu potvrdu prvog inboxa i PDF-a, bez auto-retryja. Ne slati isti
 upit ponovno samo zato što vlasnik još nije pronašao poruku.
 
 **Najnovije — privatni PHP instaliran, neovisni GET prihvat prošao:** agent

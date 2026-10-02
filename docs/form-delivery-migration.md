@@ -18,8 +18,11 @@ bezopasni PDF i dostavio kontakt testnog pošiljatelja. Ti kontakti nisu u Gitu.
 Prvi HR POST `DV-MIG-20261001-HR-152910Z` poslan je jednom u 15:29:10 UTC
 na postojeći `/send`, sa svježim tokenima iste sesije, bez izmjene primatelja
 ili CRM-a. HTTP 200 JSON `status:ok`, `no-store`; 640 B sintetički PDF.
-Stvarni inbox, CRM lead i oba privitka još nisu potvrđeni. Preostala četiri
-jezika čekaju tu potvrdu. Nema auto-retryja ili javne aktivacije. Izravni
+Vlasnikov CRM screenshot od 2. listopada potvrđuje ovaj lead/oznaku, HR, izvor
+Web, kontakte i TEST poruku. PDF link je vidljiv, ali otvaranje/sadržaj nije
+potvrđeno. Ne pohranjuju se screenshot ili kontaktne vrijednosti. Stvarni
+inbox i privici još nisu potvrđeni. Preostala četiri jezika čekaju inbox/PDF
+potvrdu. Nema auto-retryja ili javne aktivacije. Izravni
 backend POST nije potvrda end-to-end novog frontend/thank-you/GTM toka.
 
 Browser agent potvrđuje instalaciju oba PHP dodatka i minimalnog transport
