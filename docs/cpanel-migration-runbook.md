@@ -75,6 +75,11 @@ niti blog. Postojanje tog novog naziva još nije provjereno. Stari `redirects-v2
 nazivi niže povijesni su prijedlog, ne nalog za pripremu ili aktivaciju v3.
 Aktualni zapis: readiness `fileManagerProgress.localizedV3Stage`.
 
+Vlasnik je zatim odgovorom „da” odobrio izoliranu pripremu navedenog v3
+next roota bez bloga, uz očuvanje bootstrap/resursa. Ovo nije odobrenje
+preimenovanja javnog direktorija, aktivacije, backend izmjena ili novih
+POST-ova. Priprema još nije prijavljena kao izvedena.
+
 **Raniji read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
 prikaz može kasniti, filesystem i inodeovi nisu potvrđeni. Sadašnji

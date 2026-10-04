@@ -62,7 +62,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "localized-v3-private-stage-reported-complete-prepare-isolated-next-root-without-blog-after-owner-approval-and-confirm-current-capacity-preservation-and-code-rollback-before-public-activation",
+    "nextCheck": "owner-approved-localized-v3-isolated-next-root-preparation-without-blog-confirm-current-capacity-preservation-and-code-rollback-stop-before-public-activation",
     "localizedLinkAudit": {
       "openedOn": "2026-10-04",
       "status": "local-audit-passed-localized-v3-private-stage-reported-complete-not-publicly-activated-old-candidate-must-not-be-activated",
@@ -372,6 +372,12 @@
       "estimateBasis": "subtract previously reported blog size 155.19 MB from earlier next-root estimate 231.5 MB; not a new server measurement",
       "storageDisplayMayLag": true,
       "repeatUploadExtractionOrPermissionAuditWithoutNewFailure": false,
+      "nextRootPreparationAuthorized": true,
+      "nextRootPreparationAuthorizationSource": "owner-message-da-in-response-to-isolated-next-root-preparation-without-public-switch",
+      "proposedNextRoot": "/home2/dentvita/public_html-next-20261004-localized-v3/",
+      "proposedNextRootExistenceVerified": false,
+      "publicSwitchAuthorizedByThisPreparationApproval": false,
+      "backendChangeOrPostAuthorizedByThisPreparationApproval": false,
       "nextRootPreparationPerformed": false,
       "publicSiteActivated": false,
       "applicationDnsPhpAndBackupsUnchangedAsReported": true
