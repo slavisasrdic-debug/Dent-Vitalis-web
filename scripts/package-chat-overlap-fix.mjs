@@ -5,6 +5,7 @@ import { chmod, mkdir, mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
 import receipt from '../data/seo/whatsapp-brand-update-20261004.json' with { type: 'json' };
+import v8Receipt from '../data/seo/cpanel-galleria-v8-release-20261004.json' with { type: 'json' };
 
 // Narrow patch for an active v9. No routing/content decisions or full redeploy.
 const root = resolve(import.meta.dirname, '..');
@@ -77,6 +78,21 @@ for (const entry of base.files.filter(
   (entry) => !entry.path.endsWith('.html'),
 )) {
   if (['.htaccess', '_redirects'].includes(entry.path)) continue;
+  if (entry.path === 'page-routes.json') {
+    // Build enumeration order is nondeterministic; the mapping is unchanged.
+    // Do not include or rewrite this file in the patch: production keeps v9.
+    const before = execFileSync('unzip', [
+      '-p',
+      join(root, '.astro/releases', v8Receipt.archiveName),
+      entry.path,
+    ]);
+    assert.equal(sha256(before), entry.sha256);
+    assert.deepEqual(
+      JSON.parse(await readFile(join(root, 'dist', entry.path))),
+      JSON.parse(before),
+    );
+    continue;
+  }
   assert.equal(
     sha256(await readFile(join(root, 'dist', entry.path))),
     entry.sha256,
