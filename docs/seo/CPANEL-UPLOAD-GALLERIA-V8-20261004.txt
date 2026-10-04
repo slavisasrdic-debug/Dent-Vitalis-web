@@ -1,7 +1,54 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
-STOP — NAJNOVIJE: V8 AKTIVACIJA VRATILA "Index of /", KODNI POVRATAK IZVEDEN
-Ovaj odjeljak ima prednost nad svim ranijim aktivacijskim uputama ispod.
+AKTUALNO — VLASNIK ODOBRAVA JEDAN KONTROLIRANI DIJAGNOSTIČKI POKUŠAJ
+Vlasnik 4.10.2026. nakon read-only nalaza izričito traži nastavak objave:
+"AJmo to dignuti". R1–R5 imaju prednost nad svim starim STOP/A/B/N/H uputama
+ispod. Uzrok prvog incidenta NIJE utvrđen i NIJE napravljen dokazani ispravak.
+Ovo nije jamstvo uspjeha ni ponavljanje bez dodatnog opažanja: nakon oba renamea
+odvojeno provjeravamo izravni index.html, korijen sa svježim queryjem i goli /.
+Jedan pokušaj, bez čekanja administratora; ne ponavljati treći ako ponovno zakaže.
+
+R1. Koristi POSTOJEĆI v8 /home2/dentvita/public_html-failed-20261004-galleria-v8/.
+    Ne uploadati/Extract/kopirati novu kopiju. Stari web je /home2/dentvita/public_html/.
+    Potvrdi dostupnost File Managera za rollback, v8 revision i ključne datoteke
+    iz prethodnog završenog audita. Provjeri da ovi nazivi NE POSTOJE:
+    /home2/dentvita/public_html-before-20261004-galleria-v8-retry-01/
+    /home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/
+    /home2/dentvita/public_html-unexpected-20261004-galleria-v8-retry-01/
+    Ako postoji sukob/bitna razlika, ne prepisuj i STANI prije prvog renamea.
+R2. Najavi vlasniku početak kratkog aktivacijskog prozora i zapiši vrijeme sa
+    zonom. Preimenuj SAMO stari public_html u before-...-retry-01, zatim v8 failed
+    iz R1 u public_html. Potvrdi USPJEH OBA preimenovanja i postojanje v8 indexa
+    u novom public_html. Ne otvaraj javnu naslovnicu između dvaju preimenovanja.
+    Ako drugo zakaže, odmah vrati before na public_html. Ako se u međuvremenu
+    pojavi drugi public_html, ne briši/prepisuj: potvrdi da je izvorni stari root
+    u before i v8 još u failed, sačuvaj taj neočekivani root pod slobodnim
+    unexpected-...-retry-01 nazivom pa vrati poznati stari root. Zapiši događaj.
+    Ako identitet direktorija nije jasan, zatraži pomoć vlasnika bez nagađanja.
+R3. ODMAH nakon R2 pošalji stvarne GET-ove, zabilježi vrijeme/status/title/Server
+    te relevantne cache/Location headere ako ih preglednik dopušta, bez cookieja:
+    https://www.dentvitalis.com/index.html?dvcheck=20261004retry01
+    https://www.dentvitalis.com/?dvcheck=20261004retry01
+    https://www.dentvitalis.com/
+    Svaki mora biti 200 i NOVI v8 HTML (ne samo 200, stari web ili listing).
+    Query nije jamstvo zaobilaženja serverskog cachea. Snimi stvarni novi prikaz.
+    Kod listinga, 403/404/5xx, starog sadržaja ili pogrešne rute: ako ne odgađa
+    povratak, spremi jedan screenshot/status i razliku index.html nasuprot /.
+    Odmah R5; ne isprobavati chmod, mijenjanje htaccessa, purge ili restart.
+R4. SAMO ako sve tri početne provjere prođu: izvrši ne-mutirajući završni B.9
+    prihvat pet jezika, resursa, gallery/slash/HTTPS-www/povijesnih redirecta,
+    XML/canonical/hreflang/404, očuvanih PHP ruta, GET tokena i GTM/CookieYes.
+    Stare dokazane backend POST-ove ne ponavljati. Test nije završen samim
+    prikazom naslovnice. Browser blokadu prijavi za ručni GET bez izlaganja
+    tokena; ne zaobilazi je niti tvrdi da je endpoint zbog nje serverski pao.
+R5. Kod ponovne regresije: public_html -> failed-...-retry-01, before-...-retry-01
+    -> public_html. Potvrdi stari prikaz i PHP GET. Bez trećeg pokušaja, brisanja,
+    vraćanja punog backupa ili promjena application/data, baze, CRM-a, DNS/PHP-a.
+    Ako sve prođe, sačuvaj before/backupove i dostavi provjereni runtime izvještaj.
+    Ne tvrdi da je cache bio uzrok čak i ako ovaj pokušaj uspije bez izmjena.
+
+POVIJESNI ZAPIS — PRETHODNI STOP I NALAZI (R1–R5 IZNAD IMAJU PREDNOST)
+V8 AKTIVACIJA VRATILA "Index of /", KODNI POVRATAK IZVEDEN
 Aktivni stari root: /home2/dentvita/public_html/ (0750 prema izvještaju).
 Sačuvani v8 root: /home2/dentvita/public_html-failed-20261004-galleria-v8/.
 Ne koristi više prethodni next naziv kao da je još aktualni v8 direktorij.

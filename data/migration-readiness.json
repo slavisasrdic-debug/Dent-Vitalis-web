@@ -62,7 +62,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "v8-rollback-diagnostics-completed-in-file-manager; resolve-live-host-directory-index-htaccess-application-and-swap-timing-before-reactivation",
+    "nextCheck": "owner-authorized-one-instrumented-v8-retry; direct-index-and-root-content-checks-after-both-renames; immediate-code-rollback-on-regression; then-full-runtime-acceptance",
     "galleriaV8": {
       "requestedOn": "2026-10-04",
       "ownerSource": "owner-requests-galleria-all-consumers-final-package-and-migration-and-confirms-SEO-master-approved-latest-proposal",
@@ -137,7 +137,35 @@
         "hostingContactAuthorized": false,
         "localApacheTestDoesNotEstablishLiteSpeedRuntimeAcceptance": true,
         "productionFixImplementedByThisAgent": false,
-        "realPostOrBackendDnsPhpChangesReported": false
+        "realPostOrBackendDnsPhpChangesReported": false,
+        "controlledDiagnosticRetry": {
+          "authorizedOn": "2026-10-04",
+          "ownerSource": "owner-message-Ma-u-cem-je-problem-Pa-testirao-si-prije-AJmo-to-dignuti",
+          "maxAdditionalAttempts": 1,
+          "reasonForRetry": "owner-requests-resumption; collect-direct-index-versus-root-evidence-only-after-both-confirmed-renames; not a verified fix",
+          "hostingAdminReportRequiredBeforeThisOneAttempt": false,
+          "savedCandidateRoot": "/home2/dentvita/public_html-failed-20261004-galleria-v8/",
+          "beforeRoot": "/home2/dentvita/public_html-before-20261004-galleria-v8-retry-01/",
+          "failedRootIfRetryFails": "/home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/",
+          "unexpectedRootRecoveryPath": "/home2/dentvita/public_html-unexpected-20261004-galleria-v8-retry-01/",
+          "allDestinationNamesMustBeAbsent": true,
+          "publicGetOnlyAfterBothRenamesConfirmed": true,
+          "firstChecks": [
+            "/index.html?dvcheck=20261004retry01",
+            "/?dvcheck=20261004retry01",
+            "/"
+          ],
+          "requireNewV8HtmlNotJustHttp200": true,
+          "queryProvesCacheBypass": false,
+          "minimalFailureEvidenceMustNotDelayRollback": true,
+          "blindPermissionsHtaccessOrCacheRestartChangesAllowed": false,
+          "repeatRealBackendPostsAllowed": false,
+          "fullRuntimeAcceptanceStillRequired": true,
+          "thirdAttemptAllowed": false,
+          "executed": false,
+          "succeeded": false,
+          "rootCauseEstablished": false
+        }
       },
       "uploaded": true,
       "uploadEvidenceKind": "owner-relayed-cpanel-agent-report-not-independent-server-hash-verification",

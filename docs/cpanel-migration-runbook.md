@@ -8,6 +8,34 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**AKTUALNO — vlasnik odobrava jedan kontrolirani dijagnostički pokušaj:**
+nakon read-only nalaza izričito traži "AJmo to dignuti". Uzrok prvog listinga
+ostaje nedokazan; nema tvrdnje da je paket popravljen ili hosting potvrđen.
+Odobrenje dopušta jedan instrumentirani pokušaj uz spreman kodni povratak,
+ne nasumični chmod, prepisivanje konfiguracije, cache purge ili restart.
+Ovaj odjeljak i R1–R5 na vrhu agentove upute imaju prednost nad povijesnim
+STOP zapisom i ranijim B/N/H uputama ispod. Hosting audit ostaje preporuka,
+ali vlasnik ovim nastavkom ne traži da ga čekamo prije jednog pokušaja.
+
+Koristi već verificirani saved v8 root, ne novu kopiju ili djelomični stage.
+Stari public_html sačuvati u slobodni public_html-before-20261004-galleria-v8-retry-01,
+v8 saved root preimenovati u public_html. Javni GET-ovi tek poslije potvrđenog
+uspjeha oba renamea: /index.html?dvcheck=20261004retry01, /?dvcheck=20261004retry01
+i goli /. Provjeriti stvarni novi HTML i status, ne samo 200. Novi query nije
+dokaz da je LiteSpeed cache zaobiđen. Ako ne radi, sačuvati minimalni dokaz bez
+odgađanja i odmah rollback u failed-...-retry-01 pa before -> public_html.
+Ne pokušavati treći put. Ako se pri drugom renameu neočekivano ponovno pojavi
+public_html, ne brisati/prepisivati; sačuvati ga recoverable pod prethodno
+slobodnim unexpected-...-retry-01 nazivom samo uz potvrđen identitet oba
+poznata roota, zatim vratiti stari. Sve je ograničeno na te javne direktorije.
+
+Ako tri početne provjere prođu, ostaje cijeli B.9 runtime prihvat pet jezika,
+resursa, SEO/routinga, GET tokena i consenta. Nema novih stvarnih POST-ova ni
+promjena backenda/DNS/PHP-a. Ovaj Codespaces rad ažurira uputu i odobrenje,
+ne izvodi cPanel preimenovanja. Produkcija nije proglašena aktiviranom.
+
+**Povijesni STOP i završeni nalazi — aktualni R1–R5 iznad imaju prednost:**
+
 **STOP — pokušaj v8 aktivacije vraćen zbog "Index of /":** vlasnik prenosi
 odmah izveden kodni povratak. Stari root je `/home2/dentvita/public_html/`
 (0750); v8 sačuvan u `/home2/dentvita/public_html-failed-20261004-galleria-v8/`.
