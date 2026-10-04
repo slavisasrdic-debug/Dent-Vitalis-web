@@ -45,6 +45,31 @@ test('created token and failed probe are not confused with confirmed authenticat
   );
 });
 
+test('reported routing-v2 stage permissions do not imply hashes or public activation', () => {
+  const stage = report.fileManagerProgress.routingRevisionStage;
+  assert.equal(stage.uploadedAsReported, true);
+  assert.equal(stage.extractedAsReported, true);
+  assert.equal(stage.fileCountAsReported, 692);
+  assert.equal(stage.directoryCountAsReported, 13);
+  assert.equal(stage.permissions.allPayloadFilesAsReported, '0644');
+  assert.equal(stage.permissions.allPayloadDirectoriesAsReported, '0755');
+  assert.equal(stage.permissions.fullAuditInspectedInThisWorkspace, false);
+  assert.equal(stage.serverExactBytesVerified, false);
+  assert.equal(stage.serverSha256Verified, false);
+  assert.equal(stage.allServerPayloadHashesVerified, false);
+  assert.equal(stage.publicSiteActivatedAsReported, false);
+  assert.equal(stage.publicHtmlOrApplicationModifiedAsReported, false);
+  assert.equal(stage.newPostOrTestAuthorized, false);
+  assert.equal(
+    stage.mustNotRepeatCompletedUploadExtractOrPermissionAuditWithoutNewEvidence,
+    true,
+  );
+  assert.match(
+    report.procedure.routes.fileManager.status,
+    /activation-not-tested/,
+  );
+});
+
 test('owner approval is recorded without inferring access, completed gates or real delivery', () => {
   assert.equal(report.productionDeploymentAuthorized, true);
   assert.equal(report.ownerAuthorization.dedicatedExpiringApiToken, true);
@@ -190,7 +215,7 @@ test('private staging and owner backup confirmation do not authorize live overwr
   assert.match(report.procedure.nextCheck, /without-public-activation/);
 });
 
-test('private upload and extraction evidence do not prove server integrity or safe permissions', () => {
+test('historical unsafe private stage does not prove integrity or close current delivery gates', () => {
   const stage = report.fileManagerProgress.isolatedStage;
   assert.equal(stage.uploadEvidence.displayedProgressPercent, 100);
   assert.equal(
@@ -262,7 +287,7 @@ test('limited File Manager is recorded; local repack does not imply server corre
   assert.equal(replacement.oldStageMustRemainUntouched, true);
 });
 
-test('latest read-only form audit holds new upload and cannot close delivery or runtime gates', () => {
+test('historical read-only form audit cannot close current delivery or runtime gates', () => {
   const audit = report.preActivationReadOnlyReview;
   assert.equal(audit.newUploadHeldUntilBackendPlanResolved, true);
   assert.equal(audit.tokenTemplateInstalledAsReported, false);
@@ -287,7 +312,8 @@ test('latest read-only form audit holds new upload and cannot close delivery or 
     false,
   );
   assert.ok(audit.rollbackMustNotRestore.includes('application/data'));
-  assert.match(report.procedure.nextCheck, /before-new-upload/);
+  assert.match(report.procedure.nextCheck, /stage-reported-complete/);
+  assert.match(report.procedure.nextCheck, /without-public-activation/);
 });
 
 test('private backend candidate is not a replacement handler or evidence of live delivery', () => {

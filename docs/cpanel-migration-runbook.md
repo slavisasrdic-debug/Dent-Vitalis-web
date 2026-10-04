@@ -8,6 +8,26 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Najnovije — routing-v2 privatni stage završen prema agentu, 4. listopada:**
+vlasnik je dostavio izvještaj i cPanel screenshot za
+`/home2/dentvita/releases/20261004-redirects-v2/`. Upload je 100 %, Extract
+bez prijavljenih grešaka; agent navodi 692 datoteke i 13 mapa te pregled
+korijena i svih podmapa: sve payload datoteke `0644`, sve mape `0755`, ZIP
+`0644`. Screenshot podupire korijenski popis; puni JSON audit na vlasnikovu
+Macu nije dostupan ovom Codespaceu i nije ovdje pročitan. Prihvatiti to kao
+agentov izvještaj, ne neovisnu provjeru svih serverskih datoteka.
+
+cPanel prikazuje ZIP `55,23 MB`, što odgovara zaokruženih 55,23 MiB za lokalnih
+57.909.892 B, ali ne potvrđuje točnu veličinu ili integritet. Serverski SHA-256
+i svi payload hashovi nisu provjereni; File Manager nema hash opciju prema
+agentu. Ne ponavljati upload, Extract ni pregled dozvola bez novog razloga.
+Ništa nije kopirano u `public_html` ili `application`; javni web nije aktiviran.
+Slijedi priprema očuvanja bootstrap/verifikacijskih i potrebnih starih javnih
+resursa te kodnog povratka, uz preostale release gates. Novi upiti nisu odobreni.
+Aktualni nalaz je `fileManagerProgress.routingRevisionStage` u readiness JSON-u.
+Lokalni routing audit i raniji Excel ostaju snimke trenutka prije uploada;
+njihove oznake „nije uploadan” nisu aktualni status ovog stagea.
+
 **Odobrene redirekcije — 4. listopada:** vlasnik je potvrdio šest 301 odluka u
 `data/seo/cpanel-redirect-decisions.json`. Stari ciljevi i izvorni aliasi vode
 izravno na nove slashless ciljeve; uklanja se samo suprotna pojava
@@ -53,7 +73,8 @@ novog PHP runtimea na produkciji. Sanitizirani zapis:
 `data/seo/cpanel-routing-revision-20261004.json`. Za SEO kolegu koristiti
 [aktualni CSV](seo/redirects-approved-20261004.csv) i
 [tumačenje](seo/redirects-approved-20261004-README.txt), ne prethodni snapshot.
-Paket nije uploadan/raspakiran na serveru, public aktivacija nije obavljena.
+To je lokalna snimka prije uploada; naknadni serverski stage opisan je na vrhu.
+Public aktivacija nije obavljena.
 
 **Aktualni smjer:** bez zahtjeva hosting podršci i bez pretpostavljenog SSH-a.
 API priprema je završena, ali prvi test veze nije prošao. Nastaviti pripremu

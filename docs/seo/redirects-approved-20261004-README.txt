@@ -36,7 +36,11 @@ PROVJERE I GRANICE
 sa supplied original .htaccess. Novi 301, aliasi, konacni 200, query,
 vr-tour i tri PHP fallback rute prolaze lokalno. CSV HTTP stupac je status
 u konfiguraciji; runtime_produkcije_novog_paketa_provjeren = ne.
-Paket NIJE uploadan/aktiviran. public_html, application, DNS i GTM nisu dirani.
+Lokalni audit opisuje trenutak prije uploada; novi web NIJE aktiviran.
+Naknadno agent prijavljuje 100 % upload i Extract u privatni
+/home2/dentvita/releases/20261004-redirects-v2/, svih 692 datoteke 0644
+i 13 mapa 0755. Serverski SHA-256 i tocna velicina nisu potvrdeni.
+public_html, application, DNS i GTM nisu dirani tim stage postupkom.
 Lokalni Extract: 692 datoteke 0644 i 13 mapa 0755. CRC prolazi.
 Promijenjeni samo .htaccess i manifest; ostalih 690 payload zapisa identicno.
 Prvi Apache startup imao je ECONNRESET, uzrok nije utvrdjen; dijagnosticki
@@ -46,7 +50,8 @@ OSTAJE PRIJE PRIHVATA MIGRACIJE
 CSV je potpuni popis pravila OVOG ZIP-a, ne dokaz odluke za svih 206 poznatih
 starih URL-ova. data/redirects.csv i dalje je proposal-only, ne deploy ulaz.
 Provjeriti ostatak inventara/bitne Search Console i backlink adrese.
-Na cPanelu nakon zasebnog odobrenja: integritet i dozvole Extracta, PHP rute,
+Ne ponavljati prijavljeni dovrseni upload/Extract/pregled dozvola bez razloga.
+Na cPanelu nakon zasebnog odobrenja: preostali integritet i prihvati, PHP rute,
 statusi/Location, lanci/petlje, query, canonical/hreflang, sitemap/robots,
 404/410 te GTM/CookieYes i konverzije. Backup/rollback ne prepisuje nove
 application/data ili CRM podatke. Preostale CRM/PDF potvrde jos nisu dobivene.
@@ -63,3 +68,5 @@ Generator provjerava sve izvorne stupce, duplikate, XML, ZIP CRC i svaku
 celiju nakon pakiranja. Ne sadrzi formule, makroe ni privatne podatke.
 Postojeci Excel ne prepisuje. Izvedeni XLSX ostaje u ignoriranoj .astro/;
 izvori i generator su u Gitu. Otvaranje u desktop Excelu nije testirano.
+Vec izrazeni Excel je snimka prije uploada; redirekcije nisu promijenjene.
+Aktualni privatni stage i granice dokaza opisani su iznad i u runbooku.
