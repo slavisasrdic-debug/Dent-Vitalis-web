@@ -1,0 +1,57 @@
+{
+  "archiveName": "dentvitalis-whatsapp-brand-update-20261004.zip",
+  "purpose": "Narrow optional update to already active v8; not a full migration release",
+  "compressedZipBytes": 2479804,
+  "sha256": "4b1804ce46124ccd4ff46391a9b8a7235640506f3e54230ab210f335684b255b",
+  "sourceGitCommit": "f8b4d106928fb8ec7869421b58d473ece144d02f",
+  "baseRevision": "20261004-galleria-v8",
+  "baseArchiveSha256": "d92be1d1578e66b70aa4461fbce74ea43c6d3c85cbdec078345aa1a634d94f66",
+  "revision": "20261004-whatsapp-brand-v9",
+  "publicFiles": 143,
+  "archiveFilesIncludingPrivateReadmeAndPatchManifest": 145,
+  "archiveDirectories": 10,
+  "contents": {
+    "changedHtml": 141,
+    "newCss": "_astro/ContactSection.Di0UOHGT.css",
+    "updatedFullStaticReleaseManifest": true,
+    "fullPagesDirectoryIncluded": true,
+    "oldCssMustRemainForRollback": "_astro/ContactSection.CY4QSA1n.css",
+    "htaccessSitemapRobotsOrPhpIncluded": false
+  },
+  "verification": {
+    "astroCheckFiles": 275,
+    "astroCheckErrorsAndWarnings": 0,
+    "targetedLintAndFormatting": "passed",
+    "whatsappAndFaviconPlaywrightTests": 17,
+    "migrationProcedureTests": 20,
+    "htmlComparedToImmutableV8": 142,
+    "htmlChangeScope": "original brand mark, CSS scope/hash attributes, generated instance IDs only",
+    "payloadHashesVerifiedFromFinalArchive": 143,
+    "crcAndUniqueEntries": "passed",
+    "fileAndDirectoryModes": "0644/0755",
+    "browserPlugin": "Browser plugin not available",
+    "fallback": "existing Playwright Chromium; no additional HTTP server",
+    "actualArchiveBrowserFlows": 10,
+    "languages": ["it", "hr", "de", "en", "sl"],
+    "archiveViewports": ["1440x900", "390x844"],
+    "previewAdditionalWidth": 320,
+    "identityNonblankOverlayConsoleAndInteractions": "passed",
+    "archiveBrowserConsoleErrors": 0,
+    "interaction": "load -> open native WhatsApp -> original DentVitalis mark -> Escape closes and restores focus",
+    "screenshotsVisuallyReviewedOutsideRepository": [
+      "/tmp/dentvitalis-brand-archive-it-1440.png",
+      "/tmp/dentvitalis-brand-archive-hr-390.png"
+    ],
+    "productionConsentBehaviorVerified": false
+  },
+  "duplicateWidget": {
+    "text": "Pošljite sporočilo",
+    "source": "separate Zendesk/Zopim launcher iframe plus existing GTM tag",
+    "gtmContainer": "GTM-K3QGWS",
+    "nativeWhatsAppButton": false,
+    "productionGtmChanged": false
+  },
+  "deploymentPerformed": false,
+  "newFormPostOrWhatsAppMessageSent": false,
+  "ownerPrivateEmailsOrTokenValuesRecorded": false
+}

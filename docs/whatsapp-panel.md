@@ -36,6 +36,15 @@ CSS scope/hash oznake, ne sadržaj, SEO, forme ili linkovi.
 jedan novi CSS i ažurirani puni manifest. Konfiguracija i XML ostaju v8;
 paket nije puni release i ne sadrži backend. Nije instaliran na produkciju.
 
+Završna arhiva `dentvitalis-whatsapp-brand-update-20261004.zip` ima 2.479.804 B;
+receipt: `data/seo/whatsapp-brand-update-20261004.json`. Provjereni CRC,
+svih 143 javnih hashova i sve dozvole 0644/0755. Samu kombinaciju nepromjenjivog
+v8 i ovog ZIP-a prošlo je 10 browser tokova (pet jezika × desktop/mobile):
+200, stvarni sadržaj/jezik, bez overlaya ili konzolnih grešaka, znak,
+otvaranje/Escape/fokus, očuvani broj i prostor iznad mobilnog CTA-a.
+Nije pokrenut dodatni server. Snimke nakon završetka animacija vizualno
+pregledane u `/tmp/dentvitalis-brand-archive-{it-1440,hr-390}.png`.
+
 ## Važeća dopuna — 4. listopada 2026.
 
 Vlasnik je dostavio novih pet javnih Elfsight ID-jeva. Njihove stvarne
