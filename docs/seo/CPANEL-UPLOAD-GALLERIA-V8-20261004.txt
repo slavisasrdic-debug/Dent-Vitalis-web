@@ -1,6 +1,12 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
 AKTUALNO — ZAMJENA SADRŽAJA U IZVORNOJ MAPI, BEZ ROOT RENAMEA
+J0 PROŠAO NEOVISNIM GET-OM 4.10.2026. U 22:31:03 CEST:
+https://www.dentvitalis.com/dv-static-check-20261004-a1.txt?dvcheck=a1
+HTTP 200, Server LiteSpeed, text/plain, 27 B, točno DV-STATIC-CHECK-20261004-A1.
+Chrome agentov ERR_BLOCKED_BY_CLIENT nije serverska greška. Ne ponavljati
+I1–I2 i ne prepisivati TXT. Nastavi J1–J7 uz već dano uvjetno odobrenje.
+To dokazuje novi statički zapis u postojećem rootu, NE hosting prihvat v8.
 Vlasnik sada dopušta nekoliko minuta prekida radi zamjene sadržaja. J0–J7
 imaju prednost nad SVIM starim STOP/I/R/A/B/N/H/S zapisima ispod. To nije
 potvrda uzroka ni nalog za brisanje ili treći ISTI root swap. Odobren je jedan

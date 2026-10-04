@@ -9,6 +9,14 @@ GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS
 Cloudflare služi samo razvojnom pregledu.
 
 **Aktualno — vlasnik dopušta kratki prekid za in-place zamjenu sadržaja:**
+J0 je sada ispunjen: vlasnik javlja TXT stvoren s točnih 27 B i 0644, ali
+Chrome blokira GET. Neovisni Codespaces GET u 20:31:03.815 UTC / 22:31:03 CEST
+vraća 200, LiteSpeed, text/plain, 27 B i točan DV-STATIC-CHECK-20261004-A1.
+To nije browser policy bypass nego odvojeni obični javni HTTPS GET bez tajni.
+Ne ponavljati taj preflight; agent smije nastaviti J1–J7 prema uvjetnom nalogu.
+Stari root radi prema vlasnikovu izvještaju; v8 in-place još nije izveden.
+Uzrok ranijeg 404 i v8 runtime prihvat ostaju neprovjereni.
+
 predlaže zamjenu/upload sadržaja umjesto renamea i kaže da nekoliko minuta
 nedostupnosti nije problem. Pripremljena je jedna alternativna J0–J7 procedura
 na vrhu agentove upute. Ona ima prednost nad starim I3 STOP-om samo ako neutralni
