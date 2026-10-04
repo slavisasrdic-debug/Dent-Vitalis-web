@@ -8,6 +8,30 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Aktualno — vlasnik dopušta kratki prekid za in-place zamjenu sadržaja:**
+predlaže zamjenu/upload sadržaja umjesto renamea i kaže da nekoliko minuta
+nedostupnosti nije problem. Pripremljena je jedna alternativna J0–J7 procedura
+na vrhu agentove upute. Ona ima prednost nad starim I3 STOP-om samo ako neutralni
+novi TXT GET prođe. To nije ponavljanje trećeg istog roota swapa ni dokaz uzroka.
+
+Sam izvorni `/home2/dentvita/public_html/` ostaje: naziv, owner/group/ACL i
+0750 ne mijenjaju se. Prije prekida provjeriti postojeći potpuni v8 u
+`public_html-failed-20261004-galleria-v8-retry-01/` te napraviti dvije nove prazne
+0700 mape u backups: `public-contents-before-inplace-v8-20261004/` i
+`public-contents-failed-inplace-v8-20261004/`. Bez sukoba ili prepisivanja.
+Sve stare stavke (uključujući skrivene i blog) Move u before; samo ako je
+izvorni root prazan, sve nove v8 stavke Move u isti originalni root. Move ne
+traži novu punu kopiju u maloj kvoti. Candidate folder potom više nije potpuna
+druga kopija; ZIP i postojeći backupovi ostaju. Nema novog uploada ili brisanja.
+
+Odmah direct /index.html s novim queryjem, cache-busted / i goli /: zahtijevati
+novi sadržaj i 200. Potom B.9 runtime/SEO/GET token/consent prihvat, bez ponovnih
+POST-ova. Kod greške Move novog javnog sadržaja u prazni failed backup, stari
+sadržaj Move iz before u isti public_html. Kod djelomičnog Movea čuvati obje
+polovice i vratiti samo na prazna mjesta, ne prepisivati. Ni application/data,
+baza/CRM, DNS/PHP ni root chmod ne diraju se. Izvještaj mora razlikovati lokalnu
+uputu od stvarno izvedene operacije i hosting prihvata. Ovo još nije izvedeno.
+
 **Aktualni nastavak — neutralni statički preflight u izvornom rootu:** nakon
 drugog neuspjeha vlasnik traži da pronađemo rješenje. Ne ponavljamo root swap.
 Neovisni javni GET potvrđuje da postojeći root poslužuje Googleovu HTML

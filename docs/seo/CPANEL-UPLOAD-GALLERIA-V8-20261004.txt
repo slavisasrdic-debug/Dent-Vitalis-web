@@ -1,5 +1,78 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
+AKTUALNO — ZAMJENA SADRŽAJA U IZVORNOJ MAPI, BEZ ROOT RENAMEA
+Vlasnik sada dopušta nekoliko minuta prekida radi zamjene sadržaja. J0–J7
+imaju prednost nad SVIM starim STOP/I/R/A/B/N/H/S zapisima ispod. To nije
+potvrda uzroka ni nalog za brisanje ili treći ISTI root swap. Odobren je jedan
+drugačiji postupak uz uvjete i povratak; ne improvizirati ako uvjet ne prođe.
+Sam /home2/dentvita/public_html/ ostaje isti direktorij, isti naziv i ista
+prava/owner/group/ACL. Sve operacije Move odnose se SAMO NA SADRŽAJ te mape.
+
+J0. Najprije napravi/provjeri I1–I2 neutralni TXT preflight ispod, bez prekida
+    naslovnice. Ako je isti TXT već napravljen u ovoj proceduri, ne prepisuj:
+    potvrdi njegov tekst i GET 200. Ako test ne prođe, STANI bez zamjene weba.
+    Ako prođe, nastavi J1–J7 bez traženja novog općeg odobrenja ili novog ZIP-a.
+    Ovo nije tvrdnja da je s tim dokazano posluživanje v8 ili utvrđen uzrok.
+J1. Provjeri točne korijene:
+    STARI AKTIVNI: /home2/dentvita/public_html/
+    NOVI V8: /home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/
+    V8 mora biti cjelovit pripremljeni root (ne djelomični stage): revision v8,
+    index.html, .htaccess, index.php, _pages/galleria.html, _astro, assets i
+    očuvani resursi. Index.php mora ostati tekstualno jednak aktivnom izvorniku.
+    Domains mora i dalje navoditi /home2/dentvita/public_html. Ne ponavljati
+    puni ranije završeni audit, samo ove preduvjete za postojeći kandidat.
+J2. Prije prekida napravi dvije NOVE PRAZNE privatne mape 0700:
+    /home2/dentvita/backups/public-contents-before-inplace-v8-20261004/
+    /home2/dentvita/backups/public-contents-failed-inplace-v8-20261004/
+    Ako postoji sukob imena ili odredište nije prazno, ne prepisuj i STANI.
+    Snimi inventar top-level stavki starog i novog roota uz show hidden files.
+    Potvrdi raspoloživ File Manager za povratak. Puni backup ostaje netaknut.
+    Move je odabran da ne dupliciramo cijeli web/blog u maloj preostaloj kvoti.
+J3. Najavi početak mogućeg prekida od nekoliko minuta i zapiši vrijeme CEST.
+    Unutar STAROG public_html uključi skrivene datoteke, Select All samo
+    njegove STAVKE (ne sam public_html), Move u before mapu iz J2. Uključuje
+    index.php, .htaccess, blog, .well-known i sve ostale vidljive/skrivene stavke.
+    Blog podaci ostaju privatno sačuvani; njegova javna nedostupnost je odobrena.
+    Potvrdi uspjeh Movea, očuvan sadržaj u before i prazan izvorni public_html.
+    Ako je stari Move djelomičan, NE uvoditi v8: vrati samo premještene stare
+    stavke iz before na njihova prazna mjesta, bez prepisivanja preostalih.
+    Korijenu ne mijenjaj naziv, dozvolu ili vlasništvo. Ne diraj application.
+J4. U NOVOM V8 iz J1 Select All njegove STAVKE uz show hidden files, pa Move
+    u postojeći prazni /home2/dentvita/public_html/. Nema ZIP-a u kandidatu i
+    ništa se ne prepisuje. Odredište je roditeljski public_html, ne /_pages.
+    Ne stvara se _pages/_pages. Potvrdi uspjeh i novu prisutnost ključnih stavki,
+    revision v8, 1.034 datoteke/24 podmape prema prethodnom inventaru, 0644/0755.
+    SAM korijen zadržava izvorni 0750 i identitet. V8 izvor nakon Movea je prazan
+    ako je sve uspjelo; ne predstavlja više dodatnu cjelovitu kopiju. ZIP i
+    raniji backupovi ostaju. Ako Move djelomično zakaže, odmah J7.
+J5. Tek nakon završetka oba sadržajna Movea ODMAH stvarni GET i sadržaj:
+    https://www.dentvitalis.com/index.html?dvcheck=inplace20261004
+    https://www.dentvitalis.com/?dvcheck=inplace20261004
+    https://www.dentvitalis.com/
+    Sva tri moraju vratiti 200 i novi v8 HTML, ne listing/stari web. Snimi
+    status/title/vrijeme i screenshot. Query nije jamstvo zaobilaženja cachea.
+    Ako bilo koji ne radi, minimalni dokaz bez odgađanja i odmah J7, bez novog
+    chmoda, editiranja htaccessa, preimenovanja HTML/PHP-a, purgea ili restarta.
+J6. Ako J5 prođe, puni B.9 read-only/runtime prihvat iz ove upute: svih pet
+    jezika/resursi, poznate 301/308, sitemap/robots/canonical/hreflang/404,
+    očuvane PHP rute, GET sesija/tokeni/no-store i GTM/CookieYes consent.
+    Ne ponavljati prihvaćene stvarne POST-ove. Token vrijednosti ne zapisivati.
+    Ako browser blokira token GET, traži ručni GET i ne izmišljaj rezultat.
+    Kod bitne serverske regresije J7. Sama naslovnica nije završni prihvat.
+J7. KODNI POVRATAK SADRŽAJA U ISTI ROOT:
+    Sve NOVE stavke trenutno u public_html Move u još praznu failed mapu iz J2;
+    potvrdi prazan public_html, potom SVE stare stavke iz before Move natrag u
+    ISTI public_html. Ako je v8 Move bio djelomičan, njegove nepremještene
+    stavke ostaju u izvornom v8 folderu; failed čuva samo javno uvedene stavke.
+    Nema prepisivanja, brisanja ili povratka cijelog application/data/backupa.
+    Kod neočekivanih sukoba ne prepisuj ni briši: očuvaj obje verzije i odmah
+    zatraži pomoć vlasnika. Potvrdi stari HTML i PHP GET. Ne ponavljaj pokušaj.
+
+Kad prođe ili kad se vrati stari web, jedan kratak izvještaj s stvarnim
+rezultatima. Ne proglašavati uzrok dokazanim ako metoda uspije bez host logova.
+Ovaj Codespaces agent pripremio je uputu, NIJE izveo cPanel promjene.
+
+POVIJESNI PREFLIGHT — J0 SADA DOPUŠTA NASTAVAK AKO PROĐE
 AKTUALNI NASTAVAK — NOVA STATIČKA DATOTEKA U POSTOJEĆEM KORIJENU
 Vlasnik nakon retry greške traži konkretno rješenje, ne novi isti swap.
 Ne ponavljaj preimenovanje public_html i ne mijenjaj dozvole/htaccess/cache.
