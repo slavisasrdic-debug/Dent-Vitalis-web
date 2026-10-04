@@ -8,6 +8,38 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**AKTUALNO — galleria-v8, ima prednost nad povijesnim zapisima ispod:** vlasnik
+je potvrdio SEO masterov zadnji pregledni prijedlog te odobrio talijanski
+`/galleria`, usklađivanje svih potrošača i završnu migraciju nakon provjere.
+Stari `/domande-e-risposte` dobiva točnu 301 na novi URL; osam dodatnih SEO
+pravila više ne čeka potvrdu. Nema novih proizvoljnih medicinskih spajanja.
+136 sitemap URL-ova/676 recipročnih jezičnih veza ostaje bez XML x-default.
+
+Jedini aktualni puni paket je
+`dentvitalis-web-production-candidate-20261004-galleria-v8.zip`.
+Točni bajtovi, SHA-256, izvorni commit i promjene prema nepromjenjivom v7:
+`data/seo/cpanel-galleria-v8-release-20261004.json`.
+Uputa za cPanel agenta: `docs/seo/CPANEL-UPLOAD-GALLERIA-V8-20261004.txt`.
+SEO handoff: `docs/seo/handoff-galleria-v8-20261004/`, u zasebnom malom ZIP-u.
+Stari paketi/handoffovi ostaju povijesni, ne šalju se za novu objavu.
+
+Lokalno je prošlo: check/build, form contract, sva tri page-routing testa,
+devet Apache testova stvarnog završnog htaccessa i 40 browser testova.
+Potpuni preview audit: 141 stranica, 11.961 link, 501 cilj, 160 resursa, bez
+nalaza; desktop/mobile galerija i stvarni klikovi pregledani. To nije cPanel
+runtime. V8 zadržava assete/form/WhatsApp bajtove iz v7; svi HTML-ovi smiju
+promijeniti samo odobreni URL i ime galerijskog dokumenta. Arhivu neovisno
+provjerava `scripts/verify-galleria-v8-release.py` poslije pakiranja.
+
+Nema lokalnog pristupa cPanelu; upload/aktivacija nisu izvedeni ovim radom.
+Privatni cilj: `/home2/dentvita/releases/20261004-galleria-v8/`.
+Postojeći v3 next root ažurirati tek uz privatnu kopiju `_pages` i svih sedam
+root datoteka u uputi; obvezno uključiti `page-routes.json` i `_redirects`.
+Zastarjeli `_pages/domande-e-risposte.html` premjestiti samo iz privatnog next
+roota u backup. Ne kopirati ZIP, blog ili backend. Kontrolirana zamjena i
+kodni povratak opisani su u uputi; stvarni runtime/consent ostaje release gate.
+Ne ponavljati pet prihvaćenih POST-ova niti vraćati novije privatne podatke.
+
 **Trenutačni puni upload kandidat — ready-v7, čeka SEO potvrdu:**
 `dentvitalis-web-production-candidate-20261004-ready-v7.zip`, 57.922.519 B;
 SHA-256 `5d8e37c1af782ecf417ec2633422edd0803cc8aa57d6c9dff2dcd5a9fe250669`.

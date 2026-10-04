@@ -36,6 +36,9 @@ const routes = {};
 const folders = new Set();
 const lines = [
   '# Owner-approved slashless public pages; preserve query parameters.',
+  '# Owner-approved Italian gallery rename; matches the Apache 301.',
+  '/domande-e-risposte /galleria 301',
+  '/domande-e-risposte/ /galleria 301',
 ];
 for (const source of sources) {
   const route = '/' + relative(dist, dirname(source)).split('\\').join('/');

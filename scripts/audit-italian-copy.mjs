@@ -102,7 +102,9 @@ try {
       report.pages.push(row);
       continue; // Never silently mix the newly published version with accepted copy.
     }
-    const local = await fetch(`${origin}${path}`);
+    // Immutable reference retains its published name; production uses the approved URL.
+    const publicPath = path === '/domande-e-risposte' ? '/galleria' : path;
+    const local = await fetch(`${origin}${publicPath}`);
     if (!local.ok) throw new Error(`${path}: Astro HTTP ${local.status}`);
     const localHtml = await local.text();
     const extract = async (markup) =>

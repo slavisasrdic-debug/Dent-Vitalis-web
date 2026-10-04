@@ -158,7 +158,7 @@ test('inner-page content and FAQ remain available without JavaScript', async ({
       '/prestazioni-dentali',
       '/prestazioni/premium-ponte-fisso-su-impianti',
       '/faq',
-      '/domande-e-risposte',
+      '/galleria',
       '/testimonianze',
     ]) {
       await page.goto(`http://127.0.0.1:4321${route}`);

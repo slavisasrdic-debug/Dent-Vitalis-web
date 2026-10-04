@@ -11,6 +11,13 @@
   },
   "redirects": [
     {
+      "from": "/domande-e-risposte",
+      "to": "/galleria",
+      "status": 301,
+      "legacyAliases": [],
+      "approval": "2026-10-04 owner requested Italian Galleria URL and all consumers updated"
+    },
+    {
       "from": "/en/about-us",
       "to": "/en/about",
       "status": 301,

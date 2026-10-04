@@ -116,7 +116,7 @@ for (const width of [390, 991, 992, 1440]) {
       await page.evaluate(() => document.documentElement.scrollWidth),
     ).toBeLessThanOrEqual(width);
     await buttons.filter({ hasText: 'Prima e dopo' }).click();
-    await expect(page).toHaveURL(/\/domande-e-risposte\/?$/);
+    await expect(page).toHaveURL(/\/galleria\/?$/);
     await expect(page.locator('h1')).toHaveText('Galleria');
     expect(errors).toEqual([]);
   });

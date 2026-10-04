@@ -173,7 +173,7 @@ test('all 55 pages have consistent metadata, content-backed schema and real medi
         ? 'ContactPage'
         : reference === '/chi-siamo'
           ? 'AboutPage'
-          : reference === '/domande-e-risposte'
+          : reference === '/galleria'
             ? 'ImageGallery'
             : [
                   '/prestazioni-dentali',

@@ -1,0 +1,23 @@
+DENTVITALIS — ZAVRŠNA SEO DOPUNA, 4. 10. 2026.
+
+Talijanska galerija sada je /galleria. Stari /domande-e-risposte, sa ili bez
+završnog slasha, trajno vodi 301 na https://www.dentvitalis.com/galleria.
+Unutarnji linkovi, canonical, OG/schema, jezični odabir i hreflang usklađeni su.
+
+Sitemap: 136 URL-ova, svih pet jezika IT/HR/DE/EN/SL, 676 stvarnih recipročnih
+hreflang veza, bez x-default u XML-u. Svih pet galerija povezano je međusobno.
+Zahvalne stranice ostaju noindex i nisu u sitemapu. HTML x-default je neizmijenjen.
+
+Pregledni .htaccess zadržava prethodno odobrene ciljeve i 57 različitih starih
+301 pravila. Osam dodatnih pravila SEO prijedloga sada je potvrđeno vlasnikom;
+dodana je samo odobrena talijanska galerija. Nema novih medicinskih spajanja.
+Trajna preseljenja su 301; HTTPS/www i poznati slash URL-ovi 308. Query parametri
+ostaju. PHP forme, tokeni, tri sačuvane PHP stranice i cPanel PHP handler ostaju.
+
+Lokalne provjere ne potvrđuju HTTP ponašanje produkcije. Nakon objave potrebna
+je provjera na www.dentvitalis.com, uključujući tokene i GTM/CookieYes privolu.
+Raniji neriješeni povijesni URL-ovi ne dobivaju samovoljno nove ciljeve; PHP
+fallback je očuvan, ali njihovo stvarno posluživanje treba provjeriti na hostu.
+
+Ovaj mali ZIP služi SEO/webmasteru. Za upload koristiti PUNI galleria-v8 ZIP,
+ne samo ova dva SEO dokumenta. Backend i stvarni testni upiti nisu ponavljani.

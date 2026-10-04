@@ -178,6 +178,6 @@ export const navigation: NavigationGroup[] = [
 export const navigationLinks: LinkData[] = [
   { label: 'Testimonianze', href: '/testimonianze' },
   { label: 'FAQ', href: '/faq' },
-  { label: 'Galleria', href: '/domande-e-risposte' },
+  { label: 'Galleria', href: '/galleria' },
   { label: 'Contatti', href: '/contatti' },
 ];

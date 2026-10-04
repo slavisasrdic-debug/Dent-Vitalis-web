@@ -23,7 +23,7 @@ transport,/informazioni/trasporto,,p98+t18,excluded-italian-only,
 prices,/informazioni/listino-prezzi,/hr/cjenik,p104+t19,approved,
 testimonials,/testimonianze,/hr/iskustva-pacijenata,p112+t20+p217-p309,approved,/hr/testimonials
 faq,/faq,/hr/faq,p310+p313+t22+t23,approved,/hr/faq
-gallery,/domande-e-risposte,/hr/galerija,p353+p355+t24+t25+t26,approved,
+gallery,/galleria,/hr/galerija,p353+p355+t24+t25+t26,approved,
 contact,/contatti,/hr/kontakt,p375+t27+t28+t29+t31,approved,/hr/kontakt
 privacy,/informativa-sulla-privacy,/hr/polica-privatnosti,,approved,/hr/polica-privatnosti
 terms,/condizioni-di-utilizzo,/hr/uvjeti-koristenja,,approved,/hr/uvjeti-koristenja

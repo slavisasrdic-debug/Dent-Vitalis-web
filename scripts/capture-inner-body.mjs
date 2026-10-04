@@ -34,7 +34,12 @@ try {
           const page = await browser.newPage({
             viewport: { width, height: 900 },
           });
-          const response = await page.goto(origin + route);
+          const publicRoute =
+            origin !== 'https://dentvitalis33.webflow.io' &&
+            route === '/domande-e-risposte'
+              ? '/galleria'
+              : route;
+          const response = await page.goto(origin + publicRoute);
           if (response?.status() !== 200)
             throw new Error(
               `Refusing to capture ${origin + route}: HTTP ${response?.status()}`,

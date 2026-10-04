@@ -1,0 +1,72 @@
+ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
+
+Koristi samo dentvitalis-web-production-candidate-20261004-galleria-v8.zip.
+Točna veličina i SHA-256: data/seo/cpanel-galleria-v8-release-20261004.json.
+692 datoteke bez ZIP-a, 13 podmapa; datoteke 0644, podmape 0755.
+Vlasnik je potvrdio zadnji SEO prijedlog i zatražio /galleria te migraciju nakon
+provjere. To nije ovlast za backend, DNS/PHP promjene ili nove stvarne POST-ove.
+
+A. UPLOAD I PRIPREMA — JAVNI WEB OSTAJE NETAKNUT
+1. Provjeri aktualnu kvotu; najmanje 160 MB slobodno za ZIP, raspakiravanje,
+   malu kodnu kopiju izmijenjenih HTML/SEO datoteka i rezervu. Zadnjih 207,46 MB
+   nije aktualna izmjera. Ako nema prostora ili postoji naziv cilja: STANI.
+   Ništa automatski ne briši; ne radi još jednu cijelu kopiju weba/bloga.
+2. Nova prazna privatna mapa: /home2/dentvita/releases/20261004-galleria-v8/
+   Otvori Upload; vlasnik odabire navedeni puni ZIP. Overwrite isključen.
+   Čekaj 100 %, Extract u istu mapu. Provjeri broj, dozvole i manifest revision
+   20261004-galleria-v8. Ako File Manager nema SHA/točne bajtove, zabilježi
+   NEPROVJERENO; ne tvrdi da je serverski hash potvrđen.
+3. Postojeći privatni pripremni root:
+   /home2/dentvita/public_html-next-20261004-localized-v3/
+   Provjeri da je upravo to pripremljeni direktorij, uz neizmijenjeni index.php
+   i odobrene stare resurse. Privatno sačuvaj _pages/ i root datoteke navedene
+   ispod u novu /home2/dentvita/backups/next-root-before-galleria-v8-20261004/.
+   Backup neka bude izvan webroota, mapa 0700. Ne diraj puni backup ni podatke.
+4. Iz v8 stagea ažuriraj SAMO: _pages/, index.html, .htaccess, sitemap.xml,
+   sitemap-0.xml, page-routes.json, _redirects i release-manifest.json.
+   Svi _astro/assets bajtovi očuvani su iz prihvaćenog paketa; ne kopirati
+   ZIP ili SEO napomenu u webroot. Prije kopiranja _pages/ potvrdi da ciljna
+   operacija File Managera prepisuje točne datoteke, a ne stvara _pages/_pages.
+   Ako je zamjena postojećih datoteka nejasna, STANI bez improvizacije.
+5. Nakon potvrđene privatne kopije premjesti ISKLJUČIVO zastarjeli
+   /home2/dentvita/public_html-next-20261004-localized-v3/_pages/domande-e-risposte.html
+   u navedeni privatni backup (ako postoji). Ne uklanjaj ništa iz aktivnog
+   public_html. Novi _pages/galleria.html mora postojati; stari naziv u next
+   rootu ne smije ostati kao dodatna javna stranica.
+6. Sačuvaj index.php, .well-known, verifikacije, stare css/js/images/fonts,
+   email/logo001.png i upitnik.pdf; korijen 0750. Blog ostaje u starom rootu i
+   backupu prema ranijoj odluci. application, podaci, backend i PHP ostaju.
+   Provjeri svih 692 v8 stavke uz očuvane stare resurse, dozvole i podmape;
+   provjeri index.php prema aktivnom izvorniku. Vlasništvo/grupu provjeri ako
+   cPanel prikazuje; ne mijenjaj naslijepo. Daj kratak završni izvještaj.
+
+B. KONTROLIRANA JAVNA ZAMJENA — SAMO AKO A PROĐE I VLASNIK JE PRISUTAN
+7. Provjeri cPanel Document Root = /home2/dentvita/public_html, raspoloživost
+   File Managera za trenutni povratak i jedinstvene slobodne nazive:
+   /home2/dentvita/public_html-before-20261004-galleria-v8/
+   /home2/dentvita/public_html-failed-20261004-galleria-v8/
+   Ako nije potvrđeno, STANI prije preimenovanja. Najavi kratak mogući prekid.
+8. Preimenuj aktivni public_html u navedeni before direktorij, zatim postojeći
+   privatni next root u public_html. Ako drugo preimenovanje ne uspije, ODMAH
+   vrati before na public_html. Ne dodaj chmod, symlink, deploy PHP ili SSH/API.
+9. Odmah GET/browser provjere na STVARNOM www.dentvitalis.com:
+   - nova naslovnica i IT/HR/DE/EN/SI, slike/CSS/JS, mobilna galerija;
+   - /galleria 200, /domande-e-risposte 301 izravno na /galleria, sačuvan query;
+   - /galleria/ 308 na /galleria; HTTP/apex -> HTTPS/www bez petlje;
+   - DE/SI testimonials, osam dodatnih 301 i stari reprezentativni aliasi;
+   - sitemap.xml/robots, galerijski hreflang i canonical, noindex zahvalnih;
+   - tri očuvane PHP stranice, njihove stare slike/CSS/JS i verifikacije;
+   - GET /form-tokens: JSON oba neprazna tokena, ista sesija, no-store;
+   - GTM/CookieYes bez privole, odbijanje i prihvat; ne tvrditi da je sama
+     prisutnost GTM identifikatora potvrda stvarnih tagova ili konverzija.
+   Ne slati nove forme/e-mail/CRM testove. Prethodnih pet dostava prihvaćeno je.
+   Ako preglednik blokira endpoint, zabilježi blokadu i zatraži ručni GET od
+   vlasnika; ne zaobilazi sigurnosnu politiku niti izmišljaj uspjeh.
+10. Kod 5xx, neispravnog glavnog routinga/resursa/tokena ili druge bitne
+    regresije ODMAH kodni rollback: novi public_html -> navedeni failed,
+    before -> public_html. Potvrdi staru naslovnicu i PHP GET.
+    Ne vraćaj puni backup preko application/data, mail/log, baze ili CRM-a.
+    Ne briši before/failed/stage/backupove nakon uspjeha; izvijesti vlasnika.
+
+Glavna procedura: docs/cpanel-migration-runbook.md. Lokalni test nije potvrda
+produkcionog PHP-a/consenta, serverskih hashova ili stvarno izvedenog povratka.

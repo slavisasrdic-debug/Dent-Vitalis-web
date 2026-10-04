@@ -34,7 +34,7 @@ export const home = {
   },
   testimonialActions: [
     { href: '/testimonianze', label: 'Esperienze dei pazienti' },
-    { href: '/domande-e-risposte', label: 'Prima e dopo' },
+    { href: '/galleria', label: 'Prima e dopo' },
   ],
   testimonialPhoto: {
     desktop: 'Sbiancamento-dei-denti-2.webp' as ImageKey,

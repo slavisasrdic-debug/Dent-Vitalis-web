@@ -1,0 +1,158 @@
+# DentVitalis — pregledni .htaccess, 2026-10-04
+# SEO PRIJEDLOG ODOBREN; talijanska galerija uskladjena na /galleria.
+# Zadrzana postojeca/odobrena odredista; nema novih medicinskih spajanja.
+# Query parametri (UTM, gclid itd.) ostaju sacuvani.
+
+# 1. OSNOVNE POSTAVKE — novi HTML ima prednost nad starim PHP-om
+Options -Indexes
+RewriteEngine On
+DirectoryIndex index.html index.php
+RewriteOptions AllowNoSlash
+<If "%{REQUEST_URI} =~ m#^(/[a-z0-9/-]+?)/?$# && -f '%{DOCUMENT_ROOT}/_pages$1.html' || %{REQUEST_URI} =~ m#^/(?:hr/hvala-akcija|si/hvala-akcija)/?$#">
+DirectorySlash Off
+</If>
+
+# 2. HTTPS + WWW — 308 cuva metodu i tijelo zahtjeva forme
+RewriteCond %{HTTP_HOST} ^(?:www\.)?dentvitalis\.com(?::[0-9]+)?$ [NC]
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.dentvitalis\.com$
+RewriteCond %{THE_REQUEST} \s(/[^?\s]*)
+RewriteRule ^ https://www.dentvitalis.com%1 [R=308,L,NE]
+
+# 3. PHP FORME I TOKENI — uvijek backend; bez cachea i indeksiranja
+RewriteRule ^(?:send|gct|send-sconto|form-tokens)/?$ index.php [END]
+<If "%{THE_REQUEST} =~ m#\s/(?:send|gct|send-sconto|form-tokens)/?(?:[?\s])#">
+  <IfModule mod_expires.c>
+    ExpiresActive Off
+  </IfModule>
+  <IfModule mod_headers.c>
+    Header always set Cache-Control "private, no-store, max-age=0"
+    Header always set X-Robots-Tag "noindex, nofollow"
+  </IfModule>
+</If>
+
+# 4. TRAJNE PROMJENE URL-OVA — ranije odobrene 301
+RewriteRule ^domande-e-risposte/?$ https://www.dentvitalis.com/galleria [R=301,L,NE]
+RewriteRule ^en/about-us/?$ https://www.dentvitalis.com/en/about [R=301,L,NE]
+RewriteRule ^alloggio/?$ https://www.dentvitalis.com/informazioni/alloggio [R=301,L,NE]
+RewriteRule ^hr/technologija/?$ https://www.dentvitalis.com/hr/materijali-i-oprema [R=301,L,NE]
+RewriteRule ^hr/keramicki-most-na-prirodnim-zubima/?$ https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze [R=301,L,NE]
+RewriteRule ^hr/testimonials-edita-karadole-glumica/?$ https://www.dentvitalis.com/hr/iskustva-pacijenata [R=301,L,NE]
+RewriteRule ^hr/testimonials-zoran-roje-sportski-direktor/?$ https://www.dentvitalis.com/hr/iskustva-pacijenata [R=301,L,NE]
+RewriteRule ^de/testimonials/?$ https://www.dentvitalis.com/de/erfahrungen-unserer-patienten [R=301,L,NE]
+RewriteRule ^si/testimonials/?$ https://www.dentvitalis.com/si/izkusnje-pacientov [R=301,L,NE]
+
+# 5. DODATNE JASNE ZAMJENE — osam pravila odobrenih od vlasnika i SEO mastera
+# Odobreno 2026-10-04; nema novih medicinskih spajanja.
+RewriteRule ^prima-visita/?$ https://www.dentvitalis.com/informazioni/prima-visita-gratuita [R=301,L,NE]
+RewriteRule ^de/die-erste-kontrolle/?$ https://www.dentvitalis.com/de/kostenlose-erstuntersuchung [R=301,L,NE]
+RewriteRule ^hr/testimonials/?$ https://www.dentvitalis.com/hr/iskustva-pacijenata [R=301,L,NE]
+RewriteRule ^garanzie/?$ https://www.dentvitalis.com/informazioni/garanzie [R=301,L,NE]
+RewriteRule ^pagamento/?$ https://www.dentvitalis.com/informazioni/pagamento-flessibile [R=301,L,NE]
+RewriteRule ^en/manner-of-payment/?$ https://www.dentvitalis.com/en/payment [R=301,L,NE]
+RewriteRule ^trasferta/?$ https://www.dentvitalis.com/informazioni/trasporto [R=301,L,NE]
+RewriteRule ^laboratorio-odontotecnico/?$ https://www.dentvitalis.com/su-di-noi/laboratorio-odontotecnico [R=301,L,NE]
+
+# 6. STARE 301 REDIREKCIJE — ista odredista, uklonjeni samo duplikati
+# Redirect zadrzava naslijedeno prefix ponasanje; ne mijenjati u siroke regexe.
+Redirect 301 /sl https://www.dentvitalis.com/si
+Redirect 301 /sl/ https://www.dentvitalis.com/si
+Redirect 301 /osoblje_hr.htm https://www.dentvitalis.com/en
+Redirect 301 /faq_hr.htm https://www.dentvitalis.com/hr/faq
+Redirect 301 /VR/3/03.ivp https://www.dentvitalis.com/
+Redirect 301 /osoblje_ita.htm https://www.dentvitalis.com/chi-siamo
+Redirect 301 /implantologija_hr.htm https://www.dentvitalis.com/hr
+Redirect 301 /home_hr.htm https://www.dentvitalis.com/hr
+Redirect 301 /osoblje_eng.htm https://www.dentvitalis.com/en/about
+Redirect 301 /tehnologija_ita.htm https://www.dentvitalis.com/
+Redirect 301 /unterkunft https://www.dentvitalis.com/de
+Redirect 301 /testimonials https://www.dentvitalis.com/testimonianze
+Redirect 301 /accommodation https://www.dentvitalis.com/informazioni/alloggio
+Redirect 301 /kako_do_nas_ita.htm https://www.dentvitalis.com/contatti
+Redirect 301 /home_ita.htm https://www.dentvitalis.com/
+Redirect 301 /implantologija_ita.htm https://www.dentvitalis.com/
+Redirect 301 /implantologija_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /kontakt_hr.htm https://www.dentvitalis.com/hr/kontakt
+Redirect 301 /kontakt_ita.htm https://www.dentvitalis.com/contatti
+Redirect 301 /protetika_hr.htm https://www.dentvitalis.com/hr
+Redirect 301 /kako_do_nas_eng.htm https://www.dentvitalis.com/en/contact
+Redirect 301 /kako_do_nas_hr.htm https://www.dentvitalis.com/hr/kontakt
+Redirect 301 /karta.swf https://www.dentvitalis.com/
+Redirect 301 /hr/onama https://www.dentvitalis.com/hr/o-nama
+Redirect 301 /hr/iskustva-pacijenata-edita-karadjole https://www.dentvitalis.com/hr/iskustva-pacijenata
+Redirect 301 /hr/dezinfekcija-i-sterilizacija https://www.dentvitalis.com/hr/desinfekcija
+Redirect 301 /fotogalerija_hr.htm https://www.dentvitalis.com/hr
+Redirect 301 /fotogalerija_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /protetika_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /VR/5/PurePlayer.swf https://www.dentvitalis.com/en
+Redirect 301 /hr/iskustva-pacijenata-zoran-roje https://www.dentvitalis.com/hr/iskustva-pacijenata
+Redirect 301 /hr/najcesca-pitanja https://www.dentvitalis.com/hr/faq
+Redirect 301 /hr/nacin-placanja https://www.dentvitalis.com/hr/placanje
+Redirect 301 /hr/tehnologija https://www.dentvitalis.com/hr/materijali-i-oprema
+Redirect 301 /hr/klinicko-produzenje-krune-prirodnoga-zuba https://www.dentvitalis.com/hr/klinicko-produzenje-krune-prirodnog-zuba
+Redirect 301 /vr_predsoblje_tour_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /hr/kreamicki-most-na-prirodnim-zubima https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze
+Redirect 301 /hr/kreamicki-most-na-implantatima-svi-zubi https://www.dentvitalis.com/hr/keramicki-most-na-svim-implantatima
+Redirect 301 /vr_tour_hr.htm https://www.dentvitalis.com/hr
+Redirect 301 /VR/1/PurePlayer.swf https://www.dentvitalis.com/
+Redirect 301 /protetika_ita.htm https://www.dentvitalis.com/
+Redirect 301 /VR/8/PurePlayer.swf https://www.dentvitalis.com/
+Redirect 301 /fotogalerija_ita.htm https://www.dentvitalis.com/
+Redirect 301 /navigacija.swf https://www.dentvitalis.com/
+Redirect 301 /VR/4/PurePlayer.swf https://www.dentvitalis.com/
+Redirect 301 /hr/prijava https://www.dentvitalis.com/hr/o-nama
+Redirect 301 /vr_tour_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /kontakt_eng.htm https://www.dentvitalis.com/en/contact
+Redirect 301 /faq_eng.htm https://www.dentvitalis.com/en/faq
+Redirect 301 /tehnologija_hr.htm https://www.dentvitalis.com/hr/materijali-i-oprema
+Redirect 301 /Privacy.html https://www.dentvitalis.com/informativa-sulla-privacy
+Redirect 301 /vr_ured_tour_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /vr_predsoblje_tour_ita.htm https://www.dentvitalis.com/
+Redirect 301 /si. https://www.dentvitalis.com/si
+Redirect 301 /hr. https://www.dentvitalis.com/hr
+Redirect 301 /home_eng.htm https://www.dentvitalis.com/en
+Redirect 301 /hr/kreamicki-most-na-implantatima https://www.dentvitalis.com/hr/keramicki-most-na-svim-implantatima
+
+# 7. UKINUTE POTVRDE KAMPANJA — odobreni 410, bez preusmjeravanja
+RewriteRule ^(?:hr/hvala-akcija|si/hvala-akcija)/?$ - [G,L]
+
+# 8. NOVI WEB — 308 samo za slash varijantu; HTML se posluzuje interno
+RewriteCond %{DOCUMENT_ROOT}/_pages/$1.html -f
+RewriteRule ^([a-z0-9/-]+)/$ /$1 [R=308,L,NE]
+# Serve an existing Astro HTML page internally, without a browser redirect.
+RewriteCond %{DOCUMENT_ROOT}/_pages/$1.html -f
+RewriteRule ^([a-z0-9/-]+)$ _pages/$1.html [END]
+
+# 9. POSTOJECE DATOTEKE I PREOSTALE PHP STRANICE
+# Cuva tri ranije odobrene stare PHP stranice i njihov bootstrap.
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::\2$
+RewriteRule ^(.*) - [E=BASE:%1]
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [NC,L]
+
+# 10. POSTOJECI CACHE I CPANEL PHP HANDLER — PHP verzija ne mijenja se
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 week"
+    ExpiresByType image/jpeg  "access plus 1 week"
+    ExpiresByType image/gif  "access plus 1 week"
+    ExpiresByType image/png  "access plus 1 week"
+    ExpiresByType text/css  "access plus 1 week"
+    ExpiresByType application/pdf  "access plus 1 week"
+    ExpiresByType text/x-javascript  "access plus 1 week"
+    ExpiresByType application/x-shockwave-flash  "access plus 1 week"
+    ExpiresByType image/x-icon  "access plus 1 week"
+    ExpiresDefault  "access plus 1 week"
+</IfModule>
+
+ModPagespeed off
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

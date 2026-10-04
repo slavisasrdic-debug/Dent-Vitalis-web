@@ -45,7 +45,7 @@ const sidebar = (
 });
 
 const galleryReference = innerPages.find(
-  (p) => p.route === '/domande-e-risposte',
+  (p) => p.route === '/galleria',
 )!;
 const pairs = galleryReference.blocks.flatMap((block) =>
   block.type === 'group'

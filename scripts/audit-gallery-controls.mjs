@@ -12,7 +12,9 @@ try {
       viewport: { width, height: 900 },
       hasTouch: width < 992,
     });
-    await page.goto(`${origin}/domande-e-risposte`);
+    await page.goto(
+      `${origin}${label === 'webflow' ? '/domande-e-risposte' : '/galleria'}`,
+    );
     await page.evaluate(() => document.fonts.ready);
     const root = page
       .locator(

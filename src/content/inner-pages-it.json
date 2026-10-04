@@ -6827,7 +6827,7 @@
     }
   },
   {
-    "route": "/domande-e-risposte",
+    "route": "/galleria",
     "lang": "it",
     "title": "Galleria dei sorrisi e dei trattamenti | DentVitalis",
     "description": "Scopri i risultati dei trattamenti DentVitalis a Rijeka: correzioni estetiche e funzionali, riabilitazioni implantari e sorrisi prima e dopo.",
@@ -14520,7 +14520,7 @@
               },
               {
                 "kind": "link",
-                "href": "/domande-e-risposte",
+                "href": "/galleria",
                 "children": [
                   {
                     "kind": "text",
@@ -14619,7 +14619,7 @@
               },
               {
                 "kind": "link",
-                "href": "/domande-e-risposte#funzionale",
+                "href": "/galleria#funzionale",
                 "children": [
                   {
                     "kind": "text",
@@ -14734,7 +14734,7 @@
               },
               {
                 "kind": "link",
-                "href": "/domande-e-risposte#riabilitazione",
+                "href": "/galleria#riabilitazione",
                 "children": [
                   {
                     "kind": "text",

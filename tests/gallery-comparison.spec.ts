@@ -1,7 +1,7 @@
 import { test, expect, chromium, webkit } from '@playwright/test';
 
-const url = 'http://127.0.0.1:4321/domande-e-risposte';
-for (const route of ['/domande-e-risposte', '/hr/galerija'])
+const url = 'http://127.0.0.1:4321/galleria';
+for (const route of ['/galleria', '/hr/galerija'])
   test(`gallery srcset encodes original spaces without changing assets: ${route}`, async ({
     page,
   }) => {

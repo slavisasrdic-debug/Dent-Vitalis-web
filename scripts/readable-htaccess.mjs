@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 
 // Formatting candidate only. The accepted SEO handoff is the input; a new
 // attachment must not silently replace owner-approved content destinations.
-export function readableHtaccess(input) {
+export function readableHtaccess(input, { seoApproved = false } = {}) {
   const source = input.toString();
   const boundary = '# END DentVitalis canonical host\n';
   const split = source.indexOf(boundary);
@@ -68,7 +68,7 @@ export function readableHtaccess(input) {
   const finalOrigin = (rules) =>
     rules.replace(/(RewriteRule \S+ )(?=\/)/g, '$1https://www.dentvitalis.com');
   return `# DentVitalis — pregledni .htaccess, 2026-10-04
-# KANDIDAT ZA PREGLED. Ne zamjenjuje samostalno paket niti odobrava aktivaciju.
+# ${seoApproved ? 'SEO PRIJEDLOG ODOBREN; talijanska galerija uskladjena na /galleria.' : 'KANDIDAT ZA PREGLED. Ne zamjenjuje samostalno paket niti odobrava aktivaciju.'}
 # Zadrzana postojeca/odobrena odredista; nema novih medicinskih spajanja.
 # Query parametri (UTM, gclid itd.) ostaju sacuvani.
 
@@ -87,8 +87,8 @@ ${dynamic}
 # 4. TRAJNE PROMJENE URL-OVA — ranije odobrene 301
 ${finalOrigin(approved)}
 
-# 5. DODATNE JASNE ZAMJENE — osam pravila za SEO pregled
-# Jos nisu zasebno odobrene za produkcijsku instalaciju.
+# 5. DODATNE JASNE ZAMJENE — osam pravila ${seoApproved ? 'odobrenih od vlasnika i SEO mastera' : 'za SEO pregled'}
+# ${seoApproved ? 'Odobreno 2026-10-04; nema novih medicinskih spajanja.' : 'Jos nisu zasebno odobrene za produkcijsku instalaciju.'}
 ${finalOrigin(review)}
 
 # 6. STARE 301 REDIREKCIJE — ista odredista, uklonjeni samo duplikati

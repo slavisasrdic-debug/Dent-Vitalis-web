@@ -1,5 +1,7 @@
 {
-  "status": "owner-requested-SEO-review-not-production-approved",
+  "status": "owner-and-seo-approved-for-candidate",
+  "approvedOn": "2026-10-04",
+  "approval": "Owner confirms SEO master approved the latest readable htaccess proposal; Italian gallery amendment recorded separately",
   "evidence": "Old sitemap language groups, existing reviewed information-page mapping, and rendered localized-v3 HTML pairs",
   "redirects": [
     {

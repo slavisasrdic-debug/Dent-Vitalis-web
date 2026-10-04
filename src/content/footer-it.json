@@ -136,20 +136,20 @@
   },
   {
     "title": "Galleria",
-    "href": "/domande-e-risposte",
+    "href": "/galleria",
     "legal": false,
     "links": [
       {
         "label": "Correzione estetica dei denti",
-        "href": "/domande-e-risposte#estetica"
+        "href": "/galleria#estetica"
       },
       {
         "label": "Correzione funzionale ed estetica dei denti",
-        "href": "/domande-e-risposte#funzionale"
+        "href": "/galleria#funzionale"
       },
       {
         "label": "Opzioni per la riabilitazione di una mascella senza denti",
-        "href": "/domande-e-risposte#riabilitazione"
+        "href": "/galleria#riabilitazione"
       }
     ]
   },
