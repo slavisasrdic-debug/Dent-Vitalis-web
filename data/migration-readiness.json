@@ -62,7 +62,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "retry-returned-native-LiteSpeed-404-for-direct-index-and-rolled-back; no-third-swap; obtain-existing-rename-file-presence-evidence-and-hosting-physical-path-ownership-access-diagnosis",
+    "nextCheck": "new-neutral-static-file-preflight-in-working-original-public-root; if-200-and-exact-content-prepare-in-place-content-replacement-with-original-root-preserved; no-third-identical-root-swap",
     "galleriaV8": {
       "requestedOn": "2026-10-04",
       "ownerSource": "owner-requests-galleria-all-consumers-final-package-and-migration-and-confirms-SEO-master-approved-latest-proposal",
@@ -78,6 +78,38 @@
       "publicActivationRequestedAfterChecks": true,
       "releaseGatesMayBeBypassed": false,
       "hostingRuntimeAccepted": false,
+      "originalRootStaticPreflight": {
+        "requestedOn": "2026-10-04",
+        "ownerSource": "owner-message-Ajde-nadji-rjesenje-mahom-after-retry-LiteSpeed-404",
+        "independentExistingStaticGets": [
+          {
+            "path": "/googlef79150f911752fb1.html",
+            "httpStatus": 200,
+            "contentType": "text/html",
+            "bytes": 53,
+            "expectedVerificationContent": true
+          },
+          {
+            "path": "/BingSiteAuth.xml",
+            "httpStatus": 200,
+            "contentType": "application/xml",
+            "bytes": 85,
+            "expectedVerificationContent": true
+          }
+        ],
+        "newNeutralFile": "/home2/dentvita/public_html/dv-static-check-20261004-a1.txt",
+        "requiredContent": "DV-STATIC-CHECK-20261004-A1",
+        "requiredMode": "0644",
+        "overwriteExistingFileAllowed": false,
+        "candidateActivationAllowedByThisPhase": false,
+        "rootRenameOrPermissionsConfigCacheChangesAllowed": false,
+        "containsPhpSecretsTokensOrPatientData": false,
+        "executedByCpanelAgent": false,
+        "http200AndExactContentVerified": false,
+        "proposedNextMethodIfPasses": "in-place-content-move-with-recoverable-private-backup-preserving-original-public-root-owner-group-ACL-context",
+        "newMethodExecutedOrAccepted": false,
+        "rootCauseConfirmed": false
+      },
       "activationAttemptAndRollback": {
         "evidenceKind": "owner-relayed-cpanel-agent-report",
         "attemptedOn": "2026-10-04",

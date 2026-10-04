@@ -1,5 +1,39 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
+AKTUALNI NASTAVAK — NOVA STATIČKA DATOTEKA U POSTOJEĆEM KORIJENU
+Vlasnik nakon retry greške traži konkretno rješenje, ne novi isti swap.
+Ne ponavljaj preimenovanje public_html i ne mijenjaj dozvole/htaccess/cache.
+Ovaj nastavak odobrava samo jednu neutralnu TXT provjeru u aktivnom starom
+rootu. To nije aktivacija v8, novi javni preview ili dokaz popravljenog uzroka.
+Neovisni GET potvrdio je Google HTML (200, 53 B) i Bing XML (200, 85 B) iz
+postojećeg roota. Zato sada testiramo NOVU statičku datoteku u istom rootu.
+
+I1. U /home2/dentvita/public_html/ potvrdi da ne postoji
+    dv-static-check-20261004-a1.txt. Ako postoji, ne prepisuj i izvijesti.
+    New File napravi samo tu datoteku; kroz Edit spremi točno jednu liniju:
+    DV-STATIC-CHECK-20261004-A1
+    Datoteka mora biti neprazna i 0644. Korijen ostaje postojeći 0750; ništa
+    drugo se ne uređuje. Ne pisati PHP probe, tokene, ključeve ili podatke.
+I2. GET https://www.dentvitalis.com/dv-static-check-20261004-a1.txt?dvcheck=a1
+    Potvrdi stvarni HTTP 200 i taj točan neutralni sadržaj, ne samo status.
+    Zapiši vrijeme i dostupne Server/Content-Type/cache headere, bez cookieja.
+    Potvrdi da obični https://www.dentvitalis.com/ još prikazuje stari web.
+I3. Vrati rezultat I1–I2 i STANI prije zamjene sadržaja. Nema novog swapa ili
+    aktivacije. Ne briši datoteku ili druge stavke. Ako 404/403/5xx, ne nagađaj.
+
+MOGUĆI SLJEDEĆI POSTUPAK — JOŠ NIJE IZVEDEN OVIM NASTAVKOM
+Ako nova statička datoteka radi u izvornom rootu, možemo pripremiti in-place
+zamjenu sadržaja: zadržati SAMU postojeću public_html mapu i njezine stvarne
+owner/group/ACL/kontekst, a stare stavke unutar nje recoverable premjestiti u
+novu privatnu 0700 backup mapu te v8 sadržaj premjestiti na prazna mjesta.
+Korijenska mapa se ne preimenuje i nema prepisivanja postojećih sadržaja.
+Move ne radi novu cijelu kopiju i ne traži prostor za dupliciranje bloga.
+Ta procedura traži precizan inventar, prazne ciljeve, kodni rollback sadržaja
+u ISTU mapu i puni B.9 runtime prihvat; nije unaprijed potvrđeno da rješava
+DirectoryIndex/rewrite/consent. Index.php/application/podaci/DNS/PHP ostaju
+neizmijenjeni, blog javna nedostupnost već je odobrena. Prvo rezultat I1–I2.
+
+POVIJESNI STOP I NALAZ RETRYJA — TREĆI ROOT SWAP I DALJE NIJE ODOBREN
 AKTUALNI STOP — ODOBRENI RETRY IZVEDEN, IZRAVNI index.html VRATIO LITESPEED 404
 Ovaj odjeljak ima prednost nad SVIM R/A/B/N/H uputama ispod. R1–R5 su povijest,
 NE nalog za još jedan pokušaj. Nije odobrena nova aktivacija ili nasumični fix.

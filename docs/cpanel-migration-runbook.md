@@ -8,6 +8,27 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Aktualni nastavak — neutralni statički preflight u izvornom rootu:** nakon
+drugog neuspjeha vlasnik traži da pronađemo rješenje. Ne ponavljamo root swap.
+Neovisni javni GET potvrđuje da postojeći root poslužuje Googleovu HTML
+verifikaciju (200, 53 B) i Bing XML (200, 85 B) kao stvarne statičke datoteke.
+To ne dokazuje čitanje NOVIH datoteka pa agentova uputa sada počinje I1–I3:
+stvoriti jednu novu nepostojeću neutralnu `dv-static-check-20261004-a1.txt`
+0644 s tekstom `DV-STATIC-CHECK-20261004-A1`, GET potvrditi 200/točan sadržaj i
+očuvanu staru naslovnicu, zatim izvijestiti prije aktivacije. Jedino je taj
+bezopasni dijagnostički zapis dopušten; nema novih root renamea, PHP probea,
+chmoda, izmjene htaccessa ili cachea. Test ne sadrži privatne podatke.
+
+Ako nova datoteka radi, alternativa je precizna in-place zamjena samo sadržaja
+public_html uz očuvanje SAMOG izvornog korijena i owner/group/ACL/konteksta.
+Stari sadržaj recoverable Move u novi privatni 0700 backup, v8 sadržaj Move na
+prazna mjesta, kodni rollback sadržaja u ISTU mapu. Nema nove cijele kopije,
+prepisivanja, vraćanja application/data ili korijenskog chmoda. To je prijedlog
+ovisno o rezultatu preflighta, NE izvršena/provjerena metoda ili utvrđen uzrok.
+Puni runtime prihvat i dokaz čitanja novog indexa ostaju obvezni. I1–I3 imaju
+prednost nad ranijim potpunim read-only STOP-om samo za tu TXT datoteku; javna
+v8 aktivacija ili treći isti root swap nisu odobreni ovom fazom.
+
 **AKTUALNI STOP — odobreni retry potrošen, direktni index.html 404:** vlasnik
 prenosi prvi GET `https://www.dentvitalis.com/index.html?dvcheck=20261004retry01`
 HTTP 404, uz screenshot native LiteSpeed stranice. Odmah izveden rollback;
