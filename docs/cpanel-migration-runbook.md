@@ -8,6 +8,15 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Čišćenje izvještaja na zahtjev vlasnika, 4. listopada:** u `.astro/reports/`
+ostaje samo aktualni DentVitalis handoff `DentVitalis-htaccess-sitemap-20261004.zip`.
+Tri stara SEO ZIP-a, dva stara Excela, v3 htaccess TXT i mapa
+`htaccess-localized-v3` premješteni su, bez promjene bajtova, u
+`.astro/archive/seo-handoff-20261004-before-cleanup/`; mogu se vratiti.
+Osam hashova arhiviranih datoteka i hash aktualnog ZIP-a potvrđeni su.
+Arhivirani ZIP putovi niže povijesni su zapisi, ne paketi za novo slanje.
+Verzionirani izvori u `docs/seo/`, web releaseovi, backupovi i cPanel nisu dirani.
+
 **Novi pregled čitljivosti .htaccessa, 4. listopada:** kandidat je u
 `docs/seo/handoff-readable-20261004/`, uz zapis ciljane Apache provjere.
 Čuva prethodna odredišta, uklanja sedam istih duplikata i ne usvaja
