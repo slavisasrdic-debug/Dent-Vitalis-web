@@ -401,6 +401,33 @@ test(
       await writeFile(file, 'Confirmation fixture');
       await chmod(file, 0o644);
     }
+    const cacheFixtures =
+      process.env.DENTVITALIS_PERFORMANCE_CACHE === '1'
+        ? [
+            ['/_astro/home.AbCd0123.js', true],
+            ['/assets/fonts/montserrat-5ce8bc33c495.js', true],
+            [
+              '/assets/video/DV-MObile-video01_3_optimized-012345abcdef.mp4',
+              true,
+            ],
+            ['/assets/images/original.webp', false],
+            ['/assets/video/DV-MObile-video01_3_mp4.mp4', false],
+            ['/robots.txt', false],
+            ['/sitemap.xml', false],
+          ]
+        : [];
+    for (const [path] of cacheFixtures) {
+      const file = join(directory, 'htdocs', path);
+      await mkdir(dirname(file), { recursive: true, mode: 0o755 });
+      for (
+        let folder = dirname(file);
+        folder !== join(directory, 'htdocs');
+        folder = dirname(folder)
+      )
+        await chmod(folder, 0o755);
+      await writeFile(file, 'Static cache fixture', { mode: 0o644 });
+      await chmod(file, 0o644);
+    }
     // Migration can leave legacy directories behind; they must not force '/'.
     for (const route of [
       '/hr/hvala',
@@ -587,6 +614,32 @@ test(
     );
     assert.equal(explicitIndex.status, 200);
     assert.equal(explicitIndex.text, 'Test page only');
+    assert.ok(!explicitIndex.cacheControl?.includes('immutable'));
+    for (const [path, immutable] of cacheFixtures) {
+      const response = await request(true, 'www.dentvitalis.com', path);
+      assert.equal(response.status, 200, path);
+      assert.equal(
+        response.cacheControl?.includes('immutable') ?? false,
+        immutable,
+        path,
+      );
+      if (immutable)
+        assert.equal(
+          response.cacheControl,
+          'public, max-age=31536000, immutable',
+        );
+    }
+    if (cacheFixtures.length) {
+      const missing = await request(
+        true,
+        'www.dentvitalis.com',
+        '/_astro/missing.AbCd0123.js',
+      );
+      assert.ok(
+        !missing.cacheControl?.includes('immutable'),
+        'PHP fallback is never immutable',
+      );
+    }
     const emptyDirectory = await request(
       true,
       'www.dentvitalis.com',

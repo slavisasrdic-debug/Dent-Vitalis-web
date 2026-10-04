@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && node scripts/prepare-page-routes.mjs",
+    "build": "astro build && node scripts/prepare-page-routes.mjs && node scripts/inline-small-stylesheets.mjs",
     "preview": "astro preview",
     "preview:ensure": "bash scripts/ensure-preview.sh",
     "reference:audit": "node scripts/audit-webflow.mjs",

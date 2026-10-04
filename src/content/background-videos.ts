@@ -1,7 +1,8 @@
-import posters from './video-posters.json';
+import posters from './video-posters.json' with { type: 'json' };
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import mobileOptimization from './mobile-video-optimization.json' with { type: 'json' };
 
 export type VideoName = keyof typeof posters;
 export interface BackgroundVideoSource {
@@ -20,7 +21,10 @@ const videoFiles = Object.fromEntries(
     name,
     Object.fromEntries(
       ['mp4', 'webm'].map((format) => {
-        const path = `/assets/video/${name}_${format}.${format}`;
+        const path =
+          name === 'DV-MObile-video01_3' && format === 'mp4'
+            ? mobileOptimization.path
+            : `/assets/video/${name}_${format}.${format}`;
         const bytes = readFileSync(join(process.cwd(), 'public', path));
         const version = createHash('sha256').update(bytes).digest('hex');
         return [format, `${path}?v=${version}`];

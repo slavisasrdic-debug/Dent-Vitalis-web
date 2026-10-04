@@ -1,0 +1,26 @@
+{
+  "source": "public/assets/video/DV-MObile-video01_3_mp4.mp4",
+  "sourceSha256": "f7bca8dcdd389cb4a0102967deed1ae9127f5af2a1af289184dd103d8df775d0",
+  "sourceBytes": 2025462,
+  "path": "/assets/video/DV-MObile-video01_3_optimized-8181dae8215a.mp4",
+  "sha256": "8181dae8215a132cd08fad01cb91230480694bceccbf9503a5128a59b0aa392a",
+  "bytes": 1519563,
+  "ssim": 0.992111,
+  "media": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 406,
+        "height": 720,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "30/1",
+        "nb_frames": "350"
+      }
+    ],
+    "format": {
+      "duration": "11.666667"
+    }
+  },
+  "encoder": "ffmpeg 6.1.1 / libx264, slow, CRF 20, yuv420p, threads 2, faststart"
+}
