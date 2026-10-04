@@ -1,6 +1,44 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
-AKTUALNO — VLASNIK ODOBRAVA JEDAN KONTROLIRANI DIJAGNOSTIČKI POKUŠAJ
+AKTUALNI STOP — ODOBRENI RETRY IZVEDEN, IZRAVNI index.html VRATIO LITESPEED 404
+Ovaj odjeljak ima prednost nad SVIM R/A/B/N/H uputama ispod. R1–R5 su povijest,
+NE nalog za još jedan pokušaj. Nije odobrena nova aktivacija ili nasumični fix.
+Aktivni stari root: /home2/dentvita/public_html/ (0750 prema vlasnikovu izvještaju).
+AKTUALNI sačuvani v8 root:
+/home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/.
+Ne koristiti prethodni failed ili next naziv kao da ondje još postoji v8.
+
+Vlasnik javlja da je prvi GET /index.html?dvcheck=20261004retry01 vratio 404;
+screenshot prikazuje native LiteSpeed 404 Not Found, bez novog weba. Odmah je
+izveden rollback, druge dvije adrese i B.9 nisu testirani. Vrijeme zahtjeva,
+response headeri i screenshot File Managera u aktivnom prozoru nisu dostavljeni.
+Neovisni GET u 20:09:44 UTC potvrđuje vraćeni stari www root 200 bez listinga.
+To nije neovisna provjera failed-v8 HTTP odgovora tijekom aktivacije.
+
+ZAVRŠNI READ-ONLY NASTAVAK, BEZ JAVNIH PROMJENA:
+S1. Iz POSTOJEĆIH zapisa/screenshotova pokušaja vrati samo: uspjeh i apsolutne
+    izvorne/ciljne putanje oba renamea, je li NOVI public_html/index.html viđen
+    nakon drugog renamea i prije GET-a, vrijeme GET-a i dostupne response headere
+    bez cookieja. Ne aktivirati v8 radi nove snimke i ne ponavljati cijeli audit.
+S2. Vlasnik može poslati hostingu ovaj dodatak postojećem zahtjevu:
+    Nakon uspješno prijavljenog swap pokušaja, izravni
+    https://www.dentvitalis.com/index.html?dvcheck=20261004retry01
+    vratio je native LiteSpeed 404. Index.html postoji u sačuvanom v8 rootu,
+    /home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/;
+    stari /home2/dentvita/public_html/ sada radi nakon rollbacka.
+    Molimo za taj GET utvrdite stvarni vhost, fizičku putanju koju je LiteSpeed
+    pokušao pročitati i razlog 404 (routing/rewrite, kontekst/cache, nepostojanje
+    u tom kontekstu ili prava). Read-only usporedite owner/group, ACL i dozvole
+    obaju korijena i pristup procesa statičkom index.html/htaccessu; korijeni
+    su prijavljeni kao 0750, ali owner/group nisu dostupni u File Manageru.
+    Trebamo nalaz s dokazom i najmanji predloženi ispravak, bez promjena servisa.
+S3. STANI. Direktni 404 znači da uzrok nije objašnjen SAMO prioritetom
+    DirectoryIndex. Ne dokazuje pogrešan DNS, ignoriran htaccess, cache ili
+    prava; sadržaj/routing/serviranje nisu prihvaćeni. Bez trećeg swap pokušaja,
+    chmod 0755/0777 naslijepo, preimenovanja HTML-a u PHP, uklanjanja pravila,
+    globalnog purgea/restarta, POST-ova ili brisanja prethodnih kopija.
+
+POVIJESNO ODOBRENJE — JEDAN KONTROLIRANI POKUŠAJ VEĆ JE POTROŠEN
 Vlasnik 4.10.2026. nakon read-only nalaza izričito traži nastavak objave:
 "AJmo to dignuti". R1–R5 imaju prednost nad svim starim STOP/A/B/N/H uputama
 ispod. Uzrok prvog incidenta NIJE utvrđen i NIJE napravljen dokazani ispravak.

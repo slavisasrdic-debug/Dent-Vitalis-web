@@ -62,7 +62,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "owner-authorized-one-instrumented-v8-retry; direct-index-and-root-content-checks-after-both-renames; immediate-code-rollback-on-regression; then-full-runtime-acceptance",
+    "nextCheck": "retry-returned-native-LiteSpeed-404-for-direct-index-and-rolled-back; no-third-swap; obtain-existing-rename-file-presence-evidence-and-hosting-physical-path-ownership-access-diagnosis",
     "galleriaV8": {
       "requestedOn": "2026-10-04",
       "ownerSource": "owner-requests-galleria-all-consumers-final-package-and-migration-and-confirms-SEO-master-approved-latest-proposal",
@@ -162,9 +162,34 @@
           "repeatRealBackendPostsAllowed": false,
           "fullRuntimeAcceptanceStillRequired": true,
           "thirdAttemptAllowed": false,
-          "executed": false,
+          "executed": true,
           "succeeded": false,
-          "rootCauseEstablished": false
+          "rootCauseEstablished": false,
+          "resultEvidenceKind": "owner-relayed-cpanel-agent-report-and-owner-provided-native-LiteSpeed-404-screenshot",
+          "firstCheckResult": {
+            "url": "https://www.dentvitalis.com/index.html?dvcheck=20261004retry01",
+            "httpStatusReported": 404,
+            "screenshotShowsNativeLiteSpeed404": true,
+            "exactRequestTimeKnown": false,
+            "responseHeadersProvided": false,
+            "rootAndCacheBustedRootChecked": false,
+            "fullRuntimeAcceptancePerformed": false,
+            "activeWindowFileManagerIndexPresenceEvidenceProvided": false
+          },
+          "rollbackReportedCompleted": true,
+          "currentActiveRootReported": "/home2/dentvita/public_html/",
+          "currentSavedV8RootReported": "/home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/",
+          "noExtraAttemptConfigMutationDeletionOrPostReported": true,
+          "independentRestoredRootGet": {
+            "checkedAtUtc": "2026-10-04T20:09:44Z",
+            "httpStatus": 200,
+            "serverHeader": "LiteSpeed",
+            "title": "I migliori dentisti Croazia per denti perfetti - DentVitalis",
+            "hasDirectoryListing": false,
+            "hasAstroResources": false,
+            "responseCookieTokenOrFullBodyValuesRecorded": false
+          },
+          "nextAction": "existing-operation-evidence-only-and-hosting-physical-path-rewrite-context-owner-group-ACL-read-access-audit; no-third-swap-or-speculative-fix"
         }
       },
       "uploaded": true,

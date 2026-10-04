@@ -8,7 +8,27 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
-**AKTUALNO — vlasnik odobrava jedan kontrolirani dijagnostički pokušaj:**
+**AKTUALNI STOP — odobreni retry potrošen, direktni index.html 404:** vlasnik
+prenosi prvi GET `https://www.dentvitalis.com/index.html?dvcheck=20261004retry01`
+HTTP 404, uz screenshot native LiteSpeed stranice. Odmah izveden rollback;
+ostala dva GET-a i B.9 nisu izvršeni. Novi v8 sada je sačuvan u
+`/home2/dentvita/public_html-failed-20261004-galleria-v8-retry-01/`, stari root
+u `/home2/dentvita/public_html/` (0750 prema izvještaju). Neovisni GET u
+20:09:44 UTC potvrđuje stari www root 200, stari naslov, bez listinga/Astroa.
+Nisu prijavljene druge promjene ili POST-ovi. Vrijeme retry zahtjeva i njegovi
+response headeri nisu dostavljeni; prikaz datoteka u samom aktivnom prozoru
+nije zasebno potvrđen. Potrebni su samo postojeći rename/GET dokazi, ne novi swap.
+
+Ovaj STOP i novi S1–S3 na vrhu agentove upute imaju prednost nad svim ranijim
+R1–R5 i drugim aktivacijskim zapisima. Treći pokušaj nije odobren. Direktni
+404 sužava dijagnozu: sam izbor DirectoryIndex ne objašnjava nedostupnost
+izravnog /index.html. Ne dokazuje određeni uzrok ni da hosting nužno griješi;
+stvarno mapiranje/pristup/rewrite/cache treba dokazati. Hostingu je pripremljen
+dodatak za fizičku putanju tog GET-a i read-only usporedbu owner/group/ACL
+korijena i dostupnosti datoteke za webserver proces. Ništa nije popravljeno
+promjenom upute. Nema novog ZIP-a, chmoda ili spekulativnog purgea/restarta.
+
+**Povijesno odobrenje — jedan kontrolirani pokušaj već je izveden:**
 nakon read-only nalaza izričito traži "AJmo to dignuti". Uzrok prvog listinga
 ostaje nedokazan; nema tvrdnje da je paket popravljen ili hosting potvrđen.
 Odobrenje dopušta jedan instrumentirani pokušaj uz spreman kodni povratak,
