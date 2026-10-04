@@ -42,7 +42,8 @@ with zipfile.ZipFile(base_path) as base, zipfile.ZipFile(archive_path) as archiv
     assert len(tree.findall('s:url', ns)) == 136 and len(links) == 676
     assert {link.attrib['hreflang'] for link in links} == {'it', 'hr', 'de', 'en', 'sl'}
     html_files = [info.filename for info in files if info.filename.endswith('.html')]
-    assert len(html_files) == 141
+    # 140 routed pages + root index + the separate 404 document.
+    assert len(html_files) == 142
     assert all(archive.read(name) == base.read(name) for name in html_files)
     assert sum(info.file_size for info in files) == receipt['logicalUnpackedBytesIncludingManifest']
-print(json.dumps({'crc': 'ok', 'manifestHashesVerified': 691, 'files': 692, 'directories': 13, 'modes': '0644/0755', 'unchangedHtml': 141, 'changedFiles': changed, 'unchangedPayloadFiles': 690, 'sitemapUrls': 136, 'hreflang': 676, 'seoApproval': 'pending'}, indent=2))
+print(json.dumps({'crc': 'ok', 'manifestHashesVerified': 691, 'files': 692, 'directories': 13, 'modes': '0644/0755', 'unchangedHtml': len(html_files), 'changedFiles': changed, 'unchangedPayloadFiles': 690, 'sitemapUrls': 136, 'hreflang': 676, 'seoApproval': 'pending'}, indent=2))

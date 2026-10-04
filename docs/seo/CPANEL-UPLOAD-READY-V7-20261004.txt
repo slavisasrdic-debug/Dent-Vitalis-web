@@ -1,0 +1,59 @@
+ZA CPANEL AGENTA — UPLOAD NAKON SEO POTVRDE, BEZ JAVNE AKTIVACIJE
+
+Jedini novi puni kandidat:
+dentvitalis-web-production-candidate-20261004-ready-v7.zip
+ZIP: 57.922.519 bajta (oko 55,24 MiB).
+SHA-256: 5d8e37c1af782ecf417ec2633422edd0803cc8aa57d6c9dff2dcd5a9fe250669
+Raspakirano: 65.621.064 bajta; 692 datoteke i 13 podmapa; 0644/0755.
+Manifest revision: 20261004-ready-v7; package commit 0adbcedb71c3.
+
+Sadrži pregledni .htaccess IDENTIČAN onome poslanom SEO kolegi, zadnji sitemap
+(136 URL-ova, pet jezika, 676 hreflang veza, bez XML x-default) i sve WhatsApp
+v5 prijevode. Od v6 mijenja samo .htaccess i manifest. Svih 690 drugih payload
+datoteka i svih 142 HTML dokumenata, uključujući 404, ostalo je bajtno isto.
+CRC, svih 691 hashova, broj datoteka i ZIP dozvole neovisno su provjereni.
+Lokalni Apache prihvat upravo ovog htaccessa već je prošao.
+Backend nije u ZIP-u; prethodno instalirane PHP dopune ne instalirati ponovno.
+
+0. ČEKAJ da vlasnik prenese SEO potvrdu upravo ove verzije, uključujući osam
+   dodatnih 301 u odjeljku 5. Kandidat zadržava postojeći IT /domande-e-risposte.
+   Ako SEO traži promjenu tog URL-a ili pravila, STANI: treba nova usklađena
+   revizija, ne ručno krpanje ovog ZIP-a ili prepisivanje manifesta.
+
+1. Nakon potvrde provjeri aktualnu kvotu/prostor: barem 150 MB slobodno za ZIP
+   i raspakiravanje. Ništa ne briši i ne kopiraj cijeli web/blog ponovno.
+2. Napravi novu praznu privatnu mapu:
+   /home2/dentvita/releases/20261004-ready-v7/
+3. Otvori Upload. Vlasnik odabire samo gore navedeni ready-v7 ZIP.
+   Overwrite isključen; čekaj 100 %. Extract u istu privatnu mapu.
+4. Provjeri 692 datoteke bez ZIP-a, 13 podmapa, sve dozvole 0644/0755,
+   manifest, index.html, .htaccess, _pages, _astro, assets i sitemapove.
+   .htaccess ima 57 različitih starih 301, osam odobrenih novih i osam za
+   završni SEO prihvat; nema novih medicinskih spajanja iz nepotvrđenog priloga.
+   Ako SHA/točni bajtovi nisu dostupni u File Manageru, navedi NEPROVJERENO.
+5. Vrati kratak izvještaj i STANI prije kopiranja ili aktivacije.
+   Ne diraj aktivni public_html, application, podatke, backupove, DNS ili PHP.
+   Bez novih POST/e-mail/CRM testova i bez ponavljanja SSH/API pokušaja.
+
+SLJEDEĆI KORAK — TEK NAKON ZASEBNOG VLASNIKOVA ODOBRENJA
+Postojeći pripremni root:
+/home2/dentvita/public_html-next-20261004-localized-v3/
+Ne stvarati novi duplikat svih 1.034 datoteka. Prije zamjene napravi privatnu
+kopiju postojećeg _pages i pet root datoteka koje se mijenjaju, uz provjeru
+prostora. Iz v7 stagea ažurirati samo:
+_pages/, index.html, .htaccess, sitemap.xml, sitemap-0.xml, release-manifest.json.
+NE samo htaccess/sitemap: tada bi sadašnji v3 root izostavio WhatsApp dopunu.
+Ne kopirati ZIP. Sačuvati index.php, .well-known, verifikacije, stare resurse,
+vlasništvo/grupu i korijen 0750; svi application podaci ostaju netaknuti.
+Blog ostaje u starom rootu/backupu prema ranijoj odluci. Provjeri završni
+sadržaj prema v7 manifestu koliko File Manager dopušta i prijavi ograničenja.
+STANI za odobrenje javne zamjene; privatni stage nije javni preview.
+
+JAVNA AKTIVACIJA — NE IZVRŠAVATI OVOM UPUTOM
+Za zasebno odobreni prijelaz: stari public_html preimenovati u jedinstven
+privatni before direktorij, zatim pripremni root u public_html. Kratki prekid
+između preimenovanja je moguć. Neposredno provjeriti pet jezika, ključne nove
+i stare URL-ove, 301/308, sitemap/robots, resurse, PHP token GET i GTM/CookieYes
+u pregledniku (bez privole / prihvat / odbijanje). Stvarne upite ne ponavljati.
+Kod greške vratiti prethodni javni direktorij, bez vraćanja application/data,
+mail/log, baze ili CRM-a. Točan postupak: docs/cpanel-migration-runbook.md.

@@ -1,0 +1,52 @@
+{
+  "archiveName": "dentvitalis-web-production-candidate-20261004-ready-v7.zip",
+  "compressedZipBytes": 57922519,
+  "sha256": "5d8e37c1af782ecf417ec2633422edd0803cc8aa57d6c9dff2dcd5a9fe250669",
+  "contentGitCommit": "33f42559b84ac92e145eca455f0921c975aadc82",
+  "totalFilesIncludingManifest": 692,
+  "directories": 13,
+  "logicalUnpackedBytesIncludingManifest": 65621064,
+  "manifestSha256": "37bacb20a362fba84920d7cd2400d93f7d600e63dbc4a6c84f5cfaa2ac8c5259",
+  "fileMode": "0644",
+  "directoryMode": "0755",
+  "crcPassed": true,
+  "independentAll691HashesAndZipModesVerified": true,
+  "independentUnchangedHtmlFilesIncluding404": 142,
+  "status": "verified-local-upload-candidate-awaiting-seo-confirmation-not-uploaded-not-activated",
+  "revision": "20261004-ready-v7",
+  "packageGitCommit": "0adbcedb71c3c313003c30b332f00f88364f7f9a",
+  "htaccessRevisionGitCommit": "72b0291961a22d236c70872a37ddff4f5cb98da1",
+  "immutableBaseArchive": {
+    "archiveName": "dentvitalis-web-production-candidate-20261004-sitemap-v6.zip",
+    "sha256": "b36f33047593dd55e76b4e85a1d77cea1dce826c77d20d79f9acfb29079f1462",
+    "manifestSha256": "ccaba7e236d079ce9cab107b38aa91d3d5111f8c67391d360d0e1db5dc3dc127"
+  },
+  "all691BasePayloadHashesVerified": true,
+  "changedFiles": [
+    ".htaccess",
+    "release-manifest.json"
+  ],
+  "unchangedPayloadFiles": 690,
+  "sitemapUrls": 136,
+  "hreflangLinks": 676,
+  "sitemapXDefaultLinks": 0,
+  "htmlAndWhatsAppUnchanged": true,
+  "htaccessIdenticalToSeoReview": true,
+  "seoApproval": "pending",
+  "pendingItalianGalleryUrlDecision": "/domande-e-risposte retained; /galleria still requires confirmation",
+  "publicActivationApproved": false,
+  "existingArchivesOverwritten": false,
+  "serverChanged": false,
+  "backendChanged": false,
+  "realPostPerformed": false,
+  "intendedPrivateStage": "/home2/dentvita/releases/20261004-ready-v7/",
+  "existingPrivateNextRoot": "/home2/dentvita/public_html-next-20261004-localized-v3/",
+  "privateNextRootFilesToReplaceAfterSeparateApproval": [
+    "_pages/",
+    "index.html",
+    ".htaccess",
+    "sitemap.xml",
+    "sitemap-0.xml",
+    "release-manifest.json"
+  ]
+}

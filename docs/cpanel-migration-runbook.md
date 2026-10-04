@@ -8,6 +8,23 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Trenutačni puni upload kandidat — ready-v7, čeka SEO potvrdu:**
+`dentvitalis-web-production-candidate-20261004-ready-v7.zip`, 57.922.519 B;
+SHA-256 `5d8e37c1af782ecf417ec2633422edd0803cc8aa57d6c9dff2dcd5a9fe250669`.
+To je v6 s identičnim preglednim .htaccessom iz zadnjeg SEO handoffa i novim
+manifestom; ostalih 690 payload datoteka, zadnji XML i WhatsApp ostaju isti.
+692 datoteke/13 mapa; CRC, svih 691 hashova, 0644/0755 i nepromijenjenost
+svih 142 HTML dokumenata uključujući 404 neovisno potvrđeni.
+SEO potvrda i odobrenje javne aktivacije još nisu dobiveni. Ovaj zahtjev
+odobrio je samo lokalnu pripremu. Receipt: `data/seo/cpanel-ready-v7-release-20261004.json`;
+uputa: `docs/seo/CPANEL-UPLOAD-READY-V7-20261004.txt`. Privatni upload cilj
+nakon SEO potvrde: `/home2/dentvita/releases/20261004-ready-v7/`.
+Ne ponavljati cijelu v3 next-root pripremu; poslije zasebnog odobrenja sačuvati
+pa ažurirati _pages i pet root datoteka navedenih u uputi, ne samo SEO datoteke.
+Prije uploada provjeriti kvotu, bez automatskog brisanja. Ako SEO mijenja
+htaccess ili IT galerija URL, potrebna je nova revizija. V6 i stariji ZIP-ovi
+ostaju nepromijenjeni, ali nisu najnoviji upload kandidat.
+
 **Čišćenje izvještaja na zahtjev vlasnika, 4. listopada:** u `.astro/reports/`
 ostaje samo aktualni DentVitalis handoff `DentVitalis-htaccess-sitemap-20261004.zip`.
 Tri stara SEO ZIP-a, dva stara Excela, v3 htaccess TXT i mapa
