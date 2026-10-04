@@ -8,6 +8,52 @@ Receipt: data/seo/cpanel-galleria-v8-release-20261004.json.
 Vlasnik je potvrdio zadnji SEO prijedlog i zatražio /galleria te migraciju nakon
 provjere. To nije ovlast za backend, DNS/PHP promjene ili nove stvarne POST-ove.
 
+AKTUALNI NASTAVAK — IMA PREDNOST NAD STARIM A.1–A.5 ISPOD
+Vlasnik je dostavio agentov izvještaj: v8 već raspakiran, 692 datoteke i 13
+podmapa s pregledanim 0644/0755; revision potvrđen. Privatna kodna kopija od
+147 datoteka već je u backups/next-root-before-galleria-v8-20261004/, korijen
+0700. Zadnja prijavljena slobodna kvota 78,67 MB; SHA/točni ZIP bajtovi nisu
+potvrđeni na serveru. Copy je otkazan; next root i javni web ostali su neizmijenjeni.
+Ne ponavljati upload, Extract ili backup; ne tražiti ponovno 160 MB za već
+dovršeni korak. Ne treba novi paket ni nova cijela kopija roota.
+
+N1. Zatvori aktualni Copy dijalog s Cancel. Provjeri točne dvije privatne
+    lokacije i prisutnost već napravljenog backupa. Prikaži skrivene datoteke.
+N2. Unutar postojećeg privatnog backupa napravi NOVU PRAZNU mapu 0700:
+    /home2/dentvita/backups/next-root-before-galleria-v8-20261004/displaced-originals/
+    Ako taj naziv postoji i nije prazan, ne prepisuj ga. Postojećih 147 kopija
+    u roditeljskoj backup mapi mora ostati netaknuto.
+N3. ISKLJUČIVO iz /home2/dentvita/public_html-next-20261004-localized-v3/
+    premjesti (Move) ovih osam stavki u displaced-originals:
+    _pages/, index.html, .htaccess, sitemap.xml, sitemap-0.xml,
+    page-routes.json, _redirects, release-manifest.json.
+    Odredište je postojeća prazna mapa, bez sukoba imena. Nakon operacije
+    potvrdi prisutnost u backupu i odsutnost samo tih stavki iz next roota.
+    Sve ostalo, posebno index.php, _astro/assets i legacy resursi, ostaje.
+N4. ISKLJUČIVO iz /home2/dentvita/releases/20261004-galleria-v8/
+    odaberi ISTIH osam stavki i Move u postojeći next root iz N3.
+    Ne dopisuj /_pages u odredište: odredište je roditeljski next direktorij.
+    U njemu upravo tih osam imena sada ne postoji; ne traži se prepisivanje.
+    Izvorni ZIP i sve ostale stage stavke ostaju. Stage nakon Move više NIJE
+    potpuna raspakirana kopija — to izričito zabilježi, nije gubitak paketa.
+N5. Provjeri u next rootu _pages/galleria.html i svih pet galerija; nema
+    _pages/_pages ni _pages/domande-e-risposte.html. Stari galerijski dokument
+    sada je unutar privatnog displaced-originals/_pages, ne u javnoj pripremi.
+    Provjeri sedam root datoteka prema v8, revision, 692 release datoteke uz
+    očuvane stare stavke, 0644/0755 i korijen 0750. index.php usporedi s aktivnim.
+    Nemoj tvrditi da su hashovi provjereni ako File Manager to ne omogućuje.
+    Ako Move zakaže, javni web ostaje netaknut: ne aktiviraj djelomičan next
+    root; vrati točno premještene privatne stavke iz displaced-originals na
+    prazna mjesta i izvijesti. Ne radi široki restore preko privatnih podataka.
+N6. Ako N5 prođe, nastavi B.7–B.10: vlasnik je zatražio nastavak do online
+    objave. Najavi kratki prozor, provjeri Document Root i slobodne before/
+    failed nazive, zamijeni direktorije i odmah obavi produkcijske provjere.
+    Kod bitne regresije izvrši kodni rollback. Nema novih stvarnih POST-ova.
+
+Move je dokumentiran u službenom File Manager vodiču:
+https://docs.cpanel.net/cpanel/files/file-manager/110/#move-files-or-folders
+To nije potvrda konkretne serverske operacije; provjera putanja ostaje obvezna.
+
 A. UPLOAD I PRIPREMA — JAVNI WEB OSTAJE NETAKNUT
 1. Provjeri aktualnu kvotu; najmanje 160 MB slobodno za ZIP, raspakiravanje,
    malu kodnu kopiju izmijenjenih HTML/SEO datoteka i rezervu. Zadnjih 207,46 MB

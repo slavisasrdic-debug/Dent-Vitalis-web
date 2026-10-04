@@ -8,6 +8,22 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**NAJNOVIJE — v8 je uploadan prema cPanel agentu; nastavak bez overwritea:**
+vlasnik prenosi 692 datoteke/13 podmapa, 0644/0755, revision v8 i postojeću
+privatnu kodnu kopiju 147 datoteka (0700). Slobodna kvota prijavljena je kao
+78,67 MB; serverski SHA/točni bajtovi nisu potvrđeni. Copy je otkazan kod A.4;
+next root ostao je v3, aktivni web netaknut. Vlasnik traži nastavak do online.
+
+Uputa sada počinje N1–N6, koji imaju prednost nad starim A.1–A.5. Ne ponavljati
+upload/Extract/backup ni zahtijevati 160 MB za već dovršeni upload. Premjestiti
+osam starih stavki samo iz privatnog next roota u NOVI prazni poddirektorij
+postojećeg backupa `displaced-originals/`; potom istih osam v8 stavki iz stagea
+premjestiti na prazna mjesta next roota. Nema prepisivanja ni nove velike kopije.
+Izvorni ZIP ostaje, a stage nakon Move nije potpuna ekstrakcija; to zabilježiti.
+Ovo je uputa, ne izvedena operacija ovog Codespaces agenta. Obvezne provjere
+pripremljenog roota i B.7–B.10 aktivacija/runtime/kodni rollback ostaju.
+Aktualni izvještaj: readiness `procedure.galleriaV8.fileManagerContinuation`.
+
 **AKTUALNO — galleria-v8, ima prednost nad povijesnim zapisima ispod:** vlasnik
 je potvrdio SEO masterov zadnji pregledni prijedlog te odobrio talijanski
 `/galleria`, usklađivanje svih potrošača i završnu migraciju nakon provjere.
