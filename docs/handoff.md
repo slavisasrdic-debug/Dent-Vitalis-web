@@ -15,6 +15,15 @@ ciljeve. Priprema se lokalni `20261004-redirects-v2` paket iz provjerenog
 PHP backenda, GTM-a ili cPanela. Izvoz `redirects-candidate-20261004.csv`
 ostaje snapshot PRETHODNOG paketa, ne popis novog odobrenog routinga.
 
+Revizija je lokalno završena: `dentvitalis-web-production-candidate-20261004-redirects-v2.zip`,
+57.909.892 B, SHA-256 `3e0ee5496a3379f56df1daf98a061e60bb06a699f5f6a642c528f7091cec9ba4`.
+27/27 ciljanih provjera i izolirani Apache prolaze; lokalni Extract 0644/0755,
+CRC i nepromijenjenih 690 payload hashova potvrđeni. Novi SEO popis je
+`docs/seo/redirects-approved-20261004.csv`; detalji u
+`data/seo/cpanel-routing-revision-20261004.json`. Produkcija nije dirana.
+Koristiti samo novi privatni stage `20261004-redirects-v2`, uz provjeru
+prostora/serverskog Extracta i bez preskakanja preostalih prihvata.
+
 **Najnovije:** IT/DE/EN/SL TEST upiti poslani su po jednom 4. listopada,
 12:20:38–12:20:43 UTC (14:20 Zagreb), nakon vlasnikova „krenimo”. Oznake:
 `DV-MIG-20261004-{IT,DE,EN,SL}-122037Z`. Svaki je koristio svježe tokene iste

@@ -36,6 +36,21 @@ bez prepisivanja. Stari izvori, ZIP-ovi, stage i backupovi ostaju netaknuti.
 Ovo odobrenje nije nova instalacija PHP-a, ponavljanje upita ni zaobilaženje
 preostalih CRM/PDF, transport, rollback i produkcijskih consent provjera.
 
+**Novi paket lokalno dovršen:**
+`dentvitalis-web-production-candidate-20261004-redirects-v2.zip`, 57.909.892 B,
+SHA-256 `3e0ee5496a3379f56df1daf98a061e60bb06a699f5f6a642c528f7091cec9ba4`.
+Lokalni Extract potvrđuje 692 datoteke 0644 i 13 mapa 0755; CRC prolazi.
+Sadržaj ostaje `af6dc28`, routing commit `ac0b3ba`; svih 690 neizmijenjenih
+payload zapisa ima iste hashove. Samo `.htaccess` i manifest su revidirani.
+27/27 ciljanih provjera prolazi, uključujući stvarni izolirani Apache uz
+izvorni `.htaccess`. Prvi startup imao je ECONNRESET, uzrok nije utvrđen;
+dijagnostički i završni zajednički prolaz potom su prošli. To nije potvrda
+novog PHP runtimea na produkciji. Sanitizirani zapis:
+`data/seo/cpanel-routing-revision-20261004.json`. Za SEO kolegu koristiti
+[aktualni CSV](seo/redirects-approved-20261004.csv) i
+[tumačenje](seo/redirects-approved-20261004-README.txt), ne prethodni snapshot.
+Paket nije uploadan/raspakiran na serveru, public aktivacija nije obavljena.
+
 **Aktualni smjer:** bez zahtjeva hosting podršci i bez pretpostavljenog SSH-a.
 API priprema je završena, ali prvi test veze nije prošao. Nastaviti pripremu
 ručnim File Managerom; API automatizacija je pauzirana. Ni jedan put još nije izvedbeno
@@ -59,8 +74,8 @@ validacijskih grešaka. Svaki je imao jedan neutralni PDF od 640 B.
 Vlasnik je 4. listopada odgovorio „Stigli su emailovi”. Prihvaćena je ta
 zajednička potvrda primitka preostalih e-mailova; nema zasebnih screenshotova,
 neovisnog mailbox pristupa niti nove potvrde CRM zapisa/čitljivosti PDF-a.
-Za SEO kolegu izvezen je [popis svih pravila u kandidatu](seo/redirects-candidate-20261004.csv),
-uz [granice dokaza i otvorene odluke](seo/redirects-candidate-20261004-README.txt).
+Za SEO kolegu aktualni je [popis odobrenog paketa](seo/redirects-approved-20261004.csv),
+uz [granice dokaza i otvorene odluke](seo/redirects-approved-20261004-README.txt).
 Izvoz iz ZIP-a nije produkcijski HTTP test niti aktivacija redirekcija.
 
 Ukupno je izvršeno svih pet odobrenih POST-ova, bez ponavljanja. Ne slati
@@ -764,7 +779,8 @@ Odredišta za ciljanu provjeru i sadržajnu odluku:
 2. U File Manageru usporediti sadašnji `public_html/.htaccess` s prihvaćenom
    izvornom kopijom i pripremljenom release konfiguracijom. Zabilježiti
    eventualne nove/izmijenjene redirekcije, prioritete i konflikt s novim
-   rutama. Dopuštena uklanjanja ostaju samo prethodno odobrena dva pravila.
+   rutama. Dopuštene promjene slijede najnovije odobrene odluke na početku
+   ovog runbooka i `data/seo/cpanel-redirect-decisions.json`.
    Stari nesigurni stage `20261001-af6dc28` nije paket za aktivaciju.
    Dvije ranije odobrene HR pojave i naknadno odobrena suprotna VR pojava
    uklanjaju se u novom kandidatu; odobreni aliasi imaju nove izravne ciljeve.

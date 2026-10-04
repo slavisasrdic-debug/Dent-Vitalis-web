@@ -52,6 +52,7 @@
       "approvedOn": "2026-10-04",
       "source": "owner-message-da-podrzavam",
       "file": "data/seo/cpanel-redirect-decisions.json",
+      "localRevisionReport": "data/seo/cpanel-routing-revision-20261004.json",
       "sixOldTargetsAndTheirLegacyAliases": true,
       "threeExistingPhpPagesPreserved": true,
       "vrTourEnglishTargetRetained": true,
