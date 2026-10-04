@@ -1,0 +1,33 @@
+ZA CPANEL AGENTA — VAŽEĆI KANDIDAT, SAMO PRIVATNI UPLOAD
+
+Paket: dentvitalis-web-production-candidate-20261004-sitemap-v6.zip
+ZIP: 57.922.189 bajta; raspakirano 65.619.369 bajta.
+SHA-256: b36f33047593dd55e76b4e85a1d77cea1dce826c77d20d79f9acfb29079f1462
+692 datoteke bez ZIP-a, 13 podmapa; 0644/0755.
+Manifest revision: 20261004-sitemap-v6; commit b4d1ac36371e.
+
+V6 sadrži sve WhatsApp v5 tekstove, isti .htaccess i sve iste HTML/assete.
+Jedina razlika od v5: oba XML urlseta nemaju x-default; manifest je obnovljen.
+136 URL-ova, 676 stvarnih jezičnih hreflang veza; HTML hreflang nije mijenjan.
+Talijanski /domande-e-risposte još nije promijenjen na predloženi /galleria:
+ta odluka je otvorena. Ovaj kandidat nije odobren za javnu aktivaciju.
+
+1. Provjeri aktualnu kvotu: barem 150 MB slobodno prije uploada; ništa ne briši.
+2. Napravi novu praznu privatnu mapu /home2/dentvita/releases/20261004-sitemap-v6/.
+3. Otvori Upload; vlasnik odabire samo navedeni v6 ZIP. Overwrite isključen.
+4. Pričekaj 100 % i Extract u istu privatnu mapu, ne u public_html/application.
+5. Provjeri sve dozvole, brojeve, manifest i ključne datoteke. Oba sitemap.xml
+   i sitemap-0.xml imaju urlset/xmlns:xhtml, 136 loc i nula x-default zapisa.
+   U sitemap-index.xml nema jezičnih linkova; robots/index ostali su isti.
+6. Ako SHA/točni bajtovi nisu dostupni u File Manageru, navedi neprovjereno.
+7. Vrati kratak izvještaj i STANI. Bez next-root izmjena, preimenovanja,
+   javne aktivacije, POST-ova, DNS/PHP/GTM/CookieYes promjena ili SSH/API testa.
+
+Nakon zasebnog odobrenja postojeći privatni v3 next root ažurira se s V6
+izvora, uz privatni backup: _pages/ + index.html, .htaccess, sitemap.xml,
+sitemap-0.xml, release-manifest.json. NE samo dva XML-a: to bi izostavilo
+WhatsApp dopunu u sadašnjem v3 rootu. Ne kopirati ponovno assete/legacy mape.
+Sačuvati index.php, application/podatke, verifikacije i legacy resurse;
+korijen ostaje 0750. Blog ostaje u starom rootu/backupu prema postojećoj odluci.
+Upute za sigurno kopiranje/backup i povratak: docs/cpanel-migration-runbook.md.
+Nove stvarne forme/e-mail/CRM testove ne ponavljati.

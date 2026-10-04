@@ -1,0 +1,33 @@
+{
+  "archiveName": "dentvitalis-web-production-candidate-20261004-sitemap-v6.zip",
+  "compressedZipBytes": 57922189,
+  "sha256": "b36f33047593dd55e76b4e85a1d77cea1dce826c77d20d79f9acfb29079f1462",
+  "contentGitCommit": "b4d1ac36371ed3a554e7efd503f985895a299662",
+  "totalFilesIncludingManifest": 692,
+  "directories": 13,
+  "logicalUnpackedBytesIncludingManifest": 65619369,
+  "manifestSha256": "ccaba7e236d079ce9cab107b38aa91d3d5111f8c67391d360d0e1db5dc3dc127",
+  "fileMode": "0644",
+  "directoryMode": "0755",
+  "crcPassed": true,
+  "independentAllPayloadHashesAndModesVerified": true,
+  "onlyTwoXmlPayloadFilesChangedFromV5": true,
+  "revision": "20261004-sitemap-v6",
+  "comparedAgainst": {
+    "archiveName": "dentvitalis-web-production-candidate-20261004-whatsapp-v5.zip",
+    "sha256": "314d95593b9ef6515317af67b662a132f2ed49c6ace4370299f31df212c3df93"
+  },
+  "changedFiles": ["sitemap.xml", "sitemap-0.xml", "release-manifest.json"],
+  "unchangedPayloadFiles": 689,
+  "allBasePayloadHashesVerified": true,
+  "sitemapUrls": 136,
+  "hreflangLinks": 676,
+  "sitemapXDefaultLinks": 0,
+  "htmlHreflangUnchanged": true,
+  "pendingItalianGalleryUrlDecision": "/galleria proposed but not approved; current /domande-e-risposte unchanged",
+  "existingArchivesOverwritten": false,
+  "serverChanged": false,
+  "realPostPerformed": false,
+  "publicActivationApproved": false,
+  "intendedPrivateStage": "/home2/dentvita/releases/20261004-sitemap-v6/"
+}

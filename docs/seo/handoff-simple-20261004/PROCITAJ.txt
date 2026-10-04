@@ -46,5 +46,6 @@ prije aktivacije. Produkcijsko posluživanje, PHP i consent runtime ostaju za
 provjeru na stvarnom hostingu. Nisu poslani stvarni upiti niti mijenjan server.
 
 XML format: https://developers.google.com/search/docs/specialty/international/localized-versions#sitemap
-Automatski build sada prenosi iste stvarne HTML hreflang parove u sitemap-0.xml.
+Automatski build prenosi stvarne HTML jezične parove u sitemap-0.xml,
+uz izostavljanje x-default prema novoj izričitoj odluci vlasnika.
 Postojeći v3 dist, ZIP, serverski stage i next root nisu prepisani tim popravkom.

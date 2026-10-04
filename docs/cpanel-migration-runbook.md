@@ -8,7 +8,29 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
-**Važeći upload — WhatsApp v5, nakon vlasnikove dopune:**
+**Važeći XML kandidat — sitemap v6:** vlasnik je zatražio uklanjanje svih
+`x-default` zapisa samo iz XML sitemapa. Uklonjeno je 136 zapisa; ostaje
+136 URL-ova i 676 stvarnih jezičnih veza. Generator provodi istu odluku.
+HTML hreflang, WhatsApp v5, URL-ovi, .htaccess, forme i asseti nisu mijenjani.
+Predloženi IT `/galleria` još nije odobren; `/domande-e-risposte` ostaje,
+a javna aktivacija nije odobrena. V5 i stariji ZIP-ovi su povijesni.
+
+Novi puni ZIP: `dentvitalis-web-production-candidate-20261004-sitemap-v6.zip`,
+57.922.189 B; SHA-256
+`b36f33047593dd55e76b4e85a1d77cea1dce826c77d20d79f9acfb29079f1462`.
+692 datoteke/13 mapa, 65.619.369 B raspakirano; CRC, svih 691 hashova i sve
+dozvole 0644/0755 neovisno potvrđeni. Samo dva XML payload dokumenta i
+manifest razlikuju se od v5; ostalih 689 datoteka bajtno je isto.
+Upute: `docs/seo/CPANEL-UPLOAD-SITEMAP-V6-20261004.txt`;
+receipt: `data/seo/cpanel-sitemap-v6-release-20261004.json`.
+Stage `/home2/dentvita/releases/20261004-sitemap-v6/`, samo privatna priprema.
+Za postojeći v3 next root i dalje treba `_pages` + pet root datoteka,
+uz prethodni privatni backup i zasebno odobrenje; ne samo XML zamjena.
+SEO kolegi: `.astro/reports/DentVitalis-SEO-bez-x-default-20261004.zip`,
+isti četvero-dokumentni format, novi XML i usklađeni Excel; stari sitemap
+ostaje original. Pet ciljanih XML/HTML/postbuild provjera prolazi.
+
+**Arhivirani upload — WhatsApp v5 prije XML dopune:**
 `dentvitalis-web-production-candidate-20261004-whatsapp-v5.zip` sadrži
 točne nove WhatsApp poruke svih pet vlasnikovih javnih widget izvora,
 prihvaćeni nativni panel i cjelokupni ispravljeni SEO v4 payload.

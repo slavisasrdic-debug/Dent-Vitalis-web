@@ -1,5 +1,8 @@
 ZA CPANEL AGENTA — 4. LISTOPADA 2026. — SAMO PRIVATNA PRIPREMA
 
+ARHIVIRANO NAKON XML ODLUKE: važeća revizija je sitemap-v6, bez x-default.
+Koristi docs/seo/CPANEL-UPLOAD-SITEMAP-V6-20261004.txt, ne ovaj v5 ZIP.
+
 VAŽEĆI PAKET: dentvitalis-web-production-candidate-20261004-whatsapp-v5.zip
 Ovaj cijeli statički paket zamjenjuje v3 i seo-v4 za budući upload.
 ZIP: 57.922.603 bajta (oko 55,24 MiB u File Manageru).
