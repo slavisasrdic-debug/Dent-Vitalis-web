@@ -16,6 +16,16 @@ samo `.htaccess`, `sitemap.xml`, `sitemap-0.xml` i regenerirani manifest.
 Oba sitemap urlseta sadrže svih 136 URL-ova i stvarni HTML hreflang.
 Provenance razdvaja sadržajni commit v3, SEO reviziju i commit pakiranja.
 Dokaz nakon pakiranja: `data/seo/cpanel-seo-v4-release-20261004.json`.
+Pakiranje i nezavisna provjera stvarnog ZIP-a dovršeni: 57.920.124 B,
+SHA-256 `938fc4142c6fa2ddc2af1eb7bd5992654fb7516af786e82e5cf312e8cd8ebd49`;
+692 datoteke / 13 mapa, 65.633.294 B raspakirano. CRC, svih 691 payload
+hashova i sve ZIP dozvole `0644/0755` potvrđeni. Točno četiri stavke razlikuju
+se od nepromjenjivog v3; svi HTML/CSS/JS/asseti ostaju identični. `robots.txt`
+ostaje nepromijenjen i upućuje na sitemap index koji sada ispravno vodi na
+novi hreflang urlset; nije potrebno mijenjati robots ili indeksnu datoteku.
+Četiri regresijska testa sigurnog ZIP pakiranja prolaze. Novi paket nije
+uploadan ni aktiviran. Manifest razlikuje sadržajni commit `935e5bb7`,
+SEO commit `bb08621` i pakiranje `fbeb3f6`.
 
 Upload cilj je nova privatna mapa `/home2/dentvita/releases/20261004-seo-v4/`.
 Upute: `docs/seo/CPANEL-UPLOAD-SEO-V4-20261004.txt`. Posljednja prijavljena

@@ -1,0 +1,71 @@
+{
+  "archiveName": "dentvitalis-web-production-candidate-20261004-seo-v4.zip",
+  "compressedZipBytes": 57920124,
+  "sha256": "938fc4142c6fa2ddc2af1eb7bd5992654fb7516af786e82e5cf312e8cd8ebd49",
+  "contentGitCommit": "935e5bb7c43def0d73a33fe3fc744a405acc1f8d",
+  "totalFilesIncludingManifest": 692,
+  "directories": 13,
+  "logicalUnpackedBytesIncludingManifest": 65633294,
+  "manifestSha256": "f466442391a5ac8595fabf5846e4f23bb600682eedc875ad2a4714283ccff6b9",
+  "fileMode": "0644",
+  "directoryMode": "0755",
+  "crcPassed": true,
+  "actualArchiveVerifiedAfterPackaging": true,
+  "all691FinalPayloadHashesVerified": true,
+  "all692FileAnd13DirectoryModesVerified": true,
+  "exactlyFourFilesDifferFromImmutableV3": true,
+  "allHtmlCssJsAndAssetsByteIdenticalToV3": true,
+  "robotsSitemapIndexChainVerified": true,
+  "noPrivateBackendOrSourceArchivesInZip": true,
+  "safeZipRegressionTestsPassed": 4,
+  "status": "verified-local-full-static-upload-candidate-not-uploaded-not-activated",
+  "uploadRequestedByOwnerOn": "2026-10-04",
+  "packageGitCommit": "fbeb3f68dcc32dffba315a2e4cd4f74390cb3a06",
+  "seoRevisionGitCommit": "bb08621383f580f7132c3b516ae631a19cd14973",
+  "immutableBaseArchive": {
+    "archiveName": "dentvitalis-web-production-candidate-20261004-localized-v3.zip",
+    "sha256": "ada0eed003483020c5b2d632a83f16f497aab0ae2a5dd6fdac667d75588200b1",
+    "all691PayloadHashesVerified": true
+  },
+  "changedFiles": [
+    {
+      "path": ".htaccess",
+      "beforeSha256": "e18d8454c13dbe23afb10fbe6d721ea98b7608ddb978e2df54c8c4233c3f9024",
+      "afterSha256": "0e84f3c9f36c5352e4a4b94f01684815389032065a43f082e353da28be248844"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "beforeSha256": "efa482153fa703d8536ae9aa2acad91a15eaa426786f778233e460c113e393d9",
+      "afterSha256": "9635351a509ba4053f148307bb93f6a02bea2ad3de66fa0c39acf06c4e16fc8f"
+    },
+    {
+      "path": "sitemap.xml",
+      "beforeSha256": "5187b4f42c9da9cc9d51562a91cd1a0dbf9bc427c4d62ee88f0605c2beed17a9",
+      "afterSha256": "9635351a509ba4053f148307bb93f6a02bea2ad3de66fa0c39acf06c4e16fc8f"
+    }
+  ],
+  "unchangedPayloadFiles": 688,
+  "sitemapUrls": 136,
+  "hreflangLinks": 812,
+  "backendChanged": false,
+  "sourceDistChanged": false,
+  "existingArchiveOverwritten": false,
+  "serverChanged": false,
+  "realPostPerformed": false,
+  "publicActivationApproved": false,
+  "intendedPrivateStage": "/home2/dentvita/releases/20261004-seo-v4/",
+  "existingPrivateNextRoot": "/home2/dentvita/public_html-next-20261004-localized-v3/",
+  "privateNextRootUpdateRequiresSeparateApproval": true,
+  "privateNextRootFilesToReplace": [
+    ".htaccess",
+    "sitemap.xml",
+    "sitemap-0.xml",
+    "release-manifest.json"
+  ],
+  "pendingProductionChecks": [
+    "new-review-301-approval",
+    "preserved-legacy-PHP-HTTP-check",
+    "production-GTM-CookieYes-consent",
+    "controlled-public-switch-and-code-only-rollback"
+  ]
+}

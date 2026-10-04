@@ -1,6 +1,10 @@
 ZA CPANEL AGENTA — 4. LISTOPADA 2026. — SAMO PRIVATNA PRIPREMA
 
 Paket: dentvitalis-web-production-candidate-20261004-seo-v4.zip
+ZIP: 57.920.124 bajta (približno 55,24 MiB u File Manageru).
+SHA-256: 938fc4142c6fa2ddc2af1eb7bd5992654fb7516af786e82e5cf312e8cd8ebd49
+Raspakirano: 65.633.294 bajta; 692 datoteke (bez ZIP-a) i 13 podmapa.
+Dozvole: datoteke 0644, podmape i privatni release korijen 0755.
 To je cijeli statički web, ne ZIP četiri dokumenta za SEO kolegu.
 V3 stranice, slike, JS/CSS, forme i izgled ostaju bajtno nepromijenjeni.
 Izmijenjeni su .htaccess, sitemap.xml, sitemap-0.xml i manifest.
@@ -22,7 +26,7 @@ Paket NE sadrži index.php, application, blog ili podatke pacijenata.
    robots.txt, sva tri sitemap XML-a i release-manifest.json.
 6. Pročitaj manifest: revision 20261004-seo-v4; sadržajni commit 935e5bb7;
    zasebni commit pakiranja/SEO revizije; promijenjene samo tri payload stavke.
-   Oba sitemap.xml i sitemap-0.xml imaju URLSET s xmlns:xhtml, ne samo index.
+Oba sitemap.xml i sitemap-0.xml imaju URLSET s xmlns:xhtml, ne samo index.
    Provjeri /prima-visita → /informazioni/prima-visita-gratuita i postojeće
    /de/unterkunft, /si/namestitev te DE/SI testimonials 301.
 7. Ako alat ne nudi hashove/točne bajtove, izričito navedi neprovjereno;

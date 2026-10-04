@@ -62,7 +62,32 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "review-corrected-four-document-SEO-handoff-with-hreflang-and-eight-additional-equivalent-301s-before-approved-stage-revision-and-any-public-activation",
+    "nextCheck": "private-seo-v4-upload-and-extraction-report-then-separate-approval-for-four-file-next-root-update-and-controlled-public-activation",
+    "seoV4UploadCandidate": {
+      "requestedOn": "2026-10-04",
+      "source": "owner-request-Pripremi-novi-paket-za-upload-ako-sve-bude-ok-da-dizemo-na-cpanel",
+      "status": "locally-packaged-and-verified-not-uploaded-not-activated",
+      "archiveName": "dentvitalis-web-production-candidate-20261004-seo-v4.zip",
+      "zipBytes": 57920124,
+      "sha256": "938fc4142c6fa2ddc2af1eb7bd5992654fb7516af786e82e5cf312e8cd8ebd49",
+      "receipt": "data/seo/cpanel-seo-v4-release-20261004.json",
+      "agentInstructions": "docs/seo/CPANEL-UPLOAD-SEO-V4-20261004.txt",
+      "privateStage": "/home2/dentvita/releases/20261004-seo-v4/",
+      "all692ArchiveFilesAnd13DirectoriesVerified": true,
+      "allHtmlCssJsAssetsUnchangedFromAcceptedV3": true,
+      "changedPublicFiles": [
+        ".htaccess",
+        "sitemap.xml",
+        "sitemap-0.xml",
+        "release-manifest.json"
+      ],
+      "existingPreparedPrivateRootMustBePreserved": true,
+      "fullLegacyResourceCopyMustNotBeRepeated": true,
+      "nextRootUpdateSeparatelyApproved": false,
+      "publicActivationApproved": false,
+      "publicWebChanged": false,
+      "newPostPerformed": false
+    },
     "simpleSeoHandoff": {
       "requestedOn": "2026-10-04",
       "source": "owner-request-Dakle-daj-mi-novi-sitemap-izvuci-stari-i-posalji-taj-novi-htaccess",
