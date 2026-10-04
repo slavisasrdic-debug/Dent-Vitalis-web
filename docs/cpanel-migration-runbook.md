@@ -96,8 +96,15 @@ i vraćanja samo privatnog next direktorija, uz prethodnu provjeru slobodnog
 probnog naziva. Ne preimenovati aktivni `public_html`, ne brisati ni prepisivati.
 To provjerava File Manager operaciju i povrat izvornog naziva/dozvole, ali
 nije dokaz HTTP posluživanja ili stvarnog produkcijskog rollbacka.
-Proba još nije odobrena niti izvedena; javna aktivacija i preostale release
-gates ostaju odvojene. Sam prikaz privatne mape ne dokazuje runtime prihvat.
+Vlasnik je zasebnim odgovorom „da” odobrio ovu privatnu probu, ne javnu
+aktivaciju. Privremeni naziv je
+`/home2/dentvita/public_html-next-20261004-localized-v3-rename-check/`;
+prije prvog preimenovanja provjeriti da ne postoji, ne prepisivati. Nakon
+preimenovanja odmah vratiti izvorni next naziv i provjeriti dozvolu `0750`
+i ključne datoteke. Proba još nije izvedena; javna aktivacija i preostale
+release gates ostaju odvojene. Sam prikaz privatne mape ne dokazuje runtime
+prihvat. Ne preimenovati aktivni `public_html`, ne slati POST niti mijenjati
+PHP/backend, DNS, backupove ili stare releaseove.
 
 **Raniji read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
