@@ -91,20 +91,23 @@ provjereni. Stari javni direktorij nije mijenjan/preimenovan i stara naslovnica
 je vidljiva prema izvještaju. Ne ponavljati dovršeno kopiranje i dozvole.
 Zapis: readiness `fileManagerProgress.localizedV3NextRoot`.
 
-Sljedeći predloženi sigurnosni korak jest zasebno odobrena proba preimenovanja
-i vraćanja samo privatnog next direktorija, uz prethodnu provjeru slobodnog
-probnog naziva. Ne preimenovati aktivni `public_html`, ne brisati ni prepisivati.
-To provjerava File Manager operaciju i povrat izvornog naziva/dozvole, ali
-nije dokaz HTTP posluživanja ili stvarnog produkcijskog rollbacka.
-Vlasnik je zasebnim odgovorom „da” odobrio ovu privatnu probu, ne javnu
-aktivaciju. Privremeni naziv je
-`/home2/dentvita/public_html-next-20261004-localized-v3-rename-check/`;
-prije prvog preimenovanja provjeriti da ne postoji, ne prepisivati. Nakon
-preimenovanja odmah vratiti izvorni next naziv i provjeriti dozvolu `0750`
-i ključne datoteke. Proba još nije izvedena; javna aktivacija i preostale
-release gates ostaju odvojene. Sam prikaz privatne mape ne dokazuje runtime
-prihvat. Ne preimenovati aktivni `public_html`, ne slati POST niti mijenjati
-PHP/backend, DNS, backupove ili stare releaseove.
+**Privatna rename/return proba završena prema agentu:** vlasnik ju je zasebno
+odobrio odgovorom „da”, bez javne aktivacije. Pripremni next direktorij bio je
+preimenovan u `public_html-next-20261004-localized-v3-rename-check` pa vraćen
+na izvorni naziv. Obje operacije završile su bez prijavljenih grešaka;
+privremeni naziv više ne postoji, korijen je zadržao `0750`, svih šest
+ključnih stavki je prisutno s očekivanim dozvolama. Stara naslovnica prikazana
+je u pregledniku, aktivni `public_html` nije diran i forme nisu slane prema
+izvještaju. Ne ponavljati uspješnu probu bez konkretnog novog nalaza.
+
+Ovo potvrđuje prijavljenu File Manager operaciju i povrat naziva/dozvole,
+ne HTTP posluživanje novog roota, vlasništvo/grupu, serverske hashove ili
+stvarni produkcijski rollback. Sljedeći predloženi korak jest zasebno
+odobren kontrolirani aktivacijski prozor s očuvanom starom javnom verzijom,
+provjerama na stvarnom hostu i povratkom javnog koda ako obvezne provjere ne
+prođu. Javna aktivacija još nije odobrena ovim korakom ni izvedena; preostale
+release gates ne smiju se proglasiti zatvorenima privatnom probom. Nema novih
+POST-ova, backend/DNS/PHP promjena niti vraćanja privatnih podataka backupom.
 
 **Raniji read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
