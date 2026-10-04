@@ -41,6 +41,8 @@
   "serverUploaded": false,
   "serverExtracted": false,
   "serverFilePermissionsVerified": false,
+  "activationMustPreserveExistingLegacyPublicAssetsForThreePhpPages": true,
+  "threePhpPagesAndLegacyAssetsVerifiedOnNewProduction": false,
   "publicSiteActivated": false,
   "backendOrPatientDataChanged": false,
   "privateBackupOrSourceArchiveDeleted": false,

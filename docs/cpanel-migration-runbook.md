@@ -14,6 +14,10 @@ izravno na nove slashless ciljeve; uklanja se samo suprotna pojava
 `/vr_tour_eng.htm → /`, dok `/en` ostaje. Tri stranice ostaju u PHP-u:
 dezinfekcija, produženje krune i keramički most na svim implantatima.
 Njihov sadašnji produkcijski GET je 200; Edita i Zoran sada vraćaju 404.
+Pri aktivaciji očuvati i stare javne CSS/JS, slike i fontove potrebne tim
+trima PHP stranicama; statički ZIP ne sadrži njihov legacy frontend.
+Zamjena javnog direktorija ne smije odbaciti postojeće potrebne assete.
+Provjeriti učitavanje njihovih resursa uz stvarni produkcijski PHP prihvat.
 Vlasnik je odobrio njihovu zamjenu zbirkom iskustava, ne prijenos pojedinačnih
 svjedočanstava. Dokazi i granice su u `data/seo/legacy-target-review-20261004.json`.
 
