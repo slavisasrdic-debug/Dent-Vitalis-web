@@ -276,6 +276,12 @@ test(
       'Build the full site before Apache acceptance',
     );
     const suppliedLegacy = process.env.DENTVITALIS_LEGACY_HTACCESS;
+    // Test a complete handoff verbatim, not a regenerated substitute for it.
+    const completeHtaccess = process.env.DENTVITALIS_COMPLETE_HTACCESS;
+    assert.ok(
+      !completeHtaccess || suppliedLegacy,
+      'Supply the accepted legacy inventory with a complete candidate',
+    );
     const compactStaticRouting =
       process.env.DENTVITALIS_COMPACT_HTACCESS === '1';
     const reviewRedirects =
@@ -326,24 +332,33 @@ test(
     );
     await writeFile(
       join(directory, 'htdocs/.htaccess'),
-      suppliedLegacy
+      completeHtaccess
         ? Buffer.from(
-            mergeLegacyHtaccess(sourceLegacy, documents, {
-              requireApprovedTargets: true,
-              compactStaticRouting,
-              reviewRedirects,
-            })
-              .toString()
-              .replace(
-                /^ModPagespeed\s+off\s*$/gm,
-                '# Fixture only: stock httpd has no mod_pagespeed.',
-              ) +
-              '\n# Fixture only: serve the dummy PHP bootstrap as text, not actual PHP.\n' +
+            (await readFile(completeHtaccess, 'utf8')).replace(
+              /^ModPagespeed\s+off\s*$/gm,
+              '# Fixture only: stock httpd has no mod_pagespeed.',
+            ) +
+              '\n# Fixture only: dummy PHP is text; no real submissions.\n' +
               '<Files "index.php">\nSetHandler default-handler\n</Files>\n',
           )
-        : mergeLegacyHtaccess(sourceLegacy, documents, {
-            compactStaticRouting,
-          }),
+        : suppliedLegacy
+          ? Buffer.from(
+              mergeLegacyHtaccess(sourceLegacy, documents, {
+                requireApprovedTargets: true,
+                compactStaticRouting,
+                reviewRedirects,
+              })
+                .toString()
+                .replace(
+                  /^ModPagespeed\s+off\s*$/gm,
+                  '# Fixture only: stock httpd has no mod_pagespeed.',
+                ) +
+                '\n# Fixture only: serve the dummy PHP bootstrap as text, not actual PHP.\n' +
+                '<Files "index.php">\nSetHandler default-handler\n</Files>\n',
+            )
+          : mergeLegacyHtaccess(sourceLegacy, documents, {
+              compactStaticRouting,
+            }),
     );
     await chmod(join(directory, 'htdocs'), 0o755);
     for (const name of [
@@ -483,13 +498,16 @@ test(
         req.end(body);
       });
     }
-    // Startup retries are local and bounded; requests never leave localhost.
-    for (let attempt = 0; ; attempt++) {
+    // Wait for worker readiness, not just the running parent process. Cold
+    // Docker/TLS starts can outlive the old two-second retry window.
+    // Retries are local and bounded; requests never leave localhost.
+    const startupDeadline = Date.now() + 15_000;
+    for (;;) {
       try {
         await request(false, 'localhost');
         break;
       } catch (error) {
-        if (attempt === 20) {
+        if (Date.now() >= startupDeadline) {
           const logs = await run('docker', ['logs', container]);
           const syntax = await run('docker', [
             'exec',

@@ -8,6 +8,15 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Novi pregled čitljivosti .htaccessa, 4. listopada:** kandidat je u
+`docs/seo/handoff-readable-20261004/`, uz zapis ciljane Apache provjere.
+Čuva prethodna odredišta, uklanja sedam istih duplikata i ne usvaja
+114 novih sadržajnih mapiranja ili 34 retargetiranja iz novog priloga.
+Svih 11 lokalnih testova prolazi; cPanel/PHP runtime nije ponovno testiran.
+To NIJE novi upload paket: v6 ZIP, pripremljeni next root i produkcija
+ostaju neizmijenjeni. Ne zamjenjivati htaccess bez nove revizije manifesta
+i potvrde preostalih sadržajnih odluka (uključujući osam review 301).
+
 **Važeći XML kandidat — sitemap v6:** vlasnik je zatražio uklanjanje svih
 `x-default` zapisa samo iz XML sitemapa. Uklonjeno je 136 zapisa; ostaje
 136 URL-ova i 676 stvarnih jezičnih veza. Generator provodi istu odluku.

@@ -1,0 +1,671 @@
+{
+  "status": "local-review-candidate-not-installed-not-packaged",
+  "attachmentSha256": "be9f1fa3aa56b8ea6bd34949a35c5db24c56b674c4ab1f2fe157dc512590429a",
+  "acceptedSourceSha256": "0e84f3c9f36c5352e4a4b94f01684815389032065a43f082e353da28be248844",
+  "outputSha256": "3fc15086eba0c308aee684383a708ff6bddada43265178d1f7e55f51bdaaf861",
+  "outputBytes": 9123,
+  "outputLines": 157,
+  "attachedContentRedirects": 186,
+  "duplicateAttachedSources": [],
+  "missingStaticTargets": [],
+  "nativeSourceCollisions": [],
+  "unchangedAttachedMappings": 38,
+  "retargetedExistingMappings": [
+    {
+      "from": "/VR/1/PurePlayer.swf",
+      "to": "/domande-e-risposte",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/VR/3/03.ivp",
+      "to": "/domande-e-risposte",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/VR/4/PurePlayer.swf",
+      "to": "/domande-e-risposte",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/VR/5/PurePlayer.swf",
+      "to": "/en/gallery",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/VR/8/PurePlayer.swf",
+      "to": "/domande-e-risposte",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/accommodation",
+      "to": "/en/accommodation",
+      "acceptedTo": "/informazioni/alloggio"
+    },
+    {
+      "from": "/fotogalerija_eng.htm",
+      "to": "/en/gallery",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/fotogalerija_hr.htm",
+      "to": "/hr/galerija",
+      "acceptedTo": "/hr"
+    },
+    {
+      "from": "/fotogalerija_ita.htm",
+      "to": "/domande-e-risposte",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/hr/dezinfekcija-i-sterilizacija",
+      "to": "/hr/materijali-i-oprema",
+      "acceptedTo": "/hr/desinfekcija"
+    },
+    {
+      "from": "/hr/klinicko-produzenje-krune-prirodnoga-zuba",
+      "to": "/hr/usluge",
+      "acceptedTo": "/hr/klinicko-produzenje-krune-prirodnog-zuba"
+    },
+    {
+      "from": "/hr/kreamicki-most-na-implantatima",
+      "to": "/hr/fiksni-most-na-implantatima",
+      "acceptedTo": "/hr/keramicki-most-na-svim-implantatima"
+    },
+    {
+      "from": "/hr/kreamicki-most-na-implantatima-svi-zubi",
+      "to": "/hr/fiksni-most-na-implantatima",
+      "acceptedTo": "/hr/keramicki-most-na-svim-implantatima"
+    },
+    {
+      "from": "/implantologija_eng.htm",
+      "to": "/en/new-implants",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/implantologija_hr.htm",
+      "to": "/hr/implantati-nove-generacije",
+      "acceptedTo": "/hr"
+    },
+    {
+      "from": "/implantologija_ita.htm",
+      "to": "/su-di-noi/impianti-di-nuova-generazione",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/kako_do_nas_eng.htm",
+      "to": "/en/directions",
+      "acceptedTo": "/en/contact"
+    },
+    {
+      "from": "/kako_do_nas_hr.htm",
+      "to": "/hr/kako-do-nas",
+      "acceptedTo": "/hr/kontakt"
+    },
+    {
+      "from": "/kako_do_nas_ita.htm",
+      "to": "/su-di-noi/come-raggiungerci",
+      "acceptedTo": "/contatti"
+    },
+    {
+      "from": "/karta.swf",
+      "to": "/su-di-noi/come-raggiungerci",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/navigacija.swf",
+      "to": "/su-di-noi/come-raggiungerci",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/osoblje_eng.htm",
+      "to": "/en/specialists",
+      "acceptedTo": "/en/about"
+    },
+    {
+      "from": "/osoblje_hr.htm",
+      "to": "/hr/nasi-specijalisti",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/osoblje_ita.htm",
+      "to": "/su-di-noi/i-nostri-specialisti",
+      "acceptedTo": "/chi-siamo"
+    },
+    {
+      "from": "/protetika_eng.htm",
+      "to": "/en/crowns-veneers-bridges",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/protetika_hr.htm",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "acceptedTo": "/hr"
+    },
+    {
+      "from": "/protetika_ita.htm",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/tehnologija_ita.htm",
+      "to": "/su-di-noi/materiali-e-apparecchiature",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/unterkunft",
+      "to": "/de/unterkunft",
+      "acceptedTo": "/de"
+    },
+    {
+      "from": "/vr_predsoblje_tour_eng.htm",
+      "to": "/en/gallery",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/vr_predsoblje_tour_ita.htm",
+      "to": "/domande-e-risposte",
+      "acceptedTo": "/"
+    },
+    {
+      "from": "/vr_tour_eng.htm",
+      "to": "/en/gallery",
+      "acceptedTo": "/en"
+    },
+    {
+      "from": "/vr_tour_hr.htm",
+      "to": "/hr/galerija",
+      "acceptedTo": "/hr"
+    },
+    {
+      "from": "/vr_ured_tour_eng.htm",
+      "to": "/en/gallery",
+      "acceptedTo": "/en"
+    }
+  ],
+  "newMappingsRequiringContentApproval": [
+    {
+      "from": "/all-on-four",
+      "to": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+    },
+    {
+      "from": "/allungamento-clinico-della-corona-del-dente-naturale",
+      "to": "/prestazioni-dentali"
+    },
+    {
+      "from": "/bruxismo",
+      "to": "/prestazioni-dentali"
+    },
+    {
+      "from": "/corona-su-dente-naturale",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/corona-su-impianto",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/corone",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/croazia-e-fiume",
+      "to": "/su-di-noi/come-raggiungerci"
+    },
+    {
+      "from": "/de/all-on-four",
+      "to": "/de/prothese-auf-4-implantaten"
+    },
+    {
+      "from": "/de/bruxism",
+      "to": "/de/dienstleistungen"
+    },
+    {
+      "from": "/de/desinfektion",
+      "to": "/de/materialien-und-ausstattung"
+    },
+    {
+      "from": "/de/dreigliedrige-brucke",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/implantologie",
+      "to": "/de/implantate-der-neuesten-generation"
+    },
+    {
+      "from": "/de/keramik-inlay",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/keramikbrucke-auf-implantaten",
+      "to": "/de/festsitzende-implantatgetragene-bruecke"
+    },
+    {
+      "from": "/de/keramikbrucke-auf-implantaten-all",
+      "to": "/de/festsitzende-implantatgetragene-bruecke"
+    },
+    {
+      "from": "/de/keramikbrucke-auf-naturlichen-zahnen",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/klinische-erweiterung-der-naturlichen-zahnkrone",
+      "to": "/de/dienstleistungen"
+    },
+    {
+      "from": "/de/kombinierte-arbeit",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/kroatien-and-rijeka",
+      "to": "/de/wie-sie-uns-erreichen"
+    },
+    {
+      "from": "/de/krone-auf-implantat",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/krone-auf-naturlichem-zahn",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/kronen",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/partielle-prothese-mit-metallbasis",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/prothese-auf-implantaten",
+      "to": "/de/prothese-auf-4-implantaten"
+    },
+    {
+      "from": "/de/prothese-auf-teleskopkronen-verankert",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/de/technologie",
+      "to": "/de/materialien-und-ausstattung"
+    },
+    {
+      "from": "/de/testimonials-edita-karadole-schauspielerin",
+      "to": "/de/erfahrungen-unserer-patienten"
+    },
+    {
+      "from": "/de/testimonials-zoran-roje-sportdirektor",
+      "to": "/de/erfahrungen-unserer-patienten"
+    },
+    {
+      "from": "/de/veneers",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen"
+    },
+    {
+      "from": "/decisione-implantologia",
+      "to": "/su-di-noi/impianti-di-nuova-generazione"
+    },
+    {
+      "from": "/disinfezione",
+      "to": "/su-di-noi/materiali-e-apparecchiature"
+    },
+    {
+      "from": "/en/a-ceramic-bridge-on-implants",
+      "to": "/en/fixed-implant-bridge"
+    },
+    {
+      "from": "/en/a-ceramic-bridge-on-original-teeth",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/a-crown-on-an-implant",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/a-crown-on-the-original-tooth",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/all-on-four",
+      "to": "/en/four-implant-denture"
+    },
+    {
+      "from": "/en/bruxismus",
+      "to": "/en/services"
+    },
+    {
+      "from": "/en/ceramic-bridge-on-implants",
+      "to": "/en/fixed-implant-bridge"
+    },
+    {
+      "from": "/en/ceramic-inlays",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/clinical-extension-of-the-original-tooths-crown",
+      "to": "/en/services"
+    },
+    {
+      "from": "/en/combination-work",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/croatia-and-rijeka",
+      "to": "/en/directions"
+    },
+    {
+      "from": "/en/crowns",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/dental-bleaching",
+      "to": "/en/whitening"
+    },
+    {
+      "from": "/en/denture-on-implants",
+      "to": "/en/four-implant-denture"
+    },
+    {
+      "from": "/en/disinfection",
+      "to": "/en/materials"
+    },
+    {
+      "from": "/en/implantation",
+      "to": "/en/new-implants"
+    },
+    {
+      "from": "/en/partial-prosthetic-device-with-a-metal-base",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/prosthetic-device-anchored-on-telescopic-crowns",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/technology",
+      "to": "/en/materials"
+    },
+    {
+      "from": "/en/testimonials-edita-karadole-actress",
+      "to": "/en/testimonials"
+    },
+    {
+      "from": "/en/testimonials-zoran-roje-sports-director",
+      "to": "/en/testimonials"
+    },
+    {
+      "from": "/en/three-component-bridge",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/en/veneers",
+      "to": "/en/crowns-veneers-bridges"
+    },
+    {
+      "from": "/faccette",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/hr/all-on-four",
+      "to": "/hr/proteza-na-4-implantata"
+    },
+    {
+      "from": "/hr/bruksizam",
+      "to": "/hr/usluge"
+    },
+    {
+      "from": "/hr/desinfekcija",
+      "to": "/hr/materijali-i-oprema"
+    },
+    {
+      "from": "/hr/implantologija",
+      "to": "/hr/implantati-nove-generacije"
+    },
+    {
+      "from": "/hr/izbjeljivanje-zuba",
+      "to": "/hr/izbjeljivanje-zubi"
+    },
+    {
+      "from": "/hr/keramicki-inlay",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/keramicki-most-na-implantatima",
+      "to": "/hr/fiksni-most-na-implantatima"
+    },
+    {
+      "from": "/hr/keramicki-most-na-svim-implantatima",
+      "to": "/hr/fiksni-most-na-implantatima"
+    },
+    {
+      "from": "/hr/klinicko-produzenje-krune-prirodnog-zuba",
+      "to": "/hr/usluge"
+    },
+    {
+      "from": "/hr/kombinirani-rad",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/krunica-na-implantatu",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/krunica-na-prirodnom-zubu",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/krunice",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/ljuskice",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/most-od-tri-clana",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/parcijalna-proteza-s-metalnom-bazom",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/hr/proteza-na-implantatima",
+      "to": "/hr/proteza-na-4-implantata"
+    },
+    {
+      "from": "/hr/proteza-sidrena-na-teleskopskim-krunicama",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze"
+    },
+    {
+      "from": "/implantologia",
+      "to": "/su-di-noi/impianti-di-nuova-generazione"
+    },
+    {
+      "from": "/inlay-in-ceramica",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/lavoro-combinato",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/ponte-di-tre-pezzi",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/ponte-in-ceramica-su-denti-naturali",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/ponte-in-ceramica-su-impianti",
+      "to": "/prestazioni/premium-ponte-fisso-su-impianti"
+    },
+    {
+      "from": "/protesi",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/protesi-ancorate-su-corone-telescopiche",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/protesi-parziale-con-base-in-metallo",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi"
+    },
+    {
+      "from": "/protesi-su-impianti",
+      "to": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+    },
+    {
+      "from": "/sbiancamento-dentale",
+      "to": "/prestazioni/sbiancamento-dei-denti"
+    },
+    {
+      "from": "/si/all-on-four",
+      "to": "/si/proteza-na-4-zobnih-vsadkih"
+    },
+    {
+      "from": "/si/bruksizem",
+      "to": "/si/storitve"
+    },
+    {
+      "from": "/si/delna-proteza-s-kovinsko-osnovo",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/hrvaska-in-reka",
+      "to": "/si/kako-do-nas"
+    },
+    {
+      "from": "/si/implantologija",
+      "to": "/si/zobni-vsadki-najnovejse-generacije"
+    },
+    {
+      "from": "/si/keramicni-inlay",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/keramicni-mosticek-na-implantatih",
+      "to": "/si/fiksni-mosticek-na-zobnih-vsadkih"
+    },
+    {
+      "from": "/si/keramicni-mosticek-na-implantatih-all",
+      "to": "/si/fiksni-mosticek-na-zobnih-vsadkih"
+    },
+    {
+      "from": "/si/keramicni-mosticek-na-naravnih-zobeh",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/klinicno-podaljsanje-krone-naravnega-zoba",
+      "to": "/si/storitve"
+    },
+    {
+      "from": "/si/kombinirano-delo",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/kronica-na-implantatu",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/kronica-na-naravnem-zobu",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/kronice",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/luskice",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/proteza-na-implantatih",
+      "to": "/si/proteza-na-4-zobnih-vsadkih"
+    },
+    {
+      "from": "/si/proteza-sidrana-na-teleskopskih-kronicah",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/si/razkuzitev",
+      "to": "/si/materiali-in-oprema"
+    },
+    {
+      "from": "/si/tehnologija",
+      "to": "/si/materiali-in-oprema"
+    },
+    {
+      "from": "/si/testimonials-nado-bukovic",
+      "to": "/si/izkusnje-pacientov"
+    },
+    {
+      "from": "/si/triclenski-mosticek-kronice",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze"
+    },
+    {
+      "from": "/soluzione-protesica-fissa",
+      "to": "/prestazioni/premium-ponte-fisso-su-impianti"
+    },
+    {
+      "from": "/tecnologia",
+      "to": "/su-di-noi/materiali-e-apparecchiature"
+    },
+    {
+      "from": "/testimonials-edita-karadole-igralka",
+      "to": "/si/izkusnje-pacientov"
+    },
+    {
+      "from": "/testimonianze-edita-karadole-attrice",
+      "to": "/testimonianze"
+    },
+    {
+      "from": "/testimonianze-lorenzo-fabbro",
+      "to": "/testimonianze"
+    },
+    {
+      "from": "/testimonianze-nilo-falchi",
+      "to": "/testimonianze"
+    },
+    {
+      "from": "/testimonianze-zoran-roje-direttore-sportivo",
+      "to": "/testimonianze"
+    },
+    {
+      "from": "/testimonilas-zoran-roje-sportski-direktor",
+      "to": "/si/izkusnje-pacientov"
+    },
+    {
+      "from": "/en/contacts",
+      "to": "/en/contact"
+    }
+  ],
+  "preservedPhpPagesInterceptedByAttachment": [
+    {
+      "from": "/hr/desinfekcija",
+      "to": "/hr/materijali-i-oprema"
+    },
+    {
+      "from": "/hr/keramicki-most-na-svim-implantatima",
+      "to": "/hr/fiksni-most-na-implantatima"
+    },
+    {
+      "from": "/hr/klinicko-produzenje-krune-prirodnog-zuba",
+      "to": "/hr/usluge"
+    }
+  ],
+  "acceptedMappingOmittedFromAttachment": [
+    {
+      "from": "/hr/prijava",
+      "to": "/hr/o-nama"
+    }
+  ],
+  "outputLegacy301UniqueRules": 57,
+  "removedIdenticalLegacyDuplicateOccurrences": 7,
+  "outputApprovedContent301": 8,
+  "outputReviewContent301": 8,
+  "reviewRulesStillRequireProductionApproval": true,
+  "productionChanged": false,
+  "v6ArchiveChanged": false,
+  "realFormSubmissionPerformed": false
+}

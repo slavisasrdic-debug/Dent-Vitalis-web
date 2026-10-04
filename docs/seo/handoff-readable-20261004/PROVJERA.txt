@@ -1,0 +1,47 @@
+PREGLEDNI .HTACCESS — 4. LISTOPADA 2026.
+
+Datoteke .htaccess i htaccess-novi.txt imaju identicne bajtove.
+Ovo je lokalni kandidat za SEO/webmaster pregled, ne aktivacija produkcije.
+Nije ubacen u postojeci sitemap-v6 ZIP niti u cPanel next root.
+
+Sadrzaj: 57 razlicitih starih 301 (7 istih ponavljanja uklonjeno),
+8 ranije odobrenih novih 301 i 8 ranije predlozenih jasnih zamjena za pregled.
+Tih 8 prijedloga oznaceno je u odjeljku 5; produkcijska potvrda jos nedostaje.
+Nema drugih novih sadrzajnih redirekcija. Postojeci ciljevi nisu retargetirani.
+HTTPS/www i poznate slash varijante koriste 308; trajne promjene koriste 301.
+302 nije dodan jer migracija mijenja adrese trajno, ne privremeno.
+
+Prilog ima 186 razlicitih redirect izvora: 38 istih poznatih mapiranja,
+34 promijenjena postojeca cilja i 114 novih prijedloga. Svi ciljevi postoje
+u statickom paketu, ali to nije dokaz ekvivalentnosti sadrzaja.
+Prilog presrece sve tri izricito sacuvane stare PHP stranice, mijenja
+odobreni /vr_tour_eng.htm -> /en i izostavlja /hr/prijava -> /hr/o-nama.
+Te izmjene nisu preuzete. Neprovjerena spajanja poput bruksizam -> opce
+usluge i proteza na implantatima -> proteza na cetiri implantata traze
+sadrzajnu potvrdu vlasnika/SEO kolege, ne samo promjenu HTTP statusa.
+Detaljan popis razlika: data/seo/htaccess-attachment-review-20261004.json.
+
+U prilogu nedostaju DirectoryIndex i interno posluzivanje _pages HTML-a.
+Kandidat ih cuva, uz PHP endpoint rewrite, no-store, odobrene 410 odgovore,
+stare javne resurse, PHP fallback i izvorni cPanel ea-php74 handler.
+Stara 301 odredista i prefix ponasanje cuvaju se; ovo nije novi sadrzajni audit.
+
+Provjera: 11/11 testova prolazi, ukljucujuci stvarni izolirani Apache.
+Testiran je tocno ovaj kandidat, ne naknadno generirana zamjena: sve nove
+rute, slash varijante, query/encoding, HTTPS/www, sve odobrene i review 301,
+sve stare redirect pojave, tri stare PHP rute, 410 i mock forma/tokeni.
+ModPagespeed off uklonjen je samo iz fixturea jer standardni Apache image
+nema taj cPanel modul; index.php u fixtureu je tekst, ne stvarni PHP backend.
+Prvi cold-start fixturea dao je ECONNRESET uz Syntax OK; nakon produljenja
+ogranicenog lokalnog readiness prozora potpuna provjera je prosla.
+Bez stvarnih POST-ova, novih emailova/CRM upita ili izmjena na serveru.
+
+Reprodukcija (bez rebuilda/izmjena prihvacenog HTML-a):
+DENTVITALIS_TEST_APACHE=1 DENTVITALIS_COMPACT_HTACCESS=1 DENTVITALIS_SEO_HANDOFF=1 DENTVITALIS_LEGACY_HTACCESS=docs/seo/handoff-simple-20261004/.htaccess DENTVITALIS_COMPLETE_HTACCESS=docs/seo/handoff-readable-20261004/.htaccess node --test scripts/cpanel-routing.test.mjs scripts/readable-htaccess.test.mjs
+
+Generator: scripts/prepare-readable-htaccess.mjs /putanja/do/vlasnikovog-priloga.txt
+Polazi od sacuvanog prihvacenog handoffa; prilog je samo izvor usporedbe.
+Nakon potvrde sadrzajnih odluka pripremiti novu uskladjenu ZIP reviziju
+i manifest; ne prepisivati samostalno htaccess izvan verifikacije paketa.
+
+Google: https://developers.google.com/search/docs/crawling-indexing/301-redirects
