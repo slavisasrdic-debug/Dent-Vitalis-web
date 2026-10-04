@@ -18,7 +18,7 @@ Pri aktivaciji očuvati i stare javne CSS/JS, slike i fontove potrebne tim
 trima PHP stranicama; statički ZIP ne sadrži njihov legacy frontend.
 Zamjena javnog direktorija ne smije odbaciti postojeće potrebne assete.
 Provjeriti učitavanje njihovih resursa uz stvarni produkcijski PHP prihvat.
-Vlasnik je odobrio njihovu zamjenu zbirkom iskustava, ne prijenos pojedinačnih
+Za Editu i Zorana vlasnik je odobrio zamjenu zbirkom iskustava, ne prijenos pojedinačnih
 svjedočanstava. Dokazi i granice su u `data/seo/legacy-target-review-20261004.json`.
 
 Revidirani paket priprema `scripts/revise-cpanel-routing-release.mjs` iz
