@@ -1,0 +1,618 @@
+{
+  "status": "owner-approved-for-candidate",
+  "approvedOn": "2026-10-04",
+  "source": "owner answered: Da, odobravam te 84 redirekcije; Da, zamijeni ih novim stranicama putem 301 (17 medical replacements)",
+  "evidence": "data/seo/post-live-redirect-proposal-20261004.json",
+  "redirects": [
+    {
+      "from": "/si/testimonials-nado-bukovic",
+      "to": "/si/izkusnje-pacientov",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/croazia-e-fiume",
+      "to": "/su-di-noi/come-raggiungerci",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/hrvaska-in-reka",
+      "to": "/si/kako-do-nas",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/croatia-and-rijeka",
+      "to": "/en/directions",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/kroatien-and-rijeka",
+      "to": "/de/wie-sie-uns-erreichen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/tecnologia",
+      "to": "/su-di-noi/materiali-e-apparecchiature",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/tehnologija",
+      "to": "/si/materiali-in-oprema",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/technology",
+      "to": "/en/materials",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/technologie",
+      "to": "/de/materialien-und-ausstattung",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/all-on-four",
+      "to": "/prestazioni/premium-ponte-fisso-su-impianti",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/si/all-on-four",
+      "to": "/si/fiksni-mosticek-na-zobnih-vsadkih",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/en/all-on-four",
+      "to": "/en/fixed-implant-bridge",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/de/all-on-four",
+      "to": "/de/festsitzende-implantatgetragene-bruecke",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/hr/all-on-four",
+      "to": "/hr/fiksni-most-na-implantatima",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/disinfezione",
+      "to": "/su-di-noi/tutto-in-un-unico-luogo",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/razkuzitev",
+      "to": "/si/vse-na-enem-mestu",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/disinfection",
+      "to": "/en/all-in-one",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/desinfektion",
+      "to": "/de/alles-unter-einem-dach",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/implantologia",
+      "to": "/su-di-noi/impianti-di-nuova-generazione",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/implantologija",
+      "to": "/si/zobni-vsadki-najnovejse-generacije",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/implantation",
+      "to": "/en/new-implants",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/implantologie",
+      "to": "/de/implantate-der-neuesten-generation",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/implantologija",
+      "to": "/hr/implantati-nove-generacije",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/lavoro-combinato",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/kombinirano-delo",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/combination-work",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/kombinierte-arbeit",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/kombinirani-rad",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/soluzione-protesica-fissa",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/keramicni-mosticek-na-implantatih",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/a-ceramic-bridge-on-implants",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/keramikbrucke-auf-implantaten",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/keramicki-most-na-implantatima",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/ponte-in-ceramica-su-impianti",
+      "to": "/prestazioni/premium-ponte-fisso-su-impianti",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/si/keramicni-mosticek-na-implantatih-all",
+      "to": "/si/fiksni-mosticek-na-zobnih-vsadkih",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/en/ceramic-bridge-on-implants",
+      "to": "/en/fixed-implant-bridge",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/de/keramikbrucke-auf-implantaten-all",
+      "to": "/de/festsitzende-implantatgetragene-bruecke",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/ponte-in-ceramica-su-denti-naturali",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/keramicni-mosticek-na-naravnih-zobeh",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/a-ceramic-bridge-on-original-teeth",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/keramikbrucke-auf-naturlichen-zahnen",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/corona-su-impianto",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/kronica-na-implantatu",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/a-crown-on-an-implant",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/krone-auf-implantat",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/krunica-na-implantatu",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/corona-su-dente-naturale",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/kronica-na-naravnem-zobu",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/a-crown-on-the-original-tooth",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/krone-auf-naturlichem-zahn",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/krunica-na-prirodnom-zubu",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/faccette",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/luskice",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/veneers",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/veneers",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/ljuskice",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/corone",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/kronice",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/crowns",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/kronen",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/krunice",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/sbiancamento-dentale",
+      "to": "/prestazioni/sbiancamento-dei-denti",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/en/dental-bleaching",
+      "to": "/en/whitening",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/ponte-di-tre-pezzi",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/triclenski-mosticek-kronice",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/three-component-bridge",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/dreigliedrige-brucke",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/most-od-tri-clana",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/protesi-parziale-con-base-in-metallo",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/delna-proteza-s-kovinsko-osnovo",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/partial-prosthetic-device-with-a-metal-base",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/partielle-prothese-mit-metallbasis",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/parcijalna-proteza-s-metalnom-bazom",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/registrazione",
+      "to": "/contatti",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/registracija",
+      "to": "/si/stik-z-nami",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/registration",
+      "to": "/en/contact",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/registrierung",
+      "to": "/de/kontakt",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/registration",
+      "to": "/hr/kontakt",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/protesi-su-impianti",
+      "to": "/prestazioni/protesi-definitiva-ancorata-su-4-impianti",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/si/proteza-na-implantatih",
+      "to": "/si/proteza-na-4-zobnih-vsadkih",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/en/denture-on-implants",
+      "to": "/en/four-implant-denture",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/de/prothese-auf-implantaten",
+      "to": "/de/prothese-auf-4-implantaten",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/hr/proteza-na-implantatima",
+      "to": "/hr/proteza-na-4-implantata",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/protesi-ancorate-su-corone-telescopiche",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/si/proteza-sidrana-na-teleskopskih-kronicah",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/prosthetic-device-anchored-on-telescopic-crowns",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/prothese-auf-teleskopkronen-verankert",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/proteza-sidrena-na-teleskopskim-krunicama",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/protesi",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/testimonianze-edita-karadole-attrice",
+      "to": "/testimonianze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/testimonials-edita-karadole-igralka",
+      "to": "/si/izkusnje-pacientov",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/testimonials-edita-karadole-actress",
+      "to": "/en/testimonials",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/testimonials-edita-karadole-schauspielerin",
+      "to": "/de/erfahrungen-unserer-patienten",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/testimonianze-zoran-roje-direttore-sportivo",
+      "to": "/testimonianze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/testimonilas-zoran-roje-sportski-direktor",
+      "to": "/si/izkusnje-pacientov",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/en/testimonials-zoran-roje-sports-director",
+      "to": "/en/testimonials",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/de/testimonials-zoran-roje-sportdirektor",
+      "to": "/de/erfahrungen-unserer-patienten",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/testimonianze-lorenzo-fabbro",
+      "to": "/testimonianze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/testimonianze-nilo-falchi",
+      "to": "/testimonianze",
+      "status": 301,
+      "approvalGroup": "A"
+    },
+    {
+      "from": "/hr/izbjeljivanje-zuba",
+      "to": "/hr/izbjeljivanje-zubi",
+      "status": 301,
+      "approvalGroup": "B"
+    },
+    {
+      "from": "/en/contacts",
+      "to": "/en/contact",
+      "status": 301,
+      "approvalGroup": "A"
+    }
+  ],
+  "retiredRoutes": [],
+  "retirementApprovalPending": true,
+  "contentPreservationDecisionPending": true,
+  "productionChanged": false
+}

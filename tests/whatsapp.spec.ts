@@ -85,7 +85,7 @@ for (const route of [
       await expect(toggle).toHaveAttribute('aria-expanded', 'true');
       await expect(panel.locator('[data-chat-close]')).toBeFocused();
       await expect(panel.locator('.chat-person strong')).toHaveText(
-        expected.team,
+        'DentVitalis',
       );
       await expect(panel.locator('.chat-person small')).toHaveText(
         expected.responseTime,

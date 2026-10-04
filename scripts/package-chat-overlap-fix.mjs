@@ -36,6 +36,14 @@ const normalize = (html) =>
       /<(style|script)\b[^>]*data-legacy-chat-guard[^>]*>[\s\S]*?<\/\1>/g,
       '',
     )
+    .replace(
+      /(<div class="chat-person"[^>]*><strong>)[^<]*(<\/strong>)/g,
+      '$1CLINIC$2',
+    )
+    .replace(
+      /(<section class="chat-panel"[^>]*aria-label=")[^"]*(WhatsApp")/g,
+      '$1CLINIC $2',
+    )
     .replace(/ data-astro-cid-[a-z0-9]+(?:="")?/g, '')
     .replace(
       /[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}/g,
@@ -77,7 +85,18 @@ assert.equal(changes.length, 141);
 for (const entry of base.files.filter(
   (entry) => !entry.path.endsWith('.html'),
 )) {
-  if (['.htaccess', '_redirects'].includes(entry.path)) continue;
+  // Config/XML are intentionally kept from the approved v9; this patch never
+  // includes the freshly generated Astro sitemap-0 (which lacks handoff links).
+  if (
+    [
+      '.htaccess',
+      '_redirects',
+      'sitemap.xml',
+      'sitemap-0.xml',
+      'sitemap-index.xml',
+    ].includes(entry.path)
+  )
+    continue;
   if (entry.path === 'page-routes.json') {
     // Build enumeration order is nondeterministic; the mapping is unchanged.
     // Do not include or rewrite this file in the patch: production keeps v9.
@@ -104,13 +123,13 @@ const files = [...records.values()].sort((a, b) =>
 );
 const manifest = {
   ...base,
-  revision: '20261004-chat-overlap-v10',
+  revision: '20261004-chat-fixes-v11',
   generatedAt: new Date().toISOString(),
   gitCommit,
   baseRevision: base.revision,
   basePatchSha256: receipt.sha256,
   changeScope:
-    'Hide obsolete Zendesk Classic UI; native WhatsApp and GTM/CookieYes unchanged',
+    'Hide obsolete Zendesk Classic UI and use DentVitalis clinic heading in all five languages; other copy/GTM/CookieYes unchanged',
   fileCount: files.length,
   totalBytes: files.reduce((sum, file) => sum + file.bytes, 0),
   files,
@@ -136,23 +155,25 @@ for (const { path, bytes } of changes) {
   await writeFile(target, bytes, { flag: 'wx', mode: 0o644 });
   await chmod(target, 0o644);
 }
-const readme = `ISPRAVAK DUPLOG CHATA — MALI UPDATE AKTIVNOG V9
+const readme = `ISPRAVCI CHATA — MALI UPDATE AKTIVNOG V9
 
 142 javne datoteke: index.html, cijeli _pages (140 HTML-a), manifest.
 Nije puni release. Nema htaccessa, CSS/JS asseta, sitemapa, robotsa ili PHP-a.
 Skriva samo stari Zendesk launcher/webWidget; native WhatsApp ostaje jedini chat.
-Ne gasi GTM/CookieYes, ne mijenja tekstove, broj, forme ili odredišta redirekcija.
+U svih pet plavih zaglavlja naziv je DentVitalis, ne ime Jelena.
+Ne gasi GTM/CookieYes, ne mijenja poruke, broj, forme ili odredišta redirekcija.
 Provjereno: 142 HTML-a prema verificiranom v9, samo zaštitni head blok i
-generirani ID-jevi/scope oznake smiju se razlikovati; svi ostali asseti jednaki.
+generirani ID-jevi/scope oznake i naziv/ARIA chata smiju se razlikovati;
+svi ostali asseti jednaki, odobreni XML/config ostaju postojeći v9.
 
 CPANEL — INSTALIRATI SAMO OVAJ UPDATE, NE PONAVLJATI MIGRACIJU:
-1. Raspakiraj ZIP u novu privatnu releases/20261004-chat-overlap-v10 mapu.
+1. Raspakiraj ZIP u novu privatnu releases/20261004-chat-fixes-v11 mapu.
    README i patch-manifest.json ne smiju u javni web.
 2. Potvrdi aktivni revision 20261004-whatsapp-brand-v9. Ako je drugi, STANI.
    Provjeri 142 javne datoteke (0644), mape (0755). Public root ostaje 0750.
 3. Napravi dvije NOVE prazne privatne backup mape (0700):
-   backups/public-before-chat-overlap-v10-20261004/
-   backups/public-failed-chat-overlap-v10-20261004/
+   backups/public-before-chat-fixes-v11-20261004/
+   backups/public-failed-chat-fixes-v11-20261004/
 4. Sačuvaj postojeće index.html, cijeli _pages i release-manifest.json:
    Move samo te tri stavke iz public_html u before. Tek kada su ta tri
    javna mjesta prazna, Move tri nove stavke iz PAYLOAD public_html u
@@ -161,6 +182,7 @@ CPANEL — INSTALIRATI SAMO OVAJ UPDATE, NE PONAVLJATI MIGRACIJU:
    htaccess, index.php, application, podatke, DNS, PHP ili stare backupove.
 5. Izvana provjeri /, /hr, /de, /en, /si, /galleria: 200, novi sadržaj.
    Na HR/SI desktopu i mobitelu jedan WhatsApp, bez zelenog upitnika.
+   U svih pet plavih zaglavlja DentVitalis, znak umjesto fotografije.
    Normalni klik -> otvara znak/panel; Escape zatvara. Cookie banner radi.
    Nikakvo slanje forme ili WhatsApp poruke.
 6. Kod regresije: nove tri stavke Move u prazni failed backup;
@@ -202,7 +224,7 @@ await writeFile(
 );
 const output = join(
   root,
-  '.astro/releases/dentvitalis-chat-overlap-fix-20261004.zip',
+  '.astro/releases/dentvitalis-chat-fixes-20261004-v11.zip',
 );
 try {
   await readFile(output);

@@ -2,6 +2,11 @@
 
 ## Ispravak preklapanja nakon javnog audita — 4. listopada 2026.
 
+Dodatno odobrenje vlasnika: u plavom zaglavlju svih pet jezika prikazati
+naziv klinike umjesto Jelene. Adapter `whatsappCopy` uzima postojeći
+`referenceBusiness.name` (DentVitalis), bez prepisivanja izvornog Elfsight
+snapshota. Poruke i njihov potpis, podnaslovi i broj ostaju nepromijenjeni.
+
 Neovisni javni audit potvrđuje aktivni `20261004-whatsapp-brand-v9`.
 Na desktopu 1440 × 900 HR/SI iframe `launcher` iz GTM-ova Zendesk Classica
 stvarno presreće klik na native WhatsApp. Ostala tri jezika nemaju taj
