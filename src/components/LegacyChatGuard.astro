@@ -1,0 +1,31 @@
+---
+// Native WhatsApp is the only chat UI. Existing GTM still injects Zendesk on
+// HR/SI. Hide that widget, not GTM/CookieYes or unrelated embeds. The container
+// owner should also pause its obsolete tag: hiding UI does not stop SDK/cookies.
+---
+
+<style is:inline data-legacy-chat-guard>
+  iframe#launcher,
+  iframe#webWidget {
+    display: none !important;
+    pointer-events: none !important;
+  }
+</style>
+<script is:inline data-legacy-chat-guard>
+  (() => {
+    // The API can arrive asynchronously, including after a consent change.
+    // CSS prevents the launcher's first-paint flash and pointer interception.
+    const hideLegacyChat = () => {
+      if (!document.querySelector('iframe#launcher, iframe#webWidget')) return;
+      if (typeof window.zE !== 'function') return;
+      window.zE('webWidget', 'hide');
+      observer.disconnect();
+    };
+    const observer = new MutationObserver(hideLegacyChat);
+    observer.observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+    });
+    hideLegacyChat();
+  })();
+</script>

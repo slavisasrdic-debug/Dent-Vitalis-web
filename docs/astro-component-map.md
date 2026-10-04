@@ -36,6 +36,14 @@ Znak ima dostupni naziv `DentVitalis`, bijeli kružni okvir 64px i isti položaj
 Poruke/prijevodi, potpis Jelene u poruci, broj i interakcije ostaju nepromijenjeni.
 Ova dopuna ima prednost nad povijesnim opisom fotografije ispod.
 
+Javni audit nakon aktivacije v9 dokazao je da stari Zendesk Classic iz GTM-a
+na HR/SI desktopu presreće WhatsApp klik. `LegacyChatGuard` u `SiteLayout`
+headu prije `TrackingBootstrap` skriva samo iframeove `launcher`/`webWidget`
+i poziva službeni Zendesk `hide` nakon asinkronog učitavanja. Ne skriva druge
+iframeove niti mijenja GTM/CookieYes ili native poruke/broj. Za prestanak
+učitavanja starog SDK-a webmaster treba pauzirati njegov zasebni GTM tag;
+lokalna zaštita ispravlja prikaz, ne predstavlja prihvat privatnosti SDK-a.
+
 Naknadni korisnikov dodatak zamjenjuje logo Jeleninom izvornom fotografijom i imenom. IT sada uključuje „Sono Jelena...” i „Chiedi a nostro staff”; HR podnaslov je Dentvitalis. Fotografija je lokalni lazy WebP, 128px iz originala 200px; vidi [whatsapp-panel.md](whatsapp-panel.md). Ova dopuna ima prednost nad opisom prve iteracije niže.
 
 `ContactWidgets` zadržava tipizirane propse i zajednički donji CTA. Potvrđeni IT Elfsight broj `385911100523` sada je centraliziran u `data/site.ts`; korisnik je zatražio implementaciju nakon pitanja o uporabi istog broja za HR. `chatCopy` IT koristi „Buongiorno!” / „posso esserti d'aiuto?” bez rečenice koja predstavlja Jelenu; HR koristi postojeći Zendesk „Kako vam možemo pomoći?” i korisnikov CTA „Razgovaraj putem WhatsAppa”. Ne mijenja se ostatak kontakata ni pravni sadržaj.

@@ -1,6 +1,52 @@
 import { expect, test } from '@playwright/test';
 import source from '../data/whatsapp-copy-20261004.json' with { type: 'json' };
 
+for (const route of ['/hr', '/si']) {
+  test(`Legacy Zendesk cannot cover native WhatsApp: ${route}`, async ({
+    page,
+  }) => {
+    await page.goto(route);
+    const calls = await page.evaluate(async () => {
+      const commands: unknown[][] = [];
+      const chatWindow = window as typeof window & {
+        zE?: (...command: unknown[]) => void;
+      };
+      chatWindow.zE = (...command) => commands.push(command);
+      // Mirror the public launcher and include an unrelated iframe to prove
+      // that neither CookieYes nor other embedded services are hidden.
+      for (const id of ['launcher', 'webWidget', 'unrelated-embed']) {
+        const frame = document.createElement('iframe');
+        frame.id = id;
+        Object.assign(frame.style, {
+          position: 'fixed',
+          right: '0',
+          bottom: '0',
+          width: '400px',
+          height: '160px',
+          zIndex: '999999',
+        });
+        document.body.append(frame);
+      }
+      await new Promise((resolve) => setTimeout(resolve, 20));
+      return commands;
+    });
+    expect(calls).toContainEqual(['webWidget', 'hide']);
+    await expect(page.locator('iframe#launcher')).toBeHidden();
+    await expect(page.locator('iframe#webWidget')).toBeHidden();
+    await expect(page.locator('iframe#unrelated-embed')).toBeVisible();
+    await page
+      .locator('iframe#unrelated-embed')
+      .evaluate((frame) => frame.remove());
+    for (const width of [1440, 390]) {
+      await page.setViewportSize({ width, height: 900 });
+      await page.locator('.chat-toggle').click();
+      await expect(page.locator('.chat-panel')).toBeVisible();
+      await page.keyboard.press('Escape');
+      await expect(page.locator('.chat-panel')).toBeHidden();
+    }
+  });
+}
+
 for (const route of [
   '/',
   '/hr/',

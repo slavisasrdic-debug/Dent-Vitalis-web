@@ -1,5 +1,44 @@
 # WhatsApp panel — 11. rujna 2026.
 
+## Ispravak preklapanja nakon javnog audita — 4. listopada 2026.
+
+Neovisni javni audit potvrđuje aktivni `20261004-whatsapp-brand-v9`.
+Na desktopu 1440 × 900 HR/SI iframe `launcher` iz GTM-ova Zendesk Classica
+stvarno presreće klik na native WhatsApp. Ostala tri jezika nemaju taj
+launcher u provjerenom svježem kontekstu. Znak u WhatsAppu već je aktivan.
+Vlasnik traži kompletiranje ispravka nakon dostavljenih HR/SI snimaka.
+
+`LegacyChatGuard` u zajedničkom headu, prije GTM bootstrapa, skriva samo
+Zendeskove iframeove `launcher`/`webWidget` i poziva dokumentirani
+`zE('webWidget', 'hide')` čim se SDK/iframe pojavi. CSS sprječava početni
+bljesak i presretanje klika; observer nije periodički polling. Native chat,
+GTM/CookieYes, kontakti, prijevodi i ostali embedovi ostaju nepromijenjeni.
+Ne radi se izmjena GTM kontejnera niti se tvrdi da je SDK prestao slati
+mrežne zahtjeve ili stvarati cookieje. Trajno uklanjanje nepotrebnog SDK-a
+ostaje webmasterov zaseban zahvat: pauzirati SAMO Zendesk tag u GTM-u.
+API izvor: https://developer.zendesk.com/api-reference/widget/core/#hide.
+
+Javni HTTP audit: 136 sitemap stranica i 136 različitih internih page linkova
+vraća novi sadržaj 200; 74 postojeća 301 pravila i 135 slash 308 pravila
+prolaze, uz očuvanje query parametara. XML ima 676 recipročnih jezičnih
+linkova i nema x-default. Iz 197 starih sitemap URL-ova 67 završava na novom
+webu, 109 na starom PHP-u (3 namjerno očuvana, 106 ranije označena kao
+potrebna sadržajna odluka), 21 vraća 404 kao i prethodni URL inventar.
+`/en/contacts` izvan starog XML-a također još vraća stari sadržaj 200.
+Ne proglašavati cjelokupnu SEO migraciju završenom niti automatski mapirati
+stare medicinske/turističke članke na neekvivalentne nove stranice.
+
+Provjera ispravka: `astro check` 277 datoteka bez grešaka/upozorenja;
+19 Playwright testova WhatsAppa/favicona prolazi, uključujući dvije nove
+regresije s odgođenim Zendesk launcherom i nepovezanim iframeom. Produkcijski
+build ima 142 HTML-a. HR/SI candidate HTML dodatno je poslužen samo testnom
+browseru na javnom hostnameu, uz stvarni javni GTM/CookieYes/Zendesk: stari
+iframe ima `display:none`, redovni pointer klik otvara WhatsApp na 1440/390px,
+Escape zatvara, GTM je očuvan, spremanje odbijenih opcionalnih privola radi,
+nema pageerrora. Ovo nije izmjena ili instalacija na javnom serveru.
+Desktop SI i mobile HR snimke vizualno su pregledane; dokazi su u `/tmp/`,
+izvan repozitorija. SDK mrežne veze ostaju otvoreno pitanje GTM webmastera.
+
 ## Aktualna dopuna nakon aktivacije v8 — 4. listopada 2026.
 
 Vlasnik traži DentVitalis znak kao na faviconu umjesto Jelenine fotografije
