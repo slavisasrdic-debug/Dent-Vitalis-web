@@ -131,7 +131,10 @@ for (const file of previous.files) {
     if (html.includes('<div class="chat-widget"')) {
       const lang = pageMetadata(html).lang;
       assert.ok(locales[lang], `Unknown panel language: ${file.path}`);
-      assert.equal((html.match(/data-chat-widget/g) ?? []).length, 1);
+      assert.equal(
+        (html.match(/<div\b[^>]*\bdata-chat-widget(?:\s|=|>)/g) ?? []).length,
+        1,
+      );
       const body =
         /<div class="chat-bubble"[^>]*>\s*<span[^>]*>([\s\S]*?)<\/span>/.exec(
           html,
@@ -218,7 +221,15 @@ const receipt = {
     '/home2/dentvita/public_html-next-20261004-localized-v3/',
   privateNextRootUpdateRequiresSeparateApproval: true,
   privateNextRootUpdateScope:
-    'Complete manifest-listed static payload replaces v3/v4 candidate files; preserve index.php and all legacy extras; NOT only four SEO files',
+    'Replace _pages and five root files; assets remain byte-identical to accepted v3/v4. Preserve index.php and all legacy extras. NOT only four SEO files.',
+  privateNextRootItemsToReplace: [
+    '_pages',
+    'index.html',
+    '.htaccess',
+    'sitemap.xml',
+    'sitemap-0.xml',
+    'release-manifest.json',
+  ],
 };
 await writeFile(
   resolve(root, 'data/seo/cpanel-whatsapp-v5-release-20261004.json'),
