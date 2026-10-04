@@ -1,0 +1,155 @@
+{
+  "status": "proposal-only-awaiting-owner-approval",
+  "reviewedOn": "2026-10-04",
+  "scope": "Nine missing static legacy redirect targets; existing PHP production GET baseline and actual candidate HTML topic review, not complete 206-URL migration acceptance.",
+  "productionOrigin": "https://www.dentvitalis.com",
+  "candidate": {
+    "archive": "dentvitalis-web-production-candidate-20261001-af6dc28-perms.zip",
+    "sha256": "bee2a78a94ff223a1e8c008f97886632b43d7de2fc6853a230d5de9432c19a1b",
+    "newPublicSiteActivated": false,
+    "reviewedDocuments": [
+      "/en/about",
+      "/informazioni/alloggio",
+      "/hr/iskustva-pacijenata",
+      "/hr/materijali-i-oprema",
+      "/hr/dentalni-laboratorij",
+      "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "/hr/fiksni-most-na-implantatima"
+    ]
+  },
+  "baseline": {
+    "method": "One GET per target, at most two concurrent; no POST, cookie/token/header values recorded or patient/private data read.",
+    "checkedFromUtc": "2026-10-04T12:37:43.099Z",
+    "checkedThroughUtc": "2026-10-04T12:37:43.285Z",
+    "allFinalUrlsSameAsRequested": true,
+    "challengeDetected": false,
+    "pages": [
+      {
+        "path": "/en/about-us",
+        "httpStatus": 200,
+        "heading": "About us",
+        "responseSha256": "19cf5cb52d3abd3cd4abe8c80ba868bcb864dc19902454013055740f0115865d"
+      },
+      {
+        "path": "/alloggio",
+        "httpStatus": 200,
+        "heading": "Alloggio organizzato accogliente e bello",
+        "responseSha256": "755667d3a5f2c0ae0b3b5dee25c8d1328d4d427a0d04d474fafda0bc847661df"
+      },
+      {
+        "path": "/hr/testimonials-edita-karadole-glumica",
+        "httpStatus": 404,
+        "heading": "Stranica nije pronađena",
+        "responseSha256": "87f14f272f684053e81b4b78b02a18735250d3f51889cdebb3a9cea94cd2c854"
+      },
+      {
+        "path": "/hr/desinfekcija",
+        "httpStatus": 200,
+        "heading": "Dezinfekcija i sterilizacija",
+        "responseSha256": "d86f75396fb669c6db2ae4eb7003ecea0309dc21796cdcaa32efb55fb44d8e51"
+      },
+      {
+        "path": "/hr/testimonials-zoran-roje-sportski-direktor",
+        "httpStatus": 404,
+        "heading": "Stranica nije pronađena",
+        "responseSha256": "47e49a2be87f8f524f85b1319082f76c74609e14336cfd7693819bf082e90671"
+      },
+      {
+        "path": "/hr/technologija",
+        "httpStatus": 200,
+        "heading": "Tehnologija",
+        "responseSha256": "58399d2faf43194a81706d4639ff02bb2353a5800b768b907d71c37137dc5002"
+      },
+      {
+        "path": "/hr/klinicko-produzenje-krune-prirodnog-zuba",
+        "httpStatus": 200,
+        "heading": "Kliničko produženje krune prirodnog zuba",
+        "responseSha256": "3970bccb9d8795661197fcda4dabd35fd35f6354ab4e2ac69803203a7b94d7f8"
+      },
+      {
+        "path": "/hr/keramicki-most-na-prirodnim-zubima",
+        "httpStatus": 200,
+        "heading": "Keramički most na prirodnim zubima",
+        "responseSha256": "45c9f8b9a9c5780f97535d2941ca4bd191dc953c0c0aeaed6970e782b5e7f4fe"
+      },
+      {
+        "path": "/hr/keramicki-most-na-svim-implantatima",
+        "httpStatus": 200,
+        "heading": "Keramički most na implantatima",
+        "responseSha256": "60d9a03ddfd4f158a800bd29b0c8ccb5f129d260e67c632837cfd37081623b2e"
+      }
+    ]
+  },
+  "proposedRedirects": [
+    {
+      "from": "/en/about-us",
+      "to": "/en/about",
+      "status": 301,
+      "reason": "Same English About us purpose; new directory page exists."
+    },
+    {
+      "from": "/alloggio",
+      "to": "/informazioni/alloggio",
+      "status": 301,
+      "reason": "Same Italian accommodation purpose; the new clinic accommodation is not a claim that the old arrangements were identical."
+    },
+    {
+      "from": "/hr/technologija",
+      "to": "/hr/materijali-i-oprema",
+      "status": 301,
+      "reason": "Updated same-topic materials and digital CAD/CAM equipment page; does not preserve every old CEREC/material claim."
+    },
+    {
+      "from": "/hr/keramicki-most-na-prirodnim-zubima",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "reason": "New page contains an explicit section on bridges supported by natural teeth. Broader consolidated destination, not the full-arch implant package."
+    },
+    {
+      "from": "/hr/testimonials-edita-karadole-glumica",
+      "to": "/hr/iskustva-pacijenata",
+      "status": 301,
+      "reason": "Current 404. Propose general testimonials collection as the relevant category successor; individual Edita testimonial is absent from the reviewed new page and is NOT claimed to be preserved."
+    },
+    {
+      "from": "/hr/testimonials-zoran-roje-sportski-direktor",
+      "to": "/hr/iskustva-pacijenata",
+      "status": 301,
+      "reason": "Current 404. Propose general testimonials collection as the relevant category successor; individual Zoran testimonial is absent from the reviewed new page and is NOT claimed to be preserved."
+    }
+  ],
+  "proposedPreservationThroughExistingPhp": [
+    {
+      "path": "/hr/desinfekcija",
+      "reason": "Current 200; no full replacement for sterilisation content in reviewed static pages."
+    },
+    {
+      "path": "/hr/klinicko-produzenje-krune-prirodnog-zuba",
+      "reason": "Current 200; no full replacement for this distinct procedure. Do not equate crown lengthening with prosthetic crowns."
+    },
+    {
+      "path": "/hr/keramicki-most-na-svim-implantatima",
+      "reason": "Current 200; old cemented multi-implant bridge differs from the new premium package. No automatic medical equivalence."
+    }
+  ],
+  "existingVrDecision": {
+    "from": "/vr_tour_eng.htm",
+    "to": "/en",
+    "ownerConfirmedOn": "2026-10-04",
+    "source": "owner-message-Pa-neka-tako-ostane",
+    "productionObservedStatus": 301,
+    "finalObservedStatus": 200,
+    "productionCheckedAtUtc": "2026-10-04T12:34:26Z",
+    "conflictingRuleRemovedFromCandidate": false
+  },
+  "implementationAfterApproval": [
+    "Preserve original legacy .htaccess source and backup; implement only owner-approved candidate transformations.",
+    "Redirect original aliases and the reviewed old destinations directly to canonical targets to avoid new chains, preserving query parameters.",
+    "Validate kept PHP pages after activation on actual host: old baseline 200 is not proof of future routing or HTTP headers.",
+    "Prepare one reviewed replacement public package; do not mutate or activate cPanel as part of this proposal."
+  ],
+  "productionConfigurationChanged": false,
+  "newRedirectsInstalled": false,
+  "postOrEmailTestPerformed": false,
+  "remaining206UrlInventoryAccepted": false
+}
