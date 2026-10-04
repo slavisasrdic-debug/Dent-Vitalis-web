@@ -68,17 +68,36 @@ isključenju bloga iz novog roota, ranija procjena 231,5 MB smanjuje se za
 155,19 MB na približno 76,31 MB, uz procijenjenu rezervu 207,44 MB.
 To nije nova izmjera; prije pripreme provjeriti aktualnu kvotu i stvarni
 sadržaj. Blog ostaje u prethodnom direktoriju i backupu, bez brisanja.
-Slijedi zasebno odobrena izolirana priprema
+Izolirana priprema je naknadno odobrena i dovršena prema agentu za
 `/home2/dentvita/public_html-next-20261004-localized-v3/`, uz očuvanje
-navedenih bootstrap/verifikacijskih i legacy asset stavki. Ne kopirati ZIP
-niti blog. Postojanje tog novog naziva još nije provjereno. Stari `redirects-v2`
+navedenih bootstrap/verifikacijskih i legacy asset stavki, bez ZIP-a i bloga.
+Postojanje novog direktorija potvrđuje dostavljeni screenshot. Stari `redirects-v2`
 nazivi niže povijesni su prijedlog, ne nalog za pripremu ili aktivaciju v3.
 Aktualni zapis: readiness `fileManagerProgress.localizedV3Stage`.
 
 Vlasnik je zatim odgovorom „da” odobrio izoliranu pripremu navedenog v3
 next roota bez bloga, uz očuvanje bootstrap/resursa. Ovo nije odobrenje
 preimenovanja javnog direktorija, aktivacije, backend izmjena ili novih
-POST-ova. Priprema još nije prijavljena kao izvedena.
+POST-ova.
+
+**Najnovije — v3 next root pripremljen prema agentu:** 1.034 datoteke i
+24 podmape; pregled svih dozvola prijavljen kao `0644` / `0755`, korijen
+`0750`. Tekstualno su uspoređeni `index.php` s aktivnim izvornikom te
+`.htaccess` i `sitemap.xml` s v3 stageom. Kopirane su odobrene stare asset/
+verifikacijske stavke, bez bloga, ZIP-a, starih pravila i dijagnostike/logova.
+Prijavljena slobodna kvota sada je 207,46 MB; ranija rezerva 207,44 MB ostaje
+procjena prije kopiranja, ne aktualna izmjera. Vlasništvo/grupa i hashovi nisu
+provjereni. Stari javni direktorij nije mijenjan/preimenovan i stara naslovnica
+je vidljiva prema izvještaju. Ne ponavljati dovršeno kopiranje i dozvole.
+Zapis: readiness `fileManagerProgress.localizedV3NextRoot`.
+
+Sljedeći predloženi sigurnosni korak jest zasebno odobrena proba preimenovanja
+i vraćanja samo privatnog next direktorija, uz prethodnu provjeru slobodnog
+probnog naziva. Ne preimenovati aktivni `public_html`, ne brisati ni prepisivati.
+To provjerava File Manager operaciju i povrat izvornog naziva/dozvole, ali
+nije dokaz HTTP posluživanja ili stvarnog produkcijskog rollbacka.
+Proba još nije odobrena niti izvedena; javna aktivacija i preostale release
+gates ostaju odvojene. Sam prikaz privatne mape ne dokazuje runtime prihvat.
 
 **Raniji read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
