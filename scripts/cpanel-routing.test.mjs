@@ -14,7 +14,12 @@ import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import test from 'node:test';
 import { promisify } from 'node:util';
-import { canonicalHostRules, mergeLegacyHtaccess } from './cpanel-routing.mjs';
+import {
+  approvedContentRedirects,
+  canonicalHostRules,
+  mergeLegacyHtaccess,
+} from './cpanel-routing.mjs';
+import decisions from '../data/seo/cpanel-redirect-decisions.json' with { type: 'json' };
 import { retiredThankYouRoutes } from '../src/content/thank-you-routes.ts';
 
 const run = promisify(execFile);
@@ -155,6 +160,84 @@ test('production package requires a backup and cannot run as a Pages build', asy
   );
 });
 
+test('six approved content redirects are exact, query-preserving and require real static targets for a release', () => {
+  const documents = Object.fromEntries(
+    approvedContentRedirects.map(({ to }) => [to, '/_pages' + to + '.html']),
+  );
+  const rules = canonicalHostRules(documents, { requireApprovedTargets: true });
+  assert.equal(approvedContentRedirects.length, 6);
+  for (const { from, to } of approvedContentRedirects)
+    assert.ok(
+      rules.includes(`RewriteRule ^${from.slice(1)}/?$ ${to} [R=301,L,NE]`),
+    );
+  assert.ok(!rules.includes('QSD'));
+  assert.throws(
+    () => canonicalHostRules({}, { requireApprovedTargets: true }),
+    /target is missing/,
+  );
+  assert.throws(
+    () =>
+      canonicalHostRules({
+        ...documents,
+        '/alloggio': '/_pages/alloggio.html',
+      }),
+    /conflicting approved/,
+  );
+  for (const route of decisions.preservedPhpPages)
+    assert.ok(!approvedContentRedirects.some(({ from }) => from === route));
+});
+
+test('approved aliases go directly to final targets; the wrong VR rule alone is removed', () => {
+  const rules = approvedContentRedirects.flatMap(({ to, legacyAliases }) =>
+    legacyAliases.flatMap((alias) =>
+      Array.from({ length: alias.sourceOccurrences }, () => ({
+        from: alias.from,
+        old: alias.previousTo,
+        to,
+      })),
+    ),
+  );
+  const unrelated = 'Redirect 301 /untouched /hr/kontakt\r\n# keep bytes\r\n';
+  const input = Buffer.from(
+    rules.map((r) => `Redirect 301 ${r.from} ${r.old}\r\n`).join('') +
+      'Redirect 301 /vr_tour_eng.htm /\r\n' +
+      unrelated +
+      'Redirect 301 /vr_tour_eng.htm /en\r\n',
+  );
+  const copy = Buffer.from(input);
+  const merged = mergeLegacyHtaccess(input);
+  assert.deepEqual(input, copy);
+  const tail = merged
+    .subarray(Buffer.byteLength(canonicalHostRules()))
+    .toString();
+  assert.equal(
+    tail,
+    rules.map((r) => `Redirect 301 ${r.from} ${r.to}\r\n`).join('') +
+      unrelated +
+      'Redirect 301 /vr_tour_eng.htm /en\r\n',
+  );
+  assert.deepEqual(mergeLegacyHtaccess(merged), merged);
+  assert.throws(
+    () =>
+      mergeLegacyHtaccess(
+        Buffer.from('Redirect 301 /osoblje_eng.htm /unapproved\n'),
+      ),
+    /owner review required/,
+  );
+  assert.throws(
+    () =>
+      mergeLegacyHtaccess(Buffer.from('Redirect 302 /vr_tour_eng.htm /en\n')),
+    /owner review required/,
+  );
+  assert.throws(
+    () =>
+      mergeLegacyHtaccess(
+        Buffer.from('Redirect 301 /vr_tour_eng.htm /\n'.repeat(2)),
+      ),
+    /exceeds owner approval/,
+  );
+});
+
 test(
   'real Apache: HTTP/TLS, five languages, query/encoding, POST, legacy routing and preview',
   { skip: process.env.DENTVITALIS_TEST_APACHE !== '1', timeout: 180_000 },
@@ -208,7 +291,9 @@ test(
       join(directory, 'htdocs/.htaccess'),
       suppliedLegacy
         ? Buffer.from(
-            mergeLegacyHtaccess(sourceLegacy, documents)
+            mergeLegacyHtaccess(sourceLegacy, documents, {
+              requireApprovedTargets: true,
+            })
               .toString()
               .replace(
                 /^ModPagespeed\s+off\s*$/gm,
@@ -365,7 +450,17 @@ test(
       } catch (error) {
         if (attempt === 20) {
           const logs = await run('docker', ['logs', container]);
-          throw new Error(`${error.message}\n${logs.stderr}`, { cause: error });
+          const syntax = await run('docker', [
+            'exec',
+            container,
+            'httpd',
+            '-t',
+          ]).catch((error) => error);
+          const processes = await run('docker', ['top', container]);
+          throw new Error(
+            `${error.message}\n${logs.stdout}${logs.stderr}\n${syntax.stdout}${syntax.stderr}\n${processes.stdout}`,
+            { cause: error },
+          );
         }
         await new Promise((accept) => setTimeout(accept, 100));
       }
@@ -450,6 +545,47 @@ test(
       const alias = await request(true, 'www.dentvitalis.com', route + '/');
       assert.equal(alias.status, 410);
     }
+    // These are localhost HTTP fixtures only, not cPanel GETs or real form submissions.
+    const redirects = approvedContentRedirects.flatMap(
+      ({ from, to, legacyAliases }) => [
+        { from, to },
+        ...(suppliedLegacy
+          ? legacyAliases.map((alias) => ({ from: alias.from, to }))
+          : []),
+      ],
+    );
+    if (suppliedLegacy) redirects.push(decisions.vrTour);
+    for (const { from, to } of redirects) {
+      const query = '?dv_migration_check=a%2Bb&item=1&item=2';
+      const redirected = await request(
+        true,
+        'www.dentvitalis.com',
+        from + query,
+      );
+      assert.equal(redirected.status, 301, from);
+      assert.equal(new URL(redirected.location).pathname, to, from);
+      assert.equal(new URL(redirected.location).search, query, from);
+      const final = await request(true, 'www.dentvitalis.com', to + query);
+      assert.equal(final.status, 200, to);
+      assert.equal(final.location, undefined, to);
+      assert.match(final.text, /Confirmation fixture/);
+    }
+    for (const { from, to } of approvedContentRedirects) {
+      const result = await request(
+        true,
+        'www.dentvitalis.com',
+        from + '/?dv_migration_check=slash',
+      );
+      assert.equal(result.status, 301, from);
+      assert.equal(new URL(result.location).pathname, to);
+    }
+    if (suppliedLegacy)
+      for (const route of decisions.preservedPhpPages) {
+        const result = await request(true, 'www.dentvitalis.com', route);
+        assert.equal(result.status, 200, route);
+        assert.equal(result.location, undefined, route);
+        assert.match(result.text, /Legacy route retained/);
+      }
     const legacyDirectory = await request(
       true,
       'www.dentvitalis.com',

@@ -7,6 +7,14 @@ uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
 nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
+Vlasnik je 4. listopada odobrio šest sadržajnih 301, očuvanje tri postojeće
+PHP stranice i `/vr_tour_eng.htm → /en` bez suprotne pojave. Neutralne odluke
+su u `data/seo/cpanel-redirect-decisions.json`; izvorni aliasi dobivaju izravne
+ciljeve. Priprema se lokalni `20261004-redirects-v2` paket iz provjerenog
+`af6dc28-perms` builda: samo routing/manifest, bez promjene stranica, formi,
+PHP backenda, GTM-a ili cPanela. Izvoz `redirects-candidate-20261004.csv`
+ostaje snapshot PRETHODNOG paketa, ne popis novog odobrenog routinga.
+
 **Najnovije:** IT/DE/EN/SL TEST upiti poslani su po jednom 4. listopada,
 12:20:38–12:20:43 UTC (14:20 Zagreb), nakon vlasnikova „krenimo”. Oznake:
 `DV-MIG-20261004-{IT,DE,EN,SL}-122037Z`. Svaki je koristio svježe tokene iste

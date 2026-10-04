@@ -1,0 +1,105 @@
+{
+  "status": "owner-approved-for-candidate",
+  "approvedOn": "2026-10-04",
+  "source": "owner-message-da-podrzavam-in-reply-to-six-301s-three-PHP-pages-and-VR-English-target",
+  "evidence": "data/seo/legacy-target-review-20261004.json",
+  "redirects": [
+    {
+      "from": "/en/about-us",
+      "to": "/en/about",
+      "status": 301,
+      "legacyAliases": [
+        {
+          "from": "/osoblje_eng.htm",
+          "previousTo": "/en/about-us",
+          "status": 301,
+          "sourceOccurrences": 1
+        }
+      ]
+    },
+    {
+      "from": "/alloggio",
+      "to": "/informazioni/alloggio",
+      "status": 301,
+      "legacyAliases": [
+        {
+          "from": "/accommodation",
+          "previousTo": "/alloggio",
+          "status": 301,
+          "sourceOccurrences": 1
+        }
+      ]
+    },
+    {
+      "from": "/hr/technologija",
+      "to": "/hr/materijali-i-oprema",
+      "status": 301,
+      "legacyAliases": [
+        {
+          "from": "/hr/tehnologija",
+          "previousTo": "/hr/technologija",
+          "status": 301,
+          "sourceOccurrences": 1
+        },
+        {
+          "from": "/tehnologija_hr.htm",
+          "previousTo": "/hr/technologija",
+          "status": 301,
+          "sourceOccurrences": 1
+        }
+      ]
+    },
+    {
+      "from": "/hr/keramicki-most-na-prirodnim-zubima",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "legacyAliases": [
+        {
+          "from": "/hr/kreamicki-most-na-prirodnim-zubima",
+          "previousTo": "/hr/keramicki-most-na-prirodnim-zubima",
+          "status": 301,
+          "sourceOccurrences": 2
+        }
+      ]
+    },
+    {
+      "from": "/hr/testimonials-edita-karadole-glumica",
+      "to": "/hr/iskustva-pacijenata",
+      "status": 301,
+      "legacyAliases": [
+        {
+          "from": "/hr/iskustva-pacijenata-edita-karadjole",
+          "previousTo": "/hr/testimonials-edita-karadole-glumica",
+          "status": 301,
+          "sourceOccurrences": 1
+        }
+      ]
+    },
+    {
+      "from": "/hr/testimonials-zoran-roje-sportski-direktor",
+      "to": "/hr/iskustva-pacijenata",
+      "status": 301,
+      "legacyAliases": [
+        {
+          "from": "/hr/iskustva-pacijenata-zoran-roje",
+          "previousTo": "/hr/testimonials-zoran-roje-sportski-direktor",
+          "status": 301,
+          "sourceOccurrences": 1
+        }
+      ]
+    }
+  ],
+  "preservedPhpPages": [
+    "/hr/desinfekcija",
+    "/hr/klinicko-produzenje-krune-prirodnog-zuba",
+    "/hr/keramicki-most-na-svim-implantatima"
+  ],
+  "vrTour": {
+    "from": "/vr_tour_eng.htm",
+    "to": "/en",
+    "status": 301,
+    "removeConflictingTo": "/",
+    "sourceOccurrences": 1
+  },
+  "productionConfigurationChanged": false
+}

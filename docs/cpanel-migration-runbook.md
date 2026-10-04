@@ -8,6 +8,34 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Odobrene redirekcije — 4. listopada:** vlasnik je potvrdio šest 301 odluka u
+`data/seo/cpanel-redirect-decisions.json`. Stari ciljevi i izvorni aliasi vode
+izravno na nove slashless ciljeve; uklanja se samo suprotna pojava
+`/vr_tour_eng.htm → /`, dok `/en` ostaje. Tri stranice ostaju u PHP-u:
+dezinfekcija, produženje krune i keramički most na svim implantatima.
+Njihov sadašnji produkcijski GET je 200; Edita i Zoran sada vraćaju 404.
+Vlasnik je odobrio njihovu zamjenu zbirkom iskustava, ne prijenos pojedinačnih
+svjedočanstava. Dokazi i granice su u `data/seo/legacy-target-review-20261004.json`.
+
+Revidirani paket priprema `scripts/revise-cpanel-routing-release.mjs` iz
+prethodnog hash-provjerenog `-perms.zip`, bez rebuilda stranica ili formi.
+Mijenjaju se samo `.htaccess` i `release-manifest.json`; manifest zasebno
+bilježi izvorni commit sadržaja i commit routing revizije. Prije izvršavanja
+commitati provjereni kod. ZIP se objavljuje isključivo lokalno, uz odbijanje
+prepisivanja postojećeg izlaza i dozvole 0644/0755. Primjer:
+
+```bash
+node scripts/revise-cpanel-routing-release.mjs \
+  --source-zip /workspaces/Dent-Vitalis-web/.astro/releases/dentvitalis-web-production-candidate-20261001-af6dc28-perms.zip \
+  --output /workspaces/Dent-Vitalis-web/.astro/releases/dentvitalis-web-production-candidate-20261004-redirects-v2.zip
+```
+
+Novi privatni cPanel cilj je `/home2/dentvita/releases/20261004-redirects-v2/`.
+Prije uploada potvrditi prostor za ZIP i ekstrakciju; ako cilj postoji, stati
+bez prepisivanja. Stari izvori, ZIP-ovi, stage i backupovi ostaju netaknuti.
+Ovo odobrenje nije nova instalacija PHP-a, ponavljanje upita ni zaobilaženje
+preostalih CRM/PDF, transport, rollback i produkcijskih consent provjera.
+
 **Aktualni smjer:** bez zahtjeva hosting podršci i bez pretpostavljenog SSH-a.
 API priprema je završena, ali prvi test veze nije prošao. Nastaviti pripremu
 ručnim File Managerom; API automatizacija je pauzirana. Ni jedan put još nije izvedbeno
@@ -738,6 +766,8 @@ Odredišta za ciljanu provjeru i sadržajnu odluku:
    eventualne nove/izmijenjene redirekcije, prioritete i konflikt s novim
    rutama. Dopuštena uklanjanja ostaju samo prethodno odobrena dva pravila.
    Stari nesigurni stage `20261001-af6dc28` nije paket za aktivaciju.
+   Dvije ranije odobrene HR pojave i naknadno odobrena suprotna VR pojava
+   uklanjaju se u novom kandidatu; odobreni aliasi imaju nove izravne ciljeve.
 3. Običnim GET-om provjeriti deset navedenih odredišta na sadašnjem javnom
    webu: ulazni URL, status, lanac/konačni URL, title, canonical i jezik.
    Odvojiti postojeće ponašanje od očekivanog ponašanja novog releasea.

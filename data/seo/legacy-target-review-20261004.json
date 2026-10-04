@@ -1,5 +1,11 @@
 {
-  "status": "proposal-only-awaiting-owner-approval",
+  "status": "owner-approved-for-candidate-implementation",
+  "ownerApproval": {
+    "approvedOn": "2026-10-04",
+    "source": "owner-message-da-podrzavam",
+    "decisionsFile": "data/seo/cpanel-redirect-decisions.json",
+    "productionConfigurationChanged": false
+  },
   "reviewedOn": "2026-10-04",
   "scope": "Nine missing static legacy redirect targets; existing PHP production GET baseline and actual candidate HTML topic review, not complete 206-URL migration acceptance.",
   "productionOrigin": "https://www.dentvitalis.com",

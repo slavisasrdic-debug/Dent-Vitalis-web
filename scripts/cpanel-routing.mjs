@@ -1,6 +1,7 @@
 import { productionOrigin } from '../src/content/seo-urls.ts';
 import { pageDocument } from '../src/content/page-paths.ts';
 import readiness from '../data/migration-readiness.json' with { type: 'json' };
+import decisions from '../data/seo/cpanel-redirect-decisions.json' with { type: 'json' };
 import {
   thankYouDocuments,
   retiredThankYouRoutes,
@@ -9,8 +10,44 @@ import {
 const begin = '# BEGIN DentVitalis canonical host\n';
 const end = '# END DentVitalis canonical host\n';
 
+export const approvedContentRedirects = decisions.redirects;
+
+function contentRedirectRules(documents, requireTargets) {
+  if (decisions.status !== 'owner-approved-for-candidate')
+    throw new Error('Content redirects require recorded owner approval.');
+  const seen = new Set();
+  for (const redirect of approvedContentRedirects) {
+    if (
+      redirect.status !== 301 ||
+      !/^\/[a-z0-9/-]+$/.test(redirect.from) ||
+      !/^\/[a-z0-9/-]+$/.test(redirect.to) ||
+      redirect.from.endsWith('/') ||
+      redirect.to.endsWith('/') ||
+      seen.has(redirect.from) ||
+      Object.hasOwn(documents, redirect.from) ||
+      approvedContentRedirects.some((other) => other.from === redirect.to)
+    )
+      throw new Error('Invalid or conflicting approved content redirect.');
+    if (requireTargets && !Object.hasOwn(documents, redirect.to))
+      throw new Error(`Approved redirect target is missing: ${redirect.to}`);
+    seen.add(redirect.from);
+  }
+  return (
+    '# Owner-approved content redirects; optional slash and original query retained.\n' +
+    approvedContentRedirects
+      .map(
+        ({ from, to }) =>
+          `RewriteRule ^${from.slice(1)}/?$ ${to} [R=301,L,NE]\n`,
+      )
+      .join('')
+  );
+}
+
 /** Production-only Apache rules. The target is never taken from request headers. */
-export function canonicalHostRules(documents = thankYouDocuments) {
+export function canonicalHostRules(
+  documents = thankYouDocuments,
+  { requireApprovedTargets = false } = {},
+) {
   for (const [route, document] of Object.entries(documents)) {
     if (
       ['/', '/send', '/gct', '/send-sconto', '/form-tokens'].includes(route) ||
@@ -69,6 +106,7 @@ export function canonicalHostRules(documents = thankYouDocuments) {
     '</If>\n' +
     '# Expired campaign confirmations removed by the owner, not redirected.\n' +
     `RewriteRule ^(?:${retiredThankYouRoutes.map((route) => route.slice(1)).join('|')})/?$ - [G,L]\n` +
+    contentRedirectRules(documents, requireApprovedTargets) +
     '# Canonical page paths omit the final slash; legacy endpoints are untouched.\n' +
     `RewriteRule ^(${Object.keys(documents)
       .map((route) => route.slice(1))
@@ -83,10 +121,23 @@ export function canonicalHostRules(documents = thankYouDocuments) {
   );
 }
 
-/** Only explicit owner-approved, exact Redirect rules may be removed. */
+/** Preserve all original bytes except separately approved removals/retargets. */
 function prepareLegacyRules(original, documents) {
   const kept = [];
   const removalCounts = new Map();
+  const retargetCounts = new Map();
+  const aliases = approvedContentRedirects.flatMap(({ to, legacyAliases }) =>
+    legacyAliases.map((alias) => ({ ...alias, to })),
+  );
+  const removals = [
+    ...readiness.legacyHtaccess.approvedRedirectRemovals,
+    {
+      from: decisions.vrTour.from,
+      to: decisions.vrTour.removeConflictingTo,
+      status: decisions.vrTour.status,
+      sourceOccurrences: decisions.vrTour.sourceOccurrences,
+    },
+  ];
   const protectedRoutes = [
     ...Object.keys(documents),
     '/send',
@@ -97,7 +148,7 @@ function prepareLegacyRules(original, documents) {
   for (let start = 0; start < original.length;) {
     const newline = original.indexOf(10, start);
     const stop = newline === -1 ? original.length : newline + 1;
-    const line = original.subarray(start, stop);
+    let line = original.subarray(start, stop);
     start = stop;
     const rule =
       /^\s*Redirect\s+(301|302|303|307|308|permanent|temp|seeother)\s+(\/\S*)\s+(\S+)\s*$/i.exec(
@@ -105,13 +156,13 @@ function prepareLegacyRules(original, documents) {
       );
     if (rule) {
       const [, status, from, to] = rule;
-      const approved = readiness.legacyHtaccess.approvedRedirectRemovals.find(
+      const approved = removals.find(
         (decision) =>
           String(decision.status) === status &&
           decision.from === from &&
           decision.to === to,
       );
-      if (approved && Object.hasOwn(documents, from)) {
+      if (approved) {
         const count = (removalCounts.get(approved) ?? 0) + 1;
         if (count > approved.sourceOccurrences)
           throw new Error(
@@ -119,6 +170,35 @@ function prepareLegacyRules(original, documents) {
           );
         removalCounts.set(approved, count);
         continue;
+      }
+      if (
+        from === decisions.vrTour.from &&
+        (status !== String(decisions.vrTour.status) ||
+          to !== decisions.vrTour.to)
+      )
+        throw new Error('VR redirect changed; owner review required.');
+      const alias = aliases.find((decision) => decision.from === from);
+      if (alias) {
+        if (
+          String(alias.status) !== status ||
+          ![alias.previousTo, alias.to].includes(to)
+        )
+          throw new Error(
+            `Approved legacy alias changed; owner review required: ${from}`,
+          );
+        const count = (retargetCounts.get(from) ?? 0) + 1;
+        if (count > alias.sourceOccurrences)
+          throw new Error('Legacy retarget count exceeds owner approval.');
+        retargetCounts.set(from, count);
+        if (to !== alias.to) {
+          const text = line.toString();
+          const position = text.lastIndexOf(to);
+          line = Buffer.from(
+            text.slice(0, position) +
+              alias.to +
+              text.slice(position + to.length),
+          );
+        }
       }
       const conflict = protectedRoutes.find(
         (route) =>
@@ -136,7 +216,11 @@ function prepareLegacyRules(original, documents) {
 }
 
 /** Preserve legacy bytes except the separately recorded approved removals. */
-export function mergeLegacyHtaccess(legacy, documents = thankYouDocuments) {
+export function mergeLegacyHtaccess(
+  legacy,
+  documents = thankYouDocuments,
+  options = {},
+) {
   if (!Buffer.isBuffer(legacy) || !legacy.length)
     throw new Error(
       'A non-empty copy of the existing cPanel .htaccess is required.',
@@ -160,7 +244,7 @@ export function mergeLegacyHtaccess(legacy, documents = thankYouDocuments) {
   }
   if (!base.length) throw new Error('Legacy rules are missing.');
   return Buffer.concat([
-    Buffer.from(canonicalHostRules(documents)),
+    Buffer.from(canonicalHostRules(documents, options)),
     prepareLegacyRules(base, documents),
   ]);
 }

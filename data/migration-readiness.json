@@ -48,6 +48,15 @@
     "updatedOn": "2026-10-04",
     "authoritativeRunbook": "docs/cpanel-migration-runbook.md",
     "currentDirection": "manual-File-Manager-migration-with-API-automation-paused",
+    "approvedRedirectDecisions": {
+      "approvedOn": "2026-10-04",
+      "source": "owner-message-da-podrzavam",
+      "file": "data/seo/cpanel-redirect-decisions.json",
+      "sixOldTargetsAndTheirLegacyAliases": true,
+      "threeExistingPhpPagesPreserved": true,
+      "vrTourEnglishTargetRetained": true,
+      "publicConfigurationChanged": false
+    },
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,

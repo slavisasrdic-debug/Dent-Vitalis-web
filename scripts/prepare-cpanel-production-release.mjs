@@ -44,7 +44,9 @@ for (const script of ['build', 'form:preflight']) {
 const documents = JSON.parse(
   await readFile(resolve(root, 'dist/page-routes.json'), 'utf8'),
 );
-const htaccess = mergeLegacyHtaccess(legacy, documents);
+const htaccess = mergeLegacyHtaccess(legacy, documents, {
+  requireApprovedTargets: true,
+});
 await writeFile(resolve(root, 'dist/.htaccess'), htaccess, { flag: 'wx' });
 const { stdout, stderr } = await run(
   'node',
