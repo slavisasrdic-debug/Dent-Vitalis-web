@@ -8,6 +8,39 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Najnoviji zahtjev — jednostavniji SEO handoff, 4. listopada:** vlasnik je
+umjesto aktivacijskog odobrenja zatražio stari i novi sitemap te kraći
+`.htaccess` po uzoru na dostavljeni stari. Datoteke su u
+`docs/seo/handoff-simple-20261004/`. Stari XML dohvaćen je jednom javnim GET-om
+sa stvarnog `www.dentvitalis.com/sitemap.xml` (200, 197 zapisa); SHA-256 je
+isti kao prethodno sačuvani izvor, pa ne ponavljati kompletno dohvaćanje.
+Novi ravni `sitemap-novi.xml` ima isti skup 136 indeksabilnih v3 URL-ova,
+bez pet zahvalnih stranica koje ostaju dostupne s noindex.
+
+Kraći `.htaccess` ima 7.334 B / 163 retka: 64 naslijeđene 301 pojave s
+odobrenim korekcijama i osam odobrenih novih 301, uz očuvani backend/cache/PHP.
+140 internih pojedinačnih HTML rewritesa i dva golema popisa putanja zamijenjeni
+su provjerom stvarne datoteke `_pages/<putanja>.html`, uz zaštitni slash 308.
+Default v3 generator ostaje nepromijenjen; compact način izričito se odabire
+za novi handoff. Izolirani Apache test svih 140 ruta, slash varijanti, queryja,
+hosta, odobrenih 301/410, mock PHP endpointa i legacy direktorija prolazi 9/9.
+Prvi lokalni startup prijavio je ECONNRESET uz Syntax OK i aktivne procese;
+sljedeći potpuni test prošao je. To nije cPanel runtime ni stvarno slanje.
+
+Usporedba svih 197 starih sitemap zapisa: 46 ostaje na istoj indeksabilnoj
+adresi, osam ima postojeću/odobrenu 301, tri su izričito sačuvane PHP stranice,
+pet zahvalnih stranica ostaje noindex, a 135 nema potvrđen novi statički
+ekvivalent/odobrenu 301. Za njih PHP fallback može ostati aktivan, ali stvarno
+posluživanje nije provjereno. Ne zaključivati da su svi uklonjeni niti dodati
+neodobrene 301 na nepovezane usluge ili naslovnicu. CSV označava te stavke za
+SEO/vlasnički pregled; usporedba sitemapa ne zatvara sadržajne odluke.
+
+Ovi su lokalni review dokumenti, ne izmjena uploadanog v3 paketa ili pripremljenog
+next roota. Ne prepisivati `.htaccess` na serveru niti aktivirati v3 kao da već
+sadrži reviziju. Nakon pregleda zasebno pripremiti odobrenu zamjenu i manifest;
+preostali runtime/rollback/consent prihvat ostaje obvezan. Nema novih POST-ova,
+DNS, backend ili produkcijskih promjena. Zapis: readiness `procedure.simpleSeoHandoff`.
+
 **STOP — jezični URL/link audit, 4. listopada:** vlasnik je otkrio engleske
 slugove na DE/SI stranicama. Izvor je fallback iz internog engleskog page ID-a,
 ne njemački/slovenski sadržaj. Uploadani `20261004-redirects-v2` ne aktivirati.

@@ -46,7 +46,7 @@ function contentRedirectRules(documents, requireTargets) {
 /** Production-only Apache rules. The target is never taken from request headers. */
 export function canonicalHostRules(
   documents = thankYouDocuments,
-  { requireApprovedTargets = false } = {},
+  { requireApprovedTargets = false, compactStaticRouting = false } = {},
 ) {
   for (const [route, document] of Object.entries(documents)) {
     if (
@@ -72,6 +72,29 @@ export function canonicalHostRules(
   const escape = (host) => host.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const apex = escape(origin.hostname.slice(4));
   const canonicalHost = escape(origin.hostname);
+  const retiredPattern = retiredThankYouRoutes
+    .map((route) => route.slice(1))
+    .join('|');
+  const directoryCondition = compactStaticRouting
+    ? `%{REQUEST_URI} =~ m#^(/[a-z0-9/-]+?)/?$# && -f '%{DOCUMENT_ROOT}/_pages$1.html' || %{REQUEST_URI} =~ m#^/(?:${retiredPattern})/?$#`
+    : `%{REQUEST_URI} =~ m#^/(?:${[...Object.keys(documents), ...retiredThankYouRoutes].map((route) => route.slice(1)).join('|')})/?$#`;
+  const staticRules = compactStaticRouting
+    ? '# Only existing static pages lose a final slash. Query strings are retained.\n' +
+      'RewriteCond %{DOCUMENT_ROOT}/_pages/$1.html -f\n' +
+      'RewriteRule ^([a-z0-9/-]+)/$ /$1 [R=308,L,NE]\n' +
+      '# Serve an existing Astro HTML page internally, without a browser redirect.\n' +
+      'RewriteCond %{DOCUMENT_ROOT}/_pages/$1.html -f\n' +
+      'RewriteRule ^([a-z0-9/-]+)$ _pages/$1.html [END]\n'
+    : '# Canonical page paths omit the final slash; legacy endpoints are untouched.\n' +
+      `RewriteRule ^(${Object.keys(documents)
+        .map((route) => route.slice(1))
+        .join('|')})/$ /$1 [R=308,L,NE]\n` +
+      Object.entries(documents)
+        .map(
+          ([route, document]) =>
+            `RewriteRule ^${route.slice(1)}$ ${document.slice(1)} [END]\n`,
+        )
+        .join('');
   return (
     begin +
     '# Permanent redirect; 308 also preserves POST bodies and HTTP methods.\n' +
@@ -81,8 +104,8 @@ export function canonicalHostRules(
     'DirectoryIndex index.html index.php\n' +
     '# Apply known-page rewrites even when a legacy directory remains on disk.\n' +
     'RewriteOptions AllowNoSlash\n' +
-    // Restrict directory behavior changes to our explicit static page inventory.
-    `<If "%{REQUEST_URI} =~ m#^/(?:${[...Object.keys(documents), ...retiredThankYouRoutes].map((route) => route.slice(1)).join('|')})/?$#">\n` +
+    // Compact mode checks the actual static file; legacy directories stay unchanged.
+    `<If "${directoryCondition}">\n` +
     'DirectorySlash Off\n' +
     '</If>\n' +
     `RewriteCond %{HTTP_HOST} ^(?:www\\.)?${apex}(?::[0-9]+)?$ [NC]\n` +
@@ -107,16 +130,7 @@ export function canonicalHostRules(
     '# Expired campaign confirmations removed by the owner, not redirected.\n' +
     `RewriteRule ^(?:${retiredThankYouRoutes.map((route) => route.slice(1)).join('|')})/?$ - [G,L]\n` +
     contentRedirectRules(documents, requireApprovedTargets) +
-    '# Canonical page paths omit the final slash; legacy endpoints are untouched.\n' +
-    `RewriteRule ^(${Object.keys(documents)
-      .map((route) => route.slice(1))
-      .join('|')})/$ /$1 [R=308,L,NE]\n` +
-    Object.entries(documents)
-      .map(
-        ([route, document]) =>
-          `RewriteRule ^${route.slice(1)}$ ${document.slice(1)} [END]\n`,
-      )
-      .join('') +
+    staticRules +
     end
   );
 }

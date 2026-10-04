@@ -1,0 +1,31 @@
+DentVitalis — sitemap i kraći .htaccess, 4. listopada 2026.
+
+Za SEO mastera i webmastera:
+- sitemap-stari.xml: nepromijenjeni XML dohvaćen sa stvarne produkcije.
+- sitemap-novi.xml: 136 konačnih indeksabilnih URL-ova novog localized-v3 weba.
+  Ovo je jedan URL popis, ne sitemap index; može se objaviti kao sitemap.xml.
+  Zahvalne stranice ostaju dostupne s noindex, ali nisu u novom sitemapu.
+- htaccess-novi.txt i .htaccess: identični sadržaj; TXT je za pregled/email.
+- usporedba-stari-novi.csv: svi zapisi starog sitemapa i njihov status;
+  Excel otvara UTF-8 CSV sa separatorom točka-zarez.
+- report.json: datumi, izvori, hashovi i granice provjere.
+
+Kraći .htaccess zadržava stare 301 redirekcije s već odobrenim korekcijama,
+svih osam odobrenih novih 301, HTTPS/www, zaštitni slash 308, PHP handler,
+backend rute, zabranu cachea tokena/forme, legacy PHP fallback i stare cache
+postavke. Samo su velika nabrajanja novih HTML putanja zamijenjena dvama
+pravilima koja provjeravaju postojanje datoteke u _pages prije posluživanja.
+Stara HTTPS/www pravila u naslijeđenom dijelu ostaju sačuvana; novi blok na
+vrhu prvi normalizira produkcijski host. Nema novih 301 iz neobjavljenih nacrta.
+
+Usporedba sitemapa NIJE automatsko odobrenje redirekcija. Stare stranice bez
+statičkog ekvivalenta/odobrene redirekcije posebno su označene. PHP fallback
+može ih i dalje posluživati; to nije provjereno ovim XML pregledom. Ne slati
+sve stare medicinske stranice na naslovnicu ili nepovezanu novu uslugu.
+
+Ovo je zaseban lokalni paket za pregled, kompatibilan s v3 _pages rasporedom.
+Ne mijenja uploadani release, pripremljeni next root ili njihove manifeste.
+Ne zamjenjivati .htaccess samostalno i ne aktivirati stari v3 kao da već sadrži
+ovu reviziju. Zamjenu i ažuriranje manifesta treba zasebno pripremiti/odobriti
+prije aktivacije. Produkcijsko posluživanje, PHP i consent runtime ostaju za
+provjeru na stvarnom hostingu. Nisu poslani stvarni upiti niti mijenjan server.

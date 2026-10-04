@@ -30,6 +30,32 @@ const legacy = Buffer.from(
     'RewriteRule ^(send|gct)$ /legacy-fixture.txt [L]\r\n',
 );
 
+test('compact routing keeps approved redirects and uses file-checked rules without enumerating pages', () => {
+  const rules = canonicalHostRules(
+    { '/hr/smjestaj': '/_pages/hr/smjestaj.html' },
+    { compactStaticRouting: true },
+  );
+  assert.ok(!rules.includes('RewriteRule ^hr/smjestaj$'));
+  assert.match(rules, /RewriteCond %\{DOCUMENT_ROOT\}\/_pages\/\$1\.html -f/);
+  assert.ok(rules.includes('RewriteRule ^([a-z0-9/-]+)$ _pages/$1.html [END]'));
+  assert.ok(rules.includes('RewriteRule ^([a-z0-9/-]+)/$ /$1 [R=308,L,NE]'));
+  assert.ok(rules.includes('DirectorySlash Off'));
+  assert.ok(rules.includes('private, no-store, max-age=0'));
+  for (const { from, to } of approvedContentRedirects)
+    assert.ok(
+      rules.includes(`RewriteRule ^${from.slice(1)}/?$ ${to} [R=301,L,NE]`),
+    );
+  const merged = mergeLegacyHtaccess(
+    legacy,
+    {},
+    { compactStaticRouting: true },
+  );
+  assert.deepEqual(
+    mergeLegacyHtaccess(merged, {}, { compactStaticRouting: true }),
+    merged,
+  );
+});
+
 test('production origin is the only redirect destination; preview is not matched', () => {
   const rules = canonicalHostRules();
   assert.match(rules, /https:\/\/www\.dentvitalis\.com%1/);
@@ -250,6 +276,8 @@ test(
       'Build the full site before Apache acceptance',
     );
     const suppliedLegacy = process.env.DENTVITALIS_LEGACY_HTACCESS;
+    const compactStaticRouting =
+      process.env.DENTVITALIS_COMPACT_HTACCESS === '1';
     const sourceLegacy = suppliedLegacy
       ? await readFile(suppliedLegacy)
       : legacy;
@@ -293,6 +321,7 @@ test(
         ? Buffer.from(
             mergeLegacyHtaccess(sourceLegacy, documents, {
               requireApprovedTargets: true,
+              compactStaticRouting,
             })
               .toString()
               .replace(
@@ -302,7 +331,9 @@ test(
               '\n# Fixture only: serve the dummy PHP bootstrap as text, not actual PHP.\n' +
               '<Files "index.php">\nSetHandler default-handler\n</Files>\n',
           )
-        : mergeLegacyHtaccess(sourceLegacy, documents),
+        : mergeLegacyHtaccess(sourceLegacy, documents, {
+            compactStaticRouting,
+          }),
     );
     await chmod(join(directory, 'htdocs'), 0o755);
     for (const name of [

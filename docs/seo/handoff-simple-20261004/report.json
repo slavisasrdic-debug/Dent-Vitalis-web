@@ -1,0 +1,1275 @@
+{
+  "status": "local-review-handoff-not-uploaded-not-approved-for-public-activation",
+  "oldSitemap": {
+    "url": "https://www.dentvitalis.com/sitemap.xml",
+    "finalUrl": "https://www.dentvitalis.com/sitemap.xml",
+    "status": 200,
+    "checkedAt": "2026-10-04T15:39:37.796Z",
+    "bytes": 112619,
+    "sha256": "2759678e647137ce5aa805bf1343c2a8f24c25fb420c0f90100396b79fda3ca4",
+    "urls": 197
+  },
+  "sourceLegacy": {
+    "bytes": 5009,
+    "sha256": "483ff3a81b591cdc129b7ad5c028884c55abf1295032cb7a7157401799f7d79a"
+  },
+  "newSitemap": {
+    "urls": 136,
+    "bytes": 9955,
+    "sha256": "6a6d6794e1da05bbcf5f9f4c6c5e8e86204b5dda90151da7d42af234d1568804",
+    "source": "unchanged localized-v3 dist/sitemap-0.xml URL set; flat urlset instead of sitemap index"
+  },
+  "htaccess": {
+    "bytes": 7334,
+    "sha256": "08b1c8711436f08162cc2409307618381cf4420016a68f75577a5304f9727cfc",
+    "lines": 163,
+    "legacy301Lines": 64,
+    "approvedNew301Rules": 8,
+    "explicitStaticPageRewrites": 0,
+    "genericStaticRules": 2,
+    "preservesOtherLegacyDirectiveBytes": true,
+    "productionRuntimeVerified": false
+  },
+  "sourceContentCommit": "935e5bb7c43def0d73a33fe3fc744a405acc1f8d",
+  "comparisonCounts": {
+    "same-url": 46,
+    "existing-or-approved-301": 8,
+    "content-decision-required-no-new-redirect-invented": 135,
+    "preserved-PHP-runtime-check-required": 3,
+    "preserved-static-noindex-not-in-new-sitemap": 5
+  },
+  "comparison": [
+    {
+      "old": "https://www.dentvitalis.com/",
+      "target": "https://www.dentvitalis.com/",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si",
+      "target": "https://www.dentvitalis.com/si",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en",
+      "target": "https://www.dentvitalis.com/en",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de",
+      "target": "https://www.dentvitalis.com/de",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr",
+      "target": "https://www.dentvitalis.com/hr",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/chi-siamo",
+      "target": "https://www.dentvitalis.com/chi-siamo",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/o-nas",
+      "target": "https://www.dentvitalis.com/si/o-nas",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/about-us",
+      "target": "https://www.dentvitalis.com/en/about",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/en/about-us",
+          "to": "/en/about",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/uber-uns",
+      "target": "https://www.dentvitalis.com/de/uber-uns",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/o-nama",
+      "target": "https://www.dentvitalis.com/hr/o-nama",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/prima-visita",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/prvi-pregled",
+      "target": "https://www.dentvitalis.com/si/prvi-pregled",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/first-visit",
+      "target": "https://www.dentvitalis.com/en/first-visit",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/die-erste-kontrolle",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/prvi-pregled",
+      "target": "https://www.dentvitalis.com/hr/prvi-pregled",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonianze",
+      "target": "https://www.dentvitalis.com/testimonianze",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/testimonials-nado-bukovic",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/testimonials",
+      "target": "https://www.dentvitalis.com/en/testimonials",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/testimonials",
+      "target": "https://www.dentvitalis.com/de/erfahrungen-unserer-patienten",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/de/testimonials",
+          "to": "/de/erfahrungen-unserer-patienten",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/testimonials",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonianze-edita-karadole-attrice",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonials-edita-karadole-igralka",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/testimonials-edita-karadole-actress",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/testimonials-edita-karadole-schauspielerin",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/testimonials-edita-karadole-glumica",
+      "target": "https://www.dentvitalis.com/hr/iskustva-pacijenata",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/hr/testimonials-edita-karadole-glumica",
+          "to": "/hr/iskustva-pacijenata",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonianze-zoran-roje-direttore-sportivo",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonilas-zoran-roje-sportski-direktor",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/testimonials-zoran-roje-sports-director",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/testimonials-zoran-roje-sportdirektor",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/testimonials-zoran-roje-sportski-direktor",
+      "target": "https://www.dentvitalis.com/hr/iskustva-pacijenata",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/hr/testimonials-zoran-roje-sportski-direktor",
+          "to": "/hr/iskustva-pacijenata",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonianze-lorenzo-fabbro",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/testimonials",
+      "target": "https://www.dentvitalis.com/si/izkusnje-pacientov",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/si/testimonials",
+          "to": "/si/izkusnje-pacientov",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonianze-nilo-falchi",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/testimonianze",
+      "target": "https://www.dentvitalis.com/testimonianze",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/garanzie",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/garancije",
+      "target": "https://www.dentvitalis.com/si/garancije",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/guarantees",
+      "target": "https://www.dentvitalis.com/en/guarantees",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/garantien",
+      "target": "https://www.dentvitalis.com/de/garantien",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/jamstva",
+      "target": "https://www.dentvitalis.com/hr/jamstva",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/pagamento",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/nacin-placanja",
+      "target": "https://www.dentvitalis.com/si/nacin-placanja",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/manner-of-payment",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/zahlungsart",
+      "target": "https://www.dentvitalis.com/de/zahlungsart",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/placanje",
+      "target": "https://www.dentvitalis.com/hr/placanje",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/faq",
+      "target": "https://www.dentvitalis.com/faq",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/faq",
+      "target": "https://www.dentvitalis.com/si/faq",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/faq",
+      "target": "https://www.dentvitalis.com/en/faq",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/faq",
+      "target": "https://www.dentvitalis.com/de/faq",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/faq",
+      "target": "https://www.dentvitalis.com/hr/faq",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/contatti",
+      "target": "https://www.dentvitalis.com/contatti",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/stik-z-nami",
+      "target": "https://www.dentvitalis.com/si/stik-z-nami",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/contact",
+      "target": "https://www.dentvitalis.com/en/contact",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/kontakt",
+      "target": "https://www.dentvitalis.com/de/kontakt",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/kontakt",
+      "target": "https://www.dentvitalis.com/hr/kontakt",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/croazia-e-fiume",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/hrvaska-in-reka",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/croatia-and-rijeka",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/kroatien-and-rijeka",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/tecnologia",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/tehnologija",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/technology",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/technologie",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/technologija",
+      "target": "https://www.dentvitalis.com/hr/materijali-i-oprema",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/hr/technologija",
+          "to": "/hr/materijali-i-oprema",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/all-on-four",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/all-on-four",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/all-on-four",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/all-on-four",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/all-on-four",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/bruxismo",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/bruksizem",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/bruxismus",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/bruxism",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/bruksizam",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/disinfezione",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/razkuzitev",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/disinfection",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/desinfektion",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/desinfekcija",
+      "target": "https://www.dentvitalis.com/hr/desinfekcija",
+      "status": "preserved-PHP-runtime-check-required",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/errore",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/napaka",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/mistake",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/fehler",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/greska",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/404",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/404",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/404",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/404",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/grazie",
+      "target": "https://www.dentvitalis.com/grazie",
+      "status": "preserved-static-noindex-not-in-new-sitemap",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/hvala",
+      "target": "https://www.dentvitalis.com/si/hvala",
+      "status": "preserved-static-noindex-not-in-new-sitemap",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/thanks",
+      "target": "https://www.dentvitalis.com/en/thanks",
+      "status": "preserved-static-noindex-not-in-new-sitemap",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/dank",
+      "target": "https://www.dentvitalis.com/de/dank",
+      "status": "preserved-static-noindex-not-in-new-sitemap",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/hvala",
+      "target": "https://www.dentvitalis.com/hr/hvala",
+      "status": "preserved-static-noindex-not-in-new-sitemap",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/implantologia",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/implantologija",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/implantation",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/implantologie",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/implantologija",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/inlay-in-ceramica",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/keramicni-inlay",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/ceramic-inlays",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/keramik-inlay",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/keramicki-inlay",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/lavoro-combinato",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/kombinirano-delo",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/combination-work",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/kombinierte-arbeit",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/kombinirani-rad",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/soluzione-protesica-fissa",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/keramicni-mosticek-na-implantatih",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/a-ceramic-bridge-on-implants",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/keramikbrucke-auf-implantaten",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/keramicki-most-na-implantatima",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/ponte-in-ceramica-su-impianti",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/keramicni-mosticek-na-implantatih-all",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/ceramic-bridge-on-implants",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/keramikbrucke-auf-implantaten-all",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/keramicki-most-na-svim-implantatima",
+      "target": "https://www.dentvitalis.com/hr/keramicki-most-na-svim-implantatima",
+      "status": "preserved-PHP-runtime-check-required",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/ponte-in-ceramica-su-denti-naturali",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/keramicni-mosticek-na-naravnih-zobeh",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/a-ceramic-bridge-on-original-teeth",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/keramikbrucke-auf-naturlichen-zahnen",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/keramicki-most-na-prirodnim-zubima",
+      "target": "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/hr/keramicki-most-na-prirodnim-zubima",
+          "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/corona-su-impianto",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/kronica-na-implantatu",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/a-crown-on-an-implant",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/krone-auf-implantat",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/krunica-na-implantatu",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/corona-su-dente-naturale",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/kronica-na-naravnem-zobu",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/a-crown-on-the-original-tooth",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/krone-auf-naturlichem-zahn",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/krunica-na-prirodnom-zubu",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/faccette",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/luskice",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/veneers",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/veneers",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/ljuskice",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/corone",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/kronice",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/crowns",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/kronen",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/krunice",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/sbiancamento-dentale",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/beljenje-zob",
+      "target": "https://www.dentvitalis.com/si/beljenje-zob",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/dental-bleaching",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/zahnaufhellung",
+      "target": "https://www.dentvitalis.com/de/zahnaufhellung",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/izbjeljivanje-zuba",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/allungamento-clinico-della-corona-del-dente-naturale",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/klinicno-podaljsanje-krone-naravnega-zoba",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/clinical-extension-of-the-original-tooths-crown",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/klinische-erweiterung-der-naturlichen-zahnkrone",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/klinicko-produzenje-krune-prirodnog-zuba",
+      "target": "https://www.dentvitalis.com/hr/klinicko-produzenje-krune-prirodnog-zuba",
+      "status": "preserved-PHP-runtime-check-required",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/ponte-di-tre-pezzi",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/triclenski-mosticek-kronice",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/three-component-bridge",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/dreigliedrige-brucke",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/most-od-tri-clana",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/protesi-parziale-con-base-in-metallo",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/delna-proteza-s-kovinsko-osnovo",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/partial-prosthetic-device-with-a-metal-base",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/partielle-prothese-mit-metallbasis",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/parcijalna-proteza-s-metalnom-bazom",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/informativa-sulla-privacy",
+      "target": "https://www.dentvitalis.com/informativa-sulla-privacy",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/politika-zasebnosti",
+      "target": "https://www.dentvitalis.com/si/politika-zasebnosti",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/privacy-policy",
+      "target": "https://www.dentvitalis.com/en/privacy-policy",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/datenschutzerklarung",
+      "target": "https://www.dentvitalis.com/de/datenschutzerklarung",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/polica-privatnosti",
+      "target": "https://www.dentvitalis.com/hr/polica-privatnosti",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/registrazione",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/registracija",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/registration",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/registrierung",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/registration",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/protesi-su-impianti",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/proteza-na-implantatih",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/denture-on-implants",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/prothese-auf-implantaten",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/proteza-na-implantatima",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/protesi-ancorate-su-corone-telescopiche",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/proteza-sidrana-na-teleskopskih-kronicah",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/prosthetic-device-anchored-on-telescopic-crowns",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/prothese-auf-teleskopkronen-verankert",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/proteza-sidrena-na-teleskopskim-krunicama",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/condizioni-di-utilizzo",
+      "target": "https://www.dentvitalis.com/condizioni-di-utilizzo",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/pogoji-uporabe",
+      "target": "https://www.dentvitalis.com/si/pogoji-uporabe",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/terms-of-use",
+      "target": "https://www.dentvitalis.com/en/terms-of-use",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/nutzungsbedingungen",
+      "target": "https://www.dentvitalis.com/de/nutzungsbedingungen",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
+      "target": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/alloggio",
+      "target": "https://www.dentvitalis.com/informazioni/alloggio",
+      "status": "existing-or-approved-301",
+      "chain": [
+        {
+          "from": "/alloggio",
+          "to": "/informazioni/alloggio",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "old": "https://www.dentvitalis.com/en/accommodation",
+      "target": "https://www.dentvitalis.com/en/accommodation",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/de/unterkunft",
+      "target": "https://www.dentvitalis.com/de/unterkunft",
+      "status": "same-url",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/trasferta",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/protesi",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/laboratorio-odontotecnico",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/decisione-implantologia",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/registration-fb",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/si/registracija-fb",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    },
+    {
+      "old": "https://www.dentvitalis.com/registration-fb2",
+      "target": "",
+      "status": "content-decision-required-no-new-redirect-invented",
+      "chain": []
+    }
+  ],
+  "serverStageAndNextRootChanged": false,
+  "realBackendPostPerformed": false
+}
