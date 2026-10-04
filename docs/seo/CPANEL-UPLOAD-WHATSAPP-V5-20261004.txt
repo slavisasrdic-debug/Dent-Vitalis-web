@@ -1,0 +1,77 @@
+ZA CPANEL AGENTA — 4. LISTOPADA 2026. — SAMO PRIVATNA PRIPREMA
+
+VAŽEĆI PAKET: dentvitalis-web-production-candidate-20261004-whatsapp-v5.zip
+Ovaj cijeli statički paket zamjenjuje v3 i seo-v4 za budući upload.
+ZIP: 57.922.603 bajta (oko 55,24 MiB u File Manageru).
+SHA-256: 314d95593b9ef6515317af67b662a132f2ed49c6ace4370299f31df212c3df93
+Raspakirano: 65.644.083 bajta; 692 datoteke bez ZIP-a, 13 podmapa.
+Manifest: revision 20261004-whatsapp-v5; commit 33f42559b84a.
+Dozvole: datoteke 0644, podmape i privatni release korijen 0755.
+
+Sadrži nove WhatsApp poruke za IT/HR/DE/EN/SL u postojećem nativnom panelu,
+jednostavni .htaccess iz ispravljenog SEO handoffa i sitemap s 136 URL-ova
+i 812 stvarnih hreflang veza. Broj, lokalizirani gumbi i stvarna fotografija
+Jelene ostaju. Nema nove Elfsight skripte, drugog chata ili automatske poruke.
+Svi asseti, forme, URL-ovi, GTM i SEO pravila identični su seo-v4 kandidatu.
+Paket NE sadrži index.php, application, blog, poruke, tajne ili podatke pacijenata.
+
+1. Provjeri aktualnu kvotu. Zadnje prijavljeno 207,46 MB slobodno; cilj je
+   barem 150 MB prije uploada za ZIP i ekstrakciju (~120 MB) uz rezervu.
+   Ako nema dovoljno prostora, stani i prijavi. Ne briši stare releaseove
+   ili backupove bez zasebnog odobrenja. Ne ponavljaj SSH/API pokušaje.
+2. Napravi /home2/dentvita/releases/20261004-whatsapp-v5/ (0755).
+   Ako mapa postoji ili nije prazna, stani prije prepisivanja.
+3. Otvori Upload u toj mapi; vlasnik ručno odabire navedeni v5 ZIP.
+   Overwrite existing files isključen. Pričekaj 100 %.
+4. Extract isključivo u istu privatnu mapu, ne u public_html ili application.
+5. Potvrdi 692 datoteke bez ZIP-a i 13 podmapa, 0644/0755. Potvrdi index.html,
+   _pages, _astro, assets, .htaccess, manifest, robots i sva tri XML sitemapa.
+   Oba sitemap.xml i sitemap-0.xml su URLSET s xmlns:xhtml; index vodi na 0.
+   Robots ostaje nepromijenjen i upućuje na sitemap-index.xml.
+6. Manifest mora imati revision 20261004-whatsapp-v5 i commit 33f42559b84a.
+   Provjeri poruke u index.html, _pages/hr.html, _pages/de.html,
+   _pages/en.html i _pages/si.html. HR: „Dobar dan, kako vam mogu pomoći?”,
+   SL: „Pozdravljeni, kako vam lahko pomagam?”, uz potpis Jelena.
+   Potvrdi postojeće /de/unterkunft, /si/namestitev i DE/SI testimonials 301.
+7. Ako File Manager ne nudi SHA/točne bajtove, označi ih neprovjerenima.
+   Prikaz veličine u MB nije serverska SHA provjera. Lokalni stvarni ZIP ima
+   neovisno potvrđen CRC, svih 691 payload hashova i sve ZIP dozvole.
+8. VRATI KRATAK IZVJEŠTAJ I STANI. Nema aktivacije, premještanja public_html,
+   izmjene next roota, PHP/DNS/GTM/CookieYes promjena ili novih POST-ova.
+
+SLJEDEĆA FAZA — TEK NAKON IZVJEŠTAJA I ZASEBNOG ODOBRENJA
+
+Postojeći /home2/dentvita/public_html-next-20261004-localized-v3/ sačuvati.
+Stari plan zamjene SAMO četiri SEO datoteke više NIJE dovoljan za v5.
+Ne kopirati ponovno cijeli next root ili legacy resurse. Git provjera svih
+141 HTML panela potvrđuje da je sav HTML izvan chata jednak v4, osim novih
+automatskih ARIA ID-jeva; svih 550 ostalih payload datoteka bajtno je isto.
+Asseti su time također jednaki prihvaćenom v3. Dovoljno je zamijeniti:
+
+  _pages/ (cijelu mapu, 140 HTML datoteka)
+  index.html
+  .htaccess
+  sitemap.xml
+  sitemap-0.xml
+  release-manifest.json
+
+Prije zamjene potvrdi identitet privatnog next roota i da nema neočekivanih
+novih izmjena. Sačuvaj upravo navedene stare stavke u novu privatnu backup
+mapu /home2/dentvita/backups/next-root-before-whatsapp-v5-20261004/;
+provjeri prostor prije kopiranja. Ne prepisuj postojeći backup. Kopiraj v5
+stavke na njihove iste relativne putanje; nikako _pages/_pages. Provjeri
+0644 za datoteke, 0755 za podmape; postojeći next-root korijen ostaje 0750.
+Provjeri novi manifest i pet jezičnih poruka nakon kopiranja.
+
+NE DIRAJ: index.php, application, application/data, stare css/js/images/fonts,
+email/logo001.png, upitnik.pdf, .well-known, verifikacijske datoteke i druge
+ranije očuvane legacy stavke. Blog prema postojećoj odluci ostaje u starom
+rootu i backupu, bez brisanja ili izmišljanja novih blog redirekcija.
+Manifest popisuje statički paket, ne dodatne legacy datoteke next roota.
+
+Javno preimenovanje/aktivacija i GET/consent prihvat zasebna su faza prema
+docs/cpanel-migration-runbook.md. Stvarni e-mail/CRM/PDF testovi već su
+prihvaćeni i ne ponavljaju se. Produkcijsko Apache/PHP/consent ponašanje nije
+potvrđeno privatnim pregledom ili lokalnim browser testom. Dodatnih osam SEO
+review redirekcija ostaje za produkcijsku potvrdu; sadržajne odluke nisu
+ovim uploadom zaključene. Povratak samo javnog koda, nikad podataka/baze/CRM-a.

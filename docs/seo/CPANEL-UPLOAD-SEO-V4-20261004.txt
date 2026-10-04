@@ -1,5 +1,9 @@
 ZA CPANEL AGENTA — 4. LISTOPADA 2026. — SAMO PRIVATNA PRIPREMA
 
+ARHIVIRANO: v4 ne koristiti za novi upload nakon WhatsApp dopune.
+Važeće upute: docs/seo/CPANEL-UPLOAD-WHATSAPP-V5-20261004.txt.
+V5 zahtijeva _pages + pet root datoteka; stara zamjena samo četiri nije dovoljna.
+
 Paket: dentvitalis-web-production-candidate-20261004-seo-v4.zip
 ZIP: 57.920.124 bajta (približno 55,24 MiB u File Manageru).
 SHA-256: 938fc4142c6fa2ddc2af1eb7bd5992654fb7516af786e82e5cf312e8cd8ebd49

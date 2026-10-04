@@ -36,6 +36,18 @@ form preflight potvrđuje 141 zaštićenu formu i pet zahvalnih ruta.
 Produkcijski build ima 142 HTML datoteke. Nije slana WhatsApp poruka ili
 POST, niti je cPanel mijenjan. Ovo nije produkcijski runtime prihvat.
 
+Gotovi v5 ZIP prošao je još 10 zasebnih Chromium tokova (pet jezika ×
+390/1440 px) poslužen iz same arhive na privatnom lokalnom HTTP portu:
+HTTP 200, pravi sadržaj/jezik, jedna instanca, točna poruka i broj,
+otvaranje/Escape, bez JS runtime grešaka, lokalnih HTTP grešaka ili
+vanjskih chat zahtjeva. Prvi pomoćni server nije dekodirao `%20` u tri
+postojeća asset naziva; ispravljen je samo testni harness, ne projekt/ZIP,
+zatim je cijeli prolaz uspješan. Vanjske tracking veze blokirane su radi
+izbjegavanja sintetičkih produkcijskih događaja; consent se provjerava na
+produkciji odvojeno. Receipt čuva nalaze i SHA gotove arhive. Source/HTML
+usporedba svih 141 panela potvrđuje da izvan chata nema izmjene osim novih
+generiranih ARIA ID-jeva; svih ostalih 550 payload datoteka bajtno je isto.
+
 ## Arhivirani prihvat iz rujna
 
 Završne statičke provjere: `npm run check` (162 datoteke, bez grešaka/upozorenja), `npm run lint`, `npm run build` (56 stranica) uspješne. Ista WhatsApp matrica prošla je i 8/8 u WebKitu (`--browser=webkit`); konfiguracija nema imenovani WebKit projekt.

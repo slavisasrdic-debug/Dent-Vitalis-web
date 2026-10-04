@@ -8,7 +8,37 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
-**Najnovije — vlasnik traži novi upload kandidat za večerašnju migraciju:**
+**Važeći upload — WhatsApp v5, nakon vlasnikove dopune:**
+`dentvitalis-web-production-candidate-20261004-whatsapp-v5.zip` sadrži
+točne nove WhatsApp poruke svih pet vlasnikovih javnih widget izvora,
+prihvaćeni nativni panel i cjelokupni ispravljeni SEO v4 payload.
+ZIP 57.922.603 B, SHA-256
+`314d95593b9ef6515317af67b662a132f2ed49c6ace4370299f31df212c3df93`;
+692 datoteke / 13 mapa, 65.644.083 B raspakirano. CRC, svih 691 payload
+hashova i sve ZIP dozvole potvrđeni neovisnim pregledom stvarne arhive.
+141 HTML panel provjeren prema source tekstu. HTML izvan panela identičan
+v4 nakon normalizacije samo generiranih ARIA ID-jeva; svih ostalih 550
+payload datoteka bajtno isto, uključujući kompletne assete i SEO konfiguraciju.
+Sitemap zadržava 136 URL-ova i 812 provjerenih hreflang veza, svih pet jezika.
+Gumbi ostaju već lokalizirani, broj i stvarna fotografija Jelene ne mijenjaju se.
+Elfsight SDK, generičke fotografije i source trackeri nisu uvezeni.
+Svih 14 preview browser testova i 10 zasebnih tokova stvarnog ZIP-a prolazi;
+desktop/mobile snimke pregledane. Privatni ZIP server ne provjerava Apache
+ili produkcijski consent, a tracking mreža namjerno je blokirana tijekom
+lokalnog testa. Nema novih stvarnih POST-ova ili chat poruka.
+
+Važeće upute: `docs/seo/CPANEL-UPLOAD-WHATSAPP-V5-20261004.txt`;
+receipt: `data/seo/cpanel-whatsapp-v5-release-20261004.json`.
+Privatni stage: `/home2/dentvita/releases/20261004-whatsapp-v5/`.
+V3 i seo-v4 ostaju očuvani kao povijesne verzije, ali nisu novi upload.
+Nakon zasebnog odobrenja ažurira se postojeći privatni v3 next root:
+sačuvati pa zamijeniti `_pages/` i pet datoteka `index.html`, `.htaccess`,
+`sitemap.xml`, `sitemap-0.xml`, `release-manifest.json`. Stari plan četiri
+SEO datoteke nije dovoljan. Ne ponavljati kopiranje cijelog roota ili asseta.
+Privatna priprema i lokalna provjera nisu produkcijska aktivacija;
+backend, postojeći podaci i ranije prihvaćeni stvarni upiti ostaju netaknuti.
+
+**Arhivirani korak — SEO v4 prije nove WhatsApp dopune:**
 priprema se `dentvitalis-web-production-candidate-20261004-seo-v4.zip` iz
 verificiranog nepromjenjivog localized-v3 ZIP-a, bez rebuilda prihvaćenih
 stranica/slika/JS/CSS i bez ponavljanja stvarnih form testova. Zamjenjuju se
