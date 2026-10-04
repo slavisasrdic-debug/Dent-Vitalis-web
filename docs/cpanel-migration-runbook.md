@@ -8,6 +8,26 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Najnovije — vlasnik traži novi upload kandidat za večerašnju migraciju:**
+priprema se `dentvitalis-web-production-candidate-20261004-seo-v4.zip` iz
+verificiranog nepromjenjivog localized-v3 ZIP-a, bez rebuilda prihvaćenih
+stranica/slika/JS/CSS i bez ponavljanja stvarnih form testova. Zamjenjuju se
+samo `.htaccess`, `sitemap.xml`, `sitemap-0.xml` i regenerirani manifest.
+Oba sitemap urlseta sadrže svih 136 URL-ova i stvarni HTML hreflang.
+Provenance razdvaja sadržajni commit v3, SEO reviziju i commit pakiranja.
+Dokaz nakon pakiranja: `data/seo/cpanel-seo-v4-release-20261004.json`.
+
+Upload cilj je nova privatna mapa `/home2/dentvita/releases/20261004-seo-v4/`.
+Upute: `docs/seo/CPANEL-UPLOAD-SEO-V4-20261004.txt`. Posljednja prijavljena
+slobodna kvota 207,46 MB može pokriti približno 120 MB za ZIP i ekstrakciju;
+prije uploada provjeriti aktualnu kvotu, ništa automatski brisati.
+Ne ponavljati kopiranje 1.034 pripremljene next-root datoteke. Nakon zasebnog
+odobrenja sačuvati i zamijeniti samo četiri gore navedene stavke u postojećem
+privatnom v3 next rootu. `index.php`, legacy resursi i `application` ostaju.
+Za upload pripremu nije odobreno javno preimenovanje/aktivacija; preostale
+SEO/PHP/consent HTTP provjere i potvrda dodatnih 301 ostaju prije prihvata.
+Ovaj novi zahtjev ne pretvara SEO pregled u odobrenje medicinskih spajanja.
+
 **Najnoviji zahtjev — jednostavniji SEO handoff, 4. listopada:** vlasnik je
 umjesto aktivacijskog odobrenja zatražio stari i novi sitemap te kraći
 `.htaccess` po uzoru na dostavljeni stari. Datoteke su u

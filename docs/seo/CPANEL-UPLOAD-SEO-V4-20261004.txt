@@ -1,0 +1,51 @@
+ZA CPANEL AGENTA — 4. LISTOPADA 2026. — SAMO PRIVATNA PRIPREMA
+
+Paket: dentvitalis-web-production-candidate-20261004-seo-v4.zip
+To je cijeli statički web, ne ZIP četiri dokumenta za SEO kolegu.
+V3 stranice, slike, JS/CSS, forme i izgled ostaju bajtno nepromijenjeni.
+Izmijenjeni su .htaccess, sitemap.xml, sitemap-0.xml i manifest.
+Novi sitemapi imaju 136 URL-ova i 812 hreflang veza, svih pet jezika.
+Paket NE sadrži index.php, application, blog ili podatke pacijenata.
+
+1. Provjeri aktualnu kvotu u cPanelu. Zadnje prijavljeno: 207,46 MB slobodno.
+   Za novi ZIP i raspakiravanje računaj približno 120 MB; cilj je najmanje
+   150 MB slobodno prije uploada. Ako nema prostora, stani i prijavi stanje;
+   ne briši stare releaseove ni backupove bez zasebnog odobrenja.
+2. Napravi novu privatnu mapu /home2/dentvita/releases/20261004-seo-v4/.
+   Ako već postoji ili sadrži datoteke, stani prije prepisivanja.
+3. Otvori Upload u toj mapi. Vlasnik ručno odabire novi seo-v4 ZIP.
+   Overwrite existing files mora biti isključen. Pričekaj 100 %.
+4. Extract samo u tu istu privatnu mapu. Ne u public_html ili application.
+5. Provjeri broj datoteka i mapa te dozvole prema receipt zapisu
+   data/seo/cpanel-seo-v4-release-20261004.json: datoteke 0644, mape 0755.
+   Potvrdi .htaccess, index.html, _pages, _astro, assets, page-routes.json,
+   robots.txt, sva tri sitemap XML-a i release-manifest.json.
+6. Pročitaj manifest: revision 20261004-seo-v4; sadržajni commit 935e5bb7;
+   zasebni commit pakiranja/SEO revizije; promijenjene samo tri payload stavke.
+   Oba sitemap.xml i sitemap-0.xml imaju URLSET s xmlns:xhtml, ne samo index.
+   Provjeri /prima-visita → /informazioni/prima-visita-gratuita i postojeće
+   /de/unterkunft, /si/namestitev te DE/SI testimonials 301.
+7. Ako alat ne nudi hashove/točne bajtove, izričito navedi neprovjereno;
+   ne izmišljaj SHA potvrdu iz prikazane MB veličine. Nema SSH/API pokušaja.
+8. VRATI KRATAK IZVJEŠTAJ I STANI. Nema kopiranja u next root, preimenovanja
+   public_html, aktivacije, testnih POST-ova, PHP/DNS/GTM/consent promjena.
+
+SLJEDEĆA FAZA — TEK NAKON IZVJEŠTAJA I ZASEBNOG ODOBRENJA
+
+Postojeći /home2/dentvita/public_html-next-20261004-localized-v3/ već ima
+index.php, stare resurse i verifikacije. Ne kopirati cijeli web ponovno.
+Prvo provjeriti da je to očekivani privatni direktorij, da manifest još
+odgovara v3 i da izvan četiri navedene datoteke nema novih izmjena.
+Sačuvati te četiri izvorne datoteke u novu privatnu backup mapu; zatim
+zamijeniti SAMO .htaccess, sitemap.xml, sitemap-0.xml i release-manifest.json
+iz seo-v4 stagea. Ostale 688 payload stavke, index.php i zadržani stari
+resursi ostaju netaknuti. Novi manifest popisuje statički paket, ne dodatne
+legacy datoteke u kombiniranom rootu. Provjeriti identitet i dozvole.
+
+Javnu aktivaciju i GET/consent prihvat dogovaramo odvojeno. Ne aktivirati
+stari v3 kao da već sadrži v4. Prethodni javni direktorij mora ostati
+dostupan za kodni povratak; nikad ne vraćati application/data, log/mail,
+bazu ili CRM preko novih upita. Ranije prihvaćene stvarne testne upite
+ne ponavljati. Dodatnih osam ekvivalentnih 301 pripremljeno je za ovaj
+kandidat; produkcijsko odobrenje i nejasne sadržajne odluke nisu ovim
+uploadom zaključeni. Detaljna važeća procedura: docs/cpanel-migration-runbook.md.
