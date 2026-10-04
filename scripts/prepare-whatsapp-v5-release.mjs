@@ -232,7 +232,7 @@ console.log(
       sha256: receipt.sha256,
       compressedZipBytes: receipt.compressedZipBytes,
       totalFilesIncludingManifest: receipt.totalFilesIncludingManifest,
-      htmlPanelsVerified,
+      htmlPanelsVerified: htmlPagesVerified,
       changedPayloadFiles: changedFiles.length,
       unchangedPayloadFiles: receipt.unchangedPayloadFiles,
     },
