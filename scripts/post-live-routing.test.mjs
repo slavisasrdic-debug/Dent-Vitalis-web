@@ -25,6 +25,11 @@ test('all 115 approved redirects have existing final targets and preserve v9', (
       block.includes(`https://www.dentvitalis.com${row.to} [R=301,L,NE]`),
     );
   assert.ok(after.indexOf(block) < after.indexOf('# 8. NOVI WEB'));
+  assert.equal(decisions.retiredRoutes.length, 6);
+  assert.equal(decisions.retirementApprovalPending, false);
+  assert.ok(block.includes('[G,L]'));
+  for (const route of decisions.retiredRoutes)
+    assert.ok(block.includes(route.slice(1)));
 });
 
 test('missing targets or repeated augmentation are rejected', () => {

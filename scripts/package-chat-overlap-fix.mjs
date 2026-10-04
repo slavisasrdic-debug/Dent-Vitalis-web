@@ -153,7 +153,7 @@ const manifest = {
   baseRevision: base.revision,
   basePatchSha256: receipt.sha256,
   changeScope:
-    '115 owner-approved 301 additions; hide obsolete Zendesk UI; DentVitalis chat heading in five languages. No new content/design or sitemap/backend/GTM changes.',
+    '115 owner-approved 301 additions and six approved 410 retirements; hide obsolete Zendesk UI; DentVitalis chat heading in five languages. No new content/design or sitemap/backend/GTM changes.',
   fileCount: files.length,
   totalBytes: files.reduce((sum, file) => sum + file.bytes, 0),
   files,
@@ -185,6 +185,7 @@ const readme = `DENTVITALIS — JAVNI ISPRAVCI V12, UPDATE AKTIVNOG V9
 Jedan zajednički update, NE puni release. Nema novih stranica ili sadržaja.
 Dodaje svih 115 odobrenih 301: 84 tematske zamjene, 17 zamjena usluga,
 14 preostalih članaka na postojeće usluge, bez dodavanja teksta.
+Šest zasebno odobrenih ukinutih adresa vraća 410, bez redirekcije.
 Zadržava postojeće redirekcije, UTM/query, 308 normalizaciju i PHP backend.
 Sitemap ostaje postojeći provjereni v9: 136 URL-ova, 676 stvarnih hreflang
 veza, bez XML x-default; IT galerija /galleria. Nije ga potrebno mijenjati.
@@ -209,11 +210,12 @@ CPANEL — SAMO ZAMJENA ČETIRIJU STAVKI, BEZ PREIMENOVANJA JAVNOG ROOT-a:
    NE preimenovati ili obrisati public_html. Ne dirati _astro/assets,
    index.php, application/data, mail/log, bazu/CRM, DNS, PHP ili stare backupove.
 5. Provjeri izvana: index.html, /, /hr, /de, /en, /si, /galleria -> 200 novi web.
-   SVE adrese u redirekcije-odobrene.csv: jedan 301 na cilj, cilj 200,
+   SVE 301 adrese u redirekcije-odobrene.csv: jedan 301 na cilj, cilj 200,
    query ?utm_source=v12%2Bcheck&item=1&item=2 ostaje sačuvan.
    Posebno /en/implantation -> /en/new-implants;
    /en/registration i /en/contacts -> /en/contact;
    /en/croatia-and-rijeka -> /en/directions.
+   Šest adresa označenih 410: HTTP 410 bez Location, sa i bez slasha.
    Tri zadržane HR PHP stranice i GET /send ostaju 200.
    GET tokena/no-store provjeriti bez zapisivanja vrijednosti tokena.
    robots i sitemap 200; manifest revision 20261004-public-fixes-v12.
@@ -231,7 +233,8 @@ Ovaj update skriva njegov UI, ali NE zaustavlja učitavanje SDK-a/cookieja.
 GTM/CookieYes se ne isključuju. Puni prihvat ponašanja privola nije potvrđen.
 SEO: 301 na opći pregled usluga slabija je tematska zamjena; ne jamčimo
 očuvanje svih Google pozicija. Vlasnik odabrao bez dodavanja sadržaja.
-Šest kampanjskih/ukinute adrese NIJE ugašeno: čeka se zasebno odobrenje 410.
+Šest kampanjskih/ukinutih adresa odobreno je ugasiti s 410; stari oglasi
+na te adrese više neće raditi. Vlasnik je potvrdio da se kampanje ne koriste.
 Devet starih pogrešnih URL-ova ostaje 404. Tri ranije odobrene HR PHP stranice
 svjesno ostaju stare: desinfekcija, kliničko produženje krune, most na svim implantatima.
 `;
@@ -247,6 +250,10 @@ await writeFile(
         ({ from, to, status }) =>
           `https://www.dentvitalis.com${from};https://www.dentvitalis.com${to};${status}`,
       )
+      .join('\r\n') +
+    '\r\n' +
+    decisions.retiredRoutes
+      .map((from) => `https://www.dentvitalis.com${from};;410`)
       .join('\r\n') +
     '\r\n',
   { flag: 'wx', mode: 0o644 },

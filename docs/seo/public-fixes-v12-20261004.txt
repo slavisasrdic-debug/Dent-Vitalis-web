@@ -14,10 +14,11 @@ Izvan novog jasno označenog bloka .htaccess ostaje byte-identičan
 odobrenom v8/v9. Ostaje PHP 7.4, forme/tokeni, tri očuvane HR stranice,
 postojeći cache i normalizacija HTTPS/www i završnog slasha.
 
-Ne gasiti šest kampanjskih/ukinute adrese bez zasebnog odobrenja:
+Vlasnik je zasebno odobrio 410 za šest kampanjskih/ukinutih adresa:
 /registration-fb, /si/registracija-fb, /registration-fb2, /action,
 /hr/registration-fb, /decisione-implantologia.
-Njihov 410 još nije odobren. Devet povijesnih pogrešnih adresa ostaje 404.
+Potvrda: "Da, kampanje se više ne koriste; ugasi svih šest s 410".
+Devet povijesnih pogrešnih adresa ostaje 404.
 
 UI: stari Zendesk launcher/webWidget više ne prekriva native WhatsApp.
 U svih pet plavih zaglavlja prikazuje se DentVitalis. Poruke, broj i
@@ -29,7 +30,7 @@ Provjere prije pakiranja: 19 WhatsApp/favicon browser testova;
 stvarni javni GTM/Zendesk s kandidat HTML-om HR/SI: desktop i mobitel,
 običan pointer klik, zatvaranje Escape, CMP postavke bez slanja upita;
 11 routing testova uključujući stvarni Docker Apache HTTP/TLS,
-sve nove redirekcije sa i bez slasha, ciljevi 200, složeni query,
+sve nove redirekcije sa i bez slasha, ciljevi 200, svih šest novih 410, složeni query,
 pet jezika, postojeći 410, handleri i zabrana directory listinga.
 Lokalni POST u routing testu je dummy fixture, nikad produkcijski upit.
 

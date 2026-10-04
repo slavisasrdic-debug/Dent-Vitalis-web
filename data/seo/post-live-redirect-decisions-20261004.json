@@ -709,8 +709,16 @@
       "approvalGroup": "A"
     }
   ],
-  "retiredRoutes": [],
-  "retirementApprovalPending": true,
+  "retiredRoutes": [
+    "/registration-fb",
+    "/si/registracija-fb",
+    "/registration-fb2",
+    "/action",
+    "/hr/registration-fb",
+    "/decisione-implantologia"
+  ],
+  "retirementApprovalPending": false,
+  "retirementApproval": "Owner: Da, kampanje se više ne koriste; ugasi svih šest s 410",
   "contentPreservationDecisionPending": false,
   "additional14Approval": "Owner chose: Samo 301 na usluge, bez dodavanja sadržaja",
   "newContentOrDesignAuthorized": false,

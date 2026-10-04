@@ -302,6 +302,15 @@ test(
             ),
           ).redirects
         : [];
+    const postLiveRetired =
+      process.env.DENTVITALIS_POST_LIVE_REDIRECTS === '1'
+        ? JSON.parse(
+            await readFile(
+              join(root, 'data/seo/post-live-redirect-decisions-20261004.json'),
+              'utf8',
+            ),
+          ).retiredRoutes
+        : [];
     const sourceLegacy = suppliedLegacy
       ? await readFile(suppliedLegacy)
       : legacy;
@@ -628,7 +637,7 @@ test(
         '?utm_source=a%2Bb&item=1&item=2',
       );
     }
-    for (const route of retiredThankYouRoutes) {
+    for (const route of [...retiredThankYouRoutes, ...postLiveRetired]) {
       const result = await request(
         true,
         'www.dentvitalis.com',

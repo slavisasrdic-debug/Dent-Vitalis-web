@@ -1,5 +1,6 @@
 {
-  "status": "proposal-awaiting-owner-decisions-not-installed",
+  "status": "historical-proposal-owner-decisions-recorded-separately",
+  "currentDecisions": "data/seo/post-live-redirect-decisions-20261004.json",
   "checkedAt": "2026-10-04T21:09:03.615Z",
   "currentRevision": "20261004-whatsapp-brand-v9",
   "existingRedirectsExternallyPassed": 74,
