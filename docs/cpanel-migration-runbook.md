@@ -17,6 +17,11 @@ pravila više ne čeka potvrdu. Nema novih proizvoljnih medicinskih spajanja.
 
 Jedini aktualni puni paket je
 `dentvitalis-web-production-candidate-20261004-galleria-v8.zip`.
+57.925.698 B; SHA-256
+`d92be1d1578e66b70aa4461fbce74ea43c6d3c85cbdec078345aa1a634d94f66`.
+Završna neovisna provjera stvarnog ZIP-a prošla je: CRC, svih 691 payload
+hashova, 692 datoteke/13 mapa i 0644/0755. 653 payload datoteke bajtno su
+nepromijenjene prema v7; svih 142 HTML dokumenata mijenja samo odobreni URL.
 Točni bajtovi, SHA-256, izvorni commit i promjene prema nepromjenjivom v7:
 `data/seo/cpanel-galleria-v8-release-20261004.json`.
 Uputa za cPanel agenta: `docs/seo/CPANEL-UPLOAD-GALLERIA-V8-20261004.txt`.

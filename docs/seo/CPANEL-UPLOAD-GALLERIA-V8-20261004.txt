@@ -1,7 +1,9 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
 Koristi samo dentvitalis-web-production-candidate-20261004-galleria-v8.zip.
-Točna veličina i SHA-256: data/seo/cpanel-galleria-v8-release-20261004.json.
+ZIP: 57.925.698 bajta (55,24 MiB).
+SHA-256: d92be1d1578e66b70aa4461fbce74ea43c6d3c85cbdec078345aa1a634d94f66
+Receipt: data/seo/cpanel-galleria-v8-release-20261004.json.
 692 datoteke bez ZIP-a, 13 podmapa; datoteke 0644, podmape 0755.
 Vlasnik je potvrdio zadnji SEO prijedlog i zatražio /galleria te migraciju nakon
 provjere. To nije ovlast za backend, DNS/PHP promjene ili nove stvarne POST-ove.

@@ -1,0 +1,274 @@
+{
+  "archiveName": "dentvitalis-web-production-candidate-20261004-galleria-v8.zip",
+  "compressedZipBytes": 57925698,
+  "sha256": "d92be1d1578e66b70aa4461fbce74ea43c6d3c85cbdec078345aa1a634d94f66",
+  "contentGitCommit": "9170ff808f67f91178ccdfdb7b566b336b5e2f6a",
+  "totalFilesIncludingManifest": 692,
+  "directories": 13,
+  "logicalUnpackedBytesIncludingManifest": 65630745,
+  "manifestSha256": "a10979237ffbab12631a71f97155fae3a5f63a1fbed7a500102ca77ae1546f09",
+  "fileMode": "0644",
+  "directoryMode": "0755",
+  "crcPassed": true,
+  "revision": "20261004-galleria-v8",
+  "independentArchiveVerification": {
+    "command": "python3 scripts/verify-galleria-v8-release.py",
+    "passed": true,
+    "payloadHashes": 691,
+    "htmlUrlOnlyComparedToBase": 142,
+    "reciprocalHreflang": 676,
+    "modesAndCrcPassed": true,
+    "actualServerHashesVerified": false
+  },
+  "packageGitCommit": "9170ff808f67f91178ccdfdb7b566b336b5e2f6a",
+  "immutableBaseArchive": {
+    "archiveName": "dentvitalis-web-production-candidate-20261004-ready-v7.zip",
+    "sha256": "5d8e37c1af782ecf417ec2633422edd0803cc8aa57d6c9dff2dcd5a9fe250669",
+    "manifestSha256": "37bacb20a362fba84920d7cd2400d93f7d600e63dbc4a6c84f5cfaa2ac8c5259"
+  },
+  "changedFiles": [
+    {
+      "path": ".htaccess",
+      "previousPath": ".htaccess",
+      "beforeSha256": "3fc15086eba0c308aee684383a708ff6bddada43265178d1f7e55f51bdaaf861",
+      "afterSha256": "e8b9236c906aba02b99103d08c2e2168a35008b2ace9fd3db0c348aaeeb8a4e3"
+    },
+    {
+      "path": "_pages/chi-siamo.html",
+      "previousPath": "_pages/chi-siamo.html",
+      "beforeSha256": "4ee128c7fda06553bbd895310bea2ecad27e7a05158c36e32dfa36997d9ffb2a",
+      "afterSha256": "8b934f51aa6ee1e3df7b004b52528b81486fbacbc2ae93271c44ab074cfb5b7a"
+    },
+    {
+      "path": "_pages/condizioni-di-utilizzo.html",
+      "previousPath": "_pages/condizioni-di-utilizzo.html",
+      "beforeSha256": "d603e3638997bf50131443efab57d89b47bb43ae141e94175aa6c7f19c728b91",
+      "afterSha256": "89be987958ad27a09ba055f0946d8fc656579cd79cf372afa237c34258d9ee53"
+    },
+    {
+      "path": "_pages/contatti.html",
+      "previousPath": "_pages/contatti.html",
+      "beforeSha256": "b9641937df432aef964403c01eeb55d48f1df85d930145d05caa541cae8cd91a",
+      "afterSha256": "f86620dd17b3d02766141c7bf4498730bc73f0392cd62e03d26f44c8f631e1d9"
+    },
+    {
+      "path": "_pages/de/galerie.html",
+      "previousPath": "_pages/de/galerie.html",
+      "beforeSha256": "32c867c1328ab57766430e0213e631533b0a87ecbe8ce5dbb994a5039ba56673",
+      "afterSha256": "494b234efa3a7ed3f37bc8532fce9c75701b6305d925716c5d7799b56362c62e"
+    },
+    {
+      "path": "_pages/galleria.html",
+      "previousPath": "_pages/domande-e-risposte.html",
+      "beforeSha256": "7e2a7b136ec4fdd3940e20f1d2a93f2b31a2f67e6b07227246260a2fbcc46a85",
+      "afterSha256": "22e8d3951d51021f46493adced7ddf9781f57fdebc02b622dc7f4d2bed33566a"
+    },
+    {
+      "path": "_pages/en/gallery.html",
+      "previousPath": "_pages/en/gallery.html",
+      "beforeSha256": "2c9a0f7b2485c5f046f8fb3df2c34ceca01a900deeca77102bcd0ad1b48aeeef",
+      "afterSha256": "8106f6496747634d5c01a0d81358acc83694c02bf2c9d194c5429369d036b5fd"
+    },
+    {
+      "path": "_pages/faq.html",
+      "previousPath": "_pages/faq.html",
+      "beforeSha256": "93935b0c6eea325543a6835e1e168f85fe991d4312ed8d12b2a274d30d541a47",
+      "afterSha256": "6a671978b1c6593aab420a0f038809e77cb720ba30e3cda2b5a6348f4c3ee939"
+    },
+    {
+      "path": "_pages/grazie.html",
+      "previousPath": "_pages/grazie.html",
+      "beforeSha256": "7f0deca50853a95de31d95822a3c32cdfa8b5736573e974eace55c6935fd23ee",
+      "afterSha256": "455cc64eb8c356c2f25ee39bdb12032d51db40d066a9abe6e27797ef075b1198"
+    },
+    {
+      "path": "_pages/hr/galerija.html",
+      "previousPath": "_pages/hr/galerija.html",
+      "beforeSha256": "ab1b6c943d75db73c66fc0bbcce7767eea4892ec003f9a53021c7dd10172480f",
+      "afterSha256": "c3a74824de83a5736f0ee0c02a393db06311215f4213f2a8f7fd4d3dfc2ec574"
+    },
+    {
+      "path": "_pages/informativa-sulla-privacy.html",
+      "previousPath": "_pages/informativa-sulla-privacy.html",
+      "beforeSha256": "6efb7af98cf813f887fa16be0939b7c36e45fc98c4ecb8e4b061fb44d8fc6c4c",
+      "afterSha256": "ddc4db353961552314eb0144630cbd48520360415d70252910d92da7aa10e9a5"
+    },
+    {
+      "path": "_pages/informazioni-per-pazienti.html",
+      "previousPath": "_pages/informazioni-per-pazienti.html",
+      "beforeSha256": "e2d58600b4ad39c4bb7b4c2e7f61b5543d633faf3fb7955f9f93bb52d17d708f",
+      "afterSha256": "0e88262d2f64eb378fa874bbcca2546283681f2825401285d5f62e616c079b1d"
+    },
+    {
+      "path": "_pages/informazioni/alloggio.html",
+      "previousPath": "_pages/informazioni/alloggio.html",
+      "beforeSha256": "6571218e1b45c991ef7066e47e56c793e87bd55d4bb71ea478edf16c48da9c95",
+      "afterSha256": "93926f40745356bd2443a9863d3faab0c2adf634f1635b650332a7490b544d3f"
+    },
+    {
+      "path": "_pages/informazioni/garanzie.html",
+      "previousPath": "_pages/informazioni/garanzie.html",
+      "beforeSha256": "1b6940c86243195d64b4a497361b9241334708179cfa9e3496d9c7606f2add86",
+      "afterSha256": "d351544e3f12fb8b01db532ea6fee753c0be467adf347c4a396df22f968464db"
+    },
+    {
+      "path": "_pages/informazioni/listino-prezzi.html",
+      "previousPath": "_pages/informazioni/listino-prezzi.html",
+      "beforeSha256": "f56a6f52d775afb8ebcfc6d38211bc9340c47e6854059ab4b66b17a61a920922",
+      "afterSha256": "a5baacccf19bb51592497f2c57797a222e74941bdff36f854703435f32eba692"
+    },
+    {
+      "path": "_pages/informazioni/pagamento-flessibile.html",
+      "previousPath": "_pages/informazioni/pagamento-flessibile.html",
+      "beforeSha256": "66c9357c2cfe87f605f371984b9fd50cc50eee7437c0c3307f155bbefc2d21dc",
+      "afterSha256": "ebf0fae9c26fc53955ccaef70c44a9d0ffb7e23bb1daf8ad90dbc181a5a16267"
+    },
+    {
+      "path": "_pages/informazioni/prima-visita-gratuita.html",
+      "previousPath": "_pages/informazioni/prima-visita-gratuita.html",
+      "beforeSha256": "84fbaf116eae812da6ce7b7f274c3121d327469d99c9e18f690b0f412934748b",
+      "afterSha256": "9faa75eeacec56a49c066a0ca906f377464a1e65d6c786036979d713725a7e95"
+    },
+    {
+      "path": "_pages/informazioni/tempi-del-trattamento.html",
+      "previousPath": "_pages/informazioni/tempi-del-trattamento.html",
+      "beforeSha256": "80064aba516af4aa6c15507077d51c72d0741992cf8109c934e8f680554a562d",
+      "afterSha256": "b4c4c2d7d0585a7e8da1691188d90e8247f0096d0fabecd0b875cb507f40b2d7"
+    },
+    {
+      "path": "_pages/informazioni/trasporto.html",
+      "previousPath": "_pages/informazioni/trasporto.html",
+      "beforeSha256": "a611057cef412e35aad410043ce078b4d94bd0fbf80268cd968be4a24ee3d040",
+      "afterSha256": "496232d52aacd3305f3f18e2153b6b4b45b2132787a6c83b48ed501c8ce012d1"
+    },
+    {
+      "path": "_pages/prestazioni-dentali.html",
+      "previousPath": "_pages/prestazioni-dentali.html",
+      "beforeSha256": "55acc4925fbc78893ee136f5a0f340c8aef132529bb81f1da00f9480976e6adb",
+      "afterSha256": "f526aa61538cec8bfce2128f899caf65c53f8ea27dedc5daf936f52cb21f81f0"
+    },
+    {
+      "path": "_pages/prestazioni/corone-faccette-ponti-e-protesi.html",
+      "previousPath": "_pages/prestazioni/corone-faccette-ponti-e-protesi.html",
+      "beforeSha256": "9323e1f6a1b47862e6c59fa3d656a1ad707f4232ce1be001182a384a59da5b59",
+      "afterSha256": "29730c5aa1730f344a7b4c7d098559ecbdc9850d758d749e1bf97b8234e574e2"
+    },
+    {
+      "path": "_pages/prestazioni/premium-ponte-fisso-su-impianti.html",
+      "previousPath": "_pages/prestazioni/premium-ponte-fisso-su-impianti.html",
+      "beforeSha256": "b051d44d23b417e63e3a207be3a7aca0578a38eafb4256c16a7b64c9e5cd4ed9",
+      "afterSha256": "1a47188a630a7b223233b8f7b5699dec1d5b0cce4aaef1690c93894acf91b6c9"
+    },
+    {
+      "path": "_pages/prestazioni/protesi-definitiva-ancorata-su-4-impianti.html",
+      "previousPath": "_pages/prestazioni/protesi-definitiva-ancorata-su-4-impianti.html",
+      "beforeSha256": "9971f9c94d7fcbe751a0e427f4ac6ab79a1e7aeac05553cca198d2bf6fc86cd7",
+      "afterSha256": "aeabfe6bd553ac842e47fe39ff645606fd7217f715c00ce48b318dc99d76c365"
+    },
+    {
+      "path": "_pages/prestazioni/sbiancamento-dei-denti.html",
+      "previousPath": "_pages/prestazioni/sbiancamento-dei-denti.html",
+      "beforeSha256": "34b4e1f44029a064acd66ff9bfe1ee1fa0777ba8d5405b998ae8ef33fdc82ea6",
+      "afterSha256": "a854c5c4751df36612bba82c52d0e40e561912b05a158b38aae08f5402827d8a"
+    },
+    {
+      "path": "_pages/prestazioni/sedazione-cosciente.html",
+      "previousPath": "_pages/prestazioni/sedazione-cosciente.html",
+      "beforeSha256": "23eb21bc6d1a4311d1d377586d03aabe51562ed915e687b3e5b34048877a4132",
+      "afterSha256": "57dfd42529b32e7ccd9eaf0aa5841379754ebb72c3322b74418c54a42d1b97b2"
+    },
+    {
+      "path": "_pages/si/galerija.html",
+      "previousPath": "_pages/si/galerija.html",
+      "beforeSha256": "755fc899e730416db8fd5cc43061269cb1de077fe2af4908dc1fec3977fbde26",
+      "afterSha256": "b9e72714f18580ced5782b6f3b39bebe33a1d38f965a6f691206a5e416b9c199"
+    },
+    {
+      "path": "_pages/su-di-noi/come-raggiungerci.html",
+      "previousPath": "_pages/su-di-noi/come-raggiungerci.html",
+      "beforeSha256": "c7ba2be1df3bcd478f90f959a9d7c2ace7a533993672a49c3a501938b6f89741",
+      "afterSha256": "9f1da4fb06ea6be442f9ce54b92505562276d7b9d2ff4062efa4012bf58f8e1a"
+    },
+    {
+      "path": "_pages/su-di-noi/i-nostri-specialisti.html",
+      "previousPath": "_pages/su-di-noi/i-nostri-specialisti.html",
+      "beforeSha256": "05099c33d505ad6a198ce7eaa2c98aa994901d5a609c1767a6e4ca4f8cf1251c",
+      "afterSha256": "85b7bbe671b9bfa55b730ffc99ef603dd0fae563612c04017ea13ed2f67ccf2a"
+    },
+    {
+      "path": "_pages/su-di-noi/impianti-di-nuova-generazione.html",
+      "previousPath": "_pages/su-di-noi/impianti-di-nuova-generazione.html",
+      "beforeSha256": "46e745e1b59fd7720a38ef7b61c9efb9d30b93eb2ed26edd9932432a3b8bb5c0",
+      "afterSha256": "c2394144ea0be6c99b7c1d9d9be8ea98e3bec956b28182c998f8cbd379586cbe"
+    },
+    {
+      "path": "_pages/su-di-noi/laboratorio-odontotecnico.html",
+      "previousPath": "_pages/su-di-noi/laboratorio-odontotecnico.html",
+      "beforeSha256": "d386b8f50193639f6e820873c45a75b220cc0c34d0e9f7c359f558521bfa5996",
+      "afterSha256": "237f3f82d9375d4e5c4b33405cc4c6a0207a1d6ac1e7f39ee92d10204ab6b559"
+    },
+    {
+      "path": "_pages/su-di-noi/materiali-e-apparecchiature.html",
+      "previousPath": "_pages/su-di-noi/materiali-e-apparecchiature.html",
+      "beforeSha256": "0ea57e061fad9beb5bf23d6ffd1ae48cdaef3a6928d9405cd8beb253cc2ac0ed",
+      "afterSha256": "8072d33e92a4659dd921ced95b7bbfc9cdbad2243fe751e36a385a573345803e"
+    },
+    {
+      "path": "_pages/su-di-noi/tutto-in-un-unico-luogo.html",
+      "previousPath": "_pages/su-di-noi/tutto-in-un-unico-luogo.html",
+      "beforeSha256": "2a8f9ec388cf870bf063e637405bbd77ca5a8ff2154c7ab051c54aa434d83853",
+      "afterSha256": "6010d5df8396480274fcc35bf779c8df2f6f902c9cda3fcbc226d92f7626ce5c"
+    },
+    {
+      "path": "_pages/testimonianze.html",
+      "previousPath": "_pages/testimonianze.html",
+      "beforeSha256": "f748ce9f361f21f8fd33ada71eac1b4a2bbf1a3d5af53527bb3575d2d4f1030d",
+      "afterSha256": "7c2f92270e7e11b22c808a2c5a7ddbc7d2bdfd4d2874eebb4ed67f2d286c525e"
+    },
+    {
+      "path": "_redirects",
+      "previousPath": "_redirects",
+      "beforeSha256": "d800d76cc7c8afccb88b35c88f85c995872bc89d224887ca0c8b0c813004a6e9",
+      "afterSha256": "e79d87c8303a53ee5377116d6103df6dd0df873b325713562dc61978696aa1cd"
+    },
+    {
+      "path": "index.html",
+      "previousPath": "index.html",
+      "beforeSha256": "4cd30b75b3f2f3c13396222661bd31429e18c4e91de6ffa842dbcee8bb710d54",
+      "afterSha256": "27791e8fae844c48cc96c5ca7f377ed18e96be212e47474a96d8388042a9a024"
+    },
+    {
+      "path": "page-routes.json",
+      "previousPath": "page-routes.json",
+      "beforeSha256": "aadf77ad1899c5af62d5753047fac16e89094f357488253ec62d3d603af963d7",
+      "afterSha256": "05648ba31e32cbf677c3c4303400806fc3425e31cb64479ba122563678c1cf0f"
+    },
+    {
+      "path": "sitemap-0.xml",
+      "previousPath": "sitemap-0.xml",
+      "beforeSha256": "715153ec672507d4bf4e9d8f264499300cfe3b6295ada09f0e3cf7117412b0fc",
+      "afterSha256": "f2fedaedcefb2acd92d1a2bd2649ed8967cfebdac75b2a1eedba59e41b882a15"
+    },
+    {
+      "path": "sitemap.xml",
+      "previousPath": "sitemap.xml",
+      "beforeSha256": "715153ec672507d4bf4e9d8f264499300cfe3b6295ada09f0e3cf7117412b0fc",
+      "afterSha256": "f2fedaedcefb2acd92d1a2bd2649ed8967cfebdac75b2a1eedba59e41b882a15"
+    }
+  ],
+  "unchangedPayloadFiles": 653,
+  "verifiedBaseHashes": 691,
+  "sitemapUrls": 136,
+  "hreflangLinks": 676,
+  "sitemapXDefaultLinks": 0,
+  "approval": {
+    "seoMaster": "owner-confirms-approved-2026-10-04",
+    "ownerPublicActivation": "owner-requests-migration-after-verified-package",
+    "reviewRedirects": "eight-approved-plus-Italian-gallery-301"
+  },
+  "serverChanged": false,
+  "backendChanged": false,
+  "realPostPerformed": false,
+  "intendedPrivateStage": "/home2/dentvita/releases/20261004-galleria-v8/",
+  "existingPrivateNextRoot": "/home2/dentvita/public_html-next-20261004-localized-v3/"
+}
