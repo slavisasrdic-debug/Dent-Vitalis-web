@@ -95,9 +95,18 @@ changes.push({
 const temporary = await mkdtemp(join(tmpdir(), 'dentvitalis-brand-update-'));
 const payload = join(temporary, 'package');
 await mkdir(payload);
+await chmod(payload, 0o755);
 for (const { path, bytes } of changes) {
   const target = join(payload, 'public_html', path);
   await mkdir(dirname(target), { recursive: true, mode: 0o755 });
+  // mkdir's requested mode is filtered by umask; set ZIP directory modes explicitly.
+  for (
+    let directory = dirname(target);
+    directory !== payload;
+    directory = dirname(directory)
+  ) {
+    await chmod(directory, 0o755);
+  }
   await writeFile(target, bytes, { flag: 'wx', mode: 0o644 });
   await chmod(target, 0o644);
 }
