@@ -8,6 +8,24 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**NAJNOVIJE — next root je v8 prema agentu; vlasnik odobrava nedostupnost bloga:**
+preneseni izvještaj navodi završen Move, v8 revision/galleria.html, očuvani
+bootstrap/resurse, bez starog dokumenta/nested _pages; 1.034 datoteke 0644,
+24 podmape 0755, korijen 0750. Starih osam stavki je u privatnom
+`displaced-originals/` (0700), izvorni ZIP ostaje. Ovo nije neovisna provjera
+serverskih hashova. Produkcija ostaje stara prema izvještaju.
+
+Agent je stao nakon otkrića da `blog.dentvitalis.com` koristi
+`/home2/dentvita/public_html/blog`, koji next root nema. Vlasnik izričito kaže
+"gasiimo i podomenu - ne treba nam": javna nedostupnost bloga namjerna je,
+blog ne kopirati u novi root, a njegove datoteke/baza/backupovi ne brišu se.
+Ovom nastavku nisu potrebne DNS promjene, cPanel domain deletion ili nove
+sadržajne blog 301. Uputa sada kreće B.7–B.10; privatni Move/upload/backup ne
+ponavljati. Odgovor blog hosta evidentirati poslije aktivacije, ne pretpostaviti
+404/410 ili završen DNS removal. Ostale release gates/rollback ostaju obvezne.
+Odobrenje nije dokaz izvršene objave ili runtime prihvata. Zapis je readiness
+`procedure.galleriaV8.fileManagerContinuation.blogRetirementApproval`.
+
 **NAJNOVIJE — v8 je uploadan prema cPanel agentu; nastavak bez overwritea:**
 vlasnik prenosi 692 datoteke/13 podmapa, 0644/0755, revision v8 i postojeću
 privatnu kodnu kopiju 147 datoteka (0700). Slobodna kvota prijavljena je kao

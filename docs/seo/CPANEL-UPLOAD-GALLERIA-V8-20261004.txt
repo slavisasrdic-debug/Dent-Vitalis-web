@@ -8,6 +8,27 @@ Receipt: data/seo/cpanel-galleria-v8-release-20261004.json.
 Vlasnik je potvrdio zadnji SEO prijedlog i zatražio /galleria te migraciju nakon
 provjere. To nije ovlast za backend, DNS/PHP promjene ili nove stvarne POST-ove.
 
+NAJNOVIJE — PRIVATNI V8 PRIPREMLJEN; GAŠENJE JAVNOG BLOGA ODOBRENO
+Agentov izvještaj prenesen vlasnikom: osam starih stavki sačuvano u
+displaced-originals (0700), osam v8 stavki premješteno u next root, ZIP očuvan.
+Next root ima revision v8, galleria.html, index.php i stare resurse; nema stare
+galerije ni _pages/_pages. Prijavljeno 1.034 datoteke 0644 / 24 podmape 0755,
+korijen 0750. Serverski hashovi nisu neovisno provjereni u Codespacesu.
+
+Vlasnik izričito potvrđuje: "gasiimo i podomenu - ne treba nam". Gubitak javne
+dostupnosti blog.dentvitalis.com nakon zamjene roota NAMJERAN je; blog ne kopirati
+u next root. Njegove datoteke ostaju u starom before direktoriju i backupovima.
+Ne brisati blog podatke/bazu, cPanel domenu ili DNS i ne dodavati preusmjeravanje
+svih blog članaka na naslovnicu. Odobrenje rješava samo blokadu dostupnosti bloga.
+
+Ne ponavljati N1–N5, upload ili backup. Nastaviti izravno B.7–B.10 nakon provjere
+Document Roota i slobodnih prije/failed naziva. Najaviti kratki prekid, obaviti
+preimenovanja, zatim odmah produkcijske GET/browser provjere; kod bitne regresije
+vratiti prethodni javni direktorij. Evidentirati odgovor blog hosta bez tvrdnje
+o određenom 404/410 statusu unaprijed. Njegova namjerna nedostupnost nije razlog
+za rollback glavnog weba. Frontend/SEO/token/consent provjere nisu time zatvorene.
+Ovo je vlasnikovo odobrenje i uputa; objava još nije izvršena ovim Codespacesom.
+
 AKTUALNI NASTAVAK — IMA PREDNOST NAD STARIM A.1–A.5 ISPOD
 Vlasnik je dostavio agentov izvještaj: v8 već raspakiran, 692 datoteke i 13
 podmapa s pregledanim 0644/0755; revision potvrđen. Privatna kodna kopija od
