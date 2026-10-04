@@ -8,6 +8,36 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Najnovije — read-only plan aktivacije i povratka, 4. listopada:** agent
+prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
+prikaz može kasniti, filesystem i inodeovi nisu potvrđeni. Sadašnji
+`public_html` je 167,63 MB, od čega blog 155,19 MB. Predloženi next root s
+kopijom bloga procijenjen je na 231,5 MB uz 171,4 MB rezerve.
+
+**Ispravak plana prema postojećoj odluci vlasnika:** blog ne kopirati u novi
+javni direktorij. Ostaje u staroj verziji i backupu, bez brisanja. Odluka o
+uklanjanju iz novog weba ne stvara automatski blog 301/410 pravila. Time se
+izbjegava dodatna kopija približno 155 MB; to je procjena, ne nova izmjera.
+Sačuvati neizmijenjeni `index.php`, `.well-known`, četiri stare javne asset
+mape, `email/logo001.png`, `upitnik.pdf` i potvrđene verifikacijske datoteke.
+Ne kopirati stare `.htaccess`/sitemap preko novih. `cgi-bin`, `.ftpquota` i
+`.passwd` ne prenositi samo zato što postoje: prvo potvrditi ovisnosti i
+aktivna zaštitna pravila, bez otvaranja vjerodajnica ili izvršavanja skripti.
+Stari dijagnostički PHP, logovi, `robot.txt` i ZIP ne prenose se automatski.
+
+Predložene, ali još neizrađene putanje:
+`/home2/dentvita/public_html-next-20261004-redirects-v2/`,
+`/home2/dentvita/public_html-before-20261004-redirects-v2/` i
+`/home2/dentvita/public_html-failed-20261004-redirects-v2/`.
+Nazivi nisu zauzeti prema agentu. Između dvaju budućih preimenovanja očekuje
+se kratki prekid; ta radnja nije odobrena ni izvedena ovim read-only nalazom.
+Za next root tek treba odobriti izoliranu pripremu, bez prepisivanja stagea
+ili javnog weba. Sadašnji public root je `0750` prema agentu; vlasništvo i
+grupa pri kopiranju još nisu provjereni, ne širiti dozvole naslijepo.
+Povratak zamjenom samo javnog direktorija čuva susjedni `application` i
+novije podatke, ali postojanje plana nije izvedbeni test povratka. Zapis:
+`fileManagerProgress.activationReadOnlyPlan` u readiness JSON-u.
+
 **Najnovije — petojezična backend dostava prihvaćena, 4. listopada:** vlasnik
 je na pitanje o IT/DE/EN/SI CRM zapisima i otvaranju PDF-ova odgovorio
 „Da potvrđujem, sve je ok.” Uz ranije potvrđene e-mailove i prihvaćeni HR

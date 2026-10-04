@@ -45,6 +45,30 @@ test('created token and failed probe are not confused with confirmed authenticat
   );
 });
 
+test('read-only next-root plan respects blog removal without authorizing copying, activation or restore', () => {
+  const plan = report.fileManagerProgress.activationReadOnlyPlan;
+  assert.equal(plan.remainingQuotaMbAsReported, 402.87);
+  assert.equal(plan.storageDisplayMayLag, true);
+  assert.equal(plan.copiedOwnerAndGroupPreservationVerified, false);
+  assert.equal(plan.currentPublicRootModeAsReported, '0750');
+  assert.equal(report.blog.decision, 'remove-from-new-site');
+  assert.equal(plan.blogExcludedFromNewRootPerExistingOwnerDecision, true);
+  assert.equal(plan.blogMustRemainInOldRootAndBackupsWithoutDeletion, true);
+  assert.equal(report.blog.serverDeletionAuthorized, false);
+  assert(plan.doNotAutomaticallyCopy.includes('blog/'));
+  assert(plan.preserveUnchanged.includes('index.php'));
+  assert(plan.preserveUnchanged.includes('css/'));
+  assert.equal(plan.publicNextRootPreparationAuthorized, false);
+  assert.equal(plan.publicNextRootPrepared, false);
+  assert.equal(plan.directoryRenamePerformed, false);
+  assert.equal(plan.publicSiteActivated, false);
+  assert.equal(plan.rollbackExecutionTested, false);
+  assert.equal(
+    plan.applicationAndLiveDataMustNotBeRestoredDuringCodeRollback,
+    true,
+  );
+});
+
 test('reported routing-v2 stage permissions do not imply hashes or public activation', () => {
   const stage = report.fileManagerProgress.routingRevisionStage;
   assert.equal(stage.uploadedAsReported, true);
