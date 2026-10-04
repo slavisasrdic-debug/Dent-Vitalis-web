@@ -8,6 +8,7 @@ docs/seo/handoff-simple-20261004/*.xml -text -whitespace
 docs/seo/handoff-simple-20261004/.htaccess -text
 docs/seo/handoff-simple-20261004/htaccess-novi.txt -text
 docs/seo/handoff-simple-20261004/*.csv -text whitespace=cr-at-eol
+docs/seo/handoff-simple-20261004/*.xlsx filter=lfs diff=lfs merge=lfs -text
 
 # Identical source/public files share one content-addressed LFS object.
 reference/webflow-handoff/2026-09-07/extracted/assets/** filter=lfs diff=lfs merge=lfs -text

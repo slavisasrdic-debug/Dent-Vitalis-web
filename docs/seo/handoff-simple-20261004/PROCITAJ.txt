@@ -3,15 +3,23 @@ DentVitalis — sitemap i kraći .htaccess, 4. listopada 2026.
 Za SEO mastera i webmastera:
 - sitemap-stari.xml: nepromijenjeni XML dohvaćen sa stvarne produkcije.
 - sitemap-novi.xml: 136 konačnih indeksabilnih URL-ova novog localized-v3 weba.
+  Sadrži 812 provjerenih hreflang veza: it/hr/de/en/sl i x-default na IT root.
+  Veze su preuzete iz stvarnog HTML-a i provjerene uzajamno za sve stranice.
+  IT prijevoz ima samo IT i x-default; drugi prijevodi ne postoje.
   Ovo je jedan URL popis, ne sitemap index; može se objaviti kao sitemap.xml.
   Zahvalne stranice ostaju dostupne s noindex, ali nisu u novom sitemapu.
 - htaccess-novi.txt i .htaccess: identični sadržaj; TXT je za pregled/email.
 - usporedba-stari-novi.csv: svi zapisi starog sitemapa i njihov status;
   Excel otvara UTF-8 CSV sa separatorom točka-zarez.
 - report.json: datumi, izvori, hashovi i granice provjere.
+- ZIP za slanje ima točno 4 dokumenta: oba XML-a, .htaccess i Excel usporedbu.
+  Excel ima kratak sažetak, svih 197 starih URL-ova, svih 136 novih URL-ova
+  te pregled svih 80 redirekcijskih pojava (uključujući stare duplikate).
+  Stari ZIP DentVitalis-SEO-4-dokumenta-20261004.zip povučen je iz upotrebe.
 
 Kraći .htaccess zadržava stare 301 redirekcije s već odobrenim korekcijama,
-svih osam odobrenih novih 301, HTTPS/www, zaštitni slash 308, PHP handler,
+svih osam odobrenih novih 301 i osam dodatnih jasno ekvivalentnih za SEO pregled,
+HTTPS/www, zaštitni slash 308, PHP handler,
 backend rute, zabranu cachea tokena/forme, legacy PHP fallback i stare cache
 postavke. Samo su velika nabrajanja novih HTML putanja zamijenjena dvama
 pravilima koja provjeravaju postojanje datoteke u _pages prije posluživanja.
@@ -19,7 +27,10 @@ Stara HTTPS/www pravila u naslijeđenom dijelu ostaju sačuvana; novi blok na
 vrhu prvi normalizira produkcijski host. Nema novih 301 iz neobjavljenih nacrta.
 
 Usporedba sitemapa NIJE automatsko odobrenje redirekcija. Stare stranice bez
-statičkog ekvivalenta/odobrene redirekcije posebno su označene. PHP fallback
+statičkog ekvivalenta/odobrene redirekcije imaju konkretnu napomenu i, kada
+postoji, odvojeni prijedlog cilja. To nije aktivna 301. Među preostalih 127,
+106 je u inventaru od 9.9.2026. vraćalo 200, a 21 već 404; današnji HTTP status
+nije ponovno testiran. Originalni XML zadržava sve stare zapise. PHP fallback
 može ih i dalje posluživati; to nije provjereno ovim XML pregledom. Ne slati
 sve stare medicinske stranice na naslovnicu ili nepovezanu novu uslugu.
 
@@ -29,3 +40,7 @@ Ne zamjenjivati .htaccess samostalno i ne aktivirati stari v3 kao da već sadrž
 ovu reviziju. Zamjenu i ažuriranje manifesta treba zasebno pripremiti/odobriti
 prije aktivacije. Produkcijsko posluživanje, PHP i consent runtime ostaju za
 provjeru na stvarnom hostingu. Nisu poslani stvarni upiti niti mijenjan server.
+
+XML format: https://developers.google.com/search/docs/specialty/international/localized-versions#sitemap
+Automatski build sada prenosi iste stvarne HTML hreflang parove u sitemap-0.xml.
+Postojeći v3 dist, ZIP, serverski stage i next root nisu prepisani tim popravkom.

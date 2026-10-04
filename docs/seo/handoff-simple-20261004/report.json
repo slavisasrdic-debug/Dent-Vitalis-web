@@ -15,16 +15,27 @@
   },
   "newSitemap": {
     "urls": 136,
-    "bytes": 9955,
-    "sha256": "6a6d6794e1da05bbcf5f9f4c6c5e8e86204b5dda90151da7d42af234d1568804",
-    "source": "unchanged localized-v3 dist/sitemap-0.xml URL set; flat urlset instead of sitemap index"
+    "bytes": 93343,
+    "sha256": "9635351a509ba4053f148307bb93f6a02bea2ad3de66fa0c39acf06c4e16fc8f",
+    "source": "unchanged localized-v3 URL set; hreflang copied and reciprocally validated from every rendered HTML head",
+    "hreflangLanguages": [
+      "it",
+      "hr",
+      "de",
+      "en",
+      "sl"
+    ],
+    "xDefault": "https://www.dentvitalis.com/",
+    "hreflangLinks": 812,
+    "hreflangValidatedAgainstHtml": true
   },
   "htaccess": {
-    "bytes": 7334,
-    "sha256": "08b1c8711436f08162cc2409307618381cf4420016a68f75577a5304f9727cfc",
-    "lines": 163,
+    "bytes": 8008,
+    "sha256": "0e84f3c9f36c5352e4a4b94f01684815389032065a43f082e353da28be248844",
+    "lines": 172,
     "legacy301Lines": 64,
     "approvedNew301Rules": 8,
+    "additionalEquivalent301ForReview": 8,
     "explicitStaticPageRewrites": 0,
     "genericStaticRules": 2,
     "preservesOtherLegacyDirectiveBytes": true,
@@ -34,7 +45,8 @@
   "comparisonCounts": {
     "same-url": 46,
     "existing-or-approved-301": 8,
-    "content-decision-required-no-new-redirect-invented": 135,
+    "equivalent-301-in-review-candidate": 8,
+    "content-decision-required-no-new-redirect-invented": 127,
     "preserved-PHP-runtime-check-required": 3,
     "preserved-static-noindex-not-in-new-sitemap": 5
   },
@@ -43,43 +55,113 @@
       "old": "https://www.dentvitalis.com/",
       "target": "https://www.dentvitalis.com/",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "I migliori dentisti Croazia per denti perfetti - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.317Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si",
       "target": "https://www.dentvitalis.com/si",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Zobozdravnik Hrvaška - Najboljši Hrvaški zobozdravniki",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:29.127Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en",
       "target": "https://www.dentvitalis.com/en",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Your Dentist Abroad - Dental Treatment Abroad",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:29.126Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de",
       "target": "https://www.dentvitalis.com/de",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Zahnärzte Kroatien - Dentvitalis Kroatien, Rijeka",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.828Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr",
       "target": "https://www.dentvitalis.com/hr",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Stomatološka Klinika Dentvitalis - Stomatolog Rijeka",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.827Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/chi-siamo",
       "target": "https://www.dentvitalis.com/chi-siamo",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Chi siamo - Clinica DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.650Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/chi-siamo"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/o-nas",
       "target": "https://www.dentvitalis.com/si/o-nas",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "O nas - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.736Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/o-nas"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/about-us",
@@ -91,67 +173,189 @@
           "to": "/en/about",
           "status": 301
         }
-      ]
+      ],
+      "language": "en",
+      "oldTitle": "About us - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.737Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/about"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/uber-uns",
       "target": "https://www.dentvitalis.com/de/uber-uns",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Über uns - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.822Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/uber-uns"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/o-nama",
       "target": "https://www.dentvitalis.com/hr/o-nama",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "O nama - DentVitalis Ordinacije Dentalne Medicine",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.822Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/o-nama"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/prima-visita",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/informazioni/prima-visita-gratuita",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/prima-visita",
+          "to": "/informazioni/prima-visita-gratuita",
+          "status": 301
+        }
+      ],
+      "language": "it",
+      "oldTitle": "La prima visita è gratuita - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.901Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/informazioni/prima-visita-gratuita"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/prvi-pregled",
       "target": "https://www.dentvitalis.com/si/prvi-pregled",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Prvi pregled - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.902Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/prvi-pregled"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/first-visit",
       "target": "https://www.dentvitalis.com/en/first-visit",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "First Visit - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.974Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/first-visit"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/die-erste-kontrolle",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/de/kostenlose-erstuntersuchung",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/de/die-erste-kontrolle",
+          "to": "/de/kostenlose-erstuntersuchung",
+          "status": 301
+        }
+      ],
+      "language": "de",
+      "oldTitle": "Die erste Kontrolle - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:21.974Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kostenlose-erstuntersuchung"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/prvi-pregled",
       "target": "https://www.dentvitalis.com/hr/prvi-pregled",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Besplatan Prvi pregled - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.044Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/prvi-pregled"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/testimonianze",
       "target": "https://www.dentvitalis.com/testimonianze",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Testimonianze - Opinioni - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.044Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/testimonianze"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/testimonials-nado-bukovic",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Pričevanja - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.126Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/izkusnje-pacientov"
+      ],
+      "reason": "Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/testimonials",
       "target": "https://www.dentvitalis.com/en/testimonials",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Testimonials - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.126Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/testimonials"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/testimonials",
@@ -163,37 +367,103 @@
           "to": "/de/erfahrungen-unserer-patienten",
           "status": 301
         }
-      ]
+      ],
+      "language": "de",
+      "oldTitle": "Zeugnisse - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.207Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/erfahrungen-unserer-patienten"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/testimonials",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/hr/iskustva-pacijenata",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/hr/testimonials",
+          "to": "/hr/iskustva-pacijenata",
+          "status": 301
+        }
+      ],
+      "language": "hr",
+      "oldTitle": "Iskustva pacijenata - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.207Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/iskustva-pacijenata"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/testimonianze-edita-karadole-attrice",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.281Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/testimonianze"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/testimonials-edita-karadole-igralka",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.282Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/izkusnje-pacientov"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/testimonials-edita-karadole-actress",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.331Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/testimonials"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/testimonials-edita-karadole-schauspielerin",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.332Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/erfahrungen-unserer-patienten"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/testimonials-edita-karadole-glumica",
@@ -205,31 +475,81 @@
           "to": "/hr/iskustva-pacijenata",
           "status": 301
         }
-      ]
+      ],
+      "language": "hr",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.373Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/iskustva-pacijenata"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/testimonianze-zoran-roje-direttore-sportivo",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.373Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/testimonianze"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/testimonilas-zoran-roje-sportski-direktor",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.416Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/izkusnje-pacientov"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/testimonials-zoran-roje-sports-director",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.417Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/testimonials"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/testimonials-zoran-roje-sportdirektor",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.459Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/erfahrungen-unserer-patienten"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/testimonials-zoran-roje-sportski-direktor",
@@ -241,13 +561,33 @@
           "to": "/hr/iskustva-pacijenata",
           "status": 301
         }
-      ]
+      ],
+      "language": "hr",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.459Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/iskustva-pacijenata"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/testimonianze-lorenzo-fabbro",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.502Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/testimonianze"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/testimonials",
@@ -259,187 +599,517 @@
           "to": "/si/izkusnje-pacientov",
           "status": 301
         }
-      ]
+      ],
+      "language": "sl",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.502Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Nema novog istovjetnog članka; očuvati stari sadržaj do odluke o zamjeni ili uklanjanju.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/testimonianze-nilo-falchi",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.543Z",
+      "group": "individual-testimonial",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/testimonianze"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Pojedinačna priča pacijenta nije automatski jednaka zbirnoj stranici. Potvrditi da je isto svjedočanstvo očuvano prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/testimonianze",
       "target": "https://www.dentvitalis.com/testimonianze",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Testimonianze - Opinioni - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.044Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/testimonianze"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/garanzie",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/informazioni/garanzie",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/garanzie",
+          "to": "/informazioni/garanzie",
+          "status": 301
+        }
+      ],
+      "language": "it",
+      "oldTitle": "Noi garantiamo i nostri lavori 100% - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.544Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/informazioni/garanzie"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/garancije",
       "target": "https://www.dentvitalis.com/si/garancije",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Garancije - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.598Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/garancije"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/guarantees",
       "target": "https://www.dentvitalis.com/en/guarantees",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Guarantees - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.599Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/guarantees"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/garantien",
       "target": "https://www.dentvitalis.com/de/garantien",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Garantien - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.679Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/garantien"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/jamstva",
       "target": "https://www.dentvitalis.com/hr/jamstva",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Dentvitalis Jamči za Sve Stomatološke Usluge",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.680Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/jamstva"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/pagamento",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/informazioni/pagamento-flessibile",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/pagamento",
+          "to": "/informazioni/pagamento-flessibile",
+          "status": 301
+        }
+      ],
+      "language": "it",
+      "oldTitle": "Metodo di pagamento - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.750Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/informazioni/pagamento-flessibile"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/nacin-placanja",
       "target": "https://www.dentvitalis.com/si/nacin-placanja",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Nacin plaćanja - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.751Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/nacin-placanja"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/manner-of-payment",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/en/payment",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/en/manner-of-payment",
+          "to": "/en/payment",
+          "status": 301
+        }
+      ],
+      "language": "en",
+      "oldTitle": "Manner of payment - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.827Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/payment"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/zahlungsart",
       "target": "https://www.dentvitalis.com/de/zahlungsart",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Zahlungsart - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.828Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/zahlungsart"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/placanje",
       "target": "https://www.dentvitalis.com/hr/placanje",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Plaćanje Prilagođeno Vašim Mogućnostima - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.897Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/placanje"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/faq",
       "target": "https://www.dentvitalis.com/faq",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Domande più frequenti e risposte - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.897Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/faq"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/faq",
       "target": "https://www.dentvitalis.com/si/faq",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Najpogostejša vprašanja in odgovori - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.966Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/faq"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/faq",
       "target": "https://www.dentvitalis.com/en/faq",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "FAQ - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:22.967Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/faq"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/faq",
       "target": "https://www.dentvitalis.com/de/faq",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Häufige Fragen und Antworten - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.039Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/faq"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/faq",
       "target": "https://www.dentvitalis.com/hr/faq",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Najčešća pitanja i odgovori - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.040Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/faq"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/contatti",
       "target": "https://www.dentvitalis.com/contatti",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Contatti da Studio Dentistico DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.137Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/contatti"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/stik-z-nami",
       "target": "https://www.dentvitalis.com/si/stik-z-nami",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Stik z nami - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.137Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/stik-z-nami"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/contact",
       "target": "https://www.dentvitalis.com/en/contact",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.234Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/contact"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/kontakt",
       "target": "https://www.dentvitalis.com/de/kontakt",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Kontakt - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.235Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kontakt"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/kontakt",
       "target": "https://www.dentvitalis.com/hr/kontakt",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Kontakti - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.305Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/kontakt"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/croazia-e-fiume",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Croazie e Fiume(Rijeka) - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.305Z",
+      "group": "destination-guide",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/faq"
+      ],
+      "reason": "Turistički članak o Hrvatskoj/Rijeci nije jednak novom FAQ-u; ne preusmjeravati bez sadržajne odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/hrvaska-in-reka",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Hrvaška in Reka - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.381Z",
+      "group": "destination-guide",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/faq"
+      ],
+      "reason": "Turistički članak o Hrvatskoj/Rijeci nije jednak novom FAQ-u; ne preusmjeravati bez sadržajne odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/croatia-and-rijeka",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Croatia and Rijeka - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.381Z",
+      "group": "destination-guide",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/faq"
+      ],
+      "reason": "Turistički članak o Hrvatskoj/Rijeci nije jednak novom FAQ-u; ne preusmjeravati bez sadržajne odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/kroatien-and-rijeka",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Kroatien und Rijeka - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.451Z",
+      "group": "destination-guide",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/faq"
+      ],
+      "reason": "Turistički članak o Hrvatskoj/Rijeci nije jednak novom FAQ-u; ne preusmjeravati bez sadržajne odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/tecnologia",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "CEREC CAD/CAM Tecnologia - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.451Z",
+      "group": "technology",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/su-di-noi/materiali-e-apparecchiature",
+        "https://www.dentvitalis.com/su-di-noi/laboratorio-odontotecnico"
+      ],
+      "reason": "Stari sadržaj podijeljen je između materijala i laboratorija; treba odabrati primarnu zamjenu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/tehnologija",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Tehnologija - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.532Z",
+      "group": "technology",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/materiali-in-oprema",
+        "https://www.dentvitalis.com/si/zobotehnicni-laboratorij"
+      ],
+      "reason": "Stari sadržaj podijeljen je između materijala i laboratorija; treba odabrati primarnu zamjenu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/technology",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Technology - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.532Z",
+      "group": "technology",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/materials",
+        "https://www.dentvitalis.com/en/laboratory"
+      ],
+      "reason": "Stari sadržaj podijeljen je između materijala i laboratorija; treba odabrati primarnu zamjenu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/technologie",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Technologie - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.603Z",
+      "group": "technology",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/materialien-und-ausstattung",
+        "https://www.dentvitalis.com/de/dentallabor"
+      ],
+      "reason": "Stari sadržaj podijeljen je između materijala i laboratorija; treba odabrati primarnu zamjenu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/technologija",
@@ -451,355 +1121,898 @@
           "to": "/hr/materijali-i-oprema",
           "status": 301
         }
-      ]
+      ],
+      "language": "hr",
+      "oldTitle": "CEREC CAD/CAM Technologija - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.604Z",
+      "group": "technology",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/materijali-i-oprema",
+        "https://www.dentvitalis.com/hr/dentalni-laboratorij"
+      ],
+      "reason": "Stari sadržaj podijeljen je između materijala i laboratorija; treba odabrati primarnu zamjenu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/all-on-four",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Implantologia all on 4 Croazia - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.674Z",
+      "group": "all-on-four",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/premium-ponte-fisso-su-impianti"
+      ],
+      "reason": "Stari All-on-4 je fiksni most. Nova proteza na 4 implantata nije njegova zamjena; kandidat za fiksni most traži stručnu potvrdu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/all-on-four",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "All On Four Implantologia- DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.674Z",
+      "group": "all-on-four",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/fiksni-mosticek-na-zobnih-vsadkih"
+      ],
+      "reason": "Stari All-on-4 je fiksni most. Nova proteza na 4 implantata nije njegova zamjena; kandidat za fiksni most traži stručnu potvrdu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/all-on-four",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "All On Four implant dentistry - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.744Z",
+      "group": "all-on-four",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/fixed-implant-bridge"
+      ],
+      "reason": "Stari All-on-4 je fiksni most. Nova proteza na 4 implantata nije njegova zamjena; kandidat za fiksni most traži stručnu potvrdu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/all-on-four",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "All On Four Implantologie - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.745Z",
+      "group": "all-on-four",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/festsitzende-implantatgetragene-bruecke"
+      ],
+      "reason": "Stari All-on-4 je fiksni most. Nova proteza na 4 implantata nije njegova zamjena; kandidat za fiksni most traži stručnu potvrdu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/all-on-four",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "All on 4 Implantologija - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.821Z",
+      "group": "all-on-four",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/fiksni-most-na-implantatima"
+      ],
+      "reason": "Stari All-on-4 je fiksni most. Nova proteza na 4 implantata nije njegova zamjena; kandidat za fiksni most traži stručnu potvrdu.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/bruxismo",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Bruxismo - digrignamento dei denti - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.821Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/bruksizem",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Bruksizem - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.891Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/bruxismus",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Bruxismus - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.891Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/bruxism",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Bruxism - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.963Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/bruksizam",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Bruksizam, Škrgutanje Zubima - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:23.963Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/disinfezione",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Disinfezione e sterilizzazione - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.044Z",
+      "group": "sterilization",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/su-di-noi/tutto-in-un-unico-luogo"
+      ],
+      "reason": "Novi kratki opis sterilizacije ne zamjenjuje detaljni stari članak; očuvati ga do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/razkuzitev",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Razkužitev - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.045Z",
+      "group": "sterilization",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/vse-na-enem-mestu"
+      ],
+      "reason": "Novi kratki opis sterilizacije ne zamjenjuje detaljni stari članak; očuvati ga do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/disinfection",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Disinfection - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.120Z",
+      "group": "sterilization",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/all-in-one"
+      ],
+      "reason": "Novi kratki opis sterilizacije ne zamjenjuje detaljni stari članak; očuvati ga do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/desinfektion",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Desinfektion - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.120Z",
+      "group": "sterilization",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/alles-unter-einem-dach"
+      ],
+      "reason": "Novi kratki opis sterilizacije ne zamjenjuje detaljni stari članak; očuvati ga do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/desinfekcija",
       "target": "https://www.dentvitalis.com/hr/desinfekcija",
       "status": "preserved-PHP-runtime-check-required",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "dezinfekcija-i-sterilizacija - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.192Z",
+      "group": "sterilization",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/sve-na-jednom-mjestu"
+      ],
+      "reason": "Novi kratki opis sterilizacije ne zamjenjuje detaljni stari članak; očuvati ga do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/errore",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.192Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/napaka",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.253Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/mistake",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.253Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/fehler",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.295Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/greska",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.296Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/404",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.339Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/404",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.340Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/404",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.387Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/404",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.387Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Stara stranica greške ne pripada sitemapu; ne preusmjeravati je na naslovnicu. Provjeriti stvarni HTTP 404.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/grazie",
       "target": "https://www.dentvitalis.com/grazie",
       "status": "preserved-static-noindex-not-in-new-sitemap",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Grazie",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.425Z",
+      "group": "thank-you",
+      "proposalTargets": [],
+      "reason": "Potvrda zaprimljenog upita ovisi o stvarno uspješnom slanju. Ne mapirati na kontakt niti prikazivati lažan uspjeh. Dogovoriti novi tijek obrasca i noindex za potvrdu, zatim status stare adrese.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/hvala",
       "target": "https://www.dentvitalis.com/si/hvala",
       "status": "preserved-static-noindex-not-in-new-sitemap",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Hvala - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.425Z",
+      "group": "thank-you",
+      "proposalTargets": [],
+      "reason": "Potvrda zaprimljenog upita ovisi o stvarno uspješnom slanju. Ne mapirati na kontakt niti prikazivati lažan uspjeh. Dogovoriti novi tijek obrasca i noindex za potvrdu, zatim status stare adrese.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/thanks",
       "target": "https://www.dentvitalis.com/en/thanks",
       "status": "preserved-static-noindex-not-in-new-sitemap",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Thank You - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.484Z",
+      "group": "thank-you",
+      "proposalTargets": [],
+      "reason": "Potvrda zaprimljenog upita ovisi o stvarno uspješnom slanju. Ne mapirati na kontakt niti prikazivati lažan uspjeh. Dogovoriti novi tijek obrasca i noindex za potvrdu, zatim status stare adrese.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/dank",
       "target": "https://www.dentvitalis.com/de/dank",
       "status": "preserved-static-noindex-not-in-new-sitemap",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Danke - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.484Z",
+      "group": "thank-you",
+      "proposalTargets": [],
+      "reason": "Potvrda zaprimljenog upita ovisi o stvarno uspješnom slanju. Ne mapirati na kontakt niti prikazivati lažan uspjeh. Dogovoriti novi tijek obrasca i noindex za potvrdu, zatim status stare adrese.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/hvala",
       "target": "https://www.dentvitalis.com/hr/hvala",
       "status": "preserved-static-noindex-not-in-new-sitemap",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Hvala",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.563Z",
+      "group": "thank-you",
+      "proposalTargets": [],
+      "reason": "Potvrda zaprimljenog upita ovisi o stvarno uspješnom slanju. Ne mapirati na kontakt niti prikazivati lažan uspjeh. Dogovoriti novi tijek obrasca i noindex za potvrdu, zatim status stare adrese.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/implantologia",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Implantologia Croazia - Impianti Dentali",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.563Z",
+      "group": "implantology-education",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/su-di-noi/impianti-di-nuova-generazione"
+      ],
+      "reason": "Stari opći edukativni članak nije isti kao novi članak o odabranim implantatima; bez automatske 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/implantologija",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Implantologija - Zobni Vsadki - Hrvaška - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.641Z",
+      "group": "implantology-education",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/zobni-vsadki-najnovejse-generacije"
+      ],
+      "reason": "Stari opći edukativni članak nije isti kao novi članak o odabranim implantatima; bez automatske 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/implantation",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Implantation - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.641Z",
+      "group": "implantology-education",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/new-implants"
+      ],
+      "reason": "Stari opći edukativni članak nije isti kao novi članak o odabranim implantatima; bez automatske 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/implantologie",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Implantologie - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.719Z",
+      "group": "implantology-education",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/implantate-der-neuesten-generation"
+      ],
+      "reason": "Stari opći edukativni članak nije isti kao novi članak o odabranim implantatima; bez automatske 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/implantologija",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Implantologija i Zubni Implantati - Ugradnja Implantata",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.720Z",
+      "group": "implantology-education",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/implantati-nove-generacije"
+      ],
+      "reason": "Stari opći edukativni članak nije isti kao novi članak o odabranim implantatima; bez automatske 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/inlay-in-ceramica",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Inlay in ceramica - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.792Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/keramicni-inlay",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Keramicni inlay - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.792Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/ceramic-inlays",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Ceramic-inlays - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.862Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/keramik-inlay",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Keramik-inlay - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.862Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/keramicki-inlay",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Keramički Inlay, Onlay i Overlay Nadomjesci - Dentvitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.937Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/lavoro-combinato",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Lavoro combinato - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:24.937Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/kombinirano-delo",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Kombinirano delo - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.015Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/combination-work",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Combination work: Fixed-removable prosthetic solution - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.016Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/kombinierte-arbeit",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Kombinierte arbeit - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.087Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/kombinirani-rad",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Kombinirani rad - Protetsko Rješenje - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.087Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/soluzione-protesica-fissa",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Ponte in ceramica su impianti - Soluzione protesica fissa",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.158Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/keramicni-mosticek-na-implantatih",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Keramicni mosticek na implantatih - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.159Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/a-ceramic-bridge-on-implants",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "A ceramic bridge on implants - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.243Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/keramikbrucke-auf-implantaten",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Keramikbrucke auf naturlichen zahnen - DentVtalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.243Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/keramicki-most-na-implantatima",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Keramicki most na implantatima - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.323Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/ponte-in-ceramica-su-impianti",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Ponte in ceramica su impianti - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.323Z",
+      "group": "full-arch-bridge",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/premium-ponte-fisso-su-impianti"
+      ],
+      "reason": "Stari keramički most za cijelu čeljust i novi OnX paket razlikuju se u materijalu/opsegu; stručna potvrda prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/keramicni-mosticek-na-implantatih-all",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Keramični mostiček na implantatih - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.397Z",
+      "group": "full-arch-bridge",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/fiksni-mosticek-na-zobnih-vsadkih"
+      ],
+      "reason": "Stari keramički most za cijelu čeljust i novi OnX paket razlikuju se u materijalu/opsegu; stručna potvrda prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/ceramic-bridge-on-implants",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Ceramic bridge on implants - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.397Z",
+      "group": "full-arch-bridge",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/fixed-implant-bridge"
+      ],
+      "reason": "Stari keramički most za cijelu čeljust i novi OnX paket razlikuju se u materijalu/opsegu; stručna potvrda prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/keramikbrucke-auf-implantaten-all",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Keramikbrucke auf implantaten - Kompletter Zahnmangel - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.467Z",
+      "group": "full-arch-bridge",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/festsitzende-implantatgetragene-bruecke"
+      ],
+      "reason": "Stari keramički most za cijelu čeljust i novi OnX paket razlikuju se u materijalu/opsegu; stručna potvrda prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/keramicki-most-na-svim-implantatima",
       "target": "https://www.dentvitalis.com/hr/keramicki-most-na-svim-implantatima",
       "status": "preserved-PHP-runtime-check-required",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Keramicki most na svim implantatima - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.467Z",
+      "group": "full-arch-bridge",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/fiksni-most-na-implantatima"
+      ],
+      "reason": "Stari keramički most za cijelu čeljust i novi OnX paket razlikuju se u materijalu/opsegu; stručna potvrda prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/ponte-in-ceramica-su-denti-naturali",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Ponte in ceramica su denti naturali - DentVtalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.543Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/keramicni-mosticek-na-naravnih-zobeh",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Keramicni mosticek na naravnih zobeh - DentVtalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.543Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/a-ceramic-bridge-on-original-teeth",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "A ceramic bridge on original teeth - DentVtalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.641Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/keramikbrucke-auf-naturlichen-zahnen",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Keramikbrucke auf naturlichen zahnen - DentVtalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.641Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/keramicki-most-na-prirodnim-zubima",
@@ -811,397 +2024,1047 @@
           "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
           "status": 301
         }
-      ]
+      ],
+      "language": "hr",
+      "oldTitle": "Keramički most na prirodnim zubima - DentVtalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.718Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/corona-su-impianto",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Corona su impianto",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.718Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/kronica-na-implantatu",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Kronica na implantatu - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.791Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/a-crown-on-an-implant",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "A crown on an implant - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.792Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/krone-auf-implantat",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Krone auf implantat - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.864Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/krunica-na-implantatu",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Krunica na implantatu - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.864Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/corona-su-dente-naturale",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Corona su dente naturale - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.939Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/kronica-na-naravnem-zobu",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Kronica na naravnem zobu - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:25.940Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/a-crown-on-the-original-tooth",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "A crown on the original tooth - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.019Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/krone-auf-naturlichem-zahn",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Krone auf naturlichem zahn - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.019Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/krunica-na-prirodnom-zubu",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Krunica na prirodnom zubu - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.098Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/faccette",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Faccette Dentali in Cearmica - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.099Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/luskice",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Luskice - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.166Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/veneers",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Veneers - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.167Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/veneers",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Veneers - ästhetische zahnkorrekturen - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.245Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/ljuskice",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Ljuskice za Zube - Navlake za Zube",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.246Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/corone",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Corona Dentale - Corone in Ceramica in Zirconio o in Metallo",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.326Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/kronice",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Kronice- DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.326Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/crowns",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Crowns- DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.400Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/kronen",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Kronen- DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.400Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/krunice",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Krunice za Zube - Cirkon i Metal Keramičke Krunice",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.473Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/sbiancamento-dentale",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Sbiancamento dentale - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.474Z",
+      "group": "whitening-method",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/sbiancamento-dei-denti"
+      ],
+      "reason": "Staro ordinacijsko izbjeljivanje i novo kućno izbjeljivanje udlagama nisu ista metoda; prije 301 potrebna stručna odluka.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/beljenje-zob",
       "target": "https://www.dentvitalis.com/si/beljenje-zob",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Beljenje zob- DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.549Z",
+      "group": "whitening-method",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/beljenje-zob"
+      ],
+      "reason": "Staro ordinacijsko izbjeljivanje i novo kućno izbjeljivanje udlagama nisu ista metoda; prije 301 potrebna stručna odluka.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/dental-bleaching",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Dental bleaching - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.549Z",
+      "group": "whitening-method",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/whitening"
+      ],
+      "reason": "Staro ordinacijsko izbjeljivanje i novo kućno izbjeljivanje udlagama nisu ista metoda; prije 301 potrebna stručna odluka.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/zahnaufhellung",
       "target": "https://www.dentvitalis.com/de/zahnaufhellung",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Zahnaufhellung - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.651Z",
+      "group": "whitening-method",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/zahnaufhellung"
+      ],
+      "reason": "Staro ordinacijsko izbjeljivanje i novo kućno izbjeljivanje udlagama nisu ista metoda; prije 301 potrebna stručna odluka.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/izbjeljivanje-zuba",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.651Z",
+      "group": "whitening-method",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/izbjeljivanje-zubi"
+      ],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Staro ordinacijsko izbjeljivanje i novo kućno izbjeljivanje udlagama nisu ista metoda; prije 301 potrebna stručna odluka.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/allungamento-clinico-della-corona-del-dente-naturale",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Allungamento clinico della corona del dente naturale",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.724Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/klinicno-podaljsanje-krone-naravnega-zoba",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Klinično podaljšanje krone naravnega zoba - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.725Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/clinical-extension-of-the-original-tooths-crown",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Clinical extension of the original tooth's crown - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.801Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/klinische-erweiterung-der-naturlichen-zahnkrone",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Klinische erweiterung der naturlichen zahnkrone - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.802Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/klinicko-produzenje-krune-prirodnog-zuba",
       "target": "https://www.dentvitalis.com/hr/klinicko-produzenje-krune-prirodnog-zuba",
       "status": "preserved-PHP-runtime-check-required",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Kliničko produženje krune prirodnog zuba - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.884Z",
+      "group": "no-dedicated-equivalent",
+      "proposalTargets": [],
+      "reason": "Nema novog detaljnog članka za ovu uslugu; očuvati stari sadržaj. Nije dodana 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/ponte-di-tre-pezzi",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Ponte di tre pezzi (corone) - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.885Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/triclenski-mosticek-kronice",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Triclenski mostiček (kronice) - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.960Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/three-component-bridge",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Three-component (crowns) bridge - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:26.960Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/dreigliedrige-brucke",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Dreigliedrige brucke (Kronen) - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.043Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/most-od-tri-clana",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Most od tri člana (Krunice) - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.043Z",
+      "group": "crowns-and-bridges",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nova skupna stranica ima srodne odjeljke; prije spajanja potvrditi očuvanje detalja stare pojedinačne usluge.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/protesi-parziale-con-base-in-metallo",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Protesi parziale con base in metallo - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.147Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/delna-proteza-s-kovinsko-osnovo",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Delna proteza s kovinsko osnovo - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.147Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/partial-prosthetic-device-with-a-metal-base",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Partial prosthetic device with a metal base - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.239Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/partielle-prothese-mit-metallbasis",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Partielle prothese mit metallbasis - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.239Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/parcijalna-proteza-s-metalnom-bazom",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Parcijalna proteza s metalnom bazom - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.317Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/informativa-sulla-privacy",
       "target": "https://www.dentvitalis.com/informativa-sulla-privacy",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Informativa sulla privacy - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.318Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/informativa-sulla-privacy"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/politika-zasebnosti",
       "target": "https://www.dentvitalis.com/si/politika-zasebnosti",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Politika zasebnosti - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.410Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/politika-zasebnosti"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/privacy-policy",
       "target": "https://www.dentvitalis.com/en/privacy-policy",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Privacy Policy - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.411Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/privacy-policy"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/datenschutzerklarung",
       "target": "https://www.dentvitalis.com/de/datenschutzerklarung",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Datenschutzerklärung - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.521Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/datenschutzerklarung"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/polica-privatnosti",
       "target": "https://www.dentvitalis.com/hr/polica-privatnosti",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Polica Privatnosti - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.521Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/polica-privatnosti"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/registrazione",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Prenotazione per una visita gratuita - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.642Z",
+      "group": "booking-form",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/contatti"
+      ],
+      "reason": "Kontakt je predložena zamjena stare prijave; puni novi frontend tijek s privitkom/privolom još treba potvrditi.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/registracija",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Registracija - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.643Z",
+      "group": "booking-form",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/stik-z-nami"
+      ],
+      "reason": "Kontakt je predložena zamjena stare prijave; puni novi frontend tijek s privitkom/privolom još treba potvrditi.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/registration",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Registration - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.716Z",
+      "group": "booking-form",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/contact"
+      ],
+      "reason": "Kontakt je predložena zamjena stare prijave; puni novi frontend tijek s privitkom/privolom još treba potvrditi.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/registrierung",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Reservierungen für die kostenlose Führung - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.717Z",
+      "group": "booking-form",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kontakt"
+      ],
+      "reason": "Kontakt je predložena zamjena stare prijave; puni novi frontend tijek s privitkom/privolom još treba potvrditi.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/registration",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Prijava na besplatni Prvi pregled - Dentvitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.795Z",
+      "group": "booking-form",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/kontakt"
+      ],
+      "reason": "Kontakt je predložena zamjena stare prijave; puni novi frontend tijek s privitkom/privolom još treba potvrditi.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/protesi-su-impianti",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Protesi su impianti - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.795Z",
+      "group": "implant-denture",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/protesi-definitiva-ancorata-su-4-impianti"
+      ],
+      "reason": "Stara prečka na 2/4 implantata i novi locatori na 4 implantata nisu ista konstrukcija; odluka liječnika prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/proteza-na-implantatih",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Proteza na implantatih - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.864Z",
+      "group": "implant-denture",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/proteza-na-4-zobnih-vsadkih"
+      ],
+      "reason": "Stara prečka na 2/4 implantata i novi locatori na 4 implantata nisu ista konstrukcija; odluka liječnika prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/denture-on-implants",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Denture on implants - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.864Z",
+      "group": "implant-denture",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/four-implant-denture"
+      ],
+      "reason": "Stara prečka na 2/4 implantata i novi locatori na 4 implantata nisu ista konstrukcija; odluka liječnika prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/prothese-auf-implantaten",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Prothese auf implantaten - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.942Z",
+      "group": "implant-denture",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/prothese-auf-4-implantaten"
+      ],
+      "reason": "Stara prečka na 2/4 implantata i novi locatori na 4 implantata nisu ista konstrukcija; odluka liječnika prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/proteza-na-implantatima",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Proteza na implantatima - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:27.943Z",
+      "group": "implant-denture",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/proteza-na-4-implantata"
+      ],
+      "reason": "Stara prečka na 2/4 implantata i novi locatori na 4 implantata nisu ista konstrukcija; odluka liječnika prije 301.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/protesi-ancorate-su-corone-telescopiche",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Protesi ancorate su corone telescopiche - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.060Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/proteza-sidrana-na-teleskopskih-kronicah",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Proteza, sidrana na teleskopskih kronicah - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.060Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/krone-zobne-prevleke-mosticki-in-proteze"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/en/prosthetic-device-anchored-on-telescopic-crowns",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Prosthetic device anchored on telescopic crowns - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.140Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/crowns-veneers-bridges"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/de/prothese-auf-teleskopkronen-verankert",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Prothese auf teleskopkronen verankert - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.140Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/kronen-veneers-bruecken-und-prothesen"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/hr/proteza-sidrena-na-teleskopskim-krunicama",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Proteza sidrena na teleskopskim krunicama - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.224Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/krunice-ljuskice-mostovi-i-proteze"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/condizioni-di-utilizzo",
       "target": "https://www.dentvitalis.com/condizioni-di-utilizzo",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Condizioni d’utilizzo - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.224Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/condizioni-di-utilizzo"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/si/pogoji-uporabe",
       "target": "https://www.dentvitalis.com/si/pogoji-uporabe",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Pogoji uporabe - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.302Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/si/pogoji-uporabe"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/terms-of-use",
       "target": "https://www.dentvitalis.com/en/terms-of-use",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Terms of use - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.302Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/terms-of-use"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/nutzungsbedingungen",
       "target": "https://www.dentvitalis.com/de/nutzungsbedingungen",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Nutzungsbedingungen - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.374Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/nutzungsbedingungen"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
       "target": "https://www.dentvitalis.com/hr/uvjeti-koristenja",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "hr",
+      "oldTitle": "Uvjeti Korištenja - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.374Z",
+      "group": "same-purpose",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/hr/uvjeti-koristenja"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/alloggio",
@@ -1213,61 +3076,603 @@
           "to": "/informazioni/alloggio",
           "status": 301
         }
-      ]
+      ],
+      "language": "it",
+      "oldTitle": "Alloggio Organizzato - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.448Z",
+      "group": "it-accommodation",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/informazioni/alloggio"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/en/accommodation",
       "target": "https://www.dentvitalis.com/en/accommodation",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "en",
+      "oldTitle": "Accommodation - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.449Z",
+      "group": "it-accommodation",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/en/accommodation"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/de/unterkunft",
       "target": "https://www.dentvitalis.com/de/unterkunft",
       "status": "same-url",
-      "chain": []
+      "chain": [],
+      "language": "de",
+      "oldTitle": "Unterkunft - DentVitalis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.529Z",
+      "group": "it-accommodation",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/de/unterkunft"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/trasferta",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/informazioni/trasporto",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/trasferta",
+          "to": "/informazioni/trasporto",
+          "status": 301
+        }
+      ],
+      "language": "it",
+      "oldTitle": "Trasferta Trieste Fiume Trieste Gratis - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.529Z",
+      "group": "it-transport",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/informazioni/trasporto"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/protesi",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Protesi Dentarie - Protesi Fissa e Mobili",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.612Z",
+      "group": "other-prosthetics",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/prestazioni/corone-faccette-ponti-e-protesi"
+      ],
+      "reason": "Nije potvrđeno da skupna nova stranica zamjenjuje ovu posebnu protetsku konstrukciju; očuvati stari članak do odluke.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/laboratorio-odontotecnico",
-      "target": "",
-      "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "target": "https://www.dentvitalis.com/su-di-noi/laboratorio-odontotecnico",
+      "status": "equivalent-301-in-review-candidate",
+      "chain": [
+        {
+          "from": "/laboratorio-odontotecnico",
+          "to": "/su-di-noi/laboratorio-odontotecnico",
+          "status": 301
+        }
+      ],
+      "language": "it",
+      "oldTitle": "Laboratorio odontotecnico - Corone, ponti, faccette e inlay in ceramica",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.616Z",
+      "group": "it-laboratory",
+      "proposalTargets": [
+        "https://www.dentvitalis.com/su-di-noi/laboratorio-odontotecnico"
+      ],
+      "reason": "Ista namjena stranice; nova adresa i jezična verzija potvrđene iz prikazanih HTML hreflang parova. Ne mijenja poslovne uvjete.",
+      "clearEquivalent": true
     },
     {
       "old": "https://www.dentvitalis.com/decisione-implantologia",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "",
+      "oldHttpStatus": 404,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.700Z",
+      "group": "no-confirmed-equivalent",
+      "proposalTargets": [],
+      "reason": "U inventaru od 9.9.2026. već je vraćala HTTP 404 (nije nova migracijska greška). Poseban stari edukativni članak o odluci za implantologiju; nema potvrđene istovjetne nove stranice.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/registration-fb",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "it",
+      "oldTitle": "Protesi semifissa su due impianti a soli 2.282 €",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.700Z",
+      "group": "campaigns",
+      "proposalTargets": [],
+      "reason": "Stara kampanja; potvrditi aktivne oglase i odluku o gašenju/zamjeni. Nije dodana neodobrena 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/si/registracija-fb",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
-      "chain": []
+      "chain": [],
+      "language": "sl",
+      "oldTitle": "Popravljeni zobje v 24 urah! - DentVitalis",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.755Z",
+      "group": "campaigns",
+      "proposalTargets": [],
+      "reason": "Stara kampanja; potvrditi aktivne oglase i odluku o gašenju/zamjeni. Nije dodana neodobrena 301 ni 410.",
+      "clearEquivalent": false
     },
     {
       "old": "https://www.dentvitalis.com/registration-fb2",
       "target": "",
       "status": "content-decision-required-no-new-redirect-invented",
+      "chain": [],
+      "language": "it",
+      "oldTitle": "„All on 4“ – soluzione fissa con denti provvisori fissi in 24 ore",
+      "oldHttpStatus": 200,
+      "oldHttpCheckedAt": "2026-09-09T13:46:28.756Z",
+      "group": "campaigns",
+      "proposalTargets": [],
+      "reason": "Stara kampanja; potvrditi aktivne oglase i odluku o gašenju/zamjeni. Nije dodana neodobrena 301 ni 410.",
+      "clearEquivalent": false
+    }
+  ],
+  "newOnly": [
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/bewusste-sedierung",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Bewusste Sedierung | DentVitalis",
       "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/dauer-der-behandlung",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Dauer der Behandlung | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/dienstleistungen",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Dienstleistungen | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/galerie",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Galerie | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/informationen",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Informationen | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/preisliste",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Preisliste | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/unsere-spezialisten",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Unsere Spezialisten | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/de/wie-sie-uns-erreichen",
+      "language": "de",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Wie Sie uns erreichen | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/domande-e-risposte",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Galleria dei sorrisi e dei trattamenti | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/directions",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "How to reach us | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/gallery",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Gallery | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/information",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Information | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/prices",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Price List | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/sedation",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Conscious sedation | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/services",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Services | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/specialists",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Our specialists | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/en/treatment-duration",
+      "language": "en",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Treatment duration | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/cjenik",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Cjenik | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/galerija",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Galerija | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/informacije-za-pacijente",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Korisne informacije | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/kako-do-nas",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Kako do nas | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/nasi-specijalisti",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Naši specijalisti | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/smjestaj",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Smještaj | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/svjesna-sedacija",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Svjesna sedacija | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/trajanje-lijecenja",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Trajanje liječenja | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/hr/usluge",
+      "language": "hr",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Usluge | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/informazioni-per-pazienti",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Informazioni per i pazienti | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/informazioni/listino-prezzi",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Listino prezzi dentista Croazia | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/informazioni/tempi-del-trattamento",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Tempi del trattamento dentale | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/prestazioni-dentali",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Prestazioni dentali in Croazia | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/prestazioni/sedazione-cosciente",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Sedazione cosciente a Rijeka | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/cenik",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Cenik | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/galerija",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Galerija | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/informacije",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Informacije | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/kako-do-nas",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Kako do nas | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/namestitev",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Namestitev | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/nasi-strokovnjaki",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Naši strokovnjaki | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/storitve",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Storitve | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/trajanje-zdravljenja",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Trajanje zdravljenja | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/si/zavestna-sedacija",
+      "language": "sl",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Zavestna sedacija | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/su-di-noi/come-raggiungerci",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "Come raggiungere DentVitalis a Rijeka | DentVitalis",
+      "chain": []
+    },
+    {
+      "old": "",
+      "target": "https://www.dentvitalis.com/su-di-noi/i-nostri-specialisti",
+      "language": "it",
+      "status": "new-url",
+      "proposalTargets": [],
+      "reason": "I nostri specialisti dentali | DentVitalis",
+      "chain": []
+    }
+  ],
+  "reviewRedirects": [
+    {
+      "from": "/prima-visita",
+      "to": "/informazioni/prima-visita-gratuita",
+      "status": 301,
+      "language": "it",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/de/die-erste-kontrolle",
+      "to": "/de/kostenlose-erstuntersuchung",
+      "status": 301,
+      "language": "de",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/hr/testimonials",
+      "to": "/hr/iskustva-pacijenata",
+      "status": 301,
+      "language": "hr",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/garanzie",
+      "to": "/informazioni/garanzie",
+      "status": 301,
+      "language": "it",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/pagamento",
+      "to": "/informazioni/pagamento-flessibile",
+      "status": 301,
+      "language": "it",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/en/manner-of-payment",
+      "to": "/en/payment",
+      "status": 301,
+      "language": "en",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/trasferta",
+      "to": "/informazioni/trasporto",
+      "status": 301,
+      "language": "it",
+      "evidence": "it-transport"
+    },
+    {
+      "from": "/laboratorio-odontotecnico",
+      "to": "/su-di-noi/laboratorio-odontotecnico",
+      "status": 301,
+      "language": "it",
+      "evidence": "it-laboratory"
     }
   ],
   "serverStageAndNextRootChanged": false,

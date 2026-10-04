@@ -2,6 +2,7 @@ import {
   copyFile,
   mkdir,
   readdir,
+  readFile,
   rmdir,
   unlink,
   writeFile,
@@ -9,9 +10,16 @@ import {
 import { constants } from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { pageDocument } from '../src/content/page-paths.ts';
+import { publicationSettings } from '../src/content/seo-urls.ts';
+import {
+  sitemapEntries,
+  sitemapFromRenderedPages,
+} from './sitemap-hreflang.mjs';
 
 // All pages share the same policy; assets and legacy PHP endpoints are untouched.
-const dist = resolve(import.meta.dirname, '../dist');
+const dist = process.argv[2]
+  ? resolve(process.argv[2])
+  : resolve(import.meta.dirname, '../dist');
 async function indexes(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
@@ -57,16 +65,23 @@ for (const folder of [...folders].sort((a, b) => b.length - a.length)) {
     });
   }
 }
-await writeFile(
-  new URL('../dist/_redirects', import.meta.url),
-  lines.join('\n') + '\n',
-  { flag: 'wx' },
-);
+await writeFile(join(dist, '_redirects'), lines.join('\n') + '\n', {
+  flag: 'wx',
+});
 await writeFile(
   join(dist, 'page-routes.json'),
   JSON.stringify(routes, null, 2) + '\n',
   { flag: 'wx' },
 );
+// Use the same actual translated pairs as the rendered HTML, not prefix guesses.
+const sitemapSource = await readFile(join(dist, 'sitemap-0.xml'), 'utf8');
+const { xml } = await sitemapFromRenderedPages(
+  dist,
+  sitemapEntries(sitemapSource).map((entry) => entry.url),
+  routes,
+  { allowPreviewNoindex: !publicationSettings(process.env).indexable },
+);
+await writeFile(join(dist, 'sitemap-0.xml'), xml);
 console.log(
   `Prepared ${sources.length} slashless public page rewrites (including confirmation paths).`,
 );

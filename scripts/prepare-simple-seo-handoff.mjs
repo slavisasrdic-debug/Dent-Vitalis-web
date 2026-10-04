@@ -8,6 +8,11 @@ import {
 } from './cpanel-routing.mjs';
 import decisions from '../data/seo/cpanel-redirect-decisions.json' with { type: 'json' };
 import { retiredThankYouRoutes } from '../src/content/thank-you-routes.ts';
+import {
+  sitemapEntries,
+  sitemapFromRenderedPages,
+} from './sitemap-hreflang.mjs';
+import { compareSitemapSubjects } from './seo-sitemap-comparison.mjs';
 
 const [legacyPath, reuseSource, ...unexpected] = process.argv.slice(2);
 if (
@@ -55,22 +60,35 @@ if (reuseSource) {
 const legacy = await readFile(legacyPath);
 const documents = JSON.parse(await readFile('dist/page-routes.json', 'utf8'));
 const newXmlSource = await readFile('dist/sitemap-0.xml', 'utf8');
-const urlEntries = (xml) =>
-  [...xml.matchAll(/<url\b[^>]*>([\s\S]*?)<\/url>/g)]
-    .map((entry) => /<loc>([^<]+)<\/loc>/.exec(entry[1])?.[1])
-    .filter(Boolean);
-const newUrls = urlEntries(newXmlSource);
+const newUrls = sitemapEntries(newXmlSource).map((entry) => entry.url);
 assert.equal(new Set(newUrls).size, 136);
 const indexable = new Set(newUrls.map((url) => new URL(url).pathname));
-const oldUrls = urlEntries(oldBytes.toString());
-const newXml =
-  '<?xml version="1.0" encoding="UTF-8"?>\n' +
-  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-  newUrls.map((url) => `  <url><loc>${url}</loc></url>\n`).join('') +
-  '</urlset>\n';
+const oldEntries = sitemapEntries(oldBytes.toString());
+const oldUrls = oldEntries.map((entry) => entry.url);
+const { xml: newXml, pages: newPages } = await sitemapFromRenderedPages(
+  resolve('dist'),
+  newUrls,
+  documents,
+);
+const subjects = compareSitemapSubjects(oldEntries, newPages);
+const reviewRedirects = [...subjects.entries()]
+  .filter(
+    ([from, subject]) =>
+      subject.clearEquivalent &&
+      !indexable.has(from) &&
+      !approvedContentRedirects.some((rule) => rule.from === from),
+  )
+  .map(([from, subject]) => ({
+    from,
+    to: new URL(subject.proposalTargets[0]).pathname,
+    status: 301,
+    language: subject.language,
+    evidence: subject.group,
+  }));
 const rules = mergeLegacyHtaccess(legacy, documents, {
   requireApprovedTargets: true,
   compactStaticRouting: true,
+  reviewRedirects,
 });
 const legacyRedirects = [
   ...rules.toString().matchAll(/^Redirect\s+301\s+(\S+)\s+(\S+)\s*$/gm),
@@ -111,7 +129,9 @@ function compare(url) {
         status: 'preserved-PHP-runtime-check-required',
         chain,
       };
-    let next = approvedContentRedirects.find((rule) => rule.from === path);
+    let next = [...approvedContentRedirects, ...reviewRedirects].find(
+      (rule) => rule.from === path,
+    );
     if (!next) {
       const rule = legacyRedirects.find(
         ({ from }) =>
@@ -132,7 +152,20 @@ function compare(url) {
   }
   throw new Error(`Excessive redirect chain for ${url}`);
 }
-const comparison = oldUrls.map(compare);
+const comparison = oldUrls.map((url) => {
+  const row = compare(url);
+  const subject = subjects.get(normalize(new URL(url).pathname));
+  const isReviewRedirect = row.chain.some((step) =>
+    reviewRedirects.some((rule) => rule.from === step.from),
+  );
+  return {
+    ...row,
+    ...subject,
+    status: isReviewRedirect
+      ? 'equivalent-301-in-review-candidate'
+      : row.status,
+  };
+});
 const counts = {};
 for (const row of comparison)
   counts[row.status] = (counts[row.status] ?? 0) + 1;
@@ -146,18 +179,39 @@ const labels = {
   'preserved-PHP-runtime-check-required':
     'Zadržana PHP stranica; provjeriti na hostingu',
   'approved-410': 'Odobreno uklanjanje 410',
+  'equivalent-301-in-review-candidate':
+    '301 dodana u novi .htaccess za pregled',
+  'new-url': 'Nova stranica; nije bila u starom sitemapu',
   'content-decision-required-no-new-redirect-invented':
-    'Potrebna provjera/odluka; nema novog statičkog ekvivalenta ni odobrene 301, PHP fallback nije testiran',
+    'Zadržati stari sadržaj do odluke; predloženi cilj NIJE aktivna 301',
 };
-const csv =
-  '\uFEFFstari_url;novi_url;status;lanac\r\n' +
+const mapped = new Set(
   comparison
+    .flatMap((row) => [row.target, ...row.proposalTargets])
+    .filter(Boolean),
+);
+const newOnly = newPages
+  .filter((page) => !mapped.has(page.url))
+  .map((page) => ({
+    old: '',
+    target: page.url,
+    language: page.lang,
+    status: 'new-url',
+    proposalTargets: [],
+    reason: page.title,
+    chain: [],
+  }));
+const csv =
+  '\uFEFFjezik;stari_url;novi_url;prijedlog_za_odluku;status;napomena\r\n' +
+  [...comparison, ...newOnly]
     .map((row) =>
       [
+        row.language,
         row.old,
         row.target,
+        row.target ? '' : row.proposalTargets.join(' | '),
         labels[row.status],
-        row.chain.map((step) => `${step.from} -> ${step.to}`).join(' | '),
+        row.reason,
       ]
         .map(csvEscape)
         .join(';'),
@@ -174,7 +228,14 @@ const report = {
     bytes: Buffer.byteLength(newXml),
     sha256: hash(newXml),
     source:
-      'unchanged localized-v3 dist/sitemap-0.xml URL set; flat urlset instead of sitemap index',
+      'unchanged localized-v3 URL set; hreflang copied and reciprocally validated from every rendered HTML head',
+    hreflangLanguages: ['it', 'hr', 'de', 'en', 'sl'],
+    xDefault: 'https://www.dentvitalis.com/',
+    hreflangLinks: newPages.reduce(
+      (sum, page) => sum + page.alternates.length,
+      0,
+    ),
+    hreflangValidatedAgainstHtml: true,
   },
   htaccess: {
     bytes: rules.length,
@@ -182,6 +243,7 @@ const report = {
     lines: rules.toString().split('\n').length,
     legacy301Lines: legacyRedirects.length,
     approvedNew301Rules: approvedContentRedirects.length,
+    additionalEquivalent301ForReview: reviewRedirects.length,
     explicitStaticPageRewrites: 0,
     genericStaticRules: 2,
     preservesOtherLegacyDirectiveBytes: true,
@@ -192,6 +254,8 @@ const report = {
   ).gitCommit,
   comparisonCounts: counts,
   comparison,
+  newOnly,
+  reviewRedirects,
   serverStageAndNextRootChanged: false,
   realBackendPostPerformed: false,
 };
@@ -210,6 +274,19 @@ for (const [name, content] of [
     flag: reuseSource ? 'w' : 'wx',
   });
 }
+await writeFile(
+  'data/seo/handoff-equivalent-redirects-20261004.json',
+  JSON.stringify(
+    {
+      status: 'owner-requested-SEO-review-not-production-approved',
+      evidence:
+        'Old sitemap language groups, existing reviewed information-page mapping, and rendered localized-v3 HTML pairs',
+      redirects: reviewRedirects,
+    },
+    null,
+    2,
+  ) + '\n',
+);
 console.log(
   JSON.stringify(
     {

@@ -1,0 +1,62 @@
+{
+  "status": "owner-requested-SEO-review-not-production-approved",
+  "evidence": "Old sitemap language groups, existing reviewed information-page mapping, and rendered localized-v3 HTML pairs",
+  "redirects": [
+    {
+      "from": "/prima-visita",
+      "to": "/informazioni/prima-visita-gratuita",
+      "status": 301,
+      "language": "it",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/de/die-erste-kontrolle",
+      "to": "/de/kostenlose-erstuntersuchung",
+      "status": 301,
+      "language": "de",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/hr/testimonials",
+      "to": "/hr/iskustva-pacijenata",
+      "status": 301,
+      "language": "hr",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/garanzie",
+      "to": "/informazioni/garanzie",
+      "status": 301,
+      "language": "it",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/pagamento",
+      "to": "/informazioni/pagamento-flessibile",
+      "status": 301,
+      "language": "it",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/en/manner-of-payment",
+      "to": "/en/payment",
+      "status": 301,
+      "language": "en",
+      "evidence": "same-purpose"
+    },
+    {
+      "from": "/trasferta",
+      "to": "/informazioni/trasporto",
+      "status": 301,
+      "language": "it",
+      "evidence": "it-transport"
+    },
+    {
+      "from": "/laboratorio-odontotecnico",
+      "to": "/su-di-noi/laboratorio-odontotecnico",
+      "status": 301,
+      "language": "it",
+      "evidence": "it-laboratory"
+    }
+  ]
+}

@@ -36,6 +36,15 @@ RewriteRule ^hr/testimonials-edita-karadole-glumica/?$ /hr/iskustva-pacijenata [
 RewriteRule ^hr/testimonials-zoran-roje-sportski-direktor/?$ /hr/iskustva-pacijenata [R=301,L,NE]
 RewriteRule ^de/testimonials/?$ /de/erfahrungen-unserer-patienten [R=301,L,NE]
 RewriteRule ^si/testimonials/?$ /si/izkusnje-pacientov [R=301,L,NE]
+# Additional equivalent-page redirects requested for SEO review; not installed on hosting.
+RewriteRule ^prima-visita/?$ /informazioni/prima-visita-gratuita [R=301,L,NE]
+RewriteRule ^de/die-erste-kontrolle/?$ /de/kostenlose-erstuntersuchung [R=301,L,NE]
+RewriteRule ^hr/testimonials/?$ /hr/iskustva-pacijenata [R=301,L,NE]
+RewriteRule ^garanzie/?$ /informazioni/garanzie [R=301,L,NE]
+RewriteRule ^pagamento/?$ /informazioni/pagamento-flessibile [R=301,L,NE]
+RewriteRule ^en/manner-of-payment/?$ /en/payment [R=301,L,NE]
+RewriteRule ^trasferta/?$ /informazioni/trasporto [R=301,L,NE]
+RewriteRule ^laboratorio-odontotecnico/?$ /su-di-noi/laboratorio-odontotecnico [R=301,L,NE]
 # Only existing static pages lose a final slash. Query strings are retained.
 RewriteCond %{DOCUMENT_ROOT}/_pages/$1.html -f
 RewriteRule ^([a-z0-9/-]+)/$ /$1 [R=308,L,NE]

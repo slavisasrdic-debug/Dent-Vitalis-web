@@ -278,6 +278,15 @@ test(
     const suppliedLegacy = process.env.DENTVITALIS_LEGACY_HTACCESS;
     const compactStaticRouting =
       process.env.DENTVITALIS_COMPACT_HTACCESS === '1';
+    const reviewRedirects =
+      process.env.DENTVITALIS_SEO_HANDOFF === '1'
+        ? JSON.parse(
+            await readFile(
+              join(root, 'data/seo/handoff-equivalent-redirects-20261004.json'),
+              'utf8',
+            ),
+          ).redirects
+        : [];
     const sourceLegacy = suppliedLegacy
       ? await readFile(suppliedLegacy)
       : legacy;
@@ -322,6 +331,7 @@ test(
             mergeLegacyHtaccess(sourceLegacy, documents, {
               requireApprovedTargets: true,
               compactStaticRouting,
+              reviewRedirects,
             })
               .toString()
               .replace(
@@ -586,6 +596,7 @@ test(
       ],
     );
     if (suppliedLegacy) redirects.push(decisions.vrTour);
+    redirects.push(...reviewRedirects);
     for (const { from, to } of redirects) {
       const query = '?dv_migration_check=a%2Bb&item=1&item=2';
       const redirected = await request(
@@ -601,7 +612,10 @@ test(
       assert.equal(final.location, undefined, to);
       assert.match(final.text, /Confirmation fixture/);
     }
-    for (const { from, to } of approvedContentRedirects) {
+    for (const { from, to } of [
+      ...approvedContentRedirects,
+      ...reviewRedirects,
+    ]) {
       const result = await request(
         true,
         'www.dentvitalis.com',
@@ -617,6 +631,49 @@ test(
         assert.equal(result.location, undefined, route);
         assert.match(result.text, /Legacy route retained/);
       }
+    // Check every retained legacy line too, including duplicate sources and
+    // the old /sl prefix. Canonical slash normalization is allowed, loops are not.
+    if (suppliedLegacy) {
+      const merged = mergeLegacyHtaccess(sourceLegacy, documents, {
+        requireApprovedTargets: true,
+        compactStaticRouting,
+        reviewRedirects,
+      }).toString();
+      const retained = [
+        ...merged.matchAll(/^Redirect\s+301\s+(\S+)\s+(\S+)\s*$/gm),
+      ];
+      assert.equal(retained.length, 64);
+      for (const [, from, to] of retained) {
+        const query = '?dv_migration_check=legacy%2Bline&item=1&item=2';
+        let path = from + query;
+        const visited = new Set();
+        for (let hop = 0; hop < 5; hop++) {
+          assert.ok(!visited.has(path), `Legacy redirect loop: ${from}`);
+          visited.add(path);
+          const response = await request(true, 'www.dentvitalis.com', path);
+          if (response.status === 200) {
+            assert.ok(hop > 0, `Legacy source did not redirect: ${from}`);
+            const finalPath = new URL(path, 'https://www.dentvitalis.com')
+              .pathname;
+            assert.equal(
+              finalPath,
+              to === '/' ? '/' : to.replace(/\/+$/, ''),
+              from,
+            );
+            break;
+          }
+          assert.ok(
+            [301, 308].includes(response.status),
+            `${from}: unexpected ${response.status}`,
+          );
+          const next = new URL(response.location);
+          assert.equal(next.origin, 'https://www.dentvitalis.com');
+          assert.equal(next.search, query, from);
+          path = next.pathname + next.search;
+          assert.ok(hop < 4, `Excessive legacy redirect chain: ${from}`);
+        }
+      }
+    }
     const legacyDirectory = await request(
       true,
       'www.dentvitalis.com',

@@ -12,11 +12,12 @@ const end = '# END DentVitalis canonical host\n';
 
 export const approvedContentRedirects = decisions.redirects;
 
-function contentRedirectRules(documents, requireTargets) {
+function contentRedirectRules(documents, requireTargets, reviewRedirects = []) {
   if (decisions.status !== 'owner-approved-for-candidate')
     throw new Error('Content redirects require recorded owner approval.');
   const seen = new Set();
-  for (const redirect of approvedContentRedirects) {
+  const allRedirects = [...approvedContentRedirects, ...reviewRedirects];
+  for (const redirect of allRedirects) {
     if (
       redirect.status !== 301 ||
       !/^\/[a-z0-9/-]+$/.test(redirect.from) ||
@@ -25,7 +26,10 @@ function contentRedirectRules(documents, requireTargets) {
       redirect.to.endsWith('/') ||
       seen.has(redirect.from) ||
       Object.hasOwn(documents, redirect.from) ||
-      approvedContentRedirects.some((other) => other.from === redirect.to)
+      allRedirects.some((other) => other.from === redirect.to) ||
+      ['send', 'gct', 'send-sconto', 'form-tokens'].includes(
+        redirect.from.slice(1),
+      )
     )
       throw new Error('Invalid or conflicting approved content redirect.');
     if (requireTargets && !Object.hasOwn(documents, redirect.to))
@@ -39,14 +43,27 @@ function contentRedirectRules(documents, requireTargets) {
         ({ from, to }) =>
           `RewriteRule ^${from.slice(1)}/?$ ${to} [R=301,L,NE]\n`,
       )
-      .join('')
+      .join('') +
+    (reviewRedirects.length
+      ? '# Additional equivalent-page redirects requested for SEO review; not installed on hosting.\n' +
+        reviewRedirects
+          .map(
+            ({ from, to }) =>
+              `RewriteRule ^${from.slice(1)}/?$ ${to} [R=301,L,NE]\n`,
+          )
+          .join('')
+      : '')
   );
 }
 
 /** Production-only Apache rules. The target is never taken from request headers. */
 export function canonicalHostRules(
   documents = thankYouDocuments,
-  { requireApprovedTargets = false, compactStaticRouting = false } = {},
+  {
+    requireApprovedTargets = false,
+    compactStaticRouting = false,
+    reviewRedirects = [],
+  } = {},
 ) {
   for (const [route, document] of Object.entries(documents)) {
     if (
@@ -129,7 +146,7 @@ export function canonicalHostRules(
     '</If>\n' +
     '# Expired campaign confirmations removed by the owner, not redirected.\n' +
     `RewriteRule ^(?:${retiredThankYouRoutes.map((route) => route.slice(1)).join('|')})/?$ - [G,L]\n` +
-    contentRedirectRules(documents, requireApprovedTargets) +
+    contentRedirectRules(documents, requireApprovedTargets, reviewRedirects) +
     staticRules +
     end
   );

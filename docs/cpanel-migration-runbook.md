@@ -15,25 +15,43 @@ umjesto aktivacijskog odobrenja zatražio stari i novi sitemap te kraći
 sa stvarnog `www.dentvitalis.com/sitemap.xml` (200, 197 zapisa); SHA-256 je
 isti kao prethodno sačuvani izvor, pa ne ponavljati kompletno dohvaćanje.
 Novi ravni `sitemap-novi.xml` ima isti skup 136 indeksabilnih v3 URL-ova,
-bez pet zahvalnih stranica koje ostaju dostupne s noindex.
+bez pet zahvalnih stranica koje ostaju dostupne s noindex. Ispravak nakon
+vlasnikove primjedbe: XML sada ima 812 stvarnih HTML hreflang veza, uz
+provjeru self/recipročnih parova za `it/hr/de/en/sl` i `x-default` na IT root.
+IT prijevoz nema druge prijevode: samo IT i x-default. Popravljen je i
+automatski postbuild generator; postojeći v3 build/ZIP nije ponovno izrađen.
 
-Kraći `.htaccess` ima 7.334 B / 163 retka: 64 naslijeđene 301 pojave s
-odobrenim korekcijama i osam odobrenih novih 301, uz očuvani backend/cache/PHP.
+Kraći `.htaccess` sada ima 8.008 B / 172 retka: 64 naslijeđene 301 pojave s
+odobrenim korekcijama, osam ranije odobrenih novih 301 i osam dodatnih jasnih
+premještanja pripremljenih na novi izričiti zahtjev vlasnika za SEO pregled.
+Neutralna mapa dodatnih pravila: `data/seo/handoff-equivalent-redirects-20261004.json`.
+Nije produkcijsko odobrenje; backend/cache/PHP ostaju očuvani.
 140 internih pojedinačnih HTML rewritesa i dva golema popisa putanja zamijenjeni
 su provjerom stvarne datoteke `_pages/<putanja>.html`, uz zaštitni slash 308.
 Default v3 generator ostaje nepromijenjen; compact način izričito se odabire
 za novi handoff. Izolirani Apache test svih 140 ruta, slash varijanti, queryja,
-hosta, odobrenih 301/410, mock PHP endpointa i legacy direktorija prolazi 9/9.
+hosta, svih 16 novih 301, odobrenih 410, mock PHP endpointa i legacy direktorija
+prolazi. XML/HTML hreflang i potpunost usporedbe također prolaze; postbuild
+hook potvrđen je na izoliranoj kopiji, bez ponovnog builda prihvaćenog v3.
 Prvi lokalni startup prijavio je ECONNRESET uz Syntax OK i aktivne procese;
 sljedeći potpuni test prošao je. To nije cPanel runtime ni stvarno slanje.
 
 Usporedba svih 197 starih sitemap zapisa: 46 ostaje na istoj indeksabilnoj
-adresi, osam ima postojeću/odobrenu 301, tri su izričito sačuvane PHP stranice,
-pet zahvalnih stranica ostaje noindex, a 135 nema potvrđen novi statički
-ekvivalent/odobrenu 301. Za njih PHP fallback može ostati aktivan, ali stvarno
+adresi, osam ima postojeću/odobrenu 301, osam dodatnu jasno ekvivalentnu 301
+u review kandidatu, tri su izričito sačuvane PHP stranice, pet zahvalnih
+stranica ostaje noindex, a 127 nema potvrđen novi statički ekvivalent/odobrenu 301. Sada svaki red ima konkretnu sadržajnu napomenu i mogući cilj kada je
+utvrđen, ne samo generičku oznaku. Od tih 127, raniji inventar 9. rujna
+bilježi 106 HTTP 200 i 21 već postojeći HTTP 404; to nije nova runtime provjera.
+Za njih PHP fallback može ostati aktivan, ali stvarno
 posluživanje nije provjereno. Ne zaključivati da su svi uklonjeni niti dodati
 neodobrene 301 na nepovezane usluge ili naslovnicu. CSV označava te stavke za
 SEO/vlasnički pregled; usporedba sitemapa ne zatvara sadržajne odluke.
+Excel ima sažetak, 197 starih i 136 novih URL-ova te 80 redirect pojava.
+Ispravljeni ZIP `.astro/reports/DentVitalis-SEO-ispravljeno-20261004.zip`
+sadrži točno četiri dokumenta: oba XML-a, `.htaccess` i Excel. CRC i identitet
+bajtova provjereni. Raniji `DentVitalis-SEO-4-dokumenta-20261004.zip` povučen
+je iz upotrebe zbog izostavljenog XML hreflanga i nepotpune usporedbe.
+Reprodukcija Excela/ZIP-a: `scripts/package-seo-review.py`, openpyxl 3.1.5.
 
 Ovi su lokalni review dokumenti, ne izmjena uploadanog v3 paketa ili pripremljenog
 next roota. Ne prepisivati `.htaccess` na serveru niti aktivirati v3 kao da već
