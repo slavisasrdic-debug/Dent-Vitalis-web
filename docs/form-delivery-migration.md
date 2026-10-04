@@ -21,8 +21,10 @@ bez validacijskih grešaka, uz jedan neutralni PDF od 640 B. E-mail i CRM
 izvršava postojeći PHP na cPanel hostingu; Codespaces uputio je samo zahtjev
 na pravi `/send`. Nisu mijenjani primatelji, CRM, DNS ni javni web.
 Svih pet odobrenih upita sada je pokušano bez ponavljanja. HR je prihvaćen
-vlasničkim dokazima niže; za ostala četiri još čekamo primitak i čitljive
-privitke. HTTP uspjeh nije potvrda tih primitaka niti frontend/GTM test.
+vlasničkim dokazima niže. Vlasnik je 4. listopada potvrdio „Stigli su emailovi”,
+što bilježimo za preostala četiri e-maila bez zasebnih screenshotova ili
+neovisnog mailbox pristupa. Njihovi CRM zapisi i čitljivi PDF privici još čekaju
+potvrdu. HTTP uspjeh nije potvrda tih primitaka niti frontend/GTM test.
 
 Vlasnik je naknadno odobrio pet označenih TEST upita (po jeziku), jedan
 bezopasni PDF i dostavio kontakt testnog pošiljatelja. Ti kontakti nisu u Gitu.

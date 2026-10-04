@@ -13,8 +13,10 @@ GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 sesije, dobio 200 JSON `status:ok`, `no-store`, bez validacijskih grešaka,
 uz jedan neutralni PDF od 640 B. Backend na cPanelu izvršava e-mail/CRM
 slanje; Codespaces je samo uputio multipart `/send` na pravi www host.
-Primitak ovih četiriju e-mailova/CRM zapisa i čitljivih privitaka još nije
-potvrđen. Svih pet odobrenih POST-ova ukupno je izvršeno, bez retryja.
+Vlasnik je 4. listopada potvrdio „Stigli su emailovi”: prihvaćena je zajednička
+potvrda primitka preostalih e-mailova, bez zasebnih screenshotova/neovisnog
+mailbox pristupa. CRM zapisi i čitljivi privici još nisu potvrđeni.
+Svih pet odobrenih POST-ova ukupno je izvršeno, bez retryja.
 Ne slati novih pet niti ponavljati neki jezik bez nove izričite odluke.
 Statusi/metadata u JSON-u; ne zapisivati kontakte/tokene ili raw odgovore.
 Javni izgled/konfiguracija/DNS nisu mijenjani; ovo nije novi frontend/GTM test.
@@ -35,12 +37,18 @@ pristupom ili hashom preuzetog privitka. Screenshot/kontakti/mailbox adrese
 nisu u repozitoriju. HR dostava i čitljivi privici sada su prihvaćeni.
 Naknadni IT/DE/EN/SL poslani su kako je opisano iznad, bez auto-retryja ili switcha.
 To nije end-to-end test novog frontend izgleda. Oznaka/metadata u JSON-u,
-nikad kontakt ili vrijednosti tokena. Sljedeće: potvrditi primitak i čitljive
+nikad kontakt ili vrijednosti tokena. Sljedeće: potvrditi CRM zapise i čitljive
 privitke za preostala četiri jezika, bez ponavljanja HR-a ili bilo kojeg POST-a
 i bez nove javne aktivacije.
 Cloudflare Pages projekt nema custom domene prema vlasnikovu prikazu;
 brisanje je blokirano brojem objava i nije završeno. Vlasnik je zatražio da
 ga zasad ostavimo; ne ponavljati brisanje ili uvoditi novi pristup radi toga.
+
+SEO kolega dobiva [CSV pravila stvarnog kandidata](seo/redirects-candidate-20261004.csv)
+i [kratko tumačenje](seo/redirects-candidate-20261004-README.txt): 65 naslijeđenih
+301 zapisa, 140 slash normalizacija 308, host obrasci, odobrena uklanjanja i
+otvoreni rizici. To nije aktivacija niti runtime potvrda. Raniji inventar 206
+URL-ova i proposal-only CSV ostaju zaseban izvor za dovršavanje sadržajnih odluka.
 
 Prethodno je vlasnički odobrenu instalaciju dva privatna PHP dodatka i
 minimalnog `/send` diffa agent je završio, read-back/`0644` potvrđeni prema

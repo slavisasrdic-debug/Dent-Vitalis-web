@@ -51,7 +51,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "awaiting-owner-IT-DE-EN-SL-inbox-CRM-and-PDF-confirmations-before-new-upload-without-public-activation",
+    "nextCheck": "awaiting-owner-IT-DE-EN-SL-CRM-and-readable-PDF-confirmations-before-new-upload-without-public-activation",
     "cloudflarePreviewRetirement": {
       "reportedOn": "2026-10-02",
       "source": "owner-dashboard-screenshots-and-owner-request-to-leave-this-for-now",
@@ -521,8 +521,16 @@
           "sha256": "5bf9e16b8856680afc0c8195400cabbb49dcff967b50013bf6ac83f8964a355b",
           "containsPatientData": false
         },
-        "status": "server-accepted-awaiting-receipts",
-        "inboxReceiptConfirmed": false,
+        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "inboxReceiptConfirmed": true,
+        "mailReceiptEvidence": {
+          "reportedOn": "2026-10-04",
+          "source": "owner-message-Stigli-su-emailovi-after-four-language-test-report",
+          "scope": "owner-confirms-remaining-emails-without-per-language-screenshots",
+          "independentRecipientMailboxAccessPerformed": false,
+          "attachmentOpenedAndReadableConfirmed": false,
+          "personalContactOrMailboxValuesRecorded": false
+        },
         "crmLeadConfirmed": false,
         "mailAttachmentConfirmed": false,
         "crmAttachmentConfirmed": false,
@@ -559,8 +567,16 @@
           "sha256": "cf32ceaa03c6ff846e13d285f597fbeec9b2aa1a403d95da0ef77eb1d5d1fafa",
           "containsPatientData": false
         },
-        "status": "server-accepted-awaiting-receipts",
-        "inboxReceiptConfirmed": false,
+        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "inboxReceiptConfirmed": true,
+        "mailReceiptEvidence": {
+          "reportedOn": "2026-10-04",
+          "source": "owner-message-Stigli-su-emailovi-after-four-language-test-report",
+          "scope": "owner-confirms-remaining-emails-without-per-language-screenshots",
+          "independentRecipientMailboxAccessPerformed": false,
+          "attachmentOpenedAndReadableConfirmed": false,
+          "personalContactOrMailboxValuesRecorded": false
+        },
         "crmLeadConfirmed": false,
         "mailAttachmentConfirmed": false,
         "crmAttachmentConfirmed": false,
@@ -597,8 +613,16 @@
           "sha256": "5fe9a8824afdef0786ad9ede3eb534fb272c458a5c2f249e3fd8395515164fcb",
           "containsPatientData": false
         },
-        "status": "server-accepted-awaiting-receipts",
-        "inboxReceiptConfirmed": false,
+        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "inboxReceiptConfirmed": true,
+        "mailReceiptEvidence": {
+          "reportedOn": "2026-10-04",
+          "source": "owner-message-Stigli-su-emailovi-after-four-language-test-report",
+          "scope": "owner-confirms-remaining-emails-without-per-language-screenshots",
+          "independentRecipientMailboxAccessPerformed": false,
+          "attachmentOpenedAndReadableConfirmed": false,
+          "personalContactOrMailboxValuesRecorded": false
+        },
         "crmLeadConfirmed": false,
         "mailAttachmentConfirmed": false,
         "crmAttachmentConfirmed": false,
@@ -635,8 +659,16 @@
           "sha256": "3378a19bf5892784a94106f378992afb360090b52658788db6dbd3f28760c721",
           "containsPatientData": false
         },
-        "status": "server-accepted-awaiting-receipts",
-        "inboxReceiptConfirmed": false,
+        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "inboxReceiptConfirmed": true,
+        "mailReceiptEvidence": {
+          "reportedOn": "2026-10-04",
+          "source": "owner-message-Stigli-su-emailovi-after-four-language-test-report",
+          "scope": "owner-confirms-remaining-emails-without-per-language-screenshots",
+          "independentRecipientMailboxAccessPerformed": false,
+          "attachmentOpenedAndReadableConfirmed": false,
+          "personalContactOrMailboxValuesRecorded": false
+        },
         "crmLeadConfirmed": false,
         "mailAttachmentConfirmed": false,
         "crmAttachmentConfirmed": false,

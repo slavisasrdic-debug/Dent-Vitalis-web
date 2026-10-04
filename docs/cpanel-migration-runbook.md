@@ -23,10 +23,17 @@ validacijskih grešaka. Svaki je imao jedan neutralni PDF od 640 B.
 
 | Jezik               | Oznaka testa                 | Primitak e-maila/CRM-a i čitljivih privitaka |
 | ------------------- | ---------------------------- | -------------------------------------------- |
-| IT                  | `DV-MIG-20261004-IT-122037Z` | Čeka vlasnikovu potvrdu.                     |
-| DE                  | `DV-MIG-20261004-DE-122037Z` | Čeka vlasnikovu potvrdu.                     |
-| EN                  | `DV-MIG-20261004-EN-122037Z` | Čeka vlasnikovu potvrdu.                     |
-| SL, javni URL `/si` | `DV-MIG-20261004-SL-122037Z` | Čeka vlasnikovu potvrdu.                     |
+| IT                  | `DV-MIG-20261004-IT-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
+| DE                  | `DV-MIG-20261004-DE-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
+| EN                  | `DV-MIG-20261004-EN-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
+| SL, javni URL `/si` | `DV-MIG-20261004-SL-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
+
+Vlasnik je 4. listopada odgovorio „Stigli su emailovi”. Prihvaćena je ta
+zajednička potvrda primitka preostalih e-mailova; nema zasebnih screenshotova,
+neovisnog mailbox pristupa niti nove potvrde CRM zapisa/čitljivosti PDF-a.
+Za SEO kolegu izvezen je [popis svih pravila u kandidatu](seo/redirects-candidate-20261004.csv),
+uz [granice dokaza i otvorene odluke](seo/redirects-candidate-20261004-README.txt).
+Izvoz iz ZIP-a nije produkcijski HTTP test niti aktivacija redirekcija.
 
 Ukupno je izvršeno svih pet odobrenih POST-ova, bez ponavljanja. Ne slati
 nove testove/auto-retry samo zato što primitak još nije pronađen. Očekivano
@@ -56,8 +63,8 @@ izvorno vrijeme odgovaraju HR testu, PDF prikazuje samo neutralni TEST tekst.
 HR inbox i e-mail privitak potvrđeni su vlasničkim dokazom, bez neovisnog
 pristupa mailboxu ili provjere preuzetog hasha. Screenshot/kontakti/adrese
 primatelja ne pohranjuju se u repozitorij. HR dostava i čitljivi privici sada
-su prihvaćeni. Naknadni IT/DE/EN/SL POST-ovi opisani su iznad; njihove dostave
-još čekaju potvrdu. HR ne
+su prihvaćeni. Naknadni IT/DE/EN/SL POST-ovi opisani su iznad; e-mailovi su
+potvrđeni, CRM zapisi i čitljivi privici još čekaju potvrdu. HR ne
 ponavljati. Cloudflare brisanje blokirano je brojem objava; vlasnik je zatražio
 da ga zasad ostavimo. Projekt nije potvrđen kao obrisan, ne ponavljati brisanje.
 
