@@ -45,14 +45,37 @@ CRC i svih 691 payload hashova nakon lokalne ekstrakcije potvrđeni; ukupno
 692 datoteke `0644`, 13 mapa `0755`, 65.470.135 B raspakirano s manifestom.
 Sadržajni commit je `935e5bb7c43def0d73a33fe3fc744a405acc1f8d`.
 Novi privatni cilj je `/home2/dentvita/releases/20261004-localized-v3/`;
-**nije uploadan niti aktiviran**. Ne prepisivati stage ni ZIP `redirects-v2`.
-Prije budućeg uploada potvrditi aktualnu kvotu za dodatnih približno 118 MiB
-(ZIP + ekstrakcija), ne stvarati puni backup ponovno. Postojeći PHP/backend
+**upload i priprema stagea završeni su prema agentu; nije javno aktiviran**.
+Ne prepisivati stage ni ZIP `redirects-v2`. Postojeći PHP/backend
 prihvat ostaje važeći; ne ponavljati stvarne testne upite zbog promjene slugova.
 Preostaju stvarni cPanel runtime/consent/SEO prihvat i kodni povratak prema
 release gates; lokalni URL audit ih ne zamjenjuje.
 
-**Najnovije — read-only plan aktivacije i povratka, 4. listopada:** agent
+**Najnovije — localized-v3 privatni stage završen prema agentu, 4. listopada:**
+vlasnik je dostavio izvještaj i screenshot: upload 100 %, Extract bez
+prijavljenih grešaka, 692 datoteke bez ZIP-a (691 payload + manifest),
+13 podmapa; agent navodi pregled svih dozvola: datoteke `0644`, podmape i
+release mapa `0755`. Manifest navodi sadržajni commit `935e5bb7`; pregledana
+su pravila za DE/SI smještaj i dvije povijesne testimonials redirekcije.
+To je prijavljeni serverski pregled, ne neovisna provjera SHA-256 i svih
+payload hashova. Serverski SHA-256 i točni ZIP bajtovi ostaju neprovjereni.
+Javni web, backend, DNS, PHP i backupovi nisu mijenjani prema izvještaju.
+Ne ponavljati upload/Extract/dozvole bez novog konkretnog nalaza.
+
+Najnovija prijavljena slobodna kvota je 283,75 MB. Rezerva od oko 50,6 MB
+u agentovu izvještaju pretpostavlja kopiranje bloga. Prema već odobrenom
+isključenju bloga iz novog roota, ranija procjena 231,5 MB smanjuje se za
+155,19 MB na približno 76,31 MB, uz procijenjenu rezervu 207,44 MB.
+To nije nova izmjera; prije pripreme provjeriti aktualnu kvotu i stvarni
+sadržaj. Blog ostaje u prethodnom direktoriju i backupu, bez brisanja.
+Slijedi zasebno odobrena izolirana priprema
+`/home2/dentvita/public_html-next-20261004-localized-v3/`, uz očuvanje
+navedenih bootstrap/verifikacijskih i legacy asset stavki. Ne kopirati ZIP
+niti blog. Postojanje tog novog naziva još nije provjereno. Stari `redirects-v2`
+nazivi niže povijesni su prijedlog, ne nalog za pripremu ili aktivaciju v3.
+Aktualni zapis: readiness `fileManagerProgress.localizedV3Stage`.
+
+**Raniji read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
 prikaz može kasniti, filesystem i inodeovi nisu potvrđeni. Sadašnji
 `public_html` je 167,63 MB, od čega blog 155,19 MB. Predloženi next root s
@@ -175,8 +198,8 @@ poslani su po jednom između 12:20:38 i 12:20:43 UTC (14:20 po Zagrebu).
 Svaki `/send` POST vratio je HTTP 200 JSON `status:ok` i `no-store`, bez
 validacijskih grešaka. Svaki je imao jedan neutralni PDF od 640 B.
 
-| Jezik               | Oznaka testa                 | Primitak e-maila/CRM-a i čitljivih privitaka |
-| ------------------- | ---------------------------- | -------------------------------------------- |
+| Jezik               | Oznaka testa                 | Primitak e-maila/CRM-a i čitljivih privitaka       |
+| ------------------- | ---------------------------- | -------------------------------------------------- |
 | IT                  | `DV-MIG-20261004-IT-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
 | DE                  | `DV-MIG-20261004-DE-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
 | EN                  | `DV-MIG-20261004-EN-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
