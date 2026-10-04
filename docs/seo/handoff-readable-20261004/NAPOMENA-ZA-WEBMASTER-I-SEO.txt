@@ -1,0 +1,27 @@
+DENTVITALIS — PREGLED ZA WEBMASTERA I SEO KOLEGU, 4. 10. 2026.
+
+U ZIP-u su .htaccess, novi sitemap.xml i ova napomena.
+
+.htaccess je složen u jasne odjeljke. Stara odredišta ostaju očuvana,
+sedam duplikata uklonjeno je, a dodana su nužna pravila za novi HTML web,
+PHP forme/token endpoint i zabranu cacheiranja tokena. Tri ranije dogovorene
+stare PHP stranice ostaju dostupne kroz backend.
+
+Trajne promjene URL-ova koriste 301, ne privremeni 302. HTTPS/www i poznate
+varijante sa završnim slashom koriste 308. Query parametri ostaju očuvani.
+Obrazloženje: https://developers.google.com/search/docs/crawling-indexing/301-redirects
+
+Novi sitemap ima 136 URL-ova svih pet jezika (IT/HR/DE/EN/SL),
+676 stvarnih jezičnih hreflang veza i nema x-default zapisa.
+Zahvalne stranice s noindex nisu u sitemapu.
+
+Lokalna Apache provjera svih 140 novih ruta i redirekcija prošla je.
+To nije provjera produkcijskog PHP-a ni nove objave na hostingu.
+
+ZA POTVRDU: osam dodatnih 301 u odjeljku 5. Neprovjerena nova sadržajna
+spajanja i retargetiranja iz priloga nisu preuzeta; primjerice bruksizam
+nije automatski preusmjeren na opći popis usluga. IT galerija zasad zadržava
+postojeći /domande-e-risposte; eventualni /galleria treba zasebnu potvrdu.
+
+Ovo je paket za pregled, NE puni web paket za upload/aktivaciju.
+Nakon potvrde uskladiti web ZIP i manifest. Produkcija nije mijenjana.
