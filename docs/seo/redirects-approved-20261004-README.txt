@@ -51,3 +51,15 @@ statusi/Location, lanci/petlje, query, canonical/hreflang, sitemap/robots,
 404/410 te GTM/CookieYes i konverzije. Backup/rollback ne prepisuje nove
 application/data ili CRM podatke. Preostale CRM/PDF potvrde jos nisu dobivene.
 Jedina procedura: docs/cpanel-migration-runbook.md.
+
+EXCEL ZA SLANJE SEO SURADNIKU
+node scripts/export-seo-redirect-workbook.mjs
+Opetovana provjera bez prepisivanja: ista naredba uz --check.
+Izlaz: .astro/reports/DentVitalis-SEO-redirekcije-20261004.xlsx
+List Sazetak: odobrene promjene, tri sacuvane PHP stranice i granice provjere.
+List Potpuni popis: svih 220 stavki CSV-a, s citljivim naslovima i filtrima.
+410 i neaktivna pravila posebno su oznaceni; nisu aktivne redirekcije.
+Generator provjerava sve izvorne stupce, duplikate, XML, ZIP CRC i svaku
+celiju nakon pakiranja. Ne sadrzi formule, makroe ni privatne podatke.
+Postojeci Excel ne prepisuje. Izvedeni XLSX ostaje u ignoriranoj .astro/;
+izvori i generator su u Gitu. Otvaranje u desktop Excelu nije testirano.
