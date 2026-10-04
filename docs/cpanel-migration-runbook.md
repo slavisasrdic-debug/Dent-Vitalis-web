@@ -8,6 +8,28 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**STOP — pokušaj v8 aktivacije vraćen zbog "Index of /":** vlasnik prenosi
+odmah izveden kodni povratak. Stari root je `/home2/dentvita/public_html/`
+(0750); v8 sačuvan u `/home2/dentvita/public_html-failed-20261004-galleria-v8/`.
+Stara naslovnica i `/hr/desinfekcija` ponovno rade prema agentu. Token GET
+blokiran je u njegovu browseru; ostale v8 runtime provjere nisu izvršene.
+Backend, DNS/PHP, privatni podaci i stvarne forme nisu mijenjani prema izvještaju.
+Uzrok, točan javni URL i HTTP status neuspjelog zahtjeva nisu potvrđeni.
+
+Ovaj STOP ima prednost nad starim aktivacijskim uputama. Dokument agenta sada
+počinje D1–D5: ciljano read-only pregledati sačuvani failed root, placement/
+sadržaj index.html i .htaccess, stvarni Document Root, točan host zahtjeva,
+roditeljske direktive i relevantne sanitizirane logove. Bez novog preimenovanja,
+chmoda, uklanjanja pravila, PHP probe/deploy endpointa ili novih POST-ova.
+Ne tražiti novi ZIP bez dokaza da je payload neispravan.
+
+Nepromijenjeni lokalni v8 ZIP potvrđen je SHA-256-om. Pojačani Apache test sada
+provjerava sadržaj korijena (ne samo 200), izravni `/index.html` i zabranu
+listanja praznog direktorija; svih devet testova prolazi. `.htaccess` ima
+Options -Indexes i DirectoryIndex index.html index.php. To upućuje na razliku
+u hostingu/placementu/primjeni/cacheu, ali nijedan uzrok nije utvrđen lokalnim
+fixtureom. Zapis: readiness `procedure.galleriaV8.activationAttemptAndRollback`.
+
 **NAJNOVIJE — next root je v8 prema agentu; vlasnik odobrava nedostupnost bloga:**
 preneseni izvještaj navodi završen Move, v8 revision/galleria.html, očuvani
 bootstrap/resurse, bez starog dokumenta/nested _pages; 1.034 datoteke 0644,

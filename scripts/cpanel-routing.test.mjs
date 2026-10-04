@@ -361,6 +361,9 @@ test(
             }),
     );
     await chmod(join(directory, 'htdocs'), 0o755);
+    // An index regression must not pass merely because autoindex also returns 200.
+    await mkdir(join(directory, 'htdocs', 'empty-index-fixture'));
+    await chmod(join(directory, 'htdocs', 'empty-index-fixture'), 0o755);
     for (const name of [
       'index.html',
       'index.php',
@@ -553,7 +556,30 @@ test(
       const result = await request(true, host);
       assert.equal(result.status, 200, JSON.stringify({ host, result }));
       assert.equal(result.location, undefined);
+      assert.equal(
+        result.text,
+        'Test page only',
+        'Root must serve index.html, never a directory listing or PHP fallback',
+      );
     }
+    const explicitIndex = await request(
+      true,
+      'www.dentvitalis.com',
+      '/index.html?dv_index_check=fixture',
+    );
+    assert.equal(explicitIndex.status, 200);
+    assert.equal(explicitIndex.text, 'Test page only');
+    const emptyDirectory = await request(
+      true,
+      'www.dentvitalis.com',
+      '/empty-index-fixture/',
+    );
+    assert.equal(
+      emptyDirectory.status,
+      403,
+      'Options -Indexes must forbid directory listing',
+    );
+    assert.ok(!emptyDirectory.text.includes('Index of /empty-index-fixture'));
     for (const path of [
       '/send?campaign=test',
       '/gct',

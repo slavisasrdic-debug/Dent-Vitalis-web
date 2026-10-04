@@ -1,5 +1,42 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
+STOP — NAJNOVIJE: V8 AKTIVACIJA VRATILA "Index of /", KODNI POVRATAK IZVEDEN
+Ovaj odjeljak ima prednost nad svim ranijim aktivacijskim uputama ispod.
+Aktivni stari root: /home2/dentvita/public_html/ (0750 prema izvještaju).
+Sačuvani v8 root: /home2/dentvita/public_html-failed-20261004-galleria-v8/.
+Ne koristi više prethodni next naziv kao da je još aktualni v8 direktorij.
+Ne ponavljaj aktivaciju, upload, Extract, root premještanja ili chmod naslijepo.
+Lokalni stvarni Apache s istim završnim htaccessom vraća početni HTML; nova
+provjera sadržaja i zabrane autoindexa prolazi. ZIP se nije promijenio.
+To nije potvrda razloga produkcijske regresije. HTTP 200 sam ne dokazuje naslovnicu.
+
+SADA SAMO CILJANA READ-ONLY DIJAGNOSTIKA, BEZ JAVNIH PROMJENA:
+D1. U File Manageru osvježi sačuvani v8 root i prikaži dotfiles. Provjeri je
+    li index.html stvarno U KORIJENU, ne u ugniježđenoj mapi, točno malim slovima.
+    Očekivana veličina v8 index.html: 112.284 B; .htaccess: 9.218 B. Zaokruženi
+    KB nije dokaz točnih bajtova/hashova. Zapiši sve dodatne index datoteke/mape.
+    Provjeri index.php, _pages i _astro/assets, dozvole i vlasništvo/grupu ako
+    dostupni; nedostupnost vlasništva označi, ne nagađaj niti širi dozvole.
+D2. View (NE Edit) za index.html: puni HTML, novi DentVitalis layout, elementi
+    data-tracking-bootstrap i chat-widget; ne listing ili prazna datoteka.
+    View .htaccess: potvrdi naziv bez .txt, Options -Indexes te
+    DirectoryIndex index.html index.php. Usporedi cijeli tekst s v8 izvorom
+    docs/seo/handoff-galleria-v8-20261004/.htaccess; ne samo manifest revision.
+D3. U cPanel Domains potvrdi stvarni Document Root glavne domene. Vrati TOČNU
+    JAVNU adresu koja je ranije prikazala listing (http/https, www/apex, putanja),
+    vrijeme i eventualni screenshot. Ne dijeli cPanel session URL ili tokene.
+    Ako postoji snimka/lista "Index of /", navedi je li sadržavala index.html,
+    index.php i _pages; ne otvaraj privatne datoteke ili podatke kroz javni listing.
+D4. Samo read-only: relevantne DirectoryIndex/Options/Rewrite/AllowOverride
+    direktive roditeljskog /home2/dentvita/.htaccess ako postoji, cPanel Indexes
+    postavka i pogreške iz vremena pokušaja vezane uz taj root/htaccess/index.
+    Bez raw dumpa logova, podataka pacijenata, ključeva ili zaporki. Zabilježi
+    postojeći proxy/cache ako ga cPanel pokazuje; ne mijenjaj konfiguraciju,
+    ne čisti globalni cache i ne kontaktiraj hosting bez zasebnog naloga.
+D5. Vrati jedan kratak izvještaj D1–D4 i STANI. Stari javni web ostaje aktivan.
+    Nije unaprijed odobrena "popravka" preimenovanjem HTML-a u PHP, uklanjanjem
+    svih pravila, javnim PHP deploy/probe endpointom ili novim slijepim pokušajem.
+
 Koristi samo dentvitalis-web-production-candidate-20261004-galleria-v8.zip.
 ZIP: 57.925.698 bajta (55,24 MiB).
 SHA-256: d92be1d1578e66b70aa4461fbce74ea43c6d3c85cbdec078345aa1a634d94f66
