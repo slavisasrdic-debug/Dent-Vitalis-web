@@ -78,6 +78,15 @@ test('all 136 sitemap entries carry actual reciprocal HTML hreflang, including I
     documents,
   );
   assert.equal(await readFile(folder + 'sitemap-novi.xml', 'utf8'), xml);
+  assert.ok(!xml.includes('x-default'));
+  assert.equal(reportLinks(entries), 676);
+  for (const entry of entries) {
+    const htmlPage = pages.find((page) => page.url === entry.url);
+    assert.deepEqual(
+      entry.alternates,
+      htmlPage.alternates.filter((link) => link.lang !== 'x-default'),
+    );
+  }
   const counts = Object.fromEntries(
     ['it', 'hr', 'de', 'en', 'sl'].map((lang) => [
       lang,
@@ -105,8 +114,12 @@ test('all 136 sitemap entries carry actual reciprocal HTML hreflang, including I
     'import xml.etree.ElementTree as E,sys; n={"s":"http://www.sitemaps.org/schemas/sitemap/0.9","h":"http://www.w3.org/1999/xhtml"}; r=E.parse(sys.argv[1]).getroot(); print(len(r.findall("s:url/h:link",n)))',
     folder + 'sitemap-novi.xml',
   ]);
-  assert.equal(stdout.trim(), '812');
+  assert.equal(stdout.trim(), '676');
 });
+
+function reportLinks(entries) {
+  return entries.reduce((sum, entry) => sum + entry.alternates.length, 0);
+}
 
 test('hreflang validation rejects missing self, non-reciprocal targets, noindex and wrong language', () => {
   const base = 'https://www.dentvitalis.com';

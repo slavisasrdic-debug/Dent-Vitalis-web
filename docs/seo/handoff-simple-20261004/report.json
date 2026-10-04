@@ -15,8 +15,8 @@
   },
   "newSitemap": {
     "urls": 136,
-    "bytes": 93343,
-    "sha256": "9635351a509ba4053f148307bb93f6a02bea2ad3de66fa0c39acf06c4e16fc8f",
+    "bytes": 80967,
+    "sha256": "715153ec672507d4bf4e9d8f264499300cfe3b6295ada09f0e3cf7117412b0fc",
     "source": "unchanged localized-v3 URL set; hreflang copied and reciprocally validated from every rendered HTML head",
     "hreflangLanguages": [
       "it",
@@ -25,8 +25,10 @@
       "en",
       "sl"
     ],
-    "xDefault": "https://www.dentvitalis.com/",
-    "hreflangLinks": 812,
+    "xDefault": null,
+    "xDefaultRemovedByOwnerOn": "2026-10-04",
+    "htmlHreflangUnchanged": true,
+    "hreflangLinks": 676,
     "hreflangValidatedAgainstHtml": true
   },
   "htaccess": {
@@ -41,7 +43,7 @@
     "preservesOtherLegacyDirectiveBytes": true,
     "productionRuntimeVerified": false
   },
-  "sourceContentCommit": "935e5bb7c43def0d73a33fe3fc744a405acc1f8d",
+  "sourceContentCommit": "33f42559b84ac92e145eca455f0921c975aadc82",
   "comparisonCounts": {
     "same-url": 46,
     "existing-or-approved-301": 8,

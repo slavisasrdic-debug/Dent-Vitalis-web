@@ -21,7 +21,7 @@ summary.append(['Datum', '4. listopada 2026.'])
 summary.append(['Status', 'Paket za pregled. Nije instaliran na cPanel.'])
 summary.append(['Stari sitemap', '197 URL-ova; original s www.dentvitalis.com, bez izmjena.'])
 summary.append(['Novi sitemap', '136 URL-ova: IT 28, HR 27, DE 27, EN 27, SL 27.'])
-summary.append(['Hreflang', '812 XML veza; it/hr/de/en/sl + x-default. Provjereni prema HTML-u.'])
+summary.append(['Hreflang', f"{REPORT['newSitemap']['hreflangLinks']} XML veza; it/hr/de/en/sl, bez x-default prema odluci vlasnika. HTML ostaje nepromijenjen."])
 summary.append(['Ista adresa', 46])
 summary.append(['Postojeća/odobrena 301', 8])
 summary.append(['Dodatna 301 u ovom prijedlogu', 8])
@@ -31,7 +31,7 @@ summary.append(['Ostale stare adrese', '127: bez automatskog preusmjeravanja; ra
 summary.append(['Što to znači', '106 je u ranijem inventaru vraćalo 200, a 21 već 404. PHP fallback je očuvan; budući javni prikaz nije ovdje dokazan.'])
 summary.append(['.htaccess', '64 naslijeđene 301 pojave uz odobrene ispravke + 16 novih pravila (8 ranije odobrenih, 8 za pregled).'])
 summary.append(['Što se ne radi', 'Nema slanja svih starih URL-ova na naslovnicu, lažnih jezičnih parova niti proizvoljnog spajanja medicinskih usluga.'])
-summary.append(['Sitemap iznimka', 'Talijanski prijevoz ima samo IT i x-default: ostali prijevodi ne postoje.'])
+summary.append(['Sitemap iznimka', 'Talijanski prijevoz ima samo IT: ostali prijevodi ne postoje.'])
 summary.append(['Prije objave', 'SEO/vlasnik potvrđuju dodatne 301 i sadržajne odluke. Webmaster priprema novu reviziju manifesta i radi HTTP provjeru na hostingu.'])
 summary.append(['VAŽNO', 'Uploadani localized-v3 i pripremljeni next root još NE sadrže ove nove SEO datoteke. Ne aktivirati ih kao da sadrže ovu reviziju.'])
 summary.append(['Četiri dokumenta', 'sitemap-stari.xml; sitemap-novi.xml; .htaccess; DentVitalis-SEO-usporedba-20261004.xlsx'])
@@ -136,7 +136,7 @@ assert checked['Novi sitemap'].max_row == 137
 assert checked['Redirekcije'].max_row == 81
 assert len(checked.sheetnames) == 4
 
-zip_path = OUTPUT / 'DentVitalis-SEO-ispravljeno-20261004.zip'
+zip_path = OUTPUT / 'DentVitalis-SEO-bez-x-default-20261004.zip'
 with zipfile.ZipFile(zip_path, 'x', zipfile.ZIP_DEFLATED) as archive:
     for name in ['sitemap-stari.xml', 'sitemap-novi.xml', '.htaccess']:
         archive.write(SOURCE / name, name)
@@ -150,4 +150,4 @@ with zipfile.ZipFile(zip_path) as archive:
 print(json.dumps({'zip': str(zip_path), 'bytes': zip_path.stat().st_size,
                   'sha256': hashlib.sha256(zip_path.read_bytes()).hexdigest(),
                   'documents': 4, 'oldURLs': 197, 'newURLs': 136,
-                  'hreflangLinks': 812, 'redirectLines': len(redirect_rows)}, indent=2))
+                  'hreflangLinks': REPORT['newSitemap']['hreflangLinks'], 'redirectLines': len(redirect_rows)}, indent=2))

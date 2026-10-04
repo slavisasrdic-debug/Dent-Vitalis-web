@@ -127,6 +127,9 @@ export async function sitemapFromRenderedPages(
           '  <url>\n' +
           `    <loc>${escapeXml(page.url)}</loc>\n` +
           page.alternates
+            // Owner decision 2026-10-04: omit x-default only from XML.
+            // Keep validating the existing, unchanged HTML language pairs.
+            .filter((link) => link.lang !== 'x-default')
             .map(
               (link) =>
                 `    <xhtml:link rel="alternate" hreflang="${link.lang}" href="${escapeXml(link.url)}"/>\n`,

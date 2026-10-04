@@ -32,6 +32,8 @@ Talijanski je glavni jezik i mora ostati u rootu.
 - Primarni production host je `https://www.dentvitalis.com`.
 - Svaka prevedena stranica mora imati vlastiti stabilni URL, pravilan `html lang`, canonical i recipročni hreflang.
 - `x-default` vodi na talijansku početnu stranicu.
+- Dopuna vlasnika 2026-10-04: `x-default` ne objavljivati u XML sitemapu.
+  HTML hreflang ostaje nepromijenjen; XML zadržava stvarne jezične parove.
 - Jezični odabir mora voditi na ekvivalentnu prevedenu stranicu kada ona postoji.
 - Ako prijevod ne postoji, ne stvarati lažni hreflang par niti prikazivati drugu stranicu kao da je prijevod.
 - Navigacija, breadcrumb, CTA-i i interni linkovi moraju ostati u aktivnom jeziku.

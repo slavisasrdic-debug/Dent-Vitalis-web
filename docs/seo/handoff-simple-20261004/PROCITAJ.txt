@@ -3,9 +3,12 @@ DentVitalis — sitemap i kraći .htaccess, 4. listopada 2026.
 Za SEO mastera i webmastera:
 - sitemap-stari.xml: nepromijenjeni XML dohvaćen sa stvarne produkcije.
 - sitemap-novi.xml: 136 konačnih indeksabilnih URL-ova novog localized-v3 weba.
-  Sadrži 812 provjerenih hreflang veza: it/hr/de/en/sl i x-default na IT root.
+  Sadrži 676 provjerenih hreflang veza: it/hr/de/en/sl, bez x-default.
   Veze su preuzete iz stvarnog HTML-a i provjerene uzajamno za sve stranice.
-  IT prijevoz ima samo IT i x-default; drugi prijevodi ne postoje.
+  IT prijevoz ima samo IT; drugi prijevodi ne postoje.
+  Vlasnik je 4.10.2026. zatražio uklanjanje x-default samo iz XML-a;
+  postojeći HTML hreflang ostaje nepromijenjen. Talijanski naziv galerije
+  /domande-e-risposte nije ovim zahtjevom promijenjen na predloženi /galleria.
   Ovo je jedan URL popis, ne sitemap index; može se objaviti kao sitemap.xml.
   Zahvalne stranice ostaju dostupne s noindex, ali nisu u novom sitemapu.
 - htaccess-novi.txt i .htaccess: identični sadržaj; TXT je za pregled/email.
@@ -15,7 +18,8 @@ Za SEO mastera i webmastera:
 - ZIP za slanje ima točno 4 dokumenta: oba XML-a, .htaccess i Excel usporedbu.
   Excel ima kratak sažetak, svih 197 starih URL-ova, svih 136 novih URL-ova
   te pregled svih 80 redirekcijskih pojava (uključujući stare duplikate).
-  Stari ZIP DentVitalis-SEO-4-dokumenta-20261004.zip povučen je iz upotrebe.
+  Važeći ZIP za SEO kolegu: DentVitalis-SEO-bez-x-default-20261004.zip.
+  Raniji SEO ZIP-ovi ostaju povijesne kopije, ne ova XML revizija.
 
 Kraći .htaccess zadržava stare 301 redirekcije s već odobrenim korekcijama,
 svih osam odobrenih novih 301 i osam dodatnih jasno ekvivalentnih za SEO pregled,

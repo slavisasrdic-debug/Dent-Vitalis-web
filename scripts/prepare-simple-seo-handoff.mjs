@@ -230,8 +230,10 @@ const report = {
     source:
       'unchanged localized-v3 URL set; hreflang copied and reciprocally validated from every rendered HTML head',
     hreflangLanguages: ['it', 'hr', 'de', 'en', 'sl'],
-    xDefault: 'https://www.dentvitalis.com/',
-    hreflangLinks: newPages.reduce(
+    xDefault: null,
+    xDefaultRemovedByOwnerOn: '2026-10-04',
+    htmlHreflangUnchanged: true,
+    hreflangLinks: sitemapEntries(newXml).reduce(
       (sum, page) => sum + page.alternates.length,
       0,
     ),
