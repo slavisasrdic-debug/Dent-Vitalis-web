@@ -14,7 +14,32 @@ odmah izveden kodni povratak. Stari root je `/home2/dentvita/public_html/`
 Stara naslovnica i `/hr/desinfekcija` ponovno rade prema agentu. Token GET
 blokiran je u njegovu browseru; ostale v8 runtime provjere nisu izvršene.
 Backend, DNS/PHP, privatni podaci i stvarne forme nisu mijenjani prema izvještaju.
-Uzrok, točan javni URL i HTTP status neuspjelog zahtjeva nisu potvrđeni.
+Uzrok i HTTP status neuspjelog zahtjeva nisu potvrđeni.
+
+**D1–D5 pregled završen prema vlasnikovu novom izvještaju:** sačuvani failed
+root ima index.html/index.php/.htaccess neposredno u korijenu; početni HTML
+sadrži novi web, a hash teksta .htaccessa iz Viewa odgovara manifestu. To nije
+neovisni hash sirovih serverskih bajtova. Potvrđene su Options -Indexes i
+DirectoryIndex index.html index.php; Domains pokazuje /home2/dentvita/public_html.
+Listing je prijavljen na https://www.dentvitalis.com/ oko 4.10.2026. 21:46 CEST;
+snimka vraćene naslovnice je iz 21:46:39. Snimka samog listinga i odnos trenutka
+zahtjeva prema drugom preimenovanju nisu potvrđeni. Roditeljski .htaccess ima
+samo kompresiju; dostupni Errors nisu objasnili incident, zona loga i owner/group
+nisu dostupni. Ne ponavljati ovaj završeni File Manager pregled.
+
+Neovisni javni GET u 19:59:40 UTC potvrđuje vraćeni stari www root (200, stari
+naslov, bez listinga/Astro resursa). Odgovor ima Server: LiteSpeed; verzija i
+topologija nisu potvrđeni. /index.html na VRAĆENOM STAROM rootu vraća 404 — to
+ne govori o v8 failed rootu. Apex HTTPS daje staru 301 na HTTP www. Ništa nije
+mijenjano i nisu slani POST-ovi ili zapisani cookie/token sadržaji.
+
+Sljedeći korak nije novi ZIP ili slijepa aktivacija: vlasniku je pripremljen
+read-only upit hostingu za stvarni HTTPS/www vhost, primjenu .htaccessa,
+DirectoryIndex/Options/AllowOverride, cache/config metadata nakon renamea te
+owner/group. Lokalni Apache test nije LiteSpeed runtime potvrda. Hosting nije
+kontaktiran i promjena/restart/global purge nisu odobreni. Agent može iz
+postojećih zapisa samo pojasniti je li listing zatražen poslije oba renamea;
+ne reproducirati ga aktivacijom. Dok to ne donese dokaz, STOP ostaje na snazi.
 
 Ovaj STOP ima prednost nad starim aktivacijskim uputama. Dokument agenta sada
 počinje D1–D5: ciljano read-only pregledati sačuvani failed root, placement/

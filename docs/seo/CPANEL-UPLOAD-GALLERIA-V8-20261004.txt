@@ -6,6 +6,35 @@ Aktivni stari root: /home2/dentvita/public_html/ (0750 prema izvještaju).
 Sačuvani v8 root: /home2/dentvita/public_html-failed-20261004-galleria-v8/.
 Ne koristi više prethodni next naziv kao da je još aktualni v8 direktorij.
 Ne ponavljaj aktivaciju, upload, Extract, root premještanja ili chmod naslijepo.
+NAJNOVIJE: D1–D5 read-only pregled završen prema vlasnikovu izvještaju.
+Index/html/php/htaccess postoje neposredno u failed rootu, tekst htaccessa iz
+Viewa hashom odgovara manifestu. HTTPS www / je prikazao listing oko 21:46 CEST
+4.10.2026.; nema dostupnog dokaza uzroka ni owner/group. Ne ponavljati pregled.
+Neovisni GET starog www roota vraća 200 i Server: LiteSpeed, bez listinga.
+Lokalni Apache test nije potvrda ponašanja tog produkcijskog LiteSpeed servera.
+
+H1. Iz postojećeg slijeda operacija samo pojasni je li naslovnica zatražena
+    NAKON oba uspješna preimenovanja ili u međukoraku. Ne ponavljaj aktivaciju.
+H2. Vlasnik može proslijediti hostingu ispod pripremljen read-only upit.
+    Agent sam ne kontaktira hosting, ne mijenja server, ne purga cache i ne
+    restarta servis. Čekamo nalaz, ne uvodimo hipotetski fix u novi ZIP.
+
+PORUKA HOSTING PODRŠCI — READ-ONLY DIJAGNOSTIKA
+Na https://www.dentvitalis.com/ pri zamjeni javnog direktorija 4.10.2026.
+oko 21:46 CEST pojavio se Index of /. Odmah je izveden rollback; stari web radi.
+Glavni Document Root je /home2/dentvita/public_html; neuspjela verzija sačuvana
+je u /home2/dentvita/public_html-failed-20261004-galleria-v8/.
+Ta verzija ima index.html i index.php u korijenu, .htaccess s Options -Indexes
+i DirectoryIndex index.html index.php. Tekst htaccessa odgovara v8 manifestu.
+Javni Server header sada je LiteSpeed. Molimo bez promjena provjerite stvarni
+HTTPS/www vhost i Document Root, efektivni DirectoryIndex/Options/AllowOverride,
+primjenu htaccessa i cache/config metadata nakon preimenovanja direktorija,
+vlasništvo/grupu te relevantne access/error zapise iz vremena incidenta (uz
+navedenu zonu vremena). Potvrdite jesu li zahtjevi tada čitali novi direktorij
+ili prijelazno/staro stanje. Potrebni su utvrđen uzrok i najmanji predloženi
+ispravak. Ne aktivirati failed verziju, ne mijenjati DNS/PHP, ne restartati
+server i ne čistiti globalni cache bez dogovora. Ne tražimo ponovno slanje formi.
+
 Lokalni stvarni Apache s istim završnim htaccessom vraća početni HTML; nova
 provjera sadržaja i zabrane autoindexa prolazi. ZIP se nije promijenio.
 To nije potvrda razloga produkcijske regresije. HTTP 200 sam ne dokazuje naslovnicu.
