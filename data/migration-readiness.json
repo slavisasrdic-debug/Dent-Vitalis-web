@@ -61,7 +61,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "routing-v2-private-stage-reported-complete-awaiting-owner-IT-DE-EN-SL-CRM-and-readable-PDF-confirmations-review-integrity-rollback-preservation-without-public-activation",
+    "nextCheck": "routing-v2-private-stage-reported-complete-five-language-backend-receipt-owner-accepted-review-integrity-runtime-SEO-rollback-preservation-without-public-activation",
     "cloudflarePreviewRetirement": {
       "reportedOn": "2026-10-02",
       "source": "owner-dashboard-screenshots-and-owner-request-to-leave-this-for-now",
@@ -159,7 +159,6 @@
       "selected-transport-integrity-and-activation-test",
       "effective-PHP-FPM-extensions-and-session-cookie-hardening-review",
       "ordinary-browser-end-to-end-form-submit-not-yet-tested",
-      "approved-email-and-CRM-receipt-test",
       "legacy-URL-decisions",
       "production-consent-and-conversions"
     ]
@@ -553,7 +552,21 @@
       "newFrontendEndToEndTest": false
     },
     "publicSiteActivated": false,
-    "pendingReceiptLanguages": ["it", "de", "en", "sl"],
+    "pendingReceiptLanguages": [],
+    "remainingCrmAndPdfAcceptance": {
+      "reportedOn": "2026-10-04",
+      "source": "owner-message-Da-potvrdujem-sve-je-ok-in-reply-to-IT-DE-EN-SI-CRM-and-readable-PDF-question",
+      "languages": ["it", "de", "en", "sl"],
+      "crmLeadsConfirmedByOwner": true,
+      "crmPdfOpeningConfirmedByOwner": true,
+      "fiveLanguageBackendReceiptAcceptedWithPreviousEmailEvidence": true,
+      "independentCrmAccessOrPerLanguageScreenshotsProvided": false,
+      "downloadedAttachmentHashesVerified": false,
+      "separateMailAttachmentOpeningConfirmedByThisReply": false,
+      "newFrontendEndToEndOrConversionsVerified": false,
+      "publicActivationOrAdditionalPostsAuthorizedByThisReply": false,
+      "repeatApprovedSyntheticBackendTests": false
+    },
     "remainingLanguageTests": [
       {
         "language": "it",
@@ -566,7 +579,7 @@
           "sha256": "5bf9e16b8856680afc0c8195400cabbb49dcff967b50013bf6ac83f8964a355b",
           "containsPatientData": false
         },
-        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "status": "owner-confirms-inbox-CRM-and-readable-CRM-PDF",
         "inboxReceiptConfirmed": true,
         "mailReceiptEvidence": {
           "reportedOn": "2026-10-04",
@@ -576,9 +589,10 @@
           "attachmentOpenedAndReadableConfirmed": false,
           "personalContactOrMailboxValuesRecorded": false
         },
-        "crmLeadConfirmed": false,
+        "crmLeadConfirmed": true,
         "mailAttachmentConfirmed": false,
-        "crmAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": true,
+        "crmReceiptEvidenceReference": "syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance",
         "newFrontendEndToEndTest": false,
         "tokenPreflight": {
           "httpStatus": 200,
@@ -612,7 +626,7 @@
           "sha256": "cf32ceaa03c6ff846e13d285f597fbeec9b2aa1a403d95da0ef77eb1d5d1fafa",
           "containsPatientData": false
         },
-        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "status": "owner-confirms-inbox-CRM-and-readable-CRM-PDF",
         "inboxReceiptConfirmed": true,
         "mailReceiptEvidence": {
           "reportedOn": "2026-10-04",
@@ -622,9 +636,10 @@
           "attachmentOpenedAndReadableConfirmed": false,
           "personalContactOrMailboxValuesRecorded": false
         },
-        "crmLeadConfirmed": false,
+        "crmLeadConfirmed": true,
         "mailAttachmentConfirmed": false,
-        "crmAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": true,
+        "crmReceiptEvidenceReference": "syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance",
         "newFrontendEndToEndTest": false,
         "tokenPreflight": {
           "httpStatus": 200,
@@ -658,7 +673,7 @@
           "sha256": "5fe9a8824afdef0786ad9ede3eb534fb272c458a5c2f249e3fd8395515164fcb",
           "containsPatientData": false
         },
-        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "status": "owner-confirms-inbox-CRM-and-readable-CRM-PDF",
         "inboxReceiptConfirmed": true,
         "mailReceiptEvidence": {
           "reportedOn": "2026-10-04",
@@ -668,9 +683,10 @@
           "attachmentOpenedAndReadableConfirmed": false,
           "personalContactOrMailboxValuesRecorded": false
         },
-        "crmLeadConfirmed": false,
+        "crmLeadConfirmed": true,
         "mailAttachmentConfirmed": false,
-        "crmAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": true,
+        "crmReceiptEvidenceReference": "syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance",
         "newFrontendEndToEndTest": false,
         "tokenPreflight": {
           "httpStatus": 200,
@@ -704,7 +720,7 @@
           "sha256": "3378a19bf5892784a94106f378992afb360090b52658788db6dbd3f28760c721",
           "containsPatientData": false
         },
-        "status": "owner-confirms-email-awaiting-CRM-and-readable-attachments",
+        "status": "owner-confirms-inbox-CRM-and-readable-CRM-PDF",
         "inboxReceiptConfirmed": true,
         "mailReceiptEvidence": {
           "reportedOn": "2026-10-04",
@@ -714,9 +730,10 @@
           "attachmentOpenedAndReadableConfirmed": false,
           "personalContactOrMailboxValuesRecorded": false
         },
-        "crmLeadConfirmed": false,
+        "crmLeadConfirmed": true,
         "mailAttachmentConfirmed": false,
-        "crmAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": true,
+        "crmReceiptEvidenceReference": "syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance",
         "newFrontendEndToEndTest": false,
         "tokenPreflight": {
           "httpStatus": 200,

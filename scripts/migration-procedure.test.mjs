@@ -235,7 +235,7 @@ test('historical unsafe private stage does not prove integrity or close current 
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
   assert.match(
     report.procedure.nextCheck,
-    /awaiting-owner-IT-DE-EN-SL-CRM-and-readable-PDF-confirmations/,
+    /five-language-backend-receipt-owner-accepted/,
   );
   assert.ok(
     report.serverGates.includes(
@@ -387,7 +387,7 @@ test('owner-accepted HR delivery and readable PDFs do not prove file hashes or a
   assert.equal(progress.submissionsAttempted, 5);
   assert.equal(progress.automaticRetriesPerformed, 0);
   assert.deepEqual(progress.pendingLanguages, []);
-  assert.deepEqual(progress.pendingReceiptLanguages, ['it', 'de', 'en', 'sl']);
+  assert.deepEqual(progress.pendingReceiptLanguages, []);
   assert.equal(
     progress.pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed,
     false,
@@ -450,7 +450,7 @@ test('owner-accepted HR delivery and readable PDFs do not prove file hashes or a
   );
 });
 
-test('owner-confirmed remaining emails exhaust approval without claiming CRM, PDFs or new frontend acceptance', () => {
+test('owner accepts remaining inbox and CRM/PDF receipts without independent hashes or new frontend acceptance', () => {
   const progress = report.syntheticDeliveryTestProgress;
   const tests = progress.remainingLanguageTests;
   assert.equal(tests.length, 4);
@@ -468,10 +468,7 @@ test('owner-confirmed remaining emails exhaust approval without claiming CRM, PD
   for (const entry of tests) {
     assert.equal(entry.httpStatus, 200);
     assert.equal(entry.responseStatus, 'ok');
-    assert.equal(
-      entry.status,
-      'owner-confirms-email-awaiting-CRM-and-readable-attachments',
-    );
+    assert.equal(entry.status, 'owner-confirms-inbox-CRM-and-readable-CRM-PDF');
     assert.match(entry.sourcePageUrl, /^https:\/\/www\.dentvitalis\.com\//);
     assert.equal(entry.tokenPreflight.csrfAndGctNonempty, true);
     assert.equal(entry.tokenPreflight.sessionCookieEstablished, true);
@@ -496,9 +493,13 @@ test('owner-confirmed remaining emails exhaust approval without claiming CRM, PD
       entry.mailReceiptEvidence.personalContactOrMailboxValuesRecorded,
       false,
     );
-    assert.equal(entry.crmLeadConfirmed, false);
+    assert.equal(entry.crmLeadConfirmed, true);
     assert.equal(entry.mailAttachmentConfirmed, false);
-    assert.equal(entry.crmAttachmentConfirmed, false);
+    assert.equal(entry.crmAttachmentConfirmed, true);
+    assert.equal(
+      entry.crmReceiptEvidenceReference,
+      'syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance',
+    );
     assert.equal(entry.newFrontendEndToEndTest, false);
   }
   assert.equal(
@@ -506,6 +507,41 @@ test('owner-confirmed remaining emails exhaust approval without claiming CRM, PD
     'https://www.dentvitalis.com/si',
   );
   assert.equal(progress.publicSiteActivated, false);
+});
+
+test('five-language receipt confirmation closes only backend delivery acceptance', () => {
+  const accepted =
+    report.syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance;
+  assert.deepEqual(
+    report.syntheticDeliveryTestProgress.pendingReceiptLanguages,
+    [],
+  );
+  assert.equal(
+    accepted.fiveLanguageBackendReceiptAcceptedWithPreviousEmailEvidence,
+    true,
+  );
+  assert.equal(accepted.downloadedAttachmentHashesVerified, false);
+  assert.equal(accepted.newFrontendEndToEndOrConversionsVerified, false);
+  assert.equal(
+    accepted.publicActivationOrAdditionalPostsAuthorizedByThisReply,
+    false,
+  );
+  assert.equal(accepted.repeatApprovedSyntheticBackendTests, false);
+  assert(
+    !report.procedure.unresolvedAcceptance.includes(
+      'approved-email-and-CRM-receipt-test',
+    ),
+  );
+  for (const gate of [
+    'restore-test-preserving-live-data',
+    'selected-transport-integrity-and-activation-test',
+    'effective-PHP-FPM-extensions-and-session-cookie-hardening-review',
+    'ordinary-browser-end-to-end-form-submit-not-yet-tested',
+    'legacy-URL-decisions',
+    'production-consent-and-conversions',
+  ]) {
+    assert(report.procedure.unresolvedAcceptance.includes(gate));
+  }
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

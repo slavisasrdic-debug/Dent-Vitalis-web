@@ -54,7 +54,9 @@ Ne ponavljati prijavljeni dovrseni upload/Extract/pregled dozvola bez razloga.
 Na cPanelu nakon zasebnog odobrenja: preostali integritet i prihvati, PHP rute,
 statusi/Location, lanci/petlje, query, canonical/hreflang, sitemap/robots,
 404/410 te GTM/CookieYes i konverzije. Backup/rollback ne prepisuje nove
-application/data ili CRM podatke. Preostale CRM/PDF potvrde jos nisu dobivene.
+application/data ili CRM podatke. Vlasnik je naknadno potvrdio i preostale
+CRM zapise/citljive CRM PDF-ove; petojezicni backend primitak je prihvacen.
+To ne potvrduje submit novog frontenda ili konverzije.
 Jedina procedura: docs/cpanel-migration-runbook.md.
 
 EXCEL ZA SLANJE SEO SURADNIKU

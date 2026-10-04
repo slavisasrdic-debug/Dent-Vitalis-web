@@ -8,6 +8,18 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**Najnovije — petojezična backend dostava prihvaćena, 4. listopada:** vlasnik
+je na pitanje o IT/DE/EN/SI CRM zapisima i otvaranju PDF-ova odgovorio
+„Da potvrđujem, sve je ok.” Uz ranije potvrđene e-mailove i prihvaćeni HR
+test to zatvara vlasnički prihvat primitka svih pet sintetičkih backend upita.
+Ne ponavljati POST-ove niti tražiti iste potvrde ponovno. Za četiri preostala
+jezika to je zajednička vlasnička potvrda CRM-a i čitljivih CRM PDF-ova, ne
+neovisni pristup, hash provjera ili zasebna potvrda otvaranja PDF-a u mailboxu.
+Novi frontend submit, konverzije, PHP/cookie prihvat, integritet stagea,
+potpuni SEO prihvat i test kodnog povratka nisu time potvrđeni. Nema javne
+aktivacije ni nove ovlasti za slanje. Izvor: readiness
+`syntheticDeliveryTestProgress.remainingCrmAndPdfAcceptance`.
+
 **Najnovije — routing-v2 privatni stage završen prema agentu, 4. listopada:**
 vlasnik je dostavio izvještaj i cPanel screenshot za
 `/home2/dentvita/releases/20261004-redirects-v2/`. Upload je 100 %, Extract
@@ -91,14 +103,15 @@ validacijskih grešaka. Svaki je imao jedan neutralni PDF od 640 B.
 
 | Jezik               | Oznaka testa                 | Primitak e-maila/CRM-a i čitljivih privitaka |
 | ------------------- | ---------------------------- | -------------------------------------------- |
-| IT                  | `DV-MIG-20261004-IT-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
-| DE                  | `DV-MIG-20261004-DE-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
-| EN                  | `DV-MIG-20261004-EN-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
-| SL, javni URL `/si` | `DV-MIG-20261004-SL-122037Z` | E-mail potvrđen; CRM/PDF još čekaju potvrdu. |
+| IT                  | `DV-MIG-20261004-IT-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
+| DE                  | `DV-MIG-20261004-DE-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
+| EN                  | `DV-MIG-20261004-EN-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
+| SL, javni URL `/si` | `DV-MIG-20261004-SL-122037Z` | E-mail, CRM i čitljiv CRM PDF potvrđeni vlasnikom. |
 
 Vlasnik je 4. listopada odgovorio „Stigli su emailovi”. Prihvaćena je ta
 zajednička potvrda primitka preostalih e-mailova; nema zasebnih screenshotova,
-neovisnog mailbox pristupa niti nove potvrde CRM zapisa/čitljivosti PDF-a.
+neovisnog mailbox pristupa. Naknadnu CRM/PDF potvrdu opisuje najnoviji zapis
+na vrhu; e-mail PDF otvaranje tih četiriju jezika nije zasebno potvrđeno.
 Za SEO kolegu aktualni je [popis odobrenog paketa](seo/redirects-approved-20261004.csv),
 uz [granice dokaza i otvorene odluke](seo/redirects-approved-20261004-README.txt).
 Izvoz iz ZIP-a nije produkcijski HTTP test niti aktivacija redirekcija.
@@ -110,7 +123,8 @@ multipart zahtjev na pravi `https://www.dentvitalis.com/send`, nije slao SMTP
 ili izravni CRM zahtjev. Primatelji, CRM, konfiguracija, DNS i javni izgled
 nisu mijenjani. Ovo nije browser submit nove Astro forme niti GTM konverzija.
 Detaljni sanitizirani rezultati/hashi su u `syntheticDeliveryTestProgress`.
-Novi javni upload/aktivacija i dalje čekaju dovršeni prihvat svih jezika.
+Novi privatni upload završen je prema agentu; backend primitak svih jezika
+prihvaćen je vlasnikom. Javna aktivacija čeka preostale release gates.
 
 **Prvi odobreni stvarni sintetički POST — prihvaćeni HR:** vlasnik je odobrio
 pet TEST upita (po jeziku), jedan bezopasni PDF i dostavio kontakt testnog
