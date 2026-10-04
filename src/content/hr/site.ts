@@ -5,6 +5,7 @@ import {
 } from '../site';
 import { t, text, bilingual } from './source';
 import { route } from './routes';
+import { whatsappCopy } from '../whatsapp';
 
 // Navigation labels reuse approved copy. Short technical UI labels are kept separate
 // from patient/medical content and never used as a source for translated articles.
@@ -173,10 +174,7 @@ export const contactCopy: typeof itContact = {
   invalidFile: 'Odaberite PDF, JPG ili PNG datoteku.',
 };
 export const chatCopy = {
-  team: 'Jelena',
-  responseTime: 'Dentvitalis',
-  greeting: '',
-  message: 'Kako vam možemo pomoći?',
+  ...whatsappCopy('hr'),
   action: 'Razgovaraj putem WhatsAppa',
   unavailable: 'WhatsApp nije aktivan u ovom pretpregledu.',
 };

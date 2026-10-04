@@ -1,0 +1,67 @@
+{
+  "sourceProvidedByOwnerOn": "2026-10-04",
+  "extractedAt": "2026-10-04T16:26:51.666Z",
+  "scope": "Exact public name, custom caption and welcome copy; approved native panel, localized CTA and real Jelena portrait retained. No SDK, automatic opening, trackers or inactive reply-time claims imported.",
+  "locales": {
+    "it": {
+      "widgetId": "97dc04b8-23e7-4eef-8c47-449554cf098f",
+      "sourceUrl": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fwww.dentvitalis.com%2F&w=97dc04b8-23e7-4eef-8c47-449554cf098f",
+      "responseSha256": "bbd73ac8c7e8669391bc5b05459d06acae8c94f02ca0bda1bffb3444851382e4",
+      "widgetLanguage": "it",
+      "phone": "385911100523",
+      "team": "Jelena",
+      "responseTime": "Chiedi a nostro staff",
+      "message": "Buongiorno!\nSono Jelena,\nposso esserti d'aiuto?",
+      "sourceButtonText": "Start Chat",
+      "sourcePortraitUrl": "https://files.elfsight.com/storage/b84ecf4b-9d3b-43e9-bc90-005569e31888/e6da8595-ad14-45b6-9acb-1b674934f918.jpeg"
+    },
+    "hr": {
+      "widgetId": "dbe233ee-6fca-45db-81da-30ab0413a3b6",
+      "sourceUrl": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fwww.dentvitalis.com%2F&w=dbe233ee-6fca-45db-81da-30ab0413a3b6",
+      "responseSha256": "e89ea95b4b72017a95bebcf4302e1d313411979cb47ff5c6d5191d5b6d8b6f8e",
+      "widgetLanguage": "hr",
+      "phone": "385911100523",
+      "team": "DENTVITALIS",
+      "responseTime": "Krešimirova 60, Rijeka",
+      "message": "Dobar dan, kako vam mogu pomoći?\n\nJelena",
+      "sourceButtonText": "Chat on WhatsApp",
+      "sourcePortraitUrl": "https://static.elfsight.com/configurator/assets/avatars/4-female-20-small-320x320.jpg"
+    },
+    "de": {
+      "widgetId": "72199004-e373-4537-9de3-0fa41d4e27ea",
+      "sourceUrl": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fwww.dentvitalis.com%2F&w=72199004-e373-4537-9de3-0fa41d4e27ea",
+      "responseSha256": "4a51a0d4e69f1000d9805802a3a3b3aa159991faa38784b3769ca0dc19d22108",
+      "widgetLanguage": "de",
+      "phone": "385911100523",
+      "team": "DENTVITALIS",
+      "responseTime": "Krešimirova 60, Rijeka, Kroatien",
+      "message": "Hallo, wie kann ich Ihnen helfen?\n\nJelena",
+      "sourceButtonText": "Chat on WhatsApp",
+      "sourcePortraitUrl": "https://static.elfsight.com/configurator/assets/avatars/4-female-20-small-320x320.jpg"
+    },
+    "en": {
+      "widgetId": "47c668f9-630d-4579-9ff0-0ae419db8879",
+      "sourceUrl": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fwww.dentvitalis.com%2F&w=47c668f9-630d-4579-9ff0-0ae419db8879",
+      "responseSha256": "880ee37359d6c86ff5aff3d103a310d105dfd1a06c7bb2599bd36d1b36e6175b",
+      "widgetLanguage": "en-gb",
+      "phone": "385911100523",
+      "team": "Jelena",
+      "responseTime": "Krešimirova 60, Rijeka, Croatia",
+      "message": "Hello, how can I help you?\n\nJelena",
+      "sourceButtonText": "Start Chat",
+      "sourcePortraitUrl": "https://files.elfsight.com/storage/b84ecf4b-9d3b-43e9-bc90-005569e31888/e6da8595-ad14-45b6-9acb-1b674934f918.jpeg"
+    },
+    "sl": {
+      "widgetId": "c0e50881-1c15-433d-a012-18c1b3d36fcb",
+      "sourceUrl": "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fwww.dentvitalis.com%2F&w=c0e50881-1c15-433d-a012-18c1b3d36fcb",
+      "responseSha256": "e009b5f651479b6c5f30fcfa7e63f75839f85253d9b60aaf13f4a27544c9377e",
+      "widgetLanguage": "sl",
+      "phone": "385911100523",
+      "team": "DENTVITALIS",
+      "responseTime": "Krešimirova 60, Reka, Hrvaška",
+      "message": "Pozdravljeni, kako vam lahko pomagam?\n\nJelena",
+      "sourceButtonText": "Chat on WhatsApp",
+      "sourcePortraitUrl": "https://static.elfsight.com/configurator/assets/avatars/4-female-20-small-320x320.jpg"
+    }
+  }
+}

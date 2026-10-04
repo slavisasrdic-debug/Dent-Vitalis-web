@@ -6,6 +6,7 @@ import {
 } from '../site';
 import { legalLinks } from './legal-routes';
 import { route } from './routes';
+import { whatsappCopy } from '../whatsapp';
 
 // Read the supplied translation by explicit source ID, never by table alignment.
 export function row(tableId: string, index: number): string[] {
@@ -170,10 +171,7 @@ export const contactCopy: typeof ContactCopy = {
   invalidFile: 'Bitte wählen Sie eine PDF-, JPG- oder PNG-Datei.',
 };
 export const chatCopy = {
-  team: 'Jelena',
-  responseTime: 'Dentvitalis',
-  greeting: '',
-  message: 'Wie können wir Ihnen helfen?',
+  ...whatsappCopy('de'),
   action: 'Über WhatsApp sprechen',
   unavailable: 'WhatsApp ist in dieser Vorschau nicht aktiv.',
 };

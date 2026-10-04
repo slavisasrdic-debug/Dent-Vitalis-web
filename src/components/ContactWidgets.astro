@@ -24,7 +24,7 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
       <img
         class="chat-portrait"
         src="/assets/images/jelena-chat.webp"
-        alt={content.team}
+        alt="Jelena"
         width="64"
         height="64"
         loading="lazy"
@@ -45,7 +45,14 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
                 <br />
               </>
             )
-          }{content.message}</span
+          }{
+            content.message.split('\n').map((line, index) => (
+              <>
+                {index > 0 && <br />}
+                {line}
+              </>
+            ))
+          }</span
         >
       </div>
     </div><div class="chat-action">

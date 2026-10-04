@@ -1,5 +1,6 @@
 import { clinic as business, referenceBusiness } from '../../data/site';
 import footerSource from './footer-it.json';
+import { whatsappCopy } from './whatsapp';
 // Published footer label points to post-treatment reviews, whose actual source
 // anchor is #post (the source footer mistakenly uses the FAQ anchor #dentvitalis).
 export const footerGroups = footerSource.map((group) => ({
@@ -40,10 +41,7 @@ export const clinic = {
   maps: business.contact.mapUrl,
 } as const;
 export const chatCopy = {
-  team: 'Jelena',
-  responseTime: 'Chiedi a nostro staff',
-  greeting: 'Buongiorno! Sono Jelena...',
-  message: "posso esserti d'aiuto?",
+  ...whatsappCopy('it'),
   action: 'Avvia chat su WhatsApp',
   unavailable: 'Numero WhatsApp in attesa di conferma.',
 };

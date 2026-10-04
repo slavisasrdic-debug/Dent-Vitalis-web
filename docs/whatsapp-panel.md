@@ -1,5 +1,43 @@
 # WhatsApp panel — 11. rujna 2026.
 
+## Važeća dopuna — 4. listopada 2026.
+
+Vlasnik je dostavio novih pet javnih Elfsight ID-jeva. Njihove stvarne
+konfiguracije dohvaćene su jednom za ovaj audit i spremljene u mrežni cache
+`.astro/audits/whatsapp-20261004/`, izvan Gita i builda. Izvorni ID, URL,
+SHA-256 odgovora, jezik, ime, prilagođeni podnaslov, poruka i broj dokumentirani
+su u `data/whatsapp-copy-20261004.json`. `scripts/extract-whatsapp-copy.mjs`
+ponovno koristi cache; ne izvršava izvorni HTML ni SDK.
+
+Svih pet jezika sada koristi zajednički adapter `src/content/whatsapp.ts`.
+Tekstovi poruka i podnaslova preuzeti su točno, uključujući prijelome redaka.
+Slovenski `sl` ide na `/si`; `en-gb` iz izvora odgovara postojećem `en`.
+Broj ostaje potvrđeni `385911100523`. Inaktivne tvrdnje o brzini odgovora,
+automatsko otvaranje, badgeovi, source trackeri i SDK nisu preuzeti.
+Izvorni gumbi „Start Chat”/„Chat on WhatsApp” u nekim jezicima nisu prevedeni:
+zadržani su već prihvaćeni lokalizirani gumbi našeg weba. HR/DE/SL source
+avatar je generički; nije zamijenio ranije odobrenu stvarnu fotografiju Jelene.
+Alt fotografije ostaje „Jelena”, ne novo zaglavlje „DENTVITALIS”.
+
+Ova dopuna zamjenjuje stare WhatsApp tekstove ispod, ne mijenja dizajn,
+kontakte klinike, forme, GTM ili CookieYes. Posjetitelj sam otvara panel i
+sam bira WhatsApp poveznicu; nema slanja poruke ni mrežnog Elfsight učitavanja.
+Browser plugin nije dostupan; provjera koristi postojeći Playwright.
+
+Prihvat dopune: `astro check` — 267 datoteka, bez grešaka/upozorenja;
+lint i ciljano formatiranje prolaze. Svih 14 WhatsApp Playwright testova
+prolazi na pet naslovnica i IT/HR FAQ-u: 320/390/1440 px, točan tekst,
+prevedeni gumb, broj, jedna instanca, otvaranje/zatvaranje, fokus/Escape,
+bez JS-a i bez vanjskih chat zahtjeva. Vizualno pregledane snimke
+`/tmp/dentvitalis-whatsapp-v5-it-1440.png` i
+`/tmp/dentvitalis-whatsapp-v5-hr-390.png`; nema preklapanja mobilnog CTA-a.
+14 ciljanih Node provjera source/SEO/ruta/sigurnog ZIP-a prolazi;
+form preflight potvrđuje 141 zaštićenu formu i pet zahvalnih ruta.
+Produkcijski build ima 142 HTML datoteke. Nije slana WhatsApp poruka ili
+POST, niti je cPanel mijenjan. Ovo nije produkcijski runtime prihvat.
+
+## Arhivirani prihvat iz rujna
+
 Završne statičke provjere: `npm run check` (162 datoteke, bez grešaka/upozorenja), `npm run lint`, `npm run build` (56 stranica) uspješne. Ista WhatsApp matrica prošla je i 8/8 u WebKitu (`--browser=webkit`); konfiguracija nema imenovani WebKit projekt.
 
 Korisnik je odobrio implementaciju na oba aktivna jezika, korištenje zajedničkog broja 385911100523 te naknadno izričito zatražio Jeleninu fotografiju i podatke. Drugi jezici nisu izmišljeni niti aktivirani.

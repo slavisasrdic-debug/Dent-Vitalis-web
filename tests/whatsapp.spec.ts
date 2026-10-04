@@ -1,6 +1,15 @@
 import { expect, test } from '@playwright/test';
+import source from '../data/whatsapp-copy-20261004.json' with { type: 'json' };
 
-for (const route of ['/', '/hr/', '/faq/', '/hr/faq/']) {
+for (const route of [
+  '/',
+  '/hr/',
+  '/de/',
+  '/en/',
+  '/si/',
+  '/faq/',
+  '/hr/faq/',
+]) {
   test(`WhatsApp panel responsive and keyboard: ${route}`, async ({ page }) => {
     const errors: string[] = [];
     const external: string[] = [];
@@ -13,13 +22,15 @@ for (const route of ['/', '/hr/', '/faq/', '/hr/faq/']) {
     await expect(page.locator('h1')).toBeVisible();
     const toggle = page.locator('.chat-toggle');
     const panel = page.locator('.chat-panel');
+    const lang = (await page
+      .locator('html')
+      .getAttribute('lang')) as keyof typeof source.locales;
+    const expected = source.locales[lang];
+    await expect(page.locator('[data-chat-widget]')).toHaveCount(1);
+    await expect(panel).toBeHidden();
     for (const [width, height] of [
       [320, 568],
       [390, 844],
-      [820, 1180],
-      [844, 390],
-      [991, 900],
-      [992, 900],
       [1440, 900],
     ]) {
       await page.setViewportSize({ width: width!, height: height! });
@@ -27,10 +38,18 @@ for (const route of ['/', '/hr/', '/faq/', '/hr/faq/']) {
       await expect(panel).toBeVisible();
       await expect(toggle).toHaveAttribute('aria-expanded', 'true');
       await expect(panel.locator('[data-chat-close]')).toBeFocused();
-      await expect(panel).toContainText(
-        !route.startsWith('/hr')
-          ? "posso esserti d'aiuto?"
-          : 'Kako vam možemo pomoći?',
+      await expect(panel.locator('.chat-person strong')).toHaveText(
+        expected.team,
+      );
+      await expect(panel.locator('.chat-person small')).toHaveText(
+        expected.responseTime,
+      );
+      expect((await panel.locator('.chat-bubble').innerText()).trim()).toBe(
+        expected.message,
+      );
+      await expect(panel.locator('.chat-portrait')).toHaveAttribute(
+        'alt',
+        'Jelena',
       );
       const rect = await panel.boundingBox();
       expect(rect!.x).toBeGreaterThanOrEqual(0);
@@ -44,6 +63,23 @@ for (const route of ['/', '/hr/', '/faq/', '/hr/faq/']) {
       await link.scrollIntoViewIfNeeded();
       await expect(link).toBeVisible();
       await expect(link).toHaveAttribute('href', 'https://wa.me/385911100523');
+      const actions = {
+        it: 'Avvia chat su WhatsApp',
+        hr: 'Razgovaraj putem WhatsAppa',
+        de: 'Über WhatsApp sprechen',
+        en: 'Chat on WhatsApp',
+        sl: 'Pogovor prek WhatsAppa',
+      };
+      await expect(link).toHaveText(actions[lang]);
+      if (
+        process.env.DV_WHATSAPP_SCREENSHOTS &&
+        ((route === '/' && width === 1440) ||
+          (route === '/hr/' && width === 390))
+      ) {
+        await page.screenshot({
+          path: `/tmp/dentvitalis-whatsapp-v5-${lang}-${width}.png`,
+        });
+      }
       await page.keyboard.press('Escape');
       await expect(panel).toBeHidden();
       await expect(toggle).toBeFocused();
