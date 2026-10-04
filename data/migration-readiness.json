@@ -62,7 +62,7 @@
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "owner-allows-brief-downtime; new-neutral-static-preflight-then-one-in-place-content-move-preserving-original-root-with-private-before-failed-backups-and-runtime-checks; no-root-rename",
+    "nextCheck": "v8-active-after-owner-reported-in-place-content-replacement; do-not-repeat-migration; finish-consent-acceptance-and-separately-review-duplicate-Zendesk-GTM-widget; prepare-authorized-native-WhatsApp-brand-update-without-production-write",
     "galleriaV8": {
       "requestedOn": "2026-10-04",
       "ownerSource": "owner-requests-galleria-all-consumers-final-package-and-migration-and-confirms-SEO-master-approved-latest-proposal",
@@ -123,7 +123,7 @@
           "productionChangesPerformedByThisGet": false
         },
         "proposedNextMethodIfPasses": "in-place-content-move-with-recoverable-private-backup-preserving-original-public-root-owner-group-ACL-context",
-        "newMethodExecutedOrAccepted": false,
+        "newMethodExecutedOrAccepted": true,
         "rootCauseConfirmed": false
       },
       "inPlaceContentReplacement": {
@@ -151,8 +151,21 @@
         "partialMovesMustNotOverwriteRemainingFiles": true,
         "fullRuntimeAcceptanceRequired": true,
         "newRealPostOrBackendDnsPhpRootPermissionChangesAllowed": false,
-        "executed": false,
-        "succeeded": false,
+        "executed": true,
+        "succeeded": true,
+        "evidenceKind": "owner-relayed-cpanel-agent-report-after-in-place-v8-activation",
+        "oldTopLevelEntriesBackedUpReported": 22,
+        "originalPublicRootModeReported": "0750",
+        "privateBackupModesReported": "0700",
+        "failedContentsBackupEmptyReported": true,
+        "directIndexRootFiveLanguagesAndGallery200Reported": true,
+        "redirect301AndThreeLegacyPhpPages200Reported": true,
+        "gtmCookieYesScripts200Reported": true,
+        "rollbackPerformed": false,
+        "remainingAcceptance": [
+          "full-consent-behavior",
+          "duplicate-Zendesk-widget-decision"
+        ],
         "rootCauseEstablished": false
       },
       "activationAttemptAndRollback": {
@@ -317,7 +330,7 @@
         "stagePartialReportedAfterMove": true,
         "originalZipMustBePreserved": true
       },
-      "publicActivated": false,
+      "publicActivated": true,
       "newRealPostAuthorized": false,
       "backendOrDataChanged": false
     },

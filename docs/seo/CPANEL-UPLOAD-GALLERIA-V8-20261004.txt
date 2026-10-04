@@ -1,5 +1,15 @@
 ZA CPANEL AGENTA — ZAVRŠNA PRIPREMA I KONTROLIRANA MIGRACIJA
 
+AKTUALNO: V8 JE VEĆ AKTIVAN IN-PLACE PREMA VLASNIKOVU IZVJEŠTAJU.
+NE PONAVLJATI J0–J7, root rename ili ranije aktivacije ispod.
+Public_html ostao je isti (0750); starih 22 stavki je u privatnom before
+backupu (0700), failed backup prazan. Novi sadržaj vraća 200.
+Neovisno su potvrđeni robots, sitemap/index i oba sesijska token endpointa.
+Privole još trebaju potpuni prihvat. Dodatni zeleni gumb s upitnikom je
+Zendesk iz GTM-a, ne WhatsApp. Nije mijenjan GTM ili CookieYes.
+Nova vlasnikova zamjena WhatsApp fotografije znakom koristi ZASEBAN mali
+update; ovaj povijesni dokument NIJE nalog za ponovno dizanje cijelog weba.
+
 AKTUALNO — ZAMJENA SADRŽAJA U IZVORNOJ MAPI, BEZ ROOT RENAMEA
 J0 PROŠAO NEOVISNIM GET-OM 4.10.2026. U 22:31:03 CEST:
 https://www.dentvitalis.com/dv-static-check-20261004-a1.txt?dvcheck=a1

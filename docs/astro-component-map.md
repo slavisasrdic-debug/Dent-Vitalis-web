@@ -28,6 +28,14 @@ Korisnik ukinuo Arial razliku prema starom exportu. `body.reference-default` sad
 
 ## WhatsApp panel — naknadna dopuna 11. rujna
 
+**Aktualna dopuna vlasnika, 4. listopada nakon aktivacije v8:** u zajedničkom
+WhatsApp panelu Jeleninu fotografiju zamjenjuje DentVitalis znak kao na faviconu.
+`BrandLogo` varijanta `mark` izdvaja iz nepromijenjenog SVG izvora originalni
+zeleni V i trokut; ne povećava 16px ICO niti uvodi novi crtež ili asset zahtjev.
+Znak ima dostupni naziv `DentVitalis`, bijeli kružni okvir 64px i isti položaj.
+Poruke/prijevodi, potpis Jelene u poruci, broj i interakcije ostaju nepromijenjeni.
+Ova dopuna ima prednost nad povijesnim opisom fotografije ispod.
+
 Naknadni korisnikov dodatak zamjenjuje logo Jeleninom izvornom fotografijom i imenom. IT sada uključuje „Sono Jelena...” i „Chiedi a nostro staff”; HR podnaslov je Dentvitalis. Fotografija je lokalni lazy WebP, 128px iz originala 200px; vidi [whatsapp-panel.md](whatsapp-panel.md). Ova dopuna ima prednost nad opisom prve iteracije niže.
 
 `ContactWidgets` zadržava tipizirane propse i zajednički donji CTA. Potvrđeni IT Elfsight broj `385911100523` sada je centraliziran u `data/site.ts`; korisnik je zatražio implementaciju nakon pitanja o uporabi istog broja za HR. `chatCopy` IT koristi „Buongiorno!” / „posso esserti d'aiuto?” bez rečenice koja predstavlja Jelenu; HR koristi postojeći Zendesk „Kako vam možemo pomoći?” i korisnikov CTA „Razgovaraj putem WhatsAppa”. Ne mijenja se ostatak kontakata ni pravni sadržaj.

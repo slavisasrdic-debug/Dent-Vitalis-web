@@ -1,5 +1,6 @@
 ---
 import Button from './Button.astro';
+import BrandLogo from './BrandLogo.astro';
 import type { chatCopy } from '../content/site';
 import { ui } from '../content/ui';
 interface Props {
@@ -21,14 +22,9 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
     hidden
   >
     <div class="chat-header">
-      <img
-        class="chat-portrait"
-        src="/assets/images/jelena-chat.webp"
-        alt="Jelena"
-        width="64"
-        height="64"
-        loading="lazy"
-      />
+      <div class="chat-brand">
+        <BrandLogo label="DentVitalis" variant="mark" />
+      </div>
       <div class="chat-person">
         <strong>{content.team}</strong><small>{content.responseTime}</small>
       </div>
@@ -169,11 +165,12 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
     background: var(--color-primary);
     color: white;
   }
-  .chat-portrait {
+  .chat-brand {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    object-fit: cover;
+    background: white;
+    padding: 8px;
     flex: none;
   }
   .chat-person {

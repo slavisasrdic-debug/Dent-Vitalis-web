@@ -1,5 +1,41 @@
 # WhatsApp panel — 11. rujna 2026.
 
+## Aktualna dopuna nakon aktivacije v8 — 4. listopada 2026.
+
+Vlasnik traži DentVitalis znak kao na faviconu umjesto Jelenine fotografije
+u WhatsApp panelu svih pet jezika. `BrandLogo` varijanta `mark` koristi točno
+zeleni V i gornji trokut izvornog SVG logotipa, bez izmjene izvornog asseta.
+To izbjegava mutno povećanje ICO-a koji sadrži samo 16 × 16 px. Znak je
+ugrađen u HTML, ima oznaku `DentVitalis` i bijeli kružni okvir od 64px.
+Jezični tekstovi i Jelenin potpis u poruci, broj, layout i interakcije
+ostaju nepromijenjeni. Izvorna fotografija ostaje sačuvana; nije obrisana.
+
+Produkcijska read-only browser provjera utvrdila je zaseban Zendesk launcher
+u iframeu `launcher` s natpisom `Pošljite sporočilo`, uz učitane
+`static.zdassets.com/web_widget/classic/` skripte i
+`dentvitalis.zendesk.com/embeddable/config`. To nije naš native WhatsApp
+gumb. Postojeći GTM `GTM-K3QGWS` sadrži Zopim/Zendesk kod; projekt ga
+ne učitava izravno. Uklanjanje tog vanjskog widgeta zahtijeva zasebnu
+odluku/izmjenu GTM-a, ne gašenje GTM-a ili CookieYesa. Nije mijenjan GTM.
+
+Neovisni javni GET-ovi nakon prijavljene aktivacije potvrđuju HTTP 200 za
+robots, sitemap/index te oba token endpointa; JSON ima neprazna oba tokena,
+`private, no-store, max-age=0`, a GCT i ponovljeni JSON podudaraju se u
+istoj sesiji. Vrijednosti tokena nisu zapisane. Nisu slani POST-ovi ni poruke.
+To ne predstavlja potpuni prihvat ponašanja privola.
+
+Provjera izmjene: `astro check` 275 datoteka, bez grešaka/upozorenja;
+ciljani lint i format prolaze. Završnih 17 Playwright provjera (WhatsApp
+i favicon) prolazi bez istodobnog checka/builda: pet naslovnica i IT/HR FAQ,
+320/390/1440 px, otvaranje/Escape/fokus, no-JS, izvorni tekstovi/broj i
+nepromijenjeni favicon. Vizualno pregledani IT desktop i HR mobile paneli.
+Produkcijski build ima 142 HTML datoteke. Usporedba s verificiranim v8 svih
+142 HTML-a potvrđuje da se izvan znaka mijenjaju samo generirani ID-jevi i
+CSS scope/hash oznake, ne sadržaj, SEO, forme ili linkovi.
+`scripts/package-whatsapp-brand-update.mjs` pakira samo 141 promijenjeni HTML,
+jedan novi CSS i ažurirani puni manifest. Konfiguracija i XML ostaju v8;
+paket nije puni release i ne sadrži backend. Nije instaliran na produkciju.
+
 ## Važeća dopuna — 4. listopada 2026.
 
 Vlasnik je dostavio novih pet javnih Elfsight ID-jeva. Njihove stvarne

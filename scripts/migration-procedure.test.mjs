@@ -244,7 +244,7 @@ test('private staging and owner backup confirmation do not authorize live overwr
       'application-including-data',
     ),
   );
-  assert.match(report.procedure.nextCheck, /without-public-activation/);
+  // This historical staging permission is not the later live-activation status.
 });
 
 test('historical unsafe private stage does not prove integrity or close current delivery gates', () => {
@@ -265,10 +265,6 @@ test('historical unsafe private stage does not prove integrity or close current 
   assert.equal(stage.permissions.requiredFiles, '0644');
   assert.equal(stage.permissions.requiredDirectories, '0755');
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
-  assert.match(
-    report.procedure.nextCheck,
-    /five-language-backend-receipt-owner-accepted/,
-  );
   assert.ok(
     report.serverGates.includes(
       'static-release-files-0644-and-directories-0755-verified-before-activation',
@@ -344,8 +340,31 @@ test('historical read-only form audit cannot close current delivery or runtime g
     false,
   );
   assert.ok(audit.rollbackMustNotRestore.includes('application/data'));
-  assert.match(report.procedure.nextCheck, /stage-reported-complete/);
-  assert.match(report.procedure.nextCheck, /without-public-activation/);
+});
+
+test('reported in-place activation is distinct from full consent acceptance and the unknown rename cause', () => {
+  const release = report.procedure.galleriaV8;
+  const live = release.inPlaceContentReplacement;
+  assert.equal(release.publicActivated, true);
+  assert.equal(live.executed, true);
+  assert.equal(live.succeeded, true);
+  assert.equal(
+    live.evidenceKind,
+    'owner-relayed-cpanel-agent-report-after-in-place-v8-activation',
+  );
+  assert.equal(live.oldTopLevelEntriesBackedUpReported, 22);
+  assert.equal(live.originalPublicRootModeReported, '0750');
+  assert.equal(live.privateBackupModesReported, '0700');
+  assert.equal(live.rollbackPerformed, false);
+  assert.equal(live.rootRenameAllowed, false);
+  assert.equal(live.rootCauseEstablished, false);
+  assert.equal(release.hostingRuntimeAccepted, false);
+  assert.ok(live.remainingAcceptance.includes('full-consent-behavior'));
+  assert.match(report.procedure.nextCheck, /do-not-repeat-migration/);
+  assert.equal(
+    live.newRealPostOrBackendDnsPhpRootPermissionChangesAllowed,
+    false,
+  );
 });
 
 test('private backend candidate is not a replacement handler or evidence of live delivery', () => {

@@ -8,6 +8,23 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**AKTUALNO — v8 JE AKTIVAN, prethodne migracijske korake NE ponavljati:**
+vlasnik prenosi uspješnu in-place zamjenu sadržaja; sam `public_html` nije
+preimenovan ni obrisan, ostao je 0750. Svih 22 starih stavki sačuvano je u
+`backups/public-contents-before-inplace-v8-20261004/` (0700); failed-content
+backup ostaje prazan. Direktni index, naslovnica, pet jezika i galerija imaju
+200 i novi sadržaj prema agentu; pregledani 301, tri PHP stranice i `/send`
+rade. Ovo je novi status s prednošću nad svim povijesnim STOP/J/I/R zapisima.
+
+Neovisni javni GET sada potvrđuje robots, sitemap/index i token rute 200,
+neprazne JSON tokene, `private, no-store, max-age=0` i podudaranje tokena u
+istoj sesiji. Token vrijednosti nisu spremljene. Nisu slani novi POST-ovi.
+Puni prihvat privola ostaje otvoren; učitana skripta nije dokaz tog prihvata.
+Slovenski dodatni gumb `Pošljite sporočilo` pripada Zendesk launcher iframeu
+iz postojećeg GTM-a, ne native WhatsAppu. Nije odobreno uklanjanje GTM-a/CMP-a.
+Tražena zamjena WhatsApp fotografije DentVitalis znakom zaseban je mali
+update, ne nova migracija. Raniji uzrok listinga/404 i dalje nije dokazan.
+
 **Aktualno — vlasnik dopušta kratki prekid za in-place zamjenu sadržaja:**
 J0 je sada ispunjen: vlasnik javlja TXT stvoren s točnih 27 B i 0644, ali
 Chrome blokira GET. Neovisni Codespaces GET u 20:31:03.815 UTC / 22:31:03 CEST

@@ -47,10 +47,10 @@ for (const route of [
       expect((await panel.locator('.chat-bubble').innerText()).trim()).toBe(
         expected.message,
       );
-      await expect(panel.locator('.chat-portrait')).toHaveAttribute(
-        'alt',
-        'Jelena',
-      );
+      const brand = panel.locator('[data-brand-mark]');
+      await expect(brand).toHaveAttribute('aria-label', 'DentVitalis');
+      await expect(brand.locator('path,polygon')).toHaveCount(2);
+      await expect(panel.locator('img[alt="Jelena"]')).toHaveCount(0);
       const rect = await panel.boundingBox();
       expect(rect!.x).toBeGreaterThanOrEqual(0);
       expect(rect!.y).toBeGreaterThanOrEqual(0);
@@ -77,7 +77,7 @@ for (const route of [
           (route === '/hr/' && width === 390))
       ) {
         await page.screenshot({
-          path: `/tmp/dentvitalis-whatsapp-v5-${lang}-${width}.png`,
+          path: `/tmp/dentvitalis-whatsapp-brand-${lang}-${width}.png`,
         });
       }
       await page.keyboard.press('Escape');
