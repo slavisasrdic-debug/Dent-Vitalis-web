@@ -34,6 +34,7 @@ assert.equal(base.revision, receipt.revision);
 const records = new Map(base.files.map((entry) => [entry.path, entry]));
 const normalize = (html) =>
   html
+    .replace(/ data-astro-cid-[a-z0-9]+(?:="")?/g, '')
     .replace(
       /<(style|script)\b[^>]*data-legacy-chat-guard[^>]*>[\s\S]*?<\/\1>/g,
       '',
@@ -46,7 +47,6 @@ const normalize = (html) =>
       /(<section class="chat-panel"[^>]*aria-label=")[^"]*(WhatsApp")/g,
       '$1CLINIC $2',
     )
-    .replace(/ data-astro-cid-[a-z0-9]+(?:="")?/g, '')
     .replace(
       /[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}/g,
       'GENERATED-ID',
@@ -68,7 +68,10 @@ for (const entry of base.files.filter((entry) =>
   assert.equal(sha256(old), entry.sha256, entry.path);
   const bytes = await readFile(join(root, 'dist', entry.path));
   const html = bytes.toString();
-  assert.equal(normalize(html), normalize(old.toString()), entry.path);
+  assert.ok(
+    normalize(html) === normalize(old.toString()),
+    `Unexpected HTML difference outside approved chat changes: ${entry.path}`,
+  );
   assert.equal((html.match(/data-legacy-chat-guard/g) ?? []).length, 2);
   assert.ok(
     html.indexOf('data-legacy-chat-guard') <
