@@ -29,6 +29,29 @@ SI kontakt-link iz podnožja. Vlasnik je zasebno odobrio dvije povijesne 301:
 dao je 200 odnosno 404; druga adresa zabilježena je u ranijem SEO inventaru.
 Ne dodavati alias 301 za ostalih 44 neobjavljena engleska sluga.
 
+**Lokalni prihvat završen:** 141 stranica / 11.961 pojava internih linkova,
+501 različit cilj uključujući fragmente i 160 referenciranih lokalnih slika/
+skripti, bez preostalih nalaza. Canonical, hreflang, jezični odabir, forme bez
+POST-a i svih 136 sitemap URL-ova usklađeni su. Playwright provjerava stvarne
+desktop/mobile klikove i obvezan telefon; lokalni Apache test koristi vlasnikov
+stari `.htaccess` i mock dinamičke handlere, ne stvarni e-mail/CRM. Detaljan
+prihvat i granice: `data/seo/native-url-audit-20261004.json`.
+
+Novi **sadržajni** paket, ne routing-only zamjena:
+`.astro/releases/dentvitalis-web-production-candidate-20261004-localized-v3.zip`
+(57.916.407 B; SHA-256
+`ada0eed003483020c5b2d632a83f16f497aab0ae2a5dd6fdac667d75588200b1`).
+CRC i svih 691 payload hashova nakon lokalne ekstrakcije potvrđeni; ukupno
+692 datoteke `0644`, 13 mapa `0755`, 65.470.135 B raspakirano s manifestom.
+Sadržajni commit je `935e5bb7c43def0d73a33fe3fc744a405acc1f8d`.
+Novi privatni cilj je `/home2/dentvita/releases/20261004-localized-v3/`;
+**nije uploadan niti aktiviran**. Ne prepisivati stage ni ZIP `redirects-v2`.
+Prije budućeg uploada potvrditi aktualnu kvotu za dodatnih približno 118 MiB
+(ZIP + ekstrakcija), ne stvarati puni backup ponovno. Postojeći PHP/backend
+prihvat ostaje važeći; ne ponavljati stvarne testne upite zbog promjene slugova.
+Preostaju stvarni cPanel runtime/consent/SEO prihvat i kodni povratak prema
+release gates; lokalni URL audit ih ne zamjenjuje.
+
 **Najnovije — read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
 prikaz može kasniti, filesystem i inodeovi nisu potvrđeni. Sadašnji
