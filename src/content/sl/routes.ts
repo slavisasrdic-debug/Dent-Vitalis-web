@@ -1,7 +1,7 @@
 import { slovenianLegalRoutes } from './legal-routes';
+import decisions from '../../../data/seo/localized-route-decisions-20261004.json' with { type: 'json' };
 
-// Keep the existing SI detail URLs. Complete the same flat route
-// convention; no production redirects or existing HR/IT URLs are changed.
+// Slovenian content uses the existing /si prefix; English IDs stay private.
 export const slovenianPageIds = [
   'home',
   'services',
@@ -34,8 +34,10 @@ export const slovenianPageIds = [
 export function route(id: string): string {
   if (!slovenianPageIds.some((value) => value === id))
     throw new Error(`Unknown Slovenian page: ${id}`);
-  return id === 'home'
-    ? '/si'
-    : (slovenianLegalRoutes[id as keyof typeof slovenianLegalRoutes] ??
-        `/si/${id}`);
+  if (id === 'home') return '/si';
+  const path =
+    slovenianLegalRoutes[id as keyof typeof slovenianLegalRoutes] ??
+    decisions.routes.sl[id as keyof typeof decisions.routes.sl];
+  if (!path) throw new Error(`Unreviewed Slovenian public path: ${id}`);
+  return path;
 }

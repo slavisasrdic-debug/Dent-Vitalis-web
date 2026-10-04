@@ -265,7 +265,17 @@ for (const width of [390, 1440])
         });
       expect(broken, id).toEqual([]);
     }
-    await page.goto(origin + '/de/');
+    expect(errors).toEqual([]);
+  });
+for (const width of [390, 1440])
+  test(`German native-language navigation interactions ${width}`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    const errors: string[] = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.goto(origin + route('home'));
     if (width < 1200) await page.locator('.menu-toggle').click();
     const group = page.locator('[data-nav-dropdown]').first();
     if (width >= 1200) {
@@ -276,7 +286,7 @@ for (const width of [390, 1440])
       await expect(group).toHaveAttribute('open', '');
     }
     await group.locator('summary > a').click();
-    await expect(page).toHaveURL(/\/de\/services\/?$/);
+    await expect(page).toHaveURL(origin + route('services'));
     await expect(page.locator('.menu-toggle')).toHaveAttribute(
       'aria-expanded',
       'false',
@@ -288,14 +298,14 @@ for (const width of [390, 1440])
     const faq = page.locator('main details').first();
     await faq.locator('summary').click();
     await expect(faq).toHaveAttribute('open', '');
-    await page.goto(origin + '/de/gallery');
+    await page.goto(origin + route('gallery'));
     const comparison = page.locator('[data-comparison]').first();
     await expect(comparison).toBeVisible();
     const slider = comparison.locator('input[type=range]');
     await slider.focus();
     await slider.press('End');
     await expect(slider).toHaveValue('100');
-    await page.goto(origin + '/de/contact');
+    await page.goto(origin + route('contact'));
     await page
       .locator(
         width < 992

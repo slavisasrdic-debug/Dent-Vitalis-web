@@ -1,10 +1,12 @@
 import { expect, test } from '@playwright/test';
+import { route as deRoute } from '../src/content/de/routes';
+import { route as slRoute } from '../src/content/sl/routes';
 
 const pages = [
   ['/hr/cjenik/', 'DV-cjenik-hr-2600.webp'],
-  ['/de/prices/', 'DV-cjenik-de-2600.webp'],
+  [deRoute('prices'), 'DV-cjenik-de-2600.webp'],
   ['/en/prices/', 'DV-cjenik-en-2600.webp'],
-  ['/si/prices/', 'DV-cjenik-sl-2600.webp'],
+  [slRoute('prices'), 'DV-cjenik-sl-2600.webp'],
 ] as const;
 
 for (const width of [390, 1440]) {

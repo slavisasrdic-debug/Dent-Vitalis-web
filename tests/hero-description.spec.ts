@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import type { InnerPage } from '../src/content/inner-pages';
+import { route as deRoute } from '../src/content/de/routes';
+import { route as slRoute } from '../src/content/sl/routes';
 
 const pages: InnerPage[] = JSON.parse(
   readFileSync('src/content/inner-pages-it.json', 'utf8'),
@@ -15,9 +17,9 @@ const translatedRoutes = readFileSync('data/hr-routes.proposed.csv', 'utf8')
 const serviceRoutes = [
   '/prestazioni/protesi-definitiva-ancorata-su-4-impianti',
   '/hr/proteza-na-4-implantata',
-  '/de/four-implant-denture',
+  deRoute('four-implant-denture'),
   '/en/four-implant-denture',
-  '/si/four-implant-denture',
+  slRoute('four-implant-denture'),
 ];
 
 test('all IT/HR detail hero descriptions stay left aligned', async ({
@@ -76,7 +78,9 @@ test('hero subtitles contain no navigation links and retain white telephone link
   await link.focus();
   await expect(link).toBeFocused();
   await expect(link).toHaveCSS('outline-color', 'rgb(255, 255, 255)');
-  const focusedBox = await page.locator('.detail-hero .description').boundingBox();
+  const focusedBox = await page
+    .locator('.detail-hero .description')
+    .boundingBox();
   expect(focusedBox!.width).toBe(box!.width);
   expect(focusedBox!.height).toBe(box!.height);
   expect(errors).toEqual([]);

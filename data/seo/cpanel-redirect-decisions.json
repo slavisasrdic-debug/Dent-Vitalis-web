@@ -3,6 +3,12 @@
   "approvedOn": "2026-10-04",
   "source": "owner-message-da-podrzavam-in-reply-to-six-301s-three-PHP-pages-and-VR-English-target",
   "evidence": "data/seo/legacy-target-review-20261004.json",
+  "additionalLocalizedTestimonialsApproval": {
+    "approvedOn": "2026-10-04",
+    "source": "owner-answer-Da-dodaj-te-dvije-povijesne-301-redirekcije",
+    "evidence": "data/seo/localized-route-decisions-20261004.json",
+    "unpublishedDraftAliasesAuthorized": false
+  },
   "redirects": [
     {
       "from": "/en/about-us",
@@ -87,6 +93,18 @@
           "sourceOccurrences": 1
         }
       ]
+    },
+    {
+      "from": "/de/testimonials",
+      "to": "/de/erfahrungen-unserer-patienten",
+      "status": 301,
+      "legacyAliases": []
+    },
+    {
+      "from": "/si/testimonials",
+      "to": "/si/izkusnje-pacientov",
+      "status": 301,
+      "legacyAliases": []
     }
   ],
   "preservedPhpPages": [

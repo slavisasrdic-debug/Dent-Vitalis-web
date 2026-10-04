@@ -8,6 +8,27 @@ Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 GitHub je izvor koda; produkcija ostaje na postojećem cPanelu, bez promjene DNS-a.
 Cloudflare služi samo razvojnom pregledu.
 
+**STOP — jezični URL/link audit, 4. listopada:** vlasnik je otkrio engleske
+slugove na DE/SI stranicama. Izvor je fallback iz internog engleskog page ID-a,
+ne njemački/slovenski sadržaj. Uploadani `20261004-redirects-v2` ne aktivirati.
+Potrebni su provjera svih pet jezika i novi sadržajni build/paket, ne samo
+revizija `.htaccess`. Stari ZIP/stage ostaju netaknuti. Vlasnik je zatražio
+usklađivanje svih linkova i pojasnio da neobjavljene engleske adrese ne trebaju
+301; zadržao je zaštitni 308 za stare slash varijante. Lokalizirane putanje
+vodi `data/seo/localized-route-decisions-20261004.json`, a potpuni ponovljivi
+GET/DOM audit `tests/site-integrity.spec.ts`. Objavljene stare adrese imaju
+zaseban status i ne smiju se zamijeniti s neobjavljenim nacrtom. Nema nove
+ovlasti za POST, prepisivanje produkcije ili vraćanje privatnih podataka.
+
+Potvrđeno usklađivanje: 23 DE + 23 SI sluga koriste izvorne lokalizirane
+nazive ili ekvivalentne već objavljene lokalizirane putanje. Interni engleski
+page ID ostaje ključ modela, ne javni URL. Dodatno je uklonjen zasebno upisan
+SI kontakt-link iz podnožja. Vlasnik je zasebno odobrio dvije povijesne 301:
+`/de/testimonials → /de/erfahrungen-unserer-patienten` i
+`/si/testimonials → /si/izkusnje-pacientov`. GET starog javnog weba 4. listopada
+dao je 200 odnosno 404; druga adresa zabilježena je u ranijem SEO inventaru.
+Ne dodavati alias 301 za ostalih 44 neobjavljena engleska sluga.
+
 **Najnovije — read-only plan aktivacije i povratka, 4. listopada:** agent
 prijavljuje 1.097,13 MB / 1.500 MB, odnosno 402,87 MB slobodne kvote;
 prikaz može kasniti, filesystem i inodeovi nisu potvrđeni. Sadašnji

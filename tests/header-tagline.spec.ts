@@ -1,11 +1,17 @@
 import { test, expect } from '@playwright/test';
+import { route as deRoute } from '../src/content/de/routes';
 
 test('German location descriptor fits the unchanged logo without wrapping', async ({
   page,
 }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  for (const route of ['/de/', '/de/services/', '/de/datenschutzerklarung/']) {
-    const widths = route === '/de/' ? [390, 991, 992, 1440] : [390, 1440];
+  for (const route of [
+    deRoute('home'),
+    deRoute('services'),
+    deRoute('privacy'),
+  ]) {
+    const widths =
+      route === deRoute('home') ? [390, 991, 992, 1440] : [390, 1440];
     for (const width of widths) {
       await page.setViewportSize({ width, height: 900 });
       expect((await page.goto(route))?.status()).toBe(200);
@@ -47,7 +53,7 @@ test('German location descriptor fits the unchanged logo without wrapping', asyn
     }
   }
   await page.locator('.brand').click();
-  await expect(page).toHaveURL(/\/de\/$/);
+  await expect(page).toHaveURL(/\/de$/);
 });
 
 test('Croatian descriptor aligns to the logo at mobile and desktop breakpoints', async ({

@@ -3,12 +3,19 @@ import { readFileSync } from 'node:fs';
 import { slovenianPageIds, route } from '../src/content/sl/routes';
 import { route as enRoute } from '../src/content/en/routes';
 import { route as deRoute } from '../src/content/de/routes';
+import { pagePath } from '../src/content/page-paths';
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const pairs = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .trim()
   .split('\n')
   .slice(1)
-  .map((l) => l.split(','));
+  .map((l) =>
+    l
+      .split(',')
+      .map((value, index) =>
+        index === 1 || index === 2 ? pagePath(value) : value,
+      ),
+  );
 test('Slovenian destinations and all five reciprocal language pairs', async ({
   page,
   request,
@@ -53,7 +60,7 @@ for (const width of [390, 1440])
   }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.emulateMedia({ reducedMotion: 'reduce' });
-    await page.goto(origin + '/si/first-visit/');
+    await page.goto(origin + route('first-visit'));
     await page.evaluate(() => document.fonts.ready);
     const brand = await page.locator('.brand').evaluate((e) => {
       const span = e.querySelector('span')!;

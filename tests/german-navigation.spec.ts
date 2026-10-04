@@ -4,6 +4,7 @@ import { localizedPageRegistry } from '../src/content/localized-page-registry';
 import { route as slovenianRoute } from '../src/content/sl/routes';
 import { route as englishRoute } from '../src/content/en/routes';
 import { germanPageIds, route as germanRoute } from '../src/content/de/routes';
+import { pagePath } from '../src/content/page-paths';
 const source = JSON.parse(
   readFileSync('data/translations/de-source.json', 'utf8'),
 ) as typeof import('../data/translations/de-source.json');
@@ -13,7 +14,13 @@ const approved = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .trim()
   .split('\n')
   .slice(1)
-  .map((line) => line.split(','));
+  .map((line) =>
+    line
+      .split(',')
+      .map((value, index) =>
+        index === 1 || index === 2 ? pagePath(value) : value,
+      ),
+  );
 const entries = germanPageIds.map((route) => ({
   route,
   sourceTable:
@@ -72,7 +79,7 @@ test('all German pages have reciprocal IT/HR links, German navigation and real d
     expect(doc.lang).toBe('de');
     expect(doc.h1).toHaveLength(1);
     expect(doc.title.length).toBeGreaterThan(10);
-    expect(doc.logo).toBe('/de/');
+    expect(doc.logo).toBe(germanRoute('home'));
     expect(doc.ogLocale).toBe('de_DE');
     expect(
       doc.navTargets.every(
@@ -94,7 +101,7 @@ test('all German pages have reciprocal IT/HR links, German navigation and real d
     for (const [language, path] of doc.switches) {
       expect(doc.alternates).toContainEqual([
         language,
-        `https://www.dentvitalis.com${path!.endsWith('/') ? path : path + '/'}`,
+        `https://www.dentvitalis.com${path}`,
       ]);
     }
     expect(doc.alternates.some(([lang]) => lang === 'sl')).toBe(true);
@@ -155,7 +162,7 @@ for (const width of [390, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     await page.emulateMedia({ reducedMotion: 'reduce' });
     for (const entry of localizedPageRegistry.de) {
-      await page.goto(`${origin}/de/${entry.route}/`);
+      await page.goto(origin + germanRoute(entry.route));
       const geometry = await page.locator('.detail-hero').evaluate((hero) => {
         const h1 = hero.querySelector('h1')!;
         const range = document.createRange();
@@ -187,12 +194,12 @@ for (const width of [390, 1440]) {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     const errors: string[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
-    await page.goto(origin + '/de/');
+    await page.goto(origin + germanRoute('home'));
     const variant = width < 1200 ? 'mobile' : 'desktop';
     for (const [lang, path] of [
-      ['hr', '/hr/'],
+      ['hr', '/hr'],
       ['it', '/'],
-      ['de', '/de/'],
+      ['de', germanRoute('home')],
     ]) {
       const chooser = page.locator(`[data-language].${variant}`);
       await chooser.locator('summary').click();
@@ -209,11 +216,14 @@ for (const width of [390, 1440]) {
     else await group.locator('summary > a').hover();
     await expect(group).toHaveAttribute('open', '');
     await group.locator('.dropdown-links a').nth(1).click();
-    await expect(page).toHaveURL(/\/de\/fixed-implant-bridge\/?$/);
+    await expect(page).toHaveURL(origin + germanRoute('fixed-implant-bridge'));
     await expect(page.locator('h1')).toContainText('Brücke');
-    await expect(page.locator('header .brand')).toHaveAttribute('href', '/de/');
+    await expect(page.locator('header .brand')).toHaveAttribute(
+      'href',
+      germanRoute('home'),
+    );
     await page.locator('header .brand').click();
-    await expect(page).toHaveURL(origin + '/de/');
+    await expect(page).toHaveURL(origin + germanRoute('home'));
     await page.locator(`[data-language].${variant} summary`).click();
     await page.screenshot({ path: `/tmp/dentvitalis-de-${width}.png` });
     expect(

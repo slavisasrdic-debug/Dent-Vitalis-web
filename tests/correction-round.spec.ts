@@ -1,4 +1,6 @@
 import { expect, test } from '@playwright/test';
+import { route as deRoute } from '../src/content/de/routes';
+import { route as slRoute } from '../src/content/sl/routes';
 
 const homes = [
   ['/', 'Tradizione e competenza', 'competenza'],
@@ -23,9 +25,9 @@ for (const [path, heading, accent] of homes) {
 
 for (const [path, phrase] of [
   ['/hr/placanje/', 'izdanih od strane hrvatskih banaka'],
-  ['/de/payment/', 'von kroatischen Banken ausgegeben wurden'],
+  [deRoute('payment'), 'von kroatischen Banken ausgegeben wurden'],
   ['/en/payment/', 'issued by Croatian banks'],
-  ['/si/payment/', 'ki so jih izdale hrvaške banke'],
+  [slRoute('payment'), 'ki so jih izdale hrvaške banke'],
 ] as const) {
   test(`payment card eligibility emphasis ${path}`, async ({ page }) => {
     await page.goto(path);

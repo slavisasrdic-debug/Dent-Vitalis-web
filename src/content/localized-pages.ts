@@ -5,6 +5,9 @@ import {
 } from './localized-page-registry';
 import { localizedHome } from './localized-home';
 import { labels as germanLabels } from './de/site';
+import { route as deRoute } from './de/routes';
+import { route as enRoute } from './en/routes';
+import { route as slRoute } from './sl/routes';
 
 const sources = {
   de: () => import('../../data/translations/de-source.json'),
@@ -12,11 +15,7 @@ const sources = {
   sl: () => import('../../data/translations/sl-source.json'),
 } as const;
 
-const routePrefix: Record<NewLocale, string> = {
-  de: '/de',
-  en: '/en',
-  sl: '/si',
-};
+const routes = { de: deRoute, en: enRoute, sl: slRoute };
 
 function text(value: string): InlineContent[] {
   return [{ kind: 'text', text: value }];
@@ -68,7 +67,7 @@ export async function localizedPages(locale: NewLocale): Promise<InnerPage[]> {
   return localizedPageRegistry[locale].map((entry) => {
     const sourceRows = rows(source, entry.sourceTable);
     const heroRow = sourceRows[0] ?? [];
-    const route = `${routePrefix[locale]}/${entry.route}`;
+    const route = routes[locale](entry.route);
     const german = locale === 'de';
     const service = entry.family === 'service';
     const title = german
@@ -94,7 +93,7 @@ export async function localizedPages(locale: NewLocale): Promise<InnerPage[]> {
       breadcrumb: [
         {
           label: german ? 'DentVitalis' : locale.toUpperCase(),
-          href: `${routePrefix[locale]}/`,
+          href: routes[locale]('home'),
         },
         { label: title, href: route },
       ],
@@ -120,7 +119,7 @@ export async function localizedPages(locale: NewLocale): Promise<InnerPage[]> {
 
 export async function localizedHomePage(locale: NewLocale): Promise<InnerPage> {
   const home = localizedHome(locale);
-  const route = `${routePrefix[locale]}/`;
+  const route = routes[locale]('home');
   return {
     route,
     lang: locale === 'sl' ? 'sl' : locale,

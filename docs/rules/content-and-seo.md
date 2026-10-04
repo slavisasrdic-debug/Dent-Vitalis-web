@@ -18,6 +18,14 @@ isti. Canonical, hreflang, sitemap i interni linkovi prate to pravilo, a
 prethodne varijante sa slashom koriste 308 uz očuvanje query parametara.
 308 ovdje služi normalizaciji iste stranice, ne promjeni sadržajnog odredišta.
 
+**Dopuna vlasnika 2026-10-04:** DE/SI slugovi u neobjavljenom novom paketu
+moraju biti na pripadajućem jeziku, ne automatski preuzeti iz engleskih
+internih ID-jeva. Odluke vodi `data/seo/localized-route-decisions-20261004.json`.
+IT/HR/EN, jezični korijeni, pravne i zahvalne adrese ostaju očuvani.
+Ne stvarati 301 iz neobjavljenih nacrta. Samo dvije povijesne testimonial
+adrese imaju zasebno odobrene 301 u `data/seo/cpanel-redirect-decisions.json`.
+Zaštitni slash 308 vlasnik je ponovno potvrdio; novi linkovi ostaju slashless.
+
 Talijanski je glavni jezik i mora ostati u rootu.
 
 - Ne koristiti `/it/`, `/sl/` niti query parametre poput `?locale=` za javne jezične verzije.

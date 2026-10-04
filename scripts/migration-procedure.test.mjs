@@ -10,6 +10,14 @@ const report = JSON.parse(
   await readFile(new URL('data/migration-readiness.json', root), 'utf8'),
 );
 
+test('obsolete stage stays blocked during full localized link audit; accepted backend tests are not repeated', () => {
+  const audit = report.procedure.localizedLinkAudit;
+  assert.equal(audit.oldRoutingV2StageMayBeActivated, false);
+  assert.equal(audit.newReleaseRequired, true);
+  assert.equal(audit.oldZipAndStageMustNotBeOverwritten, true);
+  assert.equal(audit.newProductionChangesOrPostPerformed, false);
+});
+
 test('current migration procedure does not require SSH or a hosting request', () => {
   assert.equal(report.procedure.sshIsMigrationPrerequisite, false);
   assert.equal(report.procedure.hostingSupportRequestRequired, false);

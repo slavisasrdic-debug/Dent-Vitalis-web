@@ -1,12 +1,16 @@
 import type { ImageKey } from '../components/ResponsiveImage.astro';
 import type { TeaserCardData } from './home';
 import { localizedHome } from './localized-home';
+import { route as deRoute } from './de/routes';
+import { route as enRoute } from './en/routes';
+import { route as slRoute } from './sl/routes';
 import {
   isTranslationTable,
   type TranslationSource,
 } from './translation-source';
 
 type Locale = 'de' | 'en' | 'sl';
+const publicRoute = { de: deRoute, en: enRoute, sl: slRoute };
 
 const directoryImages: Record<'about' | 'information', [ImageKey, ImageKey][]> =
   {
@@ -76,7 +80,7 @@ export async function localizedDirectory(
     return {
       title: title || fallback.title,
       description: description || '',
-      href: `/${routes[index]}`,
+      href: publicRoute[locale](routes[index]!),
       desktopImage,
       mobileImage,
       alt: title || fallback.title,

@@ -160,12 +160,12 @@ test('production package requires a backup and cannot run as a Pages build', asy
   );
 });
 
-test('six approved content redirects are exact, query-preserving and require real static targets for a release', () => {
+test('eight approved content redirects are exact, query-preserving and require real static targets for a release', () => {
   const documents = Object.fromEntries(
     approvedContentRedirects.map(({ to }) => [to, '/_pages' + to + '.html']),
   );
   const rules = canonicalHostRules(documents, { requireApprovedTargets: true });
-  assert.equal(approvedContentRedirects.length, 6);
+  assert.equal(approvedContentRedirects.length, 8);
   for (const { from, to } of approvedContentRedirects)
     assert.ok(
       rules.includes(`RewriteRule ^${from.slice(1)}/?$ ${to} [R=301,L,NE]`),

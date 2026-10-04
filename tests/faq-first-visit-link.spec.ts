@@ -1,4 +1,6 @@
 import { expect, test } from '@playwright/test';
+import { route as deRoute } from '../src/content/de/routes';
+import { route as slRoute } from '../src/content/sl/routes';
 
 for (const [path, question, word, destination] of [
   [
@@ -17,7 +19,7 @@ for (const [path, question, word, destination] of [
     '/de/faq/',
     'Was soll ich zur Erstuntersuchung mitbringen?',
     'hier',
-    '/de/first-visit',
+    deRoute('first-visit'),
   ],
   [
     '/en/faq/',
@@ -25,7 +27,12 @@ for (const [path, question, word, destination] of [
     'here',
     '/en/first-visit',
   ],
-  ['/si/faq/', 'Kaj naj prinesem na prvi pregled?', 'tukaj', '/si/first-visit'],
+  [
+    '/si/faq/',
+    'Kaj naj prinesem na prvi pregled?',
+    'tukaj',
+    slRoute('first-visit'),
+  ],
 ]) {
   test(`First visit FAQ word link ${path}`, async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 900 });

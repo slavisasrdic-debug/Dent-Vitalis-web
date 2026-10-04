@@ -3,12 +3,19 @@ import { readFileSync } from 'node:fs';
 import { englishPageIds, route } from '../src/content/en/routes';
 import { route as slRoute } from '../src/content/sl/routes';
 import { route as deRoute } from '../src/content/de/routes';
+import { pagePath } from '../src/content/page-paths';
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const pairs = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .trim()
   .split('\n')
   .slice(1)
-  .map((l) => l.split(','));
+  .map((l) =>
+    l
+      .split(',')
+      .map((value, index) =>
+        index === 1 || index === 2 ? pagePath(value) : value,
+      ),
+  );
 test('English destinations and all five reciprocal language pairs', async ({
   page,
   request,

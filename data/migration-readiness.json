@@ -56,12 +56,24 @@
       "sixOldTargetsAndTheirLegacyAliases": true,
       "threeExistingPhpPagesPreserved": true,
       "vrTourEnglishTargetRetained": true,
+      "twoHistoricalLocalizedTestimonial301sApprovedAfterNativeSlugAudit": true,
       "publicConfigurationChanged": false
     },
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "routing-v2-private-stage-reported-complete-five-language-backend-receipt-owner-accepted-private-next-root-plan-awaiting-approval-review-integrity-runtime-SEO-rollback-without-public-activation",
+    "nextCheck": "routing-v2-private-stage-reported-complete-five-language-backend-receipt-owner-accepted-HOLD-for-complete-localized-link-audit-and-new-content-build-without-public-activation",
+    "localizedLinkAudit": {
+      "openedOn": "2026-10-04",
+      "status": "in-progress-old-candidate-must-not-be-activated",
+      "reason": "DE/SI public slugs incorrectly generated from English internal IDs",
+      "scope": "all five languages, every rendered internal link/fragment, metadata, language pairs, forms without POST, and sitemap/build/routing",
+      "decisionFile": "data/seo/localized-route-decisions-20261004.json",
+      "oldRoutingV2StageMayBeActivated": false,
+      "newReleaseRequired": true,
+      "oldZipAndStageMustNotBeOverwritten": true,
+      "newProductionChangesOrPostPerformed": false
+    },
     "cloudflarePreviewRetirement": {
       "reportedOn": "2026-10-02",
       "source": "owner-dashboard-screenshots-and-owner-request-to-leave-this-for-now",
