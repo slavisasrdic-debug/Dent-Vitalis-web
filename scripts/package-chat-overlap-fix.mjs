@@ -6,8 +6,10 @@ import { dirname, join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
 import receipt from '../data/seo/whatsapp-brand-update-20261004.json' with { type: 'json' };
 import v8Receipt from '../data/seo/cpanel-galleria-v8-release-20261004.json' with { type: 'json' };
+import decisions from '../data/seo/post-live-redirect-decisions-20261004.json' with { type: 'json' };
+import { postLiveHtaccess } from './post-live-routing.mjs';
 
-// Narrow patch for an active v9. No routing/content decisions or full redeploy.
+// Small combined update for active v9; only explicitly approved routing changes.
 const root = resolve(import.meta.dirname, '..');
 const baseZip = join(root, '.astro/releases', receipt.archiveName);
 const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
@@ -81,6 +83,25 @@ for (const entry of base.files.filter((entry) =>
 }
 assert.equal(checked, 142);
 assert.equal(changes.length, 141);
+const v8Zip = join(root, '.astro/releases', v8Receipt.archiveName);
+assert.equal(sha256(await readFile(v8Zip)), v8Receipt.sha256);
+const acceptedHtaccess = execFileSync('unzip', ['-p', v8Zip, '.htaccess']);
+const originalHtaccess = records.get('.htaccess');
+assert.equal(sha256(acceptedHtaccess), originalHtaccess.sha256);
+const documents = JSON.parse(
+  await readFile(join(root, 'dist/page-routes.json')),
+);
+const newHtaccess = Buffer.from(postLiveHtaccess(acceptedHtaccess, documents));
+changes.push({
+  path: '.htaccess',
+  bytes: newHtaccess,
+  expectedBeforeSha256: originalHtaccess.sha256,
+});
+records.set('.htaccess', {
+  path: '.htaccess',
+  bytes: newHtaccess.length,
+  sha256: sha256(newHtaccess),
+});
 // Every other static payload remains byte-identical. Config is not generated here.
 for (const entry of base.files.filter(
   (entry) => !entry.path.endsWith('.html'),
@@ -123,13 +144,13 @@ const files = [...records.values()].sort((a, b) =>
 );
 const manifest = {
   ...base,
-  revision: '20261004-chat-fixes-v11',
+  revision: '20261004-public-fixes-v12',
   generatedAt: new Date().toISOString(),
   gitCommit,
   baseRevision: base.revision,
   basePatchSha256: receipt.sha256,
   changeScope:
-    'Hide obsolete Zendesk Classic UI and use DentVitalis clinic heading in all five languages; other copy/GTM/CookieYes unchanged',
+    '115 owner-approved 301 additions; hide obsolete Zendesk UI; DentVitalis chat heading in five languages. No new content/design or sitemap/backend/GTM changes.',
   fileCount: files.length,
   totalBytes: files.reduce((sum, file) => sum + file.bytes, 0),
   files,
@@ -139,7 +160,7 @@ changes.push({
   bytes: Buffer.from(JSON.stringify(manifest, null, 2) + '\n'),
   expectedBeforeSha256: sha256(baseManifestBytes),
 });
-assert.equal(changes.length, 142);
+assert.equal(changes.length, 143);
 const temporary = await mkdtemp(join(tmpdir(), 'dentvitalis-chat-overlap-'));
 const staging = join(temporary, 'package');
 await mkdir(staging, { mode: 0o755 });
@@ -155,50 +176,78 @@ for (const { path, bytes } of changes) {
   await writeFile(target, bytes, { flag: 'wx', mode: 0o644 });
   await chmod(target, 0o644);
 }
-const readme = `ISPRAVCI CHATA — MALI UPDATE AKTIVNOG V9
+const readme = `DENTVITALIS — JAVNI ISPRAVCI V12, UPDATE AKTIVNOG V9
 
-142 javne datoteke: index.html, cijeli _pages (140 HTML-a), manifest.
-Nije puni release. Nema htaccessa, CSS/JS asseta, sitemapa, robotsa ili PHP-a.
-Skriva samo stari Zendesk launcher/webWidget; native WhatsApp ostaje jedini chat.
-U svih pet plavih zaglavlja naziv je DentVitalis, ne ime Jelena.
-Ne gasi GTM/CookieYes, ne mijenja poruke, broj, forme ili odredišta redirekcija.
-Provjereno: 142 HTML-a prema verificiranom v9, samo zaštitni head blok i
-generirani ID-jevi/scope oznake i naziv/ARIA chata smiju se razlikovati;
-svi ostali asseti jednaki, odobreni XML/config ostaju postojeći v9.
+143 javne datoteke: index.html, cijeli _pages (140 HTML-a), .htaccess, manifest.
+Jedan zajednički update, NE puni release. Nema novih stranica ili sadržaja.
+Dodaje svih 115 odobrenih 301: 84 tematske zamjene, 17 zamjena usluga,
+14 preostalih članaka na postojeće usluge, bez dodavanja teksta.
+Zadržava postojeće redirekcije, UTM/query, 308 normalizaciju i PHP backend.
+Sitemap ostaje postojeći provjereni v9: 136 URL-ova, 676 stvarnih hreflang
+veza, bez XML x-default; IT galerija /galleria. Nije ga potrebno mijenjati.
+WhatsApp: samo jedan gumb; skriven stari Zendesk launcher/webWidget.
+Svih pet zaglavlja DentVitalis; postojeći znak, poruke i broj ne mijenjaju se.
 
-CPANEL — INSTALIRATI SAMO OVAJ UPDATE, NE PONAVLJATI MIGRACIJU:
-1. Raspakiraj ZIP u novu privatnu releases/20261004-chat-fixes-v11 mapu.
-   README i patch-manifest.json ne smiju u javni web.
-2. Potvrdi aktivni revision 20261004-whatsapp-brand-v9. Ako je drugi, STANI.
-   Provjeri 142 javne datoteke (0644), mape (0755). Public root ostaje 0750.
-3. Napravi dvije NOVE prazne privatne backup mape (0700):
-   backups/public-before-chat-fixes-v11-20261004/
-   backups/public-failed-chat-fixes-v11-20261004/
-4. Sačuvaj postojeće index.html, cijeli _pages i release-manifest.json:
-   Move samo te tri stavke iz public_html u before. Tek kada su ta tri
-   javna mjesta prazna, Move tri nove stavke iz PAYLOAD public_html u
-   ISTI originalni /home2/dentvita/public_html. Ne stvarati _pages/_pages.
-   Ne preimenovati niti obrisati public_html; ne dirati _astro/assets,
-   htaccess, index.php, application, podatke, DNS, PHP ili stare backupove.
-5. Izvana provjeri /, /hr, /de, /en, /si, /galleria: 200, novi sadržaj.
-   Na HR/SI desktopu i mobitelu jedan WhatsApp, bez zelenog upitnika.
-   U svih pet plavih zaglavlja DentVitalis, znak umjesto fotografije.
-   Normalni klik -> otvara znak/panel; Escape zatvara. Cookie banner radi.
-   Nikakvo slanje forme ili WhatsApp poruke.
-6. Kod regresije: nove tri stavke Move u prazni failed backup;
-   stare tri vratiti iz before na ista prazna mjesta u originalnom rootu.
-   Ne vraćati pune backupove, application/data, mail/log, bazu ili CRM.
+CPANEL — SAMO ZAMJENA ČETIRIJU STAVKI, BEZ PREIMENOVANJA JAVNOG ROOT-a:
+1. Raspakiraj ZIP u novu /home2/dentvita/releases/20261004-public-fixes-v12/.
+   README.txt, redirekcije-odobrene.csv i patch-manifest.json ostaju privatni.
+2. Aktivni release-manifest.json mora biti 20261004-whatsapp-brand-v9.
+   Ako nije, STANI. Payload public_html: 143 datoteke 0644, mape 0755.
+   Provjeri expectedBeforeSha256 iz patch manifesta ako imaš alat za hash.
+   Root /home2/dentvita/public_html ostaje na postojećih 0750.
+3. Napravi NOVE prazne backup mape 0700:
+   /home2/dentvita/backups/public-before-fixes-v12-20261004/
+   /home2/dentvita/backups/public-failed-fixes-v12-20261004/
+4. Move postojeće ČETIRI stavke index.html, _pages, .htaccess,
+   release-manifest.json iz aktivnog public_html u before backup.
+   Tek kad su ta četiri mjesta prazna, Move iste četiri nove stavke iz
+   raspakiranog PAYLOAD public_html u originalni /home2/dentvita/public_html.
+   Ne stvarati public_html/public_html ili _pages/_pages. Nema overwrite spajanja.
+   NE preimenovati ili obrisati public_html. Ne dirati _astro/assets,
+   index.php, application/data, mail/log, bazu/CRM, DNS, PHP ili stare backupove.
+5. Provjeri izvana: index.html, /, /hr, /de, /en, /si, /galleria -> 200 novi web.
+   SVE adrese u redirekcije-odobrene.csv: jedan 301 na cilj, cilj 200,
+   query ?utm_source=v12%2Bcheck&item=1&item=2 ostaje sačuvan.
+   Posebno /en/implantation -> /en/new-implants;
+   /en/registration i /en/contacts -> /en/contact;
+   /en/croatia-and-rijeka -> /en/directions.
+   Tri zadržane HR PHP stranice i GET /send ostaju 200.
+   GET tokena/no-store provjeriti bez zapisivanja vrijednosti tokena.
+   robots i sitemap 200; manifest revision 20261004-public-fixes-v12.
+   HR/SI desktop + mobile: nema zelenog upitnika preko WhatsAppa;
+   obični klik otvara panel, Escape zatvara, svih pet zaglavlja DentVitalis.
+   CookieYes postavke/odbijanje rade. NE slati forme ili WhatsApp poruke.
+6. Ako bilo koji ključni test pokaže regresiju: Move nove četiri stavke u
+   prazni failed backup, pa stare četiri iz before vrati na ista prazna mjesta
+   originalnog root-a. Ne vraćati application, podatke, mail, bazu ili CRM.
+7. Pošalji izvještaj: revision, statusi testova, dozvole, stvarna preostala
+   kvota i jesu li hashovi provjereni. Ne proglašavati blokiran GET uspješnim.
 
 WEBMASTER: trajno pauzirati SAMO stari Zendesk/Zopim tag u GTM-K3QGWS.
-Ovaj update ispravlja prikaz odmah, ali ne uklanja SDK/cookieje iz GTM-a.
-SEO: svi postojeći 74 redirecta prolaze vanjski test; 106 starih sadržajnih
-URL-ova bez odobrene zamjene i /en/contacts ostaju zaseban otvoreni posao.
-Ne tvrditi da ovaj chat update rješava sve redirekcije ili puni prihvat privola.
+Ovaj update skriva njegov UI, ali NE zaustavlja učitavanje SDK-a/cookieja.
+GTM/CookieYes se ne isključuju. Puni prihvat ponašanja privola nije potvrđen.
+SEO: 301 na opći pregled usluga slabija je tematska zamjena; ne jamčimo
+očuvanje svih Google pozicija. Vlasnik odabrao bez dodavanja sadržaja.
+Šest kampanjskih/ukinute adrese NIJE ugašeno: čeka se zasebno odobrenje 410.
+Devet starih pogrešnih URL-ova ostaje 404. Tri ranije odobrene HR PHP stranice
+svjesno ostaju stare: desinfekcija, kliničko produženje krune, most na svim implantatima.
 `;
 await writeFile(join(staging, 'README.txt'), readme, {
   flag: 'wx',
   mode: 0o644,
 });
+await writeFile(
+  join(staging, 'redirekcije-odobrene.csv'),
+  '\uFEFFStari URL;Novi URL;Status\r\n' +
+    decisions.redirects
+      .map(
+        ({ from, to, status }) =>
+          `https://www.dentvitalis.com${from};https://www.dentvitalis.com${to};${status}`,
+      )
+      .join('\r\n') +
+    '\r\n',
+  { flag: 'wx', mode: 0o644 },
+);
 await writeFile(
   join(staging, 'patch-manifest.json'),
   JSON.stringify(
@@ -224,7 +273,7 @@ await writeFile(
 );
 const output = join(
   root,
-  '.astro/releases/dentvitalis-chat-fixes-20261004-v11.zip',
+  '.astro/releases/dentvitalis-public-fixes-20261004-v12.zip',
 );
 try {
   await readFile(output);

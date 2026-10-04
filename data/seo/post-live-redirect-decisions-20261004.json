@@ -5,6 +5,104 @@
   "evidence": "data/seo/post-live-redirect-proposal-20261004.json",
   "redirects": [
     {
+      "from": "/bruxismo",
+      "to": "/prestazioni-dentali",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/si/bruksizem",
+      "to": "/si/storitve",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/en/bruxismus",
+      "to": "/en/services",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/de/bruxism",
+      "to": "/de/dienstleistungen",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/hr/bruksizam",
+      "to": "/hr/usluge",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/inlay-in-ceramica",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/si/keramicni-inlay",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/en/ceramic-inlays",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/de/keramik-inlay",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/hr/keramicki-inlay",
+      "to": "/hr/krunice-ljuskice-mostovi-i-proteze",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/allungamento-clinico-della-corona-del-dente-naturale",
+      "to": "/prestazioni/corone-faccette-ponti-e-protesi",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/si/klinicno-podaljsanje-krone-naravnega-zoba",
+      "to": "/si/krone-zobne-prevleke-mosticki-in-proteze",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/en/clinical-extension-of-the-original-tooths-crown",
+      "to": "/en/crowns-veneers-bridges",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
+      "from": "/de/klinische-erweiterung-der-naturlichen-zahnkrone",
+      "to": "/de/kronen-veneers-bruecken-und-prothesen",
+      "status": 301,
+      "approvalGroup": "C-14",
+      "approval": "Owner explicitly chose only 301 to services, without adding content; SEO relevance risk disclosed"
+    },
+    {
       "from": "/si/testimonials-nado-bukovic",
       "to": "/si/izkusnje-pacientov",
       "status": 301,
@@ -613,6 +711,8 @@
   ],
   "retiredRoutes": [],
   "retirementApprovalPending": true,
-  "contentPreservationDecisionPending": true,
+  "contentPreservationDecisionPending": false,
+  "additional14Approval": "Owner chose: Samo 301 na usluge, bez dodavanja sadržaja",
+  "newContentOrDesignAuthorized": false,
   "productionChanged": false
 }

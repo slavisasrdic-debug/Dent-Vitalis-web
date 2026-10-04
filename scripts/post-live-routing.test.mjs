@@ -9,8 +9,8 @@ const before = await readFile(
 );
 const documents = JSON.parse(await readFile('dist/page-routes.json', 'utf8'));
 
-test('all 101 approved redirects have existing final targets and preserve v9', () => {
-  assert.equal(decisions.redirects.length, 101);
+test('all 115 approved redirects have existing final targets and preserve v9', () => {
+  assert.equal(decisions.redirects.length, 115);
   const after = postLiveHtaccess(before, documents);
   const block =
     /# POST-LIVE APPROVED REDIRECTS\n[\s\S]*?# END POST-LIVE APPROVED REDIRECTS\n\n/.exec(
@@ -18,7 +18,7 @@ test('all 101 approved redirects have existing final targets and preserve v9', (
     )?.[0];
   assert.ok(block);
   assert.equal(after.replace(block, ''), before);
-  assert.equal((block.match(/\[R=301,L,NE\]/g) ?? []).length, 101);
+  assert.equal((block.match(/\[R=301,L,NE\]/g) ?? []).length, 115);
   assert.ok(!block.includes('R=302') && !block.includes('QSD'));
   for (const row of decisions.redirects)
     assert.ok(

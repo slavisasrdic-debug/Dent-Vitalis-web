@@ -1,0 +1,50 @@
+DENTVITALIS — ODOBRENI JAVNI ISPRAVCI V12, 2026-10-04
+
+Odluke: data/seo/post-live-redirect-decisions-20261004.json.
+Vlasnik odobrio 84 tematske 301 zamjene, 17 zamjena usluga i potom
+14 preostalih članaka -> postojeće usluge: "Samo 301 na usluge,
+bez dodavanja sadržaja". Ukupno 115 dodatnih trajnih redirekcija.
+Nema novih tekstova, stranica ili redizajna. Relevantnost općeg pregleda
+usluga slabija je od izvornog članka; pozicije na Googleu nisu zajamčene.
+
+Svaka nova zamjena ostaje u izvornom jeziku. Cilj mora postojati u
+stvarnoj karti produkcijskih stranica. Provjerena oba oblika stare
+adrese, sa i bez završnog slasha, uz očuvanje složenih query parametara.
+Izvan novog jasno označenog bloka .htaccess ostaje byte-identičan
+odobrenom v8/v9. Ostaje PHP 7.4, forme/tokeni, tri očuvane HR stranice,
+postojeći cache i normalizacija HTTPS/www i završnog slasha.
+
+Ne gasiti šest kampanjskih/ukinute adrese bez zasebnog odobrenja:
+/registration-fb, /si/registracija-fb, /registration-fb2, /action,
+/hr/registration-fb, /decisione-implantologia.
+Njihov 410 još nije odobren. Devet povijesnih pogrešnih adresa ostaje 404.
+
+UI: stari Zendesk launcher/webWidget više ne prekriva native WhatsApp.
+U svih pet plavih zaglavlja prikazuje se DentVitalis. Poruke, broj i
+originalni vektorski znak ostaju nepromijenjeni. To skriva UI, ali ne
+zaustavlja Zendesk SDK/kolačiće; webmaster mora zasebno pauzirati samo
+Zendesk/Zopim tag u GTM-K3QGWS. GTM i CookieYes ne isključivati.
+
+Provjere prije pakiranja: 19 WhatsApp/favicon browser testova;
+stvarni javni GTM/Zendesk s kandidat HTML-om HR/SI: desktop i mobitel,
+običan pointer klik, zatvaranje Escape, CMP postavke bez slanja upita;
+11 routing testova uključujući stvarni Docker Apache HTTP/TLS,
+sve nove redirekcije sa i bez slasha, ciljevi 200, složeni query,
+pet jezika, postojeći 410, handleri i zabrana directory listinga.
+Lokalni POST u routing testu je dummy fixture, nikad produkcijski upit.
+
+Paket generator: scripts/package-chat-overlap-fix.mjs.
+143 javne datoteke: index.html, cijeli _pages (140 HTML-a), .htaccess,
+release-manifest.json. Usporedba s hash-provjerenim v9 i v8 ZIP-om
+ograničava HTML razlike na zaštitni head blok, ime/ARIA chata i
+generirane scope/instance ID-jeve. Sadržaj/SEO/forme nisu izmijenjeni.
+Ostali asseti ostaju identični; postojeći odobreni XML sitemap ne
+zamjenjuje se običnim Astro sitemapom bez handoff hreflanga.
+
+Objava isključivo zamjenom četiri stavke U ORIGINALNOM public_html
+korijenu, nakon privatnog before/failed backupa. Ne preimenovati
+public_html; ne dirati application/data, mail/log, bazu/CRM, DNS ili PHP.
+Detaljna uputa nalazi se u privatnom README.txt unutar ZIP-a.
+Testove konačnog ZIP-a/hash i izvorni commit evidentira release receipt.
+Priprema paketa nije dokaz produkcijske instalacije. Potrebna je zasebna
+vanjska provjera nakon potvrde cPanel agenta da je update instaliran.

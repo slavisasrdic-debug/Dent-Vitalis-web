@@ -8,6 +8,7 @@ export function postLiveHtaccess(input, documents) {
   assert.ok(!source.includes('# POST-LIVE APPROVED REDIRECTS'));
   const from = new Set(decisions.redirects.map((row) => row.from));
   assert.equal(from.size, decisions.redirects.length);
+  const language = (path) => /^\/(hr|de|en|si)(?:\/|$)/.exec(path)?.[1] ?? 'it';
   for (const row of decisions.redirects) {
     assert.equal(row.status, 301);
     assert.match(row.from, /^\/[a-z0-9/-]+$/);
@@ -15,11 +16,12 @@ export function postLiveHtaccess(input, documents) {
     assert.ok(!row.from.endsWith('/') && !row.to.endsWith('/'));
     assert.ok(!Object.hasOwn(documents, row.from), row.from);
     assert.ok(Object.hasOwn(documents, row.to), row.to);
+    assert.equal(language(row.from), language(row.to), row.from);
     assert.ok(!from.has(row.to), 'No new redirect chains: ' + row.to);
   }
   const block =
     '# POST-LIVE APPROVED REDIRECTS\n' +
-    '# Owner approved 84 topic consolidations and 17 treatment-page replacements.\n' +
+    '# Owner approved 115 additions: 84 topics, 17 treatments, 14 to service pages.\n' +
     '# Same language; one 301 to the final URL; original query is retained.\n' +
     decisions.redirects
       .map(

@@ -293,6 +293,15 @@ test(
             ),
           ).redirects
         : [];
+    const postLiveRedirects =
+      process.env.DENTVITALIS_POST_LIVE_REDIRECTS === '1'
+        ? JSON.parse(
+            await readFile(
+              join(root, 'data/seo/post-live-redirect-decisions-20261004.json'),
+              'utf8',
+            ),
+          ).redirects
+        : [];
     const sourceLegacy = suppliedLegacy
       ? await readFile(suppliedLegacy)
       : legacy;
@@ -641,6 +650,7 @@ test(
     );
     if (suppliedLegacy) redirects.push(decisions.vrTour);
     redirects.push(...reviewRedirects);
+    redirects.push(...postLiveRedirects);
     for (const { from, to } of redirects) {
       const query = '?dv_migration_check=a%2Bb&item=1&item=2';
       const redirected = await request(
@@ -659,6 +669,7 @@ test(
     for (const { from, to } of [
       ...approvedContentRedirects,
       ...reviewRedirects,
+      ...postLiveRedirects,
     ]) {
       const result = await request(
         true,
