@@ -1,6 +1,6 @@
 # cPanel release runbook
 
-## Važeća procedura — 1. listopada 2026.
+## Važeća procedura — ažurirano 4. listopada 2026.
 
 Ovo je jedina operativna procedura. Dokazi i statusi čuvaju se u
 [data/migration-readiness.json](../data/migration-readiness.json), posebno
@@ -14,7 +14,30 @@ ručnim File Managerom; API automatizacija je pauzirana. Ni jedan put još nije 
 potvrđen za objavu. SSH nije opći preduvjet migracije. Jedna GitHub akcija za
 produkcijsku objavu još nije implementirana; backup i forme ostaju release gates.
 
-**Najnovije — prvi odobreni stvarni sintetički POST:** vlasnik je odobrio
+**Najnovije — preostala četiri TEST upita poslana 4. listopada 2026.:**
+nakon prihvaćenog HR testa vlasnik je odgovorio „krenimo”. IT, DE, EN i SL
+poslani su po jednom između 12:20:38 i 12:20:43 UTC (14:20 po Zagrebu).
+Četiri svježe same-session token preflight provjere prošle su prije POST-ova.
+Svaki `/send` POST vratio je HTTP 200 JSON `status:ok` i `no-store`, bez
+validacijskih grešaka. Svaki je imao jedan neutralni PDF od 640 B.
+
+| Jezik               | Oznaka testa                 | Primitak e-maila/CRM-a i čitljivih privitaka |
+| ------------------- | ---------------------------- | -------------------------------------------- |
+| IT                  | `DV-MIG-20261004-IT-122037Z` | Čeka vlasnikovu potvrdu.                     |
+| DE                  | `DV-MIG-20261004-DE-122037Z` | Čeka vlasnikovu potvrdu.                     |
+| EN                  | `DV-MIG-20261004-EN-122037Z` | Čeka vlasnikovu potvrdu.                     |
+| SL, javni URL `/si` | `DV-MIG-20261004-SL-122037Z` | Čeka vlasnikovu potvrdu.                     |
+
+Ukupno je izvršeno svih pet odobrenih POST-ova, bez ponavljanja. Ne slati
+nove testove/auto-retry samo zato što primitak još nije pronađen. Očekivano
+slanje izvršava postojeći PHP backend na cPanelu: Codespaces je samo poslao
+multipart zahtjev na pravi `https://www.dentvitalis.com/send`, nije slao SMTP
+ili izravni CRM zahtjev. Primatelji, CRM, konfiguracija, DNS i javni izgled
+nisu mijenjani. Ovo nije browser submit nove Astro forme niti GTM konverzija.
+Detaljni sanitizirani rezultati/hashi su u `syntheticDeliveryTestProgress`.
+Novi javni upload/aktivacija i dalje čekaju dovršeni prihvat svih jezika.
+
+**Prvi odobreni stvarni sintetički POST — prihvaćeni HR:** vlasnik je odobrio
 pet TEST upita (po jeziku), jedan bezopasni PDF i dostavio kontakt testnog
 pošiljatelja. Kontakt vrijednosti nisu zapisane u repozitorij. Prvi HR upit
 `DV-MIG-20261001-HR-152910Z` poslan je jednom u 15:29:10 UTC kroz postojeći
@@ -33,7 +56,8 @@ izvorno vrijeme odgovaraju HR testu, PDF prikazuje samo neutralni TEST tekst.
 HR inbox i e-mail privitak potvrđeni su vlasničkim dokazom, bez neovisnog
 pristupa mailboxu ili provjere preuzetog hasha. Screenshot/kontakti/adrese
 primatelja ne pohranjuju se u repozitorij. HR dostava i čitljivi privici sada
-su prihvaćeni. Slijede već odobreni IT/DE/EN/SL, još nisu poslani. HR ne
+su prihvaćeni. Naknadni IT/DE/EN/SL POST-ovi opisani su iznad; njihove dostave
+još čekaju potvrdu. HR ne
 ponavljati. Cloudflare brisanje blokirano je brojem objava; vlasnik je zatražio
 da ga zasad ostavimo. Projekt nije potvrđen kao obrisan, ne ponavljati brisanje.
 
@@ -647,8 +671,9 @@ lokalizacije. Točan `.htaccess` merge radi se tek uz kopiju postojećeg
 - Vlasnik je odobrio najviše pet upita ukupno, po jedan za svaki jezik,
   uz bezopasni testni PDF.
   HR POST je izvršen jednom; inbox/CRM su potvrđeni, e-mail PDF otvoren.
-  Vlasnik je potvrdio otvaranje CRM PDF-a; nastaviti ostale već odobrene
-  jezike bez ponavljanja HR-a. Ne poistovjećivati otvaranje s provjerom hasha.
+  Vlasnik je potvrdio otvaranje CRM PDF-a. Ostali jezici naknadno su poslani
+  po jednom i čekaju potvrdu primitka/privitaka. Svih pet odobrenih POST-ova
+  je iskorišteno, ne ponavljati ih. Otvaranje nije provjera hasha.
 - Legacy `test@example.com` aktivira testni e-mail primatelj i ne šalje CRM
   lead; time se provjerava frontend, tokeni i SMTP test.
 - CRM zahtijeva potvrđeni testni endpoint ili eksplicitno odobren testni lead.

@@ -210,7 +210,7 @@ test('private upload and extraction evidence do not prove server integrity or sa
   assert.match(stage.permissions.scope, /no-symlinks-or-parent-directories/);
   assert.match(
     report.procedure.nextCheck,
-    /proceed-approved-IT-DE-EN-SL-delivery-checks/,
+    /awaiting-owner-IT-DE-EN-SL-inbox-CRM-and-PDF-confirmations/,
   );
   assert.ok(
     report.serverGates.includes(
@@ -358,9 +358,10 @@ test('owner-accepted HR delivery and readable PDFs do not prove file hashes or a
   const progress = report.syntheticDeliveryTestProgress;
   const first = progress.firstTest;
   assert.equal(progress.maximumApprovedSubmissions, 5);
-  assert.equal(progress.submissionsAttempted, 1);
+  assert.equal(progress.submissionsAttempted, 5);
   assert.equal(progress.automaticRetriesPerformed, 0);
-  assert.deepEqual(progress.pendingLanguages, ['it', 'de', 'en', 'sl']);
+  assert.deepEqual(progress.pendingLanguages, []);
+  assert.deepEqual(progress.pendingReceiptLanguages, ['it', 'de', 'en', 'sl']);
   assert.equal(
     progress.pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed,
     false,
@@ -421,6 +422,48 @@ test('owner-accepted HR delivery and readable PDFs do not prove file hashes or a
     cloudflare.status,
     'paused-at-owner-request-do-not-retry-during-migration',
   );
+});
+
+test('remaining four single submissions exhaust approval without claiming inbox, CRM or new frontend acceptance', () => {
+  const progress = report.syntheticDeliveryTestProgress;
+  const tests = progress.remainingLanguageTests;
+  assert.equal(tests.length, 4);
+  assert.deepEqual(
+    tests.map((entry) => entry.language),
+    ['it', 'de', 'en', 'sl'],
+  );
+  assert.equal(new Set(tests.map((entry) => entry.marker)).size, 4);
+  assert.equal(
+    progress.submissionsAttempted,
+    report.ownerAuthorization.syntheticDeliveryTests
+      .maximumSingleLanguageSubmissions,
+  );
+  assert.equal(progress.automaticRetriesPerformed, 0);
+  for (const entry of tests) {
+    assert.equal(entry.httpStatus, 200);
+    assert.equal(entry.responseStatus, 'ok');
+    assert.equal(entry.status, 'server-accepted-awaiting-receipts');
+    assert.match(entry.sourcePageUrl, /^https:\/\/www\.dentvitalis\.com\//);
+    assert.equal(entry.tokenPreflight.csrfAndGctNonempty, true);
+    assert.equal(entry.tokenPreflight.sessionCookieEstablished, true);
+    assert.equal(entry.tokenPreflight.tokenValuesRecorded, false);
+    assert.equal(entry.personalContactOrTokenValuesRecorded, false);
+    assert.equal(entry.existingMailRecipientsAndCrmNotChanged, true);
+    assert.equal(entry.attachment.type, 'application/pdf');
+    assert.equal(entry.attachment.bytes, 640);
+    assert.equal(entry.attachment.containsPatientData, false);
+    assert.match(entry.attachment.sha256, /^[a-f0-9]{64}$/);
+    assert.equal(entry.inboxReceiptConfirmed, false);
+    assert.equal(entry.crmLeadConfirmed, false);
+    assert.equal(entry.mailAttachmentConfirmed, false);
+    assert.equal(entry.crmAttachmentConfirmed, false);
+    assert.equal(entry.newFrontendEndToEndTest, false);
+  }
+  assert.equal(
+    tests.find((entry) => entry.language === 'sl').sourcePageUrl,
+    'https://www.dentvitalis.com/si',
+  );
+  assert.equal(progress.publicSiteActivated, false);
 });
 
 test('paused SSH workflow exits before checkout/build/server connection', async () => {

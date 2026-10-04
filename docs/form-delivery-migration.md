@@ -11,7 +11,18 @@
 
 ## Potvrđeni legacy tok
 
-### Najnoviji objedinjeni pregled prije aktivacije — 1. listopada 2026.
+### Najnoviji objedinjeni pregled prije aktivacije — 4. listopada 2026.
+
+Preostali IT/DE/EN/SL POST-ovi izvršeni su po jednom 4. listopada između
+12:20:38 i 12:20:43 UTC, nakon vlasnikova „krenimo”. Oznake:
+`DV-MIG-20261004-{IT,DE,EN,SL}-122037Z`. Četiri same-session token GET-a
+prošla su prije slanja. Svaki odgovor: 200 JSON `status:ok`, `no-store`,
+bez validacijskih grešaka, uz jedan neutralni PDF od 640 B. E-mail i CRM
+izvršava postojeći PHP na cPanel hostingu; Codespaces uputio je samo zahtjev
+na pravi `/send`. Nisu mijenjani primatelji, CRM, DNS ni javni web.
+Svih pet odobrenih upita sada je pokušano bez ponavljanja. HR je prihvaćen
+vlasničkim dokazima niže; za ostala četiri još čekamo primitak i čitljive
+privitke. HTTP uspjeh nije potvrda tih primitaka niti frontend/GTM test.
 
 Vlasnik je naknadno odobrio pet označenih TEST upita (po jeziku), jedan
 bezopasni PDF i dostavio kontakt testnog pošiljatelja. Ti kontakti nisu u Gitu.
@@ -26,8 +37,8 @@ e-maila i prikazao proslijeđenu poruku s otvorenim PDF-om: točna oznaka,
 odgovarajuće izvorno vrijeme i neutralni TEST tekst. HR inbox i e-mail PDF
 potvrđeni su vlasničkim dokazom; nema neovisnog mailbox pristupa ni hasha
 preuzetog privitka. Ne pohranjuju se screenshot, kontakti ili mailbox adrese.
-HR dostava i čitljivi privici su prihvaćeni; nastaviti preostala četiri već
-odobrena jezika, koji još nisu poslani. Nema auto-retryja ili javne aktivacije. Izravni
+HR dostava i čitljivi privici su prihvaćeni; naknadni testovi preostala četiri
+jezika opisani su iznad. Nema auto-retryja ili javne aktivacije. Izravni
 backend POST nije potvrda end-to-end novog frontend/thank-you/GTM toka.
 
 Browser agent potvrđuje instalaciju oba PHP dodatka i minimalnog transport

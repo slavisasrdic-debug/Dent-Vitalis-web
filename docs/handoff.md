@@ -1,13 +1,25 @@
 # Handoff — aktualni status i povijest
 
-## Aktualno za migraciju — 1. listopada 2026.
+## Aktualno za migraciju — 4. listopada 2026.
 
 Jedina operativna procedura je [cPanel runbook](cpanel-migration-runbook.md),
 uz statuse/dokaze u `data/migration-readiness.json`. Stariji prijedlozi niže
 nisu uputa za ponavljanje završene provjere ili za produkcijsku aktivaciju.
 GitHub ostaje izvor koda, produkcija na postojećem cPanelu; Pages je preview.
 
-**Najnovije:** vlasnik je odobrio pet označenih TEST upita (po jeziku) i jedan
+**Najnovije:** IT/DE/EN/SL TEST upiti poslani su po jednom 4. listopada,
+12:20:38–12:20:43 UTC (14:20 Zagreb), nakon vlasnikova „krenimo”. Oznake:
+`DV-MIG-20261004-{IT,DE,EN,SL}-122037Z`. Svaki je koristio svježe tokene iste
+sesije, dobio 200 JSON `status:ok`, `no-store`, bez validacijskih grešaka,
+uz jedan neutralni PDF od 640 B. Backend na cPanelu izvršava e-mail/CRM
+slanje; Codespaces je samo uputio multipart `/send` na pravi www host.
+Primitak ovih četiriju e-mailova/CRM zapisa i čitljivih privitaka još nije
+potvrđen. Svih pet odobrenih POST-ova ukupno je izvršeno, bez retryja.
+Ne slati novih pet niti ponavljati neki jezik bez nove izričite odluke.
+Statusi/metadata u JSON-u; ne zapisivati kontakte/tokene ili raw odgovore.
+Javni izgled/konfiguracija/DNS nisu mijenjani; ovo nije novi frontend/GTM test.
+
+**Prethodno prihvaćeni HR:** vlasnik je odobrio pet označenih TEST upita (po jeziku) i jedan
 bezopasni PDF; kontakt pošiljatelja nije pohranjen u repozitorij. Prvi HR POST
 `DV-MIG-20261001-HR-152910Z` poslan je jednom, 15:29:10 UTC, kroz postojeći
 backend sa svježim tokenima iste sesije, bez promjene primatelja/CRM-a.
@@ -21,10 +33,11 @@ otvorenim PDF-om: točna TEST oznaka, odgovarajuće vrijeme i neutralni tekst.
 HR inbox i e-mail PDF potvrđeni su vlasničkim dokazom, ne neovisnim mailbox
 pristupom ili hashom preuzetog privitka. Screenshot/kontakti/mailbox adrese
 nisu u repozitoriju. HR dostava i čitljivi privici sada su prihvaćeni.
-Ostali IT/DE/EN/SL još nisu poslani, bez auto-retryja ili switcha.
+Naknadni IT/DE/EN/SL poslani su kako je opisano iznad, bez auto-retryja ili switcha.
 To nije end-to-end test novog frontend izgleda. Oznaka/metadata u JSON-u,
-nikad kontakt ili vrijednosti tokena. Sljedeće: nastaviti odobrene preostale
-testove, bez ponavljanja HR-a i bez nove javne aktivacije.
+nikad kontakt ili vrijednosti tokena. Sljedeće: potvrditi primitak i čitljive
+privitke za preostala četiri jezika, bez ponavljanja HR-a ili bilo kojeg POST-a
+i bez nove javne aktivacije.
 Cloudflare Pages projekt nema custom domene prema vlasnikovu prikazu;
 brisanje je blokirano brojem objava i nije završeno. Vlasnik je zatražio da
 ga zasad ostavimo; ne ponavljati brisanje ili uvoditi novi pristup radi toga.

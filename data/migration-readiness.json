@@ -1,5 +1,5 @@
 {
-  "reviewedOn": "2026-10-02",
+  "reviewedOn": "2026-10-04",
   "source": {
     "kind": "owner-supplied-redacted-cpanel-read-only-audit",
     "sha256": "86ded1396f09d2a32bc9bd2fcc1a7c0aa4b93b563bd037a86b2b9b01f7d0cb23"
@@ -35,6 +35,8 @@
       "testSenderPersonalContactValuesStoredInRepository": false,
       "markAsNonPatientMigrationTest": true,
       "existingRecipientsAndCrmRemainUnchanged": true,
+      "remainingTestsProceedConfirmedOn": "2026-10-04",
+      "remainingTestsProceedSource": "owner-message-krenimo-after-HR-receipt-and-PDF-acceptance",
       "automaticRepeatAuthorized": false,
       "publicSiteActivationAuthorizedByThisApproval": false
     },
@@ -43,13 +45,13 @@
     "privateDataOverwriteAuthorized": false
   },
   "procedure": {
-    "updatedOn": "2026-10-01",
+    "updatedOn": "2026-10-04",
     "authoritativeRunbook": "docs/cpanel-migration-runbook.md",
     "currentDirection": "manual-File-Manager-migration-with-API-automation-paused",
     "hostingSupportRequestRequired": false,
     "sshIsMigrationPrerequisite": false,
     "automaticProductionDeploymentReady": false,
-    "nextCheck": "proceed-approved-IT-DE-EN-SL-delivery-checks-before-new-upload-without-public-activation",
+    "nextCheck": "awaiting-owner-IT-DE-EN-SL-inbox-CRM-and-PDF-confirmations-before-new-upload-without-public-activation",
     "cloudflarePreviewRetirement": {
       "reportedOn": "2026-10-02",
       "source": "owner-dashboard-screenshots-and-owner-request-to-leave-this-for-now",
@@ -441,9 +443,9 @@
   },
   "syntheticDeliveryTestProgress": {
     "maximumApprovedSubmissions": 5,
-    "submissionsAttempted": 1,
+    "submissionsAttempted": 5,
     "automaticRetriesPerformed": 0,
-    "pendingLanguages": ["it", "de", "en", "sl"],
+    "pendingLanguages": [],
     "pendingLanguagesHeldUntilFirstInboxAndCrmReceiptConfirmed": false,
     "pendingLanguagesHeldUntilFirstCrmAttachmentReadableConfirmed": false,
     "firstTest": {
@@ -505,7 +507,162 @@
       "mailAttachmentConfirmed": true,
       "newFrontendEndToEndTest": false
     },
-    "publicSiteActivated": false
+    "publicSiteActivated": false,
+    "pendingReceiptLanguages": ["it", "de", "en", "sl"],
+    "remainingLanguageTests": [
+      {
+        "language": "it",
+        "marker": "DV-MIG-20261004-IT-122037Z",
+        "sourcePageUrl": "https://www.dentvitalis.com/",
+        "attachment": {
+          "name": "TEST-MIGRACIJE-DV-MIG-20261004-IT-122037Z.pdf",
+          "type": "application/pdf",
+          "bytes": 640,
+          "sha256": "5bf9e16b8856680afc0c8195400cabbb49dcff967b50013bf6ac83f8964a355b",
+          "containsPatientData": false
+        },
+        "status": "server-accepted-awaiting-receipts",
+        "inboxReceiptConfirmed": false,
+        "crmLeadConfirmed": false,
+        "mailAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": false,
+        "newFrontendEndToEndTest": false,
+        "tokenPreflight": {
+          "httpStatus": 200,
+          "csrfAndGctNonempty": true,
+          "sessionCookieEstablished": true,
+          "cacheNoStore": true,
+          "tokenValuesRecorded": false
+        },
+        "startedAtUtc": "2026-10-04T12:20:38.021Z",
+        "finishedAtUtc": "2026-10-04T12:20:39.456Z",
+        "httpStatus": 200,
+        "responseContentType": "application/json; charset=utf-8",
+        "responseCacheControl": "private, no-store, max-age=0",
+        "responseBodySha256": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "responseStatus": "ok",
+        "responseCode": null,
+        "validationErrorFields": [],
+        "transport": "Codespaces-single-same-session-multipart-POST-to-existing-send-after-fresh-form-tokens-GET",
+        "existingMailRecipientsAndCrmNotChanged": true,
+        "campaignActionEmpty": true,
+        "personalContactOrTokenValuesRecorded": false
+      },
+      {
+        "language": "de",
+        "marker": "DV-MIG-20261004-DE-122037Z",
+        "sourcePageUrl": "https://www.dentvitalis.com/de",
+        "attachment": {
+          "name": "TEST-MIGRACIJE-DV-MIG-20261004-DE-122037Z.pdf",
+          "type": "application/pdf",
+          "bytes": 640,
+          "sha256": "cf32ceaa03c6ff846e13d285f597fbeec9b2aa1a403d95da0ef77eb1d5d1fafa",
+          "containsPatientData": false
+        },
+        "status": "server-accepted-awaiting-receipts",
+        "inboxReceiptConfirmed": false,
+        "crmLeadConfirmed": false,
+        "mailAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": false,
+        "newFrontendEndToEndTest": false,
+        "tokenPreflight": {
+          "httpStatus": 200,
+          "csrfAndGctNonempty": true,
+          "sessionCookieEstablished": true,
+          "cacheNoStore": true,
+          "tokenValuesRecorded": false
+        },
+        "startedAtUtc": "2026-10-04T12:20:39.458Z",
+        "finishedAtUtc": "2026-10-04T12:20:40.481Z",
+        "httpStatus": 200,
+        "responseContentType": "application/json; charset=utf-8",
+        "responseCacheControl": "private, no-store, max-age=0",
+        "responseBodySha256": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "responseStatus": "ok",
+        "responseCode": null,
+        "validationErrorFields": [],
+        "transport": "Codespaces-single-same-session-multipart-POST-to-existing-send-after-fresh-form-tokens-GET",
+        "existingMailRecipientsAndCrmNotChanged": true,
+        "campaignActionEmpty": true,
+        "personalContactOrTokenValuesRecorded": false
+      },
+      {
+        "language": "en",
+        "marker": "DV-MIG-20261004-EN-122037Z",
+        "sourcePageUrl": "https://www.dentvitalis.com/en",
+        "attachment": {
+          "name": "TEST-MIGRACIJE-DV-MIG-20261004-EN-122037Z.pdf",
+          "type": "application/pdf",
+          "bytes": 640,
+          "sha256": "5fe9a8824afdef0786ad9ede3eb534fb272c458a5c2f249e3fd8395515164fcb",
+          "containsPatientData": false
+        },
+        "status": "server-accepted-awaiting-receipts",
+        "inboxReceiptConfirmed": false,
+        "crmLeadConfirmed": false,
+        "mailAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": false,
+        "newFrontendEndToEndTest": false,
+        "tokenPreflight": {
+          "httpStatus": 200,
+          "csrfAndGctNonempty": true,
+          "sessionCookieEstablished": true,
+          "cacheNoStore": true,
+          "tokenValuesRecorded": false
+        },
+        "startedAtUtc": "2026-10-04T12:20:40.483Z",
+        "finishedAtUtc": "2026-10-04T12:20:41.508Z",
+        "httpStatus": 200,
+        "responseContentType": "application/json; charset=utf-8",
+        "responseCacheControl": "private, no-store, max-age=0",
+        "responseBodySha256": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "responseStatus": "ok",
+        "responseCode": null,
+        "validationErrorFields": [],
+        "transport": "Codespaces-single-same-session-multipart-POST-to-existing-send-after-fresh-form-tokens-GET",
+        "existingMailRecipientsAndCrmNotChanged": true,
+        "campaignActionEmpty": true,
+        "personalContactOrTokenValuesRecorded": false
+      },
+      {
+        "language": "sl",
+        "marker": "DV-MIG-20261004-SL-122037Z",
+        "sourcePageUrl": "https://www.dentvitalis.com/si",
+        "attachment": {
+          "name": "TEST-MIGRACIJE-DV-MIG-20261004-SL-122037Z.pdf",
+          "type": "application/pdf",
+          "bytes": 640,
+          "sha256": "3378a19bf5892784a94106f378992afb360090b52658788db6dbd3f28760c721",
+          "containsPatientData": false
+        },
+        "status": "server-accepted-awaiting-receipts",
+        "inboxReceiptConfirmed": false,
+        "crmLeadConfirmed": false,
+        "mailAttachmentConfirmed": false,
+        "crmAttachmentConfirmed": false,
+        "newFrontendEndToEndTest": false,
+        "tokenPreflight": {
+          "httpStatus": 200,
+          "csrfAndGctNonempty": true,
+          "sessionCookieEstablished": true,
+          "cacheNoStore": true,
+          "tokenValuesRecorded": false
+        },
+        "startedAtUtc": "2026-10-04T12:20:41.509Z",
+        "finishedAtUtc": "2026-10-04T12:20:42.897Z",
+        "httpStatus": 200,
+        "responseContentType": "application/json; charset=utf-8",
+        "responseCacheControl": "private, no-store, max-age=0",
+        "responseBodySha256": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+        "responseStatus": "ok",
+        "responseCode": null,
+        "validationErrorFields": [],
+        "transport": "Codespaces-single-same-session-multipart-POST-to-existing-send-after-fresh-form-tokens-GET",
+        "existingMailRecipientsAndCrmNotChanged": true,
+        "campaignActionEmpty": true,
+        "personalContactOrTokenValuesRecorded": false
+      }
+    ]
   },
   "deploymentAutomation": {
     "ownerApprovedDesignOn": "2026-10-01",
