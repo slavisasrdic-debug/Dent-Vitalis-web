@@ -190,6 +190,12 @@ const { content } = Astro.props;
     :global(html[lang='de']) h1 {
       font-size: clamp(32px, 3vw, 42px);
     }
+    /* Directory intros have no adjacent photo; keep detail copy unchanged. */
+    .detail-hero.directory .hero-copy {
+      width: 100%;
+      max-width: 1000px;
+      padding-right: 0;
+    }
   }
   @media screen and (max-width: 767px) {
     h1 {

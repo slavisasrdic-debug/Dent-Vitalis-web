@@ -405,6 +405,7 @@ test(
       process.env.DENTVITALIS_PERFORMANCE_CACHE === '1'
         ? [
             ['/_astro/home.AbCd0123.js', true],
+            ['/_astro/_..hbUBXTid.css', true],
             ['/assets/fonts/montserrat-5ce8bc33c495.js', true],
             [
               '/assets/video/DV-MObile-video01_3_optimized-012345abcdef.mp4',

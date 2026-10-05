@@ -15,6 +15,17 @@ import baseReceipt from '../data/seo/public-fixes-v12-release-20261004.json' wit
 import video from '../src/content/mobile-video-optimization.json' with { type: 'json' };
 import { performanceHtaccess } from './performance-cache.mjs';
 
+const directoryUpdate = process.env.DENTVITALIS_DIRECTORY_UPDATE === '1';
+const revision = directoryUpdate
+  ? '20261005-directory-performance-v14'
+  : '20261005-performance-v13';
+const approvedDirectoryRule =
+  '.detail-hero.directory .hero-copy{width:100%;max-width:1000px;padding-right:0}';
+const normalizeCss = (css) => {
+  const scoped = css.replace(/\[data-astro-cid-[a-z0-9]+\]/g, '');
+  return directoryUpdate ? scoped.replace(approvedDirectoryRule, '') : scoped;
+};
+
 const root = process.cwd();
 const sha = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const zip = join(root, '.astro/releases', baseReceipt.archiveName);
@@ -77,8 +88,8 @@ for (const record of previous.files.filter((file) =>
     'Unexpected non-CSS/video HTML change: ' + record.path,
   );
   assert.deepEqual(
-    await cssSequences(newHtml, join(root, 'dist')),
-    await cssSequences(oldHtml, baselineDirectory),
+    (await cssSequences(newHtml, join(root, 'dist'))).map(normalizeCss),
+    (await cssSequences(oldHtml, baselineDirectory)).map(normalizeCss),
     'CSS content/order changed: ' + record.path,
   );
   stylesheetLinksBefore += (
@@ -112,6 +123,26 @@ for (const file of previous.files.filter(
     'Unexpected asset change: ' + file.path,
   );
 }
+if (directoryUpdate) {
+  const { readdir } = await import('node:fs/promises');
+  const freshAssets = (await readdir(join(root, 'dist/_astro')))
+    .map((name) => '_astro/' + name)
+    .filter((path) => !baseline.has(path));
+  assert.equal(
+    freshAssets.length,
+    1,
+    'Only one new shared CSS asset is expected.',
+  );
+  for (const path of freshAssets) {
+    assert.ok(path.endsWith('.css'), 'No new JS or unrelated assets.');
+    const bytes = await readFile(join(root, 'dist', path));
+    const normalized = bytes
+      .toString()
+      .replace(/\[data-astro-cid-[a-z0-9]+\]/g, '');
+    assert.equal(normalized.split(approvedDirectoryRule).length - 1, 1);
+    changes.push({ path, bytes, expectedBeforeSha256: null });
+  }
+}
 const beforeHtaccess = fromBase('.htaccess');
 assert.equal(sha(beforeHtaccess), baseline.get('.htaccess').sha256);
 changes.push({
@@ -140,13 +171,14 @@ const files = [...records.values()].sort((a, b) =>
 const gitCommit = execFileSync('git', ['rev-parse', 'HEAD']).toString().trim();
 const manifest = {
   ...previous,
-  revision: '20261005-performance-v13',
+  revision,
   generatedAt: new Date().toISOString(),
   gitCommit,
   baseRevision: previous.revision,
   basePatchSha256: baseReceipt.sha256,
-  changeScope:
-    'Inline CSS below 20 KiB without changing rule content/order; smaller mobile MP4; append cache for hashed assets only. No content, routing, fonts, CookieYes, GTM or backend changes.',
+  changeScope: directoryUpdate
+    ? 'V13 performance improvements plus desktop directory-only intro width up to 1000px. Detail/mobile styles, content, routes, fonts, CookieYes, GTM and backend unchanged.'
+    : 'Inline CSS below 20 KiB without changing rule content/order; smaller mobile MP4; append cache for hashed assets only. No content, routing, fonts, CookieYes, GTM or backend changes.',
   fileCount: files.length,
   totalBytes: files.reduce((sum, file) => sum + file.bytes, 0),
   files,
@@ -156,7 +188,7 @@ changes.push({
   bytes: Buffer.from(JSON.stringify(manifest, null, 2) + '\n'),
   expectedBeforeSha256: sha(previousManifestBytes),
 });
-assert.equal(changes.length, 144);
+assert.equal(changes.length, directoryUpdate ? 145 : 144);
 assert.equal(
   changes.some((file) => file.path === '404.html'),
   false,
@@ -167,7 +199,8 @@ const proof = {
   stylesheetLinksBefore,
   stylesheetLinksAfter,
   originalAssetsUnchanged: true,
-  cssContentAndOrderUnchanged: true,
+  cssContentAndOrderUnchangedExceptApprovedDirectoryRule: true,
+  directoryIntroChangedOnlyAbove991px: directoryUpdate,
   contentMetadataAndFormsUnchanged: true,
   videoBytesSaved: video.sourceBytes - video.bytes,
   videoSsim: video.ssim,
@@ -216,7 +249,63 @@ await writeFile(
   JSON.stringify(patchManifest, null, 2) + '\n',
   { mode: 0o644 },
 );
-const readme = `DENTVITALIS — PERFORMANCE V13, 5.10.2026.
+const readme = directoryUpdate
+  ? `DENTVITALIS — PREGLEDNE STRANICE + PERFORMANCE V14, 5.10.2026.
+
+JEDAN MALI UPDATE AKTIVNOG V12. V13 NE INSTALIRATI ZASEBNO.
+145 javnih datoteka: 141 HTML, .htaccess, manifest, novi CSS i novi mobilni MP4.
+Usluge/Zahvati, O nama i Informacije (15 stranica, pet jezika): samo od 992px
+uvodni tekst koristi dostupnu širinu do 1000px, bez desnog 100px paddinga.
+Detaljne stranice i mobilni stilovi ostaju isti. Tekstovi, fontovi, URL-ovi,
+sitemap/robots, stare redirekcije, GTM, CookieYes i backend nisu mijenjani.
+Uključene su V13 optimizacije: mobilni MP4 24,98% manji (kompresija s gubitkom,
+SSIM 0,992111), dvije male home CSS datoteke u HTML-u i cache samo za
+hashirane assete. Izvorni videi, fontovi, slike i stari CSS/JS ostaju sačuvani.
+
+CPANEL — NE PREIMENOVATI, BRISATI NI ZAMJENJIVATI public_html.
+1. Aktivni manifest mora imati revision 20261004-public-fixes-v12.
+   Ako nije, STANI i prijavi stvarni revision; ne pretpostavljaj kompatibilnost.
+   Provjeri stvarnu slobodnu kvotu: ZIP + ${changes.reduce((sum, file) => sum + file.bytes.length, 0)} B javnog payloada
+   + najmanje 10 MB rezerve. Backup radi premještanjem, ne dupliciranjem.
+2. Upload i Extract PRIVATNO u NOVU /home2/dentvita/releases/20261005-directory-performance-v14/.
+   README.txt i patch-manifest.json ostaju privatni; ne kopirati ih u javni web.
+   Provjeri SHA-256 iz patch-manifest.json ako alat postoji. Javni payload je public_html/.
+3. PRVO premjesti SAMO DVIJE nove datoteke iz payloada u ISTE postojeće mape:
+${changes
+  .filter((file) => file.expectedBeforeSha256 === null)
+  .map((file) => '   - ' + file.path)
+  .join('\n')}
+   Ako bilo koji novi naziv postoji, STANI. Ne zamjenjuj/spajaj mape _astro,
+   assets ili video; ne diraj postojeće CSS/JS, fontove, slike i originalne videe.
+4. Napravi NOVU praznu privatnu backup mapu 0700:
+   /home2/dentvita/backups/public-before-directory-performance-v14-20261005/.
+   Premjesti SAMO ČETIRI stare stavke index.html, _pages, .htaccess i
+   release-manifest.json iz aktivnog public_html u taj backup.
+5. Premjesti ISTE ČETIRI nove stavke iz payload public_html u POSTOJEĆI
+   /home2/dentvita/public_html/. Bez spajanja _pages i bez _pages/_pages.
+   Korijen ostaje 0750, podmape 0755, datoteke 0644. Ne diraj index.php,
+   404.html, application/backend, DNS, PHP handler, sitemap ili robots.
+6. Javno provjeri naslovnice /, /hr, /de, /en, /si i /galleria (200 + novi sadržaj).
+   U svih pet jezika provjeri tri pregledne stranice na 390/991/992/1440px:
+   širi tekst samo od 992px, bez overflowa. Kontrolna detaljna stranica u svakom
+   jeziku ostaje uska. Na 1440px hrvatske Usluge trebaju imati dva retka podnaslova.
+   Otvori/zatvori WhatsApp (DentVitalis, Escape) i mobilni meni. Na mobitelu
+   provjeri video; uz reduced-motion ostaje poster. Ne šalji formu ni poruku.
+7. Potvrdi postojeće 189 pravila 301 i šest 410, query parametre, token GET/no-store;
+   robots/sitemap ostaju isti. Novi CSS/video i hashirani font/JS trebaju
+   Cache-Control: public, max-age=31536000, immutable; HTML/PHP/tokeni ne.
+   HTTP 200 bez provjere sadržaja nije prihvat. Novi revision: ${revision}.
+8. Na grešku: napravi NOVU privatnu FAILED mapu 0700:
+   /home2/dentvita/backups/public-failed-directory-performance-v14-20261005/.
+   Premjesti ČETIRI nove root stavke u FAILED, vrati ČETIRI stare iz backupa
+   na ista mjesta u aktivni public_html. Dvije dodane datoteke mogu ostati
+   nekorištene; ništa ne brisati. Provjeri stari sadržaj/revision i HTTP.
+
+ZAVRŠNO: izvještaj provjera i slobodne kvote; produkcijski PageSpeed nakon
+instalacije. Nova ocjena nije zajamčena. Cache stvarnog LiteSpeeda i ponašanje
+javnog weba treba potvrditi nakon instalacije. Javna aktivacija NIJE izvedena.
+`
+  : `DENTVITALIS — PERFORMANCE V13, 5.10.2026.
 
 MALI UPDATE AKTIVNOG V12, NIJE PUNI WEB.
 144 javne datoteke: 141 HTML, .htaccess, manifest i JEDAN dodatni mobilni MP4.
@@ -260,7 +349,9 @@ PageSpeed provjera nakon instalacije. Nova ocjena/brzina nije zajamčena.
 Cache na stvarnom LiteSpeedu mora se potvrditi izvana nakon instalacije.
 `;
 await writeFile(join(staging, 'README.txt'), readme, { mode: 0o644 });
-const name = 'dentvitalis-performance-20261005-v13.zip';
+const name = directoryUpdate
+  ? 'dentvitalis-directory-performance-20261005-v14.zip'
+  : 'dentvitalis-performance-20261005-v13.zip';
 const output = join(root, '.astro/releases', name);
 // Exclusive copy preserves any earlier package with the same name.
 execFileSync(

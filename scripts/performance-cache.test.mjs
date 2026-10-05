@@ -26,6 +26,7 @@ test('only hashed asset filenames receive immutable, never pages or tokens', () 
   for (const file of [
     'home.AbCd0123.js',
     'HomePage.C9t7JyKq.css',
+    '_..hbUBXTid.css',
     'montserrat-5ce8bc33c495.js',
     'DV-MObile-video01_3_optimized-012345abcdef.mp4',
   ])
