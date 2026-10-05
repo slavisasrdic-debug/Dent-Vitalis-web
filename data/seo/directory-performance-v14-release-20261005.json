@@ -1,0 +1,41 @@
+{
+  "archiveName": "dentvitalis-directory-performance-20261005-v14.zip",
+  "revision": "20261005-directory-performance-v14",
+  "purpose": "Combined narrow update of active v12: directory-only desktop width and previously prepared v13 performance improvements",
+  "compressedZipBytes": 4753548,
+  "unpackedPublicBytes": 15376177,
+  "sha256": "b5612a85789b0752284bbbc56708d9ade932446e5a2a80f0161bfb371be58716",
+  "sourceGitCommit": "ec0171d83ab37321ff4b1d87f2f59345d3eaec96",
+  "baseRevision": "20261004-public-fixes-v12",
+  "basePatchSha256": "142af7f236a46e2072f1f4283b7ff422ed158932bb7cf68389fe037be8dd9681",
+  "generator": "DENTVITALIS_DIRECTORY_UPDATE=1 DENTVITALIS_BASELINE_DIST=<hash-verified-v12-directory> node scripts/package-performance-update.mjs",
+  "publicFiles": 145,
+  "archiveFilesIncludingPrivateDocuments": 147,
+  "archiveDirectories": 12,
+  "manifestStaticRecords": 693,
+  "publicItemsToReplace": [
+    "index.html",
+    "_pages",
+    ".htaccess",
+    "release-manifest.json"
+  ],
+  "publicFilesToAddFirst": [
+    "_astro/_..hbUBXTid.css",
+    "assets/video/DV-MObile-video01_3_optimized-8181dae8215a.mp4"
+  ],
+  "privateDocuments": ["README.txt", "patch-manifest.json"],
+  "changedHtml": 141,
+  "affectedDirectoryPages": 15,
+  "directoryWidth": "Available container width up to 1000px, only above 991px",
+  "mobileAndDetailStylesChanged": false,
+  "fileAndDirectoryModes": "0644/0755",
+  "publicRootModeToPreserve": "0750",
+  "videoBytesSaved": 505899,
+  "originalAssetsRemovedOrChanged": false,
+  "contentFormsSitemapRobotsRoutingBackendGtmCookieYesChanged": false,
+  "htaccessRoutingIsBytePreservedAndFinalZipMatchesApacheTestedCandidate": true,
+  "archiveCrcUniqueSafePathsAndAll145PublicHashesVerified": true,
+  "deploymentPerformed": false,
+  "newPublicPageSpeedMeasured": false,
+  "privateEmailDataOrTokenValuesIncluded": false
+}
