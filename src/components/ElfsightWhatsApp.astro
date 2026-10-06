@@ -1,0 +1,59 @@
+---
+import { whatsappWidgetId } from '../../data/whatsapp-widgets';
+import { ui } from '../content/ui';
+
+interface Props {
+  lang: string;
+  whatsapp: string | null;
+}
+const { lang, whatsapp } = Astro.props;
+const widgetId = whatsappWidgetId(lang);
+---
+
+<!-- One instance per SiteLayout; presentation and chat settings belong to Elfsight. -->
+<div
+  class={`elfsight-app-${widgetId}`}
+  data-elfsight-app-lazy
+  data-whatsapp-embed={lang}
+>
+</div>
+<script is:inline src="https://elfsightcdn.com/platform.js" async></script>
+<noscript>
+  {
+    whatsapp && (
+      <a
+        class="whatsapp-nojs"
+        href={`https://wa.me/${whatsapp}`}
+        aria-label={ui(lang).openChat}
+      >
+        <img src="/assets/images/whatsapp.svg" alt="" width="31" height="31" />
+      </a>
+    )
+  }
+</noscript>
+
+<style>
+  .whatsapp-nojs {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 30;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-accent);
+    border-radius: 50%;
+  }
+  .whatsapp-nojs:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+  }
+  @media (max-width: 991px) {
+    .whatsapp-nojs {
+      right: 15px;
+      bottom: 80px;
+    }
+  }
+</style>

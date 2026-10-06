@@ -1,5 +1,6 @@
 ---
 import original from '../../public/assets/images/Dentvitalis-logo-color_21200px.svg?raw';
+import { brandMarkArtwork, brandMarkViewBox } from '../content/brand-mark';
 
 interface Props {
   label: string;
@@ -18,18 +19,7 @@ if (!viewBox || /\bid=|\bhref=|url\(|<script\b/i.test(artwork)) {
     'Logo artwork changed: review SVG references before inlining.',
   );
 }
-// Reuse the original green V and triangle, not an enlarged 16px favicon.
-// Exact anchors deliberately fail if the accepted source artwork changes.
-const mark = [...artwork.matchAll(/<(?:path|polygon)\b[^>]*\/>/g)]
-  .map(([element]) => element)
-  .filter(
-    (element) =>
-      element.startsWith('<path d="M70.63,22.23l-7.2-17.16') ||
-      element.startsWith('<polygon points="68.3 0 72.4 11.87 76.48 0'),
-  );
-if (variant === 'mark' && mark.length !== 2) {
-  throw new Error('Brand mark changed: review the original V and triangle.');
-}
+const mark = variant === 'mark' ? brandMarkArtwork(original) : '';
 ---
 
 {
@@ -40,11 +30,11 @@ if (variant === 'mark' && mark.length !== 2) {
       role="img"
       aria-label={label}
       focusable="false"
-      viewBox="61 -2 23 27"
+      viewBox={brandMarkViewBox}
       width="64"
       height="64"
     >
-      <Fragment set:html={mark.join('')} />
+      <Fragment set:html={mark} />
     </svg>
   ) : variant === 'header' ? (
     <svg

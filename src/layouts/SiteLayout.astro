@@ -18,7 +18,6 @@ import { equivalentLanguages } from '../content/hr/routes';
 import { ui } from '../content/ui';
 import {
   clinic,
-  chatCopy,
   languages,
   navigation,
   navigationLinks,
@@ -51,7 +50,7 @@ const localized =
         ? en
         : lang === 'sl'
           ? sl
-          : { clinic, chatCopy, navigation, navigationLinks, footerGroups };
+          : { clinic, navigation, navigationLinks, footerGroups };
 const copy = ui(lang);
 ---
 
@@ -87,7 +86,6 @@ const copy = ui(lang);
     /><ContactWidgets
       consultation={localized.clinic.consultation}
       whatsapp={localized.clinic.whatsapp}
-      content={localized.chatCopy}
       lang={lang}
     /><script>
       import { initializeScrollOffsets } from '../scripts/scroll-offsets';

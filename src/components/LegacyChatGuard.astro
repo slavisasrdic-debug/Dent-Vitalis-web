@@ -1,7 +1,8 @@
 ---
-// Native WhatsApp is the only chat UI. Existing GTM still injects Zendesk on
-// HR/SI. Hide that widget, not GTM/CookieYes or unrelated embeds. The container
-// owner should also pause its obsolete tag: hiding UI does not stop SDK/cookies.
+// Elfsight WhatsApp is the only chat UI. Keep the scoped safeguard against
+// a future accidental reactivation of the retired GTM Zendesk tags.
+// Do not hide Elfsight, GTM/CookieYes or unrelated embeds. Hiding legacy UI
+// does not stop its SDK/cookies; the obsolete GTM tags must stay paused.
 ---
 
 <style is:inline data-legacy-chat-guard>

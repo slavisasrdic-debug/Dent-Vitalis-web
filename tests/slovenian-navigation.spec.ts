@@ -4,6 +4,8 @@ import { slovenianPageIds, route } from '../src/content/sl/routes';
 import { route as enRoute } from '../src/content/en/routes';
 import { route as deRoute } from '../src/content/de/routes';
 import { pagePath } from '../src/content/page-paths';
+import { blockElfsight } from './helpers/elfsight';
+test.beforeEach(async ({ page }) => blockElfsight(page));
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const pairs = readFileSync('data/hr-routes.proposed.csv', 'utf8')
   .trim()
@@ -116,11 +118,6 @@ for (const width of [390, 1440])
     );
     await page.keyboard.press('Escape');
     await expect(dialog).toHaveCount(0);
-    await page.locator('.chat-toggle').click();
-    await expect(page.locator('.chat-panel')).toContainText(
-      'Kako vam lahko pomagamo?',
-    );
-    await page
-      .getByRole('button', { name: 'Zapri pogovor', exact: true })
-      .click();
+    await expect(page.locator('[data-whatsapp-embed="sl"]')).toHaveCount(1);
+    await expect(page.locator('.chat-toggle, .chat-panel')).toHaveCount(0);
   });

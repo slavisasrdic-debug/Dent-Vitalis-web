@@ -1,298 +1,24 @@
 ---
 import Button from './Button.astro';
-import BrandLogo from './BrandLogo.astro';
-import type { chatCopy } from '../content/site';
-import { ui } from '../content/ui';
+import ElfsightWhatsApp from './ElfsightWhatsApp.astro';
+
 interface Props {
   consultation: string;
   whatsapp: string | null;
-  content: typeof chatCopy;
   lang?: string;
 }
-const { consultation, whatsapp, content, lang = 'it' } = Astro.props;
-const copy = ui(lang);
-const panelId = `whatsapp-${crypto.randomUUID()}`;
+const { consultation, whatsapp, lang = 'it' } = Astro.props;
 ---
 
-<div class="chat-widget" data-chat-widget>
-  <section
-    class="chat-panel"
-    id={panelId}
-    aria-label={`${content.team} WhatsApp`}
-    hidden
-  >
-    <div class="chat-header">
-      <div class="chat-brand">
-        <BrandLogo label="DentVitalis" variant="mark" />
-      </div>
-      <div class="chat-person">
-        <strong>{content.team}</strong><small>{content.responseTime}</small>
-      </div>
-      <button type="button" data-chat-close aria-label={copy.closeChat}
-        ><span aria-hidden="true">×</span></button
-      >
-    </div><div class="chat-body">
-      <div class="chat-bubble">
-        <span
-          >{
-            content.greeting && (
-              <>
-                {content.greeting}
-                <br />
-              </>
-            )
-          }{
-            content.message.split('\n').map((line, index) => (
-              <>
-                {index > 0 && <br />}
-                {line}
-              </>
-            ))
-          }</span
-        >
-      </div>
-    </div><div class="chat-action">
-      {
-        whatsapp ? (
-          <a href={`https://wa.me/${whatsapp}`}>
-            <img src="/assets/images/small-whatsapp.svg" alt="" />
-            {content.action}
-          </a>
-        ) : (
-          <div>
-            <>
-              <button type="button" disabled>
-                <img src="/assets/images/small-whatsapp.svg" alt="" />
-                {content.action}
-              </button>
-              <small>{content.unavailable}</small>
-            </>
-          </div>
-        )
-      }
-    </div>
-  </section><button
-    class="chat-toggle"
-    type="button"
-    aria-label={copy.openChat}
-    aria-expanded="false"
-    aria-controls={panelId}
-    ><img
-      src="/assets/images/whatsapp.svg"
-      alt=""
-      width="31"
-      height="31"
-    /></button
-  >
-  <noscript
-    >{
-      whatsapp && (
-        <a
-          class="chat-toggle"
-          aria-label={copy.openChat}
-          href={`https://wa.me/${whatsapp}`}
-        >
-          <img
-            src="/assets/images/whatsapp.svg"
-            alt=""
-            width="31"
-            height="31"
-          />
-        </a>
-      )
-    }</noscript
-  >
-</div>
+<ElfsightWhatsApp lang={lang} whatsapp={whatsapp} />
 <div class="mobile-contact">
   <Button href="#contatti" label={consultation} variant="consultation" />
 </div>
 <style>
-  .chat-widget {
-    --chat-bottom: 30px;
-    position: fixed;
-    z-index: 30;
-    right: 30px;
-    bottom: var(--chat-bottom);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  .chat-toggle {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background: var(--color-accent);
-    border: 1px solid #ffffff4d;
-    border-radius: 50%;
-    transition:
-      background 0.3s,
-      transform 0.3s cubic-bezier(0.45, 0.182, 0.111, 0.989);
-  }
-  .chat-toggle:hover {
-    background: var(--color-accent-hover);
-    transform: scale(1.05);
-  }
-  .chat-widget {
-    font-family: var(--font-body);
-  }
-  .chat-widget:not([data-ready]) > button {
-    display: none;
-  }
-  .chat-panel {
-    width: min(360px, calc(100vw - 32px));
-    max-height: calc(
-      100dvh - var(--chat-bottom) - var(--header-height) -
-        var(--breadcrumb-height, 0px) - 92px
-    );
-    background: white;
-    border: 1px solid #00000029;
-    border-radius: 20px;
-    margin-bottom: 16px;
-    overflow: auto;
-    overscroll-behavior: contain;
-    box-shadow: 0 12px 36px #002c3a33;
-    animation: chat-enter 0.2s ease-out;
-  }
-  .chat-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    gap: 12px;
-    background: var(--color-primary);
-    color: white;
-  }
-  .chat-brand {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background: white;
-    padding: 8px;
-    flex: none;
-  }
-  .chat-person {
-    flex: 1;
-    min-width: 0;
-    font-size: 18px;
-  }
-  .chat-header small {
-    font-size: 13px;
-    display: block;
-    line-height: 20px;
-  }
-  .chat-header button {
-    padding: 0;
-    background: none;
-    border: 0;
-    width: 44px;
-    height: 44px;
-    flex: none;
-    color: white;
-    font-size: 32px;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .chat-header button img {
-    width: 17px;
-    height: 17px;
-  }
-  .chat-body {
-    background: white;
-    padding: 24px 20px 12px;
-  }
-  .chat-bubble {
-    width: 100%;
-    padding: 18px;
-    border-radius: 8px;
-    background: #f3f5f6;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #25343b;
-  }
-  .chat-bubble p {
-    margin-bottom: 10px;
-    color: var(--color-primary);
-    font-weight: 600;
-  }
-  .chat-bubble > span {
-    display: block;
-    margin-bottom: 5px;
-  }
-  .chat-action {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 12px 20px 24px;
-  }
-  .chat-action button,
-  .chat-action a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 48px;
-    border: 0;
-    border-radius: 200px;
-    padding: 0 20px;
-    background: var(--color-accent);
-    color: var(--color-on-accent);
-    font-size: 15px;
-    font-weight: 600;
-  }
-  .chat-action > div {
-    width: 80%;
-    position: relative;
-  }
-  .chat-action :is(a, button) {
-    width: 100%;
-    gap: 10px;
-    padding: 10px 14px;
-  }
-  .chat-action img {
-    width: 22px;
-    height: 22px;
-    flex: none;
-  }
-  .chat-action a:hover {
-    background: var(--color-accent-hover);
-  }
-  .chat-header button:hover {
-    background: #ffffff20;
-  }
-  .chat-panel :focus-visible,
-  .chat-toggle:focus-visible {
-    outline: 3px solid var(--color-accent);
-    outline-offset: 3px;
-  }
-  .chat-action small {
-    font-size: 10px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    line-height: 12px;
-  }
   .mobile-contact {
     display: none;
   }
-  @keyframes chat-enter {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  /* Phase begins at the dim point, so the first paint fades IN, never out.
-     At 7s: bright peaks at .5s / 1.5s, then a full 5s hold until 6.5s.
-     The final half-second leads smoothly into the next cycle, without a jump. */
+  /* Existing mobile consultation CTA is independent of the WhatsApp SDK. */
   @keyframes sticky-cta-attention {
     0%,
     14.285714%,
@@ -330,15 +56,6 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
       animation: none;
       opacity: 1;
     }
-    .chat-widget {
-      --chat-bottom: 100px;
-      right: 20px;
-      z-index: 105;
-    }
-    .chat-toggle {
-      border-width: 2px;
-      border-color: white;
-    }
   }
   @media screen and (max-width: 991px) and (hover: hover) and (pointer: fine) {
     .mobile-contact :global(.button:hover > :is(svg, .label)) {
@@ -346,59 +63,10 @@ const panelId = `whatsapp-${crypto.randomUUID()}`;
       opacity: 1;
     }
   }
-  @media screen and (max-width: 767px) {
-    .chat-widget {
-      --chat-bottom: 80px;
-      right: 15px;
-    }
-  }
   @media (prefers-reduced-motion: reduce) {
     .mobile-contact :global(.button > :is(svg, .label)) {
       animation: none;
       opacity: 1;
     }
-    .chat-panel {
-      animation: none;
-    }
-    .chat-toggle {
-      transition: none;
-    }
-  }
-  @media screen and (max-width: 479px) {
-    .chat-widget {
-      right: 10px;
-    }
   }
 </style>
-<script>
-  document
-    .querySelectorAll<HTMLElement>('[data-chat-widget]')
-    .forEach((widget) => {
-      if (widget.dataset.ready) return;
-      widget.dataset.ready = 'true';
-      const button = widget.querySelector<HTMLButtonElement>('.chat-toggle')!;
-      const panel = widget.querySelector<HTMLElement>('.chat-panel')!;
-      const setOpen = (open: boolean) => {
-        panel.hidden = !open;
-        button.setAttribute('aria-expanded', String(open));
-        if (open)
-          panel.querySelector<HTMLButtonElement>('[data-chat-close]')?.focus();
-      };
-      button.addEventListener('click', () => setOpen(Boolean(panel.hidden)));
-      document.addEventListener('click', (event) => {
-        if (!widget.contains(event.target as Node)) setOpen(false);
-      });
-      widget
-        .querySelector('[data-chat-close]')!
-        .addEventListener('click', () => {
-          setOpen(false);
-          button.focus();
-        });
-      widget.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-          setOpen(false);
-          button.focus();
-        }
-      });
-    });
-</script>

@@ -2,8 +2,10 @@ import { expect, test, type Locator } from '@playwright/test';
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { blockElfsight } from './helpers/elfsight';
 
 test.use({ contextOptions: { reducedMotion: 'reduce' } });
+test.beforeEach(async ({ page }) => blockElfsight(page));
 
 async function contrast(control: Locator) {
   return control.evaluate((element) => {
@@ -138,16 +140,9 @@ for (const route of ['/', '/hr/']) {
         'false',
       );
 
-      const chat = page.locator('.chat-toggle');
-      await expect(chat).toHaveText('');
-      await expect(chat).toHaveAccessibleName(
-        route === '/' ? 'Apri chat WhatsApp' : 'Otvori WhatsApp razgovor',
-      );
+      await expect(page.locator('[data-whatsapp-embed]')).toHaveCount(1);
+      await expect(page.locator('.chat-toggle, .chat-panel')).toHaveCount(0);
       await expect(page.locator('.badge')).toHaveCount(0);
-      await chat.click();
-      await expect(page.locator('.chat-panel')).toBeVisible();
-      await chat.click();
-      await expect(page.locator('.chat-panel')).toBeHidden();
       expect(
         await page.evaluate(() => document.documentElement.scrollWidth),
       ).toBeLessThanOrEqual(width);

@@ -1,6 +1,8 @@
 import { expect, test } from '@playwright/test';
+import { blockElfsight } from './helpers/elfsight';
 
 test.beforeEach(async ({ page }) => {
+  await blockElfsight(page);
   await page.goto('/');
   await page.evaluate(() => document.fonts.ready);
 });
@@ -205,12 +207,8 @@ test('upload validates local type/size and WhatsApp never uses a placeholder', a
   expect(
     await file.evaluate((e) => (e as HTMLInputElement).validationMessage),
   ).toContain('8 MB');
-  await page.locator('.chat-toggle').click();
-  await expect(page.locator('.chat-panel')).toBeVisible();
-  await expect(page.locator('.chat-action a')).toHaveAttribute(
-    'href',
-    'https://wa.me/385911100523',
-  );
+  await expect(page.locator('[data-whatsapp-embed="it"]')).toHaveCount(1);
+  await expect(page.locator('.chat-toggle, .chat-panel')).toHaveCount(0);
   expect(await page.content()).not.toContain('+ADDNUMBERHERE');
 });
 

@@ -1,11 +1,13 @@
 import { expect, test } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { blockElfsight } from './helpers/elfsight';
 
 const pages: { route: string }[] = JSON.parse(
   readFileSync('src/content/inner-pages-it.json', 'utf8'),
 );
 const contentSelector = '.mobile-contact .button > :is(svg, .label)';
 test.use({ viewport: { width: 390, height: 844 } });
+test.beforeEach(async ({ page }) => blockElfsight(page));
 
 test('two one-second pulses, five-second rest and fade-in first frame', async ({
   page,
@@ -63,16 +65,16 @@ test('two one-second pulses, five-second rest and fade-in first frame', async ({
   });
 });
 
-test('WhatsApp controls use the DentVitalis accent green', async ({
+test('Elfsight replaces native WhatsApp without changing the consultation CTA', async ({
   page,
 }) => {
   await page.goto('/hr/');
-  const chat = page.locator('.chat-toggle').first();
-  await expect(chat).toHaveCSS('background-color', 'rgb(175, 188, 54)');
-  await chat.click();
-  const action = page.locator('.chat-action a');
-  await expect(action).toHaveCSS('background-color', 'rgb(175, 188, 54)');
-  await expect(action).toHaveCSS('color', 'rgb(23, 60, 70)');
+  await expect(page.locator('[data-whatsapp-embed="hr"]')).toHaveCount(1);
+  await expect(page.locator('.chat-toggle, .chat-panel')).toHaveCount(0);
+  await expect(page.locator('.mobile-contact .button')).toHaveCSS(
+    'background-color',
+    'rgb(4, 90, 114)',
+  );
 });
 
 test('real playback progresses smoothly and holds fully visible for five seconds', async ({

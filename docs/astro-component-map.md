@@ -28,6 +28,51 @@ Korisnik ukinuo Arial razliku prema starom exportu. `body.reference-default` sad
 
 ## WhatsApp panel — naknadna dopuna 11. rujna
 
+**Znak/favicon, vlasnikova dopuna 6. listopada 2026.:** izvorni zeleni V
+ostaje `#afbc36`, samo njegov gornji trokut dobiva izvornu DentVitalis plavu
+`#056c7a`. `brand-mark.ts` izdvaja točne dvije izvorne geometrije; ne mijenja
+bajtove originalnog punog logotipa, header/footer niti stare favicon datoteke.
+`prepare-brand-mark.mjs` reproducira samostalni SVG, bijeli 512px PNG za
+Elfsight avatar i ICO s 16/32/48px PNG slikama. `Favicon` ispisuje nove, odvojeno
+imenovane ICO/SVG linkove bez zastarjelog browser cache ključa. Webmaster mora
+sam učitati PNG u svih pet Elfsight widgeta; promjena lokalnog asseta ne
+mijenja udaljeni avatar. `tests/favicon.spec.ts` provjerava boje, ICO dimenzije,
+očuvani original, navigaciju/refresh i dekodiranje novog SVG-a.
+
+**Aktualna odluka vlasnika, 6. listopada 2026.:** native panel zamijenjen je
+službenim Elfsight WhatsApp Chat embedom. `data/whatsapp-widgets.ts` centralizira
+pet izričito dostavljenih ID-jeva. `ContactWidgets` zadržava samo postojeći
+mobilni kontaktni CTA i sastavlja `ElfsightWhatsApp`; uklonjen je native toggle,
+panel, njegov CSS i initializer, ne dodaje se drugi chat preko GTM-a.
+`ElfsightWhatsApp` u svakoj stranici ispisuje jedan `data-elfsight-app-lazy`
+root za aktivni `html lang` (slovenski `sl`, javna putanja `/si`) i jednu
+asinkronu `https://elfsightcdn.com/platform.js` skriptu. Bez JS-a ostaje izravni
+link na centralno potvrđeni broj, iznad mobilnog CTA-a. Ne mijenja se kontaktni
+obrazac, CRM/backend, tracking, URL-ovi, SEO ni redirekcije.
+
+Elfsight editor, kojem webmaster ima pristup, sada upravlja nazivom DENTVITALIS,
+logotipom, lokaliziranim captionom/porukom, položajem, privolama i metodom
+`Send Message` (unos poruke na webu, prijenos u WhatsApp; nije razgovor u CRM-u
+niti poruka isporučena iz web-forme). Native snapshot poruka nije aktivni izvor
+teksta SDK-a. Ne nadjačavati udaljene postavke kopiranjem njegovog DOM-a/CSS-a.
+Postojeći usko ograničeni `LegacyChatGuard` ostaje kao zaštita od slučajnog
+ponovnog uključivanja umirovljenih Zendesk tagova; ne skriva Elfsight.
+CookieYes/GTM postavke ne mijenjamo niti obilazimo njihovo blokiranje SDK-a.
+
+Determinističke integracijske regresije `tests/whatsapp.spec.ts` namjerno
+blokiraju vanjski SDK i provjeravaju mapiranje, jedan loader/root, uklanjanje
+native duplikata, neovisan kontaktni popup, jezik forme i no-JS fallback.
+Stvarni izgled/unos poruke zahtijevaju zasebnu browser provjeru živog SDK-a
+bez mockova. Donji povijesni opisi native panela više nisu aktivni ugovor.
+
+Živi SDK provjeren 6. listopada na svih pet naslovnica, 1440×1000 i 390×844:
+jedan widget, stvarno polje za poruku, otvaranje/zatvaranje i bez JS grešaka;
+nisu slane poruke ni forme. Aktualni udaljeni mobilni odmak 20px preklapa
+60px donju kontakt traku. Webmaster treba postaviti najmanje 80px odmaka u
+svih pet widgeta i ponoviti javnu provjeru nakon objave; ne skrivamo CTA i ne
+nadjačavamo privatni SDK DOM proizvoljnim selektorima. Ugradnja/favikoni i
+lokalne regresije nisu potvrda udaljenog avatara, privola ili PageSpeed ocjene.
+
 **Aktualna dopuna vlasnika, 4. listopada nakon aktivacije v8:** u zajedničkom
 WhatsApp panelu Jeleninu fotografiju zamjenjuje DentVitalis znak kao na faviconu.
 `BrandLogo` varijanta `mark` izdvaja iz nepromijenjenog SVG izvora originalni
