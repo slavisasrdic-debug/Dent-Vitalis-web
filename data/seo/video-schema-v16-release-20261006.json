@@ -1,0 +1,19 @@
+{
+  "archiveName": "dentvitalis-video-schema-20261006-v16.zip",
+  "revision": "20261006-video-schema-v16",
+  "baseRevision": "20261006-elfsight-favicon-v15",
+  "sourceGitCommit": "e31883117433b90e79f74c3fc197f4fe55c44689",
+  "sha256": "c7e0a5694491ef6f7b8582bbb491c88c9fc7a4b5192f64c9111d5780948791bd",
+  "compressedZipBytes": 195024,
+  "publicFiles": [
+    "_pages/de/erfahrungen-unserer-patienten.html",
+    "_pages/en/testimonials.html",
+    "_pages/hr/iskustva-pacijenata.html",
+    "_pages/si/izkusnje-pacientov.html",
+    "_pages/testimonianze.html",
+    "release-manifest.json"
+  ],
+  "htmlChecked": 142,
+  "videoObjectsChecked": 65,
+  "onlyVideoSchemaChanged": true
+}
