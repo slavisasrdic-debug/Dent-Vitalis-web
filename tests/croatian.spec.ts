@@ -425,6 +425,9 @@ test('Croatian structured data describes visible FAQs, offers, people and videos
         );
         expect(metadata).toBeTruthy();
         expect(video.uploadDate).toBe(metadata!.uploadDate);
+        expect(video.description).toBe(
+          `Video iskustva pacijenata: ${video.name}`,
+        );
       }
       await expect(page.locator('[data-youtube] iframe')).toHaveCount(0);
     }

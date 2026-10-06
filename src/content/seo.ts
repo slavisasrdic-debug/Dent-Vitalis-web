@@ -6,6 +6,7 @@ import innerAssets from './inner-assets.json';
 import { videoPoster } from './background-videos';
 import { canonicalUrl, productionOrigin } from './seo-urls';
 import videoMetadata from '../../data/video-metadata.json';
+import { videoDescription, verifiedVideoDateTime } from './video-schema';
 export const origin = productionOrigin;
 export const plain = (content: InlineContent[]): string =>
   content
@@ -35,8 +36,26 @@ export interface PageSEO {
   questions?: { question: string; answer: string }[];
   service?: { name: string; price?: string | undefined };
   people?: { name: string; description?: string }[];
-  videos?: { videoId: string; title: string }[];
+  videos?: { videoId: string; title: string; description: string }[];
   photo?: ContentPhoto | undefined;
+}
+// Both fragments are already visible in the same language: the section heading
+// and the video's caption. No fabricated review text or translated claims.
+export function testimonialVideos(
+  blocks: ContentBlock[],
+): NonNullable<PageSEO['videos']> {
+  let section = '';
+  return flatten(blocks).flatMap((block) => {
+    if (block.type === 'heading') section = plain(block.content).trim();
+    if (block.type !== 'youtube') return [];
+    return [
+      {
+        videoId: block.videoId,
+        title: block.title,
+        description: videoDescription(section, block.title, block.videoId),
+      },
+    ];
+  });
 }
 export function socialImage(photo?: ContentPhoto, assetOrigin = origin) {
   const assets: Record<
@@ -170,11 +189,14 @@ export function graph(
     );
     if (!metadata)
       throw new Error(`Missing verified publication date: ${video.videoId}`);
+    if (!video.description.trim())
+      throw new Error(`Missing video description: ${video.videoId}`);
     nodes.push({
       '@type': 'VideoObject',
       '@id': `${origin}/#video-${video.videoId}`,
       name: video.title,
-      uploadDate: metadata.uploadDate,
+      description: video.description,
+      uploadDate: verifiedVideoDateTime(metadata.uploadDate),
       embedUrl: `https://www.youtube-nocookie.com/embed/${video.videoId}`,
       thumbnailUrl: `${assetOrigin}/assets/images/youtube-${video.videoId}.webp`,
       isPartOf: { '@id': pageId },

@@ -224,7 +224,12 @@ test('all 55 pages have consistent metadata, content-backed schema and real medi
         );
         expect(metadata).toBeTruthy();
         expect(node.uploadDate).toBe(metadata!.uploadDate);
-        expect(node.uploadDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+        expect(node.uploadDate).toMatch(
+          /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/,
+        );
+        expect(Number.isFinite(Date.parse(node.uploadDate))).toBe(true);
+        expect(node.description).toContain(node.name);
+        expect(node.description.length).toBeGreaterThan(node.name.length);
       }
       if (node['@type'] === 'Person')
         expect(data.text).toContain(node.name.replace(/\s+/g, ''));

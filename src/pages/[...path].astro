@@ -12,7 +12,12 @@ import { innerPagesHr } from '../content/hr/inner';
 import { contactCopy as hrContactCopy } from '../content/hr/site';
 import { contactCopy as deContactCopy } from '../content/de/site';
 import { equivalentLanguages } from '../content/hr/routes';
-import { flatten, plain, type PageSEO } from '../content/seo';
+import {
+  flatten,
+  plain,
+  testimonialVideos,
+  type PageSEO,
+} from '../content/seo';
 import { referenceBusiness } from '../../data/site';
 import { slovenianLegalPages } from '../content/sl/legal';
 import { innerPagesSl } from '../content/sl/inner';
@@ -87,9 +92,7 @@ const seo: PageSEO = {
   ),
 };
 if (referenceRoute === '/testimonianze')
-  seo.videos = flatten(page.blocks).flatMap((b) =>
-    b.type === 'youtube' ? [{ videoId: b.videoId, title: b.title }] : [],
-  );
+  seo.videos = testimonialVideos(page.blocks);
 if (referenceRoute === '/su-di-noi/i-nostri-specialisti') {
   const blocks = flatten(page.blocks);
   seo.people = blocks.flatMap((block, i) => {
