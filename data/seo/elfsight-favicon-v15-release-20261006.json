@@ -1,0 +1,23 @@
+{
+  "archiveName": "dentvitalis-elfsight-favicon-20261006-v15.zip",
+  "revision": "20261006-elfsight-favicon-v15",
+  "baseRevision": "20261005-directory-performance-v14",
+  "sourceGitCommit": "71ab1a29aad6e0674d2d8af37aca02780e3b237f",
+  "sha256": "eb3702f26117e9ef5f6524685d0ab987424c58562d1fd65bbefae3b1b7b91098",
+  "compressedZipBytes": 3209807,
+  "publicFiles": 147,
+  "additions": [
+    "_astro/ContactSection.CLdrVaQT.css",
+    "assets/images/dentvitalis-chat-logo-blue-triangle-512.png",
+    "assets/images/dentvitalis-mark-blue-triangle.svg",
+    "assets/images/favicon-blue-triangle.ico"
+  ],
+  "replace": [
+    "index.html",
+    "_pages",
+    "404.html",
+    "release-manifest.json"
+  ],
+  "htmlChecked": 142,
+  "backendTrackingSeoAndOriginalAssetsUntouched": true
+}
