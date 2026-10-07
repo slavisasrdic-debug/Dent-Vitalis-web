@@ -26,6 +26,15 @@ for (const item of cases)
       await expect(page.locator('html')).toHaveAttribute('lang', item.lang);
       await expect(page.locator('h1')).toBeVisible();
       const address = page.locator('.contact-address');
+      const fullAddress = `Krešimirova 60, 51000 ${item.city}, ${item.country}`;
+      await expect(page.locator('footer .contacts > a')).toHaveText(
+        fullAddress,
+      );
+      await expect(page.locator('.map-panel iframe')).toHaveAttribute(
+        'title',
+        `DentVitalis — ${fullAddress}`,
+      );
+      await expect(page.locator('.map-panel > a')).toHaveText(fullAddress);
       if (item.lang !== 'it') {
         await expect(page.locator('footer')).toContainText(
           `Krešimirova 60, 51000 Rijeka, ${item.country}`,
@@ -65,8 +74,14 @@ for (const item of cases)
       ).toHaveCount(0);
       await address.scrollIntoViewIfNeeded();
       await address.screenshot({
-        path: `/tmp/dentvitalis-address-v18-${item.lang}-${width}.png`,
+        path: `/tmp/dentvitalis-address-v19-${item.lang}-${width}.png`,
       });
+      if (item.lang === 'it') {
+        await page.locator('footer .contacts').scrollIntoViewIfNeeded();
+        await page.locator('footer .contacts').screenshot({
+          path: `/tmp/dentvitalis-footer-v19-it-${width}.png`,
+        });
+      }
       const trigger = page.locator(
         width >= 1200
           ? '.header-consultation .button'

@@ -141,6 +141,8 @@ export const footerGroups = [
 ];
 export const clinic = {
   ...itClinic,
+  // Reuse corrected HR contact source, never inherit the Italian place-name gloss.
+  address: `${t(27, 0, 1)}, ${t(27, 0, 2)}`,
   // User-approved Croatian logo descriptor, 2026-09-08.
   tagline: 'Stomatolog Rijeka',
   // User-requested short Croatian equivalent of "Consulta il dentista", 2026-09-08.

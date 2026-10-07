@@ -2,6 +2,12 @@
 
 ## Aktualna odobrenja (imaju prednost nad arhiviranim prijedlogom ispod)
 
+- Dopuna 7. listopada (V19): korisnik je odobrio istu hrvatsku adresu s
+  državom i u zajedničkom podnožju te oznaci karte: „Krešimirova 60, 51000
+  Rijeka, Hrvatska”. Model koristi već ispravljene `t27.r0.c1.p1` i
+  `t27.r0.c1.p2`, bez nasljeđivanja talijanskog prikaza. Fizički poslovni
+  model, schema (`Rijeka`, `HR`), kontaktni odlomci i izvorni DOCX nisu mijenjani.
+
 - Dopuna 7. listopada: korisnik je izričito zatražio uklanjanje talijanskih
   naziva u zagradama samo iz HR kontaktne adrese. `t27.r0.c1.p1` prikazuje
   „Krešimirova 60, 51000 Rijeka”, a `t27.r0.c1.p2` „Hrvatska”. Dvije uske

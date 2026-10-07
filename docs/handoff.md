@@ -1,5 +1,34 @@
 # Handoff — aktualni status i povijest
 
+## Najnovija dorada — 7. listopada 2026., V19
+
+Javni read-only manifest potvrđen kao `20261007-contact-address-v18`.
+Korisnik je odobrio ispravak preostalih IT/HR footer adresa i oznaka karata.
+IT: `Krešimirova 60, 51000 Rijeka (Fiume), Croazia`; HR:
+`Krešimirova 60, 51000 Rijeka, Hrvatska`. DE/EN/SL su već ispravni.
+Fizički/schema model (`Rijeka`, `HR`), sitemap/robots, metadata, kontaktni
+odlomci, backend/CRM, forme, Elfsight i GTM nisu dio izmjene.
+
+`scripts/package-footer-address-update.mjs` priprema
+`dentvitalis-footer-address-20261007-v19.zip` iz SHA-256 verificiranih
+V15/V16/V18 bajtova, samo 57 IT/HR HTML-a i manifest. Svih 142 HTML-a
+uspoređuje s novim produkcijskim buildom; ranije form UUID-eve i sav ostali
+kod čuva. Receipt s konačnim ZIP hashom je
+`data/seo/footer-address-v19-release-20261007.json` nakon pakiranja.
+README unutar ZIP-a sadrži precizan popis, privatni backup/rollback,
+provjeru kvote i aktivnog V18, datoteke 0644, manifest posljednji.
+Nikad ne zamjenjivati cijeli `_pages` niti preimenovati `public_html`.
+Ova razvojna dorada nije produkcijska objava; postojeći javni V18 ostaje aktivan.
+
+Provjere: Astro check 303 datoteke bez dijagnostike, ciljani lint/format,
+9 izvornih sadržajnih testova i 11 Playwright Chromium provjera prolaze.
+Kontakti svih pet jezika na 390/1440 px, bez overflowa/overlaya/pageerrora;
+popup otvori/zatvori uz ispravan jezik, ništa nije poslano. IT/HR footer
+snimke vizualno pregledane; Browser plugin nije dostupan, korišten postojeći
+Playwright. Privremene snimke su u `/tmp/dentvitalis-footer-v19-*.png`.
+Server quota/hashes i post-install javni prihvat ostaju obveza cPanel agenta.
+Stariji migracijski statusi ispod su povijest, ne aktualna uputa.
+
 ## Aktualno za migraciju — 4. listopada 2026.
 
 Jedina operativna procedura je [cPanel runbook](cpanel-migration-runbook.md),

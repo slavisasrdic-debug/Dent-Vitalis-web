@@ -31,6 +31,16 @@ for (const width of [390, 1440])
       /www\.dentvitalis\.com/,
     ]);
     await expect(address).not.toContainText(/Fiume|Croazia/);
+    const fullAddress = 'Krešimirova 60, 51000 Rijeka, Hrvatska';
+    await expect(page.locator('footer .contacts > a')).toHaveText(fullAddress);
+    await expect(page.locator('footer .contacts')).not.toContainText(
+      /Fiume|Croazia/,
+    );
+    await expect(page.locator('.map-panel iframe')).toHaveAttribute(
+      'title',
+      `DentVitalis — ${fullAddress}`,
+    );
+    await expect(page.locator('.map-panel > a')).toHaveText(fullAddress);
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,
@@ -41,6 +51,10 @@ for (const width of [390, 1440])
     ).toHaveCount(0);
     await address.screenshot({
       path: `/tmp/dentvitalis-hr-address-${width}.png`,
+    });
+    await page.locator('footer .contacts').scrollIntoViewIfNeeded();
+    await page.locator('footer .contacts').screenshot({
+      path: `/tmp/dentvitalis-footer-v19-hr-${width}.png`,
     });
     const trigger =
       width >= 1200

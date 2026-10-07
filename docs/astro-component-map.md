@@ -199,6 +199,17 @@ Zajednički `SiteLayout`, header, footer, kontakt i reveal koriste **svih 28** r
 | `MapPanel`            | točan embed `src`; centralna adresa/maps link                             | /contatti, lazy 450px iframe + link alternativa                                                                                                     |
 | `FAQ`                 | postojeći answer ili tipizirani richAnswer; variant                       | home / detail; native details i više root instanci na /faq                                                                                          |
 
+Kontaktne adrese, 7. listopada 2026. (V18/V19): svih pet lokaliziranih
+`clinic.address` modela opslužuje footer i vidljivu oznaku/title karte.
+IT: „Krešimirova 60, 51000 Rijeka (Fiume), Croazia”; HR: ista ulica i
+„Rijeka, Hrvatska”; DE/EN/SL: „Rijeka” i „Kroatien”/„Croatia”/„Hrvaška”.
+`MapPanel` ima eksplicitni HR model, ne talijanski fallback. Schema ostaje
+vezana uz fizički `data/site.ts` model (`addressLocality: Rijeka`,
+`addressCountry: HR`), ne lokaliziranu display vrijednost. URL karte i embed
+nisu mijenjani. Ciljane regresije: `contact-address-localization.spec.ts`
+i `croatian-contact.spec.ts`; paket provjerava svih 142 HTML-a prema
+prethodnim verificiranim ZIP-ovima, uz samo adresne zamjene u footeru/karti.
+
 `inner-pages-it.json` je generirana sadržajna transkripcija sa SHA-256 i `approval: review`. Prikaz dobiva podatke kroz `inner-pages.ts`. `reference-bindings.ts` veže izvorne poslovne literale na `data/site.ts`, čuva format razmaka/eura i ne dira medicinske brojeve bez valute, asset putanje ni dva povijesna pravna teksta. Sadržaj, imenovani linkovi i fotografije nisu ugrađeni u generički renderer.
 
 Korisnička dopuna za parking (8. rujna 2026.): `parking-link-labels.ts` mijenja samo vidljivi naziv poveznice na „Kako do nas” / „Come raggiungerci”: **Lokacija parkirališta** / **Posizione del parcheggio**. Koristi postojeći `InlineContent` i podcrtanu varijantu, bez novog JS-a, komponente ili promjene izvornog DOCX/JSON-a. HR odredište ostaje `https://share.google/71jvli5wQ7ylYdd8N` iz `t8.r2.c1.p3`, a IT `https://share.google/TJtLAKAVtTdLcpCDF` iz Webflow hrefa. Izvorni talijanski vidljivi URL razlikuje se od hrefa; ovaj UI popravak ne potvrđuje njihovu ekvivalenciju i ne ujednačava odredišta. Sadržajni test provjerava HR izvorni URL kao href, a odobreni naziv kao tekst.

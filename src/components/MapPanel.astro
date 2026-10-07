@@ -1,5 +1,6 @@
 ---
 import { clinic } from '../content/site';
+import { clinic as croatianClinic } from '../content/hr/site';
 import { clinic as slovenianClinic } from '../content/sl/site';
 import { clinic as englishClinic } from '../content/en/site';
 import { clinic as germanClinic } from '../content/de/site';
@@ -15,7 +16,9 @@ const address =
       ? englishClinic.address
       : Astro.props.lang === 'sl'
         ? slovenianClinic.address
-        : clinic.address;
+        : Astro.props.lang === 'hr'
+          ? croatianClinic.address
+          : clinic.address;
 ---
 
 <div class="map-panel">

@@ -36,7 +36,8 @@ export const clinic = {
   telephone: business.contact.phone,
   telephoneHref: `tel:${business.contact.phone.replaceAll(' ', '')}`,
   email: business.contact.email,
-  address: business.contact.address,
+  // Approved localized display only; the physical/schema address stays unchanged.
+  address: `${business.contact.address} (Fiume), Croazia`,
   whatsapp: business.contact.whatsapp,
   maps: business.contact.mapUrl,
 } as const;
