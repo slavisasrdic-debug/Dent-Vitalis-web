@@ -194,7 +194,9 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
                 )!.text
               : paragraph.id === 't15.r3.c1.p11'
                 ? paragraph.text.replace('ZABAHR2X', 'ESBCHR22')
-                : paragraph.text,
+                : (corrections.croatianContactAddress.replacements.find(
+                    (correction) => correction.sourceId === paragraph.id,
+                  )?.to ?? paragraph.text),
       );
       if (!text || /^Hrvatskine$|^Nemaprijevoda/.test(text)) continue;
       if (paragraph.id === 't8.r2.c1.p3') {

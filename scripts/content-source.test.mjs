@@ -24,6 +24,10 @@ test('approved editorial corrections retain evidence in the original Word source
   assert.equal(paragraph(crown.sourceId), crown.from);
   assert.match(paragraph(crown.italianSourceId), /a partire da 220 €/);
   assert.equal(crown.to, 'Zubne krunice već od 220 €');
+  for (const item of corrections.croatianContactAddress.replacements) {
+    assert.equal(paragraph(item.sourceId), item.from);
+    assert.equal(item.to, item.from.replace(/ \((?:Fiume|Croazia)\)/, ''));
+  }
 });
 
 test('DOCX catalogue matches the original source and deterministic extraction', () => {

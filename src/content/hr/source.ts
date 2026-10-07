@@ -37,10 +37,11 @@ export function text(id: string): string {
   for (const correction of [
     corrections.croatianCrown,
     corrections.croatianFirstVisit,
+    ...corrections.croatianContactAddress.replacements,
   ]) {
     if (id === correction.sourceId) {
       if (value !== correction.from)
-        throw new Error(`Croatian crown correction source changed: ${id}`);
+        throw new Error(`Croatian editorial correction source changed: ${id}`);
       value = correction.to;
     }
   }

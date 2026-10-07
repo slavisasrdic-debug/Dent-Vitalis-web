@@ -23,6 +23,23 @@
     "from": "Zubne krunice 330 €",
     "to": "Zubne krunice već od 220 €"
   },
+  "croatianContactAddress": {
+    "approvedOn": "2026-10-07",
+    "authority": "User explicitly requested removing Italian place-name glosses from the Croatian contact address.",
+    "route": "/hr/kontakt",
+    "replacements": [
+      {
+        "sourceId": "t27.r0.c1.p1",
+        "from": "Krešimirova 60, 51000 Rijeka (Fiume)",
+        "to": "Krešimirova 60, 51000 Rijeka"
+      },
+      {
+        "sourceId": "t27.r0.c1.p2",
+        "from": "Hrvatska (Croazia)",
+        "to": "Hrvatska"
+      }
+    ]
+  },
   "croatianFloraDusi": {
     "approvedOn": "2026-09-25",
     "authority": "User supplied the exact feminine Croatian replacement text for Flora Dusi's testimonial.",
