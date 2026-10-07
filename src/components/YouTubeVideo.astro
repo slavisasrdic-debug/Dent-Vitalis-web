@@ -1,5 +1,9 @@
 ---
 import { ui } from '../content/ui';
+import {
+  isReplacedTestimonialVideo,
+  testimonialEmbedUrl,
+} from '../content/testimonial-videos';
 interface Props {
   videoId: string;
   title: string;
@@ -7,11 +11,17 @@ interface Props {
   eager?: boolean;
 }
 const { videoId, title, lang = 'it', eager = false } = Astro.props;
+const replaced = isReplacedTestimonialVideo(videoId);
 if (!/^[\w-]{11}$/.test(videoId))
   throw new Error(`Invalid reference video ID: ${videoId}`);
 ---
 
-<figure class="testimonial-video" data-youtube={videoId} data-title={title}>
+<figure
+  class="testimonial-video"
+  data-youtube={videoId}
+  data-title={title}
+  data-embed-src={replaced ? testimonialEmbedUrl(videoId, lang) : undefined}
+>
   <div class="player">
     <a
       href={`https://www.youtube.com/watch?v=${videoId}`}
@@ -20,8 +30,8 @@ if (!/^[\w-]{11}$/.test(videoId))
         src={`/assets/images/youtube-${videoId}.webp`}
         alt=""
         loading={eager ? 'eager' : 'lazy'}
-        width="480"
-        height="360"
+        width={replaced ? 1280 : 480}
+        height={replaced ? 720 : 360}
       /><span class="play" aria-hidden="true"
         ><svg viewBox="0 0 68 48" width="68" height="48"
           ><rect width="68" height="48" rx="12" fill="#f00"></rect><path
@@ -79,10 +89,14 @@ if (!/^[\w-]{11}$/.test(videoId))
       event.preventDefault();
       if (root.querySelector('iframe')) return;
       const frame = document.createElement('iframe');
-      frame.src = `https://www.youtube-nocookie.com/embed/${root.dataset.youtube}?autoplay=1`;
+      frame.src =
+        root.dataset.embedSrc ??
+        `https://www.youtube-nocookie.com/embed/${root.dataset.youtube}?autoplay=1`;
       frame.title = root.dataset.title!;
       frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
       frame.allowFullscreen = true;
+      if (root.dataset.embedSrc)
+        frame.referrerPolicy = 'strict-origin-when-cross-origin';
       link.replaceWith(frame);
       frame.focus();
     });

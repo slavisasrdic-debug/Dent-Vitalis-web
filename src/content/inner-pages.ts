@@ -7,6 +7,7 @@ import { linkDoctorResearch } from './doctor-research';
 import { applyPublicLegal } from './legal-public';
 import { replaceItalianPaymentCode } from './payment-code';
 import { linkFirstVisitFaq } from './faq-first-visit-link';
+import { replaceTestimonialVideos } from './testimonial-videos';
 export type InlineContent =
   | { kind: 'text'; text: string }
   | { kind: 'break' }
@@ -184,6 +185,7 @@ function stripEditorialLinks(blocks: ContentBlock[]): ContentBlock[] {
 export const innerPages = completeRelatedServices(
   (data as InnerPage[])
     .map(applyItalianCorrections)
+    .map(replaceTestimonialVideos)
     .map(linkDoctorResearch)
     .map(applyPublicLegal)
     .map(replaceItalianPaymentCode)

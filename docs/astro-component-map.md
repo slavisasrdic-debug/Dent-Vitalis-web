@@ -199,6 +199,16 @@ Zajednički `SiteLayout`, header, footer, kontakt i reveal koriste **svih 28** r
 | `MapPanel`            | točan embed `src`; centralna adresa/maps link                             | /contatti, lazy 450px iframe + link alternativa                                                                                                     |
 | `FAQ`                 | postojeći answer ili tipizirani richAnswer; variant                       | home / detail; native details i više root instanci na /faq                                                                                          |
 
+Video nadogradnja V20, 7. listopada: deset vlasnički odobrenih novih YouTube
+ID-jeva mapira `testimonial-videos.ts` prije zajedničkog lokaliziranog
+prikaza. Samo nove kartice dobivaju SSR `data-embed-src` s caption/UI jezikom
+`it/hr/en/de/sl`, `cc_load_policy=1`, playsinline/rel=0; click initializer
+koristi taj URL i strict-origin referrer. Tri stare kartice čuvaju stari
+autoplay URL i poster. Dimenzije novih postera 1280×720, bez izmjene CSS-a.
+Schema dobiva iste nove ID-jeve, stvarno dohvaćene datume i postere.
+Mapiranje, izvori i granice provjere reprodukcije:
+[V20 evidencija](testimonial-video-update-20261007.md).
+
 Kontaktne adrese, 7. listopada 2026. (V18/V19): svih pet lokaliziranih
 `clinic.address` modela opslužuje footer i vidljivu oznaku/title karte.
 IT: „Krešimirova 60, 51000 Rijeka (Fiume), Croazia”; HR: ista ulica i

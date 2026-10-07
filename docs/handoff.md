@@ -1,5 +1,22 @@
 # Handoff — aktualni status i povijest
 
+## Najnovija dorada — video testimoniali, 7. listopada 2026., V20
+
+V19 je instaliran prema vlasnikovu izvještaju; nema novih produkcijskih zahvata.
+Vlasnik je zatim dostavio točnih deset video zamjena za svih pet jezika,
+Lucilla Cecchini korekciju i caption parametre. Priprema se mali V20 update:
+pet testimonial HTML-a, deset novih 1280×720 postera i manifest, bez
+backend/CRM/form/GTM/Elfsight/redirect/XML promjena. Tri zadnja videa ostaju.
+18 ciljnih Playwright provjera prolazi; svih 142 HTML-a uspoređeno s
+verificiranim prethodnim bajtovima, samo odobrene video promjene.
+
+YouTube automatizirani player blokira provjerom „niste bot”. Vlasnik je
+sam kroz HR preview potvrdio reprodukciju prvog novog videa Lucille i
+uključene hrvatske titlove; ne tvrditi da je potvrđeno svih 50 kombinacija.
+Detaljni izvori/QA/paket/README i nastavak:
+[video-update evidencija](testimonial-video-update-20261007.md).
+Paket i receipt nazivi su navedeni ondje. Ne ponavljati testne upite klinici.
+
 ## Najnovija dorada — 7. listopada 2026., V19
 
 Javni read-only manifest potvrđen kao `20261007-contact-address-v18`.

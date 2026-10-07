@@ -1,0 +1,71 @@
+{
+  "approvedOn": "2026-10-07",
+  "authority": "Owner-supplied exact video replacements, title correction and language parameters. Keep the final three cards unchanged; do not modify YouTube account content.",
+  "sourceAttachmentSha256": "b582b6552222ef350a5c2f95443773004488f73c85f9ceb9445856e2f3437866",
+  "languages": ["it", "hr", "en", "de", "sl"],
+  "ownerPlaybackVerification": {
+    "verifiedOn": "2026-10-07",
+    "videoId": "z4sEEQUWAs4",
+    "lang": "hr",
+    "evidence": "Owner tested the first new video through the public Codespaces HR preview and explicitly confirmed: Video radi i hrvatski titlovi su uključeni.",
+    "scope": "First new HR video only; not a confirmation of all fifty video/language combinations."
+  },
+  "replacements": [
+    {
+      "oldId": "H-FtIARwy9o",
+      "newId": "z4sEEQUWAs4",
+      "oldTitle": "Lucilla Cecchin",
+      "title": "Lucilla Cecchini"
+    },
+    {
+      "oldId": "Af4nKAWScLU",
+      "newId": "K78IOiDfiPs",
+      "title": "Anna Giacomin"
+    },
+    {
+      "oldId": "0FPxrnc8LgY",
+      "newId": "p02SmXADXCw",
+      "title": "Maria Garotti"
+    },
+    {
+      "oldId": "tOvIrmjGjxc",
+      "newId": "QBqpvcDtvx8",
+      "title": "Maurizio Vegro"
+    },
+    {
+      "oldId": "hhyIS4OW1LY",
+      "newId": "KK5fPqNqo9c",
+      "title": "Cinzia Caffarra, Fabrizio Gualerzi"
+    },
+    {
+      "oldId": "bqx36O-ctGg",
+      "newId": "29kA08KzJHw",
+      "title": "Giacomo Muggianu"
+    },
+    {
+      "oldId": "vHh4413VRV0",
+      "newId": "MIA-O7GdMjw",
+      "title": "Gianna Masoni"
+    },
+    {
+      "oldId": "Pf8xKv1UvzU",
+      "newId": "K6OtVri5zAw",
+      "title": "Lorena May Ruzol"
+    },
+    {
+      "oldId": "E_KlE7e9h-M",
+      "newId": "452tZxIJT0o",
+      "title": "Vito Mastromatteo"
+    },
+    {
+      "oldId": "9eoJ0-6wa4M",
+      "newId": "wiOuwYc_dzg",
+      "title": "Maria Alba Seddone"
+    }
+  ],
+  "unchanged": [
+    { "videoId": "zyUCJSaCPgQ", "title": "Lorenzo Fabbro" },
+    { "videoId": "Zs_gwP-7iuc", "title": "Valerio Catani" },
+    { "videoId": "fzDUHdfqXfo", "title": "Nilo Falchi" }
+  ]
+}
