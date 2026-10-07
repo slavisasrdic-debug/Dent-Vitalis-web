@@ -1,0 +1,14 @@
+{
+  "archiveName": "dentvitalis-hr-contact-20261007-v17.zip",
+  "revision": "20261007-hr-contact-v17",
+  "baseRevision": "20261006-video-schema-v16",
+  "sourceGitCommit": "65ecb97bf5357dcc4543384df1b368ff1e957431",
+  "sha256": "583705ae41c7d97857cf5848cdf0149388c0d557423e27b2f3c4738ee6e57ec9",
+  "compressedZipBytes": 64606,
+  "publicFiles": [
+    "_pages/hr/kontakt.html",
+    "release-manifest.json"
+  ],
+  "htmlChecked": 142,
+  "onlyTwoApprovedTextChanges": true
+}
