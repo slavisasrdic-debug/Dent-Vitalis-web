@@ -1,0 +1,32 @@
+{
+  "archiveName": "dentvitalis-testimonial-videos-20261007-v20.zip",
+  "revision": "20261007-testimonial-videos-v20",
+  "baseRevision": "20261007-footer-address-v19",
+  "sourceGitCommit": "d468b3bb24eaf609e0edf0cc41995d1df0b53578",
+  "sha256": "1b93b48aa86d12e7237a167e85d6d863709228c5f3e2e886ea3a180bc5090d67",
+  "compressedZipBytes": 1028399,
+  "publicPayloadBytes": 1652059,
+  "publicFiles": [
+    "_pages/de/erfahrungen-unserer-patienten.html",
+    "_pages/en/testimonials.html",
+    "_pages/hr/iskustva-pacijenata.html",
+    "_pages/si/izkusnje-pacientov.html",
+    "_pages/testimonianze.html",
+    "assets/images/youtube-z4sEEQUWAs4.webp",
+    "assets/images/youtube-K78IOiDfiPs.webp",
+    "assets/images/youtube-p02SmXADXCw.webp",
+    "assets/images/youtube-QBqpvcDtvx8.webp",
+    "assets/images/youtube-KK5fPqNqo9c.webp",
+    "assets/images/youtube-29kA08KzJHw.webp",
+    "assets/images/youtube-MIA-O7GdMjw.webp",
+    "assets/images/youtube-K6OtVri5zAw.webp",
+    "assets/images/youtube-452tZxIJT0o.webp",
+    "assets/images/youtube-wiOuwYc_dzg.webp",
+    "release-manifest.json"
+  ],
+  "htmlChecked": 142,
+  "videoCardsChanged": 50,
+  "newPosters": 10,
+  "onlyApprovedVideoChanges": true,
+  "livePlaybackCaptionVerification": "Owner confirmed playback and Croatian subtitles for z4sEEQUWAs4 on HR preview. Other video/language combinations pending ordinary-browser verification; automated player blocked by YouTube bot check."
+}
