@@ -7,6 +7,7 @@ import {
 import { legalLinks } from './legal-routes';
 import { route } from './routes';
 import { whatsappCopy } from '../whatsapp';
+import { applyContactAddressCorrection } from '../editorial-corrections';
 
 // Read the supplied translation by explicit source ID, never by table alignment.
 export function row(tableId: string, index: number): string[] {
@@ -15,7 +16,13 @@ export function row(tableId: string, index: number): string[] {
     throw new Error(`Missing German source ${tableId}:${index}`);
   return table.rows[index]
     .flat()
-    .map((paragraph) => paragraph.text.replace(/\u200b/g, '').trim())
+    .map((paragraph) =>
+      applyContactAddressCorrection(
+        paragraph.text.replace(/\u200b/g, '').trim(),
+        'de',
+        paragraph.id,
+      ),
+    )
     .filter(Boolean);
 }
 function paragraph(id: string): string {

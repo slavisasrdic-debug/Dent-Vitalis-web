@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import corrections from '../data/editorial-corrections.json' with { type: 'json' };
 import { readFileSync } from 'node:fs';
 import { slovenianPageIds, route } from '../src/content/sl/routes';
 
@@ -36,6 +37,12 @@ const normalize = (text: string) =>
     .replace(/\u200d/g, '')
     .replace(/[\s\u200b•–—-]/g, '');
 const overrides: Record<string, string> = {
+  ...Object.fromEntries(
+    corrections.contactAddressLocalization.sl.replacements.map((item) => [
+      item.sourceId,
+      item.to,
+    ]),
+  ),
   't3.r0.c0.p2':
     'Fiksni mostiček na zobnih vsadkih – brez omejitve števila zobnih vsadkov',
   't5.r0.c0.p10': 'Zobne krone že od 220 €',

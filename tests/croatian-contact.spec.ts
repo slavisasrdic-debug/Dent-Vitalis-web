@@ -74,4 +74,5 @@ test('Italian contact page retains its own geographic names', async ({
   );
   expect(address).toContain('Fiume');
   expect(address).toContain('Croazia');
+  expect(address).not.toContain('Hrvatska');
 });

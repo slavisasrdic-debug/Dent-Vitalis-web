@@ -2,6 +2,7 @@ import catalogue from '../../../data/translations/en-source.json';
 import type { ContentBlock, InlineContent } from '../inner-pages';
 import { bindReferenceBusiness } from '../reference-bindings';
 import { croatianBusinessReview } from '../../../data/site';
+import { applyContactAddressCorrection } from '../editorial-corrections';
 
 // Build-time only. IDs refer to the approved, SHA-256 locked DOCX, not row alignment.
 interface Paragraph {
@@ -28,6 +29,7 @@ export function text(id: string): string {
     throw new Error(`Missing English source: ${id}`);
   usedSourceIds.add(id);
   let value = paragraph.text.replace(/[\u200b\u200d]/g, '').trim();
+  value = applyContactAddressCorrection(value, 'en', id);
   // The approved bank identity applies across languages; the supplied DOCX has an obsolete SWIFT.
   if (id === 't5.r0.c0.p10') value = 'Dental crowns – from €220';
   // Bind English-prefixed amounts through the same confirmed business values.

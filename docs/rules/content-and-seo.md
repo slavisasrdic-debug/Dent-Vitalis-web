@@ -68,6 +68,15 @@ Ne koristiti lažne `AggregateRating` podatke, recenzije, FAQ odgovore, cijene i
 
 ## Centralizirani sadržaj
 
+- Dopuna vlasnika 2026-10-07 za kontaktne adresne blokove: ulica i grad
+  ostaju „Krešimirova 60, 51000 Rijeka”; samo IT zadržava „Rijeka (Fiume)”.
+  Država je HR Hrvatska, IT Croazia, DE Kroatien, EN Croatia, SL Hrvaška,
+  bez drugih prijevoda u zagradama. Točne iznimke izvora vodi
+  `data/editorial-corrections.json`. Pravne tekstove, članke, logo podnaslove
+  i udaljene widgete ovo odobrenje ne mijenja.
+  Ista adresna vrijednost koristi se i u podnožju/oznaci karte; ti prikazi
+  moraju slijediti odobrenu lokalizaciju, bez prepisivanja pravnog članka.
+
 Cijene, kontakt podaci, bankovni podaci, CTA tekstovi, usluge, FAQ, liječnici i informacije o klinici ne smiju biti duplicirani u komponentama.
 
 - Predvidjeti sadržajne modele po jezicima tako da se promjena jednog podatka automatski koristi svugdje gdje je potreban.

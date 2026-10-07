@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { englishPageIds, route } from '../src/content/en/routes';
+import corrections from '../data/editorial-corrections.json' with { type: 'json' };
 
 const origin = process.env.QA_ORIGIN ?? 'http://127.0.0.1:4321';
 const source = JSON.parse(
@@ -33,6 +34,12 @@ const tables: Record<string, string[]> = {
 const normalize = (text: string) =>
   text.replace(/\u200d/g, '').replace(/[\s\u200b•–—-]/g, '');
 const overrides: Record<string, string> = {
+  ...Object.fromEntries(
+    corrections.contactAddressLocalization.en.replacements.map((item) => [
+      item.sourceId,
+      item.to,
+    ]),
+  ),
   't3.r0.c0.p2':
     'Implant-supported fixed bridge – regardless of the number of implants required',
   't5.r0.c0.p10': 'Dental crowns – from €220',

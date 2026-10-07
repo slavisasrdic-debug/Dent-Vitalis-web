@@ -40,6 +40,54 @@
       }
     ]
   },
+  "contactAddressLocalization": {
+    "approvedOn": "2026-10-07",
+    "authority": "User confirmed Croatian street/city names, country in the page language, with Rijeka (Fiume) retained only in Italian contact addresses. Scope excludes legal texts, articles and remote widgets.",
+    "it": {
+      "route": "/contatti",
+      "replacements": [{ "from": "Hrvatska (Croazia)", "to": "Croazia" }]
+    },
+    "de": {
+      "route": "/de/kontakt",
+      "replacements": [
+        {
+          "sourceId": "t25.r0.c0.p1",
+          "from": "Krešimirova 60, 51000 Rijeka (Fiume)",
+          "to": "Krešimirova 60, 51000 Rijeka"
+        },
+        {
+          "sourceId": "t25.r0.c0.p2",
+          "from": "Kroatien (Croazia)",
+          "to": "Kroatien"
+        }
+      ]
+    },
+    "en": {
+      "route": "/en/contact",
+      "replacements": [
+        {
+          "sourceId": "t25.r0.c0.p1",
+          "from": "Krešimirova 60, 51000 Rijeka (Fiume)",
+          "to": "Krešimirova 60, 51000 Rijeka"
+        }
+      ]
+    },
+    "sl": {
+      "route": "/si/stik-z-nami",
+      "replacements": [
+        {
+          "sourceId": "t25.r0.c0.p1",
+          "from": "Krešimirova 60, 51000 Rijeka (Reka)",
+          "to": "Krešimirova 60, 51000 Rijeka"
+        },
+        {
+          "sourceId": "t25.r0.c0.p2",
+          "from": "Hrvaška (Croazia)",
+          "to": "Hrvaška"
+        }
+      ]
+    }
+  },
   "croatianFloraDusi": {
     "approvedOn": "2026-09-25",
     "authority": "User supplied the exact feminine Croatian replacement text for Flora Dusi's testimonial.",

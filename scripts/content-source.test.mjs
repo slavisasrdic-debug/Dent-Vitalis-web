@@ -11,6 +11,37 @@ const tables = catalogue.blocks.filter((block) => block.type === 'table');
 const paragraphs = catalogue.blocks.flatMap((block) =>
   block.type === 'table' ? block.rows.flatMap((row) => row.flat()) : [block],
 );
+test('approved contact address exceptions preserve all original locale sources', () => {
+  const corrections = JSON.parse(
+    readFileSync('data/editorial-corrections.json', 'utf8'),
+  );
+  for (const lang of ['de', 'en', 'sl']) {
+    const source = JSON.parse(
+      readFileSync(`data/translations/${lang}-source.json`, 'utf8'),
+    );
+    const items = source.blocks.flatMap((block) =>
+      block.type === 'table' ? block.rows.flat(2) : [block],
+    );
+    for (const item of corrections.contactAddressLocalization[lang]
+      .replacements) {
+      assert.equal(items.find((p) => p.id === item.sourceId).text, item.from);
+      assert.equal(
+        item.to,
+        item.from.replace(/ \((?:Fiume|Croazia|Reka)\)/, ''),
+      );
+    }
+  }
+  const italian = JSON.parse(
+    readFileSync('src/content/inner-pages-it.json', 'utf8'),
+  ).find((p) => p.route === '/contatti');
+  const group = italian.blocks.find(
+    (b) => b.type === 'group' && b.variant === 'contact-address',
+  );
+  const item = corrections.contactAddressLocalization.it.replacements[0];
+  assert.equal(group.children[0].children[2].cells[0][0].text, item.from);
+  assert.ok(italian.description.includes(item.from));
+  assert.equal(item.to, 'Croazia');
+});
 test('approved editorial corrections retain evidence in the original Word source', () => {
   const corrections = JSON.parse(
     readFileSync('data/editorial-corrections.json', 'utf8'),
