@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import { canonicalUrl, productionOrigin } from './src/content/seo-urls';
 import { isThankYouPath } from './src/content/thank-you-routes';
 
+// src/middleware.ts preserves textual HTML boundaries in development and static output.
+
 export default defineConfig({
   site: productionOrigin,
   output: 'static',

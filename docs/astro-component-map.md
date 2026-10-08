@@ -199,6 +199,15 @@ Zajednički `SiteLayout`, header, footer, kontakt i reveal koriste **svih 28** r
 | `MapPanel`            | točan embed `src`; centralna adresa/maps link                             | /contatti, lazy 450px iframe + link alternativa                                                                                                     |
 | `FAQ`                 | postojeći answer ili tipizirani richAnswer; variant                       | home / detail; native details i više root instanci na /faq                                                                                          |
 
+Razdvajanje tekstualnih informacija V21, 8. listopada: `src/middleware.ts`
+i `html-text-boundaries.ts` čuvaju stvarne HTML razmake između semantičkih
+blokova/br i samostalnih footer/sidebar/kontakt stavki. Samo render-time
+HTML obrada; cPanel i dalje dobiva statične stranice bez dodatnog JS-a.
+Inline riječi, head/schema, skripte/CSS, forme i pre/code/foreign markup
+ne mijenjaju se. Prikaz se provjerava usporedbom prije/poslije element rectova,
+ne pretpostavkom da razmaci ne utječu na layout.
+[Opseg i verifikacija](html-text-boundaries-20261008.md).
+
 Video nadogradnja V20, 7. listopada: deset vlasnički odobrenih novih YouTube
 ID-jeva mapira `testimonial-videos.ts` prije zajedničkog lokaliziranog
 prikaza. Samo nove kartice dobivaju SSR `data-embed-src` s caption/UI jezikom

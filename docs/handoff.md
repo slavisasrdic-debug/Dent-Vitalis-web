@@ -1,5 +1,18 @@
 # Handoff — aktualni status i povijest
 
+## Najnovija dorada — razdvajanje teksta, 8. listopada 2026., V21
+
+Prema vlasnikovu izvještaju V20 je instaliran: svih 50 video zamjena,
+reprodukcija/titlova i svih 16 server hashova potvrđeno; privatni backup 0700.
+To ima prednost nad prethodnim zapisom o automatiziranoj YouTube blokadi.
+Vlasnik je zatim odobrio ciljanu generalnu doradu HTML tekstualnih granica,
+nakon spojenog telefona/e-maila u Google isječku. V21 dodaje samo razmake
+u 142 HTML-a; nema promjene sadržaja, dizajna, schema, formi, CRM-a ili asseta.
+Četiri unit testa i 24 Chromium geometrijske/interakcijske provjere prolaze;
+svih 142 production HTML-a uspoređeno s instaliranim hash baselineovima.
+V21 ZIP/receipt/privatni backup i javni prihvat:
+[evidencija](html-text-boundaries-20261008.md). Produkcija se ovim radom ne mijenja.
+
 ## Najnovija dorada — video testimoniali, 7. listopada 2026., V20
 
 V19 je instaliran prema vlasnikovu izvještaju; nema novih produkcijskih zahvata.
