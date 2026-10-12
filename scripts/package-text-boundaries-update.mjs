@@ -10,13 +10,28 @@ import {
 import { execFileSync } from 'node:child_process';
 import { dirname, join, resolve } from 'node:path';
 import { tmpdir } from 'node:os';
-import { installedV20Baseline, sha256 } from './installed-v20-baseline.mjs';
+import {
+  installedV20Baseline,
+  installedV21Baseline,
+  sha256,
+} from './installed-v20-baseline.mjs';
 import { separateHtmlText } from '../src/lib/html-text-boundaries.ts';
 
-const revision = '20261008-text-boundaries-v21';
-const archiveName = 'dentvitalis-text-boundaries-20261008-v21.zip';
+const navigationUpdate = process.argv.includes('--navigation-v22');
+const revision = navigationUpdate
+  ? '20261012-navigation-text-v22'
+  : '20261008-text-boundaries-v21';
+const archiveName = navigationUpdate
+  ? 'dentvitalis-navigation-text-20261012-v22.zip'
+  : 'dentvitalis-text-boundaries-20261008-v21.zip';
+const label = navigationUpdate ? 'V22' : 'V21';
+const datedScope = navigationUpdate
+  ? 'NAVIGACIJSKI RAZMACI, 12.10.2026.'
+  : 'RAZDVAJANJE HTML TEKSTA, 8.10.2026.';
 const archive = resolve('.astro/releases', archiveName);
-const { manifest, manifestBytes, read, receipt } = await installedV20Baseline();
+const { manifest, manifestBytes, read, receipt } = await (navigationUpdate
+  ? installedV21Baseline()
+  : installedV20Baseline());
 const normalize = (html) =>
   html.replace(
     /[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}/g,
@@ -26,6 +41,21 @@ const changes = [];
 for (const file of manifest.files.filter((f) => f.path.endsWith('.html'))) {
   const before = read(file.path).toString();
   const expected = separateHtmlText(before);
+  if (navigationUpdate) {
+    const navigationOnly = before
+      .replace(
+        /(<div class="dropdown-links"[^>]*>)([\s\S]*?)(<\/div>)/g,
+        (_all, start, items, end) =>
+          start +
+          items.replace(/^(?=<a\b)/, ' ').replace(/<\/a>(?!\s)/g, '</a> ') +
+          end,
+      )
+      .replace(/(<a class="nav-link"[^>]*>[\s\S]*?<\/a>)(?!\s)/g, '$1 ');
+    assert.ok(
+      expected === navigationOnly,
+      'Unexpected non-navigation whitespace: ' + file.path,
+    );
+  }
   const current = await readFile(join('dist', file.path), 'utf8');
   if (normalize(current) !== normalize(expected)) {
     const actual = normalize(current),
@@ -109,8 +139,9 @@ const nextManifest = {
   baseRevision: manifest.revision,
   basePatchSha256: receipt.sha256,
   acceptedBaseRevisions: [manifest.revision],
-  changeScope:
-    'Only ordinary HTML spaces at semantic block/line boundaries and known independent footer/sidebar/contact items. All content characters, attributes, scripts/styles, forms, JSON-LD and other assets/routing/XML/backend unchanged.',
+  changeScope: navigationUpdate
+    ? 'Only ordinary HTML spaces around independent dropdown and standalone navigation links in all five languages. Existing V21 spacing, all labels/URLs/attributes/scripts/styles/forms/schema/assets/backend/XML/routing preserved.'
+    : 'Only ordinary HTML spaces at semantic block/line boundaries and known independent footer/sidebar/contact items. All content characters, attributes, scripts/styles, forms, JSON-LD and other assets/routing/XML/backend unchanged.',
   fileCount: files.length,
   totalBytes: files.reduce((sum, file) => sum + file.bytes, 0),
   files,
@@ -150,29 +181,32 @@ assert.equal(
   '',
   'Commit reviewed source before packaging',
 );
-const stage = await mkdtemp(join(tmpdir(), 'dentvitalis-text-boundaries-v21-'));
+const stage = await mkdtemp(
+  join(tmpdir(), `dentvitalis-${label.toLowerCase()}-`),
+);
 for (const file of changes) {
   const path = join(stage, 'public_html', file.path);
   await mkdir(dirname(path), { recursive: true, mode: 0o755 });
   await writeFile(path, file.bytes, { mode: 0o644 });
 }
-const readme = `DENTVITALIS V21 — RAZDVAJANJE HTML TEKSTA, 8.10.2026.
+const readme = `DENTVITALIS ${label} — ${datedScope}
 Revision ${revision}; preduvjet aktivni ${manifest.revision}.
 Samo ${htmlChanged} HTML datoteke i manifest. Nema novih asseta.
-Dodani su obični razmaci na stvarnim granicama odlomaka, naslova, lista,
-br redaka te nezavisnih footer/sidebar/kontakt stavki. Inline riječi nisu razdvojene.
-Konačni build uspoređen sa svih 142 verificirana V20 HTML-a: svi znakovi
+${navigationUpdate ? 'Dodani su obični razmaci samo između nezavisnih navigacijskih linkova.\nSve postojeće V21 granice odlomaka, lista, redaka i kontakata ostaju iste.' : 'Dodani su obični razmaci na stvarnim granicama odlomaka, naslova, lista,\nbr redaka te nezavisnih footer/sidebar/kontakt stavki.'} Inline riječi nisu razdvojene.
+${navigationUpdate ? 'Dopuna V21: razmaci između nezavisnih dropdown stavki i glavnih nav linkova.\nNazivi usluga, ostali tekstovi, URL-ovi, struktura izbornika i ponašanje isti.\n' : ''}Konačni build uspoređen sa svih 142 verificirana ${navigationUpdate ? 'V21' : 'V20'} HTML-a: svi znakovi
 sadržaja/atributi/skripte/CSS/forme/schema nepromijenjeni. Nema data-nosnippet.
 Ne obećava se izgled Google isječka ni rok promjene; Google mora ponovo obići web.
 
 CPANEL AGENT — NE RADITI PUNI UPLOAD/RENAME ROOT-a
 1. Upload/Extract u NOVU privatnu release mapu:
-   /home2/dentvita/releases/20261008-text-boundaries-v21/
-   Provjeri ZIP SHA iz predaje, aktivni V20 i svježu kvotu. Raspakirani payload
+   /home2/dentvita/releases/${revision}/
+   Provjeri ZIP SHA iz predaje, aktivni ${navigationUpdate ? 'V21' : 'V20'} i svježu kvotu. Raspakirani payload
    ${publicPayloadBytes} B; potreban je i backup istih izvornika + rezerva.
-   Ako bilo što ne odgovara ili prostora nema, STANI, bez brisanja starih podataka.
+   Ostavi barem 10 MB rezerve nakon ZIP/extract/backupa. Ako se izvornici dodatno
+   kopiraju u displaced-originals, uračunaj i tu dodatnu kopiju. Ako prostora
+   ili početnih hashova nema, STANI; ne briši stare podatke radi instalacije.
 2. Novi privatni backup 0700:
-   /home2/dentvita/backups/public-before-text-boundaries-v21-20261008/
+   /home2/dentvita/backups/public-before-${revision}/
    Sačuvaj ISKLJUČIVO postojeće datoteke iz patch-manifest.json, iste relativne
    putanje. Provjeri svih ${changes.length} expectedBeforeSha256 i kopije prije zamjene.
 3. Zamijeni pojedinačne navedene HTML datoteke na istoimenim putanjama pod
@@ -185,13 +219,16 @@ CPANEL AGENT — NE RADITI PUNI UPLOAD/RENAME ROOT-a
 4. Svih ${changes.length} novih hashova mora odgovarati patch-manifestu.
    Javno provjeri /, /hr, /de, /en, /si: 200; između footer telefona, e-maila
    i radnog vremena postoje stvarni razmaci u textContent/HTML-u.
+   U svih pet jezika i sva tri dropdowna, textContent mora razdvajati nazive
+   susjednih stavki običnim razmakom. Provjeri glavni meni na mobitelu i
+   desktopu: otvaranje/strelicu, Enter, stvarni child link i povratak.
    Provjeri kontaktnu stranicu svih pet jezika, HR usluge i detalj, FAQ, cjenik,
    galeriju, testimonial s 13 videa/Lucillom Cecchini i 404. Desktop/mobitel:
    izgled i prelamanje isti; otvori/zatvori kontaktni popup, provjeri jezik.
-   Provjeri postojeće PHP stranice, GET /send i reprezentativne 301/410 iz V20.
+   Provjeri postojeće PHP stranice, GET /send i reprezentativne 301/410.
    Ne šalji forme ni WhatsApp, ne prikazuj tokene. Potvrdi revision ${revision}.
 5. Ako se pojavi regresija, sačuvaj nove datoteke u NOVU privatnu FAILED mapu
-   0700 i vrati samo popis iz backupa, manifest posljednji; ponovno provjeri stari V20.
+   0700 i vrati samo popis iz backupa, manifest posljednji; ponovno provjeri ${navigationUpdate ? 'V21' : 'V20'}.
 README.txt i patch-manifest.json ostaju IZVAN javnog weba. Prijavi stvarno
 provjereno, backup, SHA status i kvotu. Ne traži ponovni Google crawl prije prihvata.
 `;
@@ -237,7 +274,9 @@ const record = {
   onlyWhitespace: true,
 };
 await writeFile(
-  'data/seo/text-boundaries-v21-release-20261008.json',
+  navigationUpdate
+    ? 'data/seo/navigation-text-v22-release-20261012.json'
+    : 'data/seo/text-boundaries-v21-release-20261008.json',
   JSON.stringify(record, null, 2) + '\n',
 );
 console.log(JSON.stringify(record, null, 2));

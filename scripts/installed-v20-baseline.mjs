@@ -8,6 +8,7 @@ import v16 from '../data/seo/video-schema-v16-release-20261006.json' with { type
 import v18 from '../data/seo/contact-address-v18-release-20261007.json' with { type: 'json' };
 import v19 from '../data/seo/footer-address-v19-release-20261007.json' with { type: 'json' };
 import v20 from '../data/seo/testimonial-videos-v20-release-20261007.json' with { type: 'json' };
+import v21 from '../data/seo/text-boundaries-v21-release-20261008.json' with { type: 'json' };
 
 export const sha256 = (bytes) =>
   createHash('sha256').update(bytes).digest('hex');
@@ -47,4 +48,29 @@ export async function installedV20Baseline() {
   for (const file of manifest.files.filter((f) => f.path.endsWith('.html')))
     assert.equal(sha256(read(file.path)), file.sha256, file.path);
   return { manifest, manifestBytes, read, receipt: v20 };
+}
+
+// V21 contains every HTML baseline and the manifest; no chain reconstruction needed.
+export async function installedV21Baseline() {
+  const archive = resolve('.astro/releases', v21.archiveName);
+  assert.equal(sha256(await readFile(archive)), v21.sha256, v21.archiveName);
+  const cache = new Map();
+  const read = (path) => {
+    if (!cache.has(path))
+      cache.set(
+        path,
+        execFileSync('unzip', ['-p', archive, 'public_html/' + path], {
+          maxBuffer: 3 * 1024 * 1024,
+        }),
+      );
+    return cache.get(path);
+  };
+  const manifestBytes = read('release-manifest.json');
+  const manifest = JSON.parse(manifestBytes);
+  assert.equal(manifest.revision, v21.revision);
+  for (const file of manifest.files.filter((file) =>
+    file.path.endsWith('.html'),
+  ))
+    assert.equal(sha256(read(file.path)), file.sha256, file.path);
+  return { manifest, manifestBytes, read, receipt: v21 };
 }

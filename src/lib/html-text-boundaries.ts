@@ -135,6 +135,11 @@ export function separateHtmlText(html: string): string {
     const classes = /\bclass\s*=\s*(?:"([^"]*)"|'([^']*)')/i.exec(token);
     const classNames = (classes?.[1] ?? classes?.[2] ?? '').split(/\s+/);
     const footerLink = name === 'a' && stack.some((el) => el.name === 'footer');
+    const navigationItem =
+      name === 'a' &&
+      stack.some((el) => el.classes.includes('site-nav')) &&
+      (stack.at(-1)?.classes.includes('dropdown-links') ||
+        classNames.includes('nav-link'));
     const sidebarItem =
       classNames.includes('item') &&
       stack.some((el) => el.classes.includes('page-sidebar'));
@@ -146,6 +151,7 @@ export function separateHtmlText(html: string): string {
     const boundary =
       blocks.has(name) ||
       footerLink ||
+      navigationItem ||
       sidebarItem ||
       contactCell ||
       contentRow;

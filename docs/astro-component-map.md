@@ -208,6 +208,13 @@ ne mijenjaju se. Prikaz se provjerava usporedbom prije/poslije element rectova,
 ne pretpostavkom da razmaci ne utječu na layout.
 [Opseg i verifikacija](html-text-boundaries-20261008.md).
 
+V22 dopuna, 12. listopada: isti renderer razdvaja i nezavisne linkove
+u `.site-nav .dropdown-links` te glavne `.nav-link` stavke. Tri nav grupe
+u svih pet jezika koriste isto pravilo; unutarnji label spanovi, linkovi,
+stilovi i ponašanje izbornika ostaju isti. Geometrija se uspoređuje i
+za otvorene dropdownove, ne samo zatvoreni header.
+[Navigacijski prihvat](navigation-text-boundaries-20261012.md).
+
 Video nadogradnja V20, 7. listopada: deset vlasnički odobrenih novih YouTube
 ID-jeva mapira `testimonial-videos.ts` prije zajedničkog lokaliziranog
 prikaza. Samo nove kartice dobivaju SSR `data-embed-src` s caption/UI jezikom

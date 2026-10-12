@@ -1,5 +1,16 @@
 # Handoff — aktualni status i povijest
 
+## Najnovija dorada — navigacijski razmaci, 12. listopada 2026., V22
+
+V21 je instaliran prema vlasnikovom izvještaju, svih 143 hashova potvrđeno.
+Screenshot Google isječka otkrio je preostale spojene dropdown usluge;
+verificirani V21 HTML potvrđuje da navigacijski linkovi nisu bili obuhvaćeni.
+V22 dodaje samo njihove tekstualne razmake u svih pet jezika/sva tri dropdowna
+i samostalnim glavnim nav linkovima, bez sadržajnih/JS/CSS/backend promjena.
+Javni GET trenutačno vraća zaštitu, ne stvarni web; završni javni prihvat
+obavlja cPanel agent. Opseg, QA, ZIP i ograničenje prostora:
+[V22 evidencija](navigation-text-boundaries-20261012.md).
+
 ## Najnovija dorada — razdvajanje teksta, 8. listopada 2026., V21
 
 Prema vlasnikovu izvještaju V20 je instaliran: svih 50 video zamjena,

@@ -34,6 +34,17 @@ test('inline words, punctuation, qualifications and superscript are not split', 
     ),
   );
 });
+test('navigation dropdown items and standalone nav links are separated without splitting label spans', () => {
+  const html = body(
+    '<nav class="site-nav"><div class="dropdown-links"><a href="/one"><span class="line"></span><span class="link-label">Proteza sidrena na 4 implantata</span></a><a href="/two"><span>Fiksni most</span></a></div><a class="nav-link">FAQ</a><a class="nav-link">Galerija</a></nav><p><a>One</a>,<a>two</a>.</p>',
+  );
+  const result = separateHtmlText(html);
+  assert.match(result, /implantata<\/span><\/a>\s+<a/);
+  assert.match(result, /FAQ<\/a>\s+<a/);
+  assert.ok(result.includes('<a>One</a>,<a>two</a>.'));
+  assert.equal(separateHtmlText(result), result);
+  assert.equal(result.replace(/\s/g, ''), html.replace(/\s/g, ''));
+});
 test('all attributes, comments, code, styles, JSON-LD, forms and foreign markup stay byte-identical', () => {
   const protectedChunks = [
     '<script>const s="<p>x</p>";</script>',
