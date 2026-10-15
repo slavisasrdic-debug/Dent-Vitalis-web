@@ -10,6 +10,7 @@ import v19 from '../data/seo/footer-address-v19-release-20261007.json' with { ty
 import v20 from '../data/seo/testimonial-videos-v20-release-20261007.json' with { type: 'json' };
 import v21 from '../data/seo/text-boundaries-v21-release-20261008.json' with { type: 'json' };
 import v22 from '../data/seo/navigation-text-v22-release-20261012.json' with { type: 'json' };
+import v23 from '../data/seo/elfsight-loader-v23-release-20261015.json' with { type: 'json' };
 
 export const sha256 = (bytes) =>
   createHash('sha256').update(bytes).digest('hex');
@@ -100,4 +101,30 @@ export async function installedV22Baseline() {
   ))
     assert.equal(sha256(read(file.path)), file.sha256, file.path);
   return { manifest, manifestBytes, read, receipt: v22 };
+}
+
+export async function installedV23Baseline(suppliedBase) {
+  const base = suppliedBase ?? (await installedV22Baseline());
+  const archive = resolve('.astro/releases', v23.archiveName);
+  assert.equal(sha256(await readFile(archive)), v23.sha256, v23.archiveName);
+  const cache = new Map();
+  const read = (path) => {
+    if (!v23.publicFiles.includes(path)) return base.read(path);
+    if (!cache.has(path))
+      cache.set(
+        path,
+        execFileSync('unzip', ['-p', archive, 'public_html/' + path], {
+          maxBuffer: 3 * 1024 * 1024,
+        }),
+      );
+    return cache.get(path);
+  };
+  const manifestBytes = read('release-manifest.json'),
+    manifest = JSON.parse(manifestBytes);
+  assert.equal(manifest.revision, v23.revision);
+  for (const file of manifest.files.filter((file) =>
+    file.path.endsWith('.html'),
+  ))
+    assert.equal(sha256(read(file.path)), file.sha256, file.path);
+  return { manifest, manifestBytes, read, receipt: v23 };
 }

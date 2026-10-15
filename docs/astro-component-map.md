@@ -63,6 +63,19 @@ Postojeći usko ograničeni `LegacyChatGuard` ostaje kao zaštita od slučajnog
 ponovnog uključivanja umirovljenih Zendesk tagova; ne skriva Elfsight.
 CookieYes/GTM postavke ne mijenjamo niti obilazimo njihovo blokiranje SDK-a.
 
+**V24, 15. listopada:** `CookieConsentPosition.astro` dodaje jedan označeni
+inline CSS blok u zajednički head prije trackinga. Samo donja CookieYes
+revisit ikona (`.cky-btn-revisit-wrapper.cky-revisit-bottom-left/right`)
+dobiva bottom `80px + env(safe-area-inset-bottom)` do 991px, iznad postojeće
+mobilne trake 60px s razmakom 20px. Desktop, left/right, z-index, hide/show,
+privole, boje i preference centar ostaju pod kontrolom CookieYesa.
+Nema CMP loadera/novog JS-a ni dodatnog asset zahtjeva. CSS djeluje i na
+naknadno ubačen widget; preview ga nema zbog postojećeg host guarda.
+Stvarni public HR widget provjeren browser-only injekcijom istog CSS-a:
+bottom 8→80px, gap 20px, desktop 15px nepromijenjen, preference open/close radi.
+To nije produkcijska objava. V24 uključuje prethodno odobreno V23 uklanjanje
+izravnog Elfsight loadera i može krenuti s V22 ili V23 uz odgovarajuće hashove.
+
 Determinističke integracijske regresije `tests/whatsapp.spec.ts` namjerno
 blokiraju vanjski SDK i provjeravaju mapiranje, jedan root bez lokalnog loadera, uklanjanje
 native duplikata, neovisan kontaktni popup, jezik forme i no-JS fallback.

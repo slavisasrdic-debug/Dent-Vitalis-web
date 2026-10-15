@@ -1,5 +1,50 @@
 # Handoff — aktualni status i povijest
 
+## Najnovija dorada — CookieYes mobile ikona, 15. listopada 2026., V24
+
+Javni manifest i dalje potvrđuje V22. Korisnik je uz pripremljeni V23 zatražio
+podizanje CookieYes revisit ikone iznad mobilne kontaktne trake. Stvarni HR
+public DOM potvrđuje `.cky-btn-revisit-wrapper.cky-revisit-bottom-left`,
+ikonu 36px na bottom 8px i traku 60px. Preklapanje je reproducirano.
+CSS iz `CookieConsentPosition.astro` primijenjen je SAMO u vlastitom testnom
+public pregledniku: bottom 80px, ikona do y=764 i CTA od y=784 pri 390×844;
+razmak 20px. Desktop 1440px zadržava bottom 15px. Stvarni CookieYes preference
+centar ponovno otvoren/zatvoren nakon pomaka. U izoliranom profilu spremljene
+su samo nužne postavke, bez prihvaćanja opcionalnih kategorija; administracija
+CookieYesa/GTM-a nije uređivana. Web-forme i WhatsApp poruke nisu slane.
+
+Nova komponenta u shared head-u sadrži samo označeni inline CSS, bez novog
+asset zahtjeva, JS-a ili CMP instance. Media <=991px; donji lijevi/desni
+CookieYes launcher bottom calc(80px + safe area) !important. Ne dira display,
+z-index, left/right, veličinu, sadržaj, boje ili ponašanje privole. CTA ostaje isti.
+Osam Chromium provjera prolazi: pet jezičnih homeova, 390/991/992/1440px,
+naknadno ubačen real-class layout fixture, skrivanje ostaje učinkovito,
+klik i kontaktni popup/Escape rade, nema overflowa/pageerrora ni lokalnih POSTova.
+Fixture nije dokaz rada stvarnog SDK-a — zasebni public test iznad jest.
+Dodatna WebKit provjera prolazi: bottom 80px pri 390px, izvornih 8px pri
+992px na layout fixtureu; to nije tvrdnja o testu na fizičkom iPhoneu.
+Browser plugin nije dostupan; korišten postojeći Playwright. Public prije/poslije
+snimke u `/tmp/dv-cookie-revisit-before.png` i `...-after.png` vizualno pregledane.
+Build 142 stranice, Astro check 319 datoteka i ciljani lint prolaze.
+
+Paket `.astro/releases/dentvitalis-cookie-position-20261015-v24.zip` ZAMJENJUJE
+pripremljeni V23: uključuje njegovo odobreno uklanjanje izravnog platform.js
+taga. Ne vraćati ga radi chata; widget i dalje ovisi o drugom loaderu, ako postoji.
+Paket ima 141 HTML + manifest; 404 i svi asseti ostaju isti. Svih 142 production
+HTML-a uspoređeno s verificiranim V22/V23: samo novi označeni CSS blok i
+već odobreno uklanjanje Elfsight taga; ostali bajtovi/UUID-jevi sačuvani.
+Oba početna revisiona daju identičan finalni HTML. Podržani V22 ILI V23:
+agent MORA koristiti `expectedBeforeSha256ByRevision[aktivniRevision]` za sve
+izvornike, uključujući manifest. V22 default polje nije hash aktivnog V23.
+
+Generator `scripts/package-cookie-position-update.mjs`; receipt
+`data/seo/cookie-position-v24-release-20261015.json`. README propisuje novu
+privatnu backup mapu 0700, svih 142 izvornih/novih hashova, svježu kvotu,
+pojedinačne zamjene 0644 i manifest posljednji. Root 0750, bez rename-a ili
+zamjene cijelog `_pages`. Backend/PHP/CRM, asseti, XML, redirecti, GTM/CookieYes
+konfiguracija ne mijenjaju se. Povratak vraća stvarno početni V22 ili V23.
+Produkcija ovom razvojnom doradom nije izmijenjena; javni prihvat radi agent.
+
 ## Najnovija dorada — uklanjanje Elfsight loadera, 15. listopada 2026., V23
 
 Javni read-only manifest potvrđuje `20261012-navigation-text-v22`.

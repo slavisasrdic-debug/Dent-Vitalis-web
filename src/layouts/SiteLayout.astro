@@ -9,6 +9,7 @@ import Favicon from '../components/Favicon.astro';
 import FontStyles from '../components/FontStyles.astro';
 import TrackingBootstrap from '../components/TrackingBootstrap.astro';
 import LegacyChatGuard from '../components/LegacyChatGuard.astro';
+import CookieConsentPosition from '../components/CookieConsentPosition.astro';
 import type { PageSEO } from '../content/seo';
 import * as hr from '../content/hr/site';
 import * as sl from '../content/sl/site';
@@ -61,7 +62,7 @@ const copy = ui(lang);
       name="viewport"
       content="width=device-width, initial-scale=1"
     /><Favicon /><slot name="head" /><FontStyles /><RevealSetup
-    /><LegacyChatGuard /><TrackingBootstrap /><SEOHead
+    /><LegacyChatGuard /><CookieConsentPosition /><TrackingBootstrap /><SEOHead
       title={title}
       description={description}
       lang={lang}

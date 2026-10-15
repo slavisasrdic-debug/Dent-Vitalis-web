@@ -1,0 +1,10 @@
+<!-- Position only: CookieYes still owns visibility, consent state and dialog behavior. -->
+<style is:inline data-cookieyes-mobile-position>
+  @media screen and (max-width: 991px) {
+    html .cky-btn-revisit-wrapper.cky-revisit-bottom-left,
+    html .cky-btn-revisit-wrapper.cky-revisit-bottom-right {
+      /* Existing mobile contact bar: 60px; leave another 20px clear. */
+      bottom: calc(80px + env(safe-area-inset-bottom, 0px)) !important;
+    }
+  }
+</style>
