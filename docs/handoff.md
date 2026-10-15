@@ -1,5 +1,41 @@
 # Handoff — aktualni status i povijest
 
+## Najnovija dorada — uklanjanje Elfsight loadera, 15. listopada 2026., V23
+
+Javni read-only manifest potvrđuje `20261012-navigation-text-v22`.
+Vlasnik je izričito zatražio uklanjanje samo izravnog asinkronog
+`https://elfsightcdn.com/platform.js` taga iz svih jezičnih stranica,
+uz očuvanje widget divova/ID-jeva/lazy atributa i komentara. Jedna linija
+uklonjena je iz zajedničkog `ElfsightWhatsApp.astro`, bez zamjenskog loadera.
+No-JS izravni WhatsApp link, kontaktni popup, backend/CRM, GTM/CookieYes,
+asseti, XML/routing i ostali sadržaj nisu dio izmjene.
+
+Build 142 stranice, Astro check 316 datoteka i ciljani lint prolaze.
+Svih 16 postojećih ciljnih WhatsApp regresija prolazi: svih pet widget
+ID-jeva ostaje, nula lokalnih loader tagova/zahtjeva, nezavisni kontaktni
+popup/Escape na 1440/390px, no-JS direktni link i legacy guard očuvani.
+Nema pageerrora/neočekivanih konzolnih grešaka ni POST zahtjeva. Browser
+plugin nije dostupan; korišten postojeći Playwright. HR desktop/mobilne
+snimke u `/tmp/dv-elfsight-loader-v23-hr-*` vizualno su pregledane.
+`scripts/package-elfsight-loader-removal.mjs` uspoređuje svih 142 finalnih
+HTML-a s hash-verificiranim V22 bajtovima: samo jedan isti script tag manje
+na 141 stranici; 404 nepromijenjen, svi generirani asset hashovi isti.
+Paket gradi iz prethodnih verificiranih bajtova, pa čuva UUID-jeve i sve
+ostale znakove/markup/skripte. Nema novih javnih asseta ili biblioteka.
+Preview ostaje aktivan i noindex; produkcija ovim razvojnim radom nije mijenjana.
+
+Paket `.astro/releases/dentvitalis-elfsight-loader-removal-20261015-v23.zip`:
+141 HTML-a + manifest, očekivani stari/novi hashovi i privatni README.
+Receipt: `data/seo/elfsight-loader-v23-release-20261015.json`.
+Traži aktivni V22, svježu kvotu, backup 142 izvornika 0700, zamjenu samo
+navedenih datoteka 0644 i manifest posljednji; root ostaje 0750, bez renamea.
+README sadrži javne provjere i rollback samo tih izvornika.
+
+Važno: div sam ne pokreće chat. Drugi izvor platform skripte nije potvrđen
+ovom doradom i nije dodan. Ako GTM zasebno učitava loader, mrežni zahtjev
+može ostati iako ga izvorni HTML više nema. Ne gasiti tagove niti obećavati
+rad udaljenog widgeta bez drugog loadera. Forme/WhatsApp poruke ne slati.
+
 ## Najnovija dorada — navigacijski razmaci, 12. listopada 2026., V22
 
 V21 je instaliran prema vlasnikovom izvještaju, svih 143 hashova potvrđeno.

@@ -45,8 +45,12 @@ pet izričito dostavljenih ID-jeva. `ContactWidgets` zadržava samo postojeći
 mobilni kontaktni CTA i sastavlja `ElfsightWhatsApp`; uklonjen je native toggle,
 panel, njegov CSS i initializer, ne dodaje se drugi chat preko GTM-a.
 `ElfsightWhatsApp` u svakoj stranici ispisuje jedan `data-elfsight-app-lazy`
-root za aktivni `html lang` (slovenski `sl`, javna putanja `/si`) i jednu
-asinkronu `https://elfsightcdn.com/platform.js` skriptu. Bez JS-a ostaje izravni
+root za aktivni `html lang` (slovenski `sl`, javna putanja `/si`).
+**Dopuna vlasnika 15. listopada, V23:** izravna asinkrona
+`https://elfsightcdn.com/platform.js` skripta uklonjena je iz svih stranica,
+bez zamjenskog loadera. Divovi, ID-jevi, lazy atributi i komentari ostaju isti.
+Rad SDK-a sada ovisi o drugom izvoru loadera, ako postoji; ne pretpostavljati
+niti mijenjati GTM/CookieYes radi njegovog uključivanja. Bez JS-a ostaje izravni
 link na centralno potvrđeni broj, iznad mobilnog CTA-a. Ne mijenja se kontaktni
 obrazac, CRM/backend, tracking, URL-ovi, SEO ni redirekcije.
 
@@ -60,7 +64,7 @@ ponovnog uključivanja umirovljenih Zendesk tagova; ne skriva Elfsight.
 CookieYes/GTM postavke ne mijenjamo niti obilazimo njihovo blokiranje SDK-a.
 
 Determinističke integracijske regresije `tests/whatsapp.spec.ts` namjerno
-blokiraju vanjski SDK i provjeravaju mapiranje, jedan loader/root, uklanjanje
+blokiraju vanjski SDK i provjeravaju mapiranje, jedan root bez lokalnog loadera, uklanjanje
 native duplikata, neovisan kontaktni popup, jezik forme i no-JS fallback.
 Stvarni izgled/unos poruke zahtijevaju zasebnu browser provjeru živog SDK-a
 bez mockova. Donji povijesni opisi native panela više nisu aktivni ugovor.

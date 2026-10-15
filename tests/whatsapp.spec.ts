@@ -29,9 +29,18 @@ for (const [path, lang] of [
     page,
   }) => {
     const errors: string[] = [];
+    const consoleErrors: string[] = [];
     const platformRequests: string[] = [];
     const posts: string[] = [];
     page.on('pageerror', (error) => errors.push(error.message));
+    page.on('console', (message) => {
+      if (
+        message.type() === 'error' &&
+        !message.text().includes('net::ERR_FAILED')
+      )
+        consoleErrors.push(message.text());
+    });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
     page.on('request', (request) => {
       if (request.url() === 'https://elfsightcdn.com/platform.js')
         platformRequests.push(request.url());
@@ -51,7 +60,7 @@ for (const [path, lang] of [
     );
     await expect(
       page.locator('script[src="https://elfsightcdn.com/platform.js"]'),
-    ).toHaveCount(1);
+    ).toHaveCount(0);
     await expect(
       page.locator('.chat-toggle, .chat-panel, [data-chat-widget]'),
     ).toHaveCount(0);
@@ -60,6 +69,10 @@ for (const [path, lang] of [
     ).toHaveCount(0);
     for (const width of [1440, 390]) {
       await page.setViewportSize({ width, height: 844 });
+      if (path === '/hr')
+        await page.screenshot({
+          path: `/tmp/dv-elfsight-loader-v23-hr-${width}.png`,
+        });
       const trigger = page.locator(
         width <= 991
           ? '.mobile-contact [data-contact-trigger]'
@@ -76,8 +89,9 @@ for (const [path, lang] of [
         await page.evaluate(() => document.documentElement.scrollWidth),
       ).toBeLessThanOrEqual(width);
     }
-    expect(platformRequests).toHaveLength(1);
+    expect(platformRequests).toHaveLength(0);
     expect(errors).toEqual([]);
+    expect(consoleErrors).toEqual([]);
     expect(posts).toEqual([]);
   });
 }
