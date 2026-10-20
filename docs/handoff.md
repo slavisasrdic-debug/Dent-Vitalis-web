@@ -64,6 +64,18 @@ Predloženi opis: `Od prvog weba 2012. do novog nastupa na pet jezika: suradnja
 Enter Interneta i DentVitalisa u izradi weba i digitalnoj komunikaciji klinike.`
 Urednički nacrt traži korisnikov pregled prije objave na Enteru.
 
+Pripremljeni update, nije uploadan ni objavljen:
+`.astro/releases/dentvitalis-enter-credit-20261020-v26.zip`,
+revision `20261020-enter-credit-v26`, source commit `f78bdab`.
+ZIP 3.274.593 B, javni payload 13.779.997 B, 142 javne datoteke.
+SHA-256 `2604194a9b9108fe5c14fe4ab65e1cc3fa687d831a3a997521229c17c0c47074`.
+Receipt: `data/seo/website-credit-v26-release-20261020.json`.
+README propisuje V24 baseline, svih 142 početnih/backup i novih hashova,
+privatni backup `/home2/dentvita/backups/public-before-20261020-enter-credit-v26/`
+(0700), pojedinačne zamjene HTML-a (0644), manifest posljednji i root 0750
+bez rename-a. Backend/CRM, XML, routing, GTM i privole nisu u paketu.
+Korisnik je ponovno izričito potvrdio odredište članka: isključivo Enter Internet.
+
 ## Najnovija dorada — CookieYes mobile ikona, 15. listopada 2026., V24
 
 Javni manifest i dalje potvrđuje V22. Korisnik je uz pripremljeni V23 zatražio
