@@ -1,5 +1,20 @@
 # Handoff — aktualni status i povijest
 
+## V26 javna provjera widgeta i namjerni scroll 20. listopada 2026.
+
+cPanel agent prijavio je instalirani V26 i 142/142 produkcijskih/backup hashova.
+Javni manifest neovisno potvrđuje V26. Nakon zabrinutosti zbog nedostupnog
+widgeta javni browser test potvrđuje rad CookieYes bannera, revisit ikone i
+preference centra te WhatsApp nakon scrolla. Vlasnik je izričito potvrdio
+da je on-scroll učitavanje namjerno podešeno u plugin/GTM integraciji.
+Ne uklanjati lazy atribut ili mijenjati GTM/CookieYes radi neposrednog prikaza.
+Lokalni prijedlog takve izmjene povučen je prije objave; V27 paket nije izrađen.
+Runtime izvorni kod i testovi ostaju točno V26. Nije bilo produkcijskih izmjena,
+slanja formi ili poruka niti brisanja server backupa. Nalaz i razlika između
+stvarnog javnog stanja i browser-only eksperimenta su u
+`docs/public-widgets-audit-20261020.md`. Pri daljnjim prihvatima provjeriti
+stvarne widgete nakon potvrđenog okidača, a ne zahtijevati odmah vidljiv chat.
+
 ## Potpis Enter Internet i mobilni footer 20. listopada 2026. V26
 
 Korisnik je odobrio lokalizirani vidljivi potpis izrađivača, brendiranu
