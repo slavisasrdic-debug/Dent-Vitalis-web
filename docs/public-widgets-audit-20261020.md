@@ -37,6 +37,16 @@ Na čistom Chromium profilu, desktop 1440×1000:
   uz CookieYes, oba iznad kontaktnog CTA-a. Novi hladni reload ponovno može
   čekati predviđeni scroll. To je u skladu s naknadno potvrđenom namjerom.
 
+Završna provjera NEIZMIJENJENOG javnog HR weba, bez presretanja odgovora ili
+uklanjanja atributa, potvrđuje slijed SDK loaded → stvarni wheel/scroll →
+WhatsApp vidljiv → otvaranje s poljem poruke → zatvaranje na 1440×1000 i
+390×844 (oba HTTP 200). Ništa nije upisano niti poslano. Snimke
+`/tmp/dv-v26-confirmed-scroll-1440.png` i `...-390.png` vizualno su pregledane.
+Raniji brzi automatizirani scroll odmah nakon prihvaćanja privole završio je
+timeoutom čekanja gumba (30s); ponovljeni test čekao je učitavanje SDK-a i
+izveo stvarni mouse/wheel unos. Sam timeout prerano pokrenute automatizacije
+nije dokaz regresije niti razlog za promjenu namjerno postavljenog okidača.
+
 Elfsight renderira stvarni floating UI kroz otvoreni shadow DOM. Nulta visina
 izvornog embed diva nije dokaz nedostupnosti chata; provjera mora obuhvatiti
 vidljivi gumb i interakciju, ne samo div ili HTTP 200 platform.js skripte.

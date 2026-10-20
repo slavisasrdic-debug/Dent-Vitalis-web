@@ -14,6 +14,8 @@ slanja formi ili poruka niti brisanja server backupa. Nalaz i razlika između
 stvarnog javnog stanja i browser-only eksperimenta su u
 `docs/public-widgets-audit-20261020.md`. Pri daljnjim prihvatima provjeriti
 stvarne widgete nakon potvrđenog okidača, a ne zahtijevati odmah vidljiv chat.
+Završni neizmijenjeni javni HR test prolazi na 1440×1000 i 390×844:
+nakon učitanog SDK-a i scrolla, stvarni chat gumb i open/close rade, bez slanja.
 
 ## Potpis Enter Internet i mobilni footer 20. listopada 2026. V26
 
