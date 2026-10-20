@@ -1,0 +1,38 @@
+---
+import { websiteCredit, websiteProducer } from '../../data/website-credit';
+interface Props {
+  lang: string;
+}
+const { lang } = Astro.props;
+const { label } = websiteCredit(lang);
+---
+
+<p class="website-credit" data-website-credit>
+  {label}: <a href={websiteProducer.url} rel="nofollow"
+    >{websiteProducer.name}</a
+  >
+</p>
+<style is:inline data-website-credit-style>
+  .site-footer .website-credit {
+    margin: 8px 0 0;
+    color: #173c46;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .site-footer .website-credit a {
+    color: #045a72;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .site-footer .website-credit a:focus-visible {
+    outline: 2px solid #045a72;
+    outline-offset: 4px;
+  }
+  @media screen and (max-width: 991px) {
+    .site-footer {
+      /* Keep the footer end clear of the fixed contact bar, including landscape. */
+      padding-bottom: calc(160px + env(safe-area-inset-bottom, 0px));
+    }
+  }
+</style>

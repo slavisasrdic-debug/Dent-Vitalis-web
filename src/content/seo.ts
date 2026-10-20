@@ -7,6 +7,7 @@ import { videoPoster } from './background-videos';
 import { canonicalUrl, productionOrigin } from './seo-urls';
 import videoMetadata from '../../data/video-metadata.json';
 import { videoDescription, verifiedVideoDateTime } from './video-schema';
+import { websiteCredit, websiteProducer } from '../../data/website-credit';
 export const origin = productionOrigin;
 export const plain = (content: InlineContent[]): string =>
   content
@@ -106,6 +107,8 @@ export function graph(
       url: origin + '/',
       name: referenceBusiness.name,
       publisher: { '@id': dentistId },
+      creator: { '@id': websiteProducer.id },
+      creditText: websiteCredit(lang).text,
       inLanguage: ['it', 'hr', 'de', 'en', 'sl'],
     },
     {
@@ -202,5 +205,11 @@ export function graph(
       isPartOf: { '@id': pageId },
     });
   }
+  nodes.push({
+    '@type': 'Organization',
+    '@id': websiteProducer.id,
+    name: websiteProducer.name,
+    url: websiteProducer.url,
+  });
   return { '@context': 'https://schema.org', '@graph': nodes };
 }

@@ -1,5 +1,69 @@
 # Handoff — aktualni status i povijest
 
+## Potpis Enter Internet i mobilni footer 20. listopada 2026. V26
+
+Korisnik je odobrio lokalizirani vidljivi potpis izrađivača, brendiranu
+`nofollow` poveznicu i preciznu Schema.org atribuciju. Dodatno je prijavio
+da donji mobilni CTA prekriva završetak footera. Reprodukcija na 768/820/991px,
+visina 500px, pri potpunom skrolu: footer padding 0, potpis završava oko
+y=479, a CTA počinje na y=440. Na 390px već je postojalo 160px razmaka.
+`WebsiteCredit.astro` sada taj donji razmak uz safe-area primjenjuje do 991px;
+postojeći footer CSS, kontaktna traka, svi asseti i desktop ostaju isti.
+
+`data/website-credit.ts` je zajednički izvor UI potpisa i Schema.org podataka.
+`seo.ts` dodaje samo Organization s nazivom/URL-om/ID-jem Entera te
+WebSite.creator i creditText; publisher ostaje Dentist DentVitalis.
+Bez autorstva medicinskih tekstova, promjene schema usluga/ponuda/videa,
+meta authora, skrivenih promotivnih tekstova, novih XML/AI datoteka ili JS-a.
+Potpis ispod nepromijenjenog copyrighta je čitljiv bez JS-a, podcrtan i fokusabilan.
+
+Read-only javni manifest 20.10.2026. potvrđuje V24
+`20261015-cookie-position-v24`, commit `12ce667b13a550768efc0a48997defbd0aefbe32`.
+To je jedini podržani baseline za V26; povučeni V25 se ne instalira.
+Generator `scripts/package-website-credit-update.mjs` verificira V24 ZIP,
+svih 142 HTML-a uspoređuje s dopuštenom transformacijom i zadržava izvorne
+UUID-jeve. Jedini novi bajtovi su footer odlomak/inline CSS i schema atribucija.
+141 HTML + manifest; 404 i svi ostali manifest zapisi ostaju nepromijenjeni.
+Posebno se NE prepisuju XML i page-routes.json trenutnim build izvedenicama:
+deployed sitemap.xml je raniji puni sitemap, dok build ruta daje sitemap index;
+ova dorada ne mijenja njihovu strukturu, redoslijed ni bajtove na serveru.
+
+Build 142 stranice, Astro check 323 datoteke bez dijagnostike, ciljani ESLint
+i Prettier prolaze. Zajednički Playwright prolaz: 44 testa, dva workera,
+uključuje cijeli `croatian.spec.ts`, 15 testova potpisa/no-JS i osam V24
+CookieYes position regresija. Pet jezika na 390/1440, HR dodatno
+768/820/991/992; naslov/URL/H1, bez framework overlaya, app console/pageerrora,
+overflowa ili POST-a. Fokus i obična poveznica rade (odredište mockirano
+u no-JS klik testu), kontaktni popup/Escape radi. Ovo nije ponovno slanje
+upita/CRM test ni neovisna provjera živog Elfsight/CookieYes SDK-a.
+Browser plugin/skill nije dostupan; korišten postojeći Playwright, bez instalacija.
+Dodatno je stvarni produkcijski HTML iz `dist` (uz iste dist assete, presretnut
+samo u testnom browseru bez novog servera) provjeren u Chromiumu i WebKitu
+na 390×844, 820×390 landscape i 1440×900. Mobilni završetak potpisa ostaje
+oko 121px iznad kontaktne trake pri potpunom skrolu; bez overflowa ili
+pageerrora. Desktop footer padding ostaje 0. Šest provjera prolazi;
+Chromium snimke `/tmp/dv-enter-credit-static-{390,820,1440}.png` pregledane.
+To nije provjera na fizičkom iPhoneu niti tvrdnja o produkcijskoj objavi.
+
+Nacrt zamjenskog članka za Enter je zasebno u
+`docs/enter-dentvitalis-article-20261020.md`; NE ulazi u javni ZIP i nije objavljen.
+Pročitan postojeći HR članak
+https://www.enter-internet.com/uspjesne-price/dentvitalis i Enter naslovnica.
+Sačuvane povijesne činjenice: prvi web/oglašavanje 2012., poslovno rješenje
+2017., domaće/IT pa ostala EU tržišta i opseg dugogodišnje suradnje.
+Jedini citat je postojeća kratka Šimina izjava, označena kao ranije objavljena,
+ne kao nova ocjena redizajna. Stara tvrdnja o top 10 nije ponovljena bez
+aktualne potvrde. Novi dio opisuje provjerljive mogućnosti weba na pet jezika,
+usluge, galeriju, titlove i kontakt; nema tehnologija, implementacijskih i
+marketinških postupaka, izmišljenih brojki rasta, novih citata ni ranking jamstava.
+
+Za buduću zamjenu na Enteru zadržati postojeći URL članka i stvarni datum
+prve objave; datum ažuriranja unijeti tek pri objavi. Predloženi SEO naslov:
+`DentVitalis | Web i digitalna podrška klinici | Enter Internet`.
+Predloženi opis: `Od prvog weba 2012. do novog nastupa na pet jezika: suradnja
+Enter Interneta i DentVitalisa u izradi weba i digitalnoj komunikaciji klinike.`
+Urednički nacrt traži korisnikov pregled prije objave na Enteru.
+
 ## Najnovija dorada — CookieYes mobile ikona, 15. listopada 2026., V24
 
 Javni manifest i dalje potvrđuje V22. Korisnik je uz pripremljeni V23 zatražio

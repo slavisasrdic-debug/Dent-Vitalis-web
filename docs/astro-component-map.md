@@ -1,5 +1,24 @@
 # Astro komponente — 28 talijanskih i 27 hrvatskih stranica
 
+## Potpis izrađivača i mobilni završetak footera 20. listopada 2026.
+
+Vlasnik je odobrio lokalizirani potpis Enter Internet na svih pet jezika,
+brendirani `nofollow` link i atribuciju isključivo izrade weba. `data/website-credit.ts`
+centralizira naziv, URL, stabilni Organization ID i UI oznake. `WebsiteCredit.astro`
+dodaje jedan statički odlomak ispod nepromijenjenog copyrighta u `Footer`.
+Uski inline CSS ne dodaje JS/assete; potpis radi bez JS-a i ima jasan fokus.
+Isti blok proširuje postojeći donji razmak footera 160px sa 767 na 991px,
+uz safe-area: kontaktna traka ostaje fiksna i ne smije prekriti završetak.
+
+`seo.ts` dodaje samo `WebSite.creator`, odgovarajući `creditText` i jedan
+minimalni Organization zapis Entera. DentVitalis ostaje publisher;
+WebPage/Service/Offer/Person/FAQPage/VideoObject ne dobivaju Enter kao autora.
+XML, metapodaci medicinskog autorstva, privole, praćenje i forme ostaju netaknuti.
+Regresije: `tests/website-credit.spec.ts` (pet jezika, mobilno/desktop,
+HR 768/820/991/992, no-JS i klik, fokus, popup/Escape, JSON-LD), uz postojeći
+V24 CookieYes position test. Pakiranje uspoređuje svih 142 HTML-a s V24:
+samo footer dodatak i precizne schema promjene; bez novih ili promijenjenih asseta.
+
 ## Thank-you utility stranice — 1. listopada 2026.
 
 `ThankYouPage` zajednički prikazuje pet postojećih potvrda na točnim, slashless

@@ -2,6 +2,7 @@
 import type groups from '../content/footer-it.json';
 import { ui, homeHref } from '../content/ui';
 import BrandLogo from './BrandLogo.astro';
+import WebsiteCredit from './WebsiteCredit.astro';
 import { route as hrRoute, italianRoute } from '../content/hr/routes';
 import { route as deRoute } from '../content/de/routes';
 import { route as enRoute } from '../content/en/routes';
@@ -105,6 +106,7 @@ const socials = [
     </div><div class="divider"></div><p class="copyright">
       {business.copyright}
     </p>
+    <WebsiteCredit lang={lang} />
   </div>
 </footer>
 <style>
