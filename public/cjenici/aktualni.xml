@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cjenik>
+  <Trgovac>
+    <Naziv>Dentvitalis Fides d.o.o.</Naziv>
+    <OIB>39977041464</OIB>
+    <OblikProdajnogObjekta>DENTALNI CENTAR</OblikProdajnogObjekta>
+    <AdresaProdajnogObjekta>Krešimirova 60, 51000 Rijeka</AdresaProdajnogObjekta>
+    <OznakaProdajnogObjekta>1</OznakaProdajnogObjekta>
+    <BrojPohrane>1</BrojPohrane>
+    <VremenskaOznaka>2026-11-19T12:16:48+01:00</VremenskaOznaka>
+    <Valuta>EUR</Valuta>
+  </Trgovac>
+  <Proizvodi/>
+  <Usluge>
+    <Usluga>
+      <naziv>Premium paket “Definitivna proteza sidrena na 4 implantata”</naziv>
+      <maloprodajna_cijena>2990,00</maloprodajna_cijena>
+      <posebni_oblik_prodaje/>
+      <naziv_posebnog_oblika_prodaje/>
+      <bazna_cijena>2990,00</bazna_cijena>
+    </Usluga>
+    <Usluga>
+      <naziv>Premium paket “Fiksni most na implantatima” - OnX</naziv>
+      <maloprodajna_cijena>4990,00</maloprodajna_cijena>
+      <posebni_oblik_prodaje/>
+      <naziv_posebnog_oblika_prodaje/>
+      <bazna_cijena>4990,00</bazna_cijena>
+    </Usluga>
+    <Usluga>
+      <naziv>Premium paket „Kućno izbjeljivanje zuba“</naziv>
+      <maloprodajna_cijena>250,00</maloprodajna_cijena>
+      <posebni_oblik_prodaje/>
+      <naziv_posebnog_oblika_prodaje/>
+      <bazna_cijena>250,00</bazna_cijena>
+    </Usluga>
+    <Usluga>
+      <naziv>Estetska ljuskica (krunica dvočetvrtinska cirkon-keramička)</naziv>
+      <maloprodajna_cijena>420,00</maloprodajna_cijena>
+      <posebni_oblik_prodaje/>
+      <naziv_posebnog_oblika_prodaje/>
+      <bazna_cijena>420,00</bazna_cijena>
+    </Usluga>
+  </Usluge>
+</Cjenik>

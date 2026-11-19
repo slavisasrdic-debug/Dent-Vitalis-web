@@ -64,6 +64,13 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
   const pageLinks = new Map<string, string[]>();
   const titles = new Set<string>();
   const descriptions = new Set<string>();
+  const priceListPath = '/cjenici/aktualni.xml';
+  const priceList = await request.get(priceListPath);
+  expect(priceList.status()).toBe(200);
+  expect(priceList.headers()['content-type']).toMatch(/xml/);
+  expect(await priceList.body()).toEqual(
+    readFileSync(`public${priceListPath}`),
+  );
   for (const route of routes) {
     const response = await request.get(route.hr);
     expect(response.status(), route.hr).toBe(200);
@@ -104,6 +111,9 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
           links: [...doc.querySelectorAll('a[href]')]
             .filter((n) => !n.closest('.language-menu'))
             .map((n) => n.getAttribute('href')!),
+          priceListDownloads: [
+            ...doc.querySelectorAll('footer a[download]'),
+          ].map((n) => n.getAttribute('href')),
           imageAlts: [...doc.querySelectorAll('img')].map((n) =>
             n.getAttribute('alt'),
           ),
@@ -160,8 +170,14 @@ test('all approved Croatian copy survives SSR, with correct language/SEO/link ta
     expect(data.imageAlts.filter(Boolean).join(' '), route.hr).not.toMatch(
       /\b(?:prima|dopo|paziente|dentisti|Guarda|Valutazione)\b/i,
     );
+    expect(data.priceListDownloads, route.hr).toContain(priceListPath);
+    expect(
+      data.links.filter((href) => href === priceListPath),
+      route.hr,
+    ).toHaveLength(1);
     for (const href of data.links.filter(
-      (h) => h.startsWith('/') && !h.startsWith('/assets/'),
+      (h) =>
+        h.startsWith('/') && !h.startsWith('/assets/') && h !== priceListPath,
     )) {
       const path = href.split('#')[0]!;
       expect(

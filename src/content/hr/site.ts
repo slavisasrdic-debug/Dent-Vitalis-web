@@ -137,6 +137,15 @@ export const footerGroups = [
     ...legalNavigation,
     href: '',
     legal: true,
+    links: [
+      ...legalNavigation.links,
+      {
+        label: 'Cjenik usluga i bazne cijene (XML)',
+        href: '/cjenici/aktualni.xml',
+        download:
+          '39977041464_DENTALNI_CENTAR_KRESIMIROVA_60_51000_RIJEKA_1_USLUGE_1_20261119_1216.xml',
+      },
+    ],
   },
 ];
 export const clinic = {

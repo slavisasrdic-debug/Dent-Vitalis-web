@@ -18,7 +18,9 @@ interface Props {
     bookingHours: string;
     copyright: string;
   };
-  groups: typeof groups;
+  groups: (Omit<(typeof groups)[number], 'links'> & {
+    links: { label: string; href: string; download?: string }[];
+  })[];
   lang?: string;
 }
 const { business, groups: sections, lang = 'it' } = Astro.props;
@@ -59,7 +61,9 @@ const socials = [
                 )}
               </h2>
               {group.links.map((link) => (
-                <a href={link.href}>{link.label}</a>
+                <a href={link.href} download={link.download}>
+                  {link.label}
+                </a>
               ))}
             </nav>
           ))
