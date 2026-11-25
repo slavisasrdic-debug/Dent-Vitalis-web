@@ -19,6 +19,10 @@ const format = new Intl.NumberFormat('hr-HR', {
   trailingZeroDisplay: 'stripIfInteger',
 });
 
+export function keepEuroWithAmount(price: string): string {
+  return price.replace(/(\d)[ \t]+€/g, '$1\u00a0€');
+}
+
 function basePrice(name: string, label = 'Bazna cijena'): string {
   const matches = entries.filter((entry) => entry.name === name);
   if (matches.length !== 1 || !matches[0]?.amount)

@@ -29,6 +29,7 @@ import { emphasizePaymentCardEligibility } from '../payment-card-highlight';
 import {
   bridgeBasePrice,
   dentureBasePrice,
+  keepEuroWithAmount,
   veneerBasePrice,
   whiteningBasePrice,
 } from './base-prices';
@@ -124,9 +125,10 @@ function packageSidebar(
   items: number[],
   basePrice?: string,
 ): PageSidebar {
+  const title = t(table, 0, price);
   return {
     type: 'package',
-    title: t(table, 0, price),
+    title: basePrice ? keepEuroWithAmount(title) : title,
     ...(basePrice ? { basePrice } : {}),
     secondary: '',
     introduction: t(table, 0, intro),
@@ -141,6 +143,20 @@ function packageSidebar(
       smallLabelSpan: 1,
     })),
   };
+}
+function priceParagraph(id: string, variant: string, basePrice?: string) {
+  const paragraph = p(id, variant);
+  return basePrice
+    ? {
+        ...paragraph,
+        content: paragraph.content.map((part) =>
+          part.kind === 'text'
+            ? { ...part, text: keepEuroWithAmount(part.text) }
+            : part,
+        ),
+        basePrice,
+      }
+    : paragraph;
 }
 function section(table: number, rowIndex: number, selection: string) {
   return group(row(table, rowIndex, selection));
@@ -199,7 +215,7 @@ const crown = add('crowns-veneers-bridges', t(5, 0, 4), t(5, 0, 6), [
   section(5, 3, 'h:0 $:2 h3:4 6 h3:8 10 12'),
   group([
     h(ref(5, 4, 0)),
-    { ...p(ref(5, 4, 2), 'price'), basePrice: veneerBasePrice },
+    priceParagraph(ref(5, 4, 2), 'price', veneerBasePrice),
     ...row(5, 4, '4 6 8 10 h3:12 b:14 b:15 b:16 b:17'),
   ]),
   section(5, 5, 'h:0 h3:2 3 h3:5 6 h3:8 9 h3:11 12'),
@@ -326,10 +342,7 @@ function priceCard(
         variant: 'check',
       }))
     : [heading];
-  const price = {
-    ...p(ref(19, r, amount), 'price-list'),
-    ...(basePrice ? { basePrice } : {}),
-  };
+  const price = priceParagraph(ref(19, r, amount), 'price-list', basePrice);
   return group(
     [
       ...(items.length ? [heading] : []),
@@ -433,6 +446,7 @@ for (const id of ['services', 'about', 'information']) {
       (c) => c.href === target.proposed_hr_path,
     );
     const basePrice = serviceBasePrices.get(target.page_id);
+    const price = homeCard?.price ?? '';
     return [
       {
         ...card,
@@ -440,7 +454,7 @@ for (const id of ['services', 'about', 'information']) {
         href: target.proposed_hr_path,
         eyebrow: homeCard?.eyebrow ?? '',
         description: homeCard?.description ?? detail.description,
-        price: homeCard?.price ?? '',
+        price: basePrice ? keepEuroWithAmount(price) : price,
         ...(basePrice ? { basePrice } : {}),
         desktop: { ...card.desktop, alt: alt(card.desktop.image) },
         mobile: { ...card.mobile, alt: alt(card.mobile.image) },
