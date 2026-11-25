@@ -144,19 +144,20 @@ function packageSidebar(
     })),
   };
 }
-function priceParagraph(id: string, variant: string, basePrice?: string) {
+type PriceOptions = { basePrice?: string; keepEuroTogether?: boolean };
+
+function priceParagraph(id: string, variant: string, options?: PriceOptions) {
   const paragraph = p(id, variant);
-  return basePrice
-    ? {
-        ...paragraph,
-        content: paragraph.content.map((part) =>
-          part.kind === 'text'
-            ? { ...part, text: keepEuroWithAmount(part.text) }
-            : part,
-        ),
-        basePrice,
-      }
-    : paragraph;
+  if (!options?.basePrice && !options?.keepEuroTogether) return paragraph;
+  return {
+    ...paragraph,
+    content: paragraph.content.map((part) =>
+      part.kind === 'text'
+        ? { ...part, text: keepEuroWithAmount(part.text) }
+        : part,
+    ),
+    ...(options.basePrice ? { basePrice: options.basePrice } : {}),
+  };
 }
 function section(table: number, rowIndex: number, selection: string) {
   return group(row(table, rowIndex, selection));
@@ -215,7 +216,7 @@ const crown = add('crowns-veneers-bridges', t(5, 0, 4), t(5, 0, 6), [
   section(5, 3, 'h:0 $:2 h3:4 6 h3:8 10 12'),
   group([
     h(ref(5, 4, 0)),
-    priceParagraph(ref(5, 4, 2), 'price', veneerBasePrice),
+    priceParagraph(ref(5, 4, 2), 'price', { basePrice: veneerBasePrice }),
     ...row(5, 4, '4 6 8 10 h3:12 b:14 b:15 b:16 b:17'),
   ]),
   section(5, 5, 'h:0 h3:2 3 h3:5 6 h3:8 9 h3:11 12'),
@@ -327,7 +328,7 @@ function priceCard(
   title: number,
   items: number[],
   amount: number,
-  basePrice?: string,
+  priceOptions?: PriceOptions,
 ): ContentBlock {
   const heading = {
     ...h(ref(19, r, title)),
@@ -342,7 +343,7 @@ function priceCard(
         variant: 'check',
       }))
     : [heading];
-  const price = priceParagraph(ref(19, r, amount), 'price-list', basePrice);
+  const price = priceParagraph(ref(19, r, amount), 'price-list', priceOptions);
   return group(
     [
       ...(items.length ? [heading] : []),
@@ -361,13 +362,19 @@ function priceCard(
 }
 const prices = add('prices', labels.prices, t(19, 0, 0), [
   priceCard(2, 0, [2, 3, 4, 5, 6, 7, 8], 10),
-  priceCard(3, 0, [2, 3, 4, 5, 6, 7, 8, 9], 11, dentureBasePrice),
-  priceCard(4, 1, [3, 4, 5, 6, 7, 8, 9], 11, bridgeBasePrice),
-  priceCard(5, 0, [2, 4, 6, 8, 10, 12], 14, whiteningBasePrice),
+  priceCard(3, 0, [2, 3, 4, 5, 6, 7, 8, 9], 11, {
+    basePrice: dentureBasePrice,
+  }),
+  priceCard(4, 1, [3, 4, 5, 6, 7, 8, 9], 11, {
+    basePrice: bridgeBasePrice,
+  }),
+  priceCard(5, 0, [2, 4, 6, 8, 10, 12], 14, {
+    basePrice: whiteningBasePrice,
+  }),
   priceCard(6, 0, [], 1),
   priceCard(7, 0, [], 2),
   priceCard(8, 0, [], 2),
-  priceCard(9, 0, [], 2, veneerBasePrice),
+  priceCard(9, 0, [], 2, { keepEuroTogether: true }),
 ]);
 prices.hero.photo = {
   image: 'DV-cjenik-hr.webp',
