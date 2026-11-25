@@ -9,6 +9,7 @@ export interface TeaserCardData {
   description: string;
   eyebrow?: string;
   price?: string;
+  basePrice?: string;
   priceInset?: boolean;
   copyLayout?: 'stack' | 'flow';
   desktopImage: ImageKey;

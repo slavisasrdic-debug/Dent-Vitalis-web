@@ -10,6 +10,7 @@ import MapPanel from './MapPanel.astro';
 import ContactRow from './ContactRow.astro';
 import ReviewSource from './ReviewSource.astro';
 import PaymentCode from './PaymentCode.astro';
+import BasePrice from './BasePrice.astro';
 interface Props {
   blocks: ContentBlock[];
   lang?: string;
@@ -62,6 +63,7 @@ const { blocks, lang = 'it', eagerVideoId, eagerImage } = Astro.props;
       return (
         <p id={block.id} class:list={['content-paragraph', block.variant]}>
           <InlineContent content={block.content} />
+          {block.basePrice && <BasePrice text={block.basePrice} />}
         </p>
       );
     if (block.type === 'heading') {

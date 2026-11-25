@@ -1,6 +1,7 @@
 ---
 import type { TeaserCardData } from '../content/home';
 import type { RevealMedia } from '../scripts/reveal';
+import BasePrice from './BasePrice.astro';
 interface Props {
   card: Pick<
     TeaserCardData,
@@ -9,6 +10,7 @@ interface Props {
     | 'eyebrow'
     | 'description'
     | 'price'
+    | 'basePrice'
     | 'priceInset'
     | 'copyLayout'
     | 'showArrow'
@@ -59,6 +61,7 @@ const hasBottomContent = Boolean(
             ]}
           >
             {card.price}
+            {card.basePrice && <BasePrice text={card.basePrice} />}
           </p>
         )}
         {variant === 'about' && <p class="description">{card.description}</p>}

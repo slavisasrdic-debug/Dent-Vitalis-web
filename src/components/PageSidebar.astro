@@ -2,6 +2,7 @@
 import type { PageSidebar } from '../content/inner-pages';
 import Icon from './Icon.astro';
 import MapPanel from './MapPanel.astro';
+import BasePrice from './BasePrice.astro';
 interface Props {
   id: string;
   content: PageSidebar;
@@ -26,6 +27,8 @@ const { content, current, variant = 'standard' } = Astro.props;
 >
   <div class="sidebar-heading">
     <h2>{content.title}</h2>{
+      content.basePrice && <BasePrice text={content.basePrice} />
+    }{
       content.secondary && (
         <a class="secondary" href="#prednost">
           <span>{content.secondary}</span>

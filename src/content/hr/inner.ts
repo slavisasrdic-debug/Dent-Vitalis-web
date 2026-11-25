@@ -26,6 +26,18 @@ import { labelParkingLinks } from '../parking-link-labels';
 import { linkDoctorResearch } from '../doctor-research';
 import { linkFirstVisitFaq } from '../faq-first-visit-link';
 import { emphasizePaymentCardEligibility } from '../payment-card-highlight';
+import {
+  bridgeBasePrice,
+  dentureBasePrice,
+  veneerBasePrice,
+  whiteningBasePrice,
+} from './base-prices';
+
+const serviceBasePrices = new Map([
+  ['four-implant-denture', dentureBasePrice],
+  ['fixed-implant-bridge', bridgeBasePrice],
+  ['whitening', whiteningBasePrice],
+]);
 
 function base(id: string, title: string, description: string): InnerPage {
   const original = italianPages.find((p) => p.route === italianRoute(id))!;
@@ -110,10 +122,12 @@ function packageSidebar(
   price: number,
   intro: number,
   items: number[],
+  basePrice?: string,
 ): PageSidebar {
   return {
     type: 'package',
     title: t(table, 0, price),
+    ...(basePrice ? { basePrice } : {}),
     secondary: '',
     introduction: t(table, 0, intro),
     mobilePlacement: 'before',
@@ -140,7 +154,13 @@ const denture = add('four-implant-denture', t(2, 0, 2), t(2, 0, 4), [
   ),
 ]);
 denture.hero.eyebrow = t(2, 0, 1);
-denture.sidebar = packageSidebar(2, 6, 9, [11, 12, 13, 14, 15, 16, 17, 18]);
+denture.sidebar = packageSidebar(
+  2,
+  6,
+  9,
+  [11, 12, 13, 14, 15, 16, 17, 18],
+  dentureBasePrice,
+);
 const bridge = add('fixed-implant-bridge', t(1, 3, 3), t(1, 3, 5), [
   ...row(3, 0, '19 21 h:23 b:25 b:26 b:27 b:28 b:29 31'),
   ...row(3, 1, 'h:0'),
@@ -149,7 +169,13 @@ const bridge = add('fixed-implant-bridge', t(1, 3, 3), t(1, 3, 5), [
   ),
 ]);
 bridge.hero.eyebrow = t(3, 0, 0);
-bridge.sidebar = packageSidebar(3, 6, 8, [10, 11, 12, 13, 14, 15, 16]);
+bridge.sidebar = packageSidebar(
+  3,
+  6,
+  8,
+  [10, 11, 12, 13, 14, 15, 16],
+  bridgeBasePrice,
+);
 const whitening = add('whitening', t(4, 0, 3), t(4, 0, 5), [
   ...row(4, 0, '16 18 20 22'),
   ...row(4, 1, 'h:0'),
@@ -159,13 +185,23 @@ const whitening = add('whitening', t(4, 0, 3), t(4, 0, 5), [
   section(4, 2, '0 h:2 $:4 6 8 10'),
 ]);
 whitening.hero.eyebrow = t(4, 0, 1);
-whitening.sidebar = packageSidebar(4, 6, 8, [10, 11, 12, 13, 14]);
+whitening.sidebar = packageSidebar(
+  4,
+  6,
+  8,
+  [10, 11, 12, 13, 14],
+  whiteningBasePrice,
+);
 const crown = add('crowns-veneers-bridges', t(5, 0, 4), t(5, 0, 6), [
   ...row(5, 0, '19'),
   section(5, 1, 'h:0 $:1 3 5 7 9 11'),
   section(5, 2, 'h:0 2 4 6'),
   section(5, 3, 'h:0 $:2 h3:4 6 h3:8 10 12'),
-  section(5, 4, 'h:0 $:2 4 6 8 10 h3:12 b:14 b:15 b:16 b:17'),
+  group([
+    h(ref(5, 4, 0)),
+    { ...p(ref(5, 4, 2), 'price'), basePrice: veneerBasePrice },
+    ...row(5, 4, '4 6 8 10 h3:12 b:14 b:15 b:16 b:17'),
+  ]),
   section(5, 5, 'h:0 h3:2 3 h3:5 6 h3:8 9 h3:11 12'),
 ]);
 crown.hero.eyebrow = t(5, 0, 2);
@@ -275,6 +311,7 @@ function priceCard(
   title: number,
   items: number[],
   amount: number,
+  basePrice?: string,
 ): ContentBlock {
   const heading = {
     ...h(ref(19, r, title)),
@@ -289,6 +326,10 @@ function priceCard(
         variant: 'check',
       }))
     : [heading];
+  const price = {
+    ...p(ref(19, r, amount), 'price-list'),
+    ...(basePrice ? { basePrice } : {}),
+  };
   return group(
     [
       ...(items.length ? [heading] : []),
@@ -296,10 +337,7 @@ function priceCard(
         group(
           [
             group(left, 'price-cell'),
-            group(
-              [group([p(ref(19, r, amount), 'price-list')], 'price-amount')],
-              'price-cell',
-            ),
+            group([group([price], 'price-amount')], 'price-cell'),
           ],
           items.length ? 'price-row' : 'price-row-borderless',
         ),
@@ -310,13 +348,13 @@ function priceCard(
 }
 const prices = add('prices', labels.prices, t(19, 0, 0), [
   priceCard(2, 0, [2, 3, 4, 5, 6, 7, 8], 10),
-  priceCard(3, 0, [2, 3, 4, 5, 6, 7, 8, 9], 11),
-  priceCard(4, 1, [3, 4, 5, 6, 7, 8, 9], 11),
-  priceCard(5, 0, [2, 4, 6, 8, 10, 12], 14),
+  priceCard(3, 0, [2, 3, 4, 5, 6, 7, 8, 9], 11, dentureBasePrice),
+  priceCard(4, 1, [3, 4, 5, 6, 7, 8, 9], 11, bridgeBasePrice),
+  priceCard(5, 0, [2, 4, 6, 8, 10, 12], 14, whiteningBasePrice),
   priceCard(6, 0, [], 1),
   priceCard(7, 0, [], 2),
   priceCard(8, 0, [], 2),
-  priceCard(9, 0, [], 2),
+  priceCard(9, 0, [], 2, veneerBasePrice),
 ]);
 prices.hero.photo = {
   image: 'DV-cjenik-hr.webp',
@@ -394,6 +432,7 @@ for (const id of ['services', 'about', 'information']) {
     const homeCard = [...services, ...aboutCards].find(
       (c) => c.href === target.proposed_hr_path,
     );
+    const basePrice = serviceBasePrices.get(target.page_id);
     return [
       {
         ...card,
@@ -402,6 +441,7 @@ for (const id of ['services', 'about', 'information']) {
         eyebrow: homeCard?.eyebrow ?? '',
         description: homeCard?.description ?? detail.description,
         price: homeCard?.price ?? '',
+        ...(basePrice ? { basePrice } : {}),
         desktop: { ...card.desktop, alt: alt(card.desktop.image) },
         mobile: { ...card.mobile, alt: alt(card.mobile.image) },
       },
@@ -429,6 +469,9 @@ for (const page of pages) {
             eyebrow: translated.eyebrow ?? '',
             description: translated.description,
             price: translated.price ?? '',
+            ...(translated.basePrice
+              ? { basePrice: translated.basePrice }
+              : {}),
           },
         ]
       : [];

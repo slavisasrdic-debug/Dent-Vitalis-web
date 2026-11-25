@@ -90,7 +90,10 @@ export const inline = (value: string): InlineContent[] =>
       parts.push({ kind: 'text', text: line.slice(offset) });
     return parts;
   });
-export const p = (id: string, variant = 'body'): ContentBlock => ({
+export const p = (
+  id: string,
+  variant = 'body',
+): Extract<ContentBlock, { type: 'paragraph' }> => ({
   type: 'paragraph',
   content:
     id === 't8.r2.c1.p10'

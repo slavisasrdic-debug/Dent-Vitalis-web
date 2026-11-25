@@ -31,6 +31,7 @@ export interface PageCard {
   eyebrow: string;
   description: string;
   price: string;
+  basePrice?: string;
   copyLayout: 'stack' | 'flow';
   priceInset: boolean;
 }
@@ -50,7 +51,12 @@ export type ContentBlock = { id?: string } & (
       items: ContentBlock[][];
     }
   | { type: 'contact-row'; cells: InlineContent[][]; border: boolean }
-  | { type: 'paragraph'; content: InlineContent[]; variant: string }
+  | {
+      type: 'paragraph';
+      content: InlineContent[];
+      variant: string;
+      basePrice?: string;
+    }
   | {
       type: 'heading';
       content: InlineContent[];
@@ -94,6 +100,7 @@ export interface PageSidebar {
   type: 'package' | 'navigation';
   title: string;
   secondary: string;
+  basePrice?: string;
   introduction: string;
   items: {
     label: string;
